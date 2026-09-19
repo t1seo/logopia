@@ -1,0 +1,22 @@
+{
+  "id": "09-fern",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-76a8fc98-0bdc-45c4-8adc-968eabda17ce.png",
+  "image": "images/09-fern.png",
+  "sha256": "dfec8209868fa3cf4c28904c2ec437dbae646768e9578fb5a5fde7f223aabf6f",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "2612f689908582b19db7933a4a43ef05af8a9dc8031ff6878b13a4abde7cbe1e",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:18:31.344818+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

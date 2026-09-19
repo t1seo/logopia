@@ -1,0 +1,14 @@
+{
+  "central_idea_and_construction": "A distinctive filled weather pictogram, built as one compact interlocking silhouette. A low, wide periwinkle cloud has one tall round shoulder on the left and a long gently rising right tip. Its upper-right edge cups a broad apricot half-sun so the sun and cloud join cleanly without a thin white seam. The sun is not a circle with rays; its exposed top is a flattened soft arc tilted very slightly upward. Cloud and sun occupy balanced large areas, with a small deep white inlet beneath the left shoulder adding identity. Confident organic curves of a coherent family, flat color only. Centered 73% width, 59% height. No stock outline icon, detached rays, extra droplets, gradient, shadow or inset tile.",
+  "color_roles": [
+    "muted periwinkle cloud",
+    "apricot sun"
+  ],
+  "background_role": "plain white negative space; no inset outer tile",
+  "material": "flat ink / pixel clusters; no material rendering",
+  "small_size_signature": "High left shoulder and the joined apricot sunrise arc.",
+  "specific_risk": "A cloud/sun is familiar; distinct proportions need to survive downscaling.",
+  "reference_transfer": "Negative user screenshots analyzed as text: avoid severed slabs and nested squared Ls; no positive visual reference or borrowed signature.",
+  "structural_difference": "soft weather pictogram",
+  "observations": "Recorded separately after viewing actual output."
+}

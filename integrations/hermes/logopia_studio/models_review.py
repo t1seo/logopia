@@ -20,6 +20,7 @@ from .models_base import (
     Text,
 )
 from .models_brief import StudioBrief
+from .models_references import DesignSpecification
 
 
 class GeneratedImage(FrozenModel):
@@ -71,6 +72,8 @@ class ReviewInput(FrozenModel):
     parent_path: Path | None
     keep: Annotated[tuple[Text, ...], Field(max_length=20)]
     change: Note
+    design_spec: DesignSpecification | None = None
+    changed_variables: Annotated[tuple[Text, ...], Field(max_length=6)] = ()
 
 
 class FeedbackEnvelope(FrozenModel):

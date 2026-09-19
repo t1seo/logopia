@@ -1,0 +1,29 @@
+{
+  "mode": "text",
+  "capability": "codex_native",
+  "references": [
+    {
+      "reference_id": "notboring-timer-current-store",
+      "image_sha256": "b09f1414314f40fd2eb0fc6d9c8ea2e6f888eb2966544a3f681324530553829d",
+      "role": "positive",
+      "observations": [
+        "One white tapered needle and a round hub sit on a large charcoal disc without numerals.",
+        "Faceted lighting and a dark contact shadow give the needle depth; a pale disc shadow sits against the light tile."
+      ],
+      "transfer": [
+        "Use one coherent object with an explicit lighting direction.",
+        "Preserve foreground contrast and silhouette when fine surface details shrink."
+      ],
+      "avoid": [
+        "Do not copy the exact charcoal dial, white needle or their proportions.",
+        "Do not add dramatic showcase lighting or unrelated UI details."
+      ],
+      "inspected_by": "Codex research agent using view_image",
+      "inspected_on": "2026-09-19",
+      "roi": null,
+      "source_url": "https://apps.apple.com/us/app/not-a-boring-timer/id1531048091",
+      "selection_origin": "automatic",
+      "rights_status": "unknown"
+    }
+  ]
+}

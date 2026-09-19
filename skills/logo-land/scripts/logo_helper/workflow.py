@@ -8,6 +8,7 @@ from typing import TYPE_CHECKING
 
 from pydantic import ValidationError
 
+from logo_helper.asset_policy import icon_import_background
 from logo_helper.images import inspect_png
 from logo_helper.import_reports import initial_report
 from logo_helper.intent import resolve_intent
@@ -75,13 +76,16 @@ def import_image(
         if any(item.id == artifact_id for item in state.artifacts):
             raise ProjectError("conflict", f"Artifact {artifact_id} already exists")
         intent = resolve_intent(state, parent_id, palette_id, lockup, app_icon)
-        if intent.app_icon is not None and background == "transparent":
-            raise ProjectError(
-                "intent_conflict", "App icon imports require an opaque background request"
-            )
         requested_background = background if background is not None else state.brief.background
         if intent.app_icon is not None:
-            requested_background = "opaque"
+            inherited_background = (
+                state.artifact(parent_id).effective_background(state.brief)
+                if parent_id is not None
+                else state.brief.background
+            )
+            requested_background = icon_import_background(
+                intent.app_icon, background, inherited_background
+            )
         artifact = Artifact(
             id=artifact_id,
             path=f"artifacts/{artifact_id}.png",

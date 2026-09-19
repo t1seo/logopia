@@ -113,9 +113,14 @@ def _produced(state: Workflow) -> bool:
     return (
         state.phase in {"awaiting_choice", "ready", "delivered"}
         and state.strategy is not None
-        and len(state.directions) == state.brief.effective_count
+        and len(state.directions) == state.brief.effective_direction_count
         and len(originals) == state.brief.effective_count
-        and {c.direction_id for c in originals} == {d.id for d in state.directions}
+        and {(c.direction_id, c.candidate_slot) for c in originals}
+        == {
+            (d.id, slot)
+            for d in state.directions
+            for slot in range(1, state.brief.candidates_per_direction + 1)
+        }
         and all(
             {review.role for review in c.critiques} == {"design", "production"} for c in originals
         )

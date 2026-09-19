@@ -1,0 +1,14 @@
+{
+  "id": "00-offcut-editorial",
+  "reviewer": "assistant visual inspection",
+  "review_kind": "descriptive observation; no separate model review call",
+  "evidence": "native tool returned original viewed at1254×1254",
+  "observed_features": "Six readable rose serif capitals; broad O/C bowls, curled C terminal and flared F/T feet. No separate slab symbol remains.",
+  "limitations": "Horizontal hairlines are thinner than requested. The F/F spacing feels tighter than U/T at small widths.",
+  "small_size_status": "Inspected original canvas at240px width in Chrome; not judged as a32px app icon.",
+  "production_qa": "file validation recorded separately",
+  "ai_recommendation": "none",
+  "user_selection": "not collected",
+  "platform_validation": "not performed",
+  "small_size_evidence": "qa/lettering.png"
+}

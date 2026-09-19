@@ -82,6 +82,7 @@ class HelperBridge:
                 or artifact.image.width != candidate.width
                 or artifact.image.height != candidate.height
                 or artifact.requested_background != state.brief.background
+                or artifact.app_icon != state.brief.app_icon
                 or artifact.path != f"artifacts/{candidate.id}.png"
             ):
                 raise StudioError(
@@ -133,6 +134,7 @@ class HelperBridge:
             or artifact.parent_id != job.parent_id
             or artifact.prompt != job.prompt
             or artifact.requested_background != state.brief.background
+            or artifact.app_icon != state.brief.app_icon
             or artifact.path != f"artifacts/{job.candidate_id}.png"
         ):
             raise StudioError(
@@ -144,6 +146,12 @@ class HelperBridge:
         return Candidate(
             id=artifact.id,
             direction_id=job.direction_id,
+            candidate_slot=job.candidate_slot,
+            changed_variables=job.changed_variables,
+            references=job.references,
+            reference_conditioning=job.reference_conditioning,
+            design_spec=job.design_spec,
+            reference_analysis=job.reference_analysis,
             parent_id=job.parent_id,
             image_path=path,
             sha256=artifact.sha256,

@@ -1,0 +1,15 @@
+{
+  "id": "16-sprout",
+  "reviewer": "assistant visual inspection",
+  "review_kind": "descriptive observation; no separate model review call",
+  "evidence": "native tool returned original viewed at1254×1254",
+  "observed_features": "Green two-leaf sprout with left leaf higher, orange pot and yellow-orange rim; large stair-stepped silhouette.",
+  "limitations": "Native shading adds extra tones, and steps vary in width. It is pixel-style raster artwork, not a certified integer-grid sprite.",
+  "small_size_status": "Inspected actual Chrome screenshots at32/48/64/128px on light/dark surroundings and64px CSS mask simulations.",
+  "production_qa": "file validation recorded separately",
+  "ai_recommendation": "none",
+  "user_selection": "not collected",
+  "platform_validation": "not performed",
+  "small_size_observation": "Leaves, stem and pot remain recognizable at32px. Individual native pixel steps blur at diagnostic sizes; not a certified pixel-grid sprite.",
+  "small_size_evidence": "qa/16-sprout.png"
+}

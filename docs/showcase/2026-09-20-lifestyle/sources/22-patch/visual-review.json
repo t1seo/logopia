@@ -1,0 +1,15 @@
+{
+  "id": "22-patch",
+  "reviewer": "assistant visual inspection",
+  "review_kind": "descriptive observation; no separate model review call",
+  "evidence": "native original viewed at1254x1254",
+  "observed_features": "Three large pink, orange and blue petals form an asymmetrical fan on pale lemon, with the center piece tallest.",
+  "limitations": "The common base is sharply pinched rather than broad and blunt. Pieces look more like petals than overlapping paper.",
+  "small_size_status": "Inspected actual Chrome screenshots at32/48/64/128px on light/dark surroundings and64px CSS mask simulations.",
+  "production_qa": "file validation recorded separately",
+  "ai_recommendation": "none",
+  "user_selection": "not collected",
+  "platform_validation": "not performed",
+  "small_size_observation": "Three color regions and the fan silhouette remain clear at32px. Their very narrow common point has little detail at the smallest size.",
+  "small_size_evidence": "qa/22-patch.png"
+}

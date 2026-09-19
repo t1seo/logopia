@@ -1,0 +1,29 @@
+{
+  "mode": "text",
+  "capability": "codex_native",
+  "references": [
+    {
+      "reference_id": "friends-of-figma-2026",
+      "image_sha256": "1c1d537fd0ab16f91b4bd48c7d7480dc2142c70f5f3d04fb080971875e216f46",
+      "role": "positive",
+      "observations": [
+        "The whole image shows nine community badge examples, including a construction diagram at top left.",
+        "One rounded F silhouette repeats across square and circular frames while stripe, arc, dot and photo backgrounds vary."
+      ],
+      "transfer": [
+        "Keep a shared shape grammar while varying a limited set of composition parameters.",
+        "Maintain one large foreground focus when adding expressive color."
+      ],
+      "avoid": [
+        "Do not copy the F silhouette, branded module arrangement or chapter artwork.",
+        "Do not assume busy badge patterns remain legible at app-icon sizes."
+      ],
+      "inspected_by": "Codex research agent using view_image",
+      "inspected_on": "2026-09-19",
+      "roi": null,
+      "source_url": "https://www.figma.com/blog/friends-of-figma-brand-refresh/",
+      "selection_origin": "automatic",
+      "rights_status": "unknown"
+    }
+  ]
+}

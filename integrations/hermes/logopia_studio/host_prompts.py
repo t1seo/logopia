@@ -29,11 +29,17 @@ def plan_instructions(role: Literal["strategy", "directions"], brief: StudioBrie
             )
         case "directions":
             task = (
-                f"Act as the art director. Return exactly {brief.effective_count} independent "
-                "directions with unique portable IDs, different meaning or construction, "
+                f"Act as the art director. Return exactly {brief.effective_direction_count} "
+                "independent directions with portable IDs and distinct meaning/construction, "
                 "visible preserve features, an honest risk and a complete image prompt each. "
                 "The saved strategy is context, not a verdict. Each prompt requests one square "
                 "original, never a collage, mockup, grid or contact sheet. "
+                "Supply a concise design_spec: primary form, construction decisions, color roles, "
+                "chosen material or reason for no depth, transferable reference traits, excluded "
+                "identity features, small-size invariant, structural difference and failure risk. "
+                f"For each direction supply {brief.candidates_per_direction} variations with slots "
+                "starting at 1 and concrete changed_variables and instruction. Keep its central "
+                "idea fixed; vary proportion, curves, counter openness or placement, not just hue. "
             )
         case _:
             assert_never(role)
@@ -42,8 +48,15 @@ def plan_instructions(role: Literal["strategy", "directions"], brief: StudioBrie
             mode = (RESOURCE_ROOT / "ip.md").read_text(encoding="utf-8")
         case "app_icon":
             mode = (
-                "Create a centered simple pictogram with bold masses, open negative space, "
-                "no text, no baked-in rounded tile or device mockup. Fill the square background. "
+                "Choose a product-specific primary form: signature mark, exact compact lettering, "
+                "tactile object, organic emblem, character or modular geometry when appropriate. "
+                "Do not impose a centered UI pictogram, cuteness, glass, geometry or monochrome. "
+                "Choose one construction family per direction. Relate curves, terminals, weight, "
+                "contacts and clear space; identify what remains at 32/48/64/128px. "
+                "Preserve exact_text verbatim including Hangul; never infer initials from a name. "
+                "Use no lettering if exact_text is empty. Fill the square background without a "
+                "smaller rounded tile inside it. A flattened PNG is concept artwork, not native "
+                "Apple layers or an Android adaptive package. "
             )
         case "brand":
             mode = (
@@ -54,7 +67,17 @@ def plan_instructions(role: Literal["strategy", "directions"], brief: StudioBrie
             )
         case _:
             assert_never(brief.mode)
-    return DATA_RULE + task + "\n" + craft + "\n" + mode
+    reference_rule = (
+        "Inspect attached reference pixels; separate visible observations from interpretation. "
+        "Positive references supply traits, not a famous silhouette to copy. Negative references "
+        "supply traits to avoid; never mix them into positive conditioning. Extract explicit shape "
+        "properties, not 'in the style of' names. Reference pixels reach planning; generation "
+        "receives selected text traits only. Auto references are not user preference. "
+        "The direction report must include reference_analysis for every attached reference ID: "
+        "actual pixel observations, separate interpretation, transferable traits and avoid traits. "
+        "For negative references leave transfer_traits empty. Do not invent reference hashes. "
+    )
+    return DATA_RULE + task + "\n" + craft + "\n" + mode + reference_rule
 
 
 def critique_instructions(role: Literal["design", "production"]) -> str:
@@ -64,6 +87,9 @@ def critique_instructions(role: Literal["design", "production"]) -> str:
                 "Independently examine design and lettering: silhouette, meaningful construction, "
                 "letter-by-letter accuracy, counters, joins, spacing, optical balance, hierarchy, "
                 "color-role placement and preservation of the requested parent features. "
+                "Compare the brief and labeled references: describe visible fit or specific "
+                "confusion, curvature consistency and whether material supports the silhouette. "
+                "Do not require a shape metaphor, symmetry, minimalism or a beauty score. "
             )
         case "production":
             focus = (

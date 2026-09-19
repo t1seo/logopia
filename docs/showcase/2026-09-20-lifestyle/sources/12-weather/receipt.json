@@ -1,0 +1,22 @@
+{
+  "id": "12-weather",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-d030dc15-214a-419d-9495-104c18e2b161.png",
+  "image": "images/12-weather.png",
+  "sha256": "169fd11099fbba18f8f652613e834d5e47935c488e389e443de2fe959e0fcc43",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "1cdb257e1c20a38c324cb4524bf0b971e3d2facf91d2347e6b56c7e5b86dd171",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:20:11.109762+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

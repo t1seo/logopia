@@ -67,9 +67,35 @@ uv run --locked python integrations/hermes/studio.py run --profile logopia --req
 
 ## 지원 범위
 
-- 브랜드 로고, 중앙에 배치한 픽토그램 앱 아이콘, 단순한 IP 캐릭터를 만듭니다. 기본 후보 수는 브랜드·앱 3개, IP 6개이며 1~6개를 직접 지정하실 수 있습니다.
-- 브랜드의 정확한 글자와 투명 PNG를 요청하실 수 있으며, 생성된 철자는 직접 확인해 주세요. 현재 앱·IP 경로는 글자 없이 배경을 채운 정사각형을 사용합니다.
-- 색상 제안, 별도 모델 호출 두 번의 이미지 검토, 최대 두 번의 요청한 수정을 지원합니다. 수정마다 정확한 부모 PNG를 기준으로 새로 만들고 디자인·레터링과 제작·사용 크기를 다시 검토합니다. 두 호출은 모델의 관찰이며, 독립된 인간 검수자나 전문가보다 뛰어나다는 근거는 아닙니다. 수정은 글자·색·배경을 유지하며, 이들을 바꾸려면 새 브리프를 사용합니다. 엄격한 팔레트나 다른 앱 스타일은 기존 [`$logo-land` Codex 스킬](../skills/logo-land/SKILL.md)을 사용해 주세요.
-- 결과는 원본 래스터 PNG와 검사를 통과한 전달 패키지입니다. 검토는 AI의 관찰이며 전문가의 인증이 아닙니다. 편집 가능한 벡터, 폰트 파일, 상표 확인과 플랫폼별 아이콘 패키지는 별도 작업입니다.
+- 브랜드 로고, 제품에 맞춘 앱 아이콘과 IP 캐릭터를 만듭니다. 앱 방향에는 고유한 Mark, 짧은 Lettering, 오브젝트, 유기적 형태, 캐릭터, 모듈형 기하학 등을 선택할 수 있습니다. IP의 주제·비례·표정·색은 브리프를 따르며 귀여움이나 고정 팔레트를 기본값으로 강제하지 않습니다.
+- 빠른 생성은 기존대로 브랜드·앱 3개, IP 6개입니다. 기존 `count`는 1~6개를 지원합니다. `direction_count: 3`과 `candidates_per_direction: 3`을 명시하면 서로 다른 3개 방향에서 조형을 달리한 후보를 각각 3개씩 만듭니다. 탐색 필드와 `count`를 함께 지정하지 마세요. 최초 생성은 최대 9개, 요청한 수정은 최대 2회이며 실패하거나 결과가 불명확한 이미지 호출도 예약 예산을 사용합니다.
+- 브랜드와 앱에 한글을 포함한 정확한 글자를 요청할 수 있으며, 이름을 임의 이니셜로 바꾸지 않습니다. 생성된 철자는 직접 확인해 주세요. 앱·IP 경로는 배경을 채운 정사각형이며 IP 초상에는 글자를 넣지 않습니다. 선택적인 `app_icon` 메타데이터에 글자를 넣을 때는 Helper의 Monogram 계약인 공백·제어문자 없는 Unicode 코드 포인트 1~8개를 따릅니다. 브랜드의 투명 PNG도 계속 지원합니다.
+- 해시를 검증한 로컬 PNG Reference 최대 6개를 두 계획 호출과 이미지 검토에 실제로 전달합니다. 관찰·해석·참고할 특성은 구분하여 저장합니다. 생성에는 선택한 특성을 **텍스트 Conditioning**으로 전달합니다. Hermes의 `image_generate`는 `image_url` 하나를 지원하며 정확한 수정 부모용으로 보존하므로 `reference_conditioning: image` 요청은 명시적으로 거부합니다. Negative Reference는 피할 특성에 사용하며 자동 Reference를 사용자 취향으로 저장하지 않습니다. Reference 필드는 [입력 계약](../integrations/hermes/CONTRACT.md)을 참고해 주세요.
+- 색상 제안과 후보당 모델 검토 호출 두 번을 저장된 검토 예산 안에서 지원합니다. 요청한 수정은 글자·색·배경을 유지하며 디자인·레터링과 제작·사용 크기를 다시 검토합니다. 이 조건을 바꾸려면 새 브리프를 사용하며, 엄격한 팔레트는 기존 [`$logo-land` Codex 스킬](../skills/logo-land/SKILL.md)을 이용해 주세요. AI 관찰, 사용자 선택, 플랫폼 검증은 별개입니다.
+- 앱 Gallery에서 원본을 변경하지 않고 32/48/64/128px, 밝고 어두운 주변 배경, 동일한 48px 사용 맥락과 CSS Mask 시뮬레이션을 비교합니다. 이 진단 크기와 시뮬레이션은 실제 OS 렌더링이나 플랫폼 통과 증거가 아닙니다. 별도의 [블라인드 선호 비교](preference-review.md)는 Helper에서 제공합니다.
+- 결과는 원본 래스터 PNG와 검사를 통과한 전달 패키지입니다. Hermes 네이티브 경로는 평면 Concept artwork를 만들며 선택적인 플랫폼·Appearance 메타데이터가 편집 가능한 Layer를 만들지는 않습니다. Apple Layered, Android Adaptive, 크기를 검증한 Store Asset은 [Helper Asset Handoff](icon-assets.md)를 이용해 주세요. 편집 가능한 벡터, 폰트 파일과 상표 확인은 별도 작업입니다.
+
+예를 들어 아래 네이티브 `logopia_start` 입력을 `request.json`으로 저장하고 위의 `studio.py run` 명령으로 실행하실 수 있습니다.
+
+```json
+{
+  "workflow_id": "reading-exploration",
+  "brief": {
+    "name": "틈",
+    "exact_text": "틈",
+    "product": "짧은 독서 시간을 기록하는 앱",
+    "audience": "출퇴근 중 읽는 독자",
+    "personality": "조용하고 또렷함",
+    "use_case": "앱 아이콘",
+    "mode": "app_icon",
+    "logo_type": "lettermark",
+    "display_width": 48,
+    "direction_count": 3,
+    "candidates_per_direction": 3
+  }
+}
+```
+
+빠른 생성은 탐색 필드 두 개를 생략하시면 기존대로 3개를 만듭니다. 기존에 저장한 프롬프트·원본·선택은 보존되며 새 선택 필드 때문에 자동 재생성하지 않습니다.
 
 IP 방향은 [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill)을 참고하여 각색했으며, [MIT 고지](../integrations/hermes/skills/director/references/ip-as-logo.LICENSE)를 포함합니다.

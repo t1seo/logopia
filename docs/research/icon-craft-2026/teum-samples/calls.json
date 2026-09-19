@@ -1,0 +1,75 @@
+{
+  "limit_across_improvement_work": 12,
+  "prior_calls": 6,
+  "calls": [
+    {
+      "id": "open-passage",
+      "session": "teum-craft-open-passage",
+      "prompt_revision": 1,
+      "status": "returned",
+      "kind": "generation",
+      "parent": null,
+      "tool": "image_gen__imagegen",
+      "prompt_sha256": "fc08bc6695bf134ddf2b1ac6b39c9bbb314e1540cc1f40bf9d4905ce6b14e758",
+      "prompt_file": "prompts/open-passage.txt",
+      "conditioning": "analysis_text",
+      "output": "originals/open-passage.png",
+      "sha256": "91ef15a1bc16d16494b9ab6552873eae285ca3fb342977c505e6b8ae9ece2b64",
+      "actual_dimensions": [
+        1254,
+        1254
+      ],
+      "tool_returned_path": "/Users/cillian/Library/Application Support/orca/codex-accounts/f2ae4d55-4afe-4e94-88a3-ace3a4ff86da/home/generated_images/01a0b9fd-7829-7df0-8219-e437048861d0/exec-8f22e93c-6757-4ef3-a0b4-ec2e82ddc0b6.png",
+      "artifact_id": "v1",
+      "import_revision": 2
+    },
+    {
+      "id": "hangul",
+      "session": "teum-craft-hangul",
+      "prompt_revision": 0,
+      "status": "returned",
+      "kind": "generation",
+      "parent": null,
+      "tool": "image_gen__imagegen",
+      "prompt_sha256": "df4934170f2a7cc98bea8b1a59440e668a79bf0a8ed987ff34507d089088eeb5",
+      "prompt_file": "prompts/hangul.txt",
+      "conditioning": "none",
+      "output": "originals/hangul.png",
+      "sha256": "9338d377b780af6f9a06c2e6e7b30c1a241ea1c62bd76a17de5533e6e0c168d2",
+      "actual_dimensions": [
+        1254,
+        1254
+      ],
+      "tool_returned_path": "/Users/cillian/Library/Application Support/orca/codex-accounts/f2ae4d55-4afe-4e94-88a3-ace3a4ff86da/home/generated_images/01a0b9fd-7829-7df0-8219-e437048861d0/exec-b032027d-a453-4a16-9d9b-b4c9c09a8915.png",
+      "artifact_id": "v1",
+      "import_revision": 1
+    },
+    {
+      "id": "ceramic-bench",
+      "session": "teum-craft-ceramic-bench",
+      "prompt_revision": 0,
+      "status": "returned",
+      "kind": "generation",
+      "parent": null,
+      "tool": "image_gen__imagegen",
+      "prompt_sha256": "d65dc63848157afb8d9c424ee17e9867b9a273c57b1ee500f7f6c11315632e36",
+      "prompt_file": "prompts/ceramic-bench.txt",
+      "conditioning": "none",
+      "output": "originals/ceramic-bench.png",
+      "sha256": "77c64f917456db2d82f9b7dbc9ea54d0d519442a8ab8727e2afe85128ddd6e65",
+      "actual_dimensions": [
+        1254,
+        1254
+      ],
+      "tool_returned_path": "/Users/cillian/Library/Application Support/orca/codex-accounts/f2ae4d55-4afe-4e94-88a3-ace3a4ff86da/home/generated_images/01a0b9fd-7829-7df0-8219-e437048861d0/exec-2a776338-d7a0-4150-acc5-00e98e7b5677.png",
+      "artifact_id": "v1",
+      "import_revision": 1
+    }
+  ],
+  "model": "unreported",
+  "user_preference": "unverified",
+  "executed_generation_calls": 3,
+  "executed_edit_calls": 0,
+  "aggregate_generation_calls": 9,
+  "remaining_total_budget": 3
+}

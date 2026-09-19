@@ -10,14 +10,16 @@
 |---|---|
 | Hermes로 로고를 만들고 검토하기 | [Hermes 작업 흐름과 설정](hermes.ko.md) |
 | Codex로 첫 로고 만들기 | [빠른 시작과 요청 예제](../README.ko.md#설치) |
-| 로고 16개 쇼케이스 보기 | [흰색 배경 쇼케이스 보드](../assets/logopia-white-showcase.png) · [2026년 9월 갤러리](gallery.ko.md#showcase) |
+| 새 샘플 24개 보기 | [새 생활 브랜드 쇼케이스 보드](showcase/2026-09-20-lifestyle/board.png) · [2026년 9월 갤러리](gallery.ko.md#showcase) |
 | 다른 프로젝트에서 스킬 사용하기 | [전체 설치 안내](installation.ko.md) |
-| 예제 파일 다운로드하기 | [현재 쇼케이스 PNG 목록](showcase/2026-09-white/README.ko.md) |
+| 예제 파일 다운로드하기 | [현재 쇼케이스 PNG 목록](showcase/2026-09-20-lifestyle/README.ko.md) |
 
 ## 샘플
 
-- [OFFCUT Hermes 사례](hermes-demo/README.ko.md): 최초 원본 3개, 정확한 부모 원본을 기준으로 한 수정 2개와 전달된 e2 ZIP입니다. 첫 수정본의 보존 검사 실패도 그대로 표시합니다. 폴더를 내려받아 HTML 페이지를 로컬에서 열면 오프라인으로 비교하실 수 있습니다.
-- [2026년 9월 갤러리](gallery.ko.md): 흰색 배경의 브랜드 로고 10개와 앱 아이콘 예제 6개이며, 기존 원본 16개를 바로 여는 링크를 유지합니다.
+- [9월 20일 새 샘플 24개](showcase/2026-09-20-lifestyle/README.ko.md): 문구·차·책·반려동물과 생활 앱의 원본·프롬프트·작은 크기 진단입니다.
+- [9월 19일 앱 아이콘 조형 비교](research/icon-craft-2026/README.md): 원본 6개와 변경 전 프롬프트를 보존한 과거 실험입니다. 이후 사용자가 Candidate 2·5의 형태와 색상을 거절했으므로 선호 개선의 증거로 취급하지 않습니다.
+- [과거 OFFCUT Hermes 사례](hermes-demo/README.ko.md): 최초 원본 3개, 정확한 부모 원본을 기준으로 한 수정 2개와 전달된 e2 ZIP입니다. 첫 수정본의 보존 검사 실패도 그대로 표시합니다. 폴더를 내려받아 HTML 페이지를 로컬에서 열면 오프라인으로 비교하실 수 있습니다.
+- [2026년 9월 갤러리](gallery.ko.md): 흰 배경 브랜드 로고 10개, 앱 아이콘 12개(색 배경 6개·흰 배경 6개), OFFCUT 방향 2개입니다. 새 원본 24개를 바로 여실 수 있습니다.
 - [브랜드 샘플](samples/README.ko.md): 새로 만든 LUMA, LOOP LAB, 고요, BREAD & BLOOM, KITE, MISO, NORTHLINE / NL, 물결, FERN, NOVA NOTES와 이전 예제 링크입니다.
 - [Logopia 로고](brand/README.ko.md): 흰색 배경 위 다채로운 소문자 게임 타이틀 레터링과 이전 디자인입니다.
 - [이전 앱 아이콘 예제](app-icons/README.ko.md): 앞선 컬렉션의 IP 시안 6개와 원본·수정 방향 비교 5쌍입니다.
@@ -34,6 +36,7 @@
 | 글자 모양과 로고 형태 | [레터링 구성](../skills/logo-land/references/lettering.md) · [로고 방향](../skills/logo-land/references/logo-directions.md) · [글자와 폰트 참고](../skills/logo-land/references/typography.md) |
 | 색 고르기와 변경하기 | [색상과 팔레트](../skills/logo-land/references/color-workflow.md) |
 | 작은 정사각형 아트워크 | [앱 아이콘 아트워크](../skills/logo-land/references/app-icons.md) |
+| 시각 Reference, 플랫폼 의도와 블라인드 비교 | [Reference 입력](../skills/logo-land/references/visual-references.md) · [Asset 검사](icon-assets.md) · [선호 검토](preference-review.md) |
 | 후보 선택과 수정 | [비교 작업 흐름](../skills/logo-land/references/comparison-workflow.md) |
 | 저장한 프로젝트 이어가기 | [수정 이력과 프로젝트 파일](../skills/logo-land/references/project-files.md) |
 | 검수한 파일 전달하기 | [전달 전 검사](../skills/logo-land/references/delivery-checks.md) |

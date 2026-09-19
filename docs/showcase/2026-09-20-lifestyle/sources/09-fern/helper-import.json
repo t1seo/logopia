@@ -1,0 +1,71 @@
+{
+  "schema_version": 2,
+  "id": "r0920-09-fern",
+  "revision": 1,
+  "created_at": "2026-09-19T15:11:03.861572Z",
+  "updated_at": "2026-09-19T15:23:03.248620Z",
+  "brief": {
+    "brand_name": "FERN",
+    "exact_text": "",
+    "industry": "a houseplant shop and everyday plant-care journal",
+    "audience": "everyday consumer audiences; independent lifestyle businesses",
+    "slogan": "",
+    "logo_type": "symbol",
+    "styles": [
+      "unfurling organic botanical symbol"
+    ],
+    "palette": [
+      "soft deep moss green",
+      "uniform white background"
+    ],
+    "forbidden": [
+      "industrial or manufacturing aesthetic",
+      "mechanical brackets, cut-metal blocks and engineering crests",
+      "extra lettering, slogans or watermarks",
+      "mockup scenes, collage or presentation board",
+      "colored canvas or transparent background"
+    ],
+    "use_cases": [
+      "brand identity at 240px width and README"
+    ],
+    "assumptions": [
+      "Fictional demonstration brand. Design decisions are assistant proposals; user preference is pending.",
+      "Preserve the existing exact string and white-background collection intent.",
+      "One independent original, square canvas. Color descriptions are intent, not certified pixel values."
+    ],
+    "lockup": null,
+    "background": "opaque",
+    "concept_count": 1
+  },
+  "artifacts": [
+    {
+      "id": "a-v1",
+      "path": "artifacts/a-v1.png",
+      "sha256": "dfec8209868fa3cf4c28904c2ec437dbae646768e9578fb5a5fde7f223aabf6f",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "prompt": "Create one symbol logo for FERN. Exact text (copy verbatim, no other words): ''. Exact slogan: ''.\nRender only the supplied exact text and nonempty slogan; the brand context is not additional lettering. Empty strings request no corresponding text.\nIndustry: a houseplant shop and everyday plant-care journal. Audience: everyday consumer audiences; independent lifestyle businesses.\nStyles: unfurling organic botanical symbol. Original brief palette context: soft deep moss green, uniform white background.\nAvoid: industrial or manufacturing aesthetic, mechanical brackets, cut-metal blocks and engineering crests, extra lettering, slogans or watermarks, mockup scenes, collage or presentation board, colored canvas or transparent background. Use cases: brand identity at 240px width and README.\nBackground: opaque. Produce a real PNG raster image. Use clean, readable shapes at small sizes; leave safe margins. Do not draw a transparency checkerboard, mockup, watermarks, or a concept grid.\nConcept direction: One deliberately drawn unfurling fern as a compact organic pictorial mark. A gently S-curved thick stem rises into a broad inward curl, with three generous asymmetrical paddle-shaped fronds on alternating sides. The lower left frond cups upward, the middle right frond reaches wide, the upper frond is smaller; this rhythm rather than extra botanical detail is the identity. All connected to a coherent central gesture, no spindly branches. Deeply open white gaps between fronds and a round open eye inside the top curl. Flat moss-green silhouette, soft blunt tips and calm asymmetry. Centered 55% width, 65% height. No leaf veins, pot, circle, medical cross, letter or text.. Assumptions: Fictional demonstration brand. Design decisions are assistant proposals; user preference is pending., Preserve the existing exact string and white-background collection intent., One independent original, square canvas. Color descriptions are intent, not certified pixel values..\nLogo construction: Build a recognizable pictorial symbol around the supplied subject, with one identifying contour and useful negative space. Avoid unrelated stock motifs. Use style references for broad construction traits, not their brand words or traced signature shapes. The identity should remain recognizable in a one-color silhouette at the intended use size. This construction check does not replace the requested palette or request an extra monochrome image.\nLettering fidelity: preserve every Unicode character, capitalization, punctuation, space and reading order in the applicable text. Keep Hangul syllable blocks intact; do not translate, romanize, abbreviate or substitute lookalike glyphs. Shape changes must keep required text readable, including counters and joins at the intended size.\nOutput one square PNG containing only this single identity on a uniform white background. Clean, crisp raster edges; do not add paper grain or texture to flat ink.\n",
+      "parent_id": null,
+      "created_at": "2026-09-19T15:23:03.248319Z",
+      "requested_background": "opaque",
+      "palette_id": null,
+      "lockup": null,
+      "review": null,
+      "reviewed_at": null
+    }
+  ],
+  "selected_id": null,
+  "failures": [],
+  "exports": [],
+  "palettes": [],
+  "active_palette_id": null,
+  "references": [],
+  "color_reports": []
+}

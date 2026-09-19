@@ -1,0 +1,15 @@
+{
+  "id": "12-weather",
+  "reviewer": "assistant visual inspection",
+  "review_kind": "descriptive observation; no separate model review call",
+  "evidence": "native tool returned original viewed at1254×1254",
+  "observed_features": "Bright blue cloud with a high left shoulder and a broad yellow sun arc at upper right.",
+  "limitations": "There is a white separating seam despite the requested direct color join. Weather icon category familiarity remains; not a wholly new motif.",
+  "small_size_status": "Inspected actual Chrome screenshots at32/48/64/128px on light/dark surroundings and64px CSS mask simulations.",
+  "production_qa": "file validation recorded separately",
+  "ai_recommendation": "none",
+  "user_selection": "not collected",
+  "platform_validation": "not performed",
+  "small_size_observation": "The high left shoulder and yellow sun remain distinct at32px. The white separating seam becomes thinner; the broad weather silhouette survives.",
+  "small_size_evidence": "qa/12-weather.png"
+}

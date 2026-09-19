@@ -1,0 +1,22 @@
+{
+  "id": "18-jelly",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-a9534279-cf76-4247-af05-07910e38da82.png",
+  "image": "images/18-jelly.png",
+  "sha256": "8fcd1430fb1d076a5569a5b2c25a16e10b6ff36696e9860de8eb98fd7242780e",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "760b3f53a011bf1c1ee895d3d8049e5602eb23071365d1f58bae4ac4f8f774b5",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:35:01.679003+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

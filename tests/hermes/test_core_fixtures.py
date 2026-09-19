@@ -16,6 +16,7 @@ from logopia_studio.models import (
     StudioBrief,
     StudioError,
 )
+from logopia_studio.models_references import CandidateVariation
 from PIL import Image
 
 REPO = Path(__file__).resolve().parents[2]
@@ -65,8 +66,16 @@ class FixtureHost:
                 risk="Generic",
                 preserve=("White background",),
                 prompt="Fixture only teal ring.",
+                variations=tuple(
+                    CandidateVariation(
+                        slot=slot,
+                        changed_variables=(f"Gap {slot}px",),
+                        instruction=f"Use gap {slot}px",
+                    )
+                    for slot in range(1, brief.candidates_per_direction + 1)
+                ),
             )
-            for i in range(1, brief.effective_count + 1)
+            for i in range(1, brief.effective_direction_count + 1)
         )
         return PlanResult(
             strategy=strategy, directions=directions, provider="fixture", model="stub"

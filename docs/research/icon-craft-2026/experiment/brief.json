@@ -1,0 +1,29 @@
+{
+  "brand_name": "SEAM",
+  "exact_text": "",
+  "industry": "A private mobile notebook for freelance writers: collect scattered phrases and bring them together into one short daily draft.",
+  "audience": "Independent writers who want a calm, tangible sense of progress without streak pressure.",
+  "logo_type": "symbol",
+  "styles": [
+    "confident",
+    "warm",
+    "deliberately made"
+  ],
+  "palette": [
+    "Ink #173E48 for the main structure",
+    "Coral #EF795F for one distinguishing feature",
+    "Warm paper #F6EEE4 for the full square background"
+  ],
+  "forbidden": [
+    "words or letters",
+    "stars",
+    "AI sparkles",
+    "infinity loops",
+    "mascots",
+    "device mockups"
+  ],
+  "use_cases": [
+    "Mobile app icon, recognize at 32 and 48 pixels among other apps"
+  ],
+  "background": "opaque"
+}

@@ -1,0 +1,55 @@
+[
+  {
+    "id": "user-negative-1",
+    "role": "negative",
+    "sha256": "f7e81166955e610870a2dee3ef283dac5d2f9a1a7f49cf2ab9c9a169bdd74745",
+    "cache": "ignored private reference",
+    "observed_traits": [
+      "Dark green rectangular slab at left with a diagonal cut and orange wedge.",
+      "Heavy uppercase sans lettering; the c1/e2 designs have almost the same structure."
+    ],
+    "input_mode": "text analysis only; pixels not sent to generator",
+    "redistribution_permission": "not established; no screenshot published"
+  },
+  {
+    "id": "user-negative-2",
+    "role": "negative",
+    "sha256": "ae3f782d56cc19855d334a2c0da6ba677ee8576b714fcc2b59d5f67611132003",
+    "cache": "ignored private reference",
+    "observed_traits": [
+      "Two rigid right-angle L blocks with squared terminals.",
+      "Nested offset Ls resemble structural brackets; broad mechanical channels dominate."
+    ],
+    "input_mode": "text analysis only; pixels not sent to generator",
+    "redistribution_permission": "not established; no screenshot published"
+  },
+  {
+    "id": "user-negative-3",
+    "role": "negative",
+    "sha256": "f4f392adf4c9f835251b13864626cab1831d0f3c369bf9e87994910f23abb137",
+    "cache": "ignored private reference",
+    "observed_traits": [
+      "Top candidate uses interlocking teal/coral bent tube-like forms inside a cream tile.",
+      "Bottom candidate uses offset squared teal/coral bent bars inside a cream tile.",
+      "Both repeat the same cream/teal/coral palette."
+    ],
+    "user_judgment": "Strongly dislikes both logos and their colors.",
+    "scope_of_inference": "Avoid these bent-bar constructions and this repeated palette combination; does not imply all abstract marks or all warm colors are disliked.",
+    "input_mode": "text analysis only; pixels not sent to generator",
+    "applied_before_generation_to": [
+      "11-reading-owl",
+      "12-weather",
+      "13-flow",
+      "14-notes",
+      "15-cloud",
+      "16-sprout",
+      "17-bun-club",
+      "18-jelly",
+      "19-bam",
+      "20-side-b",
+      "21-plum",
+      "22-patch"
+    ],
+    "redistribution_permission": "not established; no screenshot published"
+  }
+]

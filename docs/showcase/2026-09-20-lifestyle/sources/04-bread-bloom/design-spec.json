@@ -1,0 +1,13 @@
+{
+  "central_idea_and_construction": "A friendly oval bakery emblem whose outer border has six large, shallow, softly scalloped lobes, like the edge of a paper pastry doily but very simplified. Inside, exact BREAD & BLOOM arranged as BREAD on the upper line, a modest & on its own short middle line, and BLOOM on the lower line. Use warm rounded flared-serif letters with open B/R counters, gently curved serifs and deliberate generous spacing. No tiny perimeter text. Two very small solid oval seed-like accents may sit left and right of the ampersand if they do not compete with lettering. A single solid strawberry-red ink; border and letters have related weights and ample gap. Emblem fills about 66% width, all type readable. No wheat wreath, ribbon, date, distressed stamp or engineering crest.",
+  "color_roles": [
+    "warm strawberry red"
+  ],
+  "background_role": "plain white negative space; no inset outer tile",
+  "material": "flat ink / pixel clusters; no material rendering",
+  "small_size_signature": "Soft scalloped outline and the two readable word lines.",
+  "specific_risk": "Long words must not crowd the scallops or lose the ampersand.",
+  "reference_transfer": "Negative user screenshots analyzed as text: avoid severed slabs and nested squared Ls; no positive visual reference or borrowed signature.",
+  "structural_difference": "soft scalloped bakery emblem",
+  "observations": "Recorded separately after viewing actual output."
+}

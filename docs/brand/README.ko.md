@@ -10,7 +10,7 @@
 
 <a id="다운로드"></a>
 
-[**마스터 PNG 다운로드 →**](../../assets/logopia-game-title.png) · [ZIP 패키지](2026-game-title/delivery/logo-package.zip) · [브랜드 안내](2026-game-title/delivery/brand-guide.md) · [흰 배경 샘플](../showcase/2026-09-white/README.ko.md)
+[**마스터 PNG 다운로드 →**](../../assets/logopia-game-title.png) · [ZIP 패키지](2026-game-title/delivery/logo-package.zip) · [브랜드 안내](2026-game-title/delivery/brand-guide.md) · [생활 브랜드 샘플](../showcase/2026-09-20-lifestyle/README.ko.md)
 
 ## 이렇게 요청해 보세요
 

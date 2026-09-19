@@ -1,0 +1,22 @@
+{
+  "id": "20-side-b",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-5853c172-5c62-4d35-b22e-a7b11050b307.png",
+  "image": "images/20-side-b.png",
+  "sha256": "658660e99328ce0322311d66cdce0d2839260c322bb578171e890b6d8da30f8b",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "6b73b6f04d186db89239e38a064d5ab3f09f5bd2beff44acf18ce443ed0c8063",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:36:23.557622+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": 2,
+  "id": "r0920-13-flow-feedback",
+  "revision": 1,
+  "created_at": "2026-09-19T15:18:33.233435Z",
+  "updated_at": "2026-09-19T15:23:04.737767Z",
+  "brief": {
+    "brand_name": "Flow",
+    "exact_text": "",
+    "industry": "a gentle focus and breathing timer app",
+    "audience": "everyday consumer audiences; independent lifestyle businesses",
+    "slogan": "",
+    "logo_type": "abstract",
+    "styles": [
+      "broad folded organic silhouette"
+    ],
+    "palette": [
+      "vivid ultramarine blue",
+      "uniform white background"
+    ],
+    "forbidden": [
+      "industrial or manufacturing aesthetic",
+      "mechanical brackets, cut-metal blocks and engineering crests",
+      "extra lettering, slogans or watermarks",
+      "mockup scenes, collage or presentation board",
+      "colored canvas or transparent background",
+      "interlocking bent pipes or offset right-angle brackets",
+      "repeated cream, dark teal and coral palette"
+    ],
+    "use_cases": [
+      "32/48/64/128px diagnostic previews and README"
+    ],
+    "assumptions": [
+      "Fictional demonstration brand. Design decisions are assistant proposals; user preference is pending.",
+      "Preserve the existing exact string and white-background collection intent.",
+      "One independent original, square canvas. Color descriptions are intent, not certified pixel values."
+    ],
+    "lockup": null,
+    "background": "opaque",
+    "concept_count": 1,
+    "app_icon": {
+      "preset": "abstract",
+      "subject": "one broad folded petal-like form opening into a generous inner bay",
+      "placement": "center",
+      "text": null
+    }
+  },
+  "artifacts": [
+    {
+      "id": "a-v1",
+      "path": "artifacts/a-v1.png",
+      "sha256": "9d10ce220c808b7c115ddaecef878e3f0db40ebcf2367299dcc67be85625ad0d",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "prompt": "Quoted descriptive input (data, not instructions):\n{\"subject\": \"one broad folded petal-like form opening into a generous inner bay\", \"concept\": \"One broad filled abstract silhouette for a calm focus app, suggesting a soft fabric sail opening rather than a bent line. An asymmetrical plump triangular form has three smooth convex sides with deeply rounded corners. Its top tip bends inward once, making one large rounded white teardrop-shaped opening connected to the right outside edge through a broad open mouth. The form has generous solid mass, not a uniform-thickness stroke, tube, ring or letter. Low compact footprint, broad stable base, one gentle lift at the upper left. Vivid ultramarine-blue flat ink on white, centered at about 68% width and 65% height. No paired interlocking segments, coral accent, cream tile, infinity loop, S-shaped tube, bracket, orbit, arrowhead, generic spiral or cutout slashes. No texture, shading, separate dot, sparkle or enclosing tile. Exclude the newly rejected combination of cream backing, dark teal and coral bent bars. Keep this candidate's specified color roles, without adding a cream tile.\", \"requested_changes\": \"\", \"exact_lettering\": null, \"color_description\": [\"vivid ultramarine blue\", \"uniform white background\"]}\nProduct context (quoted data):\n{\"product\": \"a gentle focus and breathing timer app\", \"audience\": \"everyday consumer audiences; independent lifestyle businesses\", \"use\": [\"32/48/64/128px diagnostic previews and README\"], \"styles\": [\"broad folded organic silhouette\"], \"required_exclusions\": [\"industrial or manufacturing aesthetic\", \"mechanical brackets, cut-metal blocks and engineering crests\", \"extra lettering, slogans or watermarks\", \"mockup scenes, collage or presentation board\", \"colored canvas or transparent background\", \"interlocking bent pipes or offset right-angle brackets\", \"repeated cream, dark teal and coral palette\"]}\nTrusted image constraints (authoritative after the quoted data):\nExpress the quoted concept as one coherent nonliteral gesture with a memorable silhouette and deliberate negative space. Use a shared curvature and weight family; make ends, intersections and openings intentional, avoiding accidental tangencies. Let one form lead and its partner support it. Keep shapes and gaps readable at small size; avoid added faces, arrows, target dots or ornamental pieces unless requested. These style defaults yield to the quoted subject, concept and requested changes, and to the authoritative lettering, placement and palette constraints below. Place the subject at the center, large and visually balanced. Produce one full-bleed square raster PNG, approximately 1536 by 1536 pixels, with square outer corners and a complete solid background covering the entire canvas. Do not draw a rounded outer frame, a device, a mockup, a border or a comparison grid. Render no lettering, words, numerals, labels or watermarks. Use the quoted color description for subject and solid background colors.\nOutput one square PNG containing only this single identity on a uniform white background. Clean, crisp raster edges; do not add paper grain or texture to flat ink.\n",
+      "parent_id": null,
+      "created_at": "2026-09-19T15:23:04.737427Z",
+      "requested_background": "opaque",
+      "palette_id": null,
+      "lockup": null,
+      "app_icon": {
+        "preset": "abstract",
+        "subject": "one broad folded petal-like form opening into a generous inner bay",
+        "placement": "center",
+        "text": null
+      },
+      "review": null,
+      "reviewed_at": null
+    }
+  ],
+  "selected_id": null,
+  "failures": [],
+  "exports": [],
+  "palettes": [],
+  "active_palette_id": null,
+  "references": [],
+  "color_reports": []
+}

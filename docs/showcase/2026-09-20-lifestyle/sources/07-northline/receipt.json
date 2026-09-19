@@ -1,0 +1,22 @@
+{
+  "id": "07-northline",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-912f68ce-ece6-48b5-bd5e-a93368f475a4.png",
+  "image": "images/07-northline.png",
+  "sha256": "8d102e6e4cb8164024b8c420bbd2a6823c36521d1a3f50c67138049109885707",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "fcb0315f78c64fd8d0edda8c6f79f70fe892723652fe1296a1790ffc4d5f36d7",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:16:33.897779+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

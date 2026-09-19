@@ -1,0 +1,15 @@
+{
+  "id": "20-side-b",
+  "reviewer": "assistant visual inspection",
+  "review_kind": "descriptive observation; no separate model review call",
+  "evidence": "native original viewed at1254x1254",
+  "observed_features": "Black record semicircle emerges from a yellow sleeve with a broad thumb scoop on blue. Center label remains visible.",
+  "limitations": "The object is upright rather than the requested small lean. Paper and record have noticeable grain and faint shading around edges.",
+  "small_size_status": "Inspected actual Chrome screenshots at32/48/64/128px on light/dark surroundings and64px CSS mask simulations.",
+  "production_qa": "file validation recorded separately",
+  "ai_recommendation": "none",
+  "user_selection": "not collected",
+  "platform_validation": "not performed",
+  "small_size_observation": "Record semicircle and yellow sleeve remain clear at32px. Center hole and paper texture diminish; circle simulation trims the sleeve's outer lower corners slightly.",
+  "small_size_evidence": "qa/20-side-b.png"
+}

@@ -1,0 +1,13 @@
+{
+  "central_idea_and_construction": "Render exactly the single Korean syllable 틈 as a warm, approachable app signature. Keep its normal three-tier Hangul construction completely intact: top consonant ㅌ consists of a left vertical connecting three horizontal strokes; middle vowel ㅡ is a separate horizontal bar; bottom consonant ㅁ is one closed rounded square with a large white counter. All required components are distinct. Use a broad moderately thick stroke with soft round terminals and subtly convex horizontal edges, avoiding rigid stacked industrial bars. Optical horizontal gaps should be generous and consistent, bottom counter large. Overall silhouette slightly wider than tall, centered and about 66% canvas width. Flat berry-red color. No added symbol, dot, list lines, second syllable or pseudo-Hangul; no inset tile.",
+  "color_roles": [
+    "muted berry red"
+  ],
+  "background_role": "plain white negative space; no inset outer tile",
+  "material": "flat ink / pixel clusters; no material rendering",
+  "small_size_signature": "Complete ㅌ/ㅡ/ㅁ structure with open intervals and bottom counter.",
+  "specific_risk": "Must not read as 틀, 몸, a list icon, or a pile of disconnected bars.",
+  "reference_transfer": "Negative user screenshots analyzed as text: avoid severed slabs and nested squared Ls; no positive visual reference or borrowed signature.",
+  "structural_difference": "soft Hangul monogram",
+  "observations": "Recorded separately after viewing actual output."
+}

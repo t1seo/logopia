@@ -1,0 +1,22 @@
+{
+  "id": "06-miso",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-ef208c77-946e-4a52-bd9d-5704eac116b1.png",
+  "image": "images/06-miso.png",
+  "sha256": "b242a9c41422be88ace84e229728e46ad5cf095770372f6e912070fc29e7ef05",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "2e17f563a9570332047193febd88d3a4265ead4d86751e232a30cbcc8803d2fc",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:16:33.878211+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

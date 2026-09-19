@@ -1,0 +1,29 @@
+{
+  "mode": "text",
+  "capability": "codex_native",
+  "references": [
+    {
+      "reference_id": "gentler-streak-current-store",
+      "image_sha256": "edb2484ffd4fd6fd785ad46b2c3675caca3be2652eb40cc409693c388743b491",
+      "role": "positive",
+      "observations": [
+        "An orange asymmetric two-lobed shape has a shallow top notch and a larger left lobe.",
+        "A darker orange rear face is offset toward the lower right on a light tile; the foreground has no text or facial features."
+      ],
+      "transfer": [
+        "Choose a deliberate asymmetry with a legible large contour.",
+        "Keep restrained depth and edge highlights secondary to the silhouette."
+      ],
+      "avoid": [
+        "Do not copy the orange lobed heart contour or its proportions.",
+        "Do not automatically choose a heart, leaf or mascot from the product category."
+      ],
+      "inspected_by": "Codex research agent using view_image",
+      "inspected_on": "2026-09-19",
+      "roi": null,
+      "source_url": "https://apps.apple.com/us/app/gentler-streak-workout-tracker/id1576857102",
+      "selection_origin": "automatic",
+      "rights_status": "unknown"
+    }
+  ]
+}

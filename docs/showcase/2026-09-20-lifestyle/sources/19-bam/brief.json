@@ -1,0 +1,37 @@
+{
+  "brand_name": "밤",
+  "exact_text": "밤",
+  "industry": "a bedtime audio and night-time journal app",
+  "audience": "people using everyday consumer apps",
+  "logo_type": "monogram",
+  "styles": [
+    "compact warm Hangul lettering"
+  ],
+  "palette": [
+    "warm ivory lettering",
+    "full-bleed deep blackberry-purple background"
+  ],
+  "background": "opaque",
+  "concept_count": 1,
+  "app_icon": {
+    "preset": "monogram",
+    "subject": "the exact complete Korean syllable 밤 drawn as one soft custom letter block",
+    "placement": "center",
+    "text": "밤"
+  },
+  "use_cases": [
+    "32/48/64/128px app-icon previews and README"
+  ],
+  "forbidden": [
+    "industrial or manufacturing brand aesthetic",
+    "interlocking bent tubes or offset right-angle brackets",
+    "repeated cream, dark teal and coral combination",
+    "inset tile inside a larger square",
+    "extra letters, slogans, watermark or mockup scene"
+  ],
+  "assumptions": [
+    "New fictional demonstration brand proposed in response to the request for more app icons.",
+    "The specified full-bleed background color is authoritative; do not restore the earlier white collection background.",
+    "User preference has not been collected for this new candidate."
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "kind": "preference_gallery",
+  "shared_brief": "SEAM: a private mobile notebook for freelance writers. Collect scattered phrases into one short daily draft, without streak pressure. No text, stars, sparkles, infinity loops, mascots or device mockups. Ink #173E48 main structure, coral #EF795F identifying feature, warm paper #F6EEE4 full background. Recognize at 32/48px among other apps. Palette is advisory raster intent.",
+  "references": [
+    {
+      "label": "Shared construction reference: consistent curve and spacing rules",
+      "source_url": "https://apps.apple.com/us/app/craft-notes-documents-ai/id1487937127",
+      "role": "positive",
+      "observations": "Four broad curved pieces share rounded terminals and a narrow central gap. Apply shared curve and gap consistency only; do not copy the four-piece cross, palette, or signature contour. This context is identical for both candidates.",
+      "verification": "image_observed",
+      "image_sha256": "df57bc351596842b45ce856e87ff96f53180cfc2a89009ad58e4a47a22ae172c",
+      "image_path": null
+    }
+  ],
+  "pairs": [
+    {
+      "id": "pair-01",
+      "a": {
+        "source": {
+          "session": "seam-craft-2026",
+          "revision": 8,
+          "artifact": "a2"
+        },
+        "parent_id": null,
+        "image_file": "images/01-a.png",
+        "sha256": "911783e35e5d0c381a4a60f9780226aa440208c0efb04382d5c7e8576f3aa600",
+        "prompt_sha256": "2616a19bb017c55202b8b3c8fba83236ec9a6cebcb17792b2b10f8a5156c7769",
+        "brief_sha256": "0f04f530f7323b0d3924d2fe52bd8b0daba049905df5c76c600a41eb99c8c0aa",
+        "width": 1254,
+        "height": 1254
+      },
+      "b": {
+        "source": {
+          "session": "seam-craft-2026",
+          "revision": 8,
+          "artifact": "b2"
+        },
+        "parent_id": null,
+        "image_file": "images/01-b.png",
+        "sha256": "b1bd5d181b19796938ffe2659abb18edcefa51cfba0e0479458da70824c540a8",
+        "prompt_sha256": "70eb297636561c6006a61acef950f81de3b20b6d07393bdd5b28429facb21672",
+        "brief_sha256": "0f04f530f7323b0d3924d2fe52bd8b0daba049905df5c76c600a41eb99c8c0aa",
+        "width": 1254,
+        "height": 1254
+      }
+    },
+    {
+      "id": "pair-02",
+      "a": {
+        "source": {
+          "session": "seam-craft-2026",
+          "revision": 8,
+          "artifact": "b1"
+        },
+        "parent_id": null,
+        "image_file": "images/02-a.png",
+        "sha256": "1ff9ad92a22c653afa9234861b35c033272a17a38f54ce9734a204eccfe79837",
+        "prompt_sha256": "cc36e4ec2d492e3b0a54d12629032d361d2695dac6186cfe4d6f7d0939b8294c",
+        "brief_sha256": "0f04f530f7323b0d3924d2fe52bd8b0daba049905df5c76c600a41eb99c8c0aa",
+        "width": 1254,
+        "height": 1254
+      },
+      "b": {
+        "source": {
+          "session": "seam-craft-2026",
+          "revision": 8,
+          "artifact": "a1"
+        },
+        "parent_id": null,
+        "image_file": "images/02-b.png",
+        "sha256": "0994f3080ed84870509f08c6a37c33c672fc53b09ad0309e3d68afbdecacf5bd",
+        "prompt_sha256": "d3dc84a60aa91de6ca33f602d01176aa01629f5aa7e73e074d28bf00d7e13a22",
+        "brief_sha256": "0f04f530f7323b0d3924d2fe52bd8b0daba049905df5c76c600a41eb99c8c0aa",
+        "width": 1254,
+        "height": 1254
+      }
+    },
+    {
+      "id": "pair-03",
+      "a": {
+        "source": {
+          "session": "seam-craft-2026",
+          "revision": 8,
+          "artifact": "a3"
+        },
+        "parent_id": null,
+        "image_file": "images/03-a.png",
+        "sha256": "36b18b41cb759651df414eb2d8a5d4fa7615b05bcfb51a1d2cff9e44e9e38b7d",
+        "prompt_sha256": "9a0e7073acfeb7c02963095064866bb0f148ad5bd150663075b914ade1126503",
+        "brief_sha256": "0f04f530f7323b0d3924d2fe52bd8b0daba049905df5c76c600a41eb99c8c0aa",
+        "width": 1254,
+        "height": 1254
+      },
+      "b": {
+        "source": {
+          "session": "seam-craft-2026",
+          "revision": 8,
+          "artifact": "b3"
+        },
+        "parent_id": null,
+        "image_file": "images/03-b.png",
+        "sha256": "2d822dd7e23fe293c18a8ff6ec05230d1b52bf2615ea81beb3239f458ca1b4a4",
+        "prompt_sha256": "44b5da3b95e3d05b635d4b99f09250f0e9fd4542b3fdfa8636ba9aa979548439",
+        "brief_sha256": "0f04f530f7323b0d3924d2fe52bd8b0daba049905df5c76c600a41eb99c8c0aa",
+        "width": 1254,
+        "height": 1254
+      }
+    }
+  ],
+  "seed": 20260919,
+  "ai_review_budget": 3,
+  "response_limit": 12,
+  "preview_note": "Diagnostic CSS simulation at 32/48/64/128 CSS px, light/dark surfaces, equal-size candidate peers. Not OS rendering, official platform sizes or store verification."
+}

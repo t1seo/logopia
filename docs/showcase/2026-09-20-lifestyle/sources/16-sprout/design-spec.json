@@ -1,0 +1,17 @@
+{
+  "central_idea_and_construction": "A compact cozy pixel-art sprout in a squat terracotta pot, designed on one coarse square grid. Two generous connected paddle-shaped leaves: left leaf rises one grid step higher and bends inward, right leaf reaches farther outward. Short thick stem; pot is wider than tall with a broad apricot rim and gently stair-stepped rounded lower corners. Four controlled solid colors, large readable clusters, one small darker green patch per leaf at most. No tiny soil specks or detached pixels. Crisp consistent pixel steps; warm inviting game sprite, not a corporate eco logo. Centered roughly 60% width and 68% height on white. No extra heart, sparkle, text, scene, shadow, gradient, dithering or border. Exclude the newly rejected combination of cream backing, dark teal and coral bent bars. Keep this candidate's specified color roles, without adding a cream tile.",
+  "color_roles": [
+    "fresh apple green leaves",
+    "deep leaf green shadows",
+    "clear terracotta-orange pot",
+    "golden apricot rim"
+  ],
+  "background_role": "plain white negative space; no inset outer tile",
+  "material": "flat ink / pixel clusters; no material rendering",
+  "small_size_signature": "Uneven leaf pair, short stem and low broad pot.",
+  "specific_risk": "Native raster may approximate a pixel grid; verify edges without claiming integer-grid certification.",
+  "reference_transfer": "Negative user screenshots analyzed as text: avoid severed slabs and nested squared Ls; no positive visual reference or borrowed signature.",
+  "structural_difference": "coarse-grid cozy pixel art",
+  "observations": "Recorded separately after viewing actual output.",
+  "latest_feedback": "Avoid cream/teal/coral bent-bar candidates in user-negative-3. Only text analysis passed."
+}

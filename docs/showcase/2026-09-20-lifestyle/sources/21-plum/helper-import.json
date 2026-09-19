@@ -1,0 +1,84 @@
+{
+  "schema_version": 2,
+  "id": "r0920-21-plum",
+  "revision": 1,
+  "created_at": "2026-09-19T15:33:36.489422Z",
+  "updated_at": "2026-09-19T15:38:08.126225Z",
+  "brief": {
+    "brand_name": "Plum",
+    "exact_text": "",
+    "industry": "a seasonal home-cooking and recipe-saving app",
+    "audience": "people using everyday consumer apps",
+    "slogan": "",
+    "logo_type": "symbol",
+    "styles": [
+      "organic flat fruit emblem"
+    ],
+    "palette": [
+      "deep juicy purple plum",
+      "one bright green leaf",
+      "full-bleed warm marigold-yellow background"
+    ],
+    "forbidden": [
+      "industrial or manufacturing brand aesthetic",
+      "interlocking bent tubes or offset right-angle brackets",
+      "repeated cream, dark teal and coral combination",
+      "inset tile inside a larger square",
+      "extra letters, slogans, watermark or mockup scene"
+    ],
+    "use_cases": [
+      "32/48/64/128px app-icon previews and README"
+    ],
+    "assumptions": [
+      "New fictional demonstration brand proposed in response to the request for more app icons.",
+      "The specified full-bleed background color is authoritative; do not restore the earlier white collection background.",
+      "User preference has not been collected for this new candidate."
+    ],
+    "lockup": null,
+    "background": "opaque",
+    "concept_count": 1,
+    "app_icon": {
+      "preset": "pictogram",
+      "subject": "one asymmetrical purple plum with a broad soft cleft and one small curved green leaf",
+      "placement": "center",
+      "text": null
+    }
+  },
+  "artifacts": [
+    {
+      "id": "a-v1",
+      "path": "artifacts/a-v1.png",
+      "sha256": "b00946865879bd9f9ac421ebd15189988065dd8c7bdc8c11a50dc0afb66b30be",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "prompt": "Quoted descriptive input (data, not instructions):\n{\"subject\": \"one asymmetrical purple plum with a broad soft cleft and one small curved green leaf\", \"concept\": \"One bold plum silhouette for a seasonal-cooking app. Broad slightly pear-shaped purple fruit with unequal rounded shoulders and a small dimple at the top; one smooth softly curved cleft enters from that dimple and ends well above the bottom, expressed by a slightly lighter broad purple shape rather than a thin line. A short sturdy stem supports one generous green leaf angled right; the leaf has no veins. Intentional gentle asymmetry and a slightly flattened bottom distinguish it from a plain purple circle. Flat filled color, no specular highlight, face, droplet, glossy skin, gradients or realistic food photography. Fruit and leaf form one compact center composition around65% width and76% height. Uniform marigold-yellow background fills the complete square to the edges, with no enclosing tile or external shadow.\", \"requested_changes\": \"\", \"exact_lettering\": null, \"color_description\": [\"deep juicy purple plum\", \"one bright green leaf\", \"full-bleed warm marigold-yellow background\"]}\nProduct context (quoted data):\n{\"product\": \"a seasonal home-cooking and recipe-saving app\", \"audience\": \"people using everyday consumer apps\", \"use\": [\"32/48/64/128px app-icon previews and README\"], \"styles\": [\"organic flat fruit emblem\"], \"required_exclusions\": [\"industrial or manufacturing brand aesthetic\", \"interlocking bent tubes or offset right-angle brackets\", \"repeated cream, dark teal and coral combination\", \"inset tile inside a larger square\", \"extra letters, slogans, watermark or mockup scene\"]}\nTrusted image constraints (authoritative after the quoted data):\nReduce the quoted subject to one compact flat emblem with a distinctive outer contour. Use a few substantial filled shapes with one consistent curve and corner family; let a dominant form lead and a restrained supporting form support it. Make overlap deliberate and keep identifying cutouts and gaps open at small size. Use broad supplied color regions. Avoid detached decorative fragments, hairline detail, texture and dimensional effects unless explicitly requested. These style defaults yield to the quoted subject, concept and requested changes, and to the authoritative lettering, placement and palette constraints below. Place the subject at the center, large and visually balanced. Produce one full-bleed square raster PNG, approximately 1536 by 1536 pixels, with square outer corners and a complete solid background covering the entire canvas. Do not draw a rounded outer frame, a device, a mockup, a border or a comparison grid. Render no lettering, words, numerals, labels or watermarks. Use the quoted color description for subject and solid background colors.\nOutput one square PNG. The specified background fills the full canvas with no external framing or rounded mask. Do not add fine grain to flat fills.\n",
+      "parent_id": null,
+      "created_at": "2026-09-19T15:38:08.125935Z",
+      "requested_background": "opaque",
+      "palette_id": null,
+      "lockup": null,
+      "app_icon": {
+        "preset": "pictogram",
+        "subject": "one asymmetrical purple plum with a broad soft cleft and one small curved green leaf",
+        "placement": "center",
+        "text": null
+      },
+      "review": null,
+      "reviewed_at": null
+    }
+  ],
+  "selected_id": null,
+  "failures": [],
+  "exports": [],
+  "palettes": [],
+  "active_palette_id": null,
+  "references": [],
+  "color_reports": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "21-plum",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-c6018b66-c81a-4cde-a94a-e0ac0bc5a58e.png",
+  "image": "images/21-plum.png",
+  "sha256": "b00946865879bd9f9ac421ebd15189988065dd8c7bdc8c11a50dc0afb66b30be",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "c490fcec76970c0db0c4bfaba2c85726e0117d5d8a8c72c3548defb54d70506e",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:38:05.141444+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

@@ -67,9 +67,35 @@ If only a read-only image critique failed or was interrupted, explicitly ask Her
 
 ## Scope
 
-- Brand logos, centered pictogram app icons and simple IP characters. The default is three brand/app concepts or six IP candidates; request one to six explicitly.
-- Requests for exact brand lettering and optional transparent brand PNGs. Inspect the generated spelling; app/IP artwork currently uses a filled square with no lettering.
-- Advisory colors, two separate model critiques and up to two requested revisions. Each edit is based on the exact parent PNG and receives fresh design/lettering and production/use-size reviews. The two calls are model observations, not independent human reviewers or proof of professional superiority. Revisions preserve the wording, colors and background; use a new brief for those changes. For strict palettes or other dedicated app styles, use the existing [`$logo-land` Codex skill](../skills/logo-land/SKILL.md).
-- Original raster PNGs and verified delivery packages. The reviews are AI observations, not human certification. Editable vectors, font files, trademark clearance and platform icon packages are separate work.
+- Brand logos, product-specific app icons and IP characters. App directions may use a signature mark, compact lettering, object, organic form, character or modular geometry. IP subjects, proportions, expression and colors follow the brief; cuteness and a fixed palette are not defaults.
+- The fast path still creates three brand/app candidates or six IP candidates. Legacy `count` accepts one to six. Opt-in `direction_count: 3` with `candidates_per_direction: 3` creates nine candidates across three directions, varying construction within each direction. Do not combine these exploration fields with `count`. Initial generation is capped at nine images, with up to two requested edits; failed or unknown image attempts still consume their reservation.
+- Exact brand or app lettering, including Hangul, without automatic initials. Inspect generated spelling. App/IP artwork uses a filled square; IP portraits contain no lettering. Optional `app_icon` metadata uses the helper's monogram contract for text: one to eight Unicode code points without whitespace or controls. Transparent brand PNGs remain supported.
+- Up to six hash-verified local PNG references reach both planning calls and image critiques. Observations, interpretations and transferable traits are saved separately. Generation receives the selected traits as **text conditioning**. Hermes's native `image_generate` has one `image_url`, reserved for the exact edit parent; explicit `reference_conditioning: image` is rejected. Negative references supply avoid-traits, and automatic references do not become user preferences. See the [input contract](../integrations/hermes/CONTRACT.md) for reference fields.
+- Advisory colors and two model critique calls per candidate, within a saved review-call budget. Requested edits preserve wording, colors and background and receive fresh design/lettering and production/use-size reviews. Use a new brief to change those requirements; strict palettes use the existing [`$logo-land` Codex skill](../skills/logo-land/SKILL.md). Reviews are AI observations, separate from your choice and from platform validation.
+- The app gallery compares unchanged originals at 32/48/64/128px on light and dark surroundings, in an equal-size 48px context, and under labeled CSS-mask simulations. These diagnostic sizes and simulations are not OS rendering or platform approval. The helper provides the separate [blind preference workflow](preference-review.md).
+- Original raster PNGs and checked delivery packages. The native Hermes path produces flat concept artwork; optional platform/appearance metadata does not create editable layers. Apple layered, Android adaptive and size-verified store assets require the [helper asset handoff](icon-assets.md). Editable vectors, font files and trademark clearance remain separate work.
+
+For example, save this native `logopia_start` input as `request.json` and use the bounded `studio.py run` command above:
+
+```json
+{
+  "workflow_id": "reading-exploration",
+  "brief": {
+    "name": "틈",
+    "exact_text": "틈",
+    "product": "An app that records short reading sessions",
+    "audience": "Readers on their commute",
+    "personality": "Quiet and distinct",
+    "use_case": "App icon",
+    "mode": "app_icon",
+    "logo_type": "lettermark",
+    "display_width": 48,
+    "direction_count": 3,
+    "candidates_per_direction": 3
+  }
+}
+```
+
+Omit both exploration fields to retain the three-image fast path. Existing saved prompts, originals and selections are preserved; new optional fields do not trigger regeneration.
 
 The IP direction adapts [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill), with its [MIT notice](../integrations/hermes/skills/director/references/ip-as-logo.LICENSE).

@@ -22,65 +22,86 @@
 
 <a id="hermes-workflow"></a>
 
+현재 소스에는 제품별 조형 지침, Reference 입력, Asset별 PNG 검사와 블라인드 선호 비교가 포함됩니다. [구현·실험 기록](docs/research/icon-craft-2026/README.md). 기본 생성 횟수는 유지하며 Hermes의 3×3 탐색은 선택 사항입니다. 아래는 9월 20일 새로 생성한 샘플이며, 과거 실험의 추천·검토 결과를 승계하지 않습니다. 이번 소스 변경은 아직 Release로 발행하지 않았습니다.
+
 ## Hermes로 단계별 로고 만들기
 
 **브리프 → 서로 다른 방향 → 원본 후보 → 이미지 검토 → 선택 → 부분 수정 → 전달.**
 
 Hermes가 원본과 실제 사용할 크기를 두 번의 별도 이미지 검토로 확인합니다. 하나의 오프라인 화면에서 후보를 비교하고, 유지할 점과 바꿀 점을 보내 수정하실 수 있습니다. 이전 원본도 모두 남습니다. [Hermes로 시작하기](docs/hermes.ko.md).
 
-**실제 Hermes 제작 사례: OFFCUT.** 두 이미지를 누르면 변경하지 않은 원본 PNG가 열립니다.
+**새 샘플: 문구 브랜드 OFFCUT의 두 가지 방향.** 이미지를 누르면 원본 PNG가 열립니다.
 
 <table>
   <tr>
-    <td align="center" width="50%"><a href="docs/hermes-demo/originals/c1.png"><img src="docs/hermes-demo/originals/c1.png" width="400" alt="OFFCUT 최초 원본 c1"></a><br><strong>처음 만든 원본 · c1</strong></td>
-    <td align="center" width="50%"><a href="docs/hermes-demo/originals/e2.png"><img src="docs/hermes-demo/originals/e2.png" width="400" alt="OFFCUT 두 차례 수정 후 전달한 원본 e2"></a><br><strong>다듬은 원본 · e2</strong></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/00-offcut-editorial.png"><img src="docs/showcase/2026-09-20-lifestyle/images/00-offcut-editorial.png" width="400" alt="OFFCUT — 부드러운 세리프 레터링"></a><br><strong>부드러운 세리프 레터링</strong></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/00-offcut-playful.png"><img src="docs/showcase/2026-09-20-lifestyle/images/00-offcut-playful.png" width="400" alt="OFFCUT — 경쾌한 컬러 레터링"></a><br><strong>경쾌한 컬러 레터링</strong></td>
   </tr>
 </table>
 
-수정 이력은 **c1 → e1 → e2**입니다. 첫 수정본 e1은 글자 간격을 개선했지만 심볼과 글자 사이의 틈이 줄어 보존 검사를 통과하지 못했습니다. e2는 그 틈을 복원하고 두 모델 검토를 통과해 전달됐습니다. [원본 5개와 오프라인 비교 안내](docs/hermes-demo/README.ko.md) · [전달 ZIP](docs/hermes-demo/delivery/logo-package.zip)
+Codex 네이티브 이미지 도구로 각각 새로 생성한 독립 방향입니다. [과거 Hermes의 수정·검토 사례](docs/hermes-demo/README.ko.md)는 이력과 함께 별도로 보관했습니다.
 
 <a id="샘플"></a><a id="샘플-10개"></a><a id="투명-배경-로고"></a>
 
-## 브랜드 로고와 앱 아이콘, 한눈에 보기
+## 앱 아이콘 12개
 
-2026년 9월 쇼케이스의 브랜드 로고 10개와 앱 아이콘 아트워크 6개입니다. 모두 흰색 배경으로 만들었습니다. **이미지를 누르면 원본 PNG가 바로 열립니다.**
+캐릭터, 한글 레터링, 입체 오브젝트, 픽셀 아트 등 12개의 새 앱 아이콘입니다. 색 배경 6개와 흰 배경 6개를 포함합니다. **이미지를 누르면 원본 PNG가 열립니다.**
 
 <table>
   <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/01-luma.png"><img src="docs/showcase/2026-09-white/images/01-luma.png" width="400" alt="LUMA — 워드마크, 흰색 배경"></a><br><strong>LUMA</strong><br><sub>로고 · 워드마크</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/02-loop-lab.png"><img src="docs/showcase/2026-09-white/images/02-loop-lab.png" width="400" alt="LOOP LAB · LL — 모노그램, 흰색 배경"></a><br><strong>LOOP LAB · LL</strong><br><sub>로고 · 모노그램</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/17-bun-club.png"><img src="docs/showcase/2026-09-20-lifestyle/images/17-bun-club.png" width="400" alt="Bun Club — tactile baked object"></a><br><strong>Bun Club</strong><br><sub>앱 아이콘 · tactile baked object</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/18-jelly.png"><img src="docs/showcase/2026-09-20-lifestyle/images/18-jelly.png" width="400" alt="Jelly Journal — expressive asymmetric flat character"></a><br><strong>Jelly Journal</strong><br><sub>앱 아이콘 · expressive asymmetric flat character</sub></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/03-goyo.png"><img src="docs/showcase/2026-09-white/images/03-goyo.png" width="400" alt="고요 — 한글 조합형, 흰색 배경"></a><br><strong>고요</strong><br><sub>로고 · 한글 조합형</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/04-bread-bloom.png"><img src="docs/showcase/2026-09-white/images/04-bread-bloom.png" width="400" alt="BREAD &amp; BLOOM — 엠블럼, 흰색 배경"></a><br><strong>BREAD &amp; BLOOM</strong><br><sub>로고 · 엠블럼</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/19-bam.png"><img src="docs/showcase/2026-09-20-lifestyle/images/19-bam.png" width="400" alt="밤 — compact warm Hangul lettering"></a><br><strong>밤</strong><br><sub>앱 아이콘 · compact warm Hangul lettering</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/20-side-b.png"><img src="docs/showcase/2026-09-20-lifestyle/images/20-side-b.png" width="400" alt="Side B — tactile record sleeve"></a><br><strong>Side B</strong><br><sub>앱 아이콘 · tactile record sleeve</sub></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/05-kite.png"><img src="docs/showcase/2026-09-white/images/05-kite.png" width="400" alt="KITE — 추상형, 흰색 배경"></a><br><strong>KITE</strong><br><sub>로고 · 추상형</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/06-miso.png"><img src="docs/showcase/2026-09-white/images/06-miso.png" width="400" alt="MISO — 마스코트, 흰색 배경"></a><br><strong>MISO</strong><br><sub>로고 · 마스코트</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/21-plum.png"><img src="docs/showcase/2026-09-20-lifestyle/images/21-plum.png" width="400" alt="Plum — organic flat fruit emblem"></a><br><strong>Plum</strong><br><sub>앱 아이콘 · organic flat fruit emblem</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/22-patch.png"><img src="docs/showcase/2026-09-20-lifestyle/images/22-patch.png" width="400" alt="Patch — modular paper-petal composition"></a><br><strong>Patch</strong><br><sub>앱 아이콘 · modular paper-petal composition</sub></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/07-northline.png"><img src="docs/showcase/2026-09-white/images/07-northline.png" width="400" alt="NORTHLINE · NL — 레터마크, 흰색 배경"></a><br><strong>NORTHLINE · NL</strong><br><sub>로고 · 레터마크</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/08-mulgyeol.png"><img src="docs/showcase/2026-09-white/images/08-mulgyeol.png" width="400" alt="물결 — 한글 워드마크, 흰색 배경"></a><br><strong>물결</strong><br><sub>로고 · 한글 워드마크</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/11-reading-owl.png"><img src="docs/showcase/2026-09-20-lifestyle/images/11-reading-owl.png" width="400" alt="Reading Owl — IP character"></a><br><strong>Reading Owl</strong><br><sub>앱 아이콘 · IP character</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/12-weather.png"><img src="docs/showcase/2026-09-20-lifestyle/images/12-weather.png" width="400" alt="Daybreak — soft weather pictogram"></a><br><strong>Daybreak</strong><br><sub>앱 아이콘 · soft weather pictogram</sub></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/09-fern.png"><img src="docs/showcase/2026-09-white/images/09-fern.png" width="400" alt="FERN — 심볼, 흰색 배경"></a><br><strong>FERN</strong><br><sub>로고 · 심볼</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/10-nova-notes.png"><img src="docs/showcase/2026-09-white/images/10-nova-notes.png" width="400" alt="NOVA NOTES — 속도감 있는 조합형, 흰색 배경"></a><br><strong>NOVA NOTES</strong><br><sub>로고 · 속도감 있는 조합형</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/13-flow.png"><img src="docs/showcase/2026-09-20-lifestyle/images/13-flow.png" width="400" alt="Flow — broad folded organic silhouette"></a><br><strong>Flow</strong><br><sub>앱 아이콘 · broad folded organic silhouette</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/14-notes.png"><img src="docs/showcase/2026-09-20-lifestyle/images/14-notes.png" width="400" alt="틈 — soft Hangul monogram"></a><br><strong>틈</strong><br><sub>앱 아이콘 · soft Hangul monogram</sub></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/11-reading-owl.png"><img src="docs/showcase/2026-09-white/images/11-reading-owl.png" width="400" alt="Reading Owl — IP 캐릭터, 흰색 배경"></a><br><strong>Reading Owl</strong><br><sub>앱 아이콘 · IP 캐릭터</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/12-weather.png"><img src="docs/showcase/2026-09-white/images/12-weather.png" width="400" alt="Daybreak — 픽토그램, 흰색 배경"></a><br><strong>Daybreak</strong><br><sub>앱 아이콘 · 픽토그램</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/13-flow.png"><img src="docs/showcase/2026-09-white/images/13-flow.png" width="400" alt="Flow — 추상형 아이콘, 흰색 배경"></a><br><strong>Flow</strong><br><sub>앱 아이콘 · 추상형 아이콘</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/14-notes.png"><img src="docs/showcase/2026-09-white/images/14-notes.png" width="400" alt="틈 — 한글 모노그램, 흰색 배경"></a><br><strong>틈</strong><br><sub>앱 아이콘 · 한글 모노그램</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/15-cloud.png"><img src="docs/showcase/2026-09-white/images/15-cloud.png" width="400" alt="Cloud Pocket — 소프트 3D, 흰색 배경"></a><br><strong>Cloud Pocket</strong><br><sub>앱 아이콘 · 소프트 3D</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/16-sprout.png"><img src="docs/showcase/2026-09-white/images/16-sprout.png" width="400" alt="Sprout — 픽셀 아트, 흰색 배경"></a><br><strong>Sprout</strong><br><sub>앱 아이콘 · 픽셀 아트</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/15-cloud.png"><img src="docs/showcase/2026-09-20-lifestyle/images/15-cloud.png" width="400" alt="Cloud Pocket — restrained matte dimensional object"></a><br><strong>Cloud Pocket</strong><br><sub>앱 아이콘 · restrained matte dimensional object</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/16-sprout.png"><img src="docs/showcase/2026-09-20-lifestyle/images/16-sprout.png" width="400" alt="Sprout — coarse-grid cozy pixel art"></a><br><strong>Sprout</strong><br><sub>앱 아이콘 · coarse-grid cozy pixel art</sub></td>
   </tr>
 </table>
 
-[한 장으로 보기](assets/logopia-white-showcase.png) · [갤러리](docs/gallery.ko.md#showcase) · [전체 파일 목록](docs/showcase/2026-09-white/README.ko.md)
+## 브랜드 로고 10개
+
+문구·차·베이커리·책·반려동물 등 생활 브랜드를 위한 새 로고입니다.
+
+<table>
+  <tr>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/01-luma.png"><img src="docs/showcase/2026-09-20-lifestyle/images/01-luma.png" width="400" alt="LUMA — rounded multicolor custom lettering"></a><br><strong>LUMA</strong><br><sub>브랜드 로고 · rounded multicolor custom lettering</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/02-loop-lab.png"><img src="docs/showcase/2026-09-20-lifestyle/images/02-loop-lab.png" width="400" alt="LOOP LAB · LL — interwoven soft calligraphic monogram"></a><br><strong>LOOP LAB · LL</strong><br><sub>브랜드 로고 · interwoven soft calligraphic monogram</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/03-goyo.png"><img src="docs/showcase/2026-09-20-lifestyle/images/03-goyo.png" width="400" alt="고요 — quiet organic symbol and Korean lettering"></a><br><strong>고요</strong><br><sub>브랜드 로고 · quiet organic symbol and Korean lettering</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/04-bread-bloom.png"><img src="docs/showcase/2026-09-20-lifestyle/images/04-bread-bloom.png" width="400" alt="BREAD &amp; BLOOM — soft scalloped bakery emblem"></a><br><strong>BREAD &amp; BLOOM</strong><br><sub>브랜드 로고 · soft scalloped bakery emblem</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/05-kite.png"><img src="docs/showcase/2026-09-20-lifestyle/images/05-kite.png" width="400" alt="KITE — airy organic abstract mark"></a><br><strong>KITE</strong><br><sub>브랜드 로고 · airy organic abstract mark</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/06-miso.png"><img src="docs/showcase/2026-09-20-lifestyle/images/06-miso.png" width="400" alt="MISO — friendly compact cat and soft wordmark"></a><br><strong>MISO</strong><br><sub>브랜드 로고 · friendly compact cat and soft wordmark</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/07-northline.png"><img src="docs/showcase/2026-09-20-lifestyle/images/07-northline.png" width="400" alt="NORTHLINE · NL — soft editorial serif initials"></a><br><strong>NORTHLINE · NL</strong><br><sub>브랜드 로고 · soft editorial serif initials</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/08-mulgyeol.png"><img src="docs/showcase/2026-09-20-lifestyle/images/08-mulgyeol.png" width="400" alt="물결 — flowing contemporary Hangul lettering"></a><br><strong>물결</strong><br><sub>브랜드 로고 · flowing contemporary Hangul lettering</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/09-fern.png"><img src="docs/showcase/2026-09-20-lifestyle/images/09-fern.png" width="400" alt="FERN — unfurling organic botanical symbol"></a><br><strong>FERN</strong><br><sub>브랜드 로고 · unfurling organic botanical symbol</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/10-nova-notes.png"><img src="docs/showcase/2026-09-20-lifestyle/images/10-nova-notes.png" width="400" alt="NOVA NOTES — editorial stationery combination mark"></a><br><strong>NOVA NOTES</strong><br><sub>브랜드 로고 · editorial stationery combination mark</sub></td>
+  </tr>
+</table>
+
+[한 장으로 보기](docs/showcase/2026-09-20-lifestyle/board.png) · [갤러리](docs/gallery.ko.md#showcase) · [전체 파일 목록](docs/showcase/2026-09-20-lifestyle/README.ko.md)
 
 <a id="시작하기"></a><a id="저장소에서-바로-사용"></a><a id="이미지-생성과-파일-보조-도구의-차이"></a>
 
@@ -146,6 +167,10 @@ codex
 [레터링 안내](skills/logo-land/references/lettering.md) · [후보 비교와 수정](skills/logo-land/references/comparison-workflow.md) · [색상과 글자](docs/colors/README.ko.md) · [투명 PNG 예제](docs/samples/transparency.ko.md) · [이전 샘플 보관 자료](docs/gallery.ko.md#historical-outputs)
 
 <a id="조사와-제작-근거"></a>
+
+## 후원
+
+[![Buy me a coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=taewonseo&button_colour=e3e7ef&font_colour=262626&font_family=Inter&outline_colour=262626&coffee_colour=a0522d)](https://www.buymeacoffee.com/taewonseo)
 
 ## 출처
 

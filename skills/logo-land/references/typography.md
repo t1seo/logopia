@@ -89,3 +89,10 @@ The [font-tools research](https://github.com/t1seo/logo-land/blob/main/docs/rese
 These are publisher declarations, not binary glyph tests or proof of generated spelling. The research links each selected family's OFL-1.1 file; naming a family does not establish actual font-file use. For a mixed-script brief, describe each treatment separately, for example “Space Grotesk-like Latin name with balanced Pretendard-like Korean slogan,” while preserving both exact strings.
 
 Google Fonts' catalog/CSS and metadata API, Adobe Fonts/Typekit's service/API, community font skills/MCPs, and fontTools' library are distinct surfaces. None is required here. The inspected community font suggestions do not validate individual Hangul glyphs; the download-oriented Microck MCP is excluded. Consult the research only when that distinction matters, and do not install or connect these tools as part of creating a logo.
+# Reference-informed typography
+
+Separate a wordmark's spacing and clear space from a mark or square app tile. Preserve
+requested expressive lettering, outlines and depth when they serve the title. Inspect
+specific counters, joins and adjacent pairs rather than preferring a generic SaaS font.
+The [visual reference route](visual-references.md) carries selected observed traits;
+brand names alone and claimed font identities are insufficient evidence.

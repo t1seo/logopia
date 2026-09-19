@@ -1,0 +1,14 @@
+{
+  "central_idea_and_construction": "One near-frontal little cloud-shaped pocket sculpted in smooth matte lilac porcelain. Three broad uneven cloud lobes form a clear silhouette; the largest lobe sits left of center. Across the lower third a single generous curved pocket opening forms a shallow smile-like crescent, dark lilac inside, with a softly rolled lip. No stitching, seams, separate envelope or face. Restrained shallow depth, nearly frontal perspective showing only a little top surface; broad upper-left soft light, minimal soft internal shading, no harsh highlights or shiny plastic. Silhouette should still be clear without material shading. Object occupies 75% width and 62% height, centered on a uniform white background. No floor, external cast shadow, vignette, glow, grain, star or outer rounded tile.",
+  "color_roles": [
+    "soft lilac object",
+    "deeper lilac shading within object"
+  ],
+  "background_role": "plain white negative space; no inset outer tile",
+  "material": "restrained matte porcelain",
+  "small_size_signature": "Three unequal lobes and one large pocket crescent.",
+  "specific_risk": "Shading can obscure the pocket at32px; white surround can expose unwanted cast shadow.",
+  "reference_transfer": "Negative user screenshots analyzed as text: avoid severed slabs and nested squared Ls; no positive visual reference or borrowed signature.",
+  "structural_difference": "restrained matte dimensional object",
+  "observations": "Recorded separately after viewing actual output."
+}

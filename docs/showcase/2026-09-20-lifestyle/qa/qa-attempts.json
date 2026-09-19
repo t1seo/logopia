@@ -1,0 +1,5 @@
+{
+  "first_attempt": "Gallery18 images,18 click-throughs and mobile checks completed; screenshot harness then failed because numeric-leading HTML IDs require an attribute CSS selector.",
+  "correction": "Use [id=\"...\"] in the QA locator. No product files or images changed.",
+  "image_tool_retries": 0
+}

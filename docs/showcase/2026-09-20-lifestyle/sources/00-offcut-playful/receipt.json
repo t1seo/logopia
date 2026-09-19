@@ -1,0 +1,22 @@
+{
+  "id": "00-offcut-playful",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-5c0b0774-fc03-48ff-a113-edea76c129ea.png",
+  "image": "images/00-offcut-playful.png",
+  "sha256": "db29a7ade0dcfe2e6e2b1e93f2a6631d4226e6361c40973b656a6f0e144c3727",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "c32ff977c25192d7b808386d5a59d2f14c13baf92bb3b95161d7d8e777fe43f1",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:12:46.561651+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

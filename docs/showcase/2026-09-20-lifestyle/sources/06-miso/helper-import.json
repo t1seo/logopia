@@ -1,0 +1,72 @@
+{
+  "schema_version": 2,
+  "id": "r0920-06-miso",
+  "revision": 1,
+  "created_at": "2026-09-19T15:11:01.218149Z",
+  "updated_at": "2026-09-19T15:23:02.205132Z",
+  "brief": {
+    "brand_name": "MISO",
+    "exact_text": "MISO",
+    "industry": "small-batch cat treats and companion-animal care",
+    "audience": "everyday consumer audiences; independent lifestyle businesses",
+    "slogan": "",
+    "logo_type": "mascot",
+    "styles": [
+      "friendly compact cat and soft wordmark"
+    ],
+    "palette": [
+      "warm apricot face",
+      "dark plum lettering and facial details",
+      "uniform white background"
+    ],
+    "forbidden": [
+      "industrial or manufacturing aesthetic",
+      "mechanical brackets, cut-metal blocks and engineering crests",
+      "extra lettering, slogans or watermarks",
+      "mockup scenes, collage or presentation board",
+      "colored canvas or transparent background"
+    ],
+    "use_cases": [
+      "brand identity at 240px width and README"
+    ],
+    "assumptions": [
+      "Fictional demonstration brand. Design decisions are assistant proposals; user preference is pending.",
+      "Preserve the existing exact string and white-background collection intent.",
+      "One independent original, square canvas. Color descriptions are intent, not certified pixel values."
+    ],
+    "lockup": null,
+    "background": "opaque",
+    "concept_count": 1
+  },
+  "artifacts": [
+    {
+      "id": "a-v1",
+      "path": "artifacts/a-v1.png",
+      "sha256": "b242a9c41422be88ace84e229728e46ad5cf095770372f6e912070fc29e7ef05",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "prompt": "Create one mascot logo for MISO. Exact text (copy verbatim, no other words): 'MISO'. Exact slogan: ''.\nRender only the supplied exact text and nonempty slogan; the brand context is not additional lettering. Empty strings request no corresponding text.\nIndustry: small-batch cat treats and companion-animal care. Audience: everyday consumer audiences; independent lifestyle businesses.\nStyles: friendly compact cat and soft wordmark. Original brief palette context: warm apricot face, dark plum lettering and facial details, uniform white background.\nAvoid: industrial or manufacturing aesthetic, mechanical brackets, cut-metal blocks and engineering crests, extra lettering, slogans or watermarks, mockup scenes, collage or presentation board, colored canvas or transparent background. Use cases: brand identity at 240px width and README.\nBackground: opaque. Produce a real PNG raster image. Use clean, readable shapes at small sizes; leave safe margins. Do not draw a transparency checkerboard, mockup, watermarks, or a concept grid.\nConcept direction: An original affectionate cat mascot centered above exactly MISO. A broad gently pear-shaped face, small rounded triangular ears, one sleepy half-closed eye and one simple upright oval eye, tiny curved mouth; distinctive asymmetry comes from a soft cheek rising on one side. The face is an apricot filled silhouette, eye and mouth marks in deep plum, no whiskers or fine fur. Underneath, MISO in custom plump but open rounded uppercase letters; the M shoulders and O share the cheek curvature. Keep the eyes simple and calm rather than cartoon-excited. Cat and name have a generous clear gap. Entire lockup centered at 57% width and 68% height. No props, paws, ribbons, badges or famous mascot resemblance.. Assumptions: Fictional demonstration brand. Design decisions are assistant proposals; user preference is pending., Preserve the existing exact string and white-background collection intent., One independent original, square canvas. Color descriptions are intent, not certified pixel values..\nLogo construction: Build a character mascot around the supplied subject and personality, with a compact identifiable silhouette and an intentional expression. Use style references for broad construction traits, not their brand words or traced signature shapes. The identity should remain recognizable in a one-color silhouette at the intended use size. This construction check does not replace the requested palette or request an extra monochrome image.\nLettering fidelity: preserve every Unicode character, capitalization, punctuation, space and reading order in the applicable text. Keep Hangul syllable blocks intact; do not translate, romanize, abbreviate or substitute lookalike glyphs. Shape changes must keep required text readable, including counters and joins at the intended size.\nOutput one square PNG containing only this single identity on a uniform white background. Clean, crisp raster edges; do not add paper grain or texture to flat ink.\n",
+      "parent_id": null,
+      "created_at": "2026-09-19T15:23:02.204794Z",
+      "requested_background": "opaque",
+      "palette_id": null,
+      "lockup": null,
+      "review": null,
+      "reviewed_at": null
+    }
+  ],
+  "selected_id": null,
+  "failures": [],
+  "exports": [],
+  "palettes": [],
+  "active_palette_id": null,
+  "references": [],
+  "color_reports": []
+}

@@ -7,6 +7,7 @@ from pydantic import Field, model_validator
 from .models_base import (
     CRITIQUE_LIMIT,
     EDIT_LIMIT,
+    ROLE_COUNT,
     Digest,
     FrozenModel,
     Identifier,
@@ -18,7 +19,9 @@ from .models_base import (
     Text,
 )
 from .models_brief import Direction, PlanResult, Strategy, StudioBrief
+from .models_budget import CallBudget
 from .models_jobs import Delivery, Feedback, Job, validate_retry_links
+from .models_references import DesignSpecification, ReferenceAnalysis, StudioReference
 from .models_review import Criterion, Critique, FeedbackEnvelope, GeneratedImage, ReviewInput
 
 __all__ = [
@@ -60,6 +63,12 @@ class Candidate(FrozenModel):
 
     id: Identifier
     direction_id: Identifier
+    candidate_slot: Annotated[int, Field(ge=1, le=3)] = 1
+    changed_variables: Annotated[tuple[Text, ...], Field(max_length=6)] = ()
+    references: Annotated[tuple[StudioReference, ...], Field(max_length=6)] = ()
+    reference_conditioning: Literal["none", "text"] = "none"
+    design_spec: DesignSpecification | None = None
+    reference_analysis: Annotated[tuple[ReferenceAnalysis, ...], Field(max_length=6)] = ()
     parent_id: Identifier | None
     image_path: Text
     sha256: Digest
@@ -83,21 +92,41 @@ class Workflow(FrozenModel):
     phase: Phase = "draft"
     strategy: Strategy | None = None
     directions: Annotated[tuple[Direction, ...], Field(max_length=6)] = ()
-    candidates: Annotated[tuple[Candidate, ...], Field(max_length=8)] = ()
+    candidates: Annotated[tuple[Candidate, ...], Field(max_length=11)] = ()
     selected_id: Identifier | None = None
-    jobs: Annotated[tuple[Job, ...], Field(max_length=32)] = ()
+    jobs: Annotated[tuple[Job, ...], Field(max_length=35)] = ()
     feedback: Annotated[tuple[Feedback, ...], Field(max_length=2)] = ()
     delivery: Delivery | None = None
     last_error: Annotated[str, Field(max_length=64000)] | None = None
+
+    @property
+    def call_budget(self) -> CallBudget:
+        review_jobs = tuple(job for job in self.jobs if job.kind == "critique")
+        return CallBudget(
+            initial_images_reserved=sum(job.kind == "generate" for job in self.jobs),
+            initial_image_limit=self.brief.effective_count,
+            edit_images_reserved=sum(job.kind == "edit" for job in self.jobs),
+            edit_image_limit=EDIT_LIMIT,
+            planning_llm_calls_reserved=ROLE_COUNT * sum(job.kind == "plan" for job in self.jobs),
+            review_llm_calls_reserved=ROLE_COUNT * len(review_jobs),
+            review_llm_call_limit=self.brief.effective_review_call_budget,
+            explicit_review_recoveries=len(review_jobs)
+            - len({job.candidate_id for job in review_jobs}),
+        )
+
+    @property
+    def reference_analysis(self) -> tuple[ReferenceAnalysis, ...]:
+        return next((job.plan.reference_analysis for job in self.jobs if job.plan is not None), ())
 
     @model_validator(mode="after")
     def consistent_graph(self) -> Self:
         directions = {item.id for item in self.directions}
         if len(directions) != len(self.directions) or (
-            self.directions and len(directions) != self.brief.effective_count
+            self.directions and len(directions) != self.brief.effective_direction_count
         ):
             raise StudioError("invalid_state", "Direction count/identity differs from saved brief")
         seen: set[str] = set()
+        original_slots: set[tuple[str, int]] = set()
         for candidate in self.candidates:
             if (
                 candidate.id in seen
@@ -111,6 +140,13 @@ class Workflow(FrozenModel):
                     "invalid_state", "Candidate path differs from its deterministic artifact"
                 )
             seen.add(candidate.id)
+            if candidate.candidate_slot > self.brief.candidates_per_direction:
+                raise StudioError("invalid_state", "Candidate slot exceeds the saved exploration")
+            if candidate.parent_id is None:
+                slot = (candidate.direction_id, candidate.candidate_slot)
+                if slot in original_slots:
+                    raise StudioError("invalid_state", "Duplicate original candidate slot")
+                original_slots.add(slot)
         if self.selected_id is not None and self.selected_id not in seen:
             raise StudioError("invalid_state", "Selection does not exist")
         if self.delivery is not None and self.delivery.artifact_id != self.selected_id:
@@ -119,6 +155,8 @@ class Workflow(FrozenModel):
 
     @model_validator(mode="after")
     def bounded_jobs(self) -> Self:
+        if self.call_budget.review_llm_calls_reserved > self.brief.effective_review_call_budget:
+            raise StudioError("invalid_state", "Review LLM call budget exceeded")
         validate_retry_links(self.jobs, {candidate.id for candidate in self.candidates})
         if len({job.id for job in self.jobs}) != len(self.jobs):
             raise StudioError("invalid_state", "Duplicate job identity")
@@ -128,6 +166,11 @@ class Workflow(FrozenModel):
             raise StudioError("invalid_state", "Edit attempt budget exceeded")
         if sum(job.kind == "generate" for job in self.jobs) > self.brief.effective_count:
             raise StudioError("invalid_state", "Initial image attempt budget exceeded")
+        generated_slots = [
+            (job.direction_id, job.candidate_slot) for job in self.jobs if job.kind == "generate"
+        ]
+        if len(set(generated_slots)) != len(generated_slots):
+            raise StudioError("invalid_state", "A generation slot cannot be dispatched twice")
         for candidate in self.candidates:
             if (
                 sum(

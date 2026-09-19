@@ -1,0 +1,36 @@
+{
+  "brand_name": "틈",
+  "industry": "A mobile app for short unhurried walks and screen breaks during a busy working day.",
+  "audience": "Desk workers who want a small pause outdoors without goals, streaks or productivity pressure.",
+  "logo_type": "symbol",
+  "styles": [
+    "confident and warm",
+    "distinct silhouette",
+    "intentional asymmetric balance"
+  ],
+  "forbidden": [
+    "hearts",
+    "leaves",
+    "flames",
+    "stars or AI sparkles",
+    "infinity or orbit motifs",
+    "stock UI glyphs",
+    "device mockups",
+    "nested rounded tiles"
+  ],
+  "use_cases": [
+    "Mobile app icon identifiable at 32 and 48px on a real-size app grid"
+  ],
+  "background": "opaque",
+  "exact_text": "",
+  "palette": [
+    "Main form: vivid cobalt #244EDB",
+    "Entire background: warm apricot #F4BC83"
+  ],
+  "app_icon": {
+    "preset": "abstract",
+    "subject": "one broad asymmetric arch with a generous open passage",
+    "placement": "center",
+    "text": null
+  }
+}

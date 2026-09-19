@@ -1,0 +1,14 @@
+{
+  "id": "07-northline",
+  "reviewer": "assistant visual inspection",
+  "review_kind": "descriptive observation; no separate model review call",
+  "evidence": "native tool returned original viewed at1254×1254",
+  "observed_features": "Distinct aubergine N and L with curved serif transitions and a sweeping L foot. No mountain, cut or squared bracket.",
+  "limitations": "Thin serifs and the small top gap between N and L need larger brand-display widths.",
+  "small_size_status": "Inspected original canvas at240px width in Chrome; not judged as a32px app icon.",
+  "production_qa": "file validation recorded separately",
+  "ai_recommendation": "none",
+  "user_selection": "not collected",
+  "platform_validation": "not performed",
+  "small_size_evidence": "qa/lettering.png"
+}

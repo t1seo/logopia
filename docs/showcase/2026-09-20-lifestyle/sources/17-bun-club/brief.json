@@ -1,0 +1,37 @@
+{
+  "brand_name": "Bun Club",
+  "exact_text": "",
+  "industry": "a personal baking recipe and kitchen journal app",
+  "audience": "people using everyday consumer apps",
+  "logo_type": "symbol",
+  "styles": [
+    "tactile baked object"
+  ],
+  "palette": [
+    "golden honey bread with warm toasted seam",
+    "full-bleed saturated cornflower blue background"
+  ],
+  "background": "opaque",
+  "concept_count": 1,
+  "app_icon": {
+    "preset": "soft_3d",
+    "subject": "one small round milk bun with a single broad crosswise split and three pillowy lobes",
+    "placement": "center",
+    "text": null
+  },
+  "use_cases": [
+    "32/48/64/128px app-icon previews and README"
+  ],
+  "forbidden": [
+    "industrial or manufacturing brand aesthetic",
+    "interlocking bent tubes or offset right-angle brackets",
+    "repeated cream, dark teal and coral combination",
+    "inset tile inside a larger square",
+    "extra letters, slogans, watermark or mockup scene"
+  ],
+  "assumptions": [
+    "New fictional demonstration brand proposed in response to the request for more app icons.",
+    "The specified full-bleed background color is authoritative; do not restore the earlier white collection background.",
+    "User preference has not been collected for this new candidate."
+  ]
+}

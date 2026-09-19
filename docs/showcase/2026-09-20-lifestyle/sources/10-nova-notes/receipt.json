@@ -1,0 +1,22 @@
+{
+  "id": "10-nova-notes",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-ba125a61-d951-43b1-bd1c-ce2558b82c75.png",
+  "image": "images/10-nova-notes.png",
+  "sha256": "bfb69201b1563b0d0f66c177ca16054a66cf271d369d526d6a04886f8587fb52",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "2bda0ae7abb4952b7d070769a66ed2e913b6e14f98e16ea6834f59f7f905e881",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:18:31.372878+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

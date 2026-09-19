@@ -1,0 +1,14 @@
+{
+  "central_idea_and_construction": "One broad filled abstract silhouette for a calm focus app, suggesting a soft fabric sail opening rather than a bent line. An asymmetrical plump triangular form has three smooth convex sides with deeply rounded corners. Its top tip bends inward once, making one large rounded white teardrop-shaped opening connected to the right outside edge through a broad open mouth. The form has generous solid mass, not a uniform-thickness stroke, tube, ring or letter. Low compact footprint, broad stable base, one gentle lift at the upper left. Vivid ultramarine-blue flat ink on white, centered at about 68% width and 65% height. No paired interlocking segments, coral accent, cream tile, infinity loop, S-shaped tube, bracket, orbit, arrowhead, generic spiral or cutout slashes. No texture, shading, separate dot, sparkle or enclosing tile. Exclude the newly rejected combination of cream backing, dark teal and coral bent bars. Keep this candidate's specified color roles, without adding a cream tile.",
+  "color_roles": [
+    "vivid ultramarine blue"
+  ],
+  "background_role": "plain white negative space; no inset outer tile",
+  "material": "flat ink / pixel clusters; no material rendering",
+  "small_size_signature": "Solid asymmetric outer mass and one generous teardrop opening.",
+  "specific_risk": "The opening can become a generic loop if the outer mass gets too narrow.",
+  "reference_transfer": "Negative user screenshots analyzed as text: avoid severed slabs and nested squared Ls; no positive visual reference or borrowed signature.",
+  "structural_difference": "broad folded organic silhouette",
+  "observations": "Recorded separately after viewing actual output.",
+  "latest_feedback": "Avoid cream/teal/coral bent-bar candidates in user-negative-3. Only text analysis passed."
+}

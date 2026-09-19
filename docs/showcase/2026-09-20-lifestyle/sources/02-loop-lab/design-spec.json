@@ -1,0 +1,13 @@
+{
+  "central_idea_and_construction": "Exactly two capital L letters as a compact, elegant, friendly LL ligature for a textile workshop. Each L has a tall open loop at its top and a soft sweeping foot at the bottom. Place the second slightly lower to the right; let the two broad ribbon-like strokes meet in one carefully designed under-over crossing with a clean white separation at that crossing. Both L letter paths must remain readable, with large open loops and no more than one crossing. Moderately thick gently varying stroke widths; no hairlines. The outside silhouette is rounded, airy and almost heart-warm, without drawing a heart symbol. Mark occupies roughly 62% width and 65% height at center. Flat monochrome ink, no 3D ribbon shading. Absolutely no square-ended L blocks, nested right-angle brackets, construction beams or angular monogram.",
+  "color_roles": [
+    "single rich raspberry red"
+  ],
+  "background_role": "plain white negative space; no inset outer tile",
+  "material": "flat ink / pixel clusters; no material rendering",
+  "small_size_signature": "Two open upper loops and the swept double foot.",
+  "specific_risk": "An over-complex crossing could look like a knot rather than LL.",
+  "reference_transfer": "Negative user screenshots analyzed as text: avoid severed slabs and nested squared Ls; no positive visual reference or borrowed signature.",
+  "structural_difference": "interwoven soft calligraphic monogram",
+  "observations": "Recorded separately after viewing actual output."
+}

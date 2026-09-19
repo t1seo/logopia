@@ -1,0 +1,14 @@
+{
+  "central_idea_and_construction": "One cohesive little record-in-sleeve object for a music-discovery app. A charcoal circular vinyl record is half tucked into a warm sunny-yellow paper sleeve. The sleeve is a slightly squat near-square with softly rounded paper corners and one shallow thumb scoop at its top; the exposed record semicircle rises clearly above it. The record has one broad center label and no fine concentric grooves. Nearly frontal view, a gentle6-degree lean only, shallow paper thickness and restrained matte depth. Soft broad light, clean silhouette and large color regions. Entire joined object fills66% width and74% height, centered. The real square background is uniformly clear sky blue, extending to all edges. No table, cast shadow, perspective mockup, text, music note, play button, inset rounded tile, industrial metal texture or glossy highlights.",
+  "color_roles": [
+    "sunny yellow paper sleeve",
+    "charcoal record with a small yellow center",
+    "full-bleed clear sky-blue background"
+  ],
+  "background_role": "full-bleed clear sky-blue background",
+  "small_size_signature": "Record semicircle above the yellow sleeve and one center label.",
+  "specific_risk": "The sleeve/record can become a generic music glyph if material and proportions are not restrained and coherent.",
+  "reference_transfer": "User negative references analyzed as text; no screenshot conditioning and no positive brand-copy reference.",
+  "structural_difference": "tactile record sleeve",
+  "observations": "Recorded separately after viewing the native original."
+}

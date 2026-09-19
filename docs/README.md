@@ -10,14 +10,16 @@ Start with what your brand should mean, choose a fitting shape, then refine the 
 |---|---|
 | Direct and review a logo with Hermes | [Hermes workflow and setup](hermes.md) |
 | Try your first logo with Codex | [Quickstart and example requests](../README.md#installation) |
-| See the sixteen-logo showcase | [White-background showcase board](../assets/logopia-white-showcase.png) · [September 2026 gallery](gallery.md#showcase) |
+| See the24 new samples | [Everyday identities board](showcase/2026-09-20-lifestyle/board.png) · [September 2026 gallery](gallery.md#showcase) |
 | Use the skill in other projects | [Full installation guide](installation.md) |
-| Download an example | [Current showcase PNG inventory](showcase/2026-09-white/README.md) |
+| Download an example | [Current showcase PNG inventory](showcase/2026-09-20-lifestyle/README.md) |
 
 ## Samples
 
-- [OFFCUT Hermes example](hermes-demo/README.md): three initial originals, two exact-parent edits and the delivered e2 ZIP. The first edit's failed preservation check remains visible. Download the folder and open its HTML page locally for the offline comparison.
-- [September 2026 gallery](gallery.md): ten brand logos and six app icon artworks on white, with all sixteen direct original links preserved.
+- [September 20 refresh:24 new samples](showcase/2026-09-20-lifestyle/README.md): original PNGs, exact prompts and size/context diagnostics for everyday brands and apps.
+- [September 19 icon craft comparison](research/icon-craft-2026/README.md): six native originals and preserved baseline prompts. The user subsequently rejected Candidate2/5; this experiment is not evidence of improved preference.
+- [Historical OFFCUT Hermes example](hermes-demo/README.md): three initial originals, two exact-parent edits and the delivered e2 ZIP. The first edit's failed preservation check remains visible. Download the folder and open its HTML page locally for the offline comparison.
+- [September 2026 gallery](gallery.md): ten brand logos, twelve app icon artworks (six white and six colored backgrounds), and two OFFCUT directions, with all 24 originals linked.
 - [Brand samples](samples/README.md): the refreshed LUMA, LOOP LAB, 고요, BREAD & BLOOM, KITE, MISO, NORTHLINE / NL, 물결, FERN and NOVA NOTES set, with links to earlier examples.
 - [Logopia identity](brand/README.md): colorful lowercase game-title lettering on white, plus earlier designs.
 - [Earlier app icon studies](app-icons/README.md): six IP candidates and five original/revised pairs from the previous collection.
@@ -34,6 +36,7 @@ Every [sample in the README](../README.md#samples) opens its original PNG direct
 | Letter shapes and logo forms | [Letter construction](../skills/logo-land/references/lettering.md) · [Logo directions](../skills/logo-land/references/logo-directions.md) · [Lettering and font references](../skills/logo-land/references/typography.md) |
 | Palette choices and changes | [Colors and palettes](../skills/logo-land/references/color-workflow.md) |
 | Small square artwork | [App icon artwork](../skills/logo-land/references/app-icons.md) |
+| Visual references, platform intent and blind comparison | [Reference input](../skills/logo-land/references/visual-references.md) · [Asset checks](icon-assets.md) · [Preference review](preference-review.md) |
 | Choosing and refining a candidate | [Comparison workflow](../skills/logo-land/references/comparison-workflow.md) |
 | Resuming a saved project | [Revision history and project files](../skills/logo-land/references/project-files.md) |
 | Preparing a reviewed delivery | [Delivery checks](../skills/logo-land/references/delivery-checks.md) |

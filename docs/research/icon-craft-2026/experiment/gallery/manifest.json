@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "kind": "app_icon_gallery",
+  "session_id": "seam-craft-2026",
+  "revision": 8,
+  "artifacts": [
+    {
+      "artifact_id": "a1",
+      "parent_id": null,
+      "image_file": "images/a1.png",
+      "prompt_file": "prompts/a1.txt",
+      "sha256": "0994f3080ed84870509f08c6a37c33c672fc53b09ad0309e3d68afbdecacf5bd",
+      "prompt_sha256": "d3dc84a60aa91de6ca33f602d01176aa01629f5aa7e73e074d28bf00d7e13a22",
+      "width": 1254,
+      "height": 1254,
+      "app_icon": {
+        "preset": "pictogram",
+        "subject": "one folded note page with a broad open corner",
+        "placement": "center",
+        "text": null
+      }
+    },
+    {
+      "artifact_id": "a2",
+      "parent_id": null,
+      "image_file": "images/a2.png",
+      "prompt_file": "prompts/a2.txt",
+      "sha256": "911783e35e5d0c381a4a60f9780226aa440208c0efb04382d5c7e8576f3aa600",
+      "prompt_sha256": "2616a19bb017c55202b8b3c8fba83236ec9a6cebcb17792b2b10f8a5156c7769",
+      "width": 1254,
+      "height": 1254,
+      "app_icon": {
+        "preset": "abstract",
+        "subject": "two substantial offset strips joining in one compact rhythmic gesture",
+        "placement": "center",
+        "text": null
+      }
+    },
+    {
+      "artifact_id": "a3",
+      "parent_id": null,
+      "image_file": "images/a3.png",
+      "prompt_file": "prompts/a3.txt",
+      "sha256": "36b18b41cb759651df414eb2d8a5d4fa7615b05bcfb51a1d2cff9e44e9e38b7d",
+      "prompt_sha256": "9a0e7073acfeb7c02963095064866bb0f148ad5bd150663075b914ade1126503",
+      "width": 1254,
+      "height": 1254,
+      "app_icon": {
+        "preset": "soft_3d",
+        "subject": "one folded paper slip with a shallow central ridge",
+        "placement": "center",
+        "text": null
+      }
+    },
+    {
+      "artifact_id": "b1",
+      "parent_id": null,
+      "image_file": "images/b1.png",
+      "prompt_file": "prompts/b1.txt",
+      "sha256": "1ff9ad92a22c653afa9234861b35c033272a17a38f54ce9734a204eccfe79837",
+      "prompt_sha256": "cc36e4ec2d492e3b0a54d12629032d361d2695dac6186cfe4d6f7d0939b8294c",
+      "width": 1254,
+      "height": 1254,
+      "app_icon": {
+        "preset": "pictogram",
+        "subject": "one solid folded note with a wide open stepped corner",
+        "placement": "center",
+        "text": null
+      }
+    },
+    {
+      "artifact_id": "b2",
+      "parent_id": null,
+      "image_file": "images/b2.png",
+      "prompt_file": "prompts/b2.txt",
+      "sha256": "b1bd5d181b19796938ffe2659abb18edcefa51cfba0e0479458da70824c540a8",
+      "prompt_sha256": "70eb297636561c6006a61acef950f81de3b20b6d07393bdd5b28429facb21672",
+      "width": 1254,
+      "height": 1254,
+      "app_icon": {
+        "preset": "abstract",
+        "subject": "two broad paper strips forming one open offset zigzag join",
+        "placement": "center",
+        "text": null
+      }
+    },
+    {
+      "artifact_id": "b3",
+      "parent_id": null,
+      "image_file": "images/b3.png",
+      "prompt_file": "prompts/b3.txt",
+      "sha256": "2d822dd7e23fe293c18a8ff6ec05230d1b52bf2615ea81beb3239f458ca1b4a4",
+      "prompt_sha256": "44b5da3b95e3d05b635d4b99f09250f0e9fd4542b3fdfa8636ba9aa979548439",
+      "width": 1254,
+      "height": 1254,
+      "app_icon": {
+        "preset": "soft_3d",
+        "subject": "one shallow folded ink paper saddle with a single coral turned edge",
+        "placement": "center",
+        "text": null
+      }
+    }
+  ],
+  "preview_note": "Masks are illustrative CSS previews; original PNG bytes are unchanged."
+}

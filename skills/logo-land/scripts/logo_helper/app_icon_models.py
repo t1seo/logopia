@@ -5,6 +5,7 @@ from unicodedata import category
 
 from pydantic import Field, model_validator
 
+from logo_helper.asset_models import IconAssetIntent, absent_asset
 from logo_helper.model_base import Background, FrozenModel, ProjectError
 
 type AppIconPreset = Literal[
@@ -21,6 +22,7 @@ class AppIconIntent(FrozenModel):
     subject: Annotated[str, Field(min_length=1, max_length=500, pattern=r"\S")]
     placement: AppIconPlacement
     text: str | None = None
+    asset: IconAssetIntent | None = Field(default=None, exclude_if=absent_asset)
 
     @model_validator(mode="after")
     def lettering_contract(self) -> Self:

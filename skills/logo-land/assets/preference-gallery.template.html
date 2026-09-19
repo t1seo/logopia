@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blind app icon comparison</title>
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; color: #202722; background: #f5f4ee; font: 15px/1.5 system-ui, sans-serif; }
+main { max-width: 1260px; margin: auto; padding: 32px; }
+h1 { font-size: clamp(30px, 4vw, 52px); font-weight: 600; line-height: 1.1; }
+h2 { font-size: 22px; } h3 { margin: 0 0 16px; font-size: 16px; }
+a { color: inherit; text-underline-offset: 3px; }
+button, select, input, textarea { font: inherit; }
+textarea { width: 100%; padding: 10px; border: 1px solid #8e9a8f; border-radius: 6px; background: #fff; }
+button, select, input[type="text"] { border: 1px solid #7d897c; border-radius: 6px; padding: 10px; }
+button { background: #253b2c; color: #fff; cursor: pointer; }
+:focus-visible { outline: 3px solid #516fb0; outline-offset: 4px; }
+.intro, .brief, .references, .controls, .pair, .response { margin-bottom: 24px; }
+.brief { white-space: pre-wrap; overflow-wrap: anywhere; padding: 20px; border-left: 3px solid #778b73; background: #fff; }
+.references li { margin-bottom: 18px; } .references p { margin: 6px 0; }
+.reference-image { max-width: 320px; max-height: 220px; object-fit: contain; }
+.controls { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; }
+.pair { background: #fff; border: 1px solid #ced5cc; padding: 24px; border-radius: 12px; }
+.pair-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.candidate { min-width: 0; }
+.size-strip { display: flex; align-items: center; flex-wrap: wrap; justify-content: center; gap: 18px; margin: 10px 0; padding: 20px 12px; min-height: 196px; }
+figure { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 8px; }
+figcaption, .dimensions { font-size: 11px; }
+.dimensions { margin-left: 12px; color: #5c655c; }
+img { object-fit: contain; flex: none; }
+.light { background: #edf0e8; color: #253022; }
+.dark { background: #222824; color: #eef3ee; }
+body:has(#mask-rounded:checked) :is(.size-strip, .home, .app-list) img { border-radius: 23%; }
+body:has(#mask-circle:checked) :is(.size-strip, .home, .app-list) img { border-radius: 50%; }
+.peer-context { margin: 20px 0; }
+summary { cursor: pointer; }
+.home { display: flex; flex-wrap: wrap; gap: 22px; padding: 20px; margin-top: 12px; }
+.app-list { padding: 20px; margin-top: 12px; }
+.app-list figure { flex-direction: row; gap: 18px; margin: 0 0 12px; }
+.outcomes { border: 0; margin: 28px 0 18px; padding: 0; display: flex; flex-wrap: wrap; gap: 16px; }
+.outcomes legend { margin-bottom: 10px; font-weight: 600; }
+.outcomes label { padding: 9px 12px; background: #f0f3ec; border-radius: 6px; }
+.evidence { display: grid; gap: 8px; }
+.evidence textarea { margin-bottom: 10px; }
+.response { display: grid; gap: 16px; max-width: 720px; }
+.response input[type="text"] { width: 100%; }
+.note { color: #56604f; font-size: 13px; }
+footer { margin-top: 36px; padding-top: 20px; border-top: 1px solid #ced5cc; }
+@media (max-width: 760px) { main { padding: 20px 12px; } .pair { padding: 16px; } .pair-grid { gap: 12px; } .size-strip { padding: 16px 8px; gap: 12px; } }
+@media (max-width: 420px) { .pair-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main>
+<header class="intro"><p>LOGOPIA · $count blinded comparisons</p><h1>Which form fits this product?</h1><p>Inspect each pair under identical conditions. Method names, creator opinions and source IDs are omitted. A preference records an observation; it does not approve files or select a final artifact.</p></header>
+<section aria-label="Shared product brief"><h2>Shared brief</h2><div class="brief">$brief</div></section>
+<details class="references" open><summary>Relevant reference evidence</summary><ul>$references</ul></details>
+<form id="preference-form" data-manifest-hash="$digest">
+<fieldset class="controls"><legend>CSS mask simulation</legend>
+<label><input id="mask-square" type="radio" name="mask" value="square" checked>Square</label>
+<label><input id="mask-rounded" type="radio" name="mask" value="rounded">Rounded</label>
+<label><input id="mask-circle" type="radio" name="mask" value="circle">Circle</label>
+</fieldset>
+<p class="note">32/48/64/128 CSS px are diagnostic viewing sizes, not official platform requirements. Light/dark surfaces, CSS masks and candidate-peer home/list arrangements are simulations, not native OS rendering. Browser zoom and device pixel ratio affect physical size. Original PNG bytes are unchanged.</p>
+$cards
+<section class="response" aria-label="Record reviewer identity">
+<h2>Download your observations</h2>
+<label for="reviewer">Reviewer name<input id="reviewer" name="reviewer" type="text" maxlength="2000" required></label>
+<label><input id="inspected" type="checkbox" required>I inspected both light/dark surfaces, 32 px details and equal-size peer context.</label>
+<button type="submit">Download preference response JSON</button>
+<p id="response-status" role="status"></p>
+<p class="note">This browser form records a user response. An AI response must identify reviewer_kind as ai and report actual review_calls. This comparison allows up to $budget recorded AI review calls; this page makes no model calls.</p>
+</section>
+</form>
+<footer><p>Apply the downloaded JSON with <code>logo_project.py preference-record --gallery &lt;folder&gt; --response-file &lt;download.json&gt;</code>. This saves a separate preference sidecar only. QA, AI recommendation, user selection and platform validation stay separate.</p><p>Blinding hides labels in the review interface, not file-system access. The organizer manifest must be withheld from reviewers until their response is saved. Local references are not licensed for redistribution merely by appearing here.</p></footer>
+</main>
+<script>
+"use strict";
+document.getElementById("preference-form").addEventListener("submit", function (event) {
+  event.preventDefault();
+  const form = event.currentTarget;
+  const status = document.getElementById("response-status");
+  const fieldNames = ["brief_reference_fit", "shape_background", "craft_detail", "effects_material", "distinctiveness", "small_size_32", "peer_context"];
+  const decisions = Array.from(document.querySelectorAll(".pair")).map(function (pair) {
+    const observations = {};
+    for (const key of fieldNames) observations[key] = pair.querySelector('[name="' + key + '"]').value.trim();
+    return {pair_id: pair.dataset.pair, a_sha256: pair.dataset.aHash, b_sha256: pair.dataset.bHash,
+      outcome: pair.querySelector('input[name="' + pair.dataset.pair + '-outcome"]:checked').value,
+      observations: observations};
+  });
+  if (!form.querySelector("#reviewer").value.trim() || decisions.some(function (decision) {
+    return Object.values(decision.observations).some(function (value) { return value.length === 0; });
+  })) { status.textContent = "Add concrete observations and your reviewer name before downloading."; return; }
+  const response = {schema_version: 1, manifest_sha256: form.dataset.manifestHash,
+    reviewer: form.querySelector("#reviewer").value.trim(), reviewer_kind: "user", review_calls: 0,
+    context: {kind: "simulation", sizes: [32, 48, 64, 128], surfaces: ["light", "dark"],
+      mask: form.querySelector('input[name="mask"]:checked').value, peer_context: true},
+    decisions: decisions};
+  const url = URL.createObjectURL(new Blob([JSON.stringify(response, null, 2) + "\n"], {type: "application/json"}));
+  const link = document.createElement("a"); link.href = url; link.download = "preference-response.json";
+  document.body.appendChild(link); link.click(); link.remove();
+  setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+  status.textContent = "Response downloaded. No project selection or approval changed.";
+});
+</script>
+</body>
+</html>

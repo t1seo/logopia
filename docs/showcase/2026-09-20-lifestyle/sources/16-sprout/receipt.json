@@ -1,0 +1,22 @@
+{
+  "id": "16-sprout",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-cecc8ad4-59dd-4e54-be96-6622345c2391.png",
+  "image": "images/16-sprout.png",
+  "sha256": "5872d1cc973f8892051afbdd55fc4ff563fc19cb44a9159235ff7a6e7f885df8",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "94cb301855bd64a2215dfcad9ff76fd0209f1a86aa8d260d83d21fabb751bbe7",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:22:59.036177+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

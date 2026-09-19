@@ -1,0 +1,22 @@
+{
+  "id": "14-notes",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-3ab34e92-37d2-493d-82b2-0d55bae4bc7d.png",
+  "image": "images/14-notes.png",
+  "sha256": "af3be472f9935982012e6de7e8af1b6adc16f738b0a548fb018e37fe364d0b77",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "2d6967c7bc77a3444270264817ba122efb3e4fac0755c4917ebbc4a253b8fffe",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:21:26.942239+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "09-fern",
+  "reviewer": "assistant visual inspection",
+  "review_kind": "descriptive observation; no separate model review call",
+  "evidence": "native tool returned original viewed at1254×1254",
+  "observed_features": "Green connected stem with three alternating broad fronds and a prominent curled top. Generous white gaps remain between leaves.",
+  "limitations": "The curl/fern motif has familiar botanical associations; no global originality or trademark claim is made.",
+  "small_size_status": "Inspected original canvas at240px width in Chrome; not judged as a32px app icon.",
+  "production_qa": "file validation recorded separately",
+  "ai_recommendation": "none",
+  "user_selection": "not collected",
+  "platform_validation": "not performed",
+  "small_size_evidence": "qa/lettering.png"
+}

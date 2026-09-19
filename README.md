@@ -22,65 +22,86 @@
 
 <a id="hermes-workflow"></a>
 
+The current source includes product-specific icon construction, reference input, asset-specific PNG checks and blind preference comparison. [Implementation and experiment record](docs/research/icon-craft-2026/README.md). Default generation counts are unchanged; Hermes 3×3 exploration is opt-in. The samples below were regenerated on September 20 and do not inherit prior experiment recommendations or reviews. These source changes have not been released.
+
 ## A guided workflow in Hermes
 
 **Brief → distinct directions → original candidates → visual review → your choice → focused revision → delivery.**
 
 Hermes checks each original in two separate image reviews, including the intended display size. Compare candidates on one offline page, send back what to keep and change, and preserve every parent version. [Start with Hermes](docs/hermes.md).
 
-**Actual Hermes example: OFFCUT.** Click either image to open the unchanged original PNG.
+**New samples: two directions for stationery brand OFFCUT.** Click either image to open its original PNG.
 
 <table>
   <tr>
-    <td align="center" width="50%"><a href="docs/hermes-demo/originals/c1.png"><img src="docs/hermes-demo/originals/c1.png" width="400" alt="OFFCUT initial original c1"></a><br><strong>Initial original · c1</strong></td>
-    <td align="center" width="50%"><a href="docs/hermes-demo/originals/e2.png"><img src="docs/hermes-demo/originals/e2.png" width="400" alt="OFFCUT delivered original e2 after two refinements"></a><br><strong>Refined original · e2</strong></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/00-offcut-editorial.png"><img src="docs/showcase/2026-09-20-lifestyle/images/00-offcut-editorial.png" width="400" alt="OFFCUT — Soft editorial lettering"></a><br><strong>Soft editorial lettering</strong></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/00-offcut-playful.png"><img src="docs/showcase/2026-09-20-lifestyle/images/00-offcut-playful.png" width="400" alt="OFFCUT — Playful color lettering"></a><br><strong>Playful color lettering</strong></td>
   </tr>
 </table>
 
-The revision chain is **c1 → e1 → e2**. e1 improved letter spacing but narrowed the protected symbol-to-word gap; its preservation check failed. e2 restored that gap, passed both model reviews and was delivered. [All five originals and offline comparison](docs/hermes-demo/README.md) · [Delivered ZIP](docs/hermes-demo/delivery/logo-package.zip)
+These independent directions were generated through the Codex native image tool. The [historical Hermes refinement/review example](docs/hermes-demo/README.md) remains available with its original lineage.
 
 <a id="samples"></a><a id="ten-real-samples"></a><a id="transparent-background-logos"></a>
 
-## Brand logos + app icon artwork
+## Twelve app icon artworks
 
-The September 2026 showcase: ten brand logos and six app icon artworks on white. **Click any sample to open its original PNG.**
+Twelve newly generated app icons across characters, Hangul lettering, tactile objects and pixel art: six with colored backgrounds and six on white. **Click any sample to open its original PNG.**
 
 <table>
   <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/01-luma.png"><img src="docs/showcase/2026-09-white/images/01-luma.png" width="400" alt="LUMA — Wordmark, white background"></a><br><strong>LUMA</strong><br><sub>Logo · Wordmark</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/02-loop-lab.png"><img src="docs/showcase/2026-09-white/images/02-loop-lab.png" width="400" alt="LOOP LAB · LL — Monogram, white background"></a><br><strong>LOOP LAB · LL</strong><br><sub>Logo · Monogram</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/17-bun-club.png"><img src="docs/showcase/2026-09-20-lifestyle/images/17-bun-club.png" width="400" alt="Bun Club — tactile baked object"></a><br><strong>Bun Club</strong><br><sub>App icon · tactile baked object</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/18-jelly.png"><img src="docs/showcase/2026-09-20-lifestyle/images/18-jelly.png" width="400" alt="Jelly Journal — expressive asymmetric flat character"></a><br><strong>Jelly Journal</strong><br><sub>App icon · expressive asymmetric flat character</sub></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/03-goyo.png"><img src="docs/showcase/2026-09-white/images/03-goyo.png" width="400" alt="고요 — Symbol + Korean lettering, white background"></a><br><strong>고요</strong><br><sub>Logo · Symbol + Korean lettering</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/04-bread-bloom.png"><img src="docs/showcase/2026-09-white/images/04-bread-bloom.png" width="400" alt="BREAD &amp; BLOOM — Emblem, white background"></a><br><strong>BREAD &amp; BLOOM</strong><br><sub>Logo · Emblem</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/19-bam.png"><img src="docs/showcase/2026-09-20-lifestyle/images/19-bam.png" width="400" alt="밤 — compact warm Hangul lettering"></a><br><strong>밤</strong><br><sub>App icon · compact warm Hangul lettering</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/20-side-b.png"><img src="docs/showcase/2026-09-20-lifestyle/images/20-side-b.png" width="400" alt="Side B — tactile record sleeve"></a><br><strong>Side B</strong><br><sub>App icon · tactile record sleeve</sub></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/05-kite.png"><img src="docs/showcase/2026-09-white/images/05-kite.png" width="400" alt="KITE — Abstract mark, white background"></a><br><strong>KITE</strong><br><sub>Logo · Abstract mark</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/06-miso.png"><img src="docs/showcase/2026-09-white/images/06-miso.png" width="400" alt="MISO — Mascot + wordmark, white background"></a><br><strong>MISO</strong><br><sub>Logo · Mascot + wordmark</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/21-plum.png"><img src="docs/showcase/2026-09-20-lifestyle/images/21-plum.png" width="400" alt="Plum — organic flat fruit emblem"></a><br><strong>Plum</strong><br><sub>App icon · organic flat fruit emblem</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/22-patch.png"><img src="docs/showcase/2026-09-20-lifestyle/images/22-patch.png" width="400" alt="Patch — modular paper-petal composition"></a><br><strong>Patch</strong><br><sub>App icon · modular paper-petal composition</sub></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/07-northline.png"><img src="docs/showcase/2026-09-white/images/07-northline.png" width="400" alt="NORTHLINE · NL — Lettermark, white background"></a><br><strong>NORTHLINE · NL</strong><br><sub>Logo · Lettermark</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/08-mulgyeol.png"><img src="docs/showcase/2026-09-white/images/08-mulgyeol.png" width="400" alt="물결 — Korean wordmark, white background"></a><br><strong>물결</strong><br><sub>Logo · Korean wordmark</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/11-reading-owl.png"><img src="docs/showcase/2026-09-20-lifestyle/images/11-reading-owl.png" width="400" alt="Reading Owl — IP character"></a><br><strong>Reading Owl</strong><br><sub>App icon · IP character</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/12-weather.png"><img src="docs/showcase/2026-09-20-lifestyle/images/12-weather.png" width="400" alt="Daybreak — soft weather pictogram"></a><br><strong>Daybreak</strong><br><sub>App icon · soft weather pictogram</sub></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/09-fern.png"><img src="docs/showcase/2026-09-white/images/09-fern.png" width="400" alt="FERN — Pictorial symbol, white background"></a><br><strong>FERN</strong><br><sub>Logo · Pictorial symbol</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/10-nova-notes.png"><img src="docs/showcase/2026-09-white/images/10-nova-notes.png" width="400" alt="NOVA NOTES — Kinetic combination, white background"></a><br><strong>NOVA NOTES</strong><br><sub>Logo · Kinetic combination</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/13-flow.png"><img src="docs/showcase/2026-09-20-lifestyle/images/13-flow.png" width="400" alt="Flow — broad folded organic silhouette"></a><br><strong>Flow</strong><br><sub>App icon · broad folded organic silhouette</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/14-notes.png"><img src="docs/showcase/2026-09-20-lifestyle/images/14-notes.png" width="400" alt="틈 — soft Hangul monogram"></a><br><strong>틈</strong><br><sub>App icon · soft Hangul monogram</sub></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/11-reading-owl.png"><img src="docs/showcase/2026-09-white/images/11-reading-owl.png" width="400" alt="Reading Owl — IP character, white background"></a><br><strong>Reading Owl</strong><br><sub>App icon · IP character</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/12-weather.png"><img src="docs/showcase/2026-09-white/images/12-weather.png" width="400" alt="Daybreak — Pictogram, white background"></a><br><strong>Daybreak</strong><br><sub>App icon · Pictogram</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/13-flow.png"><img src="docs/showcase/2026-09-white/images/13-flow.png" width="400" alt="Flow — Abstract icon, white background"></a><br><strong>Flow</strong><br><sub>App icon · Abstract icon</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/14-notes.png"><img src="docs/showcase/2026-09-white/images/14-notes.png" width="400" alt="틈 — Korean monogram, white background"></a><br><strong>틈</strong><br><sub>App icon · Korean monogram</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/15-cloud.png"><img src="docs/showcase/2026-09-white/images/15-cloud.png" width="400" alt="Cloud Pocket — Soft 3D, white background"></a><br><strong>Cloud Pocket</strong><br><sub>App icon · Soft 3D</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-white/images/16-sprout.png"><img src="docs/showcase/2026-09-white/images/16-sprout.png" width="400" alt="Sprout — Pixel art, white background"></a><br><strong>Sprout</strong><br><sub>App icon · Pixel art</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/15-cloud.png"><img src="docs/showcase/2026-09-20-lifestyle/images/15-cloud.png" width="400" alt="Cloud Pocket — restrained matte dimensional object"></a><br><strong>Cloud Pocket</strong><br><sub>App icon · restrained matte dimensional object</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/16-sprout.png"><img src="docs/showcase/2026-09-20-lifestyle/images/16-sprout.png" width="400" alt="Sprout — coarse-grid cozy pixel art"></a><br><strong>Sprout</strong><br><sub>App icon · coarse-grid cozy pixel art</sub></td>
   </tr>
 </table>
 
-[View as one board](assets/logopia-white-showcase.png) · [Gallery](docs/gallery.md#showcase) · [All sample files](docs/showcase/2026-09-white/README.md)
+## Ten brand logos
+
+New identities for stationery, tea, bakery, reading, pets and everyday life.
+
+<table>
+  <tr>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/01-luma.png"><img src="docs/showcase/2026-09-20-lifestyle/images/01-luma.png" width="400" alt="LUMA — rounded multicolor custom lettering"></a><br><strong>LUMA</strong><br><sub>Brand logo · rounded multicolor custom lettering</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/02-loop-lab.png"><img src="docs/showcase/2026-09-20-lifestyle/images/02-loop-lab.png" width="400" alt="LOOP LAB · LL — interwoven soft calligraphic monogram"></a><br><strong>LOOP LAB · LL</strong><br><sub>Brand logo · interwoven soft calligraphic monogram</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/03-goyo.png"><img src="docs/showcase/2026-09-20-lifestyle/images/03-goyo.png" width="400" alt="고요 — quiet organic symbol and Korean lettering"></a><br><strong>고요</strong><br><sub>Brand logo · quiet organic symbol and Korean lettering</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/04-bread-bloom.png"><img src="docs/showcase/2026-09-20-lifestyle/images/04-bread-bloom.png" width="400" alt="BREAD &amp; BLOOM — soft scalloped bakery emblem"></a><br><strong>BREAD &amp; BLOOM</strong><br><sub>Brand logo · soft scalloped bakery emblem</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/05-kite.png"><img src="docs/showcase/2026-09-20-lifestyle/images/05-kite.png" width="400" alt="KITE — airy organic abstract mark"></a><br><strong>KITE</strong><br><sub>Brand logo · airy organic abstract mark</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/06-miso.png"><img src="docs/showcase/2026-09-20-lifestyle/images/06-miso.png" width="400" alt="MISO — friendly compact cat and soft wordmark"></a><br><strong>MISO</strong><br><sub>Brand logo · friendly compact cat and soft wordmark</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/07-northline.png"><img src="docs/showcase/2026-09-20-lifestyle/images/07-northline.png" width="400" alt="NORTHLINE · NL — soft editorial serif initials"></a><br><strong>NORTHLINE · NL</strong><br><sub>Brand logo · soft editorial serif initials</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/08-mulgyeol.png"><img src="docs/showcase/2026-09-20-lifestyle/images/08-mulgyeol.png" width="400" alt="물결 — flowing contemporary Hangul lettering"></a><br><strong>물결</strong><br><sub>Brand logo · flowing contemporary Hangul lettering</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/09-fern.png"><img src="docs/showcase/2026-09-20-lifestyle/images/09-fern.png" width="400" alt="FERN — unfurling organic botanical symbol"></a><br><strong>FERN</strong><br><sub>Brand logo · unfurling organic botanical symbol</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/10-nova-notes.png"><img src="docs/showcase/2026-09-20-lifestyle/images/10-nova-notes.png" width="400" alt="NOVA NOTES — editorial stationery combination mark"></a><br><strong>NOVA NOTES</strong><br><sub>Brand logo · editorial stationery combination mark</sub></td>
+  </tr>
+</table>
+
+[View as one board](docs/showcase/2026-09-20-lifestyle/board.png) · [Gallery](docs/gallery.md#showcase) · [All sample files](docs/showcase/2026-09-20-lifestyle/README.md)
 
 <a id="get-started"></a><a id="use-the-repository-directly"></a><a id="image-generation-and-the-file-helper"></a>
 
@@ -146,6 +167,10 @@ Results are **raster PNGs**. Reviewed exports can include the original PNG, a ZI
 [Lettering guide](skills/logo-land/references/lettering.md) · [Compare and refine](skills/logo-land/references/comparison-workflow.md) · [Colors and lettering](docs/colors/README.md) · [Transparent PNG example](docs/samples/transparency.md) · [Earlier sample archive](docs/gallery.md#historical-outputs)
 
 <a id="research-and-verification"></a>
+
+## Support
+
+[![Buy me a coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=taewonseo&button_colour=e3e7ef&font_colour=262626&font_family=Inter&outline_colour=262626&coffee_colour=a0522d)](https://www.buymeacoffee.com/taewonseo)
 
 ## Credits
 

@@ -7,6 +7,7 @@ from pydantic import Field, JsonValue, ValidationError
 
 from .models import StudioBrief, StudioError
 from .models_base import Background, Digest, FrozenModel, Identifier, Revision
+from .models_icon import StudioIconIntent
 
 
 class HelperBrief(FrozenModel):
@@ -26,7 +27,7 @@ class HelperBrief(FrozenModel):
     lockup: None = None
     background: Background = "opaque"
     concept_count: Annotated[int, Field(ge=1, le=6)] = 3
-    app_icon: None = None
+    app_icon: StudioIconIntent | None = None
 
     @classmethod
     def from_brief(cls, brief: StudioBrief) -> "HelperBrief":
@@ -41,7 +42,8 @@ class HelperBrief(FrozenModel):
             use_cases=(brief.use_case,),
             assumptions=(brief.notes,) if brief.notes else (),
             background=brief.background,
-            concept_count=brief.effective_count,
+            concept_count=brief.effective_direction_count,
+            app_icon=brief.app_icon,
         )
 
 
@@ -82,7 +84,7 @@ class HelperArtifact(FrozenModel):
     requested_background: Background | None = None
     palette_id: None = None
     lockup: None = None
-    app_icon: None = None
+    app_icon: StudioIconIntent | None = None
     review: HelperReview | None = None
     reviewed_at: datetime | None = None
 
@@ -135,8 +137,9 @@ class HelperManifest(FrozenModel):
     color_limits: tuple[str, ...]
     lockup_intent: None
     font_reference_usage: Literal["appearance-reference-only"]
-    app_icon: None
+    app_icon: StudioIconIntent | None
     artwork_limitations: str | None
+    asset_report: JsonValue = None
 
 
 def parse_session(raw: str) -> HelperSession:

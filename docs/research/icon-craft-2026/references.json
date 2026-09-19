@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-09-19",
+  "policy": {
+    "selection_origin": "research_curated",
+    "is_user_preference": false,
+    "cache_root": ".logopia/reference-cache/",
+    "source_images_in_repository": false,
+    "default_input_mode": "analysis_only",
+    "image_conditioning_performed": false,
+    "redistribution_permission_assumed": false,
+    "missing_cache_behavior": "Mark the image unavailable; do not imply visual inspection or send a fabricated image input.",
+    "source_retrieval": "Official sites and App Store listings linked from official sites; image bytes inspected locally with view_image.",
+    "scope": "Four app icon cases and two brand systems; a small design reference set, not market statistics, conversion evidence, or trademark clearance."
+  },
+  "sources": [
+    {
+      "id": "R1",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/app-icons",
+      "verified_via": "https://developer.apple.com/tutorials/data/design/human-interface-guidelines/app-icons.json",
+      "status": "verified_official_docc_json",
+      "last_documented_update": "2026-06-08",
+      "note": "HTML reader returned a JavaScript requirement; official JSON content, specifications, and change log were read."
+    },
+    {
+      "id": "R2",
+      "url": "https://developer.apple.com/icon-composer/",
+      "status": "verified_text",
+      "note": "Current editing modes are Default, Dark, Mono."
+    },
+    {
+      "id": "R3",
+      "url": "https://developer.android.com/develop/ui/compose/system/icon_design_adaptive",
+      "status": "verified_text_and_diagram",
+      "note": "108dp layers; diagram labels a 66x66 boundary. Official Codelab clarifies a central circular safe zone; a 66/108 circle is a conservative diagnostic guide."
+    },
+    {
+      "id": "R4",
+      "url": "https://developer.android.com/distribute/google-play/resources/icon-design-specifications",
+      "status": "verified_text",
+      "last_documented_update": "2026-06-15",
+      "note": "512px listing PNG differs from launcher assets. Transparency is discouraged where possible, not prohibited; internal lighting differs from outer drop shadow."
+    },
+    {
+      "id": "R5",
+      "url": "https://culturedcode.com/things/blog/2025/09/things-for-os-26/",
+      "status": "verified_text_and_image",
+      "announced_on": "2025-09-15"
+    },
+    {
+      "id": "R6",
+      "url": "https://www.craft.do/os26",
+      "status": "redirected_to_homepage",
+      "replacement_url": "https://www.craft.do/blog/craft-update-3-2-6",
+      "replacement_status": "verified_text",
+      "announced_on": "2025-09-15",
+      "note": "Current App Store icon is a separate observed image; equivalence to the historical OS26 artwork is unverified."
+    },
+    {
+      "id": "R7",
+      "url": "https://www.logolounge.com/trend/2026-logo-trend-report",
+      "status": "verified_text",
+      "note": "Slip Knots and Slant Break are exploratory lettering observations, not mandatory templates. Individual report images are not included or claimed as inspected."
+    },
+    {
+      "id": "R8",
+      "url": "https://www.figma.com/blog/friends-of-figma-brand-refresh/",
+      "status": "verified_text_and_image",
+      "announced_on": "2026-05-19"
+    },
+    {
+      "id": "R9",
+      "url": "https://linear.app/brand",
+      "status": "verified_text_and_images",
+      "note": "Official ZIP inspected. Archive timestamps are not announcement dates. Brand restrictions were read."
+    },
+    {
+      "id": "R10",
+      "url": "https://gentlerstories.com/gentlerstreak",
+      "status": "verified_text_and_linked_store_image"
+    },
+    {
+      "id": "R11",
+      "url": "https://notbor.ing/",
+      "status": "verified_text_and_linked_store_image",
+      "note": "Timer product page and its linked App Store listing were separately checked; UI material claims are not icon observations."
+    },
+    {
+      "id": "S1",
+      "url": "https://developer.apple.com/documentation/xcode/creating-your-app-icon-using-icon-composer",
+      "verified_via": "https://developer.apple.com/tutorials/data/documentation/xcode/creating-your-app-icon-using-icon-composer.json",
+      "status": "verified_official_docc_json"
+    },
+    {
+      "id": "S2",
+      "url": "https://developer.apple.com/documentation/xcode/configuring-your-app-icon",
+      "verified_via": "https://developer.apple.com/tutorials/data/documentation/xcode/configuring-your-app-icon.json",
+      "status": "verified_official_docc_json",
+      "note": "Legacy asset catalog Dark artwork uses transparent background; do not apply the imported layered-background opacity policy to it."
+    },
+    {
+      "id": "S3",
+      "url": "https://developer.android.com/codelabs/basic-android-kotlin-compose-training-change-app-icon",
+      "status": "verified_text",
+      "note": "Describes a central circle with diameter 66 for essential information. Its prose says dpi; use the dimensionless 66/108 ratio with R3's dp layer dimensions, not a physical-dpi conversion."
+    }
+  ],
+  "references": [
+    {
+      "id": "things-os26",
+      "name": "Things OS 26",
+      "kind": "app_icon",
+      "source_ids": ["R5"],
+      "source_url": "https://culturedcode.com/things/blog/2025/09/things-for-os-26/",
+      "checked_on": "2026-09-19",
+      "announced_on": "2025-09-15",
+      "platform": ["iOS 26", "macOS 26"],
+      "appearance": "default_color_in_official_dock_image",
+      "release_status": "released",
+      "icon_variant": "default_not_alternate",
+      "images": [
+        {
+          "url": "https://culturedcode.com/frozen/2025/09/things-os26-appicon-new-io85.jpg",
+          "local_path": ".logopia/reference-cache/things-os26-new.jpg",
+          "sha256": "2479426d62b80488f7ea07bf6a34a7383c6751e89fe0b22176e6f0e6e570bc62",
+          "width": 1800,
+          "height": 576,
+          "observed_region": "Things icon in Mac dock around x430-546,y290-407 and iPhone dock around x1372-1487,y284-400; coordinates refer to source pixels.",
+          "visually_verified": true
+        }
+      ],
+      "visible_features": [
+        "Blue rounded outer frame surrounds a light inset face with one dark check.",
+        "Dark inset boundary and a small blue lower tab persist in both shown devices."
+      ],
+      "interpretation": "A stable frame, face and check hierarchy can survive platform rendering changes; recognition improvement was not measured.",
+      "transferable_traits": ["Preserve core silhouette across appearances", "Separate dominant shape from small depth accents"],
+      "do_not_copy": ["Things blue inbox frame, lower tab and check composition"],
+      "product_contexts": ["Established utilities retaining familiar identity during platform updates"],
+      "limits": ["Context screenshot, not editable layers", "Only displayed color appearance inspected; other variants not visually verified", "No separate 32px test in this reference audit"],
+      "rights": {"terms_verified": false, "reuse_permission": "unknown", "redistribution_permission": "unknown"},
+      "input_policy": "analysis_only; do not send the dock screenshot as an unlabelled positive shape target"
+    },
+    {
+      "id": "craft-current-store",
+      "name": "Craft current App Store artwork",
+      "kind": "app_icon",
+      "source_ids": ["R6"],
+      "source_url": "https://apps.apple.com/us/app/craft-notes-documents-ai/id1487937127",
+      "checked_on": "2026-09-19",
+      "announced_on": null,
+      "platform": ["Apple App Store listing"],
+      "appearance": "store_listing_color; native_appearance_unknown",
+      "release_status": "released_store_listing",
+      "icon_variant": "primary_listing_artwork; alternate_status_unknown",
+      "images": [
+        {
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ae/5a/b3/ae5ab317-6c3e-4770-22d9-5bafd277b1ac/Placeholder.mill/400x400bb-75.jpg",
+          "local_path": ".logopia/reference-cache/craft-appstore.jpg",
+          "sha256": "df57bc351596842b45ce856e87ff96f53180cfc2a89009ad58e4a47a22ae172c",
+          "width": 400,
+          "height": 400,
+          "observed_region": "Whole store thumbnail",
+          "visually_verified": true
+        }
+      ],
+      "visible_features": [
+        "Four broad curved pieces share rounded terminals and a narrow central cross-shaped gap.",
+        "Pink and bright blue upper pieces contrast with two navy lower pieces; edges have shallow highlights."
+      ],
+      "interpretation": "Shared curves and gap width bind the parts; color creates upper accents and a heavier base.",
+      "transferable_traits": ["Use one curve and spacing rule across modular parts", "Assign color a compositional role"],
+      "do_not_copy": ["Craft's four-sector arrangement and pink-blue-navy placement"],
+      "product_contexts": ["Creative organization tools with a modular product concept"],
+      "limits": ["Not verified as the 2025 OS26 release image", "Flattened thumbnail does not establish a native layer structure", "No separate 32px test in this reference audit"],
+      "rights": {"terms_verified": false, "reuse_permission": "unknown", "redistribution_permission": "unknown"},
+      "input_policy": "analysis_only; extract shared curvature and spacing, not the distinctive arrangement"
+    },
+    {
+      "id": "gentler-streak-current-store",
+      "name": "Gentler Streak current App Store artwork",
+      "kind": "app_icon",
+      "source_ids": ["R10"],
+      "source_url": "https://apps.apple.com/us/app/gentler-streak-workout-tracker/id1576857102",
+      "checked_on": "2026-09-19",
+      "announced_on": null,
+      "platform": ["Apple App Store listing"],
+      "appearance": "store_listing_color; native_appearance_unknown",
+      "release_status": "released_store_listing",
+      "icon_variant": "primary_listing_artwork; alternate_status_unknown",
+      "images": [
+        {
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e3/db/a8/e3dba8f5-1468-f2a2-26a1-7400a2e54ec9/Placeholder.mill/400x400bb-75.jpg",
+          "local_path": ".logopia/reference-cache/gentler-streak-appstore.jpg",
+          "sha256": "edb2484ffd4fd6fd785ad46b2c3675caca3be2652eb40cc409693c388743b491",
+          "width": 400,
+          "height": 400,
+          "observed_region": "Whole store thumbnail",
+          "visually_verified": true
+        }
+      ],
+      "visible_features": [
+        "An orange asymmetric two-lobed shape has a shallow top notch and a larger left lobe.",
+        "A darker orange rear face is offset toward the lower right; a light tile surrounds the silhouette without text or eyes."
+      ],
+      "interpretation": "Asymmetry and a restricted warm palette provide character without a detailed mascot; depth stays secondary to the contour.",
+      "transferable_traits": ["Design a purposeful asymmetry", "Keep one large organic silhouette readable apart from highlights"],
+      "do_not_copy": ["Gentler's specific orange lobed heart contour and proportions"],
+      "product_contexts": ["Supportive wellbeing or personal products where soft character is appropriate"],
+      "limits": ["Does not justify a heart or leaf default for health products", "No unobserved flat master is claimed", "Native variants and 32px result unverified"],
+      "rights": {"terms_verified": false, "reuse_permission": "unknown", "redistribution_permission": "unknown"},
+      "input_policy": "analysis_only; preserve the principle of intentional asymmetry, not the proprietary contour"
+    },
+    {
+      "id": "notboring-timer-current-store",
+      "name": "(Not Boring) Timer current App Store artwork",
+      "kind": "app_icon",
+      "source_ids": ["R11"],
+      "source_url": "https://apps.apple.com/us/app/not-a-boring-timer/id1531048091",
+      "product_url": "https://notbor.ing/product/timer",
+      "checked_on": "2026-09-19",
+      "announced_on": null,
+      "platform": ["Apple App Store listing"],
+      "appearance": "store_listing_color; native_appearance_unknown",
+      "release_status": "released_store_listing",
+      "icon_variant": "primary_listing_artwork; alternate_status_unknown",
+      "images": [
+        {
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/1d/a2/521da27c-c6ef-6d68-7286-5fc11ca02492/Placeholder.mill/400x400bb-75.jpg",
+          "local_path": ".logopia/reference-cache/notboring-timer-appstore.jpg",
+          "sha256": "b09f1414314f40fd2eb0fc6d9c8ea2e6f888eb2966544a3f681324530553829d",
+          "width": 400,
+          "height": 400,
+          "observed_region": "Whole store thumbnail",
+          "visually_verified": true
+        }
+      ],
+      "visible_features": [
+        "One white tapered needle and round hub sit on a large charcoal disc, without numerals.",
+        "Faceted light and a dark contact shadow give the needle depth; a pale disc shadow sits against the light tile."
+      ],
+      "interpretation": "A single physical object and high contrast carry the timer association while surface treatment supports the object's construction.",
+      "transferable_traits": ["Choose one object and consistent lighting", "Retain silhouette and contrast when surface detail shrinks"],
+      "do_not_copy": ["The exact black dial, white sculpted needle and proportions"],
+      "product_contexts": ["Focused tools whose interaction experience supports tactile objects"],
+      "limits": ["Product UI descriptions are separate evidence", "Does not establish an advantage for 3D in unrelated apps", "Native appearances and 32px result unverified"],
+      "rights": {"terms_verified": false, "reuse_permission": "unknown", "redistribution_permission": "unknown"},
+      "input_policy": "analysis_only; describe lighting and object hierarchy without naming a style imitation"
+    },
+    {
+      "id": "linear-brand-system",
+      "name": "Linear official wordmark, mark and icon",
+      "kind": "brand_system",
+      "source_ids": ["R9"],
+      "source_url": "https://linear.app/brand",
+      "checked_on": "2026-09-19",
+      "announced_on": null,
+      "platform": ["Brand communication", "App icon asset; native platform unknown"],
+      "appearance": "dark_mark_on_transparency_and_white_mark_on_dark_tile; native_appearance_unknown",
+      "release_status": "published_official_brand_assets",
+      "icon_variant": "unknown",
+      "images": [
+        {
+          "url": "https://static.linear.app/design-assets/Linear-Brand-Assets.zip?v=3",
+          "archive_member": "logo-dark.png",
+          "local_path": ".logopia/reference-cache/linear/logo-dark.png",
+          "sha256": "1fb31df139bb786a3c5662bc53b3f82bd6804629fd7ea6002ec603bb6eafb113",
+          "width": 400,
+          "height": 400,
+          "observed_region": "Whole transparent mark",
+          "visually_verified": true
+        },
+        {
+          "url": "https://static.linear.app/design-assets/Linear-Brand-Assets.zip?v=3",
+          "archive_member": "wordmark-dark.png",
+          "local_path": ".logopia/reference-cache/linear/wordmark-dark.png",
+          "sha256": "e3b890fc224fdbbae0859cc31fcc07c4bf3a0fbf81357ce2d21f54dee0ca2fc7",
+          "width": 1600,
+          "height": 400,
+          "observed_region": "Mark at left; complete Linear wordmark at right",
+          "visually_verified": true
+        },
+        {
+          "url": "https://static.linear.app/design-assets/Linear-Brand-Assets.zip?v=3",
+          "archive_member": "linear-app-icon.png",
+          "local_path": ".logopia/reference-cache/linear/linear-app-icon.png",
+          "sha256": "a58c531ffaac3b8ff9d86a9446bdbc54f61f95026e3274dc6b864b692000ad37",
+          "width": 1024,
+          "height": 1024,
+          "observed_region": "White dimensional mark inside dark rounded tile",
+          "visually_verified": true
+        }
+      ],
+      "visible_features": ["A circular mark is cut by parallel diagonal gaps.", "A sans-serif wordmark and a separate dimensional tile retain that mark without compressing the full name."],
+      "interpretation": "Roles and surrounding space change with placement while the underlying construction stays consistent.",
+      "transferable_traits": ["Separate wordmark, mark and tile roles", "Control gap rhythm and surrounding space"],
+      "do_not_copy": ["Linear's slashed circle, wordmark, or dark SaaS tile appearance"],
+      "product_contexts": ["Brands needing both readable full names and compact placements"],
+      "limits": ["ZIP dates do not establish design launch dates", "Published app artwork does not prove current native appearance", "No 32px inspection"],
+      "rights": {"terms_verified": true, "terms_url": "https://linear.app/brand", "reuse_permission": "restricted_brand_reference_only", "redistribution_permission": "not_granted_for_this_repository", "note": "Proprietary assets; do not alter, combine, imply affiliation, or use as one's own branding."},
+      "input_policy": "analysis_only; do not condition new logo generation on these proprietary assets"
+    },
+    {
+      "id": "friends-of-figma-2026",
+      "name": "Friends of Figma chapter badges",
+      "kind": "brand_system",
+      "source_ids": ["R8"],
+      "source_url": "https://www.figma.com/blog/friends-of-figma-brand-refresh/",
+      "checked_on": "2026-09-19",
+      "announced_on": "2026-05-19",
+      "platform": ["Community brand communication"],
+      "appearance": "not_applicable",
+      "release_status": "released_brand_system",
+      "icon_variant": "not_applicable; chapter_badges_not_app_icons",
+      "images": [
+        {
+          "url": "https://cdn.sanity.io/images/599r6htc/regionalized/ebceb50dedab63bb75fca9adfa8546f75f8c9f4c-804x804.png",
+          "local_path": ".logopia/reference-cache/friends-figma-badges.png",
+          "sha256": "1c1d537fd0ab16f91b4bd48c7d7480dc2142c70f5f3d04fb080971875e216f46",
+          "width": 804,
+          "height": 804,
+          "observed_region": "Nine badge examples, including a construction diagram at top left",
+          "visually_verified": true
+        }
+      ],
+      "visible_features": ["A rounded F silhouette repeats across square and circular frames.", "Stripe, arc, dot and photo backgrounds vary while the large foreground shape stays stable."],
+      "interpretation": "A small set of construction rules accommodates local expression; busy backgrounds should not be assumed to survive app-icon sizes.",
+      "transferable_traits": ["Keep a shared shape grammar", "Vary controlled composition parameters rather than assembling random multicolor fragments"],
+      "do_not_copy": ["Figma's F silhouette, branded module arrangement, or chapter badge artwork"],
+      "product_contexts": ["Community or creative identities with multiple related applications"],
+      "limits": ["Not an app icon or native package", "Small-size suitability and conversion untested"],
+      "rights": {"terms_verified": false, "reuse_permission": "unknown", "redistribution_permission": "unknown"},
+      "input_policy": "analysis_only; transfer construction discipline, not letter shape or supplied patterns"
+    }
+  ]
+}

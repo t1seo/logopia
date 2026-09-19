@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-20",
+  "kind": "explicit_user_negative_feedback",
+  "source": "User supplied screenshot naming Candidate2 and Candidate5 in the SEAM candidate-context gallery.",
+  "session": "seam-craft-2026",
+  "artifacts": [
+    "a2",
+    "b2"
+  ],
+  "displayed_labels": [
+    "Candidate2",
+    "Candidate5"
+  ],
+  "judgment": "both unsuitable",
+  "user_comment": "이런정말 최악의 로고인데 심지어 색감도 별로야",
+  "scope": "Rejects these two outputs and their colors. Does not rate other candidates, approve replacements or establish a controlled blind experiment.",
+  "controlled_blind_comparison": false,
+  "interpretation": "No user preference improvement was demonstrated by the original A/B experiment. The observed rejection informs subsequent samples.",
+  "original_files": "Preserved without modification.",
+  "private_screenshot": "Ignored local cache; not redistributed."
+}

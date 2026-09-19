@@ -1,0 +1,25 @@
+{
+  "mode": "image",
+  "capability": "codex_native",
+  "references": [
+    {
+      "reference_id": "own-leaf",
+      "image_sha256": "ae58ba14b66c9953c5fa45456cf54912ed239e0434713edd50c31738cea132e2",
+      "role": "positive",
+      "observations": [
+        "One broad green object has a shallow central fold and one broad upper-left highlight.",
+        "Fine stippled surface is visible in the original but disappears at 32px."
+      ],
+      "transfer": [
+        "One consistent light and low depth; silhouette leads the shading."
+      ],
+      "avoid": [
+        "Do not copy the heart contour, leaf, green color, or stippled texture."
+      ],
+      "inspected_by": "Codex visual inspection of repository original and actual-size sheet",
+      "inspected_on": "2026-09-19",
+      "selection_origin": "automatic",
+      "rights_status": "unknown"
+    }
+  ]
+}

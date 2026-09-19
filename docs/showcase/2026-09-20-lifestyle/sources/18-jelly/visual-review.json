@@ -1,0 +1,15 @@
+{
+  "id": "18-jelly",
+  "reviewer": "assistant visual inspection",
+  "review_kind": "descriptive observation; no separate model review call",
+  "evidence": "native original viewed at1254x1254",
+  "observed_features": "Pink asymmetrical two-footed mound with one sleepy left eye, upright right eye and small mouth on saturated purple.",
+  "limitations": "The high shoulder leans to the right rather than the requested left; face and body have faint tonal variation. Character uniqueness is unverified.",
+  "small_size_status": "Inspected actual Chrome screenshots at32/48/64/128px on light/dark surroundings and64px CSS mask simulations.",
+  "production_qa": "file validation recorded separately",
+  "ai_recommendation": "none",
+  "user_selection": "not collected",
+  "platform_validation": "not performed",
+  "small_size_observation": "Pink leaning silhouette and unequal eyes remain at32px; the small mouth becomes a tiny dark spot. Feet remain visible under the tested64px masks.",
+  "small_size_evidence": "qa/18-jelly.png"
+}

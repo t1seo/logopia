@@ -1,0 +1,15 @@
+{
+  "id": "13-flow",
+  "reviewer": "assistant visual inspection",
+  "review_kind": "descriptive observation; no separate model review call",
+  "evidence": "native tool returned original viewed at1254×1254",
+  "observed_features": "Ultramarine broad asymmetric triangular mass with a large teardrop white counter. No paired teal/coral tubes or inset cream tile.",
+  "limitations": "The counter is closed by a thin upper-right bridge instead of the requested broad open mouth. This is an intent deviation, not a passed topology check.",
+  "small_size_status": "Inspected actual Chrome screenshots at32/48/64/128px on light/dark surroundings and64px CSS mask simulations.",
+  "production_qa": "file validation recorded separately",
+  "ai_recommendation": "none",
+  "user_selection": "not collected",
+  "platform_validation": "not performed",
+  "small_size_observation": "The blue outer mass and white counter remain visible at32px, but the upper-right connecting bridge becomes very thin. Actual image keeps a closed counter, unlike its open-mouth intent.",
+  "small_size_evidence": "qa/13-flow.png"
+}

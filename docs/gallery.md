@@ -6,43 +6,51 @@
 
 <a id="showcase"></a>
 
-## White-background showcase
+## Everyday identities — September 20 refresh
 
-Ten brand logos and six app icon artworks, newly generated on white. [See all sixteen directly in the README](../README.md#samples), where every thumbnail opens its original PNG.
+Ten brand logos, twelve app icon artworks and two OFFCUT lettering directions, regenerated on September 20. [See the app and brand samples directly in the README](../README.md#samples), where every thumbnail opens its original PNG.
 
 <p align="center">
-  <a href="../assets/logopia-white-showcase.png"><img src="../assets/logopia-white-showcase.png" width="960" alt="Ten brand logos and six app icon artworks, newly generated on white backgrounds"></a>
+  <a href="showcase/2026-09-20-lifestyle/board.png"><img src="showcase/2026-09-20-lifestyle/board.png" width="960" alt="Twenty-four newly generated consumer and lifestyle identity samples"></a>
 </p>
 
-[Open the board](../assets/logopia-white-showcase.png) · [All sample files](showcase/2026-09-white/README.md) · [Local HTML gallery](showcase/2026-09-white/index.html)
+[Open the board](showcase/2026-09-20-lifestyle/board.png) · [All sample files](showcase/2026-09-20-lifestyle/README.md) · [Local HTML gallery](showcase/2026-09-20-lifestyle/index.html)
+
+OFFCUT’s [editorial](showcase/2026-09-20-lifestyle/images/00-offcut-editorial.png) and [playful](showcase/2026-09-20-lifestyle/images/00-offcut-playful.png) lettering are separate new directions. Open the [icon size/context diagnostics](showcase/2026-09-20-lifestyle/diagnostics.html) for the twelve app artworks.
 
 ### Ten brand logos
 
 | Name | Form | Original PNG |
 |---|---|---|
-| LUMA | Wordmark | [Open](showcase/2026-09-white/images/01-luma.png) |
-| LOOP LAB · LL | Monogram | [Open](showcase/2026-09-white/images/02-loop-lab.png) |
-| 고요 | Symbol + Korean lettering | [Open](showcase/2026-09-white/images/03-goyo.png) |
-| BREAD & BLOOM | Emblem | [Open](showcase/2026-09-white/images/04-bread-bloom.png) |
-| KITE | Abstract mark | [Open](showcase/2026-09-white/images/05-kite.png) |
-| MISO | Mascot + wordmark | [Open](showcase/2026-09-white/images/06-miso.png) |
-| NORTHLINE · NL | Lettermark | [Open](showcase/2026-09-white/images/07-northline.png) |
-| 물결 | Korean wordmark | [Open](showcase/2026-09-white/images/08-mulgyeol.png) |
-| FERN | Pictorial symbol | [Open](showcase/2026-09-white/images/09-fern.png) |
-| NOVA NOTES | Kinetic combination | [Open](showcase/2026-09-white/images/10-nova-notes.png) |
+| LUMA | Wordmark | [Open](showcase/2026-09-20-lifestyle/images/01-luma.png) |
+| LOOP LAB · LL | Monogram | [Open](showcase/2026-09-20-lifestyle/images/02-loop-lab.png) |
+| 고요 | Symbol + Korean lettering | [Open](showcase/2026-09-20-lifestyle/images/03-goyo.png) |
+| BREAD & BLOOM | Emblem | [Open](showcase/2026-09-20-lifestyle/images/04-bread-bloom.png) |
+| KITE | Abstract mark | [Open](showcase/2026-09-20-lifestyle/images/05-kite.png) |
+| MISO | Mascot + wordmark | [Open](showcase/2026-09-20-lifestyle/images/06-miso.png) |
+| NORTHLINE · NL | Lettermark | [Open](showcase/2026-09-20-lifestyle/images/07-northline.png) |
+| 물결 | Korean wordmark | [Open](showcase/2026-09-20-lifestyle/images/08-mulgyeol.png) |
+| FERN | Pictorial symbol | [Open](showcase/2026-09-20-lifestyle/images/09-fern.png) |
+| NOVA NOTES | Stationery combination | [Open](showcase/2026-09-20-lifestyle/images/10-nova-notes.png) |
 
-### Six app icon artworks
+### Twelve app icon artworks
 
 | Name | Form | Original PNG |
 |---|---|---|
-| Reading Owl | IP character | [Open](showcase/2026-09-white/images/11-reading-owl.png) |
-| Daybreak | Pictogram | [Open](showcase/2026-09-white/images/12-weather.png) |
-| Flow | Abstract icon | [Open](showcase/2026-09-white/images/13-flow.png) |
-| 틈 | Korean monogram | [Open](showcase/2026-09-white/images/14-notes.png) |
-| Cloud Pocket | Soft 3D | [Open](showcase/2026-09-white/images/15-cloud.png) |
-| Sprout | Pixel art | [Open](showcase/2026-09-white/images/16-sprout.png) |
+| Reading Owl | IP character | [Open](showcase/2026-09-20-lifestyle/images/11-reading-owl.png) |
+| Daybreak | Pictogram | [Open](showcase/2026-09-20-lifestyle/images/12-weather.png) |
+| Flow | Abstract icon | [Open](showcase/2026-09-20-lifestyle/images/13-flow.png) |
+| 틈 | Korean monogram | [Open](showcase/2026-09-20-lifestyle/images/14-notes.png) |
+| Cloud Pocket | Soft 3D | [Open](showcase/2026-09-20-lifestyle/images/15-cloud.png) |
+| Sprout | Pixel art | [Open](showcase/2026-09-20-lifestyle/images/16-sprout.png) |
+| Bun Club | tactile baked object | [Open](showcase/2026-09-20-lifestyle/images/17-bun-club.png) |
+| Jelly Journal | expressive asymmetric flat character | [Open](showcase/2026-09-20-lifestyle/images/18-jelly.png) |
+| 밤 | compact warm Hangul lettering | [Open](showcase/2026-09-20-lifestyle/images/19-bam.png) |
+| Side B | tactile record sleeve | [Open](showcase/2026-09-20-lifestyle/images/20-side-b.png) |
+| Plum | organic flat fruit emblem | [Open](showcase/2026-09-20-lifestyle/images/21-plum.png) |
+| Patch | modular paper-petal composition | [Open](showcase/2026-09-20-lifestyle/images/22-patch.png) |
 
-These are raster PNG examples. See the [manifest](showcase/2026-09-white/manifest.json) for actual dimensions and file details. Editable vectors, font files and platform-specific app icon packages require separate work.
+These are raster PNG examples. See the [manifest](showcase/2026-09-20-lifestyle/manifest.json) for actual dimensions and file details. Editable vectors, font files and platform-specific app icon packages require separate work.
 
 <a id="identity"></a><a id="current-logo-land-identity"></a>
 
@@ -54,9 +62,11 @@ Original game-title lettering: rounded, colorful lowercase **logopia** on white.
 
 ## Earlier outputs — preserved archive
 
+[Previous white collection](showcase/2026-09-white/README.md) · [Historical Hermes OFFCUT case](hermes-demo/README.md)
+
 [September 2026 colored showcase](showcase/2026-09/README.md) · [Its original file inventory](showcase/2026-09/manifest.json)
 
-The images below belong to earlier collections and experiments. Their original files, prompts, observations and packages remain attached to those earlier outputs. They are not the source records or review results for the current white-background collection.
+The images below belong to earlier collections and experiments. Their original files, prompts, observations and packages remain attached to those earlier outputs. They are not the source records or review results for the current lifestyle collection.
 
 [Comparison study](#new-samples) · [10 earlier brands](#brands) · [16 earlier app icons](#app-icons) · [8 color cases](#colors) · [Earlier identities](#historical-identity)
 

@@ -1,0 +1,15 @@
+{
+  "id": "21-plum",
+  "reviewer": "assistant visual inspection",
+  "review_kind": "descriptive observation; no separate model review call",
+  "evidence": "native original viewed at1254x1254",
+  "observed_features": "Large purple plum, lighter broad curved cleft, brown stem and one green leaf against golden yellow.",
+  "limitations": "Brown stem adds a color beyond the brief palette list. Fruit is a familiar category motif; no uniqueness claim.",
+  "small_size_status": "Inspected actual Chrome screenshots at32/48/64/128px on light/dark surroundings and64px CSS mask simulations.",
+  "production_qa": "file validation recorded separately",
+  "ai_recommendation": "none",
+  "user_selection": "not collected",
+  "platform_validation": "not performed",
+  "small_size_observation": "Purple fruit, green leaf and lighter cleft remain identifiable at32px. The stem and cleft taper lose fine detail.",
+  "small_size_evidence": "qa/21-plum.png"
+}

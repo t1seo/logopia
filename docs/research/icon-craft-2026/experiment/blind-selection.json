@@ -1,0 +1,54 @@
+{
+  "shared_brief": "SEAM: a private mobile notebook for freelance writers. Collect scattered phrases into one short daily draft, without streak pressure. No text, stars, sparkles, infinity loops, mascots or device mockups. Ink #173E48 main structure, coral #EF795F identifying feature, warm paper #F6EEE4 full background. Recognize at 32/48px among other apps. Palette is advisory raster intent.",
+  "seed": 20260919,
+  "ai_review_budget": 3,
+  "response_limit": 12,
+  "pairs": [
+    {
+      "first": {
+        "session": "seam-craft-2026",
+        "revision": 8,
+        "artifact": "a1"
+      },
+      "second": {
+        "session": "seam-craft-2026",
+        "revision": 8,
+        "artifact": "b1"
+      }
+    },
+    {
+      "first": {
+        "session": "seam-craft-2026",
+        "revision": 8,
+        "artifact": "a2"
+      },
+      "second": {
+        "session": "seam-craft-2026",
+        "revision": 8,
+        "artifact": "b2"
+      }
+    },
+    {
+      "first": {
+        "session": "seam-craft-2026",
+        "revision": 8,
+        "artifact": "a3"
+      },
+      "second": {
+        "session": "seam-craft-2026",
+        "revision": 8,
+        "artifact": "b3"
+      }
+    }
+  ],
+  "references": [
+    {
+      "label": "Shared construction reference: consistent curve and spacing rules",
+      "source_url": "https://apps.apple.com/us/app/craft-notes-documents-ai/id1487937127",
+      "role": "positive",
+      "observations": "Four broad curved pieces share rounded terminals and a narrow central gap. Apply shared curve and gap consistency only; do not copy the four-piece cross, palette, or signature contour. This context is identical for both candidates.",
+      "verification": "image_observed",
+      "image_sha256": "df57bc351596842b45ce856e87ff96f53180cfc2a89009ad58e4a47a22ae172c"
+    }
+  ]
+}

@@ -12,3 +12,5 @@ __pycache__/
 .ruff_cache/
 .logo-generator/
 output/
+.logopia/reference-cache/
+.logopia/private-references/

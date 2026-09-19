@@ -1,0 +1,22 @@
+{
+  "id": "11-reading-owl",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-05aee332-4bba-4db8-b163-300f2481ecd3.png",
+  "image": "images/11-reading-owl.png",
+  "sha256": "fbb09d5aead1592d137d228312588bb08d323036e0780c0eb96bd411404fe4f8",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "d5b304d0a75b89691d07f749b2ba01cb683ea928a945b7fc3e1adaee0e31244e",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:20:11.083619+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

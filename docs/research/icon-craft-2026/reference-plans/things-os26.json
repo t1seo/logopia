@@ -1,0 +1,29 @@
+{
+  "mode": "text",
+  "capability": "codex_native",
+  "references": [
+    {
+      "reference_id": "things-os26",
+      "image_sha256": "2479426d62b80488f7ea07bf6a34a7383c6751e89fe0b22176e6f0e6e570bc62",
+      "role": "positive",
+      "observations": [
+        "The whole image contains Mac and iPhone docks, surrounding app icons, wallpaper and device framing.",
+        "The Things icon in both docks has a blue rounded frame, a light inset face, a dark check and a small lower tab."
+      ],
+      "transfer": [
+        "Keep one stable foreground hierarchy across display contexts.",
+        "Make depth accents subordinate to the main silhouette."
+      ],
+      "avoid": [
+        "Do not copy the blue inbox frame, lower tab and check composition.",
+        "Do not reproduce the dock, device framing, wallpaper or neighboring app icons."
+      ],
+      "inspected_by": "Codex research agent using view_image",
+      "inspected_on": "2026-09-19",
+      "roi": null,
+      "source_url": "https://culturedcode.com/things/blog/2025/09/things-for-os-26/",
+      "selection_origin": "automatic",
+      "rights_status": "unknown"
+    }
+  ]
+}
