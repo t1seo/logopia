@@ -1,0 +1,186 @@
+{
+  "id": "e43a1689-9a16-403d-8a7f-2c4156e14a26",
+  "ok": true,
+  "result": {
+    "origin": "file:///Users/cillian/Documents/Github/Projects/logopia/docs/research/icon-craft-2026/experiment/gallery/index.html",
+    "refs": {
+      "e1": {
+        "name": "Skip to artwork",
+        "role": "link"
+      },
+      "e10": {
+        "name": "32 px",
+        "role": "radio"
+      },
+      "e11": {
+        "name": "48 px",
+        "role": "radio"
+      },
+      "e12": {
+        "name": "64 px",
+        "role": "radio"
+      },
+      "e13": {
+        "name": "128 px",
+        "role": "radio"
+      },
+      "e14": {
+        "name": "Light",
+        "role": "radio"
+      },
+      "e15": {
+        "name": "Dark",
+        "role": "radio"
+      },
+      "e16": {
+        "name": "All artwork",
+        "role": "radio"
+      },
+      "e17": {
+        "name": "IP mascot",
+        "role": "radio"
+      },
+      "e18": {
+        "name": "Pictogram",
+        "role": "radio"
+      },
+      "e19": {
+        "name": "Abstract",
+        "role": "radio"
+      },
+      "e2": {
+        "name": "SEAM",
+        "role": "region"
+      },
+      "e20": {
+        "name": "Monogram",
+        "role": "radio"
+      },
+      "e21": {
+        "name": "Soft 3D",
+        "role": "radio"
+      },
+      "e22": {
+        "name": "Pixel art",
+        "role": "radio"
+      },
+      "e23": {
+        "name": "The originals",
+        "role": "heading"
+      },
+      "e24": {
+        "name": "Simulation · candidate peers",
+        "role": "heading"
+      },
+      "e25": {
+        "name": "Collection manifest",
+        "role": "link"
+      },
+      "e26": {
+        "name": "a1",
+        "role": "heading"
+      },
+      "e27": {
+        "name": "Download original a1",
+        "role": "link"
+      },
+      "e28": {
+        "name": "Exact prompt a1",
+        "role": "link"
+      },
+      "e29": {
+        "name": "a2",
+        "role": "heading"
+      },
+      "e3": {
+        "name": "SEAM",
+        "role": "heading"
+      },
+      "e30": {
+        "name": "Download original a2",
+        "role": "link"
+      },
+      "e31": {
+        "name": "Exact prompt a2",
+        "role": "link"
+      },
+      "e32": {
+        "name": "a3",
+        "role": "heading"
+      },
+      "e33": {
+        "name": "Download original a3",
+        "role": "link"
+      },
+      "e34": {
+        "name": "Exact prompt a3",
+        "role": "link"
+      },
+      "e35": {
+        "name": "b1",
+        "role": "heading"
+      },
+      "e36": {
+        "name": "Download original b1",
+        "role": "link"
+      },
+      "e37": {
+        "name": "Exact prompt b1",
+        "role": "link"
+      },
+      "e38": {
+        "name": "b2",
+        "role": "heading"
+      },
+      "e39": {
+        "name": "Download original b2",
+        "role": "link"
+      },
+      "e4": {
+        "name": "Reset previews",
+        "role": "button"
+      },
+      "e40": {
+        "name": "Exact prompt b2",
+        "role": "link"
+      },
+      "e41": {
+        "name": "b3",
+        "role": "heading"
+      },
+      "e42": {
+        "name": "Download original b3",
+        "role": "link"
+      },
+      "e43": {
+        "name": "Exact prompt b3",
+        "role": "link"
+      },
+      "e5": {
+        "name": "Original artwork",
+        "role": "region"
+      },
+      "e6": {
+        "name": "Balanced candidate context",
+        "role": "region"
+      },
+      "e7": {
+        "name": "Square",
+        "role": "radio"
+      },
+      "e8": {
+        "name": "Rounded",
+        "role": "radio"
+      },
+      "e9": {
+        "name": "Circle",
+        "role": "radio"
+      }
+    },
+    "snapshot": "- link \"Skip to artwork\" [ref=e1]\n- main\n  - sectionheader\n    - StaticText \"LOGO LAND /\"\n    - StaticText \"THE APP ICON COLLECTION\"\n  - region \"SEAM\" [ref=e2]\n    - paragraph\n      - StaticText \"6 ORIGINALS · ONE COLLECTION\"\n    - heading \"SEAM\" [level=1, ref=e3]\n    - paragraph\n      - StaticText \"Small canvas.\"\n      - LineBreak \"\\n\"\n      - StaticText \"A world of character.\"\n    - paragraph\n      - StaticText \"Explore each original at real display sizes. Switch the surface, try a shape, and find the details that make each direction its own.\"\n  - form \"Artwork preview controls\"\n    - group \"PREVIEW SHAPE\"\n      - Legend\n        - StaticText \"PREVIEW SHAPE\"\n      - radio \"Square\" [checked=true, ref=e7]\n      - radio \"Rounded\" [checked=false, ref=e8]\n      - radio \"Circle\" [checked=false, ref=e9]\n    - group \"DISPLAY SIZE\"\n      - Legend\n        - StaticText \"DISPLAY SIZE\"\n      - radio \"32 px\" [checked=false, ref=e10]\n      - radio \"48 px\" [checked=false, ref=e11]\n      - radio \"64 px\" [checked=false, ref=e12]\n      - radio \"128 px\" [checked=true, ref=e13]\n    - group \"PREVIEW SURFACE\"\n      - Legend\n        - StaticText \"PREVIEW SURFACE\"\n      - radio \"Light\" [checked=true, ref=e14]\n      - radio \"Dark\" [checked=false, ref=e15]\n    - button \"Reset previews\" [ref=e4]\n    - group \"FILTER BY PRESET\"\n      - Legend\n        - StaticText \"FILTER BY PRESET\"\n      - radio \"All artwork\" [checked=true, ref=e16]\n      - radio \"IP mascot\" [checked=false, ref=e17]\n      - radio \"Pictogram\" [checked=false, ref=e18]\n      - radio \"Abstract\" [checked=false, ref=e19]\n      - radio \"Monogram\" [checked=false, ref=e20]\n      - radio \"Soft 3D\" [checked=false, ref=e21]\n      - radio \"Pixel art\" [checked=false, ref=e22]\n    - region \"Original artwork\" [ref=e5]\n      - heading \"The originals\" [level=2, ref=e23]\n      - paragraph\n        - StaticText \"Masks are illustrative CSS previews.\"\n      - article\n        - StaticText \"01\"\n        - StaticText \"PICTOGRAM\"\n        - image \"one folded note page with a broad open corner\"\n        - heading \"a1\" [level=2, ref=e26]\n        - paragraph\n          - StaticText \"one folded note page with a broad open corner\"\n        - paragraph\n          - StaticText \"1254 x 1254 px · Original PNG\"\n        - group\n          - DisclosureTriangle \"Artwork intent\" [expanded=false]\n            - StaticText \"Artwork intent\"\n        - link \"Download original a1\" [ref=e27]\n          - StaticText \"Download original\"\n          - StaticText \"a1\"\n        - link \"Exact prompt a1\" [ref=e28]\n          - StaticText \"Exact prompt\"\n          - StaticText \"a1\"\n      - article\n        - StaticText \"02\"\n        - StaticText \"ABSTRACT\"\n        - image \"two substantial offset strips joining in one compact rhythmic gesture\"\n        - heading \"a2\" [level=2, ref=e29]\n        - paragraph\n          - StaticText \"two substantial offset strips joining in one compact rhythmic gesture\"\n        - paragraph\n          - StaticText \"1254 x 1254 px · Original PNG\"\n        - group\n          - DisclosureTriangle \"Artwork intent\" [expanded=false]\n            - StaticText \"Artwork intent\"\n        - link \"Download original a2\" [ref=e30]\n          - StaticText \"Download original\"\n          - StaticText \"a2\"\n        - link \"Exact prompt a2\" [ref=e31]\n          - StaticText \"Exact prompt\"\n          - StaticText \"a2\"\n      - article\n        - StaticText \"03\"\n        - StaticText \"SOFT 3D\"\n        - image \"one folded paper slip with a shallow central ridge\"\n        - heading \"a3\" [level=2, ref=e32]\n        - paragraph\n          - StaticText \"one folded paper slip with a shallow central ridge\"\n        - paragraph\n          - StaticText \"1254 x 1254 px · Original PNG\"\n        - group\n          - DisclosureTriangle \"Artwork intent\" [expanded=false]\n            - StaticText \"Artwork intent\"\n        - link \"Download original a3\" [ref=e33]\n          - StaticText \"Download original\"\n          - StaticText \"a3\"\n        - link \"Exact prompt a3\" [ref=e34]\n          - StaticText \"Exact prompt\"\n          - StaticText \"a3\"\n      - article\n        - StaticText \"04\"\n        - StaticText \"PICTOGRAM\"\n        - image \"one solid folded note with a wide open stepped corner\"\n        - heading \"b1\" [level=2, ref=e35]\n        - paragraph\n          - StaticText \"one solid folded note with a wide open stepped corner\"\n        - paragraph\n          - StaticText \"1254 x 1254 px · Original PNG\"\n        - group\n          - DisclosureTriangle \"Artwork intent\" [expanded=false]\n            - StaticText \"Artwork intent\"\n        - link \"Download original b1\" [ref=e36]\n          - StaticText \"Download original\"\n          - StaticText \"b1\"\n        - link \"Exact prompt b1\" [ref=e37]\n          - StaticText \"Exact prompt\"\n          - StaticText \"b1\"\n      - article\n        - StaticText \"05\"\n        - StaticText \"ABSTRACT\"\n        - image \"two broad paper strips forming one open offset zigzag join\"\n        - heading \"b2\" [level=2, ref=e38]\n        - paragraph\n          - StaticText \"two broad paper strips forming one open offset zigzag join\"\n        - paragraph\n          - StaticText \"1254 x 1254 px · Original PNG\"\n        - group\n          - DisclosureTriangle \"Artwork intent\" [expanded=false]\n            - StaticText \"Artwork intent\"\n        - link \"Download original b2\" [ref=e39]\n          - StaticText \"Download original\"\n          - StaticText \"b2\"\n        - link \"Exact prompt b2\" [ref=e40]\n          - StaticText \"Exact prompt\"\n          - StaticText \"b2\"\n      - article\n        - StaticText \"06\"\n        - StaticText \"SOFT 3D\"\n        - image \"one shallow folded ink paper saddle with a single coral turned edge\"\n        - heading \"b3\" [level=2, ref=e41]\n        - paragraph\n          - StaticText \"one shallow folded ink paper saddle with a single coral turned edge\"\n        - paragraph\n          - StaticText \"1254 x 1254 px · Original PNG\"\n        - group\n          - DisclosureTriangle \"Artwork intent\" [expanded=false]\n            - StaticText \"Artwork intent\"\n        - link \"Download original b3\" [ref=e42]\n          - StaticText \"Download original\"\n          - StaticText \"b3\"\n        - link \"Exact prompt b3\" [ref=e43]\n          - StaticText \"Exact prompt\"\n          - StaticText \"b3\"\n    - region \"Balanced candidate context\" [ref=e6]\n      - heading \"Simulation · candidate peers\" [level=2, ref=e24]\n      - paragraph\n        - StaticText \"All selected candidates share the same size, surrounding surface and spacing. These are diagnostic contexts, not OS renderings. The 32/48/64/128 px options are not official platform sizes.\"\n      - figure\n        - image \"Candidate 1\"\n        - Figcaption\n          - StaticText \"Candidate 1\"\n      - figure\n        - image \"Candidate 2\"\n        - Figcaption\n          - StaticText \"Candidate 2\"\n      - figure\n        - image \"Candidate 3\"\n        - Figcaption\n          - StaticText \"Candidate 3\"\n      - figure\n        - image \"Candidate 4\"\n        - Figcaption\n          - StaticText \"Candidate 4\"\n      - figure\n        - image \"Candidate 5\"\n        - Figcaption\n          - StaticText \"Candidate 5\"\n      - figure\n        - image \"Candidate 6\"\n        - Figcaption\n          - StaticText \"Candidate 6\"\n      - figure\n        - image \"Candidate 1\"\n        - Figcaption\n          - StaticText \"Candidate 1\"\n      - figure\n        - image \"Candidate 2\"\n        - Figcaption\n          - StaticText \"Candidate 2\"\n      - figure\n        - image \"Candidate 3\"\n        - Figcaption\n          - StaticText \"Candidate 3\"\n      - figure\n        - image \"Candidate 4\"\n        - Figcaption\n          - StaticText \"Candidate 4\"\n      - figure\n        - image \"Candidate 5\"\n        - Figcaption\n          - StaticText \"Candidate 5\"\n      - figure\n        - image \"Candidate 6\"\n        - Figcaption\n          - StaticText \"Candidate 6\"\n  - sectionfooter\n    - paragraph\n      - StaticText \"Original PNG files and exact prompts travel with this page. Display masks and sizes never change the downloads.\"\n    - paragraph\n      - StaticText \"Raster artwork requires separate platform preparation and validation. These previews do not establish an Icon Composer document, Android adaptive layers, an app build, or store acceptance.\"\n    - paragraph\n      - StaticText \"Session seam-craft-2026 · Revision 8 · \"\n      - link \"Collection manifest\" [ref=e25]",
+    "browserPageId": "9e266c80-99b0-4975-b0c2-649ca060e6d3"
+  },
+  "_meta": {
+    "runtimeId": "7c92d0fb-8d62-4a7d-9bd2-8be95f1ad488"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "04-bread-bloom",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-23cacc0b-72c6-40cd-aecb-9bc1e28af2bb.png",
+  "image": "images/04-bread-bloom.png",
+  "sha256": "2016d40ca0b2d590fa5007a111d1e708e00c812045f119d11c43a15c21fda2ed",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "a4853c929369fb74df8359573a082a4c7f2a16318ba014c051a0ffe59c7fe0af",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:15:04.829708+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

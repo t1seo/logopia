@@ -5,7 +5,8 @@ a feature that survives the stated display width. Different directions should va
 meaning, silhouette, letter skeleton, proportions, rhythm, counters or construction;
 recoloring the same generic mark is not a distinct concept.
 
-Describe a purposeful contour, cut, joint or overlap. Relate curves, corners, stroke
+Describe purposeful contours and any necessary joints or overlaps; do not add an
+arbitrary cut to make an ordinary glyph seem original. Relate curves, corners, stroke
 weights, terminals and gaps. Inspect optical centering, clear space and the dominant
 shape before decorative effects. A rich title can be appropriate; minimalism and a
 fixed number of colors are not universal quality requirements.
@@ -27,6 +28,27 @@ counters and reading order at that size, not only a large preview. A 360px title
 not automatically a 32px favicon. Require visible observations and concrete fixes;
 insufficient evidence remains not_observed. Never infer popularity or market fit
 from a familiar shape. Strategy is a proposed interpretation of the supplied brief.
+
+For an app icon, identify one primary form before choosing its material. Signature
+marks, compact exact lettering, tactile objects, organic emblems, characters and
+modular geometry are valid when the product supports them. Do not combine all of
+them in one direction. Do not automatically map education to an owl, health to a
+leaf, habits to fire, or AI to a sparkle/orbit/infinity mark. Do not imitate a known
+app's silhouette. Reference traits such as open counters, related radii or a single
+light source are transferable; the distinctive identity of a reference is not.
+
+Supply concise design specifications: dominant form, proportion/curve/contact or
+lettering decisions, color roles, material/depth, reference traits and excluded
+features, small-size invariant, structural difference and one concrete failure risk.
+The spec is intent. Later critics must name visible locations and evidence, including
+what disappears at 32/48/64/128px, without turning color counts or symmetry into taste
+rules. These widths are diagnostics, not universal platform delivery requirements.
+One-direction variations retain the primary idea and change explicit shape variables;
+different directions require structural differences, not recoloring.
+
+Layered form and glass appearance are different concerns. A painted glossy PNG has
+no editable layers. Avoid a rounded tile nested inside a square tile. Do not infer
+OS rendering, platform acceptance or global uniqueness from a raster preview.
 
 For new brand artwork, use pure white #FFFFFF across the exterior canvas unless
 transparent was explicitly chosen. Avoid cream tint, paper texture, backdrop

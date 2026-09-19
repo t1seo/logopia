@@ -2,26 +2,28 @@
 
 [English](README.md) · [한국어](README.ko.md) · [문서](../README.ko.md) · [Logopia](../../README.ko.md)
 
-[**현재 쇼케이스 보드 크게 보기 →**](../../assets/logopia-white-showcase.png) · [현재 갤러리](../gallery.ko.md#showcase) · [전체 PNG 목록](../showcase/2026-09-white/README.ko.md)
+[**현재 쇼케이스 보드 크게 보기 →**](../showcase/2026-09-20-lifestyle/board.png) · [현재 갤러리](../gallery.ko.md#showcase) · [전체 PNG 목록](../showcase/2026-09-20-lifestyle/README.ko.md)
 
-## 흰색 배경 컬렉션
+## 9월 20일 생활 브랜드 컬렉션
 
 가상 브랜드 10개의 로고를 흰색 배경으로 새로 만들었습니다. [README에서 모든 샘플을 바로 보시거나](../../README.ko.md#샘플), 아래 링크로 개별 PNG를 열어 보세요.
 
 | 브랜드 | 현재 이미지 |
 |---|---|
-| LUMA | [01-luma.png](../showcase/2026-09-white/images/01-luma.png) |
-| LOOP LAB | [02-loop-lab.png](../showcase/2026-09-white/images/02-loop-lab.png) |
-| 고요 | [03-goyo.png](../showcase/2026-09-white/images/03-goyo.png) |
-| BREAD & BLOOM | [04-bread-bloom.png](../showcase/2026-09-white/images/04-bread-bloom.png) |
-| KITE | [05-kite.png](../showcase/2026-09-white/images/05-kite.png) |
-| MISO | [06-miso.png](../showcase/2026-09-white/images/06-miso.png) |
-| NORTHLINE / NL | [07-northline.png](../showcase/2026-09-white/images/07-northline.png) |
-| 물결 | [08-mulgyeol.png](../showcase/2026-09-white/images/08-mulgyeol.png) |
-| FERN | [09-fern.png](../showcase/2026-09-white/images/09-fern.png) |
-| NOVA NOTES | [10-nova-notes.png](../showcase/2026-09-white/images/10-nova-notes.png) |
+| LUMA | [01-luma.png](../showcase/2026-09-20-lifestyle/images/01-luma.png) |
+| LOOP LAB | [02-loop-lab.png](../showcase/2026-09-20-lifestyle/images/02-loop-lab.png) |
+| 고요 | [03-goyo.png](../showcase/2026-09-20-lifestyle/images/03-goyo.png) |
+| BREAD & BLOOM | [04-bread-bloom.png](../showcase/2026-09-20-lifestyle/images/04-bread-bloom.png) |
+| KITE | [05-kite.png](../showcase/2026-09-20-lifestyle/images/05-kite.png) |
+| MISO | [06-miso.png](../showcase/2026-09-20-lifestyle/images/06-miso.png) |
+| NORTHLINE / NL | [07-northline.png](../showcase/2026-09-20-lifestyle/images/07-northline.png) |
+| 물결 | [08-mulgyeol.png](../showcase/2026-09-20-lifestyle/images/08-mulgyeol.png) |
+| FERN | [09-fern.png](../showcase/2026-09-20-lifestyle/images/09-fern.png) |
+| NOVA NOTES | [10-nova-notes.png](../showcase/2026-09-20-lifestyle/images/10-nova-notes.png) |
 
-앱 아이콘 아트워크 6개는 [전체 파일 목록](../showcase/2026-09-white/README.ko.md)에 함께 있습니다. 파일별 정보는 [매니페스트](../showcase/2026-09-white/manifest.json)를 확인해 주세요. [이전 컬러 쇼케이스](../showcase/2026-09/README.ko.md)는 별도로 보관했습니다.
+앱 아이콘 아트워크 12개는 [전체 파일 목록](../showcase/2026-09-20-lifestyle/README.ko.md)에 함께 있습니다. 파일별 정보는 [매니페스트](../showcase/2026-09-20-lifestyle/manifest.json)를 확인해 주세요. [이전 컬러 쇼케이스](../showcase/2026-09/README.ko.md)는 별도로 보관했습니다.
+
+OFFCUT의 두 레터링 방향도 [현재 컬렉션](../showcase/2026-09-20-lifestyle/README.ko.md)에 포함했습니다. [이전 흰 배경 원본](../showcase/2026-09-white/README.ko.md)은 별도로 보관했습니다.
 
 ## 레터링을 요청해 보세요
 

@@ -1,0 +1,181 @@
+{
+  "limit": 12,
+  "provider": "native image_gen__imagegen",
+  "model": "unreported",
+  "baseline_commit": "d7d3cd40e00ca602d1900a016f0db714bc961930",
+  "calls": [
+    {
+      "id": "baseline-1",
+      "status": "returned",
+      "prompt_file": "prompts/baseline-1.txt",
+      "kind": "generation",
+      "output": "originals/baseline-1.png",
+      "sha256": "0994f3080ed84870509f08c6a37c33c672fc53b09ad0309e3d68afbdecacf5bd",
+      "prompt_sha256": "d3dc84a60aa91de6ca33f602d01176aa01629f5aa7e73e074d28bf00d7e13a22",
+      "provider": "native image_gen__imagegen",
+      "model": "unreported",
+      "parameters_exposed": [
+        "prompt"
+      ],
+      "requested_size_via_prompt": [
+        1536,
+        1536
+      ],
+      "actual_dimensions": [
+        1254,
+        1254
+      ],
+      "seed": "unreported",
+      "sampling_settings": "unreported",
+      "parent_id": null,
+      "tool_receipt_path_relative_to_codex_home": "generated_images/01a0b9fd-7829-7df0-8219-e437048861d0/exec-39497ca8-637b-4d6b-9384-7ad0661cea85.png",
+      "source_receipt_hash_verified": true
+    },
+    {
+      "id": "baseline-2",
+      "status": "returned",
+      "prompt_file": "prompts/baseline-2.txt",
+      "kind": "generation",
+      "output": "originals/baseline-2.png",
+      "sha256": "911783e35e5d0c381a4a60f9780226aa440208c0efb04382d5c7e8576f3aa600",
+      "prompt_sha256": "2616a19bb017c55202b8b3c8fba83236ec9a6cebcb17792b2b10f8a5156c7769",
+      "provider": "native image_gen__imagegen",
+      "model": "unreported",
+      "parameters_exposed": [
+        "prompt"
+      ],
+      "requested_size_via_prompt": [
+        1536,
+        1536
+      ],
+      "actual_dimensions": [
+        1254,
+        1254
+      ],
+      "seed": "unreported",
+      "sampling_settings": "unreported",
+      "parent_id": null,
+      "tool_receipt_path_relative_to_codex_home": "generated_images/01a0b9fd-7829-7df0-8219-e437048861d0/exec-c3bf99f3-5490-42a3-a51b-02f9afbb0465.png",
+      "source_receipt_hash_verified": true
+    },
+    {
+      "id": "baseline-3",
+      "status": "returned",
+      "prompt_file": "prompts/baseline-3.txt",
+      "kind": "generation",
+      "output": "originals/baseline-3.png",
+      "sha256": "36b18b41cb759651df414eb2d8a5d4fa7615b05bcfb51a1d2cff9e44e9e38b7d",
+      "prompt_sha256": "9a0e7073acfeb7c02963095064866bb0f148ad5bd150663075b914ade1126503",
+      "provider": "native image_gen__imagegen",
+      "model": "unreported",
+      "parameters_exposed": [
+        "prompt"
+      ],
+      "requested_size_via_prompt": [
+        1536,
+        1536
+      ],
+      "actual_dimensions": [
+        1254,
+        1254
+      ],
+      "seed": "unreported",
+      "sampling_settings": "unreported",
+      "parent_id": null,
+      "tool_receipt_path_relative_to_codex_home": "generated_images/01a0b9fd-7829-7df0-8219-e437048861d0/exec-2c17b14a-9384-4b83-b83f-00353315260f.png",
+      "source_receipt_hash_verified": true
+    },
+    {
+      "id": "improved-1",
+      "status": "returned",
+      "prompt_file": "prompts/improved-1.txt",
+      "kind": "generation",
+      "reference_conditioning": "analysis_text",
+      "output": "originals/improved-1.png",
+      "sha256": "1ff9ad92a22c653afa9234861b35c033272a17a38f54ce9734a204eccfe79837",
+      "prompt_sha256": "cc36e4ec2d492e3b0a54d12629032d361d2695dac6186cfe4d6f7d0939b8294c",
+      "provider": "native image_gen__imagegen",
+      "model": "unreported",
+      "parameters_exposed": [
+        "prompt"
+      ],
+      "requested_size_via_prompt": [
+        1536,
+        1536
+      ],
+      "actual_dimensions": [
+        1254,
+        1254
+      ],
+      "seed": "unreported",
+      "sampling_settings": "unreported",
+      "parent_id": null,
+      "tool_receipt_path_relative_to_codex_home": "generated_images/01a0b9fd-7829-7df0-8219-e437048861d0/exec-36cca5c4-164d-4511-a8c2-cb53aeaaaab9.png",
+      "source_receipt_hash_verified": true
+    },
+    {
+      "id": "improved-2",
+      "status": "returned",
+      "prompt_file": "prompts/improved-2.txt",
+      "kind": "generation",
+      "reference_conditioning": "analysis_text",
+      "output": "originals/improved-2.png",
+      "sha256": "b1bd5d181b19796938ffe2659abb18edcefa51cfba0e0479458da70824c540a8",
+      "prompt_sha256": "70eb297636561c6006a61acef950f81de3b20b6d07393bdd5b28429facb21672",
+      "provider": "native image_gen__imagegen",
+      "model": "unreported",
+      "parameters_exposed": [
+        "prompt"
+      ],
+      "requested_size_via_prompt": [
+        1536,
+        1536
+      ],
+      "actual_dimensions": [
+        1254,
+        1254
+      ],
+      "seed": "unreported",
+      "sampling_settings": "unreported",
+      "parent_id": null,
+      "tool_receipt_path_relative_to_codex_home": "generated_images/01a0b9fd-7829-7df0-8219-e437048861d0/exec-e1c03593-8b63-42b1-9da5-05172dbb89ba.png",
+      "source_receipt_hash_verified": true
+    },
+    {
+      "id": "improved-3",
+      "status": "returned",
+      "prompt_file": "prompts/improved-3.txt",
+      "kind": "generation",
+      "reference_conditioning": "image",
+      "reference": "own-leaf",
+      "output": "originals/improved-3.png",
+      "sha256": "2d822dd7e23fe293c18a8ff6ec05230d1b52bf2615ea81beb3239f458ca1b4a4",
+      "prompt_sha256": "44b5da3b95e3d05b635d4b99f09250f0e9fd4542b3fdfa8636ba9aa979548439",
+      "provider": "native image_gen__imagegen",
+      "model": "unreported",
+      "parameters_exposed": [
+        "prompt",
+        "referenced_image_paths"
+      ],
+      "requested_size_via_prompt": [
+        1536,
+        1536
+      ],
+      "actual_dimensions": [
+        1254,
+        1254
+      ],
+      "seed": "unreported",
+      "sampling_settings": "unreported",
+      "parent_id": null,
+      "tool_receipt_path_relative_to_codex_home": "generated_images/01a0b9fd-7829-7df0-8219-e437048861d0/exec-7213c3bc-c77b-4fb6-8e0f-431170a31c0d.png",
+      "source_receipt_hash_verified": true
+    }
+  ],
+  "user_preference": "unverified",
+  "quality_effect": "bundled intervention; not a causal isolation",
+  "native_package": false,
+  "executed_generation_calls": 6,
+  "executed_edit_calls": 0,
+  "remaining_budget": 6
+}

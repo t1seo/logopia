@@ -1,0 +1,788 @@
+{
+  "schema_version": 1,
+  "kind": "comparison_gallery",
+  "title": "Everyday identities — 2026-09-20",
+  "artifacts": [
+    {
+      "source": {
+        "session": "r0920-00-offcut-editorial",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "A thoughtful paper-goods name with a flowing rhythm of broad round bowls and soft bracketed serifs. Set exactly OFFCUT in one line; the O and C are generous oval forms, the F pair has shortened upper arms to keep open gaps, U has a deep curved basin, T has a softly flared top. Medium weight and low-to-moderate stroke contrast; serif feet curve into stems. One small identifying choice is the soft inward curl of the C terminal. Optical kerning, not rigid equal spacing. All six letters stay separate and clearly readable. No added symbol. Overall horizontal lettering occupies 78% of the canvas width, calm central placement.",
+        "preserve": "Rounded O/C bowls and the rhythm of two F letters.",
+        "change": "Overdecorated terminals or heavy uppercase could bring back the rejected industrial feel.",
+        "observation": "See visual-review.json for image observations, distinct from the design specification."
+      },
+      "parent_id": null,
+      "brand_name": "OFFCUT",
+      "kind": "brand",
+      "style": "wordmark",
+      "image_file": "images/001.png",
+      "prompt_file": "prompts/001.txt",
+      "sha256": "3012801fc83ca9fbeed0aab432933ed35ccca05c634b618c40cf733aaf8f7bc5",
+      "prompt_sha256": "83ee547f57daec706e0d02a4c7d331ffb4cbec950b1ebcf4bf23b58153833737",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": null,
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-00-offcut-playful",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "Exactly OFFCUT in one line as an approachable paper-play wordmark. Draw compact, soft, slightly irregular uppercase letters with voluptuous curves and distinctly open white counters. The O is slightly tipped left, F letters are round-ended with generous notches, C is broad and open, the U sits a little lower as a bowl, the T opens its arms. Give the name a gentle rising-and-falling rhythm without touching or losing the baseline reading. Flat solid color and an edited hand-cut-paper feel without jagged cut edges or texture. The whole name fills 80% of the width at center. No separate symbol or confetti.",
+        "preserve": "Open O/C/U counters and gently bouncing single-line lettering.",
+        "change": "Inflation or over-tight spacing can erase F/F and C/U distinctions.",
+        "observation": "See visual-review.json for image observations, distinct from the design specification."
+      },
+      "parent_id": null,
+      "brand_name": "OFFCUT",
+      "kind": "brand",
+      "style": "wordmark",
+      "image_file": "images/002.png",
+      "prompt_file": "prompts/002.txt",
+      "sha256": "db29a7ade0dcfe2e6e2b1e93f2a6631d4226e6361c40973b656a6f0e144c3727",
+      "prompt_sha256": "c32ff977c25192d7b808386d5a59d2f14c13baf92bb3b95161d7d8e777fe43f1",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": null,
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-01-luma",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "Exactly LUMA, four custom rounded uppercase letters with a warm, confidently drawn 1970s editorial spirit. Use moderately wide letter bodies and a shared smooth flared terminal family. L ends in a gentle upward curl, U has a deep broad bowl, M has two generous rounded shoulders with an open central notch, A has an arched outside and one unmistakable large interior counter and crossbar. Keep the letter skeletons familiar while the soft flared rhythm is distinctive. Each letter is one flat color. Quietly varied widths and carefully balanced white intervals, all on a calm baseline. Center the horizontal word at 78% canvas width. No supporting icon.",
+        "preserve": "Flared soft feet and open U/M/A spaces.",
+        "change": "A can lose its counter or M can look like an n if over-rounded.",
+        "observation": "See visual-review.json for image observations, distinct from the design specification."
+      },
+      "parent_id": null,
+      "brand_name": "LUMA",
+      "kind": "brand",
+      "style": "wordmark",
+      "image_file": "images/003.png",
+      "prompt_file": "prompts/003.txt",
+      "sha256": "0d29a6aa74bc5d1fbdf7d55c5e03d6685ba14af921ff4137a7f29261dc94ae21",
+      "prompt_sha256": "93b385966174ccf80a5f4298e407611b81c10b47b329d2b644c7fea6ee70cd49",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": null,
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-02-loop-lab",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "Exactly two capital L letters as a compact, elegant, friendly LL ligature for a textile workshop. Each L has a tall open loop at its top and a soft sweeping foot at the bottom. Place the second slightly lower to the right; let the two broad ribbon-like strokes meet in one carefully designed under-over crossing with a clean white separation at that crossing. Both L letter paths must remain readable, with large open loops and no more than one crossing. Moderately thick gently varying stroke widths; no hairlines. The outside silhouette is rounded, airy and almost heart-warm, without drawing a heart symbol. Mark occupies roughly 62% width and 65% height at center. Flat monochrome ink, no 3D ribbon shading. Absolutely no square-ended L blocks, nested right-angle brackets, construction beams or angular monogram.",
+        "preserve": "Two open upper loops and the swept double foot.",
+        "change": "An over-complex crossing could look like a knot rather than LL.",
+        "observation": "See visual-review.json for image observations, distinct from the design specification."
+      },
+      "parent_id": null,
+      "brand_name": "LOOP LAB",
+      "kind": "brand",
+      "style": "monogram",
+      "image_file": "images/004.png",
+      "prompt_file": "prompts/004.txt",
+      "sha256": "4c916cd07e7f055b9d70061cb440f30e661a5a2805da13e25ec3907d994a7f6b",
+      "prompt_sha256": "a303ad440284190972aa13ae5311c7867e34efda932084cfe70694f57ffefb37",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": null,
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-03-goyo",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "A small serene symbol of one softly cupped vessel enclosing a low, smooth pool-shaped opening, seen as a broad organic bowl silhouette rather than a literal outlined teacup. No handle, steam or scene. Center this symbol above the exact Korean word 고요. Custom Korean lettering is gently brush-influenced with moderate stroke weight, rounded meeting points and open spacing, no handwritten ambiguity. Preserve the complete 고 and 요 syllable blocks. Symbol about 28% canvas width, word about 45%, ample white interval between. One cohesive warm brown ink. Gentle, intimate tea-room identity; no architectural bars or Zen landscape clichés.",
+        "preserve": "Cupped silhouette and the unambiguous 고요 syllables.",
+        "change": "Vessel can become generic; overly loose brush curves could damage Hangul.",
+        "observation": "See visual-review.json for image observations, distinct from the design specification."
+      },
+      "parent_id": null,
+      "brand_name": "고요",
+      "kind": "brand",
+      "style": "combination",
+      "image_file": "images/005.png",
+      "prompt_file": "prompts/005.txt",
+      "sha256": "7cee8f71394f0b88c8b2793be70e77b9f62a399280cdf738ed86d0c5e6104d15",
+      "prompt_sha256": "b6ab37e6ee2f3f52ad33a145b20db1fc134661e5509da708389b88e43112b013",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": null,
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-04-bread-bloom",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "A friendly oval bakery emblem whose outer border has six large, shallow, softly scalloped lobes, like the edge of a paper pastry doily but very simplified. Inside, exact BREAD & BLOOM arranged as BREAD on the upper line, a modest & on its own short middle line, and BLOOM on the lower line. Use warm rounded flared-serif letters with open B/R counters, gently curved serifs and deliberate generous spacing. No tiny perimeter text. Two very small solid oval seed-like accents may sit left and right of the ampersand if they do not compete with lettering. A single solid strawberry-red ink; border and letters have related weights and ample gap. Emblem fills about 66% width, all type readable. No wheat wreath, ribbon, date, distressed stamp or engineering crest.",
+        "preserve": "Soft scalloped outline and the two readable word lines.",
+        "change": "Long words must not crowd the scallops or lose the ampersand.",
+        "observation": "See visual-review.json for image observations, distinct from the design specification."
+      },
+      "parent_id": null,
+      "brand_name": "BREAD & BLOOM",
+      "kind": "brand",
+      "style": "emblem",
+      "image_file": "images/006.png",
+      "prompt_file": "prompts/006.txt",
+      "sha256": "2016d40ca0b2d590fa5007a111d1e708e00c812045f119d11c43a15c21fda2ed",
+      "prompt_sha256": "a4853c929369fb74df8359573a082a4c7f2a16318ba014c051a0ffe59c7fe0af",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": null,
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-05-kite",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "A single airy abstract form suggesting a piece of fabric lifting in a breeze. Three broad smoothly tapering curved lobes gather into one flowing asymmetrical silhouette: a long lobe sweeps upward and right, a shorter plump lobe curls left, and a low gently hooked foot balances them. One generous crescent of white between the upper and left lobe is the identity. No literal kite, kite string, arrowhead, bird, leaf or letter. Flat one-color filled mark, each curve changes direction smoothly with no kinks, open negative space and blunt rather than pointed tips. Centered slightly above optical center, around 58% width and 60% height. No folded planes, diagonal cuts or engineering geometry.",
+        "preserve": "Asymmetrical lift and one broad white crescent.",
+        "change": "Too literal a wing or leaf would make the form generic.",
+        "observation": "See visual-review.json for image observations, distinct from the design specification."
+      },
+      "parent_id": null,
+      "brand_name": "KITE",
+      "kind": "brand",
+      "style": "abstract",
+      "image_file": "images/007.png",
+      "prompt_file": "prompts/007.txt",
+      "sha256": "3b60c030852635bb56e2953ec3e73c1c54e216f879db43867139d5fefd14e0b5",
+      "prompt_sha256": "ce7d0bcc58b0dbe009e81296525674ac14d52ca7d8e5251733a2910cb5473f7c",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": null,
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-06-miso",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "An original affectionate cat mascot centered above exactly MISO. A broad gently pear-shaped face, small rounded triangular ears, one sleepy half-closed eye and one simple upright oval eye, tiny curved mouth; distinctive asymmetry comes from a soft cheek rising on one side. The face is an apricot filled silhouette, eye and mouth marks in deep plum, no whiskers or fine fur. Underneath, MISO in custom plump but open rounded uppercase letters; the M shoulders and O share the cheek curvature. Keep the eyes simple and calm rather than cartoon-excited. Cat and name have a generous clear gap. Entire lockup centered at 57% width and 68% height. No props, paws, ribbons, badges or famous mascot resemblance.",
+        "preserve": "Tilted cheek, sleepy expression and readable MISO.",
+        "change": "Eyes may lose asymmetry at tiny display sizes; intended brand use is larger than app-icon scale.",
+        "observation": "See visual-review.json for image observations, distinct from the design specification."
+      },
+      "parent_id": null,
+      "brand_name": "MISO",
+      "kind": "brand",
+      "style": "mascot",
+      "image_file": "images/008.png",
+      "prompt_file": "prompts/008.txt",
+      "sha256": "b242a9c41422be88ace84e229728e46ad5cf095770372f6e912070fc29e7ef05",
+      "prompt_sha256": "2e17f563a9570332047193febd88d3a4265ead4d86751e232a30cbcc8803d2fc",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": null,
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-07-northline",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "Exactly NL as two separate readable uppercase initials for a warm boutique guesthouse. Draw broad elegant N and L in a soft editorial serif with curved bracketed serifs and medium stroke contrast. N has softly flaring stems and a rounded meeting at its diagonal; L has a gently cupped foot that sweeps slightly upward at the end, echoing a quiet upholstered seat. Letters sit next to each other on the same baseline, do not overlap or share strokes. A carefully balanced open interval separates the N diagonal from the L stem. Rich muted aubergine flat ink. Centered compact two-letter signature, 58% canvas width. No squared monoliths, stencil cuts, mountains, compass, arrow, shield or hotel crest.",
+        "preserve": "Readable N/L and the cupped serif feet.",
+        "change": "Heavy serif contrast must not become spindly at smaller header widths.",
+        "observation": "See visual-review.json for image observations, distinct from the design specification."
+      },
+      "parent_id": null,
+      "brand_name": "NORTHLINE",
+      "kind": "brand",
+      "style": "lettermark",
+      "image_file": "images/009.png",
+      "prompt_file": "prompts/009.txt",
+      "sha256": "8d102e6e4cb8164024b8c420bbd2a6823c36521d1a3f50c67138049109885707",
+      "prompt_sha256": "fcb0315f78c64fd8d0edda8c6f79f70fe892723652fe1296a1790ffc4d5f36d7",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": null,
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-08-mulgyeol",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "Exactly the two Korean syllables 물결 as a quiet custom lettering-only wordmark. Preserve every normal consonant and vowel component: 물 = ㅁ + ㅜ + ㄹ, 결 = ㄱ + ㅕ + ㄹ. Especially keep the downward stem of ㅜ and the two left-facing short strokes of ㅕ. Use broad rounded brush-like strokes with controlled slight variation, subtly rising horizontal strokes, soft but clear corners, generous open internal spaces. The two complete syllable blocks have equal visual weight and a clear inter-syllable gap. A gentle wave is expressed only through the baseline and terminal rhythm, never by replacing a letter. Blue single ink, 64% width centered. No separate wave, underline, landscape or watery gradients.",
+        "preserve": "Full 물/결 structure and calm horizontal rhythm.",
+        "change": "ㄹ terminals and ㅕ strokes can merge if the rhythm is over-stylized.",
+        "observation": "See visual-review.json for image observations, distinct from the design specification."
+      },
+      "parent_id": null,
+      "brand_name": "물결",
+      "kind": "brand",
+      "style": "wordmark",
+      "image_file": "images/010.png",
+      "prompt_file": "prompts/010.txt",
+      "sha256": "de541bbb5863ce4dc0b3b5a85c9cf27a4071959cf28632b771d8210b97e4fc51",
+      "prompt_sha256": "bac6f4304fd6f07b3b28e56a5259f6f64ab8205edc0c2ce00d971595b56672cc",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": null,
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-09-fern",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "One deliberately drawn unfurling fern as a compact organic pictorial mark. A gently S-curved thick stem rises into a broad inward curl, with three generous asymmetrical paddle-shaped fronds on alternating sides. The lower left frond cups upward, the middle right frond reaches wide, the upper frond is smaller; this rhythm rather than extra botanical detail is the identity. All connected to a coherent central gesture, no spindly branches. Deeply open white gaps between fronds and a round open eye inside the top curl. Flat moss-green silhouette, soft blunt tips and calm asymmetry. Centered 55% width, 65% height. No leaf veins, pot, circle, medical cross, letter or text.",
+        "preserve": "Top curl and three alternating broad fronds.",
+        "change": "Botanical category familiarity is intentional; does not establish uniqueness.",
+        "observation": "See visual-review.json for image observations, distinct from the design specification."
+      },
+      "parent_id": null,
+      "brand_name": "FERN",
+      "kind": "brand",
+      "style": "symbol",
+      "image_file": "images/011.png",
+      "prompt_file": "prompts/011.txt",
+      "sha256": "dfec8209868fa3cf4c28904c2ec437dbae646768e9578fb5a5fde7f223aabf6f",
+      "prompt_sha256": "2612f689908582b19db7933a4a43ef05af8a9dc8031ff6878b13a4abde7cbe1e",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": null,
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-10-nova-notes",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "A warm personal-journaling identity: a compact symbol of two soft paper-tab shapes sharing a gentle curved inner gap sits above the exact words NOVA NOTES. The tabs are broad, rounded and slightly staggered like welcoming open pages, not a geometric bolt; just two shapes, no folded corners. Use custom rounded humanist serif uppercase lettering in two lines, NOVA above NOTES, with coherent modest contrast and open O/A counters. Symbol apricot, name warm plum. Symbol about one third the word width, with an airy clear gap above the two-line lettering. Overall compact vertical lockup 57% width and 67% height. No star, sparkle, speed line, diagonal cuts, tilted athletic type or extra slogan.",
+        "preserve": "Soft double-tab opening and two readable word lines.",
+        "change": "Avoid a stock book icon and overly wide gap between symbol and name.",
+        "observation": "See visual-review.json for image observations, distinct from the design specification."
+      },
+      "parent_id": null,
+      "brand_name": "NOVA NOTES",
+      "kind": "brand",
+      "style": "combination",
+      "image_file": "images/012.png",
+      "prompt_file": "prompts/012.txt",
+      "sha256": "bfb69201b1563b0d0f66c177ca16054a66cf271d369d526d6a04886f8587fb52",
+      "prompt_sha256": "2bda0ae7abb4952b7d070769a66ed2e913b6e14f98e16ea6834f59f7f905e881",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": null,
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-11-reading-owl-feedback",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "One original quiet owl character for a reading companion. A broad pear-shaped persimmon orange body with very small rounded ear tufts, deep violet upper face shaped as one generous shallow curved brow, two sleepy white eye openings with simple dark pupils, tiny blunt beak. One broad dark wing tucks along the lower right side like a bookmark, with a distinct rounded notch at its top. No literal book. The body is gently asymmetric, settled and content, not excited or babyish. Large clean connected color regions, no outline, feather detail or texture. Whole owl centered and fully visible, occupying 74% height and 64% width, ample white margin for platform masking. No rounded tile drawn into the artwork. Exclude the newly rejected combination of cream backing, dark teal and coral bent bars. Keep this candidate's specified color roles, without adding a cream tile.",
+        "preserve": "Wide brow, two calm eyes and one tucked dark wing.",
+        "change": "Eye details need inspection at32px; owl is an explicitly preserved subject, not an automatic category mapping.",
+        "observation": "See visual-review.json for image observations, distinct from the design specification."
+      },
+      "parent_id": null,
+      "brand_name": "Reading Owl",
+      "kind": "app_icon",
+      "style": "ip_mascot",
+      "image_file": "images/013.png",
+      "prompt_file": "prompts/013.txt",
+      "sha256": "fbb09d5aead1592d137d228312588bb08d323036e0780c0eb96bd411404fe4f8",
+      "prompt_sha256": "d5b304d0a75b89691d07f749b2ba01cb683ea928a945b7fc3e1adaee0e31244e",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": {
+        "preset": "ip_mascot",
+        "subject": "an original calm broad owl with a tucked bookmark-shaped wing",
+        "placement": "center",
+        "text": null
+      },
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-12-weather-feedback",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "A distinctive filled weather pictogram, built as one compact interlocking silhouette. A low, wide azure blue cloud has one tall round shoulder on the left and a long gently rising right tip. Its upper-right edge cups a broad golden yellow half-sun so the sun and cloud join cleanly without a thin white seam. The sun is not a circle with rays; its exposed top is a flattened soft arc tilted very slightly upward. Cloud and sun occupy balanced large areas, with a small deep white inlet beneath the left shoulder adding identity. Confident organic curves of a coherent family, flat color only. Centered 73% width, 59% height. No stock outline icon, detached rays, extra droplets, gradient, shadow or inset tile. Exclude the newly rejected combination of cream backing, dark teal and coral bent bars. Keep this candidate's specified color roles, without adding a cream tile.",
+        "preserve": "High left shoulder and the joined apricot sunrise arc.",
+        "change": "A cloud/sun is familiar; distinct proportions need to survive downscaling.",
+        "observation": "See visual-review.json for image observations, distinct from the design specification."
+      },
+      "parent_id": null,
+      "brand_name": "Daybreak",
+      "kind": "app_icon",
+      "style": "pictogram",
+      "image_file": "images/014.png",
+      "prompt_file": "prompts/014.txt",
+      "sha256": "169fd11099fbba18f8f652613e834d5e47935c488e389e443de2fe959e0fcc43",
+      "prompt_sha256": "1cdb257e1c20a38c324cb4524bf0b971e3d2facf91d2347e6b56c7e5b86dd171",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": {
+        "preset": "pictogram",
+        "subject": "an asymmetrical cloud cupping a warm sunrise",
+        "placement": "center",
+        "text": null
+      },
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-13-flow-feedback",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "One broad filled abstract silhouette for a calm focus app, suggesting a soft fabric sail opening rather than a bent line. An asymmetrical plump triangular form has three smooth convex sides with deeply rounded corners. Its top tip bends inward once, making one large rounded white teardrop-shaped opening connected to the right outside edge through a broad open mouth. The form has generous solid mass, not a uniform-thickness stroke, tube, ring or letter. Low compact footprint, broad stable base, one gentle lift at the upper left. Vivid ultramarine-blue flat ink on white, centered at about 68% width and 65% height. No paired interlocking segments, coral accent, cream tile, infinity loop, S-shaped tube, bracket, orbit, arrowhead, generic spiral or cutout slashes. No texture, shading, separate dot, sparkle or enclosing tile. Exclude the newly rejected combination of cream backing, dark teal and coral bent bars. Keep this candidate's specified color roles, without adding a cream tile.",
+        "preserve": "Solid asymmetric outer mass and one generous teardrop opening.",
+        "change": "The opening can become a generic loop if the outer mass gets too narrow.",
+        "observation": "See visual-review.json for image observations, distinct from the design specification."
+      },
+      "parent_id": null,
+      "brand_name": "Flow",
+      "kind": "app_icon",
+      "style": "abstract",
+      "image_file": "images/015.png",
+      "prompt_file": "prompts/015.txt",
+      "sha256": "9d10ce220c808b7c115ddaecef878e3f0db40ebcf2367299dcc67be85625ad0d",
+      "prompt_sha256": "9a1168bf28110591c1c08466f5845d282bce89842f66398aad2b0cba969c8ff8",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": {
+        "preset": "abstract",
+        "subject": "one broad folded petal-like form opening into a generous inner bay",
+        "placement": "center",
+        "text": null
+      },
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-14-notes-feedback",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "Render exactly the single Korean syllable 틈 as a warm, approachable app signature. Keep its normal three-tier Hangul construction completely intact: top consonant ㅌ consists of a left vertical connecting three horizontal strokes; middle vowel ㅡ is a separate horizontal bar; bottom consonant ㅁ is one closed rounded square with a large white counter. All required components are distinct. Use a broad moderately thick stroke with soft round terminals and subtly convex horizontal edges, avoiding rigid stacked industrial bars. Optical horizontal gaps should be generous and consistent, bottom counter large. Overall silhouette slightly wider than tall, centered and about 66% canvas width. Flat geranium-pink color. No added symbol, dot, list lines, second syllable or pseudo-Hangul; no inset tile. Exclude the newly rejected combination of cream backing, dark teal and coral bent bars. Keep this candidate's specified color roles, without adding a cream tile.",
+        "preserve": "Complete ㅌ/ㅡ/ㅁ structure with open intervals and bottom counter.",
+        "change": "Must not read as 틀, 몸, a list icon, or a pile of disconnected bars.",
+        "observation": "See visual-review.json for image observations, distinct from the design specification."
+      },
+      "parent_id": null,
+      "brand_name": "틈",
+      "kind": "app_icon",
+      "style": "monogram",
+      "image_file": "images/016.png",
+      "prompt_file": "prompts/016.txt",
+      "sha256": "af3be472f9935982012e6de7e8af1b6adc16f738b0a548fb018e37fe364d0b77",
+      "prompt_sha256": "2d6967c7bc77a3444270264817ba122efb3e4fac0755c4917ebbc4a253b8fffe",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": {
+        "preset": "monogram",
+        "subject": "the exact complete Hangul syllable 틈 in softly rounded lettering",
+        "placement": "center",
+        "text": "틈"
+      },
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-15-cloud-feedback",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "One near-frontal little cloud-shaped pocket sculpted in smooth matte violet-lilac porcelain. Three broad uneven cloud lobes form a clear silhouette; the largest lobe sits left of center. Across the lower third a single generous curved pocket opening forms a shallow smile-like crescent, dark lilac inside, with a softly rolled lip. No stitching, seams, separate envelope or face. Restrained shallow depth, nearly frontal perspective showing only a little top surface; broad upper-left soft light, minimal soft internal shading, no harsh highlights or shiny plastic. Silhouette should still be clear without material shading. Object occupies 75% width and 62% height, centered on a uniform white background. No floor, external cast shadow, vignette, glow, grain, star or outer rounded tile. Exclude the newly rejected combination of cream backing, dark teal and coral bent bars. Keep this candidate's specified color roles, without adding a cream tile.",
+        "preserve": "Three unequal lobes and one large pocket crescent.",
+        "change": "Shading can obscure the pocket at32px; white surround can expose unwanted cast shadow.",
+        "observation": "See visual-review.json for image observations, distinct from the design specification."
+      },
+      "parent_id": null,
+      "brand_name": "Cloud Pocket",
+      "kind": "app_icon",
+      "style": "soft_3d",
+      "image_file": "images/017.png",
+      "prompt_file": "prompts/017.txt",
+      "sha256": "6e93647e6c98a1af7d08308640cd82d5f13ba461b5f5b6b1beb935ca38c6c858",
+      "prompt_sha256": "7fecf2da0fabb76566e53f989cec5a9122c618a36ff2d99ef1a341f3bce950c5",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": {
+        "preset": "soft_3d",
+        "subject": "one matte lilac cloud with a broad curved pocket opening",
+        "placement": "center",
+        "text": null
+      },
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-16-sprout-feedback",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "A compact cozy pixel-art sprout in a squat terracotta pot, designed on one coarse square grid. Two generous connected paddle-shaped leaves: left leaf rises one grid step higher and bends inward, right leaf reaches farther outward. Short thick stem; pot is wider than tall with a broad apricot rim and gently stair-stepped rounded lower corners. Four controlled solid colors, large readable clusters, one small darker green patch per leaf at most. No tiny soil specks or detached pixels. Crisp consistent pixel steps; warm inviting game sprite, not a corporate eco logo. Centered roughly 60% width and 68% height on white. No extra heart, sparkle, text, scene, shadow, gradient, dithering or border. Exclude the newly rejected combination of cream backing, dark teal and coral bent bars. Keep this candidate's specified color roles, without adding a cream tile.",
+        "preserve": "Uneven leaf pair, short stem and low broad pot.",
+        "change": "Native raster may approximate a pixel grid; verify edges without claiming integer-grid certification.",
+        "observation": "See visual-review.json for image observations, distinct from the design specification."
+      },
+      "parent_id": null,
+      "brand_name": "Sprout",
+      "kind": "app_icon",
+      "style": "pixel_art",
+      "image_file": "images/018.png",
+      "prompt_file": "prompts/018.txt",
+      "sha256": "5872d1cc973f8892051afbdd55fc4ff563fc19cb44a9159235ff7a6e7f885df8",
+      "prompt_sha256": "94cb301855bd64a2215dfcad9ff76fd0209f1a86aa8d260d83d21fabb751bbe7",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": {
+        "preset": "pixel_art",
+        "subject": "a broad two-leaf sprout in a softly proportioned terracotta pot rendered on one pixel grid",
+        "placement": "center",
+        "text": null
+      },
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-17-bun-club",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "One warm milk bun as a deliberately sculpted app icon for a home-baking journal. A low round plump bun, slightly oblique top view but essentially frontal, with three broad pillowy lobes divided by one gentle Y-shaped baking seam. The seam is deep enough to identify at32px, never a hairline scratch. Golden honey crust, one broad soft warm highlight and restrained darker toasted crevice; smooth baked surface without flour dust or photo-real pores. No face, plate, basket, wrapper or extra bread. The bun's soft triangular-round silhouette fills about70% width and64% height at center. Uniform saturated cornflower-blue full-square canvas, extending to all four edges. The blue is the actual icon background. Do not draw an inset rounded square, outer mask or extra frame. Small internal dimensional shading only, no floor shadow or advertising render.",
+        "preserve": "Three broad golden bun lobes separated by one readable seam against blue.",
+        "change": "Fine food texture or weak seams can disappear at32px.",
+        "observation": "Golden three-lobed bun with a deep Y-shaped seam on a full blue square. The object and background are clearly separated. Surface is photorealistic with pores and stronger specular highlights than the restrained sculpture intent; small-size recognition must rely on the seam and silhouette."
+      },
+      "parent_id": null,
+      "brand_name": "Bun Club",
+      "kind": "app_icon",
+      "style": "soft_3d",
+      "image_file": "images/019.png",
+      "prompt_file": "prompts/019.txt",
+      "sha256": "44c59008f69d3f665ce8dbd6403bab9a1363dd7612e32b7d401448872890d252",
+      "prompt_sha256": "c182c0685069729d5e32f126ab0c9792322141d81223f1e903c36eaa9ce9e285",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": {
+        "preset": "soft_3d",
+        "subject": "one small round milk bun with a single broad crosswise split and three pillowy lobes",
+        "placement": "center",
+        "text": null
+      },
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-18-jelly",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "An original little jelly character as a mood-journal app identity. One pink asymmetrical mound with a sloped rounded top leaning gently left, two low rounded base feet formed from its own outline, no arms or ears. The left eye is one broad dark-plum oval half hidden by a slanting lid; right eye is a small simple upright oval. One tiny open curved mouth, calm and mildly amused. Expression comes from the unequal eyes and leftward lean; do not add cheeks, accessories, sparkle or another shape. Flat crisp color regions, coherent smooth contour, no gloss or 3D shading. Character fills about70% height and67% width, fully inside the square. Uniform saturated purple background edge-to-edge, enough tonal contrast to the pink body. No inset cream tile, mascot copied from another product, orange owl or stock ghost sheet.",
+        "preserve": "Leaning pink mound and asymmetric two-eye expression.",
+        "change": "Very small expression can merge; verify dark eyes against the pink face.",
+        "observation": "Pink asymmetrical two-footed mound with one sleepy left eye, upright right eye and small mouth on saturated purple. The high shoulder leans to the right rather than the requested left; face and body have faint tonal variation. Character uniqueness is unverified."
+      },
+      "parent_id": null,
+      "brand_name": "Jelly Journal",
+      "kind": "app_icon",
+      "style": "ip_mascot",
+      "image_file": "images/020.png",
+      "prompt_file": "prompts/020.txt",
+      "sha256": "8fcd1430fb1d076a5569a5b2c25a16e10b6ff36696e9860de8eb98fd7242780e",
+      "prompt_sha256": "760b3f53a011bf1c1ee895d3d8049e5602eb23071365d1f58bae4ac4f8f774b5",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": {
+        "preset": "ip_mascot",
+        "subject": "an original softly leaning pink jelly character with a broad sloped top and unequal sleepy eyes",
+        "placement": "center",
+        "text": null
+      },
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-19-bam",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "Exactly the single Korean syllable 밤, softly drawn and confidently readable as a bedtime-audio app signature. Preserve the ordinary complete construction: upper-left ㅂ with two open counters, upper-right ㅏ with its right-facing short arm, and lower ㅁ with a large open square counter. Give the strokes a warm slightly brush-shaped modulation and round ends, never rigid squared machine bars. All counters and inter-component gaps are broad. Compact balanced syllable block around68% width and63% height, optically centered. Warm ivory lettering on a deep blackberry-purple background that completely fills the square. No moon, star, sparkle, second letter, slogan, border or rounded tile within the square. Flat ink with no gradient or texture. The distinct counter rhythm is the identity; exact 밤 must not become 봄 or 밥.",
+        "preserve": "ㅂ double counters, the right-facing ㅏ and complete bottom ㅁ.",
+        "change": "Small counters could merge; exact syllable must remain 밤.",
+        "observation": "Correctly readable 밤 in soft ivory strokes on blackberry purple: distinct upper ㅂ/ㅏ and complete lower ㅁ. The top and bottom components have different stroke modulation; exact color and finished font construction are not certified."
+      },
+      "parent_id": null,
+      "brand_name": "밤",
+      "kind": "app_icon",
+      "style": "monogram",
+      "image_file": "images/021.png",
+      "prompt_file": "prompts/021.txt",
+      "sha256": "06d07b78f4b5b6fce3d1134423482d897b2a03c84eff8c3a53e90b4ded14c126",
+      "prompt_sha256": "9d0633e334bed1271b94180026fd4d048d8ccaa3b21bc887ddb09b0f7621ab1b",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": {
+        "preset": "monogram",
+        "subject": "the exact complete Korean syllable 밤 drawn as one soft custom letter block",
+        "placement": "center",
+        "text": "밤"
+      },
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-20-side-b",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "One cohesive little record-in-sleeve object for a music-discovery app. A charcoal circular vinyl record is half tucked into a warm sunny-yellow paper sleeve. The sleeve is a slightly squat near-square with softly rounded paper corners and one shallow thumb scoop at its top; the exposed record semicircle rises clearly above it. The record has one broad center label and no fine concentric grooves. Nearly frontal view, a gentle6-degree lean only, shallow paper thickness and restrained matte depth. Soft broad light, clean silhouette and large color regions. Entire joined object fills66% width and74% height, centered. The real square background is uniformly clear sky blue, extending to all edges. No table, cast shadow, perspective mockup, text, music note, play button, inset rounded tile, industrial metal texture or glossy highlights.",
+        "preserve": "Record semicircle above the yellow sleeve and one center label.",
+        "change": "The sleeve/record can become a generic music glyph if material and proportions are not restrained and coherent.",
+        "observation": "Black record semicircle emerges from a yellow sleeve with a broad thumb scoop on blue. Center label remains visible. The object is upright rather than the requested small lean. Paper and record have noticeable grain and faint shading around edges."
+      },
+      "parent_id": null,
+      "brand_name": "Side B",
+      "kind": "app_icon",
+      "style": "soft_3d",
+      "image_file": "images/022.png",
+      "prompt_file": "prompts/022.txt",
+      "sha256": "658660e99328ce0322311d66cdce0d2839260c322bb578171e890b6d8da30f8b",
+      "prompt_sha256": "6b73b6f04d186db89239e38a064d5ab3f09f5bd2beff44acf18ce443ed0c8063",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": {
+        "preset": "soft_3d",
+        "subject": "one small vinyl record partly tucked into a softly proportioned yellow sleeve",
+        "placement": "center",
+        "text": null
+      },
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-21-plum",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "One bold plum silhouette for a seasonal-cooking app. Broad slightly pear-shaped purple fruit with unequal rounded shoulders and a small dimple at the top; one smooth softly curved cleft enters from that dimple and ends well above the bottom, expressed by a slightly lighter broad purple shape rather than a thin line. A short sturdy stem supports one generous green leaf angled right; the leaf has no veins. Intentional gentle asymmetry and a slightly flattened bottom distinguish it from a plain purple circle. Flat filled color, no specular highlight, face, droplet, glossy skin, gradients or realistic food photography. Fruit and leaf form one compact center composition around65% width and76% height. Uniform marigold-yellow background fills the complete square to the edges, with no enclosing tile or external shadow.",
+        "preserve": "Unequal fruit shoulders, upper dimple and one leaf.",
+        "change": "Common fruit subject does not establish uniqueness; purple cleft must survive small sizes.",
+        "observation": "Large purple plum, lighter broad curved cleft, brown stem and one green leaf against golden yellow. Brown stem adds a color beyond the brief palette list. Fruit is a familiar category motif; no uniqueness claim."
+      },
+      "parent_id": null,
+      "brand_name": "Plum",
+      "kind": "app_icon",
+      "style": "pictogram",
+      "image_file": "images/023.png",
+      "prompt_file": "prompts/023.txt",
+      "sha256": "b00946865879bd9f9ac421ebd15189988065dd8c7bdc8c11a50dc0afb66b30be",
+      "prompt_sha256": "c490fcec76970c0db0c4bfaba2c85726e0117d5d8a8c72c3548defb54d70506e",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": {
+        "preset": "pictogram",
+        "subject": "one asymmetrical purple plum with a broad soft cleft and one small curved green leaf",
+        "placement": "center",
+        "text": null
+      },
+      "lockup": null
+    },
+    {
+      "source": {
+        "session": "r0920-22-patch",
+        "revision": 1,
+        "artifact": "a-v1",
+        "rationale": "One compact paper-fan signature for a collage app, made from exactly three large flat paper-petal pieces growing from a common low base. Each piece uses the same rule: a broad rounded top and a gently tapered body with a blunt base. Left pink piece tilts left and is medium height; center golden-orange piece stands tallest; right cobalt piece tilts right and is shorter and wider. Let them overlap only at the broad common base, with clean purposeful junctions; no thin white channel or bent tubular stroke. The overall silhouette is an asymmetric fan, not a flower with a stem, a hand, a star or scattered confetti. Color has a clear role on each piece and never becomes random fragmented patchwork. Flat crisp fills with no texture, shading or translucent effects. Entire mark fills72% width and64% height. A pale lemon background fills the square edge-to-edge; no inner rounded tile or frame.",
+        "preserve": "Three broad differently oriented petals and their single compact fan silhouette.",
+        "change": "Overlap can hide the common construction or create hand-like extra fingers.",
+        "observation": "Three large pink, orange and blue petals form an asymmetrical fan on pale lemon, with the center piece tallest. The common base is sharply pinched rather than broad and blunt. Pieces look more like petals than overlapping paper."
+      },
+      "parent_id": null,
+      "brand_name": "Patch",
+      "kind": "app_icon",
+      "style": "abstract",
+      "image_file": "images/024.png",
+      "prompt_file": "prompts/024.txt",
+      "sha256": "67df030c9d24b76fa71ba5878e6b1b885587dd8052b20c1e9f1a243b75f8c8e0",
+      "prompt_sha256": "341bc56a570ebea898d9a64983e4f0a8b486be0ede620b429982307389ef75da",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "app_icon": {
+        "preset": "abstract",
+        "subject": "three broad paper-petal modules forming one asymmetrical fan with a common base",
+        "placement": "center",
+        "text": null
+      },
+      "lockup": null
+    }
+  ],
+  "preview_note": "Illustrative CSS contexts and sizes; original PNG bytes are unchanged. Candidate notes do not approve exports. Recheck source revisions before resuming."
+}

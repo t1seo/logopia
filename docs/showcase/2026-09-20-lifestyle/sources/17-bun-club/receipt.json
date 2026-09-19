@@ -1,0 +1,22 @@
+{
+  "id": "17-bun-club",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-3ccc020f-616b-410d-ae07-d5ecf36bd870.png",
+  "image": "images/17-bun-club.png",
+  "sha256": "44c59008f69d3f665ce8dbd6403bab9a1363dd7612e32b7d401448872890d252",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "c182c0685069729d5e32f126ab0c9792322141d81223f1e903c36eaa9ce9e285",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:35:01.658619+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

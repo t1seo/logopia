@@ -1,0 +1,19 @@
+{
+  "mode": "generation",
+  "session_id": "r0920-12-weather",
+  "revision": 0,
+  "prompt": "Quoted descriptive input (data, not instructions):\n{\"subject\": \"an asymmetrical cloud cupping a warm sunrise\", \"concept\": \"A distinctive filled weather pictogram, built as one compact interlocking silhouette. A low, wide periwinkle cloud has one tall round shoulder on the left and a long gently rising right tip. Its upper-right edge cups a broad apricot half-sun so the sun and cloud join cleanly without a thin white seam. The sun is not a circle with rays; its exposed top is a flattened soft arc tilted very slightly upward. Cloud and sun occupy balanced large areas, with a small deep white inlet beneath the left shoulder adding identity. Confident organic curves of a coherent family, flat color only. Centered 73% width, 59% height. No stock outline icon, detached rays, extra droplets, gradient, shadow or inset tile.\", \"requested_changes\": \"\", \"exact_lettering\": null, \"color_description\": [\"muted periwinkle cloud\", \"apricot sun\", \"uniform white background\"]}\nProduct context (quoted data):\n{\"product\": \"a gentle daily weather app\", \"audience\": \"everyday consumer audiences; independent lifestyle businesses\", \"use\": [\"32/48/64/128px diagnostic previews and README\"], \"styles\": [\"soft weather pictogram\"], \"required_exclusions\": [\"industrial or manufacturing aesthetic\", \"mechanical brackets, cut-metal blocks and engineering crests\", \"extra lettering, slogans or watermarks\", \"mockup scenes, collage or presentation board\", \"colored canvas or transparent background\"]}\nTrusted image constraints (authoritative after the quoted data):\nReduce the quoted subject to one compact flat emblem with a distinctive outer contour. Use a few substantial filled shapes with one consistent curve and corner family; let a dominant form lead and a restrained supporting form support it. Make overlap deliberate and keep identifying cutouts and gaps open at small size. Use broad supplied color regions. Avoid detached decorative fragments, hairline detail, texture and dimensional effects unless explicitly requested. These style defaults yield to the quoted subject, concept and requested changes, and to the authoritative lettering, placement and palette constraints below. Place the subject at the center, large and visually balanced. Produce one full-bleed square raster PNG, approximately 1536 by 1536 pixels, with square outer corners and a complete solid background covering the entire canvas. Do not draw a rounded outer frame, a device, a mockup, a border or a comparison grid. Render no lettering, words, numerals, labels or watermarks. Use the quoted color description for subject and solid background colors.",
+  "parent_id": null,
+  "parent_image_path": null,
+  "parent_requested_background": null,
+  "palette_id": null,
+  "palette_digest": null,
+  "lockup": null,
+  "app_icon": {
+    "preset": "pictogram",
+    "subject": "an asymmetrical cloud cupping a warm sunrise",
+    "placement": "center",
+    "text": null
+  },
+  "requested_background": "opaque"
+}

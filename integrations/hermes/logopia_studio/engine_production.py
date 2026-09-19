@@ -10,6 +10,7 @@ from pydantic import ValidationError
 from .checks import candidate_by_id, review_input, verify_critiques
 from .engine_jobs import is_superseded
 from .engine_steps import digest, is_paused, job_by_id, put_job
+from .host_references import reference_inputs
 from .models import Candidate, Critique, Job, StudioError
 from .models_base import CRITIQUE_LIMIT, ROLE_COUNT
 from .store_files import read_file, safe_path
@@ -20,8 +21,14 @@ if TYPE_CHECKING:
 
 
 def apply_plan(steps: Steps, state: Workflow, job: Job) -> Workflow:
-    if job.plan is None or len(job.plan.directions) != state.brief.effective_count:
+    if job.plan is None or len(job.plan.directions) != state.brief.effective_direction_count:
         raise StudioError("invalid_plan", "Planning direction count differs from agreed count")
+    if state.brief.candidates_per_direction > 1 and any(
+        {variant.slot for variant in direction.variations}
+        != set(range(1, state.brief.candidates_per_direction + 1))
+        for direction in job.plan.directions
+    ):
+        raise StudioError("invalid_plan", "Exploration requires explicit variables for every slot")
     updated = put_job(state, job.model_copy(update={"status": "succeeded"}))
     updated = updated.model_copy(
         update={"strategy": job.plan.strategy, "directions": job.plan.directions}
@@ -33,6 +40,8 @@ def plan_once(steps: Steps, state: Workflow) -> Workflow:
     job = Job(
         id=f"j{len(state.jobs) + 1}",
         kind="plan",
+        references=state.brief.references,
+        reference_conditioning="text" if state.brief.references else "none",
         request_sha256=digest(state.brief.model_dump_json()),
     )
     reserved = steps.reserve(state, job, "planning")
@@ -59,6 +68,7 @@ def attach_image(steps: Steps, state: Workflow, job: Job) -> Workflow:
 
 
 def generate(steps: Steps, state: Workflow, job: Job) -> Workflow:
+    _ = reference_inputs(job.references)
     reserved = steps.reserve(state, job, "revising" if job.parent_id else "generating")
     if job.prompt is None:
         raise StudioError("invalid_job", "Generation requires an exact saved prompt")
@@ -118,7 +128,11 @@ def critique(
         kind="critique",
         candidate_id=candidate.id,
         retry_of=retry_of,
-        request_sha256=digest(request.model_dump_json()),
+        request_sha256=(
+            job_by_id(state, retry_of).request_sha256
+            if retry_of is not None
+            else digest(request.model_dump_json())
+        ),
     )
     reserved = steps.reserve(state, job, "reviewing")
     try:

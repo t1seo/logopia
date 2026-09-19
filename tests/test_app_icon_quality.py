@@ -15,7 +15,7 @@ from tests.test_palette_workflow import add_palette
 if TYPE_CHECKING:
     from tests.conftest import Harness
 
-QUALITY: Final = Path(__file__).resolve().parents[1] / "docs/qa/app-icons/quality-fixtures"
+QUALITY: Final = Path(__file__).resolve().parents[1] / "docs/qa/icon-craft-2026/prompt-fixtures"
 
 
 class PromptCase(FrozenModel):
@@ -38,20 +38,20 @@ class QuotedInput(FrozenModel):
 
 
 IP_CASES: Final = TypeAdapter(tuple[PromptCase, ...]).validate_json(
-    (QUALITY / "ip-pins.json").read_bytes()
+    (QUALITY / "ip-pins-v2.json").read_bytes()
 )
 QUALITY_CASES: Final = TypeAdapter(tuple[PromptCase, ...]).validate_json(
-    (QUALITY / "quality-cases-v1.json").read_bytes()
+    (QUALITY / "quality-cases-v2.json").read_bytes()
 )
 DIRECTIONS: Final = TypeAdapter(dict[AppIconPreset, str]).validate_json(
-    (QUALITY / "directions-v1.json").read_bytes()
+    (QUALITY / "directions-v2.json").read_bytes()
 )
 
 
 @pytest.mark.parametrize("case", IP_CASES, ids=[case.name for case in IP_CASES])
 def test_full_ip_output_when_frozen_matrix_or_native_inputs(case: PromptCase) -> None:
-    # Given: complete expectations were captured before any production change.
-    # When: the exact saved generation/edit inputs are rebuilt.
+    # Given: v2 expectations retain old inputs with the approved product/context contract.
+    # When: those generation/edit inputs are rebuilt using the improved prompt policy.
     actual = build_app_icon_prompt(
         case.icon,
         case.brief,
@@ -60,13 +60,13 @@ def test_full_ip_output_when_frozen_matrix_or_native_inputs(case: PromptCase) ->
         case.changes,
         has_parent=case.has_parent,
     )
-    # Then: every character, including Unicode and the entire trusted tail, is unchanged.
+    # Then: every character, including Unicode and the entire trusted tail, matches v2.
     assert actual == case.expected
 
 
 @pytest.mark.parametrize("case", QUALITY_CASES, ids=[case.name for case in QUALITY_CASES])
 def test_emitted_prompt_when_reviewed_style_contract(case: PromptCase) -> None:
-    # Given: full expected instructions were authored from the contract before production edits.
+    # Given: full v2 expectations encode the reviewed product-directed color/context contract.
     # When: the representative style is emitted.
     actual = build_app_icon_prompt(case.icon, case.brief, None, "", "", has_parent=False)
     # Then: the complete reviewed output, including shared constraints, is supplied.

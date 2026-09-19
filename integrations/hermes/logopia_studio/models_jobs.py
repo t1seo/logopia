@@ -6,6 +6,7 @@ from pydantic import Field
 
 from .models_base import Digest, FrozenModel, Identifier, Note, Prompt, Receipt, StudioError, Text
 from .models_brief import PlanResult
+from .models_references import DesignSpecification, ReferenceAnalysis, StudioReference
 from .models_review import Critique, GeneratedImage
 
 JobKind: TypeAlias = Literal["plan", "generate", "edit", "critique", "deliver"]
@@ -22,6 +23,12 @@ class Job(FrozenModel):
     candidate_id: Identifier | None = None
     retry_of: Identifier | None = None
     direction_id: Identifier | None = None
+    candidate_slot: Annotated[int, Field(ge=1, le=3)] = 1
+    changed_variables: Annotated[tuple[Text, ...], Field(max_length=6)] = ()
+    references: Annotated[tuple[StudioReference, ...], Field(max_length=6)] = ()
+    reference_conditioning: Literal["none", "text"] = "none"
+    design_spec: DesignSpecification | None = None
+    reference_analysis: Annotated[tuple[ReferenceAnalysis, ...], Field(max_length=6)] = ()
     parent_id: Identifier | None = None
     prompt: Prompt | None = None
     keep: Annotated[tuple[Text, ...], Field(max_length=20)] = ()

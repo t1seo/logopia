@@ -8,6 +8,8 @@ from pydantic import Field
 
 from logo_helper.app_icon_models import omit_absent
 from logo_helper.app_icon_prompts import build_app_icon_prompt
+from logo_helper.asset_policy import icon_import_background
+from logo_helper.conditioning_models import InputPlan, no_input_plan
 from logo_helper.intent import resolve_intent
 from logo_helper.logo_prompts import logo_construction
 from logo_helper.models import (
@@ -39,6 +41,7 @@ class PromptResult(FrozenModel):
     lockup: LockupIntent | None = None
     app_icon: AppIconIntent | None = Field(default=None, exclude_if=omit_absent)
     requested_background: Background | None = Field(default=None, exclude_if=omit_absent)
+    input_plan: InputPlan | None = Field(default=None, exclude_if=no_input_plan)
 
 
 def build_prompt(  # noqa: PLR0913 - Shared explicit intent options mirror the CLI boundary.
@@ -61,6 +64,11 @@ def build_prompt(  # noqa: PLR0913 - Shared explicit intent options mirror the C
     intent = resolve_intent(state, parent_id, palette_id, lockup, app_icon)
     if intent.app_icon is not None:
         parent = state.artifact(parent_id) if parent_id is not None else None
+        background = icon_import_background(
+            intent.app_icon,
+            None,
+            parent.effective_background(brief) if parent is not None else brief.background,
+        )
         return PromptResult(
             mode="edit" if parent is not None else "generation",
             session_id=state.id,
@@ -72,6 +80,7 @@ def build_prompt(  # noqa: PLR0913 - Shared explicit intent options mirror the C
                 concept,
                 changes,
                 has_parent=parent is not None,
+                background=background,
             ),
             parent_id=parent_id,
             parent_image_path=str(safe_path(store.session_dir(state.id), parent.path))
@@ -83,7 +92,7 @@ def build_prompt(  # noqa: PLR0913 - Shared explicit intent options mirror the C
             palette_id=intent.palette.id if intent.palette is not None else None,
             palette_digest=intent.palette.digest if intent.palette is not None else None,
             app_icon=intent.app_icon,
-            requested_background="opaque",
+            requested_background=background,
         )
     background_label = (
         "Initial brief background (historical intent)" if parent_id is not None else "Background"

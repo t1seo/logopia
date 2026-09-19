@@ -1,0 +1,29 @@
+{
+  "mode": "text",
+  "capability": "codex_native",
+  "references": [
+    {
+      "reference_id": "linear-brand-system",
+      "image_sha256": "1fb31df139bb786a3c5662bc53b3f82bd6804629fd7ea6002ec603bb6eafb113",
+      "role": "positive",
+      "observations": [
+        "This file contains a dark circular mark on transparency, with parallel diagonal gaps crossing its lower-left portion.",
+        "The file contains no wordmark or app tile; those were separate assets in the source archive."
+      ],
+      "transfer": [
+        "Make repeated cuts share an intentional direction and gap rhythm.",
+        "Judge the compact mark independently from its eventual tile or wordmark placement."
+      ],
+      "avoid": [
+        "Do not copy the slashed-circle silhouette or diagonal segment arrangement.",
+        "Do not treat this transparent mark as proof of a native app icon or imply affiliation."
+      ],
+      "inspected_by": "Codex research agent using view_image",
+      "inspected_on": "2026-09-19",
+      "roi": null,
+      "source_url": "https://linear.app/brand",
+      "selection_origin": "automatic",
+      "rights_status": "unknown"
+    }
+  ]
+}

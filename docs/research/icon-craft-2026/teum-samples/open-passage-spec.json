@@ -1,0 +1,17 @@
+{
+  "id": "open-passage",
+  "preset": "abstract",
+  "subject": "one broad asymmetric arch with a generous open passage",
+  "text": null,
+  "colors": [
+    "Main form: vivid cobalt #244EDB",
+    "Entire background: warm apricot #F4BC83"
+  ],
+  "idea": "Stepping out of the workday into a small open space; the open passage is the first-read feature.",
+  "construction": "One continuous heavy filled arch, broader left shoulder and a lower right terminal. Nearly rectangular outer width-to-height 1:1.1, but with one sweeping oblique roof curve, not a semicircular doorway. The open counter occupies about half the width, opens clearly to the bottom, and has a gentle rightward lean. Left and right strokes share smooth curvature transitions. The asymmetry is deliberate and calm. No detached piece or hairline cut.",
+  "material": "Flat solid color with crisp edges; no gradients, texture, gloss or dimensional effects.",
+  "small_size": "The bottom opening and unequal shoulder heights must survive 32px.",
+  "reference": "Take deliberate contour asymmetry and silhouette-first construction from inspected Gentler Streak evidence; exclude its heart-like lobes, rear orange face, color and contours.",
+  "difference": "A nonletter open organic passage, unlike a stacked Hangul glyph or a physical bench.",
+  "risk": "Could become a generic arch or horseshoe; keep the oblique roof and distinct shoulder relationship without decorative cuts."
+}

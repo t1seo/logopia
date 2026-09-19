@@ -5,6 +5,8 @@ from __future__ import annotations
 from html import escape
 from typing import TYPE_CHECKING
 
+from .gallery_icon import icon_diagnostics
+
 if TYPE_CHECKING:
     from .models import Candidate, Critique, Direction, Workflow
 
@@ -43,6 +45,9 @@ def _parent(candidate: Candidate, state: Workflow) -> str:
 
 
 def _details(candidate: Candidate) -> str:
+    references = "; ".join(
+        f"{item.id} ({item.role}; SHA-256 {item.sha256})" for item in candidate.references
+    )
     criteria = "".join(
         "".join(
             (
@@ -58,6 +63,10 @@ def _details(candidate: Candidate) -> str:
         f"<p>출처: {escape(candidate.provider)} / {escape(candidate.model)}. "
         f"생성 출처는 검토 통과를 뜻하지 않습니다.</p>"
         f"<p>{candidate.width} &times; {candidate.height} · PNG</p>"
+        f"<p>방향 {escape(candidate.direction_id)} · 후보 {candidate.candidate_slot} · "
+        f"통제한 변수: {escape('; '.join(candidate.changed_variables) or '기존 단일 후보')}</p>"
+        f"<p>참조 전달: {candidate.reference_conditioning} · {escape(references or '없음')}</p>"
+        "<p>AI 검토와 사용자 선택은 별도 기록입니다. 플랫폼 검증은 실행되지 않았습니다.</p>"
         f"<code>SHA-256 {candidate.sha256}</code>"
         f'<a href="prompts/{candidate.id}.txt" download>정확한 생성 프롬프트 받기</a>'
         f"<ul>{criteria}</ul></details>"
@@ -104,6 +113,7 @@ def candidate_card(
             f'aria-label="{candidate.id} 실제 표시 크기">',
             f"{_preview(candidate, state.brief.display_width, '흰 배경')}</div></div>",
             f'<div class="reviews">{reviews}</div>',
+            icon_diagnostics(candidate, state),
             f"{_parent(candidate, state)}{_details(candidate)}</div></article>",
         )
     )

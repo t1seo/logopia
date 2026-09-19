@@ -1,0 +1,38 @@
+{
+  "brand_name": "Plum",
+  "exact_text": "",
+  "industry": "a seasonal home-cooking and recipe-saving app",
+  "audience": "people using everyday consumer apps",
+  "logo_type": "symbol",
+  "styles": [
+    "organic flat fruit emblem"
+  ],
+  "palette": [
+    "deep juicy purple plum",
+    "one bright green leaf",
+    "full-bleed warm marigold-yellow background"
+  ],
+  "background": "opaque",
+  "concept_count": 1,
+  "app_icon": {
+    "preset": "pictogram",
+    "subject": "one asymmetrical purple plum with a broad soft cleft and one small curved green leaf",
+    "placement": "center",
+    "text": null
+  },
+  "use_cases": [
+    "32/48/64/128px app-icon previews and README"
+  ],
+  "forbidden": [
+    "industrial or manufacturing brand aesthetic",
+    "interlocking bent tubes or offset right-angle brackets",
+    "repeated cream, dark teal and coral combination",
+    "inset tile inside a larger square",
+    "extra letters, slogans, watermark or mockup scene"
+  ],
+  "assumptions": [
+    "New fictional demonstration brand proposed in response to the request for more app icons.",
+    "The specified full-bleed background color is authoritative; do not restore the earlier white collection background.",
+    "User preference has not been collected for this new candidate."
+  ]
+}

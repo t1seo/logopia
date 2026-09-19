@@ -1,0 +1,29 @@
+{
+  "mode": "text",
+  "capability": "codex_native",
+  "references": [
+    {
+      "reference_id": "craft-current-store",
+      "image_sha256": "df57bc351596842b45ce856e87ff96f53180cfc2a89009ad58e4a47a22ae172c",
+      "role": "positive",
+      "observations": [
+        "Four broad curved pieces share rounded terminals and a narrow central cross-shaped gap.",
+        "Pink and bright blue upper pieces contrast with two navy lower pieces; shallow edge highlights sit on a light tile."
+      ],
+      "transfer": [
+        "Use a shared curve and gap-width rule across related parts.",
+        "Assign each color a clear compositional role."
+      ],
+      "avoid": [
+        "Do not copy the four-sector arrangement or its pink-blue-navy placement.",
+        "Do not assume the observed surface treatment requires a glass rendering for this product."
+      ],
+      "inspected_by": "Codex research agent using view_image",
+      "inspected_on": "2026-09-19",
+      "roi": null,
+      "source_url": "https://apps.apple.com/us/app/craft-notes-documents-ai/id1487937127",
+      "selection_origin": "automatic",
+      "rights_status": "unknown"
+    }
+  ]
+}

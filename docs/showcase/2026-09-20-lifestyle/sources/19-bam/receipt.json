@@ -1,0 +1,22 @@
+{
+  "id": "19-bam",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-8ffc8bac-84e5-43ce-898e-f4d13cfd88a4.png",
+  "image": "images/19-bam.png",
+  "sha256": "06d07b78f4b5b6fce3d1134423482d897b2a03c84eff8c3a53e90b4ded14c126",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "9d0633e334bed1271b94180026fd4d048d8ccaa3b21bc887ddb09b0f7621ab1b",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:36:23.531948+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

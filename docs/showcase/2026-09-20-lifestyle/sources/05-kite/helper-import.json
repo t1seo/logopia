@@ -1,0 +1,71 @@
+{
+  "schema_version": 2,
+  "id": "r0920-05-kite",
+  "revision": 1,
+  "created_at": "2026-09-19T15:11:00.538024Z",
+  "updated_at": "2026-09-19T15:23:01.863376Z",
+  "brief": {
+    "brand_name": "KITE",
+    "exact_text": "",
+    "industry": "a slow-travel journal and weekend discovery service",
+    "audience": "everyday consumer audiences; independent lifestyle businesses",
+    "slogan": "",
+    "logo_type": "abstract",
+    "styles": [
+      "airy organic abstract mark"
+    ],
+    "palette": [
+      "warm apricot orange",
+      "uniform white background"
+    ],
+    "forbidden": [
+      "industrial or manufacturing aesthetic",
+      "mechanical brackets, cut-metal blocks and engineering crests",
+      "extra lettering, slogans or watermarks",
+      "mockup scenes, collage or presentation board",
+      "colored canvas or transparent background"
+    ],
+    "use_cases": [
+      "brand identity at 240px width and README"
+    ],
+    "assumptions": [
+      "Fictional demonstration brand. Design decisions are assistant proposals; user preference is pending.",
+      "Preserve the existing exact string and white-background collection intent.",
+      "One independent original, square canvas. Color descriptions are intent, not certified pixel values."
+    ],
+    "lockup": null,
+    "background": "opaque",
+    "concept_count": 1
+  },
+  "artifacts": [
+    {
+      "id": "a-v1",
+      "path": "artifacts/a-v1.png",
+      "sha256": "3b60c030852635bb56e2953ec3e73c1c54e216f879db43867139d5fefd14e0b5",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "prompt": "Create one abstract logo for KITE. Exact text (copy verbatim, no other words): ''. Exact slogan: ''.\nRender only the supplied exact text and nonempty slogan; the brand context is not additional lettering. Empty strings request no corresponding text.\nIndustry: a slow-travel journal and weekend discovery service. Audience: everyday consumer audiences; independent lifestyle businesses.\nStyles: airy organic abstract mark. Original brief palette context: warm apricot orange, uniform white background.\nAvoid: industrial or manufacturing aesthetic, mechanical brackets, cut-metal blocks and engineering crests, extra lettering, slogans or watermarks, mockup scenes, collage or presentation board, colored canvas or transparent background. Use cases: brand identity at 240px width and README.\nBackground: opaque. Produce a real PNG raster image. Use clean, readable shapes at small sizes; leave safe margins. Do not draw a transparency checkerboard, mockup, watermarks, or a concept grid.\nConcept direction: A single airy abstract form suggesting a piece of fabric lifting in a breeze. Three broad smoothly tapering curved lobes gather into one flowing asymmetrical silhouette: a long lobe sweeps upward and right, a shorter plump lobe curls left, and a low gently hooked foot balances them. One generous crescent of white between the upper and left lobe is the identity. No literal kite, kite string, arrowhead, bird, leaf or letter. Flat one-color filled mark, each curve changes direction smoothly with no kinks, open negative space and blunt rather than pointed tips. Centered slightly above optical center, around 58% width and 60% height. No folded planes, diagonal cuts or engineering geometry.. Assumptions: Fictional demonstration brand. Design decisions are assistant proposals; user preference is pending., Preserve the existing exact string and white-background collection intent., One independent original, square canvas. Color descriptions are intent, not certified pixel values..\nLogo construction: Build a nonliteral abstract mark around the concept's geometric or organic gesture, with coherent weight, deliberate openings and a memorable silhouette. Use style references for broad construction traits, not their brand words or traced signature shapes. The identity should remain recognizable in a one-color silhouette at the intended use size. This construction check does not replace the requested palette or request an extra monochrome image.\nLettering fidelity: preserve every Unicode character, capitalization, punctuation, space and reading order in the applicable text. Keep Hangul syllable blocks intact; do not translate, romanize, abbreviate or substitute lookalike glyphs. Shape changes must keep required text readable, including counters and joins at the intended size.\nOutput one square PNG containing only this single identity on a uniform white background. Clean, crisp raster edges; do not add paper grain or texture to flat ink.\n",
+      "parent_id": null,
+      "created_at": "2026-09-19T15:23:01.863021Z",
+      "requested_background": "opaque",
+      "palette_id": null,
+      "lockup": null,
+      "review": null,
+      "reviewed_at": null
+    }
+  ],
+  "selected_id": null,
+  "failures": [],
+  "exports": [],
+  "palettes": [],
+  "active_palette_id": null,
+  "references": [],
+  "color_reports": []
+}

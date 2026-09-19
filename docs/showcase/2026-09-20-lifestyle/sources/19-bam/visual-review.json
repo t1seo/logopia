@@ -1,0 +1,15 @@
+{
+  "id": "19-bam",
+  "reviewer": "assistant visual inspection",
+  "review_kind": "descriptive observation; no separate model review call",
+  "evidence": "native original viewed at1254x1254",
+  "observed_features": "Correctly readable 밤 in soft ivory strokes on blackberry purple: distinct upper ㅂ/ㅏ and complete lower ㅁ.",
+  "limitations": "The top and bottom components have different stroke modulation; exact color and finished font construction are not certified.",
+  "small_size_status": "Inspected actual Chrome screenshots at32/48/64/128px on light/dark surroundings and64px CSS mask simulations.",
+  "production_qa": "file validation recorded separately",
+  "ai_recommendation": "none",
+  "user_selection": "not collected",
+  "platform_validation": "not performed",
+  "small_size_observation": "밤 remains readable at32px, with separated upper components and an open bottom counter. The64px masks preserve the complete syllable.",
+  "small_size_evidence": "qa/19-bam.png"
+}

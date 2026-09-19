@@ -12,7 +12,7 @@ from .engine_production import critique, generate
 from .engine_steps import digest, is_paused, job_by_id, put_job
 from .helper_delivery import export_job, verified_delivery
 from .models import Job, StudioError
-from .models_base import EDIT_LIMIT
+from .models_base import EDIT_LIMIT, ROLE_COUNT
 from .prompts import edit_prompt
 
 if TYPE_CHECKING:
@@ -39,17 +39,28 @@ def revise(
     attempts = sum(job.kind == "edit" for job in state.jobs)
     if attempts >= EDIT_LIMIT:
         raise StudioError("edit_limit", "Two dispatched edit calls have already been consumed")
+    if (
+        state.call_budget.review_llm_calls_reserved + ROLE_COUNT
+        > state.brief.effective_review_call_budget
+    ):
+        raise StudioError("review_limit", "No two-call critique budget remains for a new edit")
     prompt = edit_prompt(state.brief, parent.prompt, keep, change)
     job = Job(
         id=f"j{len(state.jobs) + 1}",
         kind="edit",
         candidate_id=f"e{attempts + 1}",
         direction_id=parent.direction_id,
+        candidate_slot=parent.candidate_slot,
+        changed_variables=(change,),
+        references=parent.references,
+        reference_conditioning=parent.reference_conditioning,
+        design_spec=parent.design_spec,
+        reference_analysis=parent.reference_analysis,
         parent_id=parent.id,
         prompt=prompt,
         keep=keep,
         change=change,
-        request_sha256=digest(prompt + parent.sha256),
+        request_sha256=digest(prompt + parent.sha256 + state.brief.model_dump_json()),
     )
     current = generate(steps, state, job)
     if current.phase in {"failed", "outcome_unknown", "cancelled"}:

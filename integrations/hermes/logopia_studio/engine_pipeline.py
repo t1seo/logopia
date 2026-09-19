@@ -18,13 +18,18 @@ if TYPE_CHECKING:
     from .models import Direction, Workflow
 
 
-def _produce_direction(steps: Steps, state: Workflow, direction: Direction) -> Workflow:
+def _produce_direction(steps: Steps, state: Workflow, direction: Direction, slot: int) -> Workflow:
     if any(
-        item.direction_id == direction.id and item.parent_id is None for item in state.candidates
+        item.direction_id == direction.id and item.candidate_slot == slot and item.parent_id is None
+        for item in state.candidates
     ):
         return state
     jobs = tuple(
-        item for item in state.jobs if item.kind == "generate" and item.direction_id == direction.id
+        item
+        for item in state.jobs
+        if item.kind == "generate"
+        and item.direction_id == direction.id
+        and item.candidate_slot == slot
     )
     if jobs:
         job = jobs[0]
@@ -34,14 +39,21 @@ def _produce_direction(steps: Steps, state: Workflow, direction: Direction) -> W
             return attach_image(steps, state, job)
         except (StudioError, OSError, ValidationError) as error:
             return steps.fail(state, job, error)
-    prompt = image_prompt(state.brief, direction)
+    variation = next((item for item in direction.variations if item.slot == slot), None)
+    prompt = image_prompt(state.brief, direction, variation, state.reference_analysis)
     job = Job(
         id=f"j{len(state.jobs) + 1}",
         kind="generate",
         candidate_id=f"c{len(state.candidates) + 1}",
         direction_id=direction.id,
+        candidate_slot=slot,
+        changed_variables=variation.changed_variables if variation is not None else (),
+        references=state.brief.references,
+        reference_conditioning="text" if state.brief.references else "none",
+        design_spec=direction.design_spec,
+        reference_analysis=state.reference_analysis,
         prompt=prompt,
-        request_sha256=digest(prompt),
+        request_sha256=digest(prompt + state.brief.model_dump_json()),
     )
     return generate(steps, state, job)
 
@@ -70,12 +82,15 @@ def produce(steps: Steps, state: Workflow) -> Workflow:
 def _planned_sequence(steps: Steps, state: Workflow) -> Workflow:
     current = state
     for direction in current.directions:
-        exists = any(
-            item.direction_id == direction.id and item.parent_id is None
-            for item in current.candidates
-        )
-        if not exists:
-            current = _produce_direction(steps, current, direction)
+        for slot in range(1, current.brief.candidates_per_direction + 1):
+            if any(
+                item.direction_id == direction.id
+                and item.candidate_slot == slot
+                and item.parent_id is None
+                for item in current.candidates
+            ):
+                continue
+            current = _produce_direction(steps, current, direction, slot)
             if current.phase in {"failed", "outcome_unknown", "cancelled"}:
                 return current
     return _review_sequence(steps, current)

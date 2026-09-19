@@ -7,6 +7,8 @@ from pathlib import Path
 from typing import TYPE_CHECKING, Literal, assert_never
 from uuid import uuid4
 
+from pydantic import TypeAdapter
+
 from .engine import Studio
 from .gallery import publish_gallery
 from .host import HermesHost
@@ -105,6 +107,10 @@ def summary(workspace: Path, state: Workflow, gallery: Path | None) -> str:
             "sha256": item.sha256,
             "path": str(workspace / item.image_path),
             "parent_id": item.parent_id,
+            "direction_id": item.direction_id,
+            "candidate_slot": item.candidate_slot,
+            "changed_variables": list(item.changed_variables),
+            "reference_conditioning": item.reference_conditioning,
             "critique_roles": [report.role for report in item.critiques],
         }
         for item in state.candidates
@@ -116,6 +122,9 @@ def summary(workspace: Path, state: Workflow, gallery: Path | None) -> str:
             "revision": state.revision,
             "phase": state.phase,
             "selected_id": state.selected_id,
+            "call_budget": TypeAdapter(JsonObject).validate_json(
+                state.call_budget.model_dump_json()
+            ),
             "gallery": str(gallery) if gallery else None,
             "originals": originals,
             "last_error": state.last_error[:2000] if state.last_error else None,

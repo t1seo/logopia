@@ -10,6 +10,7 @@ from string import Template
 from typing import TYPE_CHECKING, Final
 
 from .gallery_cards import candidate_card
+from .gallery_icon import icon_context
 from .gallery_package import package_panel
 from .gallery_strategy import strategy_panel
 from .models import FeedbackEnvelope
@@ -93,7 +94,7 @@ def render_gallery(
         workflow=state.id,
         revision=state.revision,
         selected=escape(state.selected_id or "아직 선택하지 않음"),
-        strategy=strategy_panel(state.strategy),
+        strategy=strategy_panel(state.strategy) + icon_context(state),
         delivery=package_panel(state, files),
         cards=cards,
         count=len(state.candidates),

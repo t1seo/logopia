@@ -10,7 +10,7 @@
 
 <a id="downloads"></a>
 
-[**Download the master PNG →**](../../assets/logopia-game-title.png) · [ZIP package](2026-game-title/delivery/logo-package.zip) · [Brand guide](2026-game-title/delivery/brand-guide.md) · [White-background samples](../showcase/2026-09-white/README.md)
+[**Download the master PNG →**](../../assets/logopia-game-title.png) · [ZIP package](2026-game-title/delivery/logo-package.zip) · [Brand guide](2026-game-title/delivery/brand-guide.md) · [Lifestyle samples](../showcase/2026-09-20-lifestyle/README.md)
 
 ## Try this direction
 

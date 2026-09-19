@@ -1,5 +1,10 @@
 # Lettering-first logos
 
+Expressive first letters, a selective change of slant, wide counters and volumetric
+lettering are optional construction choices, not mandatory 2026 effects. Preserve the
+full supplied string and Hangul blocks. Never turn a name into initials to fit an app
+tile; an explicitly requested small companion mark is a separate design and call.
+
 Read this when the requested identity is made from words or letters. Use the existing
 eight [logo types](logo-directions.md); no lettering preset, font installation or extra
 schema is needed. The helper supplies construction guidance for the selected type;

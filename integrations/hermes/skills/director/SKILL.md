@@ -16,9 +16,29 @@ Call `logopia_start` with a portable `workflow_id` and a `brief`: `name`,
 `logo_type`, `mode`, `display_width`, `background`, `colors`, `notes` and `count`.
 The default is three brand/app candidates or six IP candidates; explicit counts
 from one to six are supported. Explain an unsupported count before calling.
-App/IP currently require empty exact text and a filled square background.
-IP uses lower-corner character composition; app uses a centered simple pictogram.
-The broader existing skill provides other dedicated presets.
+For opt-in exploration, omit `count` and set `direction_count: 3` and
+`candidates_per_direction: 3`. This means three distinct structures and three
+controlled shape variations of each, at most nine initial images. The ordinary
+path remains one candidate per direction. Do not silently upgrade a fast request.
+App icons accept requested exact short lettering; never invent initials or shorten
+a name. IP portraits require empty exact text. Both use a filled square background.
+IP retains its requested character composition. App icons choose form, material and
+placement for the product: no default centered pictogram, animal, glass or gradient.
+Optional `app_icon` metadata uses the helper's explicit preset/subject/placement/text
+and `asset` vocabulary. It must match mode/text. Hermes supports flat concept PNGs;
+native layered/adaptive/store deliverables require the helper's validation/handoff.
+
+Use `references` only for locally available PNGs with `id`, absolute `path`, SHA-256
+`sha256`, `role: positive|negative`, observations and applicable transfer/avoid traits.
+Record source/date/appearance and rights separately. A path or URL is not a visual
+review. The host decodes and hashes pixels before any reference planning/image call.
+Both planning calls and pixel critiques receive actual labeled reference pixels.
+`reference_conditioning: text` explicitly describes image generation: it receives
+the chosen analyzed traits, not reference pixels. The installed image tool has only
+one `image_url`, retained for the exact edit parent. `image` conditioning is rejected;
+do not fabricate plural image arguments or replace an edit parent with a reference.
+Negative references are avoid evidence only. Automatic references are never saved as
+user preference, and a source citation never grants permission to redistribute images.
 
 Colors in this native workflow are advisory visual roles. For exact palette locks,
 restricted sets or strict color-count compliance, route to the existing Logo Land
@@ -28,6 +48,10 @@ Brand artwork uses pure white presentation unless transparent is explicitly chos
 The start tool saves a strategy and distinct visual directions, makes the agreed
 native image requests and performs two independent structured pixel critiques.
 These are model calls in strategist, art-director, design and production roles.
+Each plan job makes two LLM calls; each critique job reserves two LLM calls. Status
+reports reserved call bounds, not billing totals. Failed and uncertain jobs consume
+their reservation. There are at most two critique attempts per candidate, one plan,
+nine initial images and two edits, with no automatic image retry or material stage.
 Describe them truthfully; they are not humans, market research or legal clearance.
 Each image critic receives original PNG bytes and the requested display-width view;
 edits also include the exact parent and its matching view. Neither a filename nor
@@ -37,6 +61,9 @@ Show the returned gallery and original paths. Explain concrete visible strengths
 unmet criteria and the next decision without inventing a beauty score. Keep the
 first failure and any retained originals visible. Gallery feedback is a JSON draft
 to send to Hermes; clicking a favorite does not change the saved selection.
+Design specifications and changed variables describe intent; critics must report
+what the pixels actually show. QA, AI suggestions, explicit choice and native platform
+validation remain separate. Diagnostic CSS masks or small-size views are simulations.
 
 For later actions call `logopia_action`:
 

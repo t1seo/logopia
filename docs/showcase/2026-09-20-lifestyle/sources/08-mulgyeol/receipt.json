@@ -1,0 +1,22 @@
+{
+  "id": "08-mulgyeol",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-b8a6895f-e5ca-4c65-8228-10e7bb11d3bc.png",
+  "image": "images/08-mulgyeol.png",
+  "sha256": "de541bbb5863ce4dc0b3b5a85c9cf27a4071959cf28632b771d8210b97e4fc51",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "bac6f4304fd6f07b3b28e56a5259f6f64ab8205edc0c2ce00d971595b56672cc",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:16:33.918221+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

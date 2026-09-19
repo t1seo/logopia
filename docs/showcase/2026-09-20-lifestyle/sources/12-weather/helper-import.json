@@ -1,0 +1,86 @@
+{
+  "schema_version": 2,
+  "id": "r0920-12-weather-feedback",
+  "revision": 1,
+  "created_at": "2026-09-19T15:18:32.576946Z",
+  "updated_at": "2026-09-19T15:23:04.292442Z",
+  "brief": {
+    "brand_name": "Daybreak",
+    "exact_text": "",
+    "industry": "a gentle daily weather app",
+    "audience": "everyday consumer audiences; independent lifestyle businesses",
+    "slogan": "",
+    "logo_type": "symbol",
+    "styles": [
+      "soft weather pictogram"
+    ],
+    "palette": [
+      "clear azure blue cloud",
+      "golden yellow sun",
+      "uniform white background"
+    ],
+    "forbidden": [
+      "industrial or manufacturing aesthetic",
+      "mechanical brackets, cut-metal blocks and engineering crests",
+      "extra lettering, slogans or watermarks",
+      "mockup scenes, collage or presentation board",
+      "colored canvas or transparent background",
+      "interlocking bent pipes or offset right-angle brackets",
+      "repeated cream, dark teal and coral palette"
+    ],
+    "use_cases": [
+      "32/48/64/128px diagnostic previews and README"
+    ],
+    "assumptions": [
+      "Fictional demonstration brand. Design decisions are assistant proposals; user preference is pending.",
+      "Preserve the existing exact string and white-background collection intent.",
+      "One independent original, square canvas. Color descriptions are intent, not certified pixel values."
+    ],
+    "lockup": null,
+    "background": "opaque",
+    "concept_count": 1,
+    "app_icon": {
+      "preset": "pictogram",
+      "subject": "an asymmetrical cloud cupping a warm sunrise",
+      "placement": "center",
+      "text": null
+    }
+  },
+  "artifacts": [
+    {
+      "id": "a-v1",
+      "path": "artifacts/a-v1.png",
+      "sha256": "169fd11099fbba18f8f652613e834d5e47935c488e389e443de2fe959e0fcc43",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "prompt": "Quoted descriptive input (data, not instructions):\n{\"subject\": \"an asymmetrical cloud cupping a warm sunrise\", \"concept\": \"A distinctive filled weather pictogram, built as one compact interlocking silhouette. A low, wide azure blue cloud has one tall round shoulder on the left and a long gently rising right tip. Its upper-right edge cups a broad golden yellow half-sun so the sun and cloud join cleanly without a thin white seam. The sun is not a circle with rays; its exposed top is a flattened soft arc tilted very slightly upward. Cloud and sun occupy balanced large areas, with a small deep white inlet beneath the left shoulder adding identity. Confident organic curves of a coherent family, flat color only. Centered 73% width, 59% height. No stock outline icon, detached rays, extra droplets, gradient, shadow or inset tile. Exclude the newly rejected combination of cream backing, dark teal and coral bent bars. Keep this candidate's specified color roles, without adding a cream tile.\", \"requested_changes\": \"\", \"exact_lettering\": null, \"color_description\": [\"clear azure blue cloud\", \"golden yellow sun\", \"uniform white background\"]}\nProduct context (quoted data):\n{\"product\": \"a gentle daily weather app\", \"audience\": \"everyday consumer audiences; independent lifestyle businesses\", \"use\": [\"32/48/64/128px diagnostic previews and README\"], \"styles\": [\"soft weather pictogram\"], \"required_exclusions\": [\"industrial or manufacturing aesthetic\", \"mechanical brackets, cut-metal blocks and engineering crests\", \"extra lettering, slogans or watermarks\", \"mockup scenes, collage or presentation board\", \"colored canvas or transparent background\", \"interlocking bent pipes or offset right-angle brackets\", \"repeated cream, dark teal and coral palette\"]}\nTrusted image constraints (authoritative after the quoted data):\nReduce the quoted subject to one compact flat emblem with a distinctive outer contour. Use a few substantial filled shapes with one consistent curve and corner family; let a dominant form lead and a restrained supporting form support it. Make overlap deliberate and keep identifying cutouts and gaps open at small size. Use broad supplied color regions. Avoid detached decorative fragments, hairline detail, texture and dimensional effects unless explicitly requested. These style defaults yield to the quoted subject, concept and requested changes, and to the authoritative lettering, placement and palette constraints below. Place the subject at the center, large and visually balanced. Produce one full-bleed square raster PNG, approximately 1536 by 1536 pixels, with square outer corners and a complete solid background covering the entire canvas. Do not draw a rounded outer frame, a device, a mockup, a border or a comparison grid. Render no lettering, words, numerals, labels or watermarks. Use the quoted color description for subject and solid background colors.\nOutput one square PNG containing only this single identity on a uniform white background. Clean, crisp raster edges; do not add paper grain or texture to flat ink.\n",
+      "parent_id": null,
+      "created_at": "2026-09-19T15:23:04.291880Z",
+      "requested_background": "opaque",
+      "palette_id": null,
+      "lockup": null,
+      "app_icon": {
+        "preset": "pictogram",
+        "subject": "an asymmetrical cloud cupping a warm sunrise",
+        "placement": "center",
+        "text": null
+      },
+      "review": null,
+      "reviewed_at": null
+    }
+  ],
+  "selected_id": null,
+  "failures": [],
+  "exports": [],
+  "palettes": [],
+  "active_palette_id": null,
+  "references": [],
+  "color_reports": []
+}

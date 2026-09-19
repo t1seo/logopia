@@ -1,0 +1,17 @@
+{
+  "id": "hangul",
+  "preset": "monogram",
+  "subject": "the exact Hangul syllable 틈 as custom compact lettering",
+  "text": "틈",
+  "colors": [
+    "Exact glyph: warm apricot #F4BC83",
+    "Entire background: vivid cobalt #244EDB"
+  ],
+  "idea": "The brand name itself becomes the icon; generous breathing gaps give the compact Hangul a relaxed rhythm.",
+  "construction": "Render only the single intact syllable 틈 (U+D2C8) in its correct Korean syllable-block structure. Make it broad and sturdy, with open horizontal intervals, a clearly open lower rectangular counter, consistent optical stroke weight and small softened corners. Keep the upper consonant, medial horizontal vowel and lower consonant legible as one normal syllable; no detached decorative bars, invented ligatures, split jamo, Latin initials or extra symbols. Give the counter a subtly wider proportion as the only expressive move.",
+  "material": "Flat drawn lettering with clean filled surfaces, no outline, texture or shadow.",
+  "small_size": "The lower counter and horizontal separation must remain open at 32px; exact 틈 must still read.",
+  "reference": "Use the general observed principle of shared curves and spacing, with no reference brand glyph copied.",
+  "difference": "Lettering carries the identity rather than a pictorial metaphor.",
+  "risk": "The model may alter the Korean character or collapse the horizontal intervals; inspect exact lettering rather than accepting an approximate symbol."
+}

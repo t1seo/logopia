@@ -1,0 +1,22 @@
+{
+  "id": "03-goyo",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-f582faf0-7f4e-4e33-af8e-ef6e3b573547.png",
+  "image": "images/03-goyo.png",
+  "sha256": "7cee8f71394f0b88c8b2793be70e77b9f62a399280cdf738ed86d0c5e6104d15",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "b6ab37e6ee2f3f52ad33a145b20db1fc134661e5509da708389b88e43112b013",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:15:04.804632+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

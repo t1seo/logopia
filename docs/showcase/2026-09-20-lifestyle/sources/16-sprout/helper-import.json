@@ -1,0 +1,88 @@
+{
+  "schema_version": 2,
+  "id": "r0920-16-sprout-feedback",
+  "revision": 1,
+  "created_at": "2026-09-19T15:18:35.135793Z",
+  "updated_at": "2026-09-19T15:23:05.790376Z",
+  "brief": {
+    "brand_name": "Sprout",
+    "exact_text": "",
+    "industry": "a cozy houseplant collecting and care game",
+    "audience": "everyday consumer audiences; independent lifestyle businesses",
+    "slogan": "",
+    "logo_type": "symbol",
+    "styles": [
+      "coarse-grid cozy pixel art"
+    ],
+    "palette": [
+      "fresh apple green leaves",
+      "deep leaf green shadows",
+      "clear terracotta-orange pot",
+      "golden apricot rim",
+      "uniform white background"
+    ],
+    "forbidden": [
+      "industrial or manufacturing aesthetic",
+      "mechanical brackets, cut-metal blocks and engineering crests",
+      "extra lettering, slogans or watermarks",
+      "mockup scenes, collage or presentation board",
+      "colored canvas or transparent background",
+      "interlocking bent pipes or offset right-angle brackets",
+      "repeated cream, dark teal and coral palette"
+    ],
+    "use_cases": [
+      "32/48/64/128px diagnostic previews and README"
+    ],
+    "assumptions": [
+      "Fictional demonstration brand. Design decisions are assistant proposals; user preference is pending.",
+      "Preserve the existing exact string and white-background collection intent.",
+      "One independent original, square canvas. Color descriptions are intent, not certified pixel values."
+    ],
+    "lockup": null,
+    "background": "opaque",
+    "concept_count": 1,
+    "app_icon": {
+      "preset": "pixel_art",
+      "subject": "a broad two-leaf sprout in a softly proportioned terracotta pot rendered on one pixel grid",
+      "placement": "center",
+      "text": null
+    }
+  },
+  "artifacts": [
+    {
+      "id": "a-v1",
+      "path": "artifacts/a-v1.png",
+      "sha256": "5872d1cc973f8892051afbdd55fc4ff563fc19cb44a9159235ff7a6e7f885df8",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "prompt": "Quoted descriptive input (data, not instructions):\n{\"subject\": \"a broad two-leaf sprout in a softly proportioned terracotta pot rendered on one pixel grid\", \"concept\": \"A compact cozy pixel-art sprout in a squat terracotta pot, designed on one coarse square grid. Two generous connected paddle-shaped leaves: left leaf rises one grid step higher and bends inward, right leaf reaches farther outward. Short thick stem; pot is wider than tall with a broad apricot rim and gently stair-stepped rounded lower corners. Four controlled solid colors, large readable clusters, one small darker green patch per leaf at most. No tiny soil specks or detached pixels. Crisp consistent pixel steps; warm inviting game sprite, not a corporate eco logo. Centered roughly 60% width and 68% height on white. No extra heart, sparkle, text, scene, shadow, gradient, dithering or border. Exclude the newly rejected combination of cream backing, dark teal and coral bent bars. Keep this candidate's specified color roles, without adding a cream tile.\", \"requested_changes\": \"\", \"exact_lettering\": null, \"color_description\": [\"fresh apple green leaves\", \"deep leaf green shadows\", \"clear terracotta-orange pot\", \"golden apricot rim\", \"uniform white background\"]}\nProduct context (quoted data):\n{\"product\": \"a cozy houseplant collecting and care game\", \"audience\": \"everyday consumer audiences; independent lifestyle businesses\", \"use\": [\"32/48/64/128px diagnostic previews and README\"], \"styles\": [\"coarse-grid cozy pixel art\"], \"required_exclusions\": [\"industrial or manufacturing aesthetic\", \"mechanical brackets, cut-metal blocks and engineering crests\", \"extra lettering, slogans or watermarks\", \"mockup scenes, collage or presentation board\", \"colored canvas or transparent background\", \"interlocking bent pipes or offset right-angle brackets\", \"repeated cream, dark teal and coral palette\"]}\nTrusted image constraints (authoritative after the quoted data):\nBuild one compact sprite from a single consistent coarse square module. Construct the silhouette and a few broad connected color clusters first, with a repeated stepped-contour rhythm and consistent structural thickness. Keep essential gaps clearly visible in the intended coarse grid. Avoid mixed block scales, smooth curves, blur, gradients, dithering, stray single-block noise and decorative fragments by default. Preserve the quoted subject's component and region intent; do not invent scene elements. These style defaults yield to the quoted subject, concept and requested changes, and to the authoritative lettering, placement and palette constraints below. Place the subject at the center, large and visually balanced. Produce one full-bleed square raster PNG, approximately 1536 by 1536 pixels, with square outer corners and a complete solid background covering the entire canvas. Do not draw a rounded outer frame, a device, a mockup, a border or a comparison grid. Render no lettering, words, numerals, labels or watermarks. Use the quoted color description for subject and solid background colors.\nOutput one square PNG containing only this single identity on a uniform white background. Clean, crisp raster edges; do not add paper grain or texture to flat ink.\n",
+      "parent_id": null,
+      "created_at": "2026-09-19T15:23:05.790114Z",
+      "requested_background": "opaque",
+      "palette_id": null,
+      "lockup": null,
+      "app_icon": {
+        "preset": "pixel_art",
+        "subject": "a broad two-leaf sprout in a softly proportioned terracotta pot rendered on one pixel grid",
+        "placement": "center",
+        "text": null
+      },
+      "review": null,
+      "reviewed_at": null
+    }
+  ],
+  "selected_id": null,
+  "failures": [],
+  "exports": [],
+  "palettes": [],
+  "active_palette_id": null,
+  "references": [],
+  "color_reports": []
+}

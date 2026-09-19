@@ -1,0 +1,85 @@
+{
+  "schema_version": 2,
+  "id": "r0920-22-patch",
+  "revision": 1,
+  "created_at": "2026-09-19T15:33:36.912629Z",
+  "updated_at": "2026-09-19T15:38:08.514142Z",
+  "brief": {
+    "brand_name": "Patch",
+    "exact_text": "",
+    "industry": "a playful collage and personal scrapbook app",
+    "audience": "people using everyday consumer apps",
+    "slogan": "",
+    "logo_type": "abstract",
+    "styles": [
+      "modular paper-petal composition"
+    ],
+    "palette": [
+      "pink left paper piece",
+      "golden-orange central paper piece",
+      "clear cobalt right paper piece",
+      "full-bleed pale lemon background"
+    ],
+    "forbidden": [
+      "industrial or manufacturing brand aesthetic",
+      "interlocking bent tubes or offset right-angle brackets",
+      "repeated cream, dark teal and coral combination",
+      "inset tile inside a larger square",
+      "extra letters, slogans, watermark or mockup scene"
+    ],
+    "use_cases": [
+      "32/48/64/128px app-icon previews and README"
+    ],
+    "assumptions": [
+      "New fictional demonstration brand proposed in response to the request for more app icons.",
+      "The specified full-bleed background color is authoritative; do not restore the earlier white collection background.",
+      "User preference has not been collected for this new candidate."
+    ],
+    "lockup": null,
+    "background": "opaque",
+    "concept_count": 1,
+    "app_icon": {
+      "preset": "abstract",
+      "subject": "three broad paper-petal modules forming one asymmetrical fan with a common base",
+      "placement": "center",
+      "text": null
+    }
+  },
+  "artifacts": [
+    {
+      "id": "a-v1",
+      "path": "artifacts/a-v1.png",
+      "sha256": "67df030c9d24b76fa71ba5878e6b1b885587dd8052b20c1e9f1a243b75f8c8e0",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "prompt": "Quoted descriptive input (data, not instructions):\n{\"subject\": \"three broad paper-petal modules forming one asymmetrical fan with a common base\", \"concept\": \"One compact paper-fan signature for a collage app, made from exactly three large flat paper-petal pieces growing from a common low base. Each piece uses the same rule: a broad rounded top and a gently tapered body with a blunt base. Left pink piece tilts left and is medium height; center golden-orange piece stands tallest; right cobalt piece tilts right and is shorter and wider. Let them overlap only at the broad common base, with clean purposeful junctions; no thin white channel or bent tubular stroke. The overall silhouette is an asymmetric fan, not a flower with a stem, a hand, a star or scattered confetti. Color has a clear role on each piece and never becomes random fragmented patchwork. Flat crisp fills with no texture, shading or translucent effects. Entire mark fills72% width and64% height. A pale lemon background fills the square edge-to-edge; no inner rounded tile or frame.\", \"requested_changes\": \"\", \"exact_lettering\": null, \"color_description\": [\"pink left paper piece\", \"golden-orange central paper piece\", \"clear cobalt right paper piece\", \"full-bleed pale lemon background\"]}\nProduct context (quoted data):\n{\"product\": \"a playful collage and personal scrapbook app\", \"audience\": \"people using everyday consumer apps\", \"use\": [\"32/48/64/128px app-icon previews and README\"], \"styles\": [\"modular paper-petal composition\"], \"required_exclusions\": [\"industrial or manufacturing brand aesthetic\", \"interlocking bent tubes or offset right-angle brackets\", \"repeated cream, dark teal and coral combination\", \"inset tile inside a larger square\", \"extra letters, slogans, watermark or mockup scene\"]}\nTrusted image constraints (authoritative after the quoted data):\nExpress the quoted concept as one coherent nonliteral gesture with a memorable silhouette and deliberate negative space. Use a shared curvature and weight family; make ends, intersections and openings intentional, avoiding accidental tangencies. Let one form lead and its partner support it. Keep shapes and gaps readable at small size; avoid added faces, arrows, target dots or ornamental pieces unless requested. These style defaults yield to the quoted subject, concept and requested changes, and to the authoritative lettering, placement and palette constraints below. Place the subject at the center, large and visually balanced. Produce one full-bleed square raster PNG, approximately 1536 by 1536 pixels, with square outer corners and a complete solid background covering the entire canvas. Do not draw a rounded outer frame, a device, a mockup, a border or a comparison grid. Render no lettering, words, numerals, labels or watermarks. Use the quoted color description for subject and solid background colors.\nOutput one square PNG. The specified background fills the full canvas with no external framing or rounded mask. Do not add fine grain to flat fills.\n",
+      "parent_id": null,
+      "created_at": "2026-09-19T15:38:08.513838Z",
+      "requested_background": "opaque",
+      "palette_id": null,
+      "lockup": null,
+      "app_icon": {
+        "preset": "abstract",
+        "subject": "three broad paper-petal modules forming one asymmetrical fan with a common base",
+        "placement": "center",
+        "text": null
+      },
+      "review": null,
+      "reviewed_at": null
+    }
+  ],
+  "selected_id": null,
+  "failures": [],
+  "exports": [],
+  "palettes": [],
+  "active_palette_id": null,
+  "references": [],
+  "color_reports": []
+}

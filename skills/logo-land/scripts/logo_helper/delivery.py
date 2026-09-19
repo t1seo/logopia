@@ -7,6 +7,8 @@ from typing import Literal
 
 from logo_helper.app_icon_guide import ARTWORK_LIMITATIONS, app_icon_guide
 from logo_helper.app_icon_models import AppIconIntent
+from logo_helper.asset_models import AssetReport
+from logo_helper.asset_policy import export_asset_report, require_export_background
 from logo_helper.color_delivery import (
     COLOR_LIMITS,
     COLOR_METHOD,
@@ -56,6 +58,7 @@ class Manifest(FrozenModel):
     font_reference_usage: Literal["appearance-reference-only"] = "appearance-reference-only"
     app_icon: AppIconIntent | None = None
     artwork_limitations: str | None = None
+    asset_report: AssetReport | None = None
 
 
 def guide(state: Session, artifact: Artifact, evidence: ColorDelivery | None = None) -> str:
@@ -121,21 +124,13 @@ def export(store: Store, identifier: SessionId, revision: int, output: str | Non
         if artifact.review is None or not artifact.review.passed:
             raise ProjectError("review_required", "All explicit visual review checks must pass")
         requested_background = artifact.effective_background(state.brief)
-        requested_transparency = requested_background == "transparent"
-        if requested_transparency != artifact.image.has_transparency:
-            detail = (
-                f"Requested {requested_background} background differs from decoded transparency "
-                f"({artifact.image.has_transparency})"
-            )
-            raise ProjectError(
-                "background_mismatch",
-                detail,
-            )
+        require_export_background(artifact, state.brief)
         if destination.exists():
             raise ProjectError("conflict", f"Export destination already exists: {destination}")
         data = read_source(safe_path(store.session_dir(identifier), artifact.path))
         if hashlib.sha256(data).hexdigest() != artifact.sha256:
             raise ProjectError("hash_mismatch", "Selected image changed during export")
+        asset_report = export_asset_report(artifact, data)
         now = datetime.now(UTC)
         evidence = export_colors(state, artifact, data, now)
         record = ExportRecord(path=relative, artifact_id=artifact.id, created_at=now)
@@ -162,6 +157,7 @@ def export(store: Store, identifier: SessionId, revision: int, output: str | Non
             lockup_intent=artifact.lockup,
             app_icon=artifact.app_icon,
             artwork_limitations=ARTWORK_LIMITATIONS if artifact.app_icon is not None else None,
+            asset_report=asset_report,
         )
         with publish_bundle(
             destination,

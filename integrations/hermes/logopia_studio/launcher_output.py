@@ -1,19 +1,15 @@
 """Small command receipts retain paths and saved state without dumping model logs."""
 
-from __future__ import annotations
-
-from typing import TYPE_CHECKING, ClassVar
+from pathlib import Path
+from typing import ClassVar
 from uuid import uuid4
 
 from pydantic import BaseModel, ConfigDict
 
 from .gallery import publish_gallery
+from .models import Workflow
+from .models_budget import CallBudget
 from .store_files import safe_path
-
-if TYPE_CHECKING:
-    from pathlib import Path
-
-    from .models import Workflow
 
 
 class CommandResult(BaseModel):
@@ -27,6 +23,7 @@ class CommandResult(BaseModel):
     phase: str | None = None
     selected_id: str | None = None
     candidate_count: int = 0
+    call_budget: CallBudget | None = None
     gallery: str | None = None
     logs: str | None = None
     error: str | None = None
@@ -50,6 +47,7 @@ def state_result(
         phase=state.phase,
         selected_id=state.selected_id,
         candidate_count=len(state.candidates),
+        call_budget=state.call_budget,
         gallery=str(gallery) if gallery is not None else None,
         logs=str(logs) if logs is not None else None,
         error=error,

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
-from typing import TYPE_CHECKING
+from pathlib import Path
+from typing import TYPE_CHECKING, Final
 
 import pytest
 from pydantic import TypeAdapter
@@ -18,6 +19,10 @@ from tests.test_color_models import palette
 
 if TYPE_CHECKING:
     from tests.conftest import Harness
+
+CRAFT_FIXTURES: Final = (
+    Path(__file__).resolve().parents[1] / "docs/qa/icon-craft-2026/prompt-fixtures"
+)
 
 
 def test_ip_prompt_is_image_only_and_contains_trusted_tail(harness: Harness) -> None:
@@ -45,9 +50,11 @@ def test_ip_prompt_is_image_only_and_contains_trusted_tail(harness: Harness) -> 
         "safe margin",
         "lockup",
         "Industry",
-        "Audience",
     ]:
         assert excluded.lower() not in prompt.lower()
+    assert '"product": "design"' in prompt
+    assert '"audience": "readers"' in prompt
+    assert '"styles": ["minimal"]' in prompt
     assert "lower-left" in prompt
     assert "1536" in prompt
     assert "square outer corners" in prompt
@@ -57,16 +64,17 @@ def test_ip_prompt_is_image_only_and_contains_trusted_tail(harness: Harness) -> 
     assert result.parent_requested_background == "opaque"
 
 
-def test_default_semantic_colors_do_not_create_a_strict_palette(harness: Harness) -> None:
+def test_product_directed_colors_do_not_create_a_strict_palette(harness: Harness) -> None:
     _ = icon_brief(harness)
     harness.init()
     store = Store.at(harness.workspace)
     result = build_prompt(
         store, store.load(SessionId("demo")), concept="", parent_id=None, changes=""
     )
-    assert "warm yellow" in result.prompt
-    assert "deep navy" in result.prompt
-    assert "muted sage" in result.prompt
+    assert "Choose colors for this product and construction" in result.prompt
+    assert "main shape, supporting feature and background" in result.prompt
+    for stock_color in ("warm yellow", "deep navy", "muted sage"):
+        assert stock_color not in result.prompt
     assert result.palette_id is None
     assert "max_colors" not in result.prompt
 
@@ -112,11 +120,7 @@ def test_full_icon_prompt_snapshot(name: str) -> None:
         app_icon=icon,
     )
     prompt = build_app_icon_prompt(icon, brief, None, "", "", has_parent=False)
-    expected = (
-        FIXTURES.with_name("quality-fixtures") / "prompt-icon-monogram-v1.txt"
-        if name == "monogram"
-        else FIXTURES / "prompt-icon-ip.txt"
-    )
+    expected = CRAFT_FIXTURES / f"prompt-icon-{name}-v2.txt"
     assert prompt == expected.read_text(encoding="utf-8")
 
 

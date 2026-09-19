@@ -1,0 +1,22 @@
+{
+  "id": "02-loop-lab",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-1bbad51b-5f54-43a3-af80-97b1094e5c7b.png",
+  "image": "images/02-loop-lab.png",
+  "sha256": "4c916cd07e7f055b9d70061cb440f30e661a5a2805da13e25ec3907d994a7f6b",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "a303ad440284190972aa13ae5311c7867e34efda932084cfe70694f57ffefb37",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:13:47.538052+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

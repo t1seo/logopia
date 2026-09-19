@@ -1,0 +1,17 @@
+{
+  "limit": 12,
+  "generation_calls": 9,
+  "edit_calls": 0,
+  "remaining": 3,
+  "experiments": [
+    {
+      "ledger": "experiment/calls.json",
+      "calls": 6
+    },
+    {
+      "ledger": "teum-samples/calls.json",
+      "calls": 3
+    }
+  ],
+  "automatic_retries": 0
+}

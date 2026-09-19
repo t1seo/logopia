@@ -1,0 +1,136 @@
+{
+  "requested_expansion": "User explicitly requested many more app-icon samples after the initial18. Expand from6 to12 app-icon artworks, total24 originals.",
+  "items": [
+    {
+      "id": "17-bun-club",
+      "brand": "Bun Club",
+      "text": "",
+      "type": "symbol",
+      "style": "tactile baked object",
+      "context": "a personal baking recipe and kitchen journal app",
+      "palette": [
+        "golden honey bread with warm toasted seam",
+        "full-bleed saturated cornflower blue background"
+      ],
+      "icon": {
+        "preset": "soft_3d",
+        "subject": "one small round milk bun with a single broad crosswise split and three pillowy lobes",
+        "placement": "center",
+        "text": null
+      },
+      "idea": "One warm milk bun as a deliberately sculpted app icon for a home-baking journal. A low round plump bun, slightly oblique top view but essentially frontal, with three broad pillowy lobes divided by one gentle Y-shaped baking seam. The seam is deep enough to identify at32px, never a hairline scratch. Golden honey crust, one broad soft warm highlight and restrained darker toasted crevice; smooth baked surface without flour dust or photo-real pores. No face, plate, basket, wrapper or extra bread. The bun's soft triangular-round silhouette fills about70% width and64% height at center. Uniform saturated cornflower-blue full-square canvas, extending to all four edges. The blue is the actual icon background. Do not draw an inset rounded square, outer mask or extra frame. Small internal dimensional shading only, no floor shadow or advertising render.",
+      "survives": "Three broad golden bun lobes separated by one readable seam against blue.",
+      "risk": "Fine food texture or weak seams can disappear at32px."
+    },
+    {
+      "id": "18-jelly",
+      "brand": "Jelly Journal",
+      "text": "",
+      "type": "mascot",
+      "style": "expressive asymmetric flat character",
+      "context": "a playful private mood journal app",
+      "palette": [
+        "soft clear pink character",
+        "deep plum eyes",
+        "full-bleed saturated purple background"
+      ],
+      "icon": {
+        "preset": "ip_mascot",
+        "subject": "an original softly leaning pink jelly character with a broad sloped top and unequal sleepy eyes",
+        "placement": "center",
+        "text": null
+      },
+      "idea": "An original little jelly character as a mood-journal app identity. One pink asymmetrical mound with a sloped rounded top leaning gently left, two low rounded base feet formed from its own outline, no arms or ears. The left eye is one broad dark-plum oval half hidden by a slanting lid; right eye is a small simple upright oval. One tiny open curved mouth, calm and mildly amused. Expression comes from the unequal eyes and leftward lean; do not add cheeks, accessories, sparkle or another shape. Flat crisp color regions, coherent smooth contour, no gloss or 3D shading. Character fills about70% height and67% width, fully inside the square. Uniform saturated purple background edge-to-edge, enough tonal contrast to the pink body. No inset cream tile, mascot copied from another product, orange owl or stock ghost sheet.",
+      "survives": "Leaning pink mound and asymmetric two-eye expression.",
+      "risk": "Very small expression can merge; verify dark eyes against the pink face."
+    },
+    {
+      "id": "19-bam",
+      "brand": "밤",
+      "text": "밤",
+      "type": "monogram",
+      "style": "compact warm Hangul lettering",
+      "context": "a bedtime audio and night-time journal app",
+      "palette": [
+        "warm ivory lettering",
+        "full-bleed deep blackberry-purple background"
+      ],
+      "icon": {
+        "preset": "monogram",
+        "subject": "the exact complete Korean syllable 밤 drawn as one soft custom letter block",
+        "placement": "center",
+        "text": "밤"
+      },
+      "idea": "Exactly the single Korean syllable 밤, softly drawn and confidently readable as a bedtime-audio app signature. Preserve the ordinary complete construction: upper-left ㅂ with two open counters, upper-right ㅏ with its right-facing short arm, and lower ㅁ with a large open square counter. Give the strokes a warm slightly brush-shaped modulation and round ends, never rigid squared machine bars. All counters and inter-component gaps are broad. Compact balanced syllable block around68% width and63% height, optically centered. Warm ivory lettering on a deep blackberry-purple background that completely fills the square. No moon, star, sparkle, second letter, slogan, border or rounded tile within the square. Flat ink with no gradient or texture. The distinct counter rhythm is the identity; exact 밤 must not become 봄 or 밥.",
+      "survives": "ㅂ double counters, the right-facing ㅏ and complete bottom ㅁ.",
+      "risk": "Small counters could merge; exact syllable must remain 밤."
+    },
+    {
+      "id": "20-side-b",
+      "brand": "Side B",
+      "text": "",
+      "type": "symbol",
+      "style": "tactile record sleeve",
+      "context": "an independent music discovery and personal record collection app",
+      "palette": [
+        "sunny yellow paper sleeve",
+        "charcoal record with a small yellow center",
+        "full-bleed clear sky-blue background"
+      ],
+      "icon": {
+        "preset": "soft_3d",
+        "subject": "one small vinyl record partly tucked into a softly proportioned yellow sleeve",
+        "placement": "center",
+        "text": null
+      },
+      "idea": "One cohesive little record-in-sleeve object for a music-discovery app. A charcoal circular vinyl record is half tucked into a warm sunny-yellow paper sleeve. The sleeve is a slightly squat near-square with softly rounded paper corners and one shallow thumb scoop at its top; the exposed record semicircle rises clearly above it. The record has one broad center label and no fine concentric grooves. Nearly frontal view, a gentle6-degree lean only, shallow paper thickness and restrained matte depth. Soft broad light, clean silhouette and large color regions. Entire joined object fills66% width and74% height, centered. The real square background is uniformly clear sky blue, extending to all edges. No table, cast shadow, perspective mockup, text, music note, play button, inset rounded tile, industrial metal texture or glossy highlights.",
+      "survives": "Record semicircle above the yellow sleeve and one center label.",
+      "risk": "The sleeve/record can become a generic music glyph if material and proportions are not restrained and coherent."
+    },
+    {
+      "id": "21-plum",
+      "brand": "Plum",
+      "text": "",
+      "type": "symbol",
+      "style": "organic flat fruit emblem",
+      "context": "a seasonal home-cooking and recipe-saving app",
+      "palette": [
+        "deep juicy purple plum",
+        "one bright green leaf",
+        "full-bleed warm marigold-yellow background"
+      ],
+      "icon": {
+        "preset": "pictogram",
+        "subject": "one asymmetrical purple plum with a broad soft cleft and one small curved green leaf",
+        "placement": "center",
+        "text": null
+      },
+      "idea": "One bold plum silhouette for a seasonal-cooking app. Broad slightly pear-shaped purple fruit with unequal rounded shoulders and a small dimple at the top; one smooth softly curved cleft enters from that dimple and ends well above the bottom, expressed by a slightly lighter broad purple shape rather than a thin line. A short sturdy stem supports one generous green leaf angled right; the leaf has no veins. Intentional gentle asymmetry and a slightly flattened bottom distinguish it from a plain purple circle. Flat filled color, no specular highlight, face, droplet, glossy skin, gradients or realistic food photography. Fruit and leaf form one compact center composition around65% width and76% height. Uniform marigold-yellow background fills the complete square to the edges, with no enclosing tile or external shadow.",
+      "survives": "Unequal fruit shoulders, upper dimple and one leaf.",
+      "risk": "Common fruit subject does not establish uniqueness; purple cleft must survive small sizes."
+    },
+    {
+      "id": "22-patch",
+      "brand": "Patch",
+      "text": "",
+      "type": "abstract",
+      "style": "modular paper-petal composition",
+      "context": "a playful collage and personal scrapbook app",
+      "palette": [
+        "pink left paper piece",
+        "golden-orange central paper piece",
+        "clear cobalt right paper piece",
+        "full-bleed pale lemon background"
+      ],
+      "icon": {
+        "preset": "abstract",
+        "subject": "three broad paper-petal modules forming one asymmetrical fan with a common base",
+        "placement": "center",
+        "text": null
+      },
+      "idea": "One compact paper-fan signature for a collage app, made from exactly three large flat paper-petal pieces growing from a common low base. Each piece uses the same rule: a broad rounded top and a gently tapered body with a blunt base. Left pink piece tilts left and is medium height; center golden-orange piece stands tallest; right cobalt piece tilts right and is shorter and wider. Let them overlap only at the broad common base, with clean purposeful junctions; no thin white channel or bent tubular stroke. The overall silhouette is an asymmetric fan, not a flower with a stem, a hand, a star or scattered confetti. Color has a clear role on each piece and never becomes random fragmented patchwork. Flat crisp fills with no texture, shading or translucent effects. Entire mark fills72% width and64% height. A pale lemon background fills the square edge-to-edge; no inner rounded tile or frame.",
+      "survives": "Three broad differently oriented petals and their single compact fan silhouette.",
+      "risk": "Overlap can hide the common construction or create hand-like extra fingers."
+    }
+  ]
+}

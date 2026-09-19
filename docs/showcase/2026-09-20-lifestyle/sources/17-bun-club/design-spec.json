@@ -1,0 +1,13 @@
+{
+  "central_idea_and_construction": "One warm milk bun as a deliberately sculpted app icon for a home-baking journal. A low round plump bun, slightly oblique top view but essentially frontal, with three broad pillowy lobes divided by one gentle Y-shaped baking seam. The seam is deep enough to identify at32px, never a hairline scratch. Golden honey crust, one broad soft warm highlight and restrained darker toasted crevice; smooth baked surface without flour dust or photo-real pores. No face, plate, basket, wrapper or extra bread. The bun's soft triangular-round silhouette fills about70% width and64% height at center. Uniform saturated cornflower-blue full-square canvas, extending to all four edges. The blue is the actual icon background. Do not draw an inset rounded square, outer mask or extra frame. Small internal dimensional shading only, no floor shadow or advertising render.",
+  "color_roles": [
+    "golden honey bread with warm toasted seam",
+    "full-bleed saturated cornflower blue background"
+  ],
+  "background_role": "full-bleed saturated cornflower blue background",
+  "small_size_signature": "Three broad golden bun lobes separated by one readable seam against blue.",
+  "specific_risk": "Fine food texture or weak seams can disappear at32px.",
+  "reference_transfer": "User negative references analyzed as text; no screenshot conditioning and no positive brand-copy reference.",
+  "structural_difference": "tactile baked object",
+  "observations": "Recorded separately after viewing the native original."
+}

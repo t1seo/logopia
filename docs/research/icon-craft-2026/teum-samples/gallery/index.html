@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>틈 · App icon gallery</title>
+<style>
+* { box-sizing: border-box; }
+:root { color-scheme: light; font-family: ui-sans-serif, system-ui, sans-serif; color: #181916; background: #f4f2e9; }
+body { margin: 0; }
+a { color: inherit; text-underline-offset: 4px; }
+button, input { font: inherit; }
+button, label, summary { cursor: pointer; }
+:focus-visible { outline: 3px solid #42654b; outline-offset: 5px; }
+.skip-link { position: absolute; top: -80px; left: 20px; padding: 12px; background: #fff; z-index: 2; }
+.skip-link:focus { top: 12px; }
+.shell { max-width: 1440px; margin: 0 auto; padding: 32px 48px 64px; }
+.masthead { display: flex; align-items: center; justify-content: space-between; gap: 20px; border-bottom: 1px solid #c8c8bd; padding-bottom: 24px; }
+.wordmark { font-size: 16px; font-weight: 850; letter-spacing: -.5px; }
+.edition, .eyebrow { font-size: 11px; font-weight: 650; letter-spacing: 1.8px; text-transform: uppercase; }
+.hero { display: grid; grid-template-columns: 1.5fr 1fr; gap: 48px; padding: 62px 0 46px; align-items: end; }
+.eyebrow { margin: 0 0 16px; color: #51594d; }
+h1 { margin: 0; max-width: 780px; font-size: clamp(42px, 5.5vw, 76px); line-height: 1.02; font-weight: 550; letter-spacing: -3px; overflow-wrap: anywhere; }
+.intro { max-width: 370px; font-size: 15px; line-height: 1.7; }
+.intro p { margin: 0 0 14px; }
+.subtle { color: #5a6055; }
+.toolbar { padding: 22px 0; border-top: 1px solid #c8c8bd; border-bottom: 1px solid #c8c8bd; }
+.control-row { display: flex; flex-wrap: wrap; align-items: start; gap: 20px 32px; }
+fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+legend { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; font-weight: 750; padding: 0 0 10px; }
+.choices { display: flex; flex-wrap: wrap; gap: 8px; }
+.choice { display: inline-flex; align-items: center; gap: 5px; padding: 7px 9px; border: 1px solid #bcbfb3; border-radius: 6px; font-size: 12px; }
+.choice:has(input:checked) { background: #20241f; border-color: #20241f; color: #fff; }
+input { margin: 0; accent-color: #6c8c5f; width: 13px; height: 13px; }
+.reset { margin-left: auto; margin-top: 23px; background: transparent; border: 1px solid #777f70; border-radius: 6px; padding: 9px 14px; color: inherit; font-size: 12px; }
+.filter { margin-top: 22px; }
+.gallery-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; margin: 32px 0 16px; }
+.gallery-heading h2 { font-size: 14px; margin: 0; font-weight: 650; }
+.gallery-heading p { font-size: 12px; margin: 0; }
+.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+.icon-card { min-width: 0; background: #faf9f4; border: 1px solid #d6d7cd; border-radius: 12px; overflow: hidden; }
+.card-heading { display: flex; justify-content: space-between; gap: 12px; padding: 20px 22px 0; font-size: 10px; text-transform: uppercase; letter-spacing: 1.2px; }
+.number { font-variant-numeric: tabular-nums; color: #697163; }
+.preset { font-weight: 650; }
+.preview-surface { min-height: 250px; display: flex; align-items: center; justify-content: center; margin: 14px; background: #eceee5; border-radius: 7px; }
+.preview-surface img, .context-section img { width: 128px; height: 128px; object-fit: contain; display: block; }
+body:has(#mask-rounded:checked) :is(.preview-surface, .context-section) img { border-radius: 23%; }
+body:has(#mask-circle:checked) :is(.preview-surface, .context-section) img { border-radius: 50%; }
+body:has(#size-32:checked) :is(.preview-surface, .context-section) img { width: 32px; height: 32px; }
+body:has(#size-48:checked) :is(.preview-surface, .context-section) img { width: 48px; height: 48px; }
+body:has(#size-64:checked) :is(.preview-surface, .context-section) img { width: 64px; height: 64px; }
+body:has(#surface-dark:checked) .preview-surface { background: #202420; }
+.context-section { margin-top: 36px; }
+.context-section h2 { font-size: 18px; }
+.context-section p { max-width: 760px; font-size: 13px; line-height: 1.6; }
+.context-home, .context-list { padding: 24px; margin-top: 16px; background: #eceee5; border-radius: 7px; }
+.context-home { display: flex; flex-wrap: wrap; gap: 24px; }
+.context-section figure { margin: 0; display: flex; align-items: center; gap: 10px; }
+.context-home figure { flex-direction: column; }
+.context-list figure + figure { margin-top: 18px; }
+.context-section figcaption { font-size: 11px; }
+body:has(#surface-dark:checked) :is(.context-home, .context-list) { background: #202420; color: #eee; }
+.card-body { padding: 8px 22px 22px; }
+.card-body h2 { font-size: 20px; font-weight: 650; margin: 0 0 9px; overflow-wrap: anywhere; }
+.subject { margin: 0 0 12px; line-height: 1.55; font-size: 14px; overflow-wrap: anywhere; white-space: pre-wrap; }
+.dimensions { color: #545d50; font-size: 11px; }
+details { border-top: 1px solid #d9dcd1; margin-top: 18px; padding-top: 14px; }
+summary { font-size: 12px; font-weight: 600; }
+dl { display: grid; grid-template-columns: 100px 1fr; gap: 8px; font-size: 12px; line-height: 1.4; }
+dt { color: #535c4f; }
+dd { margin: 0; overflow-wrap: anywhere; }
+.hash { font: 10px/1.6 ui-monospace, monospace; overflow-wrap: anywhere; color: #50594b; }
+.downloads { display: flex; flex-wrap: wrap; gap: 12px 20px; margin-top: 20px; font-size: 12px; }
+.downloads a:first-child { font-weight: 700; }
+.empty { display: none; padding: 40px; text-align: center; border: 1px dashed #9ea593; }
+body:has(#preset-ip_mascot:checked) .icon-card:not([data-preset="ip_mascot"]),
+body:has(#preset-pictogram:checked) .icon-card:not([data-preset="pictogram"]),
+body:has(#preset-abstract:checked) .icon-card:not([data-preset="abstract"]),
+body:has(#preset-monogram:checked) .icon-card:not([data-preset="monogram"]),
+body:has(#preset-soft_3d:checked) .icon-card:not([data-preset="soft_3d"]),
+body:has(#preset-pixel_art:checked) .icon-card:not([data-preset="pixel_art"]) { display: none; }
+body:has(#preset-ip_mascot:checked):not(:has(.icon-card[data-preset="ip_mascot"])) .empty,
+body:has(#preset-pictogram:checked):not(:has(.icon-card[data-preset="pictogram"])) .empty,
+body:has(#preset-abstract:checked):not(:has(.icon-card[data-preset="abstract"])) .empty,
+body:has(#preset-monogram:checked):not(:has(.icon-card[data-preset="monogram"])) .empty,
+body:has(#preset-soft_3d:checked):not(:has(.icon-card[data-preset="soft_3d"])) .empty,
+body:has(#preset-pixel_art:checked):not(:has(.icon-card[data-preset="pixel_art"])) .empty { display: block; }
+footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #c8c8bd; font-size: 12px; line-height: 1.7; color: #51594c; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+@media (max-width: 980px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .hero { grid-template-columns: 1fr; gap: 24px; } .intro { max-width: 600px; } }
+@media (max-width: 580px) { .shell { padding: 22px 18px 40px; } .grid { grid-template-columns: 1fr; } .hero { padding: 38px 0 30px; } h1 { letter-spacing: -1.8px; } .edition { font-size: 9px; letter-spacing: .8px; } .control-row { gap: 20px; } .reset { margin: 0; } .gallery-heading { align-items: start; } .preview-surface { min-height: 220px; } }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#artwork">Skip to artwork</a>
+<main class="shell">
+<header class="masthead"><span class="wordmark">LOGO LAND /</span><span class="edition">The app icon collection</span></header>
+<section class="hero" aria-labelledby="page-title">
+<div><p class="eyebrow">3 originals · One collection</p><h1 id="page-title">틈</h1></div>
+<div class="intro"><p>Small canvas.<br>A world of character.</p><p class="subtle">Explore each original at real display sizes. Switch the surface, try a shape, and find the details that make each direction its own.</p></div>
+</section>
+<form aria-label="Artwork preview controls">
+<div class="toolbar">
+<div class="control-row">
+<fieldset><legend>Preview shape</legend><div class="choices">
+<label class="choice"><input id="mask-square" type="radio" name="mask" value="square" checked>Square</label>
+<label class="choice"><input id="mask-rounded" type="radio" name="mask" value="rounded">Rounded</label>
+<label class="choice"><input id="mask-circle" type="radio" name="mask" value="circle">Circle</label>
+</div></fieldset>
+<fieldset><legend>Display size</legend><div class="choices">
+<label class="choice"><input id="size-32" type="radio" name="size" value="32">32 px</label>
+<label class="choice"><input id="size-48" type="radio" name="size" value="48">48 px</label>
+<label class="choice"><input id="size-64" type="radio" name="size" value="64">64 px</label>
+<label class="choice"><input id="size-128" type="radio" name="size" value="128" checked>128 px</label>
+</div></fieldset>
+<fieldset><legend>Preview surface</legend><div class="choices">
+<label class="choice"><input id="surface-light" type="radio" name="surface" value="light" checked>Light</label>
+<label class="choice"><input id="surface-dark" type="radio" name="surface" value="dark">Dark</label>
+</div></fieldset>
+<button class="reset" type="reset">Reset previews</button>
+</div>
+<fieldset class="filter"><legend>Filter by preset</legend><div class="choices">
+<label class="choice"><input id="preset-all" type="radio" name="preset" value="all" checked>All artwork</label>
+<label class="choice"><input id="preset-ip_mascot" type="radio" name="preset" value="ip_mascot">IP mascot</label>
+<label class="choice"><input id="preset-pictogram" type="radio" name="preset" value="pictogram">Pictogram</label>
+<label class="choice"><input id="preset-abstract" type="radio" name="preset" value="abstract">Abstract</label>
+<label class="choice"><input id="preset-monogram" type="radio" name="preset" value="monogram">Monogram</label>
+<label class="choice"><input id="preset-soft_3d" type="radio" name="preset" value="soft_3d">Soft 3D</label>
+<label class="choice"><input id="preset-pixel_art" type="radio" name="preset" value="pixel_art">Pixel art</label>
+</div></fieldset>
+</div>
+<section id="artwork" aria-label="Original artwork">
+<div class="gallery-heading"><h2>The originals</h2><p class="subtle">Masks are illustrative CSS previews.</p></div>
+<div class="grid"><article class="icon-card" data-preset="abstract"><div class="card-heading"><span class="number">01</span><span class="preset">abstract</span></div><div class="preview-surface"><img src="images/open-passage.png" alt="one broad asymmetric arch with a generous open passage" width="1254" height="1254"></div><div class="card-body"><h2>open-passage</h2><p class="subject">one broad asymmetric arch with a generous open passage</p><p class="dimensions">1254 x 1254 px · Original PNG</p><details><summary>Artwork intent</summary><dl><dt>Preset</dt><dd>abstract</dd><dt>Placement</dt><dd>center</dd><dt>Exact lettering</dt><dd>None</dd><dt>Parent</dt><dd>None</dd></dl><p class="hash">SHA-256<br>91ef15a1bc16d16494b9ab6552873eae285ca3fb342977c505e6b8ae9ece2b64</p></details><div class="downloads"><a href="images/open-passage.png" download>Download original<span class="sr-only"> open-passage</span></a><a href="prompts/open-passage.txt" download>Exact prompt<span class="sr-only"> open-passage</span></a></div></div></article><article class="icon-card" data-preset="monogram"><div class="card-heading"><span class="number">02</span><span class="preset">monogram</span></div><div class="preview-surface"><img src="images/hangul.png" alt="the exact Hangul syllable 틈 as custom compact lettering" width="1254" height="1254"></div><div class="card-body"><h2>hangul</h2><p class="subject">the exact Hangul syllable 틈 as custom compact lettering</p><p class="dimensions">1254 x 1254 px · Original PNG</p><details><summary>Artwork intent</summary><dl><dt>Preset</dt><dd>monogram</dd><dt>Placement</dt><dd>center</dd><dt>Exact lettering</dt><dd>틈</dd><dt>Parent</dt><dd>None</dd></dl><p class="hash">SHA-256<br>9338d377b780af6f9a06c2e6e7b30c1a241ea1c62bd76a17de5533e6e0c168d2</p></details><div class="downloads"><a href="images/hangul.png" download>Download original<span class="sr-only"> hangul</span></a><a href="prompts/hangul.txt" download>Exact prompt<span class="sr-only"> hangul</span></a></div></div></article><article class="icon-card" data-preset="soft_3d"><div class="card-heading"><span class="number">03</span><span class="preset">soft 3d</span></div><div class="preview-surface"><img src="images/ceramic-bench.png" alt="one miniature sculptural ceramic bench for a short outdoor pause" width="1254" height="1254"></div><div class="card-body"><h2>ceramic-bench</h2><p class="subject">one miniature sculptural ceramic bench for a short outdoor pause</p><p class="dimensions">1254 x 1254 px · Original PNG</p><details><summary>Artwork intent</summary><dl><dt>Preset</dt><dd>soft_3d</dd><dt>Placement</dt><dd>center</dd><dt>Exact lettering</dt><dd>None</dd><dt>Parent</dt><dd>None</dd></dl><p class="hash">SHA-256<br>77c64f917456db2d82f9b7dbc9ea54d0d519442a8ab8727e2afe85128ddd6e65</p></details><div class="downloads"><a href="images/ceramic-bench.png" download>Download original<span class="sr-only"> ceramic-bench</span></a><a href="prompts/ceramic-bench.txt" download>Exact prompt<span class="sr-only"> ceramic-bench</span></a></div></div></article></div>
+<p class="empty" role="status">No artwork in this preset. Choose another preset or reset previews.</p>
+</section>
+<section class="context-section" aria-label="Balanced candidate context"><h2>Simulation · candidate peers</h2><p>All selected candidates share the same size, surrounding surface and spacing. These are diagnostic contexts, not OS renderings. The 32/48/64/128 px options are not official platform sizes.</p><div class="context-home"><figure><img src="images/open-passage.png" alt="Candidate 1" width="64" height="64"><figcaption>Candidate 1</figcaption></figure><figure><img src="images/hangul.png" alt="Candidate 2" width="64" height="64"><figcaption>Candidate 2</figcaption></figure><figure><img src="images/ceramic-bench.png" alt="Candidate 3" width="64" height="64"><figcaption>Candidate 3</figcaption></figure></div><div class="context-list"><figure><img src="images/open-passage.png" alt="Candidate 1" width="64" height="64"><figcaption>Candidate 1</figcaption></figure><figure><img src="images/hangul.png" alt="Candidate 2" width="64" height="64"><figcaption>Candidate 2</figcaption></figure><figure><img src="images/ceramic-bench.png" alt="Candidate 3" width="64" height="64"><figcaption>Candidate 3</figcaption></figure></div></section>
+</form>
+<footer><p>Original PNG files and exact prompts travel with this page. Display masks and sizes never change the downloads.</p><p>Raster artwork requires separate platform preparation and validation. These previews do not establish an Icon Composer document, Android adaptive layers, an app build, or store acceptance.</p><p>Session teum-craft-samples · Revision 3 · <a href="manifest.json" download>Collection manifest</a></p></footer>
+</main>
+</body>
+</html>

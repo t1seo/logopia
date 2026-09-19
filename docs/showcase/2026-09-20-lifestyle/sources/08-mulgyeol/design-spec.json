@@ -1,0 +1,13 @@
+{
+  "central_idea_and_construction": "Exactly the two Korean syllables 물결 as a quiet custom lettering-only wordmark. Preserve every normal consonant and vowel component: 물 = ㅁ + ㅜ + ㄹ, 결 = ㄱ + ㅕ + ㄹ. Especially keep the downward stem of ㅜ and the two left-facing short strokes of ㅕ. Use broad rounded brush-like strokes with controlled slight variation, subtly rising horizontal strokes, soft but clear corners, generous open internal spaces. The two complete syllable blocks have equal visual weight and a clear inter-syllable gap. A gentle wave is expressed only through the baseline and terminal rhythm, never by replacing a letter. Blue single ink, 64% width centered. No separate wave, underline, landscape or watery gradients.",
+  "color_roles": [
+    "soft ocean blue"
+  ],
+  "background_role": "plain white negative space; no inset outer tile",
+  "material": "flat ink / pixel clusters; no material rendering",
+  "small_size_signature": "Full 물/결 structure and calm horizontal rhythm.",
+  "specific_risk": "ㄹ terminals and ㅕ strokes can merge if the rhythm is over-stylized.",
+  "reference_transfer": "Negative user screenshots analyzed as text: avoid severed slabs and nested squared Ls; no positive visual reference or borrowed signature.",
+  "structural_difference": "flowing contemporary Hangul lettering",
+  "observations": "Recorded separately after viewing actual output."
+}

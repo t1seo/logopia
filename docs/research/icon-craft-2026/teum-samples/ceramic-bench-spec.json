@@ -1,0 +1,17 @@
+{
+  "id": "ceramic-bench",
+  "preset": "soft_3d",
+  "subject": "one miniature sculptural ceramic bench for a short outdoor pause",
+  "text": null,
+  "colors": [
+    "Bench ceramic: warm apricot #F4BC83 with restrained same-family shading",
+    "Entire uniform background: vivid cobalt #244EDB"
+  ],
+  "idea": "A small place to sit for a minute; one warm bench is the unmistakable first-read object.",
+  "construction": "One compact backless bench, a broad thick seat with a slight upward sweep only at the right end, carried by two substantial short wedge-shaped feet. Overall width-to-height about 1.25:1. The feet and seat are one cast ceramic piece with smooth intentional joins. Keep one wide bright gap between the feet. Almost frontal, with a slight view from above sufficient to show the seat thickness. No park scene, ground plane, plant, person, miniature prop or enclosing badge.",
+  "material": "Smooth matte glazed ceramic with broad soft upper-left illumination and restrained depth. No surface grain or pores, inflated plastic, chrome, glass, dramatic spotlight or external cast/contact shadow. Internal object shading only; uniform flat cobalt background.",
+  "small_size": "The seat, the asymmetric raised end and the open gap between two feet must survive 32px.",
+  "reference": "Product-relevant single-object construction; no product-brand shape or source image conditioning.",
+  "difference": "A concrete ceramic object with depth, unlike the open mark and exact lettering.",
+  "risk": "Could look like furniture advertising or a tiny unreadable bench; keep the object large, frontal and compact."
+}

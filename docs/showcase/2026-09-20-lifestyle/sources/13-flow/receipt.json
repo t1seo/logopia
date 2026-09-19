@@ -1,0 +1,22 @@
+{
+  "id": "13-flow",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-ecefaa1a-c7c6-4c8a-a248-f53c09fe0023.png",
+  "image": "images/13-flow.png",
+  "sha256": "9d10ce220c808b7c115ddaecef878e3f0db40ebcf2367299dcc67be85625ad0d",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "9a1168bf28110591c1c08466f5845d282bce89842f66398aad2b0cba969c8ff8",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:21:26.897971+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

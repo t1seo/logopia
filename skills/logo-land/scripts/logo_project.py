@@ -23,6 +23,7 @@ from pydantic import ValidationError
 
 from logo_helper import delivery, workflow
 from logo_helper.app_icon_cli import register_app_icon_commands
+from logo_helper.asset_cli import register_asset_commands
 from logo_helper.cli_options import (
     AppIconOption,
     ArtifactOption,
@@ -37,7 +38,10 @@ from logo_helper.cli_options import (
 )
 from logo_helper.color_cli import register_color_commands
 from logo_helper.comparison_cli import register_comparison_commands
+from logo_helper.conditioning import condition_prompt
+from logo_helper.conditioning_models import ReferencePlan
 from logo_helper.models import ArtifactId, Brief, PaletteId, ProjectError, SessionId, VisualReview
+from logo_helper.preference_cli import register_preference_commands
 from logo_helper.prompts import build_prompt
 from logo_helper.storage import read_source
 
@@ -46,6 +50,8 @@ DEFAULT_WORKSPACE: Final = Path.cwd()
 register_color_commands(APP)
 register_app_icon_commands(APP)
 register_comparison_commands(APP)
+register_asset_commands(APP)
+register_preference_commands(APP)
 
 
 @APP.callback()
@@ -97,6 +103,7 @@ def prompt_command(  # noqa: PLR0913 - Typer exposes one parameter per CLI optio
     palette: PaletteOption = None,
     lockup_file: LockupOption = None,
     app_icon_file: AppIconOption = None,
+    reference_plan: Annotated[Path | None, typer.Option("--reference-plan")] = None,
 ) -> None:
     """Return a generation/edit prompt and exact local parent path; no image is generated."""
     store = store_from(ctx)
@@ -110,6 +117,13 @@ def prompt_command(  # noqa: PLR0913 - Typer exposes one parameter per CLI optio
         lockup=parse_lockup(lockup_file),
         app_icon=parse_app_icon(app_icon_file),
     )
+    if reference_plan is not None:
+        result = condition_prompt(
+            store,
+            store.load(SessionId(session)),
+            result,
+            ReferencePlan.model_validate_json(read_source(reference_plan)),
+        )
     typer.echo(result.model_dump_json(indent=2))
 
 

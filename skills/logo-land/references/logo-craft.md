@@ -58,12 +58,21 @@ choose a few regions expected to remain empty based on this composition; corner 
 characters may leave the opposite upper area empty rather than all four corners.
 White is a per-brief requirement, not a new default for other work.
 
-The dedicated IP prompt vocabulary takes precedence: keep `background: "opaque"`
-in structured brief metadata, but describe its canvas as “solid white #FFFFFF filling
-the entire square” in descriptive fields and the final image prompt. Do not carry
-alpha/opaque/transparency wording into that character prompt; see [ip-mascot.md](ip-mascot.md).
+For ordinary IP concept artwork, keep `background: "opaque"` in structured metadata
+and describe a requested white canvas as “solid white #FFFFFF filling the entire square.”
+Explicit authored foreground/background requests follow [asset-intent.md](asset-intent.md)
+instead; character styling must not override layer alpha requirements. See
+[ip-mascot.md](ip-mascot.md) for product-specific character construction.
 
 ## Use references analytically
+
+Use [visual-references.md](visual-references.md) to bind these observations to imported
+pixels and the actual supported image-tool inputs. Reference notes alone are not conditioning.
+Keep a short specification in the concept: first-read shape; construction decisions;
+color/background roles; material/depth; selected reference traits and exclusions;
+small-size invariant; difference from other directions; concrete failure risk.
+Do not combine every possible style in one direction, require meaningless cuts,
+or default to stars, orbits, infinity loops or category-specific cute animals.
 
 Inspect the actual supplied image before describing it. Separate observed features
 from your interpretation of their effect: “wide counters and alternating letter
@@ -81,7 +90,7 @@ For outlined game titles and decorated backplates, use [game-title-logos.md](gam
 
 Open the returned original and display it at the intended use size without rewriting
 its bytes. Record the displayed size in existing review `notes`. For icons, retain the
-32/64/128px comparison guidance in [app-icons.md](app-icons.md); for a wordmark, use its
+32/48/64/128px diagnostic comparison in [app-icons.md](app-icons.md); for a wordmark, use its
 actual header width rather than requiring its full name to work at icon size.
 
 - **Meaning and distinction:** describe the feature actually visible and how it

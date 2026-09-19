@@ -1,0 +1,22 @@
+{
+  "id": "15-cloud",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-3ded7dbb-3783-4d21-86eb-3d292d98076d.png",
+  "image": "images/15-cloud.png",
+  "sha256": "6e93647e6c98a1af7d08308640cd82d5f13ba461b5f5b6b1beb935ca38c6c858",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "7fecf2da0fabb76566e53f989cec5a9122c618a36ff2d99ef1a341f3bce950c5",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:22:59.014110+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

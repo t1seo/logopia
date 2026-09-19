@@ -12,7 +12,7 @@ from .engine_production import apply_plan, attach_critiques, attach_image, criti
 from .engine_steps import advance, job_by_id, put_job
 from .helper_delivery import verified_delivery
 from .models import StudioError
-from .models_base import CRITIQUE_LIMIT
+from .models_base import CRITIQUE_LIMIT, ROLE_COUNT
 
 if TYPE_CHECKING:
     from .engine_steps import Steps
@@ -33,11 +33,17 @@ def can_resume_critique(state: Workflow) -> bool:
         return False
     originals = tuple(candidate for candidate in state.candidates if candidate.parent_id is None)
     if len(originals) != state.brief.effective_count or {
-        candidate.direction_id for candidate in originals
-    } != {direction.id for direction in state.directions}:
+        (candidate.direction_id, candidate.candidate_slot) for candidate in originals
+    } != {
+        (direction.id, slot)
+        for direction in state.directions
+        for slot in range(1, state.brief.candidates_per_direction + 1)
+    }:
         return False
     return (
-        any(
+        state.call_budget.review_llm_calls_reserved + ROLE_COUNT
+        <= state.brief.effective_review_call_budget
+        and any(
             candidate.id == job.candidate_id and not candidate.critiques
             for candidate in state.candidates
         )

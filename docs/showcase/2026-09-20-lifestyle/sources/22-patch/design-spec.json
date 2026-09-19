@@ -1,0 +1,15 @@
+{
+  "central_idea_and_construction": "One compact paper-fan signature for a collage app, made from exactly three large flat paper-petal pieces growing from a common low base. Each piece uses the same rule: a broad rounded top and a gently tapered body with a blunt base. Left pink piece tilts left and is medium height; center golden-orange piece stands tallest; right cobalt piece tilts right and is shorter and wider. Let them overlap only at the broad common base, with clean purposeful junctions; no thin white channel or bent tubular stroke. The overall silhouette is an asymmetric fan, not a flower with a stem, a hand, a star or scattered confetti. Color has a clear role on each piece and never becomes random fragmented patchwork. Flat crisp fills with no texture, shading or translucent effects. Entire mark fills72% width and64% height. A pale lemon background fills the square edge-to-edge; no inner rounded tile or frame.",
+  "color_roles": [
+    "pink left paper piece",
+    "golden-orange central paper piece",
+    "clear cobalt right paper piece",
+    "full-bleed pale lemon background"
+  ],
+  "background_role": "full-bleed pale lemon background",
+  "small_size_signature": "Three broad differently oriented petals and their single compact fan silhouette.",
+  "specific_risk": "Overlap can hide the common construction or create hand-like extra fingers.",
+  "reference_transfer": "User negative references analyzed as text; no screenshot conditioning and no positive brand-copy reference.",
+  "structural_difference": "modular paper-petal composition",
+  "observations": "Recorded separately after viewing the native original."
+}

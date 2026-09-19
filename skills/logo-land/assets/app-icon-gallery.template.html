@@ -44,12 +44,23 @@ input { margin: 0; accent-color: #6c8c5f; width: 13px; height: 13px; }
 .number { font-variant-numeric: tabular-nums; color: #697163; }
 .preset { font-weight: 650; }
 .preview-surface { min-height: 250px; display: flex; align-items: center; justify-content: center; margin: 14px; background: #eceee5; border-radius: 7px; }
-.preview-surface img { width: 128px; height: 128px; object-fit: contain; display: block; }
-body:has(#mask-rounded:checked) .preview-surface img { border-radius: 23%; }
-body:has(#mask-circle:checked) .preview-surface img { border-radius: 50%; }
-body:has(#size-32:checked) .preview-surface img { width: 32px; height: 32px; }
-body:has(#size-64:checked) .preview-surface img { width: 64px; height: 64px; }
+.preview-surface img, .context-section img { width: 128px; height: 128px; object-fit: contain; display: block; }
+body:has(#mask-rounded:checked) :is(.preview-surface, .context-section) img { border-radius: 23%; }
+body:has(#mask-circle:checked) :is(.preview-surface, .context-section) img { border-radius: 50%; }
+body:has(#size-32:checked) :is(.preview-surface, .context-section) img { width: 32px; height: 32px; }
+body:has(#size-48:checked) :is(.preview-surface, .context-section) img { width: 48px; height: 48px; }
+body:has(#size-64:checked) :is(.preview-surface, .context-section) img { width: 64px; height: 64px; }
 body:has(#surface-dark:checked) .preview-surface { background: #202420; }
+.context-section { margin-top: 36px; }
+.context-section h2 { font-size: 18px; }
+.context-section p { max-width: 760px; font-size: 13px; line-height: 1.6; }
+.context-home, .context-list { padding: 24px; margin-top: 16px; background: #eceee5; border-radius: 7px; }
+.context-home { display: flex; flex-wrap: wrap; gap: 24px; }
+.context-section figure { margin: 0; display: flex; align-items: center; gap: 10px; }
+.context-home figure { flex-direction: column; }
+.context-list figure + figure { margin-top: 18px; }
+.context-section figcaption { font-size: 11px; }
+body:has(#surface-dark:checked) :is(.context-home, .context-list) { background: #202420; color: #eee; }
 .card-body { padding: 8px 22px 22px; }
 .card-body h2 { font-size: 20px; font-weight: 650; margin: 0 0 9px; overflow-wrap: anywhere; }
 .subject { margin: 0 0 12px; line-height: 1.55; font-size: 14px; overflow-wrap: anywhere; white-space: pre-wrap; }
@@ -99,6 +110,7 @@ footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #c8c8bd; fon
 </div></fieldset>
 <fieldset><legend>Display size</legend><div class="choices">
 <label class="choice"><input id="size-32" type="radio" name="size" value="32">32 px</label>
+<label class="choice"><input id="size-48" type="radio" name="size" value="48">48 px</label>
 <label class="choice"><input id="size-64" type="radio" name="size" value="64">64 px</label>
 <label class="choice"><input id="size-128" type="radio" name="size" value="128" checked>128 px</label>
 </div></fieldset>
@@ -123,6 +135,7 @@ footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #c8c8bd; fon
 <div class="grid">$cards</div>
 <p class="empty" role="status">No artwork in this preset. Choose another preset or reset previews.</p>
 </section>
+$context
 </form>
 <footer><p>Original PNG files and exact prompts travel with this page. Display masks and sizes never change the downloads.</p><p>Raster artwork requires separate platform preparation and validation. These previews do not establish an Icon Composer document, Android adaptive layers, an app build, or store acceptance.</p><p>Session $session · Revision $revision · <a href="manifest.json" download>Collection manifest</a></p></footer>
 </main>

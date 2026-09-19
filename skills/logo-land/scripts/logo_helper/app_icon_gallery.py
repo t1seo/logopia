@@ -81,6 +81,24 @@ def _card(item: GalleryArtifact, number: int) -> str:
     )
 
 
+def _context(items: tuple[GalleryArtifact, ...]) -> str:
+    peers = "".join(
+        (
+            f'<figure><img src="{escape(item.image_file)}" alt="Candidate {number}" '
+            f'width="64" height="64"><figcaption>Candidate {number}</figcaption></figure>'
+        )
+        for number, item in enumerate(items, 1)
+    )
+    return (
+        '<section class="context-section" aria-label="Balanced candidate context">'
+        "<h2>Simulation · candidate peers</h2><p>All selected candidates share the same "
+        "size, surrounding surface and spacing. These are diagnostic contexts, not OS "
+        "renderings. The 32/48/64/128 px options are not official platform sizes.</p>"
+        f'<div class="context-home">{peers}</div><div class="context-list">{peers}</div>'
+        "</section>"
+    )
+
+
 def render_app_icon_gallery(
     store: Store,
     state: Session,
@@ -106,6 +124,7 @@ def render_app_icon_gallery(
         revision=state.revision,
         count=len(artifacts),
         cards="".join(_card(item, number) for number, item in enumerate(snapshots, 1)),
+        context=_context(snapshots),
     )
     destination.parent.mkdir(parents=True, exist_ok=True)
     with TemporaryDirectory(prefix=".app-icon-gallery-", dir=destination.parent) as temporary:

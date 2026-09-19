@@ -11,7 +11,7 @@ extra icon preset or permission to put long title text into a non-monogram icon.
 
 | Preset ID | Direction | Example |
 |---|---|---|
-| `ip_mascot` | Simple personified character with heavy rounded forms | An owl helping readers find their next book |
+| `ip_mascot` | Personified character with deliberate silhouette and expression | A product-specific character with one identifying feature |
 | `pictogram` | Flat, recognizable symbol with a strong silhouette | Sun and cloud for weather |
 | `abstract` | Few geometric forms expressing an idea | Converging shapes for focus |
 | `monogram` | Exact short Unicode lettering as the main shape | `메모` for daily notes |
@@ -20,22 +20,20 @@ extra icon preset or permission to put long title text into a non-monogram icon.
 
 Discover the current IDs with `icon-presets`. For an unspecified IP subject, propose three product-related directions with a short reason for each, then generate two separate candidates per direction, one lower-left and one lower-right, unless the user specifies a different scope. For a specified subject, vary three treatments of that subject. Follow [ip-mascot.md](ip-mascot.md) for the adapted character recipe and attribution. Other presets default to the requested count, or the ordinary three concepts when no count is supplied.
 
-Placement defaults to lower corners for IP and center for other presets. Honor explicit alternatives for every preset, including centered IP or off-center monograms. Explain choices in conversation; the image prompt describes the image itself. A character's two color families and one background color are semantic guidance, not a request for an exact three-color raster. Record free-text colors in `brief.palette` and optional structured palette roles for subject/background mapping. Only explicit locks, allowed/required colors or count restrictions enable hard constraints. Explicit user colors and strict palettes take precedence over style defaults, including soft shading.
+Placement defaults to lower corners for IP and center for other presets. Honor explicit alternatives for every preset, including centered IP or off-center monograms. Explain choices in conversation; the image prompt describes the image itself. Assign colors to the main form, identifying feature and backdrop as appropriate; a fixed palette or color count is not a universal recipe. Record free-text colors in `brief.palette` and optional structured palette roles for subject/background mapping. Only explicit locks, allowed/required colors or count restrictions enable hard constraints. Explicit user colors and strict palettes take precedence over style defaults, including soft shading.
 
 When the user requests white, keep the brief's `background: "opaque"` and describe
 the color in its palette and concept as “solid white #FFFFFF filling the entire square.”
-For IP, keep alpha/opaque/transparency vocabulary out of the descriptive fields and
-final image prompt, following [ip-mascot.md](ip-mascot.md).
 Request that color across the full square canvas, including
 unoccupied areas, with no off-white tint or exterior shadow. This does not change the
-two character color families for IP or impose white on other projects; a white gallery
+requested character colors or impose white on other projects; a white gallery
 card cannot substitute for the generated icon's actual background.
 
 ## Construct a non-IP concept
 
 Before prompting each non-IP direction, connect **product benefit → named motif → one distinguishing construction → personality and a feature to preserve when small** in one concise `concept`. Use context already supplied, preserve a specified subject and count, ask only for consequential missing input, and record reasonable assumptions for the rest. For example: “Pocket Forecast gives a calm immediate weather glance: one broad cloud partially covers a sun, leaving a substantial crescent nestled into its upper-left contour; the combined silhouette and clear crescent should remain readable small.” This makes a construction choice that “friendly weather icon” leaves open. These examples describe fictional products; adapt the reasoning to the user's product without copying a sample as a universal default.
 
-Keep the literal motif in `app_icon.subject`; put product meaning and its construction in `--concept`, later requested refinements in `--changes`, and color descriptions in `brief.palette` or existing structured palette roles. The helper quotes descriptive data before authoritative constraints. Do not splice product context into trusted style instructions or add schema/CLI fields. A product name or industry stored in the brief does not by itself convey the intended visual relationship to the icon prompt.
+Keep the literal motif in `app_icon.subject`; put product meaning and its construction in `--concept`, later requested refinements in `--changes`, and color descriptions in `brief.palette` or existing structured palette roles. The helper quotes product, audience, use, styles and required exclusions before authoritative constraints. Explain the specific visual relationship in the concept rather than expecting a category to select a motif automatically. Use a short design specification from [logo-craft.md](logo-craft.md) and selected [reference evidence](visual-references.md).
 
 | Preset | Make this craft decision | Compare the result concretely |
 |---|---|---|
@@ -47,7 +45,7 @@ Keep the literal motif in `app_icon.subject`; put product meaning and its constr
 
 Style defaults yield to explicit subject, concept and changes, and to authoritative lettering, placement and palette constraints. Preserve exact supplied Unicode without normalization, initials inference or script conversion; never install fonts or claim an exact font from generated lettering. Honor explicit corner placement even for a monogram. User colors and strict palette/gradient rules override material and shading defaults; do not infer HEX locks, color counts or a universal canvas-fill percentage from these recipes.
 
-Inspect each requested original at native size and at 32/64/128px using identical masks and surrounding surfaces when comparing. Describe the actual shape, gaps, letter structure, material or clusters that improved or remain weak; a result may be improved, mixed, unchanged or worse. Keep saved images paired with their actual old prompts when guidance changes. This is a creative comparison, not an aesthetic guarantee, exact-color approval, platform package or store-readiness claim; preserve every returned original without automatic artistic retries.
+Inspect each requested original at native size and at 32/48/64/128px using identical masks and surrounding surfaces when comparing. Describe the actual shape, gaps, letter structure, material or clusters that improved or remain weak; a result may be improved, mixed, unchanged or worse. Keep saved images paired with their actual old prompts when guidance changes. This is a creative comparison, not an aesthetic guarantee, exact-color approval, platform package or store-readiness claim; preserve every returned original without automatic artistic retries.
 
 ## JSON contract
 
@@ -64,7 +62,7 @@ The [complete brief example](../assets/app-icon.example.json) uses exact Korean 
 
 `AppIconIntent` is frozen and rejects extra fields and type coercion. `preset`, `subject` and `placement` are required and cannot be null. `subject` is 1–500 characters and cannot be whitespace-only. `placement` is exactly `center`, `lower_left` or `lower_right`. `text` defaults to null: monograms require 1–8 Unicode code points without whitespace or control characters; all other presets require null. Preserve Unicode without normalization. Code points are not the same as displayed glyphs; a combining sequence can consume more than one position.
 
-Use `preset`, not an invented `style` key. Describe icon styling through its preset, subject and concept. The brief's legacy `styles` list remains stored historical context and is suppressed in icon prompts. A new icon brief requires `background: "opaque"`, `slogan: ""` and `lockup: null`. Its `exact_text` is empty except for a monogram, where it equals `app_icon.text` exactly. No exact-font, editable-text or font-file usage is established by generated lettering.
+Use `preset`, not an invented `style` key. Describe icon styling through its preset, subject and concept. Product styles and required exclusions reach the image prompt as quoted context. An ordinary concept-artwork brief requires `background: "opaque"`, `slogan: ""` and `lockup: null`; explicit [asset intent](asset-intent.md) provides role-specific alpha and size policies. Its `exact_text` is empty except for a monogram, where it equals `app_icon.text` exactly. No exact-font, editable-text or font-file usage is established by generated lettering.
 
 ## Runnable prompt example
 
@@ -123,24 +121,26 @@ does a leaf still read as a leaf rather than a heart, and does a fold or highlig
 that clue when small? If recognition is ambiguous, say what you saw and suggest one
 targeted requested change while keeping the successful silhouette, palette or material.
 These are practical review questions, not a new score, a guaranteed style improvement
-or permission for automatic artistic retries. IP prompt text and its default six
-independent calls remain unchanged.
+or permission for automatic artistic retries. IP keeps its default six independent calls;
+geometry, expression and color defaults now follow the product and explicit user intent.
 
 Both `prompt` and `import` accept a complete `--app-icon-file`; they use the same parse boundary. Intent precedence is the explicit file, then the parent's `app_icon` (including null), then the brief when there is no parent. A legacy parent with null intent does not become an icon merely because the brief has icon intent. Top-level null is not a complete override file, and existing artifact intent cannot be rebound.
 
-An explicit icon file on a legacy brand session declares an icon transformation: suppress historical brand lettering, slogan and lockup in the rendered result while preserving history. Supplying an icon together with an explicit `--lockup-file`, or importing it with explicit `--background transparent`, fails `intent_conflict` before mutation. Icon import without `--background` stores `requested_background: "opaque"`; non-icon omission retains the original brief's background behavior. `PromptResult.requested_background` is opaque for icon mode; `parent_requested_background` still describes the historical parent.
+An explicit icon file on a legacy brand session declares an icon transformation: suppress historical brand lettering, slogan and lockup in the rendered result while preserving history. Supplying an icon together with an explicit `--lockup-file` fails `intent_conflict` before mutation. Legacy concept artwork and authored backgrounds require opaque intent; foreground/monochrome and Play listing follow [asset-specific policy](asset-intent.md). Alpha-capable child imports inherit the parent background unless explicitly overridden. `PromptResult.requested_background` reflects the effective role and parent; `parent_requested_background` describes the historical parent.
 
 Save the effective palette, icon intent, parent and revision with the final prompt. If a palette or intent was overridden for generation, pass that same override on import. Prompt construction checks the complete 20,000-character limit before any native call. Descriptive inputs are quoted and trusted constraints follow them; this is prompt hygiene, not proof of model-level injection immunity.
 
 ## Native candidates and comparison
 
-Request one full-bleed square raster with square outer corners and a complete solid background, approximately 1536 × 1536 in prompt text. Preserve actual returned dimensions and original PNG bytes, even when dimensions, placement or style differ. Never resize, replace the background, build a contact sheet as the generation output, reference a previous candidate in a fresh independent draw, or repeat a call automatically to improve its appearance.
+For ordinary concept artwork, request one full-bleed square raster with square outer corners and a complete solid background, approximately 1536 × 1536 in prompt text. Explicit layer and store-listing requests use [asset intent](asset-intent.md). Preserve actual returned dimensions and original PNG bytes, even when dimensions, placement or style differ. Never resize, replace the background, build a contact sheet as the generation output, silently reuse another candidate as a reference in a fresh independent draw, or repeat a call automatically to improve its appearance.
 
 Each candidate needs its own helper session when generated in parallel. Record a durable per-call receipt with planned/running/returned/failed/unknown state, exact prompt/hash, session/artifact IDs, actual tool/provider, returned paths/hashes and dimensions. If the runtime does not expose the model, record it as unreported. Resume the same receipt after an interruption; never reset an unknown attempt or scan for the newest file. A failed native call is a failure record, not a generated image. Read [native-image.md](native-image.md) before calling the real tool.
 
 `icon-gallery --session ID --artifacts comma-separated-IDs --output relative-directory` publishes explicitly selected icon originals, their exact prompt text, intent, actual dimensions and a machine-readable manifest. Every chosen original is included regardless of selection, visual review, color conformance or export status. It verifies original hashes without mutating session state. Empty/duplicate/non-icon selections, existing destinations, reserved paths, escaping paths and symlink paths are rejected; owned staging is rolled back on failure.
 
-Open the gallery locally, including from a file URL. Square/rounded/circle CSS previews, 32/64/128px display sizes, light/dark surfaces and preset filtering/reset do not alter image bytes. Masks are illustrative, images use contain behavior, and original downloads retain their pixels. The page works without network requests and does not rank candidates or show default alpha/color PASS badges.
+Open the gallery locally, including from a file URL. Square/rounded/circle CSS previews, 32/48/64/128px display sizes, light/dark surfaces and preset filtering/reset do not alter image bytes. Masks are illustrative, images use contain behavior, and original downloads retain their pixels. The page works without network requests and does not rank candidates or show default alpha/color PASS badges.
+
+For a method-blind, counterbalanced A/B decision, use [preference-gallery](preference-review.md). It supports A/B/tie/neither and evidence-bound AI or user responses without approving QA, selecting an artifact or exporting.
 
 For parallel source sessions, use `compare-gallery --selection-file ... --output ...`
 with explicit session/artifact pairs and current revisions. It also accepts brand-logo

@@ -1,0 +1,22 @@
+{
+  "id": "01-luma",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-4a5719d2-f586-41dc-915a-8c66800d0a17.png",
+  "image": "images/01-luma.png",
+  "sha256": "0d29a6aa74bc5d1fbdf7d55c5e03d6685ba14af921ff4137a7f29261dc94ae21",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "93b385966174ccf80a5f4298e407611b81c10b47b329d2b644c7fea6ee70cd49",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:13:47.513688+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

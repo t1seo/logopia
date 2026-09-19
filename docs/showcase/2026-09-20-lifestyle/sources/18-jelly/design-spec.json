@@ -1,0 +1,14 @@
+{
+  "central_idea_and_construction": "An original little jelly character as a mood-journal app identity. One pink asymmetrical mound with a sloped rounded top leaning gently left, two low rounded base feet formed from its own outline, no arms or ears. The left eye is one broad dark-plum oval half hidden by a slanting lid; right eye is a small simple upright oval. One tiny open curved mouth, calm and mildly amused. Expression comes from the unequal eyes and leftward lean; do not add cheeks, accessories, sparkle or another shape. Flat crisp color regions, coherent smooth contour, no gloss or 3D shading. Character fills about70% height and67% width, fully inside the square. Uniform saturated purple background edge-to-edge, enough tonal contrast to the pink body. No inset cream tile, mascot copied from another product, orange owl or stock ghost sheet.",
+  "color_roles": [
+    "soft clear pink character",
+    "deep plum eyes",
+    "full-bleed saturated purple background"
+  ],
+  "background_role": "full-bleed saturated purple background",
+  "small_size_signature": "Leaning pink mound and asymmetric two-eye expression.",
+  "specific_risk": "Very small expression can merge; verify dark eyes against the pink face.",
+  "reference_transfer": "User negative references analyzed as text; no screenshot conditioning and no positive brand-copy reference.",
+  "structural_difference": "expressive asymmetric flat character",
+  "observations": "Recorded separately after viewing the native original."
+}

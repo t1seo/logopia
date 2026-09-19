@@ -1,0 +1,31 @@
+{
+  "brand_name": "BREAD & BLOOM",
+  "exact_text": "BREAD & BLOOM",
+  "industry": "a neighborhood bakery and breakfast café",
+  "audience": "everyday consumer audiences; independent lifestyle businesses",
+  "logo_type": "emblem",
+  "styles": [
+    "soft scalloped bakery emblem"
+  ],
+  "palette": [
+    "warm strawberry red",
+    "uniform white background"
+  ],
+  "background": "opaque",
+  "concept_count": 1,
+  "use_cases": [
+    "brand identity at 240px width and README"
+  ],
+  "forbidden": [
+    "industrial or manufacturing aesthetic",
+    "mechanical brackets, cut-metal blocks and engineering crests",
+    "extra lettering, slogans or watermarks",
+    "mockup scenes, collage or presentation board",
+    "colored canvas or transparent background"
+  ],
+  "assumptions": [
+    "Fictional demonstration brand. Design decisions are assistant proposals; user preference is pending.",
+    "Preserve the existing exact string and white-background collection intent.",
+    "One independent original, square canvas. Color descriptions are intent, not certified pixel values."
+  ]
+}

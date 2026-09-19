@@ -1,0 +1,254 @@
+{
+  "id": "4f56c459-2d89-4381-aad6-dbe01785db54",
+  "ok": true,
+  "result": {
+    "origin": "file:///Users/cillian/Documents/Github/Projects/logopia/docs/research/icon-craft-2026/experiment/blind/index.html",
+    "refs": {
+      "e1": {
+        "name": "Shared product brief",
+        "role": "region"
+      },
+      "e10": {
+        "name": "Shape and background: identify the focal form and separation.",
+        "role": "textbox"
+      },
+      "e11": {
+        "name": "Craft: locate a curve, join, spacing or lettering detail.",
+        "role": "textbox"
+      },
+      "e12": {
+        "name": "Effects: where does material or decoration support or obscure form?",
+        "role": "textbox"
+      },
+      "e13": {
+        "name": "Confusion: what overlaps a reference or another candidate?",
+        "role": "textbox"
+      },
+      "e14": {
+        "name": "32 px: name a surviving or lost feature and its location.",
+        "role": "textbox"
+      },
+      "e15": {
+        "name": "Peer context: what stays identifiable among equal-size candidates?",
+        "role": "textbox"
+      },
+      "e16": {
+        "name": "Comparison 02",
+        "role": "heading"
+      },
+      "e17": {
+        "name": "Brief and references: which visible feature fits or conflicts?",
+        "role": "textbox"
+      },
+      "e18": {
+        "name": "Shape and background: identify the focal form and separation.",
+        "role": "textbox"
+      },
+      "e19": {
+        "name": "Craft: locate a curve, join, spacing or lettering detail.",
+        "role": "textbox"
+      },
+      "e2": {
+        "name": "Which form fits this product?",
+        "role": "heading"
+      },
+      "e20": {
+        "name": "Effects: where does material or decoration support or obscure form?",
+        "role": "textbox"
+      },
+      "e21": {
+        "name": "Confusion: what overlaps a reference or another candidate?",
+        "role": "textbox"
+      },
+      "e22": {
+        "name": "32 px: name a surviving or lost feature and its location.",
+        "role": "textbox"
+      },
+      "e23": {
+        "name": "Peer context: what stays identifiable among equal-size candidates?",
+        "role": "textbox"
+      },
+      "e24": {
+        "name": "Comparison 03",
+        "role": "heading"
+      },
+      "e25": {
+        "name": "Brief and references: which visible feature fits or conflicts?",
+        "role": "textbox"
+      },
+      "e26": {
+        "name": "Shape and background: identify the focal form and separation.",
+        "role": "textbox"
+      },
+      "e27": {
+        "name": "Craft: locate a curve, join, spacing or lettering detail.",
+        "role": "textbox"
+      },
+      "e28": {
+        "name": "Effects: where does material or decoration support or obscure form?",
+        "role": "textbox"
+      },
+      "e29": {
+        "name": "Confusion: what overlaps a reference or another candidate?",
+        "role": "textbox"
+      },
+      "e3": {
+        "name": "Shared brief",
+        "role": "heading"
+      },
+      "e30": {
+        "name": "32 px: name a surviving or lost feature and its location.",
+        "role": "textbox"
+      },
+      "e31": {
+        "name": "Peer context: what stays identifiable among equal-size candidates?",
+        "role": "textbox"
+      },
+      "e32": {
+        "name": "Download your observations",
+        "role": "heading"
+      },
+      "e33": {
+        "name": "I inspected both light/dark surfaces, 32 px details and equal-size peer context.",
+        "role": "checkbox"
+      },
+      "e34": {
+        "name": "Download preference response JSON",
+        "role": "button"
+      },
+      "e35": {
+        "name": "Candidate A",
+        "role": "heading"
+      },
+      "e36": {
+        "name": "Open original A",
+        "role": "link"
+      },
+      "e37": {
+        "name": "Candidate B",
+        "role": "heading"
+      },
+      "e38": {
+        "name": "Open original B",
+        "role": "link"
+      },
+      "e39": {
+        "name": "Prefer A",
+        "role": "radio"
+      },
+      "e4": {
+        "name": "Record reviewer identity",
+        "role": "region"
+      },
+      "e40": {
+        "name": "Prefer B",
+        "role": "radio"
+      },
+      "e41": {
+        "name": "Similar",
+        "role": "radio"
+      },
+      "e42": {
+        "name": "Neither suitable",
+        "role": "radio"
+      },
+      "e43": {
+        "name": "Candidate A",
+        "role": "heading"
+      },
+      "e44": {
+        "name": "Open original A",
+        "role": "link"
+      },
+      "e45": {
+        "name": "Candidate B",
+        "role": "heading"
+      },
+      "e46": {
+        "name": "Open original B",
+        "role": "link"
+      },
+      "e47": {
+        "name": "Prefer A",
+        "role": "radio"
+      },
+      "e48": {
+        "name": "Prefer B",
+        "role": "radio"
+      },
+      "e49": {
+        "name": "Similar",
+        "role": "radio"
+      },
+      "e5": {
+        "name": "Square",
+        "role": "radio"
+      },
+      "e50": {
+        "name": "Neither suitable",
+        "role": "radio"
+      },
+      "e51": {
+        "name": "Candidate A",
+        "role": "heading"
+      },
+      "e52": {
+        "name": "Open original A",
+        "role": "link"
+      },
+      "e53": {
+        "name": "Candidate B",
+        "role": "heading"
+      },
+      "e54": {
+        "name": "Open original B",
+        "role": "link"
+      },
+      "e55": {
+        "name": "Prefer A",
+        "role": "radio"
+      },
+      "e56": {
+        "name": "Prefer B",
+        "role": "radio"
+      },
+      "e57": {
+        "name": "Similar",
+        "role": "radio"
+      },
+      "e58": {
+        "name": "Neither suitable",
+        "role": "radio"
+      },
+      "e59": {
+        "name": "Reviewer name",
+        "role": "textbox"
+      },
+      "e6": {
+        "name": "Rounded",
+        "role": "radio"
+      },
+      "e60": {
+        "name": "Source",
+        "role": "link"
+      },
+      "e7": {
+        "name": "Circle",
+        "role": "radio"
+      },
+      "e8": {
+        "name": "Comparison 01",
+        "role": "heading"
+      },
+      "e9": {
+        "name": "Brief and references: which visible feature fits or conflicts?",
+        "role": "textbox"
+      }
+    },
+    "snapshot": "- main\n  - sectionheader\n    - paragraph\n      - StaticText \"LOGOPIA · 3 blinded comparisons\"\n    - heading \"Which form fits this product?\" [level=1, ref=e2]\n    - paragraph\n      - StaticText \"Inspect each pair under identical conditions. Method names, creator opinions and source IDs are omitted. A preference records an observation; it does not approve files or select a final artifact.\"\n  - region \"Shared product brief\" [ref=e1]\n    - heading \"Shared brief\" [level=2, ref=e3]\n    - StaticText \"SEAM: a private mobile notebook for freelance writers. Collect scattered phrases into one short daily draft, without streak pressure. No text, stars, sparkles, infinity loops, mascots or device mockups. Ink #173E48 main structure, coral #EF795F identifying feature, warm paper #F6EEE4 full background. Recognize at 32/48px among other apps. Palette is advisory raster intent.\"\n  - group\n    - DisclosureTriangle \"Relevant reference evidence\" [expanded=true]\n      - StaticText \"Relevant reference evidence\"\n    - list\n      - listitem [level=1]\n        - ListMarker \"• \"\n        - strong\n          - StaticText \"Shared construction reference: consistent curve and spacing rules · positive\"\n        - paragraph\n          - StaticText \"Four broad curved pieces share rounded terminals and a narrow central gap. Apply shared curve and gap consistency only; do not copy the four-piece cross, palette, or signature contour. This context is identical for both candidates.\"\n        - paragraph\n          - StaticText \"Evidence: image_observed · \"\n          - link \"Source\" [ref=e60]\n  - form\n    - group \"CSS mask simulation\"\n      - Legend\n        - StaticText \"CSS mask simulation\"\n      - radio \"Square\" [checked=false, ref=e5]\n      - radio \"Rounded\" [checked=true, ref=e6]\n      - radio \"Circle\" [checked=false, ref=e7]\n    - paragraph\n      - StaticText \"32/48/64/128 CSS px are diagnostic viewing sizes, not official platform requirements. Light/dark surfaces, CSS masks and candidate-peer home/list arrangements are simulations, not native OS rendering. Browser zoom and device pixel ratio affect physical size. Original PNG bytes are unchanged.\"\n    - article\n      - heading \"Comparison 01\" [level=2, ref=e8]\n      - generic\n        - heading \"Candidate A\" [level=3, ref=e35]\n        - figure\n          - image \"A at 32 px\"\n          - Figcaption\n            - StaticText \"32 px\"\n        - figure\n          - image \"A at 48 px\"\n          - Figcaption\n            - StaticText \"48 px\"\n        - figure\n          - image \"A at 64 px\"\n          - Figcaption\n            - StaticText \"64 px\"\n        - figure\n          - image \"A at 128 px\"\n          - Figcaption\n            - StaticText \"128 px\"\n        - figure\n          - image \"A at 32 px\"\n          - Figcaption\n            - StaticText \"32 px\"\n        - figure\n          - image \"A at 48 px\"\n          - Figcaption\n            - StaticText \"48 px\"\n        - figure\n          - image \"A at 64 px\"\n          - Figcaption\n            - StaticText \"64 px\"\n        - figure\n          - image \"A at 128 px\"\n          - Figcaption\n            - StaticText \"128 px\"\n        - link \"Open original A\" [ref=e36]\n        - StaticText \"1254 × 1254 px\"\n      - generic\n        - heading \"Candidate B\" [level=3, ref=e37]\n        - figure\n          - image \"B at 32 px\"\n          - Figcaption\n            - StaticText \"32 px\"\n        - figure\n          - image \"B at 48 px\"\n          - Figcaption\n            - StaticText \"48 px\"\n        - figure\n          - image \"B at 64 px\"\n          - Figcaption\n            - StaticText \"64 px\"\n        - figure\n          - image \"B at 128 px\"\n          - Figcaption\n            - StaticText \"128 px\"\n        - figure\n          - image \"B at 32 px\"\n          - Figcaption\n            - StaticText \"32 px\"\n        - figure\n          - image \"B at 48 px\"\n          - Figcaption\n            - StaticText \"48 px\"\n        - figure\n          - image \"B at 64 px\"\n          - Figcaption\n            - StaticText \"64 px\"\n        - figure\n          - image \"B at 128 px\"\n          - Figcaption\n            - StaticText \"128 px\"\n        - link \"Open original B\" [ref=e38]\n        - StaticText \"1254 × 1254 px\"\n      - group\n        - DisclosureTriangle \"Equal-size candidate peers · simulation\" [expanded=true]\n          - StaticText \"Equal-size candidate peers · simulation\"\n        - figure\n          - image \"Peer 1\"\n          - Figcaption\n            - StaticText \"Peer 1\"\n        - figure\n          - image \"Peer 2\"\n          - Figcaption\n            - StaticText \"Peer 2\"\n        - figure\n          - image \"Peer 3\"\n          - Figcaption\n            - StaticText \"Peer 3\"\n        - figure\n          - image \"Peer 4\"\n          - Figcaption\n            - StaticText \"Peer 4\"\n        - figure\n          - image \"Peer 5\"\n          - Figcaption\n            - StaticText \"Peer 5\"\n        - figure\n          - image \"Peer 6\"\n          - Figcaption\n            - StaticText \"Peer 6\"\n        - figure\n          - image \"Peer 1\"\n          - Figcaption\n            - StaticText \"Peer 1\"\n        - figure\n          - image \"Peer 2\"\n          - Figcaption\n            - StaticText \"Peer 2\"\n        - figure\n          - image \"Peer 3\"\n          - Figcaption\n            - StaticText \"Peer 3\"\n        - figure\n          - image \"Peer 4\"\n          - Figcaption\n            - StaticText \"Peer 4\"\n        - figure\n          - image \"Peer 5\"\n          - Figcaption\n            - StaticText \"Peer 5\"\n        - figure\n          - image \"Peer 6\"\n          - Figcaption\n            - StaticText \"Peer 6\"\n        - figure\n          - image \"Peer 1\"\n          - Figcaption\n            - StaticText \"Peer 1\"\n        - figure\n          - image \"Peer 2\"\n          - Figcaption\n            - StaticText \"Peer 2\"\n        - figure\n          - image \"Peer 3\"\n          - Figcaption\n            - StaticText \"Peer 3\"\n        - figure\n          - image \"Peer 4\"\n          - Figcaption\n            - StaticText \"Peer 4\"\n        - figure\n          - image \"Peer 5\"\n          - Figcaption\n            - StaticText \"Peer 5\"\n        - figure\n          - image \"Peer 6\"\n          - Figcaption\n            - StaticText \"Peer 6\"\n        - figure\n          - image \"Peer 1\"\n          - Figcaption\n            - StaticText \"Peer 1\"\n        - figure\n          - image \"Peer 2\"\n          - Figcaption\n            - StaticText \"Peer 2\"\n        - figure\n          - image \"Peer 3\"\n          - Figcaption\n            - StaticText \"Peer 3\"\n        - figure\n          - image \"Peer 4\"\n          - Figcaption\n            - StaticText \"Peer 4\"\n        - figure\n          - image \"Peer 5\"\n          - Figcaption\n            - StaticText \"Peer 5\"\n        - figure\n          - image \"Peer 6\"\n          - Figcaption\n            - StaticText \"Peer 6\"\n      - group \"Your observation\"\n        - Legend\n          - StaticText \"Your observation\"\n        - radio \"Prefer A\" [checked=false, ref=e39]\n        - radio \"Prefer B\" [checked=false, ref=e40]\n        - radio \"Similar\" [checked=false, ref=e41]\n        - radio \"Neither suitable\" [checked=false, ref=e42]\n      - LabelText\n        - StaticText \"Brief and references: which visible feature fits or conflicts?\"\n      - textbox \"Brief and references: which visible feature fits or conflicts?\" [required, ref=e9]\n      - LabelText\n        - StaticText \"Shape and background: identify the focal form and separation.\"\n      - textbox \"Shape and background: identify the focal form and separation.\" [required, ref=e10]\n      - LabelText\n        - StaticText \"Craft: locate a curve, join, spacing or lettering detail.\"\n      - textbox \"Craft: locate a curve, join, spacing or lettering detail.\" [required, ref=e11]\n      - LabelText\n        - StaticText \"Effects: where does material or decoration support or obscure form?\"\n      - textbox \"Effects: where does material or decoration support or obscure form?\" [required, ref=e12]\n      - LabelText\n        - StaticText \"Confusion: what overlaps a reference or another candidate?\"\n      - textbox \"Confusion: what overlaps a reference or another candidate?\" [required, ref=e13]\n      - LabelText\n        - StaticText \"32 px: name a surviving or lost feature and its location.\"\n      - textbox \"32 px: name a surviving or lost feature and its location.\" [required, ref=e14]\n      - LabelText\n        - StaticText \"Peer context: what stays identifiable among equal-size candidates?\"\n      - textbox \"Peer context: what stays identifiable among equal-size candidates?\" [required, ref=e15]\n    - article\n      - heading \"Comparison 02\" [level=2, ref=e16]\n      - generic\n        - heading \"Candidate A\" [level=3, ref=e43]\n        - figure\n          - image \"A at 32 px\"\n          - Figcaption\n            - StaticText \"32 px\"\n        - figure\n          - image \"A at 48 px\"\n          - Figcaption\n            - StaticText \"48 px\"\n        - figure\n          - image \"A at 64 px\"\n          - Figcaption\n            - StaticText \"64 px\"\n        - figure\n          - image \"A at 128 px\"\n          - Figcaption\n            - StaticText \"128 px\"\n        - figure\n          - image \"A at 32 px\"\n          - Figcaption\n            - StaticText \"32 px\"\n        - figure\n          - image \"A at 48 px\"\n          - Figcaption\n            - StaticText \"48 px\"\n        - figure\n          - image \"A at 64 px\"\n          - Figcaption\n            - StaticText \"64 px\"\n        - figure\n          - image \"A at 128 px\"\n          - Figcaption\n            - StaticText \"128 px\"\n        - link \"Open original A\" [ref=e44]\n        - StaticText \"1254 × 1254 px\"\n      - generic\n        - heading \"Candidate B\" [level=3, ref=e45]\n        - figure\n          - image \"B at 32 px\"\n          - Figcaption\n            - StaticText \"32 px\"\n        - figure\n          - image \"B at 48 px\"\n          - Figcaption\n            - StaticText \"48 px\"\n        - figure\n          - image \"B at 64 px\"\n          - Figcaption\n            - StaticText \"64 px\"\n        - figure\n          - image \"B at 128 px\"\n          - Figcaption\n            - StaticText \"128 px\"\n        - figure\n          - image \"B at 32 px\"\n          - Figcaption\n            - StaticText \"32 px\"\n        - figure\n          - image \"B at 48 px\"\n          - Figcaption\n            - StaticText \"48 px\"\n        - figure\n          - image \"B at 64 px\"\n          - Figcaption\n            - StaticText \"64 px\"\n        - figure\n          - image \"B at 128 px\"\n          - Figcaption\n            - StaticText \"128 px\"\n        - link \"Open original B\" [ref=e46]\n        - StaticText \"1254 × 1254 px\"\n      - group\n        - DisclosureTriangle \"Equal-size candidate peers · simulation\" [expanded=true]\n          - StaticText \"Equal-size candidate peers · simulation\"\n        - figure\n          - image \"Peer 1\"\n          - Figcaption\n            - StaticText \"Peer 1\"\n        - figure\n          - image \"Peer 2\"\n          - Figcaption\n            - StaticText \"Peer 2\"\n        - figure\n          - image \"Peer 3\"\n          - Figcaption\n            - StaticText \"Peer 3\"\n        - figure\n          - image \"Peer 4\"\n          - Figcaption\n            - StaticText \"Peer 4\"\n        - figure\n          - image \"Peer 5\"\n          - Figcaption\n            - StaticText \"Peer 5\"\n        - figure\n          - image \"Peer 6\"\n          - Figcaption\n            - StaticText \"Peer 6\"\n        - figure\n          - image \"Peer 1\"\n          - Figcaption\n            - StaticText \"Peer 1\"\n        - figure\n          - image \"Peer 2\"\n          - Figcaption\n            - StaticText \"Peer 2\"\n        - figure\n          - image \"Peer 3\"\n          - Figcaption\n            - StaticText \"Peer 3\"\n        - figure\n          - image \"Peer 4\"\n          - Figcaption\n            - StaticText \"Peer 4\"\n        - figure\n          - image \"Peer 5\"\n          - Figcaption\n            - StaticText \"Peer 5\"\n        - figure\n          - image \"Peer 6\"\n          - Figcaption\n            - StaticText \"Peer 6\"\n        - figure\n          - image \"Peer 1\"\n          - Figcaption\n            - StaticText \"Peer 1\"\n        - figure\n          - image \"Peer 2\"\n          - Figcaption\n            - StaticText \"Peer 2\"\n        - figure\n          - image \"Peer 3\"\n          - Figcaption\n            - StaticText \"Peer 3\"\n        - figure\n          - image \"Peer 4\"\n          - Figcaption\n            - StaticText \"Peer 4\"\n        - figure\n          - image \"Peer 5\"\n          - Figcaption\n            - StaticText \"Peer 5\"\n        - figure\n          - image \"Peer 6\"\n          - Figcaption\n            - StaticText \"Peer 6\"\n        - figure\n          - image \"Peer 1\"\n          - Figcaption\n            - StaticText \"Peer 1\"\n        - figure\n          - image \"Peer 2\"\n          - Figcaption\n            - StaticText \"Peer 2\"\n        - figure\n          - image \"Peer 3\"\n          - Figcaption\n            - StaticText \"Peer 3\"\n        - figure\n          - image \"Peer 4\"\n          - Figcaption\n            - StaticText \"Peer 4\"\n        - figure\n          - image \"Peer 5\"\n          - Figcaption\n            - StaticText \"Peer 5\"\n        - figure\n          - image \"Peer 6\"\n          - Figcaption\n            - StaticText \"Peer 6\"\n      - group \"Your observation\"\n        - Legend\n          - StaticText \"Your observation\"\n        - radio \"Prefer A\" [checked=false, ref=e47]\n        - radio \"Prefer B\" [checked=false, ref=e48]\n        - radio \"Similar\" [checked=false, ref=e49]\n        - radio \"Neither suitable\" [checked=false, ref=e50]\n      - LabelText\n        - StaticText \"Brief and references: which visible feature fits or conflicts?\"\n      - textbox \"Brief and references: which visible feature fits or conflicts?\" [required, ref=e17]\n      - LabelText\n        - StaticText \"Shape and background: identify the focal form and separation.\"\n      - textbox \"Shape and background: identify the focal form and separation.\" [required, ref=e18]\n      - LabelText\n        - StaticText \"Craft: locate a curve, join, spacing or lettering detail.\"\n      - textbox \"Craft: locate a curve, join, spacing or lettering detail.\" [required, ref=e19]\n      - LabelText\n        - StaticText \"Effects: where does material or decoration support or obscure form?\"\n      - textbox \"Effects: where does material or decoration support or obscure form?\" [required, ref=e20]\n      - LabelText\n        - StaticText \"Confusion: what overlaps a reference or another candidate?\"\n      - textbox \"Confusion: what overlaps a reference or another candidate?\" [required, ref=e21]\n      - LabelText\n        - StaticText \"32 px: name a surviving or lost feature and its location.\"\n      - textbox \"32 px: name a surviving or lost feature and its location.\" [required, ref=e22]\n      - LabelText\n        - StaticText \"Peer context: what stays identifiable among equal-size candidates?\"\n      - textbox \"Peer context: what stays identifiable among equal-size candidates?\" [required, ref=e23]\n    - article\n      - heading \"Comparison 03\" [level=2, ref=e24]\n      - generic\n        - heading \"Candidate A\" [level=3, ref=e51]\n        - figure\n          - image \"A at 32 px\"\n          - Figcaption\n            - StaticText \"32 px\"\n        - figure\n          - image \"A at 48 px\"\n          - Figcaption\n            - StaticText \"48 px\"\n        - figure\n          - image \"A at 64 px\"\n          - Figcaption\n            - StaticText \"64 px\"\n        - figure\n          - image \"A at 128 px\"\n          - Figcaption\n            - StaticText \"128 px\"\n        - figure\n          - image \"A at 32 px\"\n          - Figcaption\n            - StaticText \"32 px\"\n        - figure\n          - image \"A at 48 px\"\n          - Figcaption\n            - StaticText \"48 px\"\n        - figure\n          - image \"A at 64 px\"\n          - Figcaption\n            - StaticText \"64 px\"\n        - figure\n          - image \"A at 128 px\"\n          - Figcaption\n            - StaticText \"128 px\"\n        - link \"Open original A\" [ref=e52]\n        - StaticText \"1254 × 1254 px\"\n      - generic\n        - heading \"Candidate B\" [level=3, ref=e53]\n        - figure\n          - image \"B at 32 px\"\n          - Figcaption\n            - StaticText \"32 px\"\n        - figure\n          - image \"B at 48 px\"\n          - Figcaption\n            - StaticText \"48 px\"\n        - figure\n          - image \"B at 64 px\"\n          - Figcaption\n            - StaticText \"64 px\"\n        - figure\n          - image \"B at 128 px\"\n          - Figcaption\n            - StaticText \"128 px\"\n        - figure\n          - image \"B at 32 px\"\n          - Figcaption\n            - StaticText \"32 px\"\n        - figure\n          - image \"B at 48 px\"\n          - Figcaption\n            - StaticText \"48 px\"\n        - figure\n          - image \"B at 64 px\"\n          - Figcaption\n            - StaticText \"64 px\"\n        - figure\n          - image \"B at 128 px\"\n          - Figcaption\n            - StaticText \"128 px\"\n        - link \"Open original B\" [ref=e54]\n        - StaticText \"1254 × 1254 px\"\n      - group\n        - DisclosureTriangle \"Equal-size candidate peers · simulation\" [expanded=true]\n          - StaticText \"Equal-size candidate peers · simulation\"\n        - figure\n          - image \"Peer 1\"\n          - Figcaption\n            - StaticText \"Peer 1\"\n        - figure\n          - image \"Peer 2\"\n          - Figcaption\n            - StaticText \"Peer 2\"\n        - figure\n          - image \"Peer 3\"\n          - Figcaption\n            - StaticText \"Peer 3\"\n        - figure\n          - image \"Peer 4\"\n          - Figcaption\n            - StaticText \"Peer 4\"\n        - figure\n          - image \"Peer 5\"\n          - Figcaption\n            - StaticText \"Peer 5\"\n        - figure\n          - image \"Peer 6\"\n          - Figcaption\n            - StaticText \"Peer 6\"\n        - figure\n          - image \"Peer 1\"\n          - Figcaption\n            - StaticText \"Peer 1\"\n        - figure\n          - image \"Peer 2\"\n          - Figcaption\n            - StaticText \"Peer 2\"\n        - figure\n          - image \"Peer 3\"\n          - Figcaption\n            - StaticText \"Peer 3\"\n        - figure\n          - image \"Peer 4\"\n          - Figcaption\n            - StaticText \"Peer 4\"\n        - figure\n          - image \"Peer 5\"\n          - Figcaption\n            - StaticText \"Peer 5\"\n        - figure\n          - image \"Peer 6\"\n          - Figcaption\n            - StaticText \"Peer 6\"\n        - figure\n          - image \"Peer 1\"\n          - Figcaption\n            - StaticText \"Peer 1\"\n        - figure\n          - image \"Peer 2\"\n          - Figcaption\n            - StaticText \"Peer 2\"\n        - figure\n          - image \"Peer 3\"\n          - Figcaption\n            - StaticText \"Peer 3\"\n        - figure\n          - image \"Peer 4\"\n          - Figcaption\n            - StaticText \"Peer 4\"\n        - figure\n          - image \"Peer 5\"\n          - Figcaption\n            - StaticText \"Peer 5\"\n        - figure\n          - image \"Peer 6\"\n          - Figcaption\n            - StaticText \"Peer 6\"\n        - figure\n          - image \"Peer 1\"\n          - Figcaption\n            - StaticText \"Peer 1\"\n        - figure\n          - image \"Peer 2\"\n          - Figcaption\n            - StaticText \"Peer 2\"\n        - figure\n          - image \"Peer 3\"\n          - Figcaption\n            - StaticText \"Peer 3\"\n        - figure\n          - image \"Peer 4\"\n          - Figcaption\n            - StaticText \"Peer 4\"\n        - figure\n          - image \"Peer 5\"\n          - Figcaption\n            - StaticText \"Peer 5\"\n        - figure\n          - image \"Peer 6\"\n          - Figcaption\n            - StaticText \"Peer 6\"\n      - group \"Your observation\"\n        - Legend\n          - StaticText \"Your observation\"\n        - radio \"Prefer A\" [checked=false, ref=e55]\n        - radio \"Prefer B\" [checked=false, ref=e56]\n        - radio \"Similar\" [checked=false, ref=e57]\n        - radio \"Neither suitable\" [checked=false, ref=e58]\n      - LabelText\n        - StaticText \"Brief and references: which visible feature fits or conflicts?\"\n      - textbox \"Brief and references: which visible feature fits or conflicts?\" [required, ref=e25]\n      - LabelText\n        - StaticText \"Shape and background: identify the focal form and separation.\"\n      - textbox \"Shape and background: identify the focal form and separation.\" [required, ref=e26]\n      - LabelText\n        - StaticText \"Craft: locate a curve, join, spacing or lettering detail.\"\n      - textbox \"Craft: locate a curve, join, spacing or lettering detail.\" [required, ref=e27]\n      - LabelText\n        - StaticText \"Effects: where does material or decoration support or obscure form?\"\n      - textbox \"Effects: where does material or decoration support or obscure form?\" [required, ref=e28]\n      - LabelText\n        - StaticText \"Confusion: what overlaps a reference or another candidate?\"\n      - textbox \"Confusion: what overlaps a reference or another candidate?\" [required, ref=e29]\n      - LabelText\n        - StaticText \"32 px: name a surviving or lost feature and its location.\"\n      - textbox \"32 px: name a surviving or lost feature and its location.\" [required, ref=e30]\n      - LabelText\n        - StaticText \"Peer context: what stays identifiable among equal-size candidates?\"\n      - textbox \"Peer context: what stays identifiable among equal-size candidates?\" [required, ref=e31]\n    - region \"Record reviewer identity\" [ref=e4]\n      - heading \"Download your observations\" [level=2, ref=e32]\n      - LabelText\n        - StaticText \"Reviewer name\"\n        - textbox \"Reviewer name\" [required, ref=e59]\n      - checkbox \"I inspected both light/dark surfaces, 32 px details and equal-size peer context.\" [checked=false, ref=e33]\n      - button \"Download preference response JSON\" [ref=e34]\n      - status\n      - paragraph\n        - StaticText \"This browser form records a user response. An AI response must identify reviewer_kind as ai and report actual review_calls. This comparison allows up to 3 recorded AI review calls; this page makes no model calls.\"\n  - sectionfooter\n    - paragraph\n      - StaticText \"Apply the downloaded JSON with \"\n      - code\n        - StaticText \"logo_project.py preference-record --gallery <folder> --response-file <download.json>\"\n      - StaticText \". This saves a separate preference sidecar only. QA, AI recommendation, user selection and platform validation stay separate.\"\n    - paragraph\n      - StaticText \"Blinding hides labels in the review interface, not file-system access. The organizer manifest must be withheld from reviewers until their response is saved. Local references are not licensed for redistribution merely by appearing here.\"",
+    "browserPageId": "cb6447a5-fcec-4173-8a7e-1df9873eaa3f"
+  },
+  "_meta": {
+    "runtimeId": "7c92d0fb-8d62-4a7d-9bd2-8be95f1ad488"
+  }
+}

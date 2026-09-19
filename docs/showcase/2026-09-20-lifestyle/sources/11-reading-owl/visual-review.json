@@ -1,0 +1,15 @@
+{
+  "id": "11-reading-owl",
+  "reviewer": "assistant visual inspection",
+  "review_kind": "descriptive observation; no separate model review call",
+  "evidence": "native tool returned original viewed at1254×1254",
+  "observed_features": "Orange pear-shaped owl with a violet brow and right wing, sleepy white eye areas, a yellow beak and small feet.",
+  "limitations": "A yellow third foreground color and feet were added by the generator. Face is broadly symmetrical; user preference and mascot distinctiveness remain unverified.",
+  "small_size_status": "Inspected actual Chrome screenshots at32/48/64/128px on light/dark surroundings and64px CSS mask simulations.",
+  "production_qa": "file validation recorded separately",
+  "ai_recommendation": "none",
+  "user_selection": "not collected",
+  "platform_validation": "not performed",
+  "small_size_observation": "At32px the violet brow, paired eyes and right wing remain distinguishable; feet and beak lose fine definition. The64px rounded/circle simulations retain the main character.",
+  "small_size_evidence": "qa/11-reading-owl.png"
+}

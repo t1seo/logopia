@@ -20,8 +20,8 @@ APP_ICON_PRESETS: Final[tuple[AppIconPresetChoice, ...]] = (
         id="ip_mascot",
         label="IP mascot",
         description=(
-            "Simple personified character with rounded heavy forms "
-            "and two subject color families on a solid background."
+            "A personified character with deliberate expression, proportions and silhouette "
+            "suited to the product and requested colors."
         ),
         default_placement="lower_left",
     ),
@@ -34,7 +34,7 @@ APP_ICON_PRESETS: Final[tuple[AppIconPresetChoice, ...]] = (
     AppIconPresetChoice(
         id="abstract",
         label="Abstract",
-        description="A compact geometric composition with clear negative space.",
+        description="A coherent nonliteral gesture with deliberate contour and negative space.",
         default_placement="center",
     ),
     AppIconPresetChoice(
@@ -46,7 +46,7 @@ APP_ICON_PRESETS: Final[tuple[AppIconPresetChoice, ...]] = (
     AppIconPresetChoice(
         id="soft_3d",
         label="Soft 3D",
-        description="A tactile, softly rounded object with restrained depth and lighting.",
+        description="One tactile object with a chosen material, readable silhouette and depth.",
         default_placement="center",
     ),
     AppIconPresetChoice(

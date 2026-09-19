@@ -29,11 +29,65 @@ All external models are frozen/strict/extra-forbid and parsed from JSON. Bounded
 - `count: int | None = None` (explicit 1–6; effective default 3 brand/app, 6 IP; do not silently clamp)
 - `colors: tuple[str,...] = ()`, `notes: str = ""`
 
-App/IP require opaque and empty exact text in this first workflow; a nonempty text request fails clearly before inference. IP uses lower-corner mascot composition, app uses centered simple pictogram. The broader existing skill remains available for monogram/soft3D/pixel presets; do not claim this initial director implements all dedicated presets. `effective_count` is a computed property.
+App icons preserve supplied exact lettering and require opaque concept artwork. IP retains empty exact text and its character composition. App composition is product-specific rather than a forced centered pictogram. Optional `app_icon` metadata matches the helper preset/subject/placement/text/asset wire shape; non-concept native assets fail clearly before inference. Absent intent remains absent in legacy sessions. `effective_count` is the total initial image count.
 
 `Strategy`: `positioning`, `audience_need`, `brand_promise`, `distinctive_principle`, `typography`, `color_roles`, `assumptions` (tuple of text). These are design proposals/inferences, not researched market facts. Source URLs may appear only when supplied/actually consulted, never invented by the planning call.
 
-`Direction`: `id`, `title`, `motif`, `construction`, `rationale`, `risk`, `preserve` (tuple of text), `prompt` (the proposed generation prompt). Direction count equals effective count. For IP six candidates represent three product-relevant character directions, with two distinct takes each; never a grid image.
+`Direction`: `id`, `title`, `motif`, `construction`, `rationale`, `risk`, `preserve` (tuple of text), `prompt` (the proposed generation prompt), optional `design_spec` and `variations`. Direction count equals `effective_direction_count`. Existing counts retain one candidate per direction. Explicit `direction_count` plus `candidates_per_direction` permits up to nine initial images, including 3×3 exploration. Variations name their slot, controlled variables and instruction; a recolor is not a new direction. Every image call returns one candidate.
+
+2026-09-19 additions: `references` supplies at most six `StudioReference` records with
+absolute PNG path/hash, positive/negative role, observed/transfer/avoid traits and
+source/rights metadata. Real pixels go to both structured planning calls and critiques.
+The art director returns `reference_analysis`, whose observed features and interpretation
+are separate; the host verifies every source ID and binds its image hash. Only selected
+traits are passed as text to generation. `reference_conditioning: image` is rejected:
+the installed native tool has one `image_url`, retained for the actual edit parent.
+No unsupported plural-image argument exists. Reference snapshots and analysis accompany
+saved jobs/candidates; automatically chosen references never imply user preference.
+
+The fast path remains three initial image calls (six IP). Exploration is opt-in and
+does not replace legacy `count`; supplying both count forms is rejected. At most two
+edits follow, so this implementation can issue at most eleven image calls per workflow.
+`review_call_budget` may bound LLM reviews explicitly; its minimum covers two critics
+per initial candidate and its maximum is 44. The default covers two attempts per
+possible original/edited candidate. Every critique job reserves two LLM calls, and
+the one plan job reserves two more. CLI/tool `call_budget` reports reservation bounds,
+including unknown/failed attempts, rather than asserting exact provider billing.
+No automatic image retry or extra material/layer pass is introduced.
+
+Native Gallery app mode adds immutable-source 32/48/64/128px light/dark surroundings,
+equal 48px candidate context, and explicitly labeled CSS-mask simulations. These are
+diagnostics, not OS rendering or platform acceptance. Candidate details retain slot,
+controlled variables and conditioning provenance; blind preference records are supplied
+by the existing helper's separate preference workflow. QA does not become user choice.
+
+Example native tool input (the same JSON is a launcher request file):
+
+```json
+{
+  "workflow_id": "reading-exploration",
+  "brief": {
+    "name": "틈",
+    "exact_text": "틈",
+    "product": "짧은 독서 시간을 기록하는 앱",
+    "audience": "출퇴근 중 읽는 독자",
+    "personality": "조용하고 또렷함",
+    "use_case": "앱 아이콘",
+    "mode": "app_icon",
+    "logo_type": "lettermark",
+    "display_width": 48,
+    "direction_count": 3,
+    "candidates_per_direction": 3
+  }
+}
+```
+
+With an already configured explicit Hermes profile, submit using
+`uv run --locked python integrations/hermes/studio.py run --profile logopia --request request.json --json`.
+For the fast path omit both exploration fields. For references, add local `references`
+records with a real digest from `shasum -a 256 /absolute/reference.png`; keep source
+images in an ignored private cache. Native Apple layers, Android adaptive packages and
+dimension-verified store assets use the helper handoff, not this square-only image tool.
 
 `PlanResult`: `strategy: Strategy`, `directions: tuple[Direction,...]`, `provider`, `model`. `GeneratedImage`: `path: Path` (in-process returned path), `provider`, `model`, `receipt: str` (bounded exact native tool result, never auth).
 

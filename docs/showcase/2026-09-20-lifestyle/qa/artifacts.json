@@ -1,0 +1,800 @@
+{
+  "originals": [
+    {
+      "id": "00-offcut-editorial",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          253,
+          255,
+          254
+        ],
+        [
+          254,
+          255,
+          254
+        ],
+        [
+          254,
+          253,
+          254
+        ],
+        [
+          254,
+          254,
+          254
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "00-offcut-playful",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          254,
+          253,
+          255
+        ],
+        [
+          254,
+          255,
+          255
+        ],
+        [
+          254,
+          254,
+          253
+        ],
+        [
+          254,
+          254,
+          254
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "01-luma",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          254,
+          255,
+          255
+        ],
+        [
+          254,
+          255,
+          255
+        ],
+        [
+          254,
+          254,
+          254
+        ],
+        [
+          254,
+          254,
+          254
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "02-loop-lab",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          253,
+          255,
+          254
+        ],
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          254,
+          254,
+          254
+        ],
+        [
+          254,
+          253,
+          254
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "03-goyo",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          253,
+          255,
+          254
+        ],
+        [
+          254,
+          255,
+          254
+        ],
+        [
+          254,
+          253,
+          253
+        ],
+        [
+          254,
+          254,
+          254
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "04-bread-bloom",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          253,
+          255,
+          254
+        ],
+        [
+          255,
+          255,
+          254
+        ],
+        [
+          254,
+          254,
+          253
+        ],
+        [
+          253,
+          253,
+          254
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "05-kite",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          253,
+          253,
+          253
+        ],
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          254,
+          254,
+          253
+        ],
+        [
+          254,
+          253,
+          254
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "06-miso",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          253,
+          253,
+          255
+        ],
+        [
+          254,
+          255,
+          255
+        ],
+        [
+          254,
+          254,
+          253
+        ],
+        [
+          254,
+          253,
+          254
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "07-northline",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          253,
+          255,
+          254
+        ],
+        [
+          254,
+          255,
+          255
+        ],
+        [
+          254,
+          253,
+          254
+        ],
+        [
+          254,
+          254,
+          254
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "08-mulgyeol",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          253,
+          255,
+          254
+        ],
+        [
+          254,
+          255,
+          255
+        ],
+        [
+          254,
+          253,
+          254
+        ],
+        [
+          254,
+          254,
+          254
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "09-fern",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          253,
+          255,
+          254
+        ],
+        [
+          254,
+          255,
+          255
+        ],
+        [
+          254,
+          254,
+          254
+        ],
+        [
+          254,
+          254,
+          254
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "10-nova-notes",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          253,
+          255,
+          254
+        ],
+        [
+          254,
+          255,
+          255
+        ],
+        [
+          254,
+          254,
+          253
+        ],
+        [
+          254,
+          253,
+          254
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "11-reading-owl",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          254,
+          253,
+          253
+        ],
+        [
+          255,
+          254,
+          254
+        ],
+        [
+          254,
+          253,
+          253
+        ],
+        [
+          253,
+          253,
+          254
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "12-weather",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          253,
+          253,
+          253
+        ],
+        [
+          254,
+          255,
+          255
+        ],
+        [
+          254,
+          253,
+          253
+        ],
+        [
+          254,
+          253,
+          254
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "13-flow",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          254,
+          253,
+          255
+        ],
+        [
+          254,
+          255,
+          255
+        ],
+        [
+          254,
+          253,
+          254
+        ],
+        [
+          254,
+          253,
+          254
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "14-notes",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          253,
+          253,
+          253
+        ],
+        [
+          255,
+          254,
+          254
+        ],
+        [
+          254,
+          253,
+          253
+        ],
+        [
+          254,
+          253,
+          254
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "15-cloud",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          254,
+          253,
+          253
+        ],
+        [
+          254,
+          255,
+          255
+        ],
+        [
+          254,
+          254,
+          253
+        ],
+        [
+          254,
+          254,
+          254
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "16-sprout",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          253,
+          253,
+          253
+        ],
+        [
+          254,
+          255,
+          255
+        ],
+        [
+          254,
+          253,
+          253
+        ],
+        [
+          254,
+          254,
+          254
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "17-bun-club",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          52,
+          132,
+          247
+        ],
+        [
+          53,
+          136,
+          248
+        ],
+        [
+          54,
+          125,
+          246
+        ],
+        [
+          58,
+          130,
+          247
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "18-jelly",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          93,
+          22,
+          196
+        ],
+        [
+          96,
+          25,
+          195
+        ],
+        [
+          93,
+          34,
+          191
+        ],
+        [
+          98,
+          32,
+          197
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "19-bam",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          61,
+          21,
+          73
+        ],
+        [
+          61,
+          22,
+          76
+        ],
+        [
+          58,
+          24,
+          70
+        ],
+        [
+          61,
+          25,
+          77
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "20-side-b",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          69,
+          170,
+          248
+        ],
+        [
+          69,
+          173,
+          247
+        ],
+        [
+          75,
+          165,
+          248
+        ],
+        [
+          75,
+          168,
+          248
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "21-plum",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          251,
+          196,
+          9
+        ],
+        [
+          253,
+          200,
+          11
+        ],
+        [
+          250,
+          195,
+          12
+        ],
+        [
+          251,
+          197,
+          9
+        ]
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "22-patch",
+      "decode": "pass",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "corner_pixels": [
+        [
+          252,
+          250,
+          173
+        ],
+        [
+          252,
+          251,
+          172
+        ],
+        [
+          251,
+          249,
+          175
+        ],
+        [
+          251,
+          249,
+          168
+        ]
+      ],
+      "alpha_extrema": null
+    }
+  ],
+  "brief_schema_validation": 24,
+  "app_icon_artworks": 12,
+  "unique_new_image_hashes": 24,
+  "completed_native_calls": 24,
+  "root_readmes": {
+    "README.md": {
+      "total_images": 28,
+      "new_sample_images": 24,
+      "protected_logo": "assets/logopia-game-title.png"
+    },
+    "README.ko.md": {
+      "total_images": 28,
+      "new_sample_images": 24,
+      "protected_logo": "assets/logopia-game-title.png"
+    }
+  },
+  "protected_files_checked": 235,
+  "protected_data_unchanged": 233,
+  "intentional_document_link_updates": [
+    "docs/brand/README.ko.md",
+    "docs/brand/README.md"
+  ],
+  "header_sha256": "4f8119477b7d8673ebfbb86d4d3255db28d8843c4522ea5e838f69784835471c",
+  "comparison_original_and_prompt_hashes_verified": 24,
+  "relative_links_checked": 1169,
+  "broken_relative_links": [],
+  "source_image_postprocessing": "none",
+  "browser_qa": "24 click-throughs,96 size checks,48 masks,12 equal-condition peers; no errors or mobile overflow"
+}

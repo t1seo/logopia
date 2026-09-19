@@ -6,6 +6,7 @@ from pydantic import BaseModel, BeforeValidator, ConfigDict, Field, JsonValue, T
 from typing_extensions import override
 
 EDIT_LIMIT: Final = 2
+INITIAL_IMAGE_LIMIT: Final = 9
 CRITIQUE_LIMIT: Final = 2
 ROLE_COUNT: Final = 2
 CRITERION_COUNT: Final = 5

@@ -35,6 +35,8 @@ def review_input(root: Path, state: Workflow, candidate: Candidate) -> ReviewInp
         parent_path=safe_path(root, parent.image_path) if parent else None,
         keep=candidate.keep,
         change=candidate.change,
+        design_spec=candidate.design_spec,
+        changed_variables=candidate.changed_variables,
     )
 
 

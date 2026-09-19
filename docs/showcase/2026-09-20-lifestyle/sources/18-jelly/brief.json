@@ -1,0 +1,38 @@
+{
+  "brand_name": "Jelly Journal",
+  "exact_text": "",
+  "industry": "a playful private mood journal app",
+  "audience": "people using everyday consumer apps",
+  "logo_type": "mascot",
+  "styles": [
+    "expressive asymmetric flat character"
+  ],
+  "palette": [
+    "soft clear pink character",
+    "deep plum eyes",
+    "full-bleed saturated purple background"
+  ],
+  "background": "opaque",
+  "concept_count": 1,
+  "app_icon": {
+    "preset": "ip_mascot",
+    "subject": "an original softly leaning pink jelly character with a broad sloped top and unequal sleepy eyes",
+    "placement": "center",
+    "text": null
+  },
+  "use_cases": [
+    "32/48/64/128px app-icon previews and README"
+  ],
+  "forbidden": [
+    "industrial or manufacturing brand aesthetic",
+    "interlocking bent tubes or offset right-angle brackets",
+    "repeated cream, dark teal and coral combination",
+    "inset tile inside a larger square",
+    "extra letters, slogans, watermark or mockup scene"
+  ],
+  "assumptions": [
+    "New fictional demonstration brand proposed in response to the request for more app icons.",
+    "The specified full-bleed background color is authoritative; do not restore the earlier white collection background.",
+    "User preference has not been collected for this new candidate."
+  ]
+}

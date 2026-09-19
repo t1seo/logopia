@@ -2,26 +2,26 @@
 
 [English](README.md) · [한국어](README.ko.md) · [Docs](../README.md) · [Logopia](../../README.md)
 
-[**Open the current showcase board →**](../../assets/logopia-white-showcase.png) · [Current gallery](../gallery.md#showcase) · [Full PNG inventory](../showcase/2026-09-white/README.md)
+[**Open the current showcase board →**](../showcase/2026-09-20-lifestyle/board.png) · [Current gallery](../gallery.md#showcase) · [Full PNG inventory](../showcase/2026-09-20-lifestyle/README.md)
 
-## White-background collection
+## September 20 lifestyle collection
 
 Ten fictional brand identities, newly generated on white. [See every sample in the README](../../README.md#samples), or open an individual PNG below.
 
 | Brand | Current image |
 |---|---|
-| LUMA | [01-luma.png](../showcase/2026-09-white/images/01-luma.png) |
-| LOOP LAB | [02-loop-lab.png](../showcase/2026-09-white/images/02-loop-lab.png) |
-| 고요 | [03-goyo.png](../showcase/2026-09-white/images/03-goyo.png) |
-| BREAD & BLOOM | [04-bread-bloom.png](../showcase/2026-09-white/images/04-bread-bloom.png) |
-| KITE | [05-kite.png](../showcase/2026-09-white/images/05-kite.png) |
-| MISO | [06-miso.png](../showcase/2026-09-white/images/06-miso.png) |
-| NORTHLINE / NL | [07-northline.png](../showcase/2026-09-white/images/07-northline.png) |
-| 물결 | [08-mulgyeol.png](../showcase/2026-09-white/images/08-mulgyeol.png) |
-| FERN | [09-fern.png](../showcase/2026-09-white/images/09-fern.png) |
-| NOVA NOTES | [10-nova-notes.png](../showcase/2026-09-white/images/10-nova-notes.png) |
+| LUMA | [01-luma.png](../showcase/2026-09-20-lifestyle/images/01-luma.png) |
+| LOOP LAB | [02-loop-lab.png](../showcase/2026-09-20-lifestyle/images/02-loop-lab.png) |
+| 고요 | [03-goyo.png](../showcase/2026-09-20-lifestyle/images/03-goyo.png) |
+| BREAD & BLOOM | [04-bread-bloom.png](../showcase/2026-09-20-lifestyle/images/04-bread-bloom.png) |
+| KITE | [05-kite.png](../showcase/2026-09-20-lifestyle/images/05-kite.png) |
+| MISO | [06-miso.png](../showcase/2026-09-20-lifestyle/images/06-miso.png) |
+| NORTHLINE / NL | [07-northline.png](../showcase/2026-09-20-lifestyle/images/07-northline.png) |
+| 물결 | [08-mulgyeol.png](../showcase/2026-09-20-lifestyle/images/08-mulgyeol.png) |
+| FERN | [09-fern.png](../showcase/2026-09-20-lifestyle/images/09-fern.png) |
+| NOVA NOTES | [10-nova-notes.png](../showcase/2026-09-20-lifestyle/images/10-nova-notes.png) |
 
-Six app icon artworks are included in the [full inventory](../showcase/2026-09-white/README.md). See the [manifest](../showcase/2026-09-white/manifest.json) for file details. The [earlier colored showcase](../showcase/2026-09/README.md) is preserved separately.
+Twelve app icon artworks are included in the [full inventory](../showcase/2026-09-20-lifestyle/README.md). See the [manifest](../showcase/2026-09-20-lifestyle/manifest.json) for file details. The [earlier colored showcase](../showcase/2026-09/README.md) is preserved separately.
 
 ## Try a lettering brief
 

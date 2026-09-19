@@ -1,0 +1,22 @@
+{
+  "id": "00-offcut-editorial",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-e00d5ef8-3e53-4020-bcd4-0681464e17c9.png",
+  "image": "images/00-offcut-editorial.png",
+  "sha256": "3012801fc83ca9fbeed0aab432933ed35ccca05c634b618c40cf733aaf8f7bc5",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "83ee547f57daec706e0d02a4c7d331ffb4cbec950b1ebcf4bf23b58153833737",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:12:46.543990+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

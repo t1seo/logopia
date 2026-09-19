@@ -5,6 +5,7 @@ from typing import Annotated, Self
 from pydantic import Field, model_validator
 
 from logo_helper.app_icon_models import AppIconIntent, omit_absent
+from logo_helper.asset_models import IconAssetIntent
 from logo_helper.lockup_models import LockupIntent
 from logo_helper.model_base import Background, FrozenModel, LogoType, ProjectError, Text
 
@@ -31,7 +32,10 @@ class Brief(FrozenModel):
     @model_validator(mode="after")
     def consistent_icon_brief(self) -> Self:
         if self.app_icon is not None and (
-            self.background != "opaque"
+            (
+                self.background != "opaque"
+                and not (self.app_icon.asset or IconAssetIntent()).allows_alpha
+            )
             or self.slogan != ""
             or self.lockup is not None
             or self.exact_text != (self.app_icon.text or "")
@@ -39,7 +43,7 @@ class Brief(FrozenModel):
             raise ProjectError(
                 "intent_conflict",
                 (
-                    "An icon brief requires opaque background, no slogan or lockup, "
+                    "An icon brief requires an asset-compatible background, no slogan or lockup, "
                     "and exact_text matching its monogram text or empty"
                 ),
             )

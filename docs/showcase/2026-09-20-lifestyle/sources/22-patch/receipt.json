@@ -1,0 +1,22 @@
+{
+  "id": "22-patch",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-0b74cc32-109d-4215-a87d-33d03312722a.png",
+  "image": "images/22-patch.png",
+  "sha256": "67df030c9d24b76fa71ba5878e6b1b885587dd8052b20c1e9f1a243b75f8c8e0",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "341bc56a570ebea898d9a64983e4f0a8b486be0ede620b429982307389ef75da",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:38:05.168297+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}

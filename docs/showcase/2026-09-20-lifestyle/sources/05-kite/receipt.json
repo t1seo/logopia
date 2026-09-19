@@ -1,0 +1,22 @@
+{
+  "id": "05-kite",
+  "status": "returned",
+  "provider": "native image tool",
+  "model": "not exposed by tool",
+  "native_output_filename": "exec-dbf857bf-7ccf-4f51-912f-9ef51dc194a0.png",
+  "image": "images/05-kite.png",
+  "sha256": "3b60c030852635bb56e2953ec3e73c1c54e216f879db43867139d5fefd14e0b5",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt_sha256": "ce7d0bcc58b0dbe009e81296525674ac14d52ca7d8e5251733a2910cb5473f7c",
+  "input_images": [],
+  "parent": null,
+  "reference_mode": "negative traits passed as text; no image conditioning",
+  "returned_at": "2026-09-19T15:15:04.849582+00:00",
+  "postprocessing": "none; copied original bytes",
+  "user_selection": "not collected",
+  "platform_validation": "not performed"
+}
