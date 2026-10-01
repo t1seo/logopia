@@ -2,13 +2,15 @@
 
 [English](README.md) · [한국어](README.ko.md) · [문서](../README.ko.md) · [Logopia](../../README.ko.md)
 
-[**현재 쇼케이스 보드 크게 보기 →**](../showcase/2026-09-20-lifestyle/board.png) · [현재 갤러리](../gallery.ko.md#showcase) · [전체 PNG 목록](../showcase/2026-09-20-lifestyle/README.ko.md)
+[**10월 실험 — 여섯 결과의 디자인 품질 거절 →**](../showcase/2026-10-01-use-cases/README.md) · [실험 갤러리](../gallery.ko.md#showcase) · [9월 20일 보관 보드](../showcase/2026-09-20-lifestyle/board.png)
+
+사용자는 10월 실험 여섯 개에서 의미 있는 개선과 실사용 수준의 결과를 확인하지 못했습니다. 품질 개선은 입증되지 않았으며, 브라우저 QA는 갤러리 사용성만 확인했습니다. 아래 9월 컬렉션도 역사 자료이며 대안 품질 기준으로 추천하지 않습니다.
 
 ## 9월 20일 생활 브랜드 컬렉션
 
-가상 브랜드 10개의 로고를 흰색 배경으로 새로 만들었습니다. [README에서 모든 샘플을 바로 보시거나](../../README.ko.md#샘플), 아래 링크로 개별 PNG를 열어 보세요.
+2026년 9월 20일에 흰색 배경으로 생성한 가상 브랜드 로고 10개입니다. 0.9.0·0.10.0 소스 업데이트 이전의 역사 자료입니다. [당시 전체 파일 목록](../showcase/2026-09-20-lifestyle/README.ko.md)이나 아래 링크로 원본 PNG를 열어 보세요.
 
-| 브랜드 | 현재 이미지 |
+| 브랜드 | 9월 20일 원본 |
 |---|---|
 | LUMA | [01-luma.png](../showcase/2026-09-20-lifestyle/images/01-luma.png) |
 | LOOP LAB | [02-loop-lab.png](../showcase/2026-09-20-lifestyle/images/02-loop-lab.png) |
@@ -23,7 +25,7 @@
 
 앱 아이콘 아트워크 12개는 [전체 파일 목록](../showcase/2026-09-20-lifestyle/README.ko.md)에 함께 있습니다. 파일별 정보는 [매니페스트](../showcase/2026-09-20-lifestyle/manifest.json)를 확인해 주세요. [이전 컬러 쇼케이스](../showcase/2026-09/README.ko.md)는 별도로 보관했습니다.
 
-OFFCUT의 두 레터링 방향도 [현재 컬렉션](../showcase/2026-09-20-lifestyle/README.ko.md)에 포함했습니다. [이전 흰 배경 원본](../showcase/2026-09-white/README.ko.md)은 별도로 보관했습니다.
+OFFCUT의 두 레터링 방향도 [9월 20일 컬렉션](../showcase/2026-09-20-lifestyle/README.ko.md)에 포함했습니다. [이전 흰 배경 원본](../showcase/2026-09-white/README.ko.md)은 별도로 보관했습니다.
 
 ## 레터링을 요청해 보세요
 
@@ -37,7 +39,7 @@ OFFCUT의 두 레터링 방향도 [현재 컬렉션](../showcase/2026-09-20-life
 
 ## 이전 컬렉션 — 보관 자료
 
-앞선 컬렉션의 예제 10개를 보존했습니다. 개별 설명에는 당시 원본 이미지, 요청과 제공 파일이 남아 있으며, 새 쇼케이스 PNG의 제작 기록과는 다릅니다.
+앞선 컬렉션의 예제 10개를 보존했습니다. 개별 설명에는 당시 원본 이미지, 요청과 제공 파일이 남아 있으며, 9월 20일·10월 1일 쇼케이스 PNG의 제작 기록과는 다릅니다.
 
 | 이전 샘플 | 당시 유형 |
 |---|---|

@@ -1,0 +1,12 @@
+{
+  "provider": "native image_gen.imagegen",
+  "reportedModel": null,
+  "requestNumber": 1,
+  "mode": "generation",
+  "returnedFilename": "exec-eb2af136-d45a-48d3-a22e-2c5d0abae525.png",
+  "image": "images/01.png",
+  "sha256": "cffb806ca19d4b00a83073eed85d84dcd0cbcd1fa6dff4a3545ac22af905bebc",
+  "prompt": "prompts/01.txt",
+  "promptSha256": "a4f4d8e87b8c541197d0c984a451a1d9fb89b18d6fb456dddaaa1e591968f711",
+  "processing": "unchanged original copy"
+}

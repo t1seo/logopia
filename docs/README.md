@@ -10,24 +10,25 @@ Start with what your brand should mean, choose a fitting shape, then refine the 
 |---|---|
 | Direct and review a logo with Hermes | [Hermes workflow and setup](hermes.md) |
 | Try your first logo with Codex | [Quickstart and example requests](../README.md#installation) |
-| See the24 new samples | [Everyday identities board](showcase/2026-09-20-lifestyle/board.png) · [September 2026 gallery](gallery.md#showcase) |
+| Inspect rejected October experiments | [Originals and requests](showcase/2026-10-01-use-cases/README.md) · [Visual gallery](gallery.md#showcase) |
 | Use the skill in other projects | [Full installation guide](installation.md) |
-| Download an example | [Current showcase PNG inventory](showcase/2026-09-20-lifestyle/README.md) |
+| Download experiment records | [October 1 original PNGs](showcase/2026-10-01-use-cases/README.md) |
 
 ## Samples
 
+- [October 1 experiments — design quality rejected](showcase/2026-10-01-use-cases/README.md): the user rejected all six results as lacking meaningful improvement and production quality. Original PNGs, requests and revisions remain available. Output-quality improvement remains unproven; browser QA covered usability only. [Offline HTML](showcase/2026-10-01-use-cases/index.html).
 - [October 1 brand-quality comparison](qa/brand-output-quality-2026-10-01/README.md): all six before/after originals for the unreleased 0.9.0 workflow, with exact prompts, measurements and remaining limitations.
-- [September 20 refresh:24 new samples](showcase/2026-09-20-lifestyle/README.md): original PNGs, exact prompts and size/context diagnostics for everyday brands and apps.
+- [September 20 archive: 24 samples](showcase/2026-09-20-lifestyle/README.md): historical original PNGs, exact prompts and size/context diagnostics for everyday brands and apps.
 - [September 19 icon craft comparison](research/icon-craft-2026/README.md): six native originals and preserved baseline prompts. The user subsequently rejected Candidate2/5; this experiment is not evidence of improved preference.
 - [Historical OFFCUT Hermes example](hermes-demo/README.md): three initial originals, two exact-parent edits and the delivered e2 ZIP. The first edit's failed preservation check remains visible. Download the folder and open its HTML page locally for the offline comparison.
-- [September 2026 gallery](gallery.md): ten brand logos, twelve app icon artworks (six white and six colored backgrounds), and two OFFCUT directions, with all 24 originals linked.
-- [Brand samples](samples/README.md): the refreshed LUMA, LOOP LAB, 고요, BREAD & BLOOM, KITE, MISO, NORTHLINE / NL, 물결, FERN and NOVA NOTES set, with links to earlier examples.
+- [September 2026 gallery](gallery.md#september-20-2026): ten historical brand logos, twelve app icon artworks (six white and six colored backgrounds), and two OFFCUT directions, with all 24 originals linked.
+- [Brand sample archive](samples/README.md): the September LUMA, LOOP LAB, 고요, BREAD & BLOOM, KITE, MISO, NORTHLINE / NL, 물결, FERN and NOVA NOTES set, with links to earlier examples.
 - [Logopia identity](brand/README.md): colorful lowercase game-title lettering on white, plus earlier designs.
 - [Earlier app icon studies](app-icons/README.md): six IP candidates and five original/revised pairs from the previous collection.
 - [Earlier color and typography cases](colors/README.md): eight cases across seven projects, with their recorded outcomes.
 - [Transparent PNG example](samples/transparency.md): the earlier GROVE example and background guidance.
 
-Every [sample in the README](../README.md#samples) opens its original PNG directly. The [earlier colored showcase](showcase/2026-09/README.md) remains a separate archive.
+The [rejected experiments in the README](../README.md#samples) are collapsed by default and retain links to original PNGs. The [earlier colored showcase](showcase/2026-09/README.md) remains historical material, not an endorsed quality benchmark.
 
 ## Guides
 

@@ -1,0 +1,21 @@
+{
+  "provider": "native image_gen.imagegen",
+  "reportedModel": null,
+  "requestNumber": 2,
+  "mode": "generation",
+  "returnedFilename": "exec-d1056454-9b1e-4e67-ae13-0983033ee28f.png",
+  "image": "images/02.png",
+  "sha256": "1c507fca3dd1f6f24a7f4260a0ad1b4a4152e76582ea0d4cc530b987e705badb",
+  "prompt": "prompts/02.txt",
+  "promptSha256": "97da1de12beeb7079b566180acba0d4cd8c0b4edb1a837f9034a47df735229b9",
+  "processing": "unchanged original copy",
+  "dimensions": {
+    "format": "PNG",
+    "width": 1942,
+    "height": 809,
+    "alpha_min": 255,
+    "alpha_max": 255,
+    "transparent_pixels": 0,
+    "visible_pixels": 1571078
+  }
+}

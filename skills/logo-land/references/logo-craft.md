@@ -3,17 +3,25 @@
 Use this guidance to develop or refine a logo, including expressive lettering and
 app icon artwork. Quality means a design fits its purpose and its visible details
 support that purpose. It is not synonymous with minimalism, a fixed color count, a
-particular font or a numerical aesthetic score. The [primary-source research](../../../docs/research/logo-craft.md)
-explains the observations behind this workflow; the decisions below are Logopia's
-practical synthesis, not a certification of generated results.
+particular font or a numerical aesthetic score. Read
+[logo-foundations.md](logo-foundations.md) for the source-backed distinction between
+identification, brand fit, form and production readiness. The decisions below are
+Logopia's practical synthesis, not a certification of generated results.
 
 ## Make the idea specific
 
-Use the brief already available. In `concept`, connect **what matters to the audience
-→ a visual idea → a deliberate shape or lettering choice → the feature that must survive at
-the intended size**. Reuse `use_cases`, `assumptions` and any saved
-[brand strategy](brand-strategy.md); do not force a questionnaire. A bakery need not have wheat, a finance product need not have
-an arrow, and a creation tool need not have a sparkle.
+Use the brief already available. Research the actual brand, product and current
+assets when available; distinguish documented facts from assumptions. Preserve
+settled decisions before exploring. If typography is fixed and only a symbol is
+requested, keep `exact_text` empty and do not generate a wordmark.
+
+In `concept`, state the **identifying visual idea, its useful relationship to the
+brand context, and the feature that must survive at the intended size**. Reuse
+`use_cases`, `assumptions` and any saved [brand strategy](brand-strategy.md); do not
+force a questionnaire or require the shape to explain the business. A bakery need
+not have wheat, a finance product need not have an arrow, and a creation tool need
+not have a sparkle. Do not translate each brand adjective into an arbitrary cut,
+fused initial or literal icon.
 
 For example, a reading service whose users want an approachable place to keep personal
 notes might use a quietly rounded wordmark with roomy counters and a dark, readable
@@ -21,12 +29,15 @@ text color. Describe the actual letter proportions and spacing that deliver that
 intention. It does not need a book, a quotation mark fused into an initial, or a hidden
 symbol. This is a proposed direction, not a tested brand claim.
 
-When multiple concepts are requested, vary the underlying idea or construction:
+When exploring multiple concepts, vary the underlying idea or construction:
 letter rhythm versus a fitted joint versus an enclosing gesture, where those types
 fit the brief. For lettering-only requests, vary letter skeleton, proportions or
 counter treatment instead of adding symbols. Keep the requested count. A single
 specified direction can go directly to one image; IP retains its dedicated direction
-and candidate defaults in [ip-mascot.md](ip-mascot.md).
+and candidate defaults in [ip-mascot.md](ip-mascot.md). For delegated quality work,
+use the bounded [quality loop](quality-loop.md): spend calls on different hypotheses
+first, then refine only a direction whose actual form merits further work. Renaming
+three similar blobs does not make three different directions.
 
 ## Design the relationships
 
@@ -45,11 +56,14 @@ contrast ratio for logos. A multicolor title can use color as part of its identi
 still inspect whether important letter boundaries and counters remain distinguishable.
 Shading, outlines and pattern should have defined roles instead of competing equally.
 
-Review the helper's proposed prompt against this intent before the native call. Resolve
-generic guidance in favor of the actual brief: a color-dependent playful title is not
-silently flattened into a one-color corporate mark. Save the exact final prompt used,
-including any clarification. Keep a candidate's specification compact; repeated style
-adjectives, incompatible construction rules and a long list of motifs dilute it.
+Review the proposed prompt against this intent before the native call. Resolve
+generic guidance in favor of the actual brief: a color-dependent playful title is
+not silently flattened into a one-color corporate mark. Keep the creative direction
+compact; repeated style adjectives, incompatible construction rules and a long list
+of motifs dilute it. For the quality loop, resolve changes before `loop-request` and
+send its saved prompt verbatim. Outside that loop, save the exact final prompt used,
+including any clarification. A stored helper prompt is not evidence of the actual
+call if the host rewrites it.
 
 For an ordinary new brand logo with no supplied surface, transparency, background role
 or expressive treatment that requires otherwise, choose a flat master on white when
@@ -95,9 +109,18 @@ For outlined game titles and decorated backplates, use [game-title-logos.md](gam
 ## Inspect and refine
 
 Open the returned original and display it at the intended use size without rewriting
-its bytes. Record the displayed size in existing review `notes`. For icons, retain the
+its bytes. Record the displayed size, background and actual inspection method in
+review evidence. A prepared HTML page without a rendered inspection leaves the
+use-size check unknown. For icons, retain the
 32/48/64/128px diagnostic comparison in [app-icons.md](app-icons.md); for a wordmark, use its
 actual header width rather than requiring its full name to work at icon size.
+
+When an independent critic is available, give them the real candidate images, fixed
+brief and required use conditions first, without direction names, metaphors,
+generator rationale or a preferred winner. Have them record first-read form and
+visible failures before comparing the design intent. In a parent/child review,
+provide the exact pair and keep/change targets after that first observation. If the
+same agent performs both jobs, disclose self-review instead of calling it independent.
 
 - **Meaning and distinction:** describe the feature actually visible and how it
   relates to the concept. “The fitted joint remains visible at 96px” is an observation;
@@ -117,13 +140,30 @@ actual header width rather than requiring its full name to work at icon size.
   predeclared empty regions supplement full-image inspection; they do not prove that
   every background pixel is white or that a foreground segmentation exists.
 
-For a required failure, request a targeted native edit of the exact parent: name the
-defect, the desired change and the features to retain. “Open the first O counter and
-separate the R/I pair; keep the exact name, outline hierarchy, palette and baseline”
-is actionable. Save the child separately and compare the same regions at the same
-size. Preserve unresolved results and report the visible limitation. Do not reroll
-automatically for subjective preference; keep the existing retry limits for color
-failures. Selection, creative preference and verified export remain distinct.
+Choose an action from the actual failure:
+
+- **Refine** when the identifying idea works but a local relationship is weak. Name
+  one or two visible changes and what must remain. “Open the first O counter and
+  separate the R/I pair; keep the exact name, palette and baseline” is actionable.
+  Edit the exact parent and compare the same regions at the same size.
+- **Reframe** when the first-read form is generic, unsuitable or conceptually weak.
+  Change the structural idea or reference analysis. Polishing the same contour or
+  adding a persuasive story does not address that failure.
+- **Reject a child** when a target improved but a defining feature drifted. Keep the
+  parent; record improvement, preservation and regression separately.
+- **Ready for user review** only when the inspected requirements have evidence and
+  unresolved issues are compatible with presenting this stage. This is neither user
+  approval nor verified production export.
+- **Stop unresolved** when the budget ends, evidence cannot be obtained, or repeated
+  attempts cannot control the same defect. Keep the best supported parent, or none,
+  and name the next useful production method or research question.
+
+Delegated design judgment authorizes bounded subjective refinement. It does not
+require another taste questionnaire between iterations. Use [quality-loop.md](quality-loop.md)
+to retain the critique, parent and next action; every additional native call consumes
+its budget, including background or color corrections. Outside the loop, keep the
+existing retry limits for color failures. Selection, creative recommendation and
+verified export remain distinct.
 
 A one-color version or small-size alternate is a separate native-generated variant
 when needed, not a claim inferred from the color master. A deliverable contains only

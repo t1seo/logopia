@@ -1,0 +1,32 @@
+{
+  "status": "stopped",
+  "nativeCalls": 2,
+  "unusedCalls": 1,
+  "selectedArtifact": null,
+  "userAcceptance": "not_requested_or_granted_for_these_new_experiments",
+  "baselineUserAcceptance": "rejected_design_quality",
+  "outcome": "No meaningful overall quality improvement established; stopped without a selected production identity",
+  "display": {
+    "X": "../2026-10-01-use-cases/images/05-pebble.png",
+    "Y": "images/01.png",
+    "Z": "images/02.png"
+  },
+  "records": {
+    "contract": "contract.json",
+    "brief": "brief.json",
+    "loop": "loop-record.json",
+    "reviews": [
+      "reviews/01.json",
+      "reviews/02.json"
+    ],
+    "prompts": [
+      "prompts/01.txt",
+      "prompts/02.txt"
+    ],
+    "receipts": [
+      "receipt-01.json",
+      "receipt-02.json"
+    ]
+  },
+  "evidenceNote": "The exact loop record retains workspace-relative paths. Browser screenshots contain unrelated browser chrome and remain private under ignored output/. This public folder is a viewing and audit collection, not a resumable workspace bundle."
+}

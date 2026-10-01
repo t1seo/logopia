@@ -20,11 +20,58 @@
   <a href="README.md">English</a> · <a href="README.ko.md">한국어</a> · <a href="docs/hermes.md">Hermes</a> · <a href="#installation">Codex setup</a> · <a href="docs/gallery.md">Gallery</a> · <a href="docs/README.md">Docs</a>
 </p>
 
+<a id="samples"></a><a id="ten-real-samples"></a><a id="transparent-background-logos"></a><a id="use-cases"></a>
+
+<a id="six-ways-to-use-logopia"></a>
+
+## October experiments — design quality rejected
+
+**The user rejected all six results on design quality, finding no meaningful improvement and no production-ready result.** Output-quality improvement remains unproven. The originals, requests and revision history are preserved as experiment records.
+
+<details>
+<summary>Inspect the six rejected experiments (original PNGs)</summary>
+
+<table>
+  <tr>
+    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/01-mori.png"><img src="docs/showcase/2026-10-01-use-cases/images/01-mori.png" width="400" alt="mori in rounded forest-green lowercase letters with a lime dot"></a><br><strong>mori</strong><br><sub>Latin wordmark · Plant subscription</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/02-sai.png"><img src="docs/showcase/2026-10-01-use-cases/images/02-sai.png" width="400" alt="사이 in rounded cobalt and coral Hangul on white"></a><br><strong>사이</strong><br><sub>Hangul wordmark · Reading club</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/03-al.png"><img src="docs/showcase/2026-10-01-use-cases/images/03-al.png" width="400" alt="Indigo serif A and L sharing one structure on lilac"></a><br><strong>AL</strong><br><sub>Integrated monogram · Architecture studio</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/04-tandem.png"><img src="docs/showcase/2026-10-01-use-cases/images/04-tandem.png" width="400" alt="Two teal and cobalt curved forms around open white space, without text"></a><br><strong>Tandem</strong><br><sub>Abstract symbol · Shared planning</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/05-pebble.png"><img src="docs/showcase/2026-10-01-use-cases/images/05-pebble.png" width="400" alt="Terracotta pebble with a white path beside the lowercase plum word pebble"></a><br><strong>pebble</strong><br><sub>Symbol + wordmark · Walking journal</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/06-pip.png"><img src="docs/showcase/2026-10-01-use-cases/images/06-pip.png" width="400" alt="Orange bird with a plum eye and beak in the lower-right of a lilac square"></a><br><strong>Pip</strong><br><sub>Character app icon · Daily voice notes</sub></td>
+  </tr>
+</table>
+
+</details>
+
+The short requests below remain examples of how to specify a task. Their resulting designs were not accepted. The [experiment record](docs/showcase/2026-10-01-use-cases/README.md) links the complete saved requests sent to the image tool.
+
+| Example | Request example |
+|---|---|
+| **mori** · Latin wordmark | Create a wordmark using the exact lowercase text mori for a plant subscription. Use forest green and lime; make the letters the design, with no separate icon. |
+| **사이** · Hangul wordmark | Create a Hangul wordmark for a reading club using only the exact text 사이. Use cobalt and coral, with clear, friendly letterforms. |
+| **AL** · Integrated monogram | Create one integrated AL monogram for an architecture studio in indigo. Keep both exact initials recognizable within a shared structure. |
+| **Tandem** · Abstract symbol | Create a symbol for a shared planning service using teal and cobalt. Express coordination through one compact mark, with no lettering. |
+| **pebble** · Symbol + wordmark | Create a symbol and wordmark for a walking journal using the exact lowercase text pebble. Pair terracotta with deep plum and keep the lockup simple. |
+| **Pip** · Character app icon | Create one app icon for a voice-note companion with one friendly flat orange bird on a lilac background. Use a bold, simple silhouette and no text. |
+
+[Rejected experiments, requests and limitations](docs/showcase/2026-10-01-use-cases/README.md) · [Offline HTML gallery](docs/showcase/2026-10-01-use-cases/index.html) · [Full gallery](docs/gallery.md#showcase)
+
+[Focused comparison after rejection](docs/showcase/2026-10-01-pebble-study/README.md) · [Offline comparison](docs/showcase/2026-10-01-pebble-study/index.html) — stopped without demonstrated overall design improvement; no candidate was adopted.
+
+Browser QA checked gallery usability only; it did not establish design quality or user acceptance. All brands are fictional experiment subjects. September material remains a historical archive, not a newly endorsed quality benchmark.
+
 <a id="hermes-workflow"></a>
 
-The **0.9.0 source update is unreleased**. It carries a proposed brand strategy into generation, assigns colors and typography to concrete roles, and defaults ordinary brand artwork to a clean white canvas when the supplied intent permits it. Explicit colors, backgrounds and expressive styles still take precedence. [Research and design decisions](docs/research/brand-output-quality-2026-10-01.md) · [All six before/after originals and limitations](docs/qa/brand-output-quality-2026-10-01/README.md).
+The **0.10.0 source update is unreleased**. Delegated logo development now follows a bounded loop: research the brand, propose distinct ideas, generate the exact saved native request, critique the actual original, then refine, reframe or reject it. A working persona draws on professional identity-design practice; it defines responsibilities and handoffs rather than promising a famous designer's taste. Settled typography and other fixed assets stay in scope as constraints. [Design foundations](skills/logo-land/references/logo-foundations.md) · [Loop and commands](skills/logo-land/references/quality-loop.md) · [Earlier output failure audit](docs/research/logo-quality-failure-audit-2026-10-01.md).
 
-Reference input, asset-specific PNG checks and blind comparison remain available. [Earlier icon experiment](docs/research/icon-craft-2026/README.md). Default generation counts are unchanged; Hermes 3×3 exploration is opt-in. The samples below were generated on September 20 and are not examples of the 0.9.0 update.
+Quick exploration preserves an explicitly requested candidate count. Delegated quality mode defaults to **six native calls, with a maximum of twelve**; edits, failures and unknown outcomes use that same budget. It can finish with no suitable candidate. The helper records requests and evidence while the host makes the real image calls; it does not judge beauty or guarantee a good logo. Hermes 3×3 exploration remains opt-in, and its adapter does not automatically execute this new loop.
+
+The earlier 0.9.0 work carries brand strategy, effective color roles and typography into generation while preserving explicit styling. [Research and design decisions](docs/research/brand-output-quality-2026-10-01.md) · [All six before/after originals and limitations](docs/qa/brand-output-quality-2026-10-01/README.md). Reference input, asset-specific PNG checks and blind comparison remain available. [Earlier icon experiment](docs/research/icon-craft-2026/README.md). September samples are preserved as historical material, not as outputs of the 0.9.0 or 0.10.0 updates.
 
 ## A guided workflow in Hermes
 
@@ -32,78 +79,9 @@ Reference input, asset-specific PNG checks and blind comparison remain available
 
 Hermes checks each original in two separate image reviews, including the intended display size. Compare candidates on one offline page, send back what to keep and change, and preserve every parent version. [Start with Hermes](docs/hermes.md).
 
-**New samples: two directions for stationery brand OFFCUT.** Click either image to open its original PNG.
+<a id="twelve-app-icon-artworks"></a><a id="ten-brand-logos"></a>
 
-<table>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/00-offcut-editorial.png"><img src="docs/showcase/2026-09-20-lifestyle/images/00-offcut-editorial.png" width="400" alt="OFFCUT — Soft editorial lettering"></a><br><strong>Soft editorial lettering</strong></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/00-offcut-playful.png"><img src="docs/showcase/2026-09-20-lifestyle/images/00-offcut-playful.png" width="400" alt="OFFCUT — Playful color lettering"></a><br><strong>Playful color lettering</strong></td>
-  </tr>
-</table>
-
-These independent directions were generated through the Codex native image tool. The [historical Hermes refinement/review example](docs/hermes-demo/README.md) remains available with its original lineage.
-
-<a id="samples"></a><a id="ten-real-samples"></a><a id="transparent-background-logos"></a>
-
-## Twelve app icon artworks
-
-Twelve newly generated app icons across characters, Hangul lettering, tactile objects and pixel art: six with colored backgrounds and six on white. **Click any sample to open its original PNG.**
-
-<table>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/17-bun-club.png"><img src="docs/showcase/2026-09-20-lifestyle/images/17-bun-club.png" width="400" alt="Bun Club — tactile baked object"></a><br><strong>Bun Club</strong><br><sub>App icon · tactile baked object</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/18-jelly.png"><img src="docs/showcase/2026-09-20-lifestyle/images/18-jelly.png" width="400" alt="Jelly Journal — expressive asymmetric flat character"></a><br><strong>Jelly Journal</strong><br><sub>App icon · expressive asymmetric flat character</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/19-bam.png"><img src="docs/showcase/2026-09-20-lifestyle/images/19-bam.png" width="400" alt="밤 — compact warm Hangul lettering"></a><br><strong>밤</strong><br><sub>App icon · compact warm Hangul lettering</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/20-side-b.png"><img src="docs/showcase/2026-09-20-lifestyle/images/20-side-b.png" width="400" alt="Side B — tactile record sleeve"></a><br><strong>Side B</strong><br><sub>App icon · tactile record sleeve</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/21-plum.png"><img src="docs/showcase/2026-09-20-lifestyle/images/21-plum.png" width="400" alt="Plum — organic flat fruit emblem"></a><br><strong>Plum</strong><br><sub>App icon · organic flat fruit emblem</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/22-patch.png"><img src="docs/showcase/2026-09-20-lifestyle/images/22-patch.png" width="400" alt="Patch — modular paper-petal composition"></a><br><strong>Patch</strong><br><sub>App icon · modular paper-petal composition</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/11-reading-owl.png"><img src="docs/showcase/2026-09-20-lifestyle/images/11-reading-owl.png" width="400" alt="Reading Owl — IP character"></a><br><strong>Reading Owl</strong><br><sub>App icon · IP character</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/12-weather.png"><img src="docs/showcase/2026-09-20-lifestyle/images/12-weather.png" width="400" alt="Daybreak — soft weather pictogram"></a><br><strong>Daybreak</strong><br><sub>App icon · soft weather pictogram</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/13-flow.png"><img src="docs/showcase/2026-09-20-lifestyle/images/13-flow.png" width="400" alt="Flow — broad folded organic silhouette"></a><br><strong>Flow</strong><br><sub>App icon · broad folded organic silhouette</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/14-notes.png"><img src="docs/showcase/2026-09-20-lifestyle/images/14-notes.png" width="400" alt="틈 — soft Hangul monogram"></a><br><strong>틈</strong><br><sub>App icon · soft Hangul monogram</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/15-cloud.png"><img src="docs/showcase/2026-09-20-lifestyle/images/15-cloud.png" width="400" alt="Cloud Pocket — restrained matte dimensional object"></a><br><strong>Cloud Pocket</strong><br><sub>App icon · restrained matte dimensional object</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/16-sprout.png"><img src="docs/showcase/2026-09-20-lifestyle/images/16-sprout.png" width="400" alt="Sprout — coarse-grid cozy pixel art"></a><br><strong>Sprout</strong><br><sub>App icon · coarse-grid cozy pixel art</sub></td>
-  </tr>
-</table>
-
-## Ten brand logos
-
-New identities for stationery, tea, bakery, reading, pets and everyday life.
-
-<table>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/01-luma.png"><img src="docs/showcase/2026-09-20-lifestyle/images/01-luma.png" width="400" alt="LUMA — rounded multicolor custom lettering"></a><br><strong>LUMA</strong><br><sub>Brand logo · rounded multicolor custom lettering</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/02-loop-lab.png"><img src="docs/showcase/2026-09-20-lifestyle/images/02-loop-lab.png" width="400" alt="LOOP LAB · LL — interwoven soft calligraphic monogram"></a><br><strong>LOOP LAB · LL</strong><br><sub>Brand logo · interwoven soft calligraphic monogram</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/03-goyo.png"><img src="docs/showcase/2026-09-20-lifestyle/images/03-goyo.png" width="400" alt="고요 — quiet organic symbol and Korean lettering"></a><br><strong>고요</strong><br><sub>Brand logo · quiet organic symbol and Korean lettering</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/04-bread-bloom.png"><img src="docs/showcase/2026-09-20-lifestyle/images/04-bread-bloom.png" width="400" alt="BREAD &amp; BLOOM — soft scalloped bakery emblem"></a><br><strong>BREAD &amp; BLOOM</strong><br><sub>Brand logo · soft scalloped bakery emblem</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/05-kite.png"><img src="docs/showcase/2026-09-20-lifestyle/images/05-kite.png" width="400" alt="KITE — airy organic abstract mark"></a><br><strong>KITE</strong><br><sub>Brand logo · airy organic abstract mark</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/06-miso.png"><img src="docs/showcase/2026-09-20-lifestyle/images/06-miso.png" width="400" alt="MISO — friendly compact cat and soft wordmark"></a><br><strong>MISO</strong><br><sub>Brand logo · friendly compact cat and soft wordmark</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/07-northline.png"><img src="docs/showcase/2026-09-20-lifestyle/images/07-northline.png" width="400" alt="NORTHLINE · NL — soft editorial serif initials"></a><br><strong>NORTHLINE · NL</strong><br><sub>Brand logo · soft editorial serif initials</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/08-mulgyeol.png"><img src="docs/showcase/2026-09-20-lifestyle/images/08-mulgyeol.png" width="400" alt="물결 — flowing contemporary Hangul lettering"></a><br><strong>물결</strong><br><sub>Brand logo · flowing contemporary Hangul lettering</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/09-fern.png"><img src="docs/showcase/2026-09-20-lifestyle/images/09-fern.png" width="400" alt="FERN — unfurling organic botanical symbol"></a><br><strong>FERN</strong><br><sub>Brand logo · unfurling organic botanical symbol</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/10-nova-notes.png"><img src="docs/showcase/2026-09-20-lifestyle/images/10-nova-notes.png" width="400" alt="NOVA NOTES — editorial stationery combination mark"></a><br><strong>NOVA NOTES</strong><br><sub>Brand logo · editorial stationery combination mark</sub></td>
-  </tr>
-</table>
-
-[View as one board](docs/showcase/2026-09-20-lifestyle/board.png) · [Gallery](docs/gallery.md#showcase) · [All sample files](docs/showcase/2026-09-20-lifestyle/README.md)
+September 20's two OFFCUT directions, ten brand logos and twelve app icons now live in the [historical gallery](docs/gallery.md#september-20-2026) and [originals and prompts collection](docs/showcase/2026-09-20-lifestyle/README.md). The [historical Hermes refinement and review example](docs/hermes-demo/README.md) remains available with its original lineage.
 
 <a id="get-started"></a><a id="use-the-repository-directly"></a><a id="image-generation-and-the-file-helper"></a>
 
@@ -133,6 +111,10 @@ Latest release: **[0.8.0](https://github.com/t1seo/logopia/releases/tag/v0.8.0)*
 <a id="use-natural-language"></a>
 
 ## Try it
+
+**Delegate the design process.**
+
+> $logo-land Research our brand and develop a symbol through the critique and refinement loop. Our typography is already fixed, so generate no lettering. Preserve each original and show the strongest remaining candidates with their limitations.
 
 **Start with the letters.** A wordmark makes the brand name itself the logo. Describe the shape, rhythm and feeling you want; ask for the exact spelling you need.
 

@@ -20,11 +20,58 @@
   <a href="README.md">English</a> · <a href="README.ko.md">한국어</a> · <a href="docs/hermes.ko.md">Hermes</a> · <a href="#설치">Codex 설치</a> · <a href="docs/gallery.ko.md">갤러리</a> · <a href="docs/README.ko.md">문서</a>
 </p>
 
+<a id="샘플"></a><a id="샘플-10개"></a><a id="투명-배경-로고"></a><a id="use-cases"></a>
+
+<a id="여섯-가지-사용-예제"></a>
+
+## 10월 실험 — 디자인 품질 거절
+
+**사용자께서는 여섯 결과 모두 의미 있는 개선이 없고 실사용 수준에 미치지 못한다고 판단하여 디자인 품질을 거절하셨습니다.** 결과물의 품질 개선은 입증되지 않았습니다. 아래에는 원본·요청·수정 이력을 실험 기록으로 보존했습니다.
+
+<details>
+<summary>거절된 실험 여섯 개의 원본 PNG 보기</summary>
+
+<table>
+  <tr>
+    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/01-mori.png"><img src="docs/showcase/2026-10-01-use-cases/images/01-mori.png" width="400" alt="포레스트 그린의 둥근 소문자 mori와 라임색 점"></a><br><strong>mori</strong><br><sub>영문 워드마크 · 식물 구독 서비스</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/02-sai.png"><img src="docs/showcase/2026-10-01-use-cases/images/02-sai.png" width="400" alt="흰 배경 위 코발트와 코랄의 둥근 한글 사이"></a><br><strong>사이</strong><br><sub>한글 워드마크 · 독서 모임</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/03-al.png"><img src="docs/showcase/2026-10-01-use-cases/images/03-al.png" width="400" alt="라일락 배경 위 하나의 구조를 공유하는 인디고 세리프 A와 L"></a><br><strong>AL</strong><br><sub>결합형 모노그램 · 건축 스튜디오</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/04-tandem.png"><img src="docs/showcase/2026-10-01-use-cases/images/04-tandem.png" width="400" alt="열린 흰 공간을 둘러싼 틸과 코발트 곡선 두 개, 글자 없음"></a><br><strong>Tandem</strong><br><sub>추상 심볼 · 공동 일정 계획</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/05-pebble.png"><img src="docs/showcase/2026-10-01-use-cases/images/05-pebble.png" width="400" alt="흰 길이 있는 테라코타 조약돌 옆의 플럼색 소문자 pebble"></a><br><strong>pebble</strong><br><sub>심볼 + 워드마크 · 걷기 기록</sub></td>
+    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/06-pip.png"><img src="docs/showcase/2026-10-01-use-cases/images/06-pip.png" width="400" alt="라일락 정사각형 오른쪽 아래의 오렌지색 새와 플럼색 눈·부리"></a><br><strong>Pip</strong><br><sub>캐릭터 앱 아이콘 · 매일 음성 메모</sub></td>
+  </tr>
+</table>
+
+</details>
+
+아래 문장은 요청을 구체적으로 작성하는 예시로 남겼습니다. 해당 결과의 디자인 품질은 수용되지 않았으며, 실제 도구에 전달한 전체 요청은 [실험 기록](docs/showcase/2026-10-01-use-cases/README.md)에서 확인하실 수 있습니다.
+
+| 예제 | 요청 예시 |
+|---|---|
+| **mori** · 영문 워드마크 | 식물 구독 서비스 mori의 워드마크를 만들어 주세요. 정확한 글자는 mori이며, 포레스트 그린과 라임을 사용하고 별도 아이콘 없이 글자 자체를 디자인해 주세요. |
+| **사이** · 한글 워드마크 | 독서 모임의 한글 워드마크를 만들어 주세요. 정확한 글자 사이만 사용하고, 코발트와 코랄로 친근하면서 또렷하게 읽히는 글자를 표현해 주세요. |
+| **AL** · 결합형 모노그램 | 건축 스튜디오의 이니셜 AL을 하나로 결합한 모노그램을 인디고로 만들어 주세요. 구조를 공유하되 두 글자를 알아볼 수 있게 해 주세요. |
+| **Tandem** · 추상 심볼 | 공동 일정 계획 서비스의 심볼을 틸과 코발트로 만들어 주세요. 하나의 간결한 마크로 협업을 표현하고 글자는 넣지 말아 주세요. |
+| **pebble** · 심볼 + 워드마크 | 걷기 브랜드의 심볼과 워드마크를 만들어 주세요. 정확한 소문자 pebble을 사용하고, 테라코타와 딥 플럼으로 간결한 조합을 구성해 주세요. |
+| **Pip** · 캐릭터 앱 아이콘 | 음성 메모 앱을 위해 라일락 배경에 친근한 오렌지색 새 한 마리를 넣은 아이콘을 만들어 주세요. 굵고 단순한 평면 실루엣을 사용하고 글자는 넣지 말아 주세요. |
+
+[거절된 실험 원본·프롬프트·한계](docs/showcase/2026-10-01-use-cases/README.md) · [오프라인 HTML 갤러리](docs/showcase/2026-10-01-use-cases/index.html) · [전체 갤러리](docs/gallery.ko.md#showcase)
+
+[거절 이후 집중 비교 실험](docs/showcase/2026-10-01-pebble-study/README.md) · [오프라인 비교](docs/showcase/2026-10-01-pebble-study/index.html) — 유의미한 전체 품질 개선을 확인하지 못해 중단했으며, 채택한 안은 없습니다.
+
+브라우저 QA는 갤러리 사용성만 확인했으며, 디자인 품질이나 사용자 수용을 입증하지 않습니다. 모든 브랜드는 가상의 실험 대상입니다. 9월 자료도 역사 기록으로 보존하며 검증된 품질 기준으로 다시 소개하지 않습니다.
+
 <a id="hermes-workflow"></a>
 
-**현재 소스는 아직 발행하지 않은 0.9.0 업데이트입니다.** 제안한 브랜드 전략을 생성 프롬프트에 전달하고, 색상과 타이포그래피의 역할을 구체화했습니다. 일반 브랜드 원본은 사용자 의도와 양립할 때 깨끗한 흰 배경을 기본으로 사용합니다. 명시한 색상·배경·표현 스타일은 계속 우선합니다. [조사와 설계 근거](docs/research/brand-output-quality-2026-10-01.md) · [변경 전후 원본 6장과 남은 한계](docs/qa/brand-output-quality-2026-10-01/README.md).
+**현재 소스는 아직 발행하지 않은 0.10.0 업데이트입니다.** 디자인 판단을 맡기시면 브랜드 조사 → 서로 다른 아이디어 → 저장한 정확한 프롬프트로 원본 생성 → 실제 이미지 비평 → 수정·재설계·탈락의 과정을 제한된 횟수 안에서 진행합니다. 전문 아이덴티티 디자이너의 작업 방식을 조사해 페르소나의 역할과 인계 기준에 반영했습니다. 이미 확정한 타이포그래피와 자산은 제약으로 보존합니다. [로고 디자인의 기본](skills/logo-land/references/logo-foundations.md) · [반복 과정과 명령어](skills/logo-land/references/quality-loop.md) · [이전 결과의 실패 분석](docs/research/logo-quality-failure-audit-2026-10-01.md).
 
-Reference 입력, Asset별 PNG 검사와 블라인드 비교는 그대로 지원합니다. [이전 아이콘 실험](docs/research/icon-craft-2026/README.md). 기본 생성 횟수는 유지하며 Hermes의 3×3 탐색은 선택 사항입니다. 아래 샘플은 9월 20일에 생성했으며 0.9.0의 결과물이 아닙니다.
+빠른 탐색에서는 요청하신 후보 수를 유지합니다. 품질 개선을 맡기는 모드는 **네이티브 호출 기본 6회, 최대 12회**이며, 수정·실패·결과 확인 불가도 같은 예산에 포함됩니다. 적합한 후보가 없다는 결론으로 종료할 수도 있습니다. 헬퍼는 요청과 근거를 기록하고 실제 이미지 호출은 호스트가 수행합니다. 코드가 미적 완성도를 판정하거나 좋은 로고를 보장하지는 않습니다. Hermes의 3×3 탐색은 계속 선택 사항이며, 해당 어댑터가 새 루프를 자동 실행하는 것은 아닙니다.
+
+이전 0.9.0 작업은 브랜드 전략, 유효한 색상 역할과 타이포그래피를 생성에 전달하며 명시한 표현 스타일을 보존합니다. [조사와 설계 근거](docs/research/brand-output-quality-2026-10-01.md) · [변경 전후 원본 6장과 남은 한계](docs/qa/brand-output-quality-2026-10-01/README.md). Reference 입력, Asset별 PNG 검사와 블라인드 비교도 그대로 지원합니다. [이전 아이콘 실험](docs/research/icon-craft-2026/README.md). 9월 샘플은 과거 자료로 보존하며 0.9.0 또는 0.10.0의 결과물로 소개하지 않습니다.
 
 ## Hermes로 단계별 로고 만들기
 
@@ -32,78 +79,9 @@ Reference 입력, Asset별 PNG 검사와 블라인드 비교는 그대로 지원
 
 Hermes가 원본과 실제 사용할 크기를 두 번의 별도 이미지 검토로 확인합니다. 하나의 오프라인 화면에서 후보를 비교하고, 유지할 점과 바꿀 점을 보내 수정하실 수 있습니다. 이전 원본도 모두 남습니다. [Hermes로 시작하기](docs/hermes.ko.md).
 
-**새 샘플: 문구 브랜드 OFFCUT의 두 가지 방향.** 이미지를 누르면 원본 PNG가 열립니다.
+<a id="앱-아이콘-12개"></a><a id="브랜드-로고-10개"></a>
 
-<table>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/00-offcut-editorial.png"><img src="docs/showcase/2026-09-20-lifestyle/images/00-offcut-editorial.png" width="400" alt="OFFCUT — 부드러운 세리프 레터링"></a><br><strong>부드러운 세리프 레터링</strong></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/00-offcut-playful.png"><img src="docs/showcase/2026-09-20-lifestyle/images/00-offcut-playful.png" width="400" alt="OFFCUT — 경쾌한 컬러 레터링"></a><br><strong>경쾌한 컬러 레터링</strong></td>
-  </tr>
-</table>
-
-Codex 네이티브 이미지 도구로 각각 새로 생성한 독립 방향입니다. [과거 Hermes의 수정·검토 사례](docs/hermes-demo/README.ko.md)는 이력과 함께 별도로 보관했습니다.
-
-<a id="샘플"></a><a id="샘플-10개"></a><a id="투명-배경-로고"></a>
-
-## 앱 아이콘 12개
-
-캐릭터, 한글 레터링, 입체 오브젝트, 픽셀 아트 등 12개의 새 앱 아이콘입니다. 색 배경 6개와 흰 배경 6개를 포함합니다. **이미지를 누르면 원본 PNG가 열립니다.**
-
-<table>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/17-bun-club.png"><img src="docs/showcase/2026-09-20-lifestyle/images/17-bun-club.png" width="400" alt="Bun Club — tactile baked object"></a><br><strong>Bun Club</strong><br><sub>앱 아이콘 · tactile baked object</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/18-jelly.png"><img src="docs/showcase/2026-09-20-lifestyle/images/18-jelly.png" width="400" alt="Jelly Journal — expressive asymmetric flat character"></a><br><strong>Jelly Journal</strong><br><sub>앱 아이콘 · expressive asymmetric flat character</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/19-bam.png"><img src="docs/showcase/2026-09-20-lifestyle/images/19-bam.png" width="400" alt="밤 — compact warm Hangul lettering"></a><br><strong>밤</strong><br><sub>앱 아이콘 · compact warm Hangul lettering</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/20-side-b.png"><img src="docs/showcase/2026-09-20-lifestyle/images/20-side-b.png" width="400" alt="Side B — tactile record sleeve"></a><br><strong>Side B</strong><br><sub>앱 아이콘 · tactile record sleeve</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/21-plum.png"><img src="docs/showcase/2026-09-20-lifestyle/images/21-plum.png" width="400" alt="Plum — organic flat fruit emblem"></a><br><strong>Plum</strong><br><sub>앱 아이콘 · organic flat fruit emblem</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/22-patch.png"><img src="docs/showcase/2026-09-20-lifestyle/images/22-patch.png" width="400" alt="Patch — modular paper-petal composition"></a><br><strong>Patch</strong><br><sub>앱 아이콘 · modular paper-petal composition</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/11-reading-owl.png"><img src="docs/showcase/2026-09-20-lifestyle/images/11-reading-owl.png" width="400" alt="Reading Owl — IP character"></a><br><strong>Reading Owl</strong><br><sub>앱 아이콘 · IP character</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/12-weather.png"><img src="docs/showcase/2026-09-20-lifestyle/images/12-weather.png" width="400" alt="Daybreak — soft weather pictogram"></a><br><strong>Daybreak</strong><br><sub>앱 아이콘 · soft weather pictogram</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/13-flow.png"><img src="docs/showcase/2026-09-20-lifestyle/images/13-flow.png" width="400" alt="Flow — broad folded organic silhouette"></a><br><strong>Flow</strong><br><sub>앱 아이콘 · broad folded organic silhouette</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/14-notes.png"><img src="docs/showcase/2026-09-20-lifestyle/images/14-notes.png" width="400" alt="틈 — soft Hangul monogram"></a><br><strong>틈</strong><br><sub>앱 아이콘 · soft Hangul monogram</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/15-cloud.png"><img src="docs/showcase/2026-09-20-lifestyle/images/15-cloud.png" width="400" alt="Cloud Pocket — restrained matte dimensional object"></a><br><strong>Cloud Pocket</strong><br><sub>앱 아이콘 · restrained matte dimensional object</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/16-sprout.png"><img src="docs/showcase/2026-09-20-lifestyle/images/16-sprout.png" width="400" alt="Sprout — coarse-grid cozy pixel art"></a><br><strong>Sprout</strong><br><sub>앱 아이콘 · coarse-grid cozy pixel art</sub></td>
-  </tr>
-</table>
-
-## 브랜드 로고 10개
-
-문구·차·베이커리·책·반려동물 등 생활 브랜드를 위한 새 로고입니다.
-
-<table>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/01-luma.png"><img src="docs/showcase/2026-09-20-lifestyle/images/01-luma.png" width="400" alt="LUMA — rounded multicolor custom lettering"></a><br><strong>LUMA</strong><br><sub>브랜드 로고 · rounded multicolor custom lettering</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/02-loop-lab.png"><img src="docs/showcase/2026-09-20-lifestyle/images/02-loop-lab.png" width="400" alt="LOOP LAB · LL — interwoven soft calligraphic monogram"></a><br><strong>LOOP LAB · LL</strong><br><sub>브랜드 로고 · interwoven soft calligraphic monogram</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/03-goyo.png"><img src="docs/showcase/2026-09-20-lifestyle/images/03-goyo.png" width="400" alt="고요 — quiet organic symbol and Korean lettering"></a><br><strong>고요</strong><br><sub>브랜드 로고 · quiet organic symbol and Korean lettering</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/04-bread-bloom.png"><img src="docs/showcase/2026-09-20-lifestyle/images/04-bread-bloom.png" width="400" alt="BREAD &amp; BLOOM — soft scalloped bakery emblem"></a><br><strong>BREAD &amp; BLOOM</strong><br><sub>브랜드 로고 · soft scalloped bakery emblem</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/05-kite.png"><img src="docs/showcase/2026-09-20-lifestyle/images/05-kite.png" width="400" alt="KITE — airy organic abstract mark"></a><br><strong>KITE</strong><br><sub>브랜드 로고 · airy organic abstract mark</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/06-miso.png"><img src="docs/showcase/2026-09-20-lifestyle/images/06-miso.png" width="400" alt="MISO — friendly compact cat and soft wordmark"></a><br><strong>MISO</strong><br><sub>브랜드 로고 · friendly compact cat and soft wordmark</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/07-northline.png"><img src="docs/showcase/2026-09-20-lifestyle/images/07-northline.png" width="400" alt="NORTHLINE · NL — soft editorial serif initials"></a><br><strong>NORTHLINE · NL</strong><br><sub>브랜드 로고 · soft editorial serif initials</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/08-mulgyeol.png"><img src="docs/showcase/2026-09-20-lifestyle/images/08-mulgyeol.png" width="400" alt="물결 — flowing contemporary Hangul lettering"></a><br><strong>물결</strong><br><sub>브랜드 로고 · flowing contemporary Hangul lettering</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/09-fern.png"><img src="docs/showcase/2026-09-20-lifestyle/images/09-fern.png" width="400" alt="FERN — unfurling organic botanical symbol"></a><br><strong>FERN</strong><br><sub>브랜드 로고 · unfurling organic botanical symbol</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-09-20-lifestyle/images/10-nova-notes.png"><img src="docs/showcase/2026-09-20-lifestyle/images/10-nova-notes.png" width="400" alt="NOVA NOTES — editorial stationery combination mark"></a><br><strong>NOVA NOTES</strong><br><sub>브랜드 로고 · editorial stationery combination mark</sub></td>
-  </tr>
-</table>
-
-[한 장으로 보기](docs/showcase/2026-09-20-lifestyle/board.png) · [갤러리](docs/gallery.ko.md#showcase) · [전체 파일 목록](docs/showcase/2026-09-20-lifestyle/README.ko.md)
+9월 20일의 OFFCUT 두 방향·브랜드 로고 10개·앱 아이콘 12개는 [역사 갤러리](docs/gallery.ko.md#september-20-2026)와 [전체 원본·프롬프트](docs/showcase/2026-09-20-lifestyle/README.ko.md)에서 보실 수 있습니다. [과거 Hermes 수정·검토 사례](docs/hermes-demo/README.ko.md)도 별도로 보존했습니다.
 
 <a id="시작하기"></a><a id="저장소에서-바로-사용"></a><a id="이미지-생성과-파일-보조-도구의-차이"></a>
 
@@ -133,6 +111,10 @@ codex
 <a id="대화로-사용하기"></a>
 
 ## 이렇게 요청해 보세요
+
+**디자인 과정부터 맡겨 보세요.**
+
+> $logo-land 우리 브랜드를 조사하고 비평과 수정 루프를 거쳐 심볼을 만들어 주세요. 타이포그래피는 이미 확정했으니 글자는 생성하지 말아 주세요. 원본을 모두 보존하고, 남은 후보 중 가장 나은 것과 한계를 함께 보여 주세요.
 
 **글자부터 시작해 보세요.** 워드마크는 브랜드 이름 자체를 로고로 만든 디자인입니다. 원하는 글자 모양과 리듬, 분위기를 설명하고 표기를 정확하게 적어 주세요.
 

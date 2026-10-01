@@ -1,0 +1,97 @@
+{
+  "source_version": "0.10.0 unreleased working tree",
+  "native_calls": 5,
+  "new_generations": 3,
+  "exact_parent_edits": 2,
+  "reserved_calls": 5,
+  "unused_budget": 1,
+  "loop_status": "stopped",
+  "loop_revision": 10,
+  "session_revision": 5,
+  "selected_id": null,
+  "exports": 0,
+  "checks": "Original native bytes, workspace originals, exact reserved prompt, submitted parent paths, and imported lineage match for all five images. No image pixels were changed by scripts.",
+  "visual_limit": "Original images inspected by separate-context critics. Official Codex Computer Use unavailable; target-size HTML and real application layouts not visually inspected. No production-ready approval.",
+  "artifacts": [
+    {
+      "step": 1,
+      "artifact_id": "gesture-v1",
+      "sha256": "57991174d92486113752ac24f6bab01b126378e5b70a5fc165cb52a5655c4957",
+      "prompt_sha256": "51b2e89498d4bea88ee6abecc9d859f90a8631b2188daab81dd5c2104721ac83",
+      "parent_id": null,
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      }
+    },
+    {
+      "step": 2,
+      "artifact_id": "gesture-v2",
+      "sha256": "c03c6c18b625f5e2dcc08a8df2e0db57cdadef0d9a042923dfd75759d7882a5e",
+      "prompt_sha256": "291a8a1c9fa033600321b5eeaa138c693cbdb6f71a35547e5d6ac38d2a3f2cc9",
+      "parent_id": "gesture-v1",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      }
+    },
+    {
+      "step": 3,
+      "artifact_id": "hare-v1",
+      "sha256": "1fd154b88ac17f6e0f8e33154ba81e541eabf6d79ca0fcbce1515db5217d12ff",
+      "prompt_sha256": "a75796f5758bb630b10497c4607c376397b4b05f9996d7c37238e760292d972a",
+      "parent_id": null,
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      }
+    },
+    {
+      "step": 4,
+      "artifact_id": "imprint-v1",
+      "sha256": "584534d05e7d9f0078e3c6516ec142ab8afae550b0617d75aa5fd8fecfd63a89",
+      "prompt_sha256": "9beb329a1afb6f12162330c8460b27c46a79f0817d9fc3b4495bc86788985202",
+      "parent_id": null,
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      }
+    },
+    {
+      "step": 5,
+      "artifact_id": "imprint-v2",
+      "sha256": "6f99da65a656f4236aca669a052f507d3727592441225cf6cbaaed13e21a7b76",
+      "prompt_sha256": "223f3c6776a4df86a347b0541e129052aae9dcc77af100d9591fd101ac091c4b",
+      "parent_id": "imprint-v1",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      }
+    }
+  ]
+}

@@ -2,13 +2,15 @@
 
 [English](README.md) · [한국어](README.ko.md) · [Docs](../README.md) · [Logopia](../../README.md)
 
-[**Open the current showcase board →**](../showcase/2026-09-20-lifestyle/board.png) · [Current gallery](../gallery.md#showcase) · [Full PNG inventory](../showcase/2026-09-20-lifestyle/README.md)
+[**October experiments — all six rejected on design quality →**](../showcase/2026-10-01-use-cases/README.md) · [Experiment gallery](../gallery.md#showcase) · [September 20 archive board](../showcase/2026-09-20-lifestyle/board.png)
+
+The user found no meaningful improvement or production-ready result in the six October experiments. Output-quality improvement remains unproven. Browser QA covered gallery usability only. The September collection below remains historical material, not an endorsed replacement benchmark.
 
 ## September 20 lifestyle collection
 
-Ten fictional brand identities, newly generated on white. [See every sample in the README](../../README.md#samples), or open an individual PNG below.
+Ten fictional brand identities generated on white on September 20, 2026. This historical collection predates the 0.9.0 and 0.10.0 source updates. [Open its full inventory](../showcase/2026-09-20-lifestyle/README.md), or open an individual PNG below.
 
-| Brand | Current image |
+| Brand | September 20 original |
 |---|---|
 | LUMA | [01-luma.png](../showcase/2026-09-20-lifestyle/images/01-luma.png) |
 | LOOP LAB | [02-loop-lab.png](../showcase/2026-09-20-lifestyle/images/02-loop-lab.png) |
@@ -35,7 +37,7 @@ Twelve app icon artworks are included in the [full inventory](../showcase/2026-0
 
 ## Earlier collection — archived
 
-These ten examples are preserved from the previous collection. Their detail pages retain the original image, request and available downloads; they do not document the new showcase PNGs.
+These ten examples are preserved from the previous collection. Their detail pages retain the original image, request and available downloads; they do not document the September 20 or October 1 showcase PNGs.
 
 | Earlier sample | Earlier form |
 |---|---|

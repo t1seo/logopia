@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pebble · X / Y / Z context study</title>
+  <style>
+    :root { color-scheme: light; --ink: #29242b; --muted: #746c75; --line: #ddd8dc; --paper: #f4f2f0; --accent: #a9533c; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--paper); font: 15px/1.6 "Avenir Next", "Apple SD Gothic Neo", sans-serif; }
+    main { max-width: 1600px; margin: auto; padding: 36px 32px 64px; }
+    a { color: inherit; text-underline-offset: 4px; }
+    a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
+    .intro { display: flex; gap: 32px; justify-content: space-between; align-items: end; border-bottom: 1px solid var(--line); padding-bottom: 24px; margin-bottom: 28px; }
+    .eyebrow { margin: 0 0 8px; letter-spacing: .12em; font-size: 11px; font-weight: 700; text-transform: uppercase; }
+    h1 { margin: 0; font: 400 38px/1.2 Georgia, serif; }
+    .intro p:last-child { max-width: 520px; margin: 0; color: var(--muted); }
+    .comparison { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+    .variant > header { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--ink); padding-bottom: 8px; margin-bottom: 20px; }
+    .variant h2 { margin: 0; font: 400 32px/1.2 Georgia, serif; }
+    .variant > header a { font-size: 12px; }
+    .context-label { display: flex; justify-content: space-between; margin: 18px 0 8px; font-size: 12px; color: var(--muted); }
+    .desktop-header { height: 128px; padding: 24px; display: flex; align-items: center; justify-content: space-between; gap: 14px; background: #fff; border: 1px solid var(--line); }
+    .desktop-nav { display: flex; gap: 12px; font-size: 11px; white-space: nowrap; }
+    .artwork { position: relative; display: block; flex: none; width: 240px; overflow: hidden; }
+    .artwork img { display: block; position: absolute; max-width: none; height: auto; }
+    .mobile-stage { padding: 20px 0 0; display: flex; justify-content: center; overflow-x: auto; }
+    .journal { flex: none; width: 360px; border: 1px solid var(--line); background: #fff; }
+    .journal-header { height: 128px; display: flex; align-items: center; justify-content: center; border-bottom: 1px solid #ece8eb; }
+    .journal-content { padding: 24px; }
+    .journal-date { font-size: 11px; letter-spacing: .08em; color: var(--muted); margin: 0 0 14px; }
+    .journal h3 { margin: 0 0 16px; font: 400 29px/1.2 Georgia, serif; }
+    .journal-note { margin: 0 0 24px; font-size: 14px; line-height: 1.7; }
+    .entry { border-top: 1px solid #ece8eb; padding: 16px 0; }
+    .entry p { margin: 0; }
+    .entry time { font-size: 11px; color: var(--muted); }
+    .entry-title { font-size: 15px; margin-top: 4px !important; }
+    .entry-desc { color: var(--muted); font-size: 12px; margin-top: 5px !important; }
+    .journal-footer { margin-top: 12px; border-top: 1px solid #ece8eb; padding-top: 18px; display: flex; justify-content: space-between; color: var(--muted); font-size: 11px; }
+    .journal-footer strong { color: var(--accent); font-weight: 600; }
+    details { border-top: 1px solid var(--line); margin-top: 24px; padding-top: 12px; }
+    summary { cursor: pointer; font-size: 13px; }
+    .original { width: 100%; height: auto; display: block; margin-top: 12px; }
+    .method { margin-top: 40px; border-top: 1px solid var(--line); padding-top: 20px; color: var(--muted); font-size: 12px; }
+    .method h2 { font-size: 14px; color: var(--ink); }
+    .method p { max-width: 90ch; }
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; text-align: left; }
+    th, td { border-bottom: 1px solid var(--line); padding: 8px 12px 8px 0; vertical-align: top; }
+    code { font: 11px/1.6 "SFMono-Regular", Consolas, monospace; }
+    .noscript { padding: 20px; background: #fff; }
+    @media (max-width: 1350px) { .comparison { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 900px) { .intro { display: block; } .intro p:last-child { margin-top: 16px; } .comparison { grid-template-columns: 1fr; max-width: 600px; margin: auto; } }
+    @media (max-width: 480px) { main { padding: 24px 16px 40px; } h1 { font-size: 32px; } .desktop-header { padding: 16px; } .desktop-nav { display: none; } .mobile-stage { justify-content: start; } }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="intro">
+      <div><p class="eyebrow">Pebble / context study / 01 October 2026</p><h1>Same size. Same place.</h1></div>
+      <p>X·Y·Z를 같은 화면과 크기에서 비교합니다. 세 안 모두 채택된 디자인이 아닙니다. 브라우저 사용성 검사는 디자인 승인이나 품질 판정을 뜻하지 않습니다.</p>
+    </div>
+    <div class="comparison" id="comparison"></div>
+    <noscript><p class="noscript">비교 화면을 구성하려면 JavaScript가 필요합니다. <a href="../2026-10-01-use-cases/images/05-pebble.png">X 원본</a> · <a href="images/01.png">Y 원본</a> · <a href="images/02.png">Z 원본</a>을 직접 열 수 있습니다.</p></noscript>
+    <section class="method" aria-labelledby="method-title">
+      <p><strong>검토 결과:</strong> Y는 이름에 집중되지만 익숙한 복고풍 글자, Z는 내부 공간은 나아졌으나 익숙한 손글씨와 큰 세로 비례가 남았습니다. 전체 품질 개선을 입증하지 못해 2회 생성 후 중단했고 채택한 안은 없습니다. <a href="README.md">실험·검토 기록 읽기</a></p>
+      <h2 id="method-title">표시 조건</h2>
+      <p>원본 PNG의 색·형태·픽셀은 수정하지 않았습니다. 각 이미지의 밝은 바깥 여백만 CSS <code>overflow: hidden</code>으로 숨기고, 전체 아트워크의 보이는 너비가 <strong>240 CSS px</strong>이 되도록 비례 축소합니다. X는 심볼과 글자를 포함한 전체 폭, Y와 Z는 글자 전체 폭입니다. 글자만의 높이나 너비를 같게 맞춘 비교는 아닙니다.</p>
+      <p>읽기 전용 픽셀 분석으로 R·G·B 중 하나라도 240 미만인 픽셀의 경계를 구했습니다. 좌표는 원본 왼쪽 위 기준이며 오른쪽·아래는 포함하지 않습니다. 안티앨리어싱의 매우 밝은 경계 때문에 1px 안팎의 차이는 있을 수 있습니다. 원본 전체 보기는 표에 적힌 크기의 파일을 바깥 여백까지 그대로 보여 줍니다.</p>
+      <div class="table-wrap"><table><thead><tr><th>안</th><th>원본 크기 (px)</th><th>원본 경계 (px)</th><th>상대 경계 (x, y, w, h)</th><th>축척</th><th>표시 영역</th></tr></thead><tbody id="measurements"></tbody></table></div>
+      <p>화이트 헤더는 같은 128px 높이를 사용하고 로고를 수직 중앙에 놓습니다. 모바일 저널은 테두리를 포함해 360 CSS px 너비이며, 세 안의 텍스트·간격·색은 동일합니다. 화면 확대율·기기 픽셀 비율은 CSS px과 스크린샷 픽셀 수의 관계에 영향을 줍니다.</p>
+    </section>
+  </main>
+  <template id="variant-template">
+    <section class="variant">
+      <header><h2></h2><a class="open-original">원본 PNG 열기 ↗</a></header>
+      <div class="context-label"><span>화이트 제품 헤더</span><span>아트워크 너비 240px</span></div>
+      <div class="desktop-header"><div class="artwork"></div><div class="desktop-nav" aria-label="화면 예시 내 메뉴"><span>My walks</span><span>Notes</span></div></div>
+      <div class="context-label"><span>모바일 저널</span><span>화면 너비 360px</span></div>
+      <div class="mobile-stage">
+        <div class="journal">
+          <div class="journal-header"><div class="artwork"></div></div>
+          <div class="journal-content">
+            <p class="journal-date">THURSDAY, OCTOBER 1</p>
+            <h3>A small way<br>to remember.</h3>
+            <p class="journal-note">A quiet street, the first cool breeze.<br>A few things worth bringing home.</p>
+            <div class="entry"><time>17:40 · SEONGSU</time><p class="entry-title">The street after the rain</p><p class="entry-desc">Wet leaves by the corner shop. Warm bread.</p></div>
+            <div class="entry"><time>YESTERDAY · RIVERSIDE</time><p class="entry-title">The long way home</p><p class="entry-desc">A heron standing still beside the path.</p></div>
+            <div class="journal-footer"><strong>Journal</strong><span>Places</span><span>New note +</span></div>
+          </div>
+        </div>
+      </div>
+      <details><summary>여백을 포함한 원본 전체 보기</summary><img class="original" alt=""></details>
+    </section>
+  </template>
+  <script>
+    const studies = [
+      { id: 'X', src: '../2026-10-01-use-cases/images/05-pebble.png', width: 1774, height: 887, bounds: [157, 268, 1617, 613] },
+      { id: 'Y', src: 'images/01.png', width: 1774, height: 887, bounds: [187, 226, 1587, 660] },
+      { id: 'Z', src: 'images/02.png', width: 1942, height: 809, bounds: [169, 115, 1788, 714] }
+    ];
+    const template = document.querySelector('#variant-template');
+    for (const study of studies) {
+      const [left, top, right, bottom] = study.bounds;
+      const artworkWidth = right - left;
+      const artworkHeight = bottom - top;
+      const scale = 240 / artworkWidth;
+      const view = template.content.cloneNode(true);
+      view.querySelector('h2').textContent = study.id;
+      const link = view.querySelector('.open-original');
+      link.href = study.src;
+      link.setAttribute('aria-label', `${study.id} 원본 PNG 열기`);
+      for (const frame of view.querySelectorAll('.artwork')) {
+        frame.style.height = `${artworkHeight * scale}px`;
+        const image = document.createElement('img');
+        image.src = study.src;
+        image.alt = `${study.id} pebble 아트워크, 보이는 너비 240px`;
+        image.style.width = `${study.width * scale}px`;
+        image.style.left = `${-left * scale}px`;
+        image.style.top = `${-top * scale}px`;
+        frame.append(image);
+      }
+      const original = view.querySelector('.original');
+      original.src = study.src;
+      original.width = study.width;
+      original.height = study.height;
+      original.alt = `${study.id} 원본 전체 이미지`;
+      document.querySelector('#comparison').append(view);
+      const row = document.createElement('tr');
+      const relative = [left / study.width, top / study.height, artworkWidth / study.width, artworkHeight / study.height].map(value => value.toFixed(6)).join(', ');
+      for (const text of [study.id, `${study.width} × ${study.height}`, `[${study.bounds.join(', ')}]`, relative, scale.toFixed(9), `240 × ${(artworkHeight * scale).toFixed(3)} CSS px`]) {
+        const cell = document.createElement('td');
+        cell.textContent = text;
+        row.append(cell);
+      }
+      document.querySelector('#measurements').append(row);
+    }
+  </script>
+</body>
+</html>

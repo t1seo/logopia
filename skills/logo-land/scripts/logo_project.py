@@ -43,6 +43,7 @@ from logo_helper.conditioning_models import ReferencePlan
 from logo_helper.models import ArtifactId, Brief, PaletteId, ProjectError, SessionId, VisualReview
 from logo_helper.preference_cli import register_preference_commands
 from logo_helper.prompts import build_prompt
+from logo_helper.quality_cli import register_quality_commands
 from logo_helper.storage import read_source
 
 APP: Final = typer.Typer(no_args_is_help=True, pretty_exceptions_enable=False)
@@ -52,6 +53,7 @@ register_app_icon_commands(APP)
 register_comparison_commands(APP)
 register_asset_commands(APP)
 register_preference_commands(APP)
+register_quality_commands(APP)
 
 
 @APP.callback()

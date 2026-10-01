@@ -1,0 +1,16 @@
+{
+  "provider": "image_gen.imagegen",
+  "model": null,
+  "generated_at": "2026-10-01T12:02:27.324949+00:00",
+  "returned_filename": "exec-07075e2a-f79e-43e2-89fe-a1664ca441f5.png",
+  "copied_without_image_edits": true,
+  "image": "images/03-al.png",
+  "sha256": "766fb0c619fbc211e6162d21e19ae867d604698fa32d0e8894f6bfb71abd9a1f",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt": "prompts/03-al.txt",
+  "prompt_sha256": "33a7f82c8a7106b3e05453d3e4cbef5407d01cdfaa5165c081c3f748224915e0"
+}

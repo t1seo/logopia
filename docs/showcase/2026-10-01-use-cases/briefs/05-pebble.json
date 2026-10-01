@@ -1,0 +1,30 @@
+{
+  "brand_name": "pebble",
+  "exact_text": "pebble",
+  "industry": "A fictional everyday walking journal",
+  "audience": "People who want a relaxed sustainable daily walking habit",
+  "logo_type": "combination",
+  "background": "opaque",
+  "concept_count": 1,
+  "palette": [
+    "Terracotta #C4654F for the symbol",
+    "Deep plum #392C40 for the wordmark",
+    "Pure white #FFFFFF exterior"
+  ],
+  "styles": [
+    "Flat deliberate shape and color relationships",
+    "No beige paper or cinematic presentation"
+  ],
+  "use_cases": [
+    "Symbol + wordmark"
+  ],
+  "forbidden": [
+    "Extra slogans",
+    "Watermarks",
+    "Mockup photographs"
+  ],
+  "assumptions": [
+    "Fictional brand made for a capability sample; not a customer project",
+    "Palette HEX values are design intentions, not measured output compliance"
+  ]
+}

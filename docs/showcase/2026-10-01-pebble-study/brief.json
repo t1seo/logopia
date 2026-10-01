@@ -1,0 +1,31 @@
+{
+  "brand_name": "pebble",
+  "exact_text": "pebble",
+  "industry": "A fictional everyday walking journal: remember ordinary streets, weather and small discoveries; no pace, race or performance dashboard.",
+  "audience": "Urban adults keeping personal memories of relaxed daily walks",
+  "logo_type": "wordmark",
+  "background": "opaque",
+  "concept_count": 1,
+  "palette": [
+    "Deep plum #392C40 lettering",
+    "Pure white #FFFFFF exterior; terracotta belongs to application accents outside this master"
+  ],
+  "styles": [
+    "Upright custom lettering with intentional counter shapes and optical spacing",
+    "Flat colored master artwork; no presentation effects"
+  ],
+  "use_cases": [
+    "A compact product header, 240px visible wordmark width on white",
+    "A 360px mobile journal page with the same wordmark on white"
+  ],
+  "forbidden": [
+    "Separate stone, path, mountain, pin or leaf symbol",
+    "Extra text, labels, slogans or graphic decorations",
+    "Beige paper, textures, shadows, lighting and mockups"
+  ],
+  "assumptions": [
+    "Fictional brand; this is a focused recovery experiment after the user rejected the first six samples",
+    "New lettering direction; no existing typeface is being replaced",
+    "Color values are intentions, not verified raster values"
+  ]
+}

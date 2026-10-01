@@ -1,0 +1,99 @@
+{
+  "request_number": 1,
+  "artifact_id": "notebook-v1",
+  "artifact_sha256": "cffb806ca19d4b00a83073eed85d84dcd0cbcd1fa6dff4a3545ac22af905bebc",
+  "reviewer": "Independent delegated critic pebble_critic; coordinator transcribed observations into schema after also opening the images. Critic saw neutral IDs before rationale.",
+  "evidence": [
+    {
+      "id": "original",
+      "path": ".logo-generator/sessions/pebble-study/artifacts/notebook-v1.png",
+      "sha256": "cffb806ca19d4b00a83073eed85d84dcd0cbcd1fa6dff4a3545ac22af905bebc",
+      "source_artifact_sha256": "cffb806ca19d4b00a83073eed85d84dcd0cbcd1fa6dff4a3545ac22af905bebc",
+      "kind": "original",
+      "description": "Unchanged native original inspected by independent critic and coordinator."
+    },
+    {
+      "id": "context",
+      "path": "qa/01-matched-contexts-evidence.png",
+      "sha256": "983fc7e7833c2e653f23d337b6dad9ad69be1330c37b98e53d05aadf62d41fdb",
+      "source_artifact_sha256": "cffb806ca19d4b00a83073eed85d84dcd0cbcd1fa6dff4a3545ac22af905bebc",
+      "kind": "context",
+      "description": "Official Codex Computer Use Chrome screenshot, original X and current Y; CSS foreground width240, mobile frame360. Native image bytes unchanged. Browser chrome retained locally; not a portable screenshot. Official capture was JPEG; this is a separate PNG codec conversion for the helper, no artwork editing. Original JPEG is retained."
+    }
+  ],
+  "assessments": [
+    {
+      "criterion": "appropriateness",
+      "status": "pass",
+      "observation": "The soft serif can fit a personal journal and does not strongly suggest racing or performance tracking.",
+      "evidence_ids": [
+        "original",
+        "context"
+      ]
+    },
+    {
+      "criterion": "distinctiveness",
+      "status": "revise",
+      "issue_id": "generic-retro-serif",
+      "observation": "The change from stone/path pictogram to a familiar retro lifestyle serif changes category cues without establishing an identifiable Pebble construction.",
+      "evidence_ids": [
+        "original",
+        "context"
+      ]
+    },
+    {
+      "criterion": "form",
+      "status": "revise",
+      "issue_id": "counter-density",
+      "observation": "Narrow p/b counters contrast with the open e; the interior-to-stroke balance is uneven.",
+      "evidence_ids": [
+        "original"
+      ]
+    },
+    {
+      "criterion": "optics",
+      "status": "revise",
+      "issue_id": "bbl-heavy-rhythm",
+      "observation": "The b-b-l vertical cluster looks heavier and more compressed than the p-e opening.",
+      "evidence_ids": [
+        "original",
+        "context"
+      ]
+    },
+    {
+      "criterion": "use_size",
+      "status": "revise",
+      "issue_id": "mobile-weight",
+      "observation": "Both images read as pebble at240 CSS px and counters remain open. Y is more dominant above the mobile journal text; stronger name presence does not make it calmer or solve its spacing and identity.",
+      "evidence_ids": [
+        "context"
+      ]
+    },
+    {
+      "criterion": "versatility",
+      "status": "pass",
+      "observation": "The original is visibly usable on the two stipulated white context surfaces; no other backgrounds, icon sizes, transparency or print uses were assessed.",
+      "evidence_ids": [
+        "context"
+      ]
+    },
+    {
+      "criterion": "scope",
+      "status": "pass",
+      "observation": "Exact lowercase name, wordmark only, plum on white, no extra symbol or wording.",
+      "evidence_ids": [
+        "original"
+      ]
+    }
+  ],
+  "decision": "reframe",
+  "reason": "The independent critic found clearer name focus but no meaningful overall improvement. Optical cleanup alone would leave the ordinary retro construction; test the distinct second hypothesis rather than polish this as a finished identity.",
+  "next_direction_id": "handwritten",
+  "unresolved": [
+    "No user acceptance",
+    "Distinctive form and optical balance remain unresolved",
+    "No editable vector or font master"
+  ],
+  "change_result": "initial",
+  "preservation_result": "not_observed"
+}

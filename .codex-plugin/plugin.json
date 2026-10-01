@@ -1,7 +1,7 @@
 {
   "name": "logo-land",
-  "version": "0.9.0",
-  "description": "Develop brand-fit logos, deliberate color palettes and readable lettering with native Codex images, then compare, refine and export saved originals.",
+  "version": "0.10.0",
+  "description": "Research brand context, develop native logo candidates and refine them through a bounded critique loop while preserving fixed assets and original files.",
   "author": {
     "name": "t1seo"
   },
@@ -10,12 +10,13 @@
   "interface": {
     "displayName": "Logopia",
     "shortDescription": "Brand direction, color and lettering for product logos.",
-    "longDescription": "Connect your product and audience to a concrete logo direction, purposeful color roles and readable Korean or Latin lettering. Create a symbol, wordmark or symbol-and-name lockup on a clean canvas, with expressive styles when requested. Compare original PNGs and refine the chosen design while retaining its history. Export reviewed artwork with color evidence. Results are raster images; actual font files, vectors and platform icon layers are separate deliverables.",
+    "longDescription": "Connect your product and audience to logo directions, purposeful color roles and readable lettering. Request a quick candidate set or delegate a bounded research, generation, critique and refinement loop. Preserve settled typography and other fixed assets, inspect actual originals and stop when no suitable direction remains. Export reviewed artwork with color evidence. Results are raster images; actual font files, vectors and platform icon layers are separate deliverables.",
     "developerName": "t1seo",
     "category": "Productivity",
     "capabilities": [],
     "defaultPrompt": [
       "$logo-land Create a logo for my product. Use its audience and purpose to choose the shape, color roles and lettering.",
+      "$logo-land Research my brand and develop a symbol through a bounded critique and refinement loop. Keep the existing typography fixed and generate no lettering.",
       "$logo-land Create a clean symbol-and-name logo for Folio, an everyday notebook brand. Keep the exact text Folio on a plain white background.",
       "$logo-land Create a calm, readable Korean wordmark for 모아, an adult reading app. Choose a coherent palette and use a plain white background.",
       "$logo-land Create six independent IP character candidates for my reading app, using three directions.",

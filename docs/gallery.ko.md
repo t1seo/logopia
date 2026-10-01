@@ -2,21 +2,71 @@
 
 [English](gallery.md) · [한국어](gallery.ko.md) · [문서](README.ko.md) · [Logopia](../README.ko.md)
 
-[현재 샘플](#showcase) · [Logopia 로고](#identity) · [이전 결과물](#historical-outputs)
+[10월 거절된 실험](#showcase) · [Logopia 로고](#identity) · [이전 결과물](#historical-outputs)
 
 <a id="showcase"></a>
 
-## 일상을 위한 아이덴티티 —9월 20일 새 샘플
+<a id="여섯-가지-사용-예제--2026년-10월-1일"></a>
 
-브랜드 로고 10개, 앱 아이콘 아트워크 12개와 OFFCUT 레터링 2개를 9월 20일 새로 만들었습니다. [README에서 앱·브랜드 샘플을 바로 보실 수 있으며](../README.ko.md#샘플), 각 이미지를 누르면 원본 PNG가 열립니다.
+## 10월 실험 — 디자인 품질 거절
+
+**2026년 10월 1일에 만든 여섯 결과 모두 사용자가 디자인 품질을 거절했습니다.** 의미 있는 개선이나 실사용 수준의 결과로 수용되지 않았으며, 결과물의 품질 개선은 입증되지 않았습니다. 원본·요청·수정 이력을 검토할 수 있도록 보존했습니다.
+
+<table>
+  <tr>
+    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/01-mori.png"><img src="showcase/2026-10-01-use-cases/images/01-mori.png" width="400" alt="포레스트 그린의 둥근 소문자 mori와 라임색 점"></a><br><strong>mori</strong><br><sub>영문 워드마크 · 식물 구독 서비스</sub></td>
+    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/02-sai.png"><img src="showcase/2026-10-01-use-cases/images/02-sai.png" width="400" alt="흰 배경 위 코발트와 코랄의 둥근 한글 사이"></a><br><strong>사이</strong><br><sub>한글 워드마크 · 독서 모임</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/03-al.png"><img src="showcase/2026-10-01-use-cases/images/03-al.png" width="400" alt="라일락 배경 위 하나의 구조를 공유하는 인디고 세리프 A와 L"></a><br><strong>AL</strong><br><sub>결합형 모노그램 · 건축 스튜디오</sub></td>
+    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/04-tandem.png"><img src="showcase/2026-10-01-use-cases/images/04-tandem.png" width="400" alt="열린 흰 공간을 둘러싼 틸과 코발트 곡선 두 개, 글자 없음"></a><br><strong>Tandem</strong><br><sub>추상 심볼 · 공동 일정 계획</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/05-pebble.png"><img src="showcase/2026-10-01-use-cases/images/05-pebble.png" width="400" alt="흰 길이 있는 테라코타 조약돌 옆의 플럼색 소문자 pebble"></a><br><strong>pebble</strong><br><sub>심볼 + 워드마크 · 걷기 기록</sub></td>
+    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/06-pip.png"><img src="showcase/2026-10-01-use-cases/images/06-pip.png" width="400" alt="라일락 정사각형 오른쪽 아래의 오렌지색 새와 플럼색 눈·부리"></a><br><strong>Pip</strong><br><sub>캐릭터 앱 아이콘 · 매일 음성 메모</sub></td>
+  </tr>
+</table>
+
+| 예제 | 사용 목적 | 실제 생성 프롬프트 |
+|---|---|---|
+| **mori** | 식물 구독 서비스의 영문 워드마크 | [프롬프트](showcase/2026-10-01-use-cases/prompts/01-mori.txt) |
+| **사이** | 독서 모임의 한글 워드마크 | [프롬프트](showcase/2026-10-01-use-cases/prompts/02-sai.txt) |
+| **AL** | 건축 스튜디오의 결합형 모노그램 | [프롬프트](showcase/2026-10-01-use-cases/prompts/03-al.txt) |
+| **Tandem** | 공동 일정 계획 서비스의 추상 심볼 | [프롬프트](showcase/2026-10-01-use-cases/prompts/04-tandem.txt) |
+| **pebble** | 걷기 기록 브랜드의 심볼과 워드마크 | [프롬프트](showcase/2026-10-01-use-cases/prompts/05-pebble.txt) |
+| **Pip** | 음성 메모용 새 캐릭터 앱 아이콘 | [프롬프트](showcase/2026-10-01-use-cases/prompts/06-pip.txt) |
+
+[요청·원본·한계](showcase/2026-10-01-use-cases/README.md) · [오프라인 HTML 갤러리](showcase/2026-10-01-use-cases/index.html)
+
+[거절 이후 집중 비교 실험](showcase/2026-10-01-pebble-study/README.md) · [오프라인 비교](showcase/2026-10-01-pebble-study/index.html) — 유의미한 전체 품질 개선을 확인하지 못해 중단했으며, 채택한 안은 없습니다.
+
+현재 소스는 미발행 0.10.0입니다. 브라우저 QA는 갤러리 사용성만 확인했으며 디자인 수용을 뜻하지 않습니다. 모든 브랜드는 가상이며 제휴나 상표 사용 가능성을 주장하지 않습니다. 결과는 래스터 PNG입니다.
+
+<a id="identity"></a><a id="current-logo-land-identity"></a>
+
+## Logopia 로고
+
+흰색 배경 위에 둥글고 다채로운 소문자 **logopia**를 담은 오리지널 게임 타이틀 레터링입니다. [원본 PNG](../assets/logopia-game-title.png) · [로고 설명과 다운로드](brand/README.ko.md)
+
+<a id="historical-outputs"></a>
+
+## 이전 결과물 — 보관 자료
+
+이전 이미지는 역사 기록이며, 이번 실험의 거절을 대신할 새로운 품질 기준이나 추천 결과로 격상하지 않았습니다.
+
+<a id="september-20-2026"></a><a id="일상을-위한-아이덴티티-9월-20일-새-샘플"></a>
+
+## 보관 자료: 일상을 위한 아이덴티티 — 2026년 9월 20일
+
+9월 20일에 생성한 브랜드 로고 10개, 앱 아이콘 아트워크 12개와 OFFCUT 레터링 2개입니다. 0.9.0·0.10.0 소스 업데이트 이전의 역사 자료로, 당시 원본과 프롬프트를 그대로 보존했습니다.
 
 <p align="center">
-  <a href="showcase/2026-09-20-lifestyle/board.png"><img src="showcase/2026-09-20-lifestyle/board.png" width="960" alt="생활 브랜드와 앱을 위해 새로 생성한 샘플 24개"></a>
+  <a href="showcase/2026-09-20-lifestyle/board.png"><img src="showcase/2026-09-20-lifestyle/board.png" width="960" alt="2026년 9월 20일에 생성한 생활 브랜드와 앱의 과거 샘플 24개"></a>
 </p>
 
 [보드 크게 보기](showcase/2026-09-20-lifestyle/board.png) · [전체 파일 목록](showcase/2026-09-20-lifestyle/README.ko.md) · [로컬 HTML 갤러리](showcase/2026-09-20-lifestyle/index.html)
 
-OFFCUT의 [세리프 레터링](showcase/2026-09-20-lifestyle/images/00-offcut-editorial.png)과 [컬러 레터링](showcase/2026-09-20-lifestyle/images/00-offcut-playful.png)은 별개의 새 방향입니다. [아이콘 크기·사용 맥락 진단](showcase/2026-09-20-lifestyle/diagnostics.html)도 확인하실 수 있습니다.
+OFFCUT의 [세리프 레터링](showcase/2026-09-20-lifestyle/images/00-offcut-editorial.png)과 [컬러 레터링](showcase/2026-09-20-lifestyle/images/00-offcut-playful.png)은 별개의 방향입니다. [아이콘 크기·사용 맥락 진단](showcase/2026-09-20-lifestyle/diagnostics.html)도 확인하실 수 있습니다.
 
 ### 브랜드 로고 10개
 
@@ -52,21 +102,11 @@ OFFCUT의 [세리프 레터링](showcase/2026-09-20-lifestyle/images/00-offcut-e
 
 래스터 PNG 예제입니다. 실제 크기와 파일 정보는 [매니페스트](showcase/2026-09-20-lifestyle/manifest.json)를 확인해 주세요. 편집 가능한 벡터·폰트 파일·플랫폼별 앱 아이콘 패키지는 별도 작업이 필요합니다.
 
-<a id="identity"></a><a id="current-logo-land-identity"></a>
-
-## Logopia 로고
-
-흰색 배경 위에 둥글고 다채로운 소문자 **logopia**를 담은 오리지널 게임 타이틀 레터링입니다. [원본 PNG](../assets/logopia-game-title.png) · [로고 설명과 다운로드](brand/README.ko.md)
-
-<a id="historical-outputs"></a>
-
-## 이전 결과물 — 보관 자료
-
 [이전 흰 배경 컬렉션](showcase/2026-09-white/README.ko.md) · [과거 Hermes OFFCUT 사례](hermes-demo/README.ko.md)
 
 [2026년 9월 컬러 쇼케이스](showcase/2026-09/README.ko.md) · [당시 PNG 목록](showcase/2026-09/manifest.json)
 
-아래 이미지는 앞선 컬렉션과 실험에서 만든 결과물입니다. 당시 원본, 프롬프트, 관찰과 패키지를 그대로 연결했습니다. 이 기록은 현재 생활 브랜드 컬렉션의 제작 출처나 검수 결과가 아닙니다.
+아래 이미지는 앞선 컬렉션과 실험에서 만든 결과물입니다. 당시 원본, 프롬프트, 관찰과 패키지를 그대로 연결했습니다. 이 기록은 10월 실험 기록의 제작 출처나 검수 결과가 아닙니다.
 
 [비교 실험](#new-samples) · [이전 브랜드 10개](#brands) · [이전 앱 아이콘 16개](#app-icons) · [색상 사례 8개](#colors) · [이전 로고](#historical-identity)
 

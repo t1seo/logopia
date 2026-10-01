@@ -1,0 +1,16 @@
+{
+  "provider": "image_gen.imagegen",
+  "model": null,
+  "generated_at": "2026-10-01T12:01:00.188788+00:00",
+  "returned_filename": "exec-279a6618-4528-4537-86b8-76b87c1fad13.png",
+  "copied_without_image_edits": true,
+  "image": "images/01-mori.png",
+  "sha256": "95e67c5412cc6dadf1f820e74a74ec72f9f285abb7bc5cb411741c418b28d347",
+  "dimensions": [
+    1774,
+    887
+  ],
+  "mode": "RGB",
+  "prompt": "prompts/01-mori.txt",
+  "prompt_sha256": "dc0aca3eb9840898796a77f84f9a06dc0a2eda2944b0b4058c8a2846228770e7"
+}

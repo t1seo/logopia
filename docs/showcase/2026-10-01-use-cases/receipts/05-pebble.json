@@ -1,0 +1,16 @@
+{
+  "provider": "image_gen.imagegen",
+  "model": null,
+  "generated_at": "2026-10-01T12:04:01.012841+00:00",
+  "returned_filename": "exec-16bdf6ed-d21c-4696-b26c-5b13e1c41fd2.png",
+  "copied_without_image_edits": true,
+  "image": "images/05-pebble.png",
+  "sha256": "97efe939bcd65ee6e528e05085e08c321de727c97e20d0917164ad3d9d0cb73e",
+  "dimensions": [
+    1774,
+    887
+  ],
+  "mode": "RGB",
+  "prompt": "prompts/05-pebble.txt",
+  "prompt_sha256": "22aebf61dfc6c34eaf27cdccd039de6f46e42def8a8a8a248f6ab598d5433401"
+}

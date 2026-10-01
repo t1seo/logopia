@@ -1,0 +1,119 @@
+{
+  "candidates": [
+    {
+      "step": 1,
+      "id": "gesture-v1",
+      "title": "교차한 손가락 · 첫 탐색",
+      "direction": "제스처",
+      "decision": "refine",
+      "summary": "손의 제스처는 읽히지만, 뾰족한 접합부와 긴 손바닥 선이 남아 있습니다. 범용 손 일러스트의 인상도 해결되지 않았습니다.",
+      "changes": [
+        "서로 다른 방향으로 교차하는 두 손가락과 단단한 손바닥을 탐색했습니다."
+      ],
+      "unresolved": [
+        "범용 제스처 인상",
+        "접합부와 손바닥 선의 정리",
+        "실제 사용 크기·배치 미검증"
+      ],
+      "parent_step": null,
+      "image": "originals/step-1.png",
+      "prompt": "prompts/step-1.txt",
+      "review": "reviews/step-1.json"
+    },
+    {
+      "step": 2,
+      "id": "gesture-v2",
+      "title": "교차한 손가락 · 수정",
+      "direction": "제스처",
+      "decision": "reframe",
+      "summary": "불필요한 선은 제거됐지만 고유성 부족은 남았습니다. 같은 그림의 모서리를 계속 다듬지 않고 방향을 전환했습니다.",
+      "changes": [
+        "긴 손바닥 흰 선 제거",
+        "일부 날카로운 끝을 부드럽게 수정",
+        "손 제스처와 외곽은 유지"
+      ],
+      "unresolved": [
+        "범용 제스처 인상 지속",
+        "중앙의 일부 뾰족한 접합부",
+        "실제 사용 크기·배치 미검증"
+      ],
+      "parent_step": 1,
+      "image": "originals/step-2.png",
+      "prompt": "prompts/step-2.txt",
+      "review": "reviews/step-2.json"
+    },
+    {
+      "step": 3,
+      "id": "hare-v1",
+      "title": "비대칭 귀 · 방향 전환",
+      "direction": "동물 표식",
+      "decision": "reframe",
+      "summary": "토끼는 분명하지만 날카로운 눈과 얼굴이 스포츠·게임 엠블럼을 연상시켜 탈락시켰습니다.",
+      "changes": [
+        "직립 귀와 접힌 귀의 대비로 다른 인지 경로를 탐색했습니다."
+      ],
+      "unresolved": [
+        "스튜디오 성격과 맞지 않는 강인한 동물 엠블럼 인상",
+        "장식적인 얼굴 절개",
+        "실제 사용 크기·배치 미검증"
+      ],
+      "parent_step": null,
+      "image": "originals/step-3.png",
+      "prompt": "prompts/step-3.txt",
+      "review": "reviews/step-3.json"
+    },
+    {
+      "step": 4,
+      "id": "imprint-v1",
+      "title": "비대칭 아치 · 새 탐색",
+      "direction": "추상 표식",
+      "decision": "refine",
+      "summary": "외곽과 내부 사선의 관계는 발전시킬 만합니다. 위쪽 무게와 안쪽 모서리 연결을 정리하기로 했습니다.",
+      "changes": [
+        "연결된 한 덩어리와 사선으로 열린 공간의 관계를 탐색했습니다."
+      ],
+      "unresolved": [
+        "상단의 과한 무게",
+        "안쪽 모서리 곡률 차이",
+        "실제 사용 크기·배치 미검증"
+      ],
+      "parent_step": null,
+      "image": "originals/step-4.png",
+      "prompt": "prompts/step-4.txt",
+      "review": "reviews/step-4.json"
+    },
+    {
+      "step": 5,
+      "id": "imprint-v2",
+      "title": "비대칭 아치 · 광학 수정",
+      "direction": "추상 표식",
+      "decision": "stop",
+      "summary": "상단의 압박감과 안쪽 모서리 연결이 개선됐습니다. 추가 생성은 멈추고 사용 검증 대상으로 남겼습니다. 최종 채택안은 아닙니다.",
+      "changes": [
+        "내부 윗변을 올려 상단 무게 완화",
+        "안쪽 오른쪽 모서리를 부드럽게 연결",
+        "비대칭 외곽과 내부 사선 유지"
+      ],
+      "unresolved": [
+        "32–64px 실제 시각 검증",
+        "기존 Inter와 헤더·크레딧 조합 검증",
+        "반전 및 다른 배경 검증"
+      ],
+      "parent_step": 4,
+      "image": "originals/step-5.png",
+      "prompt": "prompts/step-5.txt",
+      "review": "reviews/step-5.json"
+    }
+  ],
+  "calls_used": 5,
+  "budget": 6,
+  "status": "stopped",
+  "statusLabel": "생성 종료 · 사용 검증 필요",
+  "intro": "조사한 디자이너의 판단 습관을 적용해 세 방향을 탐색하고 두 번 수정했습니다. 약한 안은 탈락시켰으며, 확정된 폰트는 작업 범위에서 제외했습니다.",
+  "limits": [
+    "모든 이미지는 실제 네이티브 생성 원본입니다. 3회 신규 생성과 2회 원본 참조 수정에 총 5회를 사용했습니다.",
+    "최종 표식은 검토할 후보이며 공식 채택·납품 승인안이 아닙니다.",
+    "크기 전환은 원본 PNG 전체를 줄이는 미리보기입니다. 실제 사용 크기와 Inter 조합을 검증했다고 주장하지 않습니다.",
+    "공식 Codex Computer Use 도구가 제공되지 않아 브라우저 화면 검증은 수행하지 못했습니다."
+  ]
+}

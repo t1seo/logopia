@@ -1,0 +1,16 @@
+{
+  "provider": "image_gen.imagegen",
+  "model": null,
+  "generated_at": "2026-10-01T12:04:34.303963+00:00",
+  "returned_filename": "exec-269879d4-02e3-469a-9173-7a3e905b25ba.png",
+  "copied_without_image_edits": true,
+  "image": "images/06-pip.png",
+  "sha256": "b5bf9b586a6a483a8fa7701f95e74d2d974fadb785b59d4949cc7170c1837be7",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "prompt": "prompts/06-pip.txt",
+  "prompt_sha256": "38632666ec6066cf53d1a946828439d21790a29be23808bf74e567b2c9569937"
+}

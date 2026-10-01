@@ -1,0 +1,99 @@
+{
+  "request_number": 2,
+  "artifact_id": "handwritten-v1",
+  "artifact_sha256": "1c507fca3dd1f6f24a7f4260a0ad1b4a4152e76582ea0d4cc530b987e705badb",
+  "reviewer": "Independent delegated critic pebble_critic; coordinator transcribed observations into schema after also opening the images. Critic saw neutral IDs before rationale.",
+  "evidence": [
+    {
+      "id": "original",
+      "path": ".logo-generator/sessions/pebble-study/artifacts/handwritten-v1.png",
+      "sha256": "1c507fca3dd1f6f24a7f4260a0ad1b4a4152e76582ea0d4cc530b987e705badb",
+      "source_artifact_sha256": "1c507fca3dd1f6f24a7f4260a0ad1b4a4152e76582ea0d4cc530b987e705badb",
+      "kind": "original",
+      "description": "Unchanged native original inspected by independent critic and coordinator."
+    },
+    {
+      "id": "context",
+      "path": "qa/05-xyz-matched-contexts-helper.png",
+      "sha256": "fa42101c231f959376f2ae0fbdb0930fb2a4836ec4e7402ef893c35739ec1357",
+      "source_artifact_sha256": "1c507fca3dd1f6f24a7f4260a0ad1b4a4152e76582ea0d4cc530b987e705badb",
+      "kind": "context",
+      "description": "Official Codex Computer Use Chrome screenshot of X/Y/Z, artwork240 CSS px, mobile frames360 CSS px. Original JPEG retained; separately decoded and encoded PNG has identical RGB to JPEG decode. No artwork alteration. Browser chrome retained locally, not published."
+    }
+  ],
+  "assessments": [
+    {
+      "criterion": "appropriateness",
+      "status": "pass",
+      "observation": "The relaxed handwritten shape can suit a personal journal and carries no strong performance-sport cue.",
+      "evidence_ids": [
+        "original",
+        "context"
+      ]
+    },
+    {
+      "criterion": "distinctiveness",
+      "status": "revise",
+      "issue_id": "generic-handwritten-rounds",
+      "observation": "Familiar rounded handwritten sans construction; changing the previous geometry to slanted ovals and handwritten strokes did not establish a memorable shared letter relationship.",
+      "evidence_ids": [
+        "original",
+        "context"
+      ]
+    },
+    {
+      "criterion": "form",
+      "status": "revise",
+      "issue_id": "tall-letter-proportion",
+      "observation": "Long p descender and tall b/b/l ascenders create the tallest overall proportions in the matched-width comparison.",
+      "evidence_ids": [
+        "original",
+        "context"
+      ]
+    },
+    {
+      "criterion": "optics",
+      "status": "pass",
+      "observation": "The p/b counters are wider than Y and balance the open e more evenly. This local optical improvement does not resolve identity or proportion.",
+      "evidence_ids": [
+        "original",
+        "context"
+      ]
+    },
+    {
+      "criterion": "use_size",
+      "status": "revise",
+      "issue_id": "mobile-wordmark-bulk",
+      "observation": "The name and e apertures remain readable at the intended width, but the mobile context emphasizes the large tall wordmark rather than a restrained journal header.",
+      "evidence_ids": [
+        "context"
+      ]
+    },
+    {
+      "criterion": "versatility",
+      "status": "pass",
+      "observation": "Both stipulated white contexts can display the asset. Other backgrounds, smaller icon sizes and print were not evaluated.",
+      "evidence_ids": [
+        "context"
+      ]
+    },
+    {
+      "criterion": "scope",
+      "status": "pass",
+      "observation": "Exact lowercase pebble, plum wordmark on white, no extra symbol or text.",
+      "evidence_ids": [
+        "original"
+      ]
+    }
+  ],
+  "decision": "stop",
+  "reason": "The independent critic did not find a sufficiently promising identifying form to justify spending the remaining call. Shortening ascenders/descender might tidy proportions while making the already familiar wordmark more ordinary. No candidate has established meaningful overall design improvement or production suitability.",
+  "unresolved": [
+    "Brand-specific identifying structure remains unresolved",
+    "Tall proportions dominate the mobile context",
+    "No user acceptance or approved master",
+    "Two original generations demonstrate this workflow attempt, not a controlled comparison of image-model capability"
+  ],
+  "change_result": "initial",
+  "preservation_result": "not_observed"
+}
