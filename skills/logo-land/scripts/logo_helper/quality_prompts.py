@@ -61,8 +61,29 @@ def resolve_direction(
 
 
 def compile_input(
-    store: Store, state: QualityLoop, session: Session, requested: str | None
+    store: Store,
+    state: QualityLoop,
+    session: Session,
+    requested: str | None,
+    *,
+    prompt_override: str | None = None,
 ) -> tuple[str, PromptResult]:
+    if prompt_override is not None and not prompt_override.strip():
+        raise ProjectError("invalid_prompt", "Native prompt must contain non-whitespace text")
+    if prompt_override is not None and len(prompt_override) > PROMPT_CAPACITY:
+        raise ProjectError("prompt_capacity", "Native prompt exceeds import capacity")
+    if state.requests and any(
+        item.request_number == state.requests[-1].number and item.outcome == "failed"
+        for item in state.failures
+    ):
+        previous = state.requests[-1]
+        if (requested is not None and requested != previous.direction_id) or (
+            prompt_override is not None and prompt_override != previous.input.prompt
+        ):
+            raise ProjectError("retry_conflict", "Retry must preserve the failed request's input")
+        if session.revision != previous.source_revision:
+            raise ProjectError("stale_revision", "Retry source changed after the failed request")
+        return previous.direction_id, previous.input
     direction, parent_id, changes = resolve_direction(state, requested)
     concept = (
         f"Idea: {direction.idea}. Structural proposal: {direction.structure}. "
@@ -96,7 +117,7 @@ def compile_input(
             "structural proposal independently; do not carry over the previous subject or "
             "geometry. Preserve the fixed brand decisions and required use contexts."
         )
-    prompt = result.prompt + constraints
+    prompt = result.prompt + constraints if prompt_override is None else prompt_override
     if len(prompt) > PROMPT_CAPACITY:
         raise ProjectError("prompt_capacity", "Compiled native prompt exceeds import capacity")
     background = (

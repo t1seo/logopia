@@ -1,0 +1,20 @@
+{
+  "brand_name": "TANDEM",
+  "exact_text": "",
+  "industry": "Fictional private two-person conversation service",
+  "audience": "People who want to take turns and listen carefully",
+  "logo_type": "symbol",
+  "background": "opaque",
+  "palette": [
+    "#FFB087",
+    "#243EC4"
+  ],
+  "concept_count": 1,
+  "use_cases": [
+    "제품 헤더 · 대화 아바타"
+  ],
+  "assumptions": [
+    "Fictional brand study, not a customer commission",
+    "Color HEX values are intended roles, not exact sampled compliance"
+  ]
+}

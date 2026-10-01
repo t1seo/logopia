@@ -1,0 +1,26 @@
+{
+  "id": "01-rillo",
+  "artifactId": "01-rillo-v1",
+  "collectionCall": 1,
+  "status": "returned",
+  "tool": "image_gen.imagegen",
+  "reportedModel": null,
+  "mode": "generation",
+  "returnedFilename": "exec-0d8cf9a5-82d2-417c-86d1-b166cac3ea24.png",
+  "image": "images/01-rillo-v1.png",
+  "sha256": "2b486055f69c2bf25b7cccba5462e449386a6c14cbf41b905dc3dfc339cb8964",
+  "prompt": "prompts/01-rillo-v1.txt",
+  "promptSha256": "9b72adf5e073e57f7a0e87e96f41b78381de874d0c887542c11d7e09bcf3b000",
+  "imageFacts": {
+    "format": "PNG",
+    "width": 1774,
+    "height": 887,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixels": 1571610,
+    "visible_pixels": 311281
+  },
+  "processing": "Unchanged native original",
+  "intendedBackground": "opaque",
+  "actualAlphaMinimum": 0
+}

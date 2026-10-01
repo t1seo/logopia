@@ -1,0 +1,26 @@
+{
+  "id": "06-red-hen",
+  "artifactId": "06-red-hen-v1",
+  "collectionCall": 6,
+  "status": "returned",
+  "tool": "image_gen.imagegen",
+  "reportedModel": null,
+  "mode": "generation",
+  "returnedFilename": "exec-30ebcd05-3076-4b52-972e-2c9530fee38f.png",
+  "image": "images/06-red-hen-v1.png",
+  "sha256": "6e74528002b3aae991fb31ba1c2fa6e506d963a6150eef518bd4031ab42e6f1c",
+  "prompt": "prompts/06-red-hen-v1.txt",
+  "promptSha256": "d8282f8488414d9bc046369daf76a67e8b56107e674db47ed650ad7ed5a3d4f0",
+  "imageFacts": {
+    "format": "PNG",
+    "width": 1254,
+    "height": 1254,
+    "alpha_min": 255,
+    "alpha_max": 255,
+    "transparent_pixels": 0,
+    "visible_pixels": 1572516
+  },
+  "processing": "Unchanged native original",
+  "intendedBackground": "opaque",
+  "actualAlphaMinimum": 255
+}

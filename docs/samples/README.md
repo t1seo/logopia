@@ -2,9 +2,24 @@
 
 [English](README.md) · [한국어](README.ko.md) · [Docs](../README.md) · [Logopia](../../README.md)
 
-[**October experiments — all six rejected on design quality →**](../showcase/2026-10-01-use-cases/README.md) · [Experiment gallery](../gallery.md#showcase) · [September 20 archive board](../showcase/2026-09-20-lifestyle/board.png)
+[**Eight brand studies →**](../showcase/2026-10-01-brand-studies/README.md) · [Original image gallery](../gallery.md#showcase) · [HTML gallery](../showcase/2026-10-01-brand-studies/index.html)
 
-The user found no meaningful improvement or production-ready result in the six October experiments. Output-quality improvement remains unproven. Browser QA covered gallery usability only. The September collection below remains historical material, not an endorsed replacement benchmark.
+## Eight brand studies — October 1, 2026
+
+Lettering, symbol and app icon originals for fictional brands. The [collection record](../showcase/2026-10-01-brand-studies/README.md) links exact prompts, rillo/사이/AL parent edits and review notes. These are not user-adopted identities, finished vectors or platform-specific app icon packages.
+
+| Study | Form · intended use | Displayed original |
+|---|---|---|
+| **rillo** | Brush wordmark · Fruit soda packaging | [v2 PNG](../showcase/2026-10-01-brand-studies/images/01-rillo-v2.png) |
+| **사이** | Hangul wordmark · Bookshop & listening room | [v2 PNG](../showcase/2026-10-01-brand-studies/images/02-sai-v2.png) |
+| **ALINE** | Editorial Roman wordmark · Architecture & craft journal | [v1 PNG](../showcase/2026-10-01-brand-studies/images/03-aline-v1.png) |
+| **TANDEM** | Symbol · Private conversation service | [v1 PNG](../showcase/2026-10-01-brand-studies/images/04-tandem-v1.png) |
+| **AL** | Lettermark · Architecture studio | [v2 PNG](../showcase/2026-10-01-brand-studies/images/05-al-v2.png) |
+| **RED HEN** | Pictorial mark · Neighborhood bakery | [v1 PNG](../showcase/2026-10-01-brand-studies/images/06-red-hen-v1.png) |
+| **Pip** | Mascot app icon · Private voice notes | [v1 PNG](../showcase/2026-10-01-brand-studies/images/07-pip-v1.png) |
+| **Spool** | Soft 3D app icon · Craft project organizer | [v1 PNG](../showcase/2026-10-01-brand-studies/images/08-spool-v1.png) |
+
+[Earlier experiments and galleries](../gallery.md#historical-outputs) preserve prior results and their recorded review status.
 
 ## September 20 lifestyle collection
 

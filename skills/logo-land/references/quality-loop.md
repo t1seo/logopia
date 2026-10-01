@@ -136,6 +136,23 @@ brief; white and flat geometry do not override requested expressive treatments.
 
 ## Execute the reserved request exactly
 
+For an authored art direction, add `--prompt-file PATH` to `loop-request` before
+reserving the call. The file supplies the exact UTF-8 native prompt, including its
+line endings; it must be nonempty and at most 20,000 characters. This replaces the
+compiled wording and appends no scope, palette or refinement instructions. Include
+the applicable exact lettering, fixed decisions, intended color/background roles
+and, for an edit, the parent features to preserve and specific changes. Read the
+saved request before dispatch. Short wording is a creative option, not evidence
+that output quality will improve.
+
+The override changes only the prompt. Source revision, effective intent, parent,
+contract, budget and import checks remain bound. Pending or unknown requests
+cannot be rewritten. After an established failed call, retry at the same source
+revision with the original exact prompt; omitting `--prompt-file` reuses it.
+Changing the direction, palette or prompt is not a retry. An exceptionally large
+app-icon brief can still fail the legacy icon builder's length check before an
+override is applied; the failure does not reserve or charge a call.
+
 Every command returns a wrapper with `state`, `status`, `calls_used`,
 `remaining_calls` and `pending_request`. Use `state.requests[-1].input` from the
 successful request result; its `prompt` is the exact native request and its

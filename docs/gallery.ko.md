@@ -2,45 +2,47 @@
 
 [English](gallery.md) · [한국어](gallery.ko.md) · [문서](README.ko.md) · [Logopia](../README.ko.md)
 
-[10월 거절된 실험](#showcase) · [Logopia 로고](#identity) · [이전 결과물](#historical-outputs)
+[여덟 브랜드 스터디](#showcase) · [Logopia 로고](#identity) · [이전 결과물](#historical-outputs)
 
-<a id="showcase"></a>
+<a id="showcase"></a><a id="brand-studies"></a>
 
-<a id="여섯-가지-사용-예제--2026년-10월-1일"></a>
+## 여덟 가지 브랜드 스터디 — 2026년 10월 1일
 
-## 10월 실험 — 디자인 품질 거절
-
-**2026년 10월 1일에 만든 여섯 결과 모두 사용자가 디자인 품질을 거절했습니다.** 의미 있는 개선이나 실사용 수준의 결과로 수용되지 않았으며, 결과물의 품질 개선은 입증되지 않았습니다. 원본·요청·수정 이력을 검토할 수 있도록 보존했습니다.
+가상 브랜드의 레터링·심볼·앱 아이콘 스터디입니다. 각 이미지를 누르면 도구가 반환한 PNG가 원래 캔버스 그대로 열립니다.
 
 <table>
   <tr>
-    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/01-mori.png"><img src="showcase/2026-10-01-use-cases/images/01-mori.png" width="400" alt="포레스트 그린의 둥근 소문자 mori와 라임색 점"></a><br><strong>mori</strong><br><sub>영문 워드마크 · 식물 구독 서비스</sub></td>
-    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/02-sai.png"><img src="showcase/2026-10-01-use-cases/images/02-sai.png" width="400" alt="흰 배경 위 코발트와 코랄의 둥근 한글 사이"></a><br><strong>사이</strong><br><sub>한글 워드마크 · 독서 모임</sub></td>
+    <td align="center" valign="top" width="50%"><a href="showcase/2026-10-01-brand-studies/images/01-rillo-v2.png"><img src="showcase/2026-10-01-brand-studies/images/01-rillo-v2.png" width="400" alt="옅은 분홍 배경 위 붉은 오렌지색 브러시 레터링 rillo"></a><br><strong>rillo</strong><br><sub>브러시 워드마크 · 과일 소다 패키지</sub></td>
+    <td align="center" valign="top" width="50%"><a href="showcase/2026-10-01-brand-studies/images/02-sai-v2.png"><img src="showcase/2026-10-01-brand-studies/images/02-sai-v2.png" width="400" alt="노란 배경 위 획 끝이 벌어진 코발트색 한글 사이"></a><br><strong>사이</strong><br><sub>한글 워드마크 · 책방·음악 감상 공간</sub></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/03-al.png"><img src="showcase/2026-10-01-use-cases/images/03-al.png" width="400" alt="라일락 배경 위 하나의 구조를 공유하는 인디고 세리프 A와 L"></a><br><strong>AL</strong><br><sub>결합형 모노그램 · 건축 스튜디오</sub></td>
-    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/04-tandem.png"><img src="showcase/2026-10-01-use-cases/images/04-tandem.png" width="400" alt="열린 흰 공간을 둘러싼 틸과 코발트 곡선 두 개, 글자 없음"></a><br><strong>Tandem</strong><br><sub>추상 심볼 · 공동 일정 계획</sub></td>
+    <td align="center" valign="top" width="50%"><a href="showcase/2026-10-01-brand-studies/images/03-aline-v1.png"><img src="showcase/2026-10-01-brand-studies/images/03-aline-v1.png" width="400" alt="옅은 파랑 배경 위 플럼색 로만 스타일 대문자 ALINE"></a><br><strong>ALINE</strong><br><sub>에디토리얼 로만 워드마크 · 건축·공예 저널</sub></td>
+    <td align="center" valign="top" width="50%"><a href="showcase/2026-10-01-brand-studies/images/04-tandem-v1.png"><img src="showcase/2026-10-01-brand-studies/images/04-tandem-v1.png" width="400" alt="코발트 배경 위 마주 보는 복숭아색 쉼표 모양 두 개, 글자 없음"></a><br><strong>TANDEM</strong><br><sub>심볼 · 일대일 대화 서비스</sub></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/05-pebble.png"><img src="showcase/2026-10-01-use-cases/images/05-pebble.png" width="400" alt="흰 길이 있는 테라코타 조약돌 옆의 플럼색 소문자 pebble"></a><br><strong>pebble</strong><br><sub>심볼 + 워드마크 · 걷기 기록</sub></td>
-    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/06-pip.png"><img src="showcase/2026-10-01-use-cases/images/06-pip.png" width="400" alt="라일락 정사각형 오른쪽 아래의 오렌지색 새와 플럼색 눈·부리"></a><br><strong>Pip</strong><br><sub>캐릭터 앱 아이콘 · 매일 음성 메모</sub></td>
+    <td align="center" valign="top" width="50%"><a href="showcase/2026-10-01-brand-studies/images/05-al-v2.png"><img src="showcase/2026-10-01-brand-studies/images/05-al-v2.png" width="400" alt="분홍 배경 위 나란히 놓인 짙은 초록색 세리프 A와 L"></a><br><strong>AL</strong><br><sub>이니셜 마크 · 건축 스튜디오</sub></td>
+    <td align="center" valign="top" width="50%"><a href="showcase/2026-10-01-brand-studies/images/06-red-hen-v1.png"><img src="showcase/2026-10-01-brand-studies/images/06-red-hen-v1.png" width="400" alt="옅은 파랑 배경 위 플럼색 눈과 발이 있는 붉은 암탉 실루엣"></a><br><strong>RED HEN</strong><br><sub>그림 심볼 · 동네 베이커리</sub></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="50%"><a href="showcase/2026-10-01-brand-studies/images/07-pip-v1.png"><img src="showcase/2026-10-01-brand-studies/images/07-pip-v1.png" width="400" alt="라일락 배경 위 커다란 플럼색 부리와 반쯤 감은 눈을 가진 오렌지색 새"></a><br><strong>Pip</strong><br><sub>마스코트 앱 아이콘 · 나만의 음성 메모</sub></td>
+    <td align="center" valign="top" width="50%"><a href="showcase/2026-10-01-brand-studies/images/08-spool-v1.png"><img src="showcase/2026-10-01-brand-studies/images/08-spool-v1.png" width="400" alt="파란 배경 위 느슨한 실끝이 있는 산호색 입체 실타래"></a><br><strong>Spool</strong><br><sub>소프트 3D 앱 아이콘 · 공예 프로젝트 기록</sub></td>
   </tr>
 </table>
 
-| 예제 | 사용 목적 | 실제 생성 프롬프트 |
-|---|---|---|
-| **mori** | 식물 구독 서비스의 영문 워드마크 | [프롬프트](showcase/2026-10-01-use-cases/prompts/01-mori.txt) |
-| **사이** | 독서 모임의 한글 워드마크 | [프롬프트](showcase/2026-10-01-use-cases/prompts/02-sai.txt) |
-| **AL** | 건축 스튜디오의 결합형 모노그램 | [프롬프트](showcase/2026-10-01-use-cases/prompts/03-al.txt) |
-| **Tandem** | 공동 일정 계획 서비스의 추상 심볼 | [프롬프트](showcase/2026-10-01-use-cases/prompts/04-tandem.txt) |
-| **pebble** | 걷기 기록 브랜드의 심볼과 워드마크 | [프롬프트](showcase/2026-10-01-use-cases/prompts/05-pebble.txt) |
-| **Pip** | 음성 메모용 새 캐릭터 앱 아이콘 | [프롬프트](showcase/2026-10-01-use-cases/prompts/06-pip.txt) |
+| 스터디 | 사용할 곳 | 표시 원본 | 실제 생성·편집 요청 |
+|---|---|---|---|
+| **rillo** · 브러시 워드마크 | 과일 소다 패키지 | [v2 PNG](showcase/2026-10-01-brand-studies/images/01-rillo-v2.png) | [편집 요청](showcase/2026-10-01-brand-studies/prompts/01-rillo-v2.txt) |
+| **사이** · 한글 워드마크 | 책방·음악 감상 공간 | [v2 PNG](showcase/2026-10-01-brand-studies/images/02-sai-v2.png) | [편집 요청](showcase/2026-10-01-brand-studies/prompts/02-sai-v2.txt) |
+| **ALINE** · 에디토리얼 로만 워드마크 | 건축·공예 저널 | [v1 PNG](showcase/2026-10-01-brand-studies/images/03-aline-v1.png) | [생성 요청](showcase/2026-10-01-brand-studies/prompts/03-aline-v1.txt) |
+| **TANDEM** · 심볼 | 일대일 대화 서비스 | [v1 PNG](showcase/2026-10-01-brand-studies/images/04-tandem-v1.png) | [생성 요청](showcase/2026-10-01-brand-studies/prompts/04-tandem-v1.txt) |
+| **AL** · 이니셜 마크 | 건축 스튜디오 | [v2 PNG](showcase/2026-10-01-brand-studies/images/05-al-v2.png) | [편집 요청](showcase/2026-10-01-brand-studies/prompts/05-al-v2.txt) |
+| **RED HEN** · 그림 심볼 | 동네 베이커리 | [v1 PNG](showcase/2026-10-01-brand-studies/images/06-red-hen-v1.png) | [생성 요청](showcase/2026-10-01-brand-studies/prompts/06-red-hen-v1.txt) |
+| **Pip** · 마스코트 앱 아이콘 | 나만의 음성 메모 | [v1 PNG](showcase/2026-10-01-brand-studies/images/07-pip-v1.png) | [생성 요청](showcase/2026-10-01-brand-studies/prompts/07-pip-v1.txt) |
+| **Spool** · 소프트 3D 앱 아이콘 | 공예 프로젝트 기록 | [v1 PNG](showcase/2026-10-01-brand-studies/images/08-spool-v1.png) | [생성 요청](showcase/2026-10-01-brand-studies/prompts/08-spool-v1.txt) |
 
-[요청·원본·한계](showcase/2026-10-01-use-cases/README.md) · [오프라인 HTML 갤러리](showcase/2026-10-01-use-cases/index.html)
+[HTML 갤러리](showcase/2026-10-01-brand-studies/index.html) · [원본·프롬프트·부모 편집·검토 기록](showcase/2026-10-01-brand-studies/README.md)
 
-[거절 이후 집중 비교 실험](showcase/2026-10-01-pebble-study/README.md) · [오프라인 비교](showcase/2026-10-01-pebble-study/index.html) — 유의미한 전체 품질 개선을 확인하지 못해 중단했으며, 채택한 안은 없습니다.
-
-현재 소스는 미발행 0.10.0입니다. 브라우저 QA는 갤러리 사용성만 확인했으며 디자인 수용을 뜻하지 않습니다. 모든 브랜드는 가상이며 제휴나 상표 사용 가능성을 주장하지 않습니다. 결과는 래스터 PNG입니다.
+rillo·사이·AL은 네이티브 부모 편집 v2를 표시합니다. 현재 소스는 미발행 0.10.0이며, 이 가상 스터디는 사용자 채택이나 완성된 벡터·플랫폼별 아이콘 패키지를 뜻하지 않습니다.
 
 <a id="identity"></a><a id="current-logo-land-identity"></a>
 
@@ -52,7 +54,12 @@
 
 ## 이전 결과물 — 보관 자료
 
-이전 이미지는 역사 기록이며, 이번 실험의 거절을 대신할 새로운 품질 기준이나 추천 결과로 격상하지 않았습니다.
+이전 컬렉션의 원본·요청·검토 결과를 당시 상태로 보존했습니다.
+
+<a id="여섯-가지-사용-예제--2026년-10월-1일"></a><a id="10월-실험--디자인-품질-거절"></a>
+
+- [앞선 10월 사용 예제 여섯 개](showcase/2026-10-01-use-cases/README.md) · [당시 HTML](showcase/2026-10-01-use-cases/index.html): 사용자께서 디자인 품질을 거절한 결과와 원본·프롬프트를 보존했습니다.
+- [Pebble 집중 비교](showcase/2026-10-01-pebble-study/README.md) · [당시 HTML](showcase/2026-10-01-pebble-study/index.html): 전체 디자인 개선을 입증하지 못해 중단했으며 채택된 후보는 없습니다.
 
 <a id="september-20-2026"></a><a id="일상을-위한-아이덴티티-9월-20일-새-샘플"></a>
 

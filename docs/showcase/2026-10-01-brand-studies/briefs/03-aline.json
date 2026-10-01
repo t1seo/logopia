@@ -1,0 +1,20 @@
+{
+  "brand_name": "ALINE",
+  "exact_text": "ALINE",
+  "industry": "Fictional journal of architecture, domestic objects and craft",
+  "audience": "Readers interested in close observation and lasting design",
+  "logo_type": "wordmark",
+  "background": "opaque",
+  "palette": [
+    "#59263B",
+    "#DDE9EB"
+  ],
+  "concept_count": 1,
+  "use_cases": [
+    "잡지 표지 · 웹 매거진 헤더"
+  ],
+  "assumptions": [
+    "Fictional brand study, not a customer commission",
+    "Color HEX values are intended roles, not exact sampled compliance"
+  ]
+}

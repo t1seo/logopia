@@ -20,50 +20,34 @@
   <a href="README.md">English</a> · <a href="README.ko.md">한국어</a> · <a href="docs/hermes.ko.md">Hermes</a> · <a href="#설치">Codex 설치</a> · <a href="docs/gallery.ko.md">갤러리</a> · <a href="docs/README.ko.md">문서</a>
 </p>
 
-<a id="샘플"></a><a id="샘플-10개"></a><a id="투명-배경-로고"></a><a id="use-cases"></a>
+<a id="샘플"></a><a id="샘플-10개"></a><a id="투명-배경-로고"></a><a id="use-cases"></a><a id="brand-studies"></a>
 
-<a id="여섯-가지-사용-예제"></a>
+## 여덟 가지 브랜드 스터디
 
-## 10월 실험 — 디자인 품질 거절
-
-**사용자께서는 여섯 결과 모두 의미 있는 개선이 없고 실사용 수준에 미치지 못한다고 판단하여 디자인 품질을 거절하셨습니다.** 결과물의 품질 개선은 입증되지 않았습니다. 아래에는 원본·요청·수정 이력을 실험 기록으로 보존했습니다.
-
-<details>
-<summary>거절된 실험 여섯 개의 원본 PNG 보기</summary>
+브러시 레터링, 한글, 로만 대문자, 심볼과 앱 아이콘을 서로 다른 가상 브랜드의 용도에 맞춰 제작했습니다. **이미지를 누르면 실제 원본 PNG가 열립니다.**
 
 <table>
   <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/01-mori.png"><img src="docs/showcase/2026-10-01-use-cases/images/01-mori.png" width="400" alt="포레스트 그린의 둥근 소문자 mori와 라임색 점"></a><br><strong>mori</strong><br><sub>영문 워드마크 · 식물 구독 서비스</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/02-sai.png"><img src="docs/showcase/2026-10-01-use-cases/images/02-sai.png" width="400" alt="흰 배경 위 코발트와 코랄의 둥근 한글 사이"></a><br><strong>사이</strong><br><sub>한글 워드마크 · 독서 모임</sub></td>
+    <td align="center" valign="top" width="50%"><a href="docs/showcase/2026-10-01-brand-studies/images/01-rillo-v2.png"><img src="docs/showcase/2026-10-01-brand-studies/images/01-rillo-v2.png" width="400" alt="옅은 분홍 배경 위 붉은 오렌지색 브러시 레터링 rillo"></a><br><strong>rillo</strong><br><sub>브러시 워드마크 · 과일 소다 패키지</sub></td>
+    <td align="center" valign="top" width="50%"><a href="docs/showcase/2026-10-01-brand-studies/images/02-sai-v2.png"><img src="docs/showcase/2026-10-01-brand-studies/images/02-sai-v2.png" width="400" alt="노란 배경 위 획 끝이 벌어진 코발트색 한글 사이"></a><br><strong>사이</strong><br><sub>한글 워드마크 · 책방·음악 감상 공간</sub></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/03-al.png"><img src="docs/showcase/2026-10-01-use-cases/images/03-al.png" width="400" alt="라일락 배경 위 하나의 구조를 공유하는 인디고 세리프 A와 L"></a><br><strong>AL</strong><br><sub>결합형 모노그램 · 건축 스튜디오</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/04-tandem.png"><img src="docs/showcase/2026-10-01-use-cases/images/04-tandem.png" width="400" alt="열린 흰 공간을 둘러싼 틸과 코발트 곡선 두 개, 글자 없음"></a><br><strong>Tandem</strong><br><sub>추상 심볼 · 공동 일정 계획</sub></td>
+    <td align="center" valign="top" width="50%"><a href="docs/showcase/2026-10-01-brand-studies/images/03-aline-v1.png"><img src="docs/showcase/2026-10-01-brand-studies/images/03-aline-v1.png" width="400" alt="옅은 파랑 배경 위 플럼색 로만 스타일 대문자 ALINE"></a><br><strong>ALINE</strong><br><sub>에디토리얼 로만 워드마크 · 건축·공예 저널</sub></td>
+    <td align="center" valign="top" width="50%"><a href="docs/showcase/2026-10-01-brand-studies/images/04-tandem-v1.png"><img src="docs/showcase/2026-10-01-brand-studies/images/04-tandem-v1.png" width="400" alt="코발트 배경 위 마주 보는 복숭아색 쉼표 모양 두 개, 글자 없음"></a><br><strong>TANDEM</strong><br><sub>심볼 · 일대일 대화 서비스</sub></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/05-pebble.png"><img src="docs/showcase/2026-10-01-use-cases/images/05-pebble.png" width="400" alt="흰 길이 있는 테라코타 조약돌 옆의 플럼색 소문자 pebble"></a><br><strong>pebble</strong><br><sub>심볼 + 워드마크 · 걷기 기록</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/06-pip.png"><img src="docs/showcase/2026-10-01-use-cases/images/06-pip.png" width="400" alt="라일락 정사각형 오른쪽 아래의 오렌지색 새와 플럼색 눈·부리"></a><br><strong>Pip</strong><br><sub>캐릭터 앱 아이콘 · 매일 음성 메모</sub></td>
+    <td align="center" valign="top" width="50%"><a href="docs/showcase/2026-10-01-brand-studies/images/05-al-v2.png"><img src="docs/showcase/2026-10-01-brand-studies/images/05-al-v2.png" width="400" alt="분홍 배경 위 나란히 놓인 짙은 초록색 세리프 A와 L"></a><br><strong>AL</strong><br><sub>이니셜 마크 · 건축 스튜디오</sub></td>
+    <td align="center" valign="top" width="50%"><a href="docs/showcase/2026-10-01-brand-studies/images/06-red-hen-v1.png"><img src="docs/showcase/2026-10-01-brand-studies/images/06-red-hen-v1.png" width="400" alt="옅은 파랑 배경 위 플럼색 눈과 발이 있는 붉은 암탉 실루엣"></a><br><strong>RED HEN</strong><br><sub>그림 심볼 · 동네 베이커리</sub></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="50%"><a href="docs/showcase/2026-10-01-brand-studies/images/07-pip-v1.png"><img src="docs/showcase/2026-10-01-brand-studies/images/07-pip-v1.png" width="400" alt="라일락 배경 위 커다란 플럼색 부리와 반쯤 감은 눈을 가진 오렌지색 새"></a><br><strong>Pip</strong><br><sub>마스코트 앱 아이콘 · 나만의 음성 메모</sub></td>
+    <td align="center" valign="top" width="50%"><a href="docs/showcase/2026-10-01-brand-studies/images/08-spool-v1.png"><img src="docs/showcase/2026-10-01-brand-studies/images/08-spool-v1.png" width="400" alt="파란 배경 위 느슨한 실끝이 있는 산호색 입체 실타래"></a><br><strong>Spool</strong><br><sub>소프트 3D 앱 아이콘 · 공예 프로젝트 기록</sub></td>
   </tr>
 </table>
 
-</details>
+[여덟 스터디 HTML 갤러리](docs/showcase/2026-10-01-brand-studies/index.html) · [원본·정확한 프롬프트·편집 이력·검토 기록](docs/showcase/2026-10-01-brand-studies/README.md)
 
-아래 문장은 요청을 구체적으로 작성하는 예시로 남겼습니다. 해당 결과의 디자인 품질은 수용되지 않았으며, 실제 도구에 전달한 전체 요청은 [실험 기록](docs/showcase/2026-10-01-use-cases/README.md)에서 확인하실 수 있습니다.
-
-| 예제 | 요청 예시 |
-|---|---|
-| **mori** · 영문 워드마크 | 식물 구독 서비스 mori의 워드마크를 만들어 주세요. 정확한 글자는 mori이며, 포레스트 그린과 라임을 사용하고 별도 아이콘 없이 글자 자체를 디자인해 주세요. |
-| **사이** · 한글 워드마크 | 독서 모임의 한글 워드마크를 만들어 주세요. 정확한 글자 사이만 사용하고, 코발트와 코랄로 친근하면서 또렷하게 읽히는 글자를 표현해 주세요. |
-| **AL** · 결합형 모노그램 | 건축 스튜디오의 이니셜 AL을 하나로 결합한 모노그램을 인디고로 만들어 주세요. 구조를 공유하되 두 글자를 알아볼 수 있게 해 주세요. |
-| **Tandem** · 추상 심볼 | 공동 일정 계획 서비스의 심볼을 틸과 코발트로 만들어 주세요. 하나의 간결한 마크로 협업을 표현하고 글자는 넣지 말아 주세요. |
-| **pebble** · 심볼 + 워드마크 | 걷기 브랜드의 심볼과 워드마크를 만들어 주세요. 정확한 소문자 pebble을 사용하고, 테라코타와 딥 플럼으로 간결한 조합을 구성해 주세요. |
-| **Pip** · 캐릭터 앱 아이콘 | 음성 메모 앱을 위해 라일락 배경에 친근한 오렌지색 새 한 마리를 넣은 아이콘을 만들어 주세요. 굵고 단순한 평면 실루엣을 사용하고 글자는 넣지 말아 주세요. |
-
-[거절된 실험 원본·프롬프트·한계](docs/showcase/2026-10-01-use-cases/README.md) · [오프라인 HTML 갤러리](docs/showcase/2026-10-01-use-cases/index.html) · [전체 갤러리](docs/gallery.ko.md#showcase)
-
-[거절 이후 집중 비교 실험](docs/showcase/2026-10-01-pebble-study/README.md) · [오프라인 비교](docs/showcase/2026-10-01-pebble-study/index.html) — 유의미한 전체 품질 개선을 확인하지 못해 중단했으며, 채택한 안은 없습니다.
-
-브라우저 QA는 갤러리 사용성만 확인했으며, 디자인 품질이나 사용자 수용을 입증하지 않습니다. 모든 브랜드는 가상의 실험 대상입니다. 9월 자료도 역사 기록으로 보존하며 검증된 품질 기준으로 다시 소개하지 않습니다.
+rillo·사이·AL은 부모 원본을 네이티브 편집한 v2이며, 나머지는 v1입니다. 모두 가상 브랜드의 래스터 스터디로, 사용자 채택이나 완성된 벡터 아이덴티티를 뜻하지 않습니다.
 
 <a id="hermes-workflow"></a>
 
@@ -118,7 +102,7 @@ codex
 
 **글자부터 시작해 보세요.** 워드마크는 브랜드 이름 자체를 로고로 만든 디자인입니다. 원하는 글자 모양과 리듬, 분위기를 설명하고 표기를 정확하게 적어 주세요.
 
-> $logo-land LOOP LAB의 굵고 경쾌한 워드마크를 만들어 주세요. 여러 밝은 색, 둥근 글자와 생동감 있는 간격을 사용해 주세요. 정확한 글자는 LOOP LAB이며, 아이콘이나 슬로건은 추가하지 말아 주세요.
+> $logo-land 과일 소다 브랜드 rillo의 워드마크를 만들어 주세요. 정확한 소문자 rillo를 붉은 오렌지색 브러시 레터링으로 표현하고, 옅은 분홍 배경과 두 l의 구분을 유지해 주세요.
 
 > $logo-land logopia의 오리지널 게임 타이틀 로고를 만들어 주세요. 정확한 소문자 logopia를 사용하고, 둥글고 다채로운 글자와 스티커 같은 윤곽을 흰색 배경에 표현해 주세요.
 
@@ -126,9 +110,9 @@ codex
 
 **작은 마크와 캐릭터도 요청하실 수 있습니다.**
 
-> $logo-land NORTHLINE의 이니셜 NL만 사용해 기하학적인 모노그램을 만들어 주세요. 두 글자가 하나의 세로획을 공유하되, N과 L이 모두 읽히도록 해 주세요.
+> $logo-land 건축 스튜디오의 이니셜 AL을 짙은 초록색과 분홍 배경으로 만들어 주세요. 두 글자가 각각 읽히도록 획의 무게와 간격을 조정해 주세요.
 
-> $logo-land 책을 읽는 작은 부엉이 앱 아이콘 한 개를 만들어 주세요. 단순하고 통통한 캐릭터를 오른쪽 아래에 배치하고, 캐릭터에는 두 색, 배경에는 한 가지 단색을 사용해 주세요. 글자는 넣지 말아 주세요.
+> $logo-land 음성 메모 앱 Pip의 아이콘을 만들어 주세요. 큰 곡선 부리를 가진 오렌지색·플럼색 새 한 마리를 라일락 배경에 표현하고, 글자는 넣지 말아 주세요.
 
 <a id="앱-아이콘-방향-여섯-가지"></a><a id="네-가지-방식으로-색상-정하기"></a><a id="심볼과-정확한-글자-조합하기"></a><a id="로고-유형-8가지"></a><a id="수정과-전달-파일"></a>
 
@@ -149,6 +133,10 @@ codex
 결과는 **래스터 PNG**입니다. 검수를 마친 내보내기에는 원본 PNG, ZIP과 간단한 브랜드 안내가 포함될 수 있습니다. 편집 가능한 벡터와 폰트 파일은 별도 작업이며, 폰트명은 시각적 참고입니다. 앱 아이콘은 플랫폼별 준비가 필요하고, 투명 배경은 별도로 요청하고 확인해야 합니다.
 
 [레터링 안내](skills/logo-land/references/lettering.md) · [후보 비교와 수정](skills/logo-land/references/comparison-workflow.md) · [색상과 글자](docs/colors/README.ko.md) · [투명 PNG 예제](docs/samples/transparency.ko.md) · [이전 샘플 보관 자료](docs/gallery.ko.md#historical-outputs)
+
+<a id="여섯-가지-사용-예제"></a><a id="10월-실험--디자인-품질-거절"></a>
+
+[이전 실험·갤러리 보관 자료](docs/gallery.ko.md#historical-outputs)에는 앞선 여섯 결과의 품질 거절과 개선을 입증하지 못하고 중단한 Pebble 비교 기록을 그대로 보존했습니다.
 
 <a id="조사와-제작-근거"></a>
 

@@ -2,45 +2,47 @@
 
 [English](gallery.md) · [한국어](gallery.ko.md) · [Docs](README.md) · [Logopia](../README.md)
 
-[Rejected October experiments](#showcase) · [Logopia identity](#identity) · [Earlier outputs](#historical-outputs)
+[Eight brand studies](#showcase) · [Logopia identity](#identity) · [Earlier outputs](#historical-outputs)
 
-<a id="showcase"></a>
+<a id="showcase"></a><a id="brand-studies"></a>
 
-<a id="six-use-cases--october-1-2026"></a>
+## Eight brand studies — October 1, 2026
 
-## October experiments — user rejected design quality
-
-**The user rejected the design quality of all six October 1 results.** They were not accepted as meaningfully improved or ready for production. Output-quality improvement remains unproven; the originals, requests and revision history are preserved for inspection.
+Lettering, symbols and app icon studies for fictional brands. Every image opens the actual PNG with its original canvas intact.
 
 <table>
   <tr>
-    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/01-mori.png"><img src="showcase/2026-10-01-use-cases/images/01-mori.png" width="400" alt="mori in rounded forest-green lowercase letters with a lime dot"></a><br><strong>mori</strong><br><sub>Latin wordmark · Plant subscription</sub></td>
-    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/02-sai.png"><img src="showcase/2026-10-01-use-cases/images/02-sai.png" width="400" alt="사이 in rounded cobalt and coral Hangul on white"></a><br><strong>사이</strong><br><sub>Hangul wordmark · Reading club</sub></td>
+    <td align="center" valign="top" width="50%"><a href="showcase/2026-10-01-brand-studies/images/01-rillo-v2.png"><img src="showcase/2026-10-01-brand-studies/images/01-rillo-v2.png" width="400" alt="Red-orange brush lettering spelling rillo on pale pink"></a><br><strong>rillo</strong><br><sub>Brush wordmark · Fruit soda packaging</sub></td>
+    <td align="center" valign="top" width="50%"><a href="showcase/2026-10-01-brand-studies/images/02-sai-v2.png"><img src="showcase/2026-10-01-brand-studies/images/02-sai-v2.png" width="400" alt="Cobalt Hangul 사이 with flared stroke ends on yellow"></a><br><strong>사이</strong><br><sub>Hangul wordmark · Bookshop &amp; listening room</sub></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/03-al.png"><img src="showcase/2026-10-01-use-cases/images/03-al.png" width="400" alt="Indigo serif A and L sharing one structure on lilac"></a><br><strong>AL</strong><br><sub>Integrated monogram · Architecture studio</sub></td>
-    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/04-tandem.png"><img src="showcase/2026-10-01-use-cases/images/04-tandem.png" width="400" alt="Two teal and cobalt curved forms around open white space, without text"></a><br><strong>Tandem</strong><br><sub>Abstract symbol · Shared planning</sub></td>
+    <td align="center" valign="top" width="50%"><a href="showcase/2026-10-01-brand-studies/images/03-aline-v1.png"><img src="showcase/2026-10-01-brand-studies/images/03-aline-v1.png" width="400" alt="Plum Roman-style capital letters ALINE on pale blue"></a><br><strong>ALINE</strong><br><sub>Editorial Roman wordmark · Architecture &amp; craft journal</sub></td>
+    <td align="center" valign="top" width="50%"><a href="showcase/2026-10-01-brand-studies/images/04-tandem-v1.png"><img src="showcase/2026-10-01-brand-studies/images/04-tandem-v1.png" width="400" alt="Two opposing peach comma-like shapes on cobalt, with no lettering"></a><br><strong>TANDEM</strong><br><sub>Symbol · Private conversation service</sub></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/05-pebble.png"><img src="showcase/2026-10-01-use-cases/images/05-pebble.png" width="400" alt="Terracotta pebble with a white path beside the lowercase plum word pebble"></a><br><strong>pebble</strong><br><sub>Symbol + wordmark · Walking journal</sub></td>
-    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/06-pip.png"><img src="showcase/2026-10-01-use-cases/images/06-pip.png" width="400" alt="Orange bird with a plum eye and beak in the lower-right of a lilac square"></a><br><strong>Pip</strong><br><sub>Character app icon · Daily voice notes</sub></td>
+    <td align="center" valign="top" width="50%"><a href="showcase/2026-10-01-brand-studies/images/05-al-v2.png"><img src="showcase/2026-10-01-brand-studies/images/05-al-v2.png" width="400" alt="Separate dark-green serif letters A and L on pink"></a><br><strong>AL</strong><br><sub>Lettermark · Architecture studio</sub></td>
+    <td align="center" valign="top" width="50%"><a href="showcase/2026-10-01-brand-studies/images/06-red-hen-v1.png"><img src="showcase/2026-10-01-brand-studies/images/06-red-hen-v1.png" width="400" alt="Red hen silhouette with a plum eye and feet on pale blue"></a><br><strong>RED HEN</strong><br><sub>Pictorial mark · Neighborhood bakery</sub></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="50%"><a href="showcase/2026-10-01-brand-studies/images/07-pip-v1.png"><img src="showcase/2026-10-01-brand-studies/images/07-pip-v1.png" width="400" alt="Orange bird with a large plum beak and half-closed eye on lilac"></a><br><strong>Pip</strong><br><sub>Mascot app icon · Private voice notes</sub></td>
+    <td align="center" valign="top" width="50%"><a href="showcase/2026-10-01-brand-studies/images/08-spool-v1.png"><img src="showcase/2026-10-01-brand-studies/images/08-spool-v1.png" width="400" alt="Dimensional coral-orange spool with a loose thread end on blue"></a><br><strong>Spool</strong><br><sub>Soft 3D app icon · Craft project organizer</sub></td>
   </tr>
 </table>
 
-| Example | Use case | Saved native prompt |
-|---|---|---|
-| **mori** | Latin wordmark for plant subscription | [Prompt](showcase/2026-10-01-use-cases/prompts/01-mori.txt) |
-| **사이** | Hangul wordmark for reading club | [Prompt](showcase/2026-10-01-use-cases/prompts/02-sai.txt) |
-| **AL** | Integrated monogram for architecture studio | [Prompt](showcase/2026-10-01-use-cases/prompts/03-al.txt) |
-| **Tandem** | Abstract symbol for shared planning | [Prompt](showcase/2026-10-01-use-cases/prompts/04-tandem.txt) |
-| **pebble** | Symbol + wordmark for walking journal | [Prompt](showcase/2026-10-01-use-cases/prompts/05-pebble.txt) |
-| **Pip** | Character app icon for daily voice notes | [Prompt](showcase/2026-10-01-use-cases/prompts/06-pip.txt) |
+| Study | Intended use | Displayed original | Actual native request |
+|---|---|---|---|
+| **rillo** · Brush wordmark | Fruit soda packaging | [v2 PNG](showcase/2026-10-01-brand-studies/images/01-rillo-v2.png) | [Edit request](showcase/2026-10-01-brand-studies/prompts/01-rillo-v2.txt) |
+| **사이** · Hangul wordmark | Bookshop & listening room | [v2 PNG](showcase/2026-10-01-brand-studies/images/02-sai-v2.png) | [Edit request](showcase/2026-10-01-brand-studies/prompts/02-sai-v2.txt) |
+| **ALINE** · Editorial Roman wordmark | Architecture & craft journal | [v1 PNG](showcase/2026-10-01-brand-studies/images/03-aline-v1.png) | [Generation request](showcase/2026-10-01-brand-studies/prompts/03-aline-v1.txt) |
+| **TANDEM** · Symbol | Private conversation service | [v1 PNG](showcase/2026-10-01-brand-studies/images/04-tandem-v1.png) | [Generation request](showcase/2026-10-01-brand-studies/prompts/04-tandem-v1.txt) |
+| **AL** · Lettermark | Architecture studio | [v2 PNG](showcase/2026-10-01-brand-studies/images/05-al-v2.png) | [Edit request](showcase/2026-10-01-brand-studies/prompts/05-al-v2.txt) |
+| **RED HEN** · Pictorial mark | Neighborhood bakery | [v1 PNG](showcase/2026-10-01-brand-studies/images/06-red-hen-v1.png) | [Generation request](showcase/2026-10-01-brand-studies/prompts/06-red-hen-v1.txt) |
+| **Pip** · Mascot app icon | Private voice notes | [v1 PNG](showcase/2026-10-01-brand-studies/images/07-pip-v1.png) | [Generation request](showcase/2026-10-01-brand-studies/prompts/07-pip-v1.txt) |
+| **Spool** · Soft 3D app icon | Craft project organizer | [v1 PNG](showcase/2026-10-01-brand-studies/images/08-spool-v1.png) | [Generation request](showcase/2026-10-01-brand-studies/prompts/08-spool-v1.txt) |
 
-[Requests, originals and limitations](showcase/2026-10-01-use-cases/README.md) · [Offline HTML gallery](showcase/2026-10-01-use-cases/index.html)
+[HTML gallery](showcase/2026-10-01-brand-studies/index.html) · [Originals, prompts, parent edits and review records](showcase/2026-10-01-brand-studies/README.md)
 
-[Focused comparison after rejection](showcase/2026-10-01-pebble-study/README.md) · [Offline comparison](showcase/2026-10-01-pebble-study/index.html) — stopped without demonstrated overall design improvement; no candidate was adopted.
-
-The 0.10.0 source remains unreleased. Browser QA checked gallery usability only, not design acceptance. All brands are fictional, with no affiliation or trademark-clearance claim. Outputs are raster PNGs.
+rillo, 사이 and AL display native parent-based v2 edits. The source remains unreleased 0.10.0; these fictional studies do not imply user adoption, finished vectors or platform-specific app icon delivery.
 
 <a id="identity"></a><a id="current-logo-land-identity"></a>
 
@@ -52,7 +54,12 @@ Original game-title lettering: rounded, colorful lowercase **logopia** on white.
 
 ## Earlier outputs — preserved archive
 
-These images remain historical records. Rejection of the October experiments does not make earlier work a newly endorsed quality benchmark.
+Originals, requests and review outcomes remain attached to their historical collections.
+
+<a id="six-use-cases--october-1-2026"></a><a id="october-experiments--user-rejected-design-quality"></a>
+
+- [Earlier six October use-case experiments](showcase/2026-10-01-use-cases/README.md) · [Historical HTML](showcase/2026-10-01-use-cases/index.html): preserves the user's design-quality rejection with the original images and requests.
+- [Focused Pebble comparison](showcase/2026-10-01-pebble-study/README.md) · [Historical HTML](showcase/2026-10-01-pebble-study/index.html): stopped without demonstrated overall design improvement; no candidate was adopted.
 
 <a id="september-20-2026"></a><a id="everyday-identities--september-20-refresh"></a>
 

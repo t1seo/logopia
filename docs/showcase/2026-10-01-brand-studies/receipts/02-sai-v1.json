@@ -1,0 +1,26 @@
+{
+  "id": "02-sai",
+  "artifactId": "02-sai-v1",
+  "collectionCall": 2,
+  "status": "returned",
+  "tool": "image_gen.imagegen",
+  "reportedModel": null,
+  "mode": "generation",
+  "returnedFilename": "exec-f49a2048-adcb-4011-afc1-e35258a41408.png",
+  "image": "images/02-sai-v1.png",
+  "sha256": "92c9e5e89575fae3dae069f7b58cad70e328f5f7bf3bcd03a3622bba486f5b42",
+  "prompt": "prompts/02-sai-v1.txt",
+  "promptSha256": "abeb717e726aa391c870e20d84a27a17770cb02bff017683ba0074513f6e3bf8",
+  "imageFacts": {
+    "format": "PNG",
+    "width": 1774,
+    "height": 887,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixels": 1571570,
+    "visible_pixels": 311585
+  },
+  "processing": "Unchanged native original",
+  "intendedBackground": "opaque",
+  "actualAlphaMinimum": 0
+}

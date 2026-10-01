@@ -1,0 +1,27 @@
+{
+  "brand_name": "Pip",
+  "exact_text": "",
+  "industry": "Fictional private voice-note companion",
+  "audience": "People recording little observations in their own voice",
+  "logo_type": "symbol",
+  "background": "opaque",
+  "palette": [
+    "#FB7541",
+    "#302653",
+    "#C8BCEB"
+  ],
+  "concept_count": 1,
+  "use_cases": [
+    "앱 아이콘 · 작은 캐릭터 아바타"
+  ],
+  "app_icon": {
+    "preset": "ip_mascot",
+    "subject": "An expressive stout talking bird with a large curved beak",
+    "placement": "center",
+    "text": null
+  },
+  "assumptions": [
+    "Fictional brand study, not a customer commission",
+    "Color HEX values are intended roles, not exact sampled compliance"
+  ]
+}

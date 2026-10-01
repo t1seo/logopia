@@ -1,0 +1,599 @@
+{
+  "purpose": "Portable critique record, not a resumable helper workspace. Director selection is separate from loop readiness and user adoption.",
+  "brandLoops": [
+    {
+      "id": "01-rillo",
+      "directorSelection": "01-rillo-v2",
+      "loopStatus": "stopped",
+      "callsUsed": 2,
+      "critique": {
+        "request_number": 2,
+        "artifact_id": "01-rillo-v2",
+        "artifact_sha256": "d343d2654e9c5f89f5236a5c4d258e40054ddfc3492234373dbec0b1e8132887",
+        "reviewer": "Independent model critic brand_studies_critic inspected originals before prompts and final diagnostics; coordinator independently viewed diagnostics and mapped observations into the harness.",
+        "evidence": [
+          {
+            "id": "original",
+            "path": "../images/01-rillo-v2.png",
+            "sha256": "d343d2654e9c5f89f5236a5c4d258e40054ddfc3492234373dbec0b1e8132887",
+            "source_artifact_sha256": "d343d2654e9c5f89f5236a5c4d258e40054ddfc3492234373dbec0b1e8132887",
+            "kind": "original",
+            "description": "Unchanged native original inspected by independent critic and coordinator. Exact parent also inspected for edited versions."
+          },
+          {
+            "id": "small",
+            "path": "size-previews/01-rillo-32px-high.png",
+            "sha256": "e14e5789ccf5fc820620314409cc831df70118501dd7a9ea9e92a42c2b39aaa3",
+            "source_artifact_sha256": "d343d2654e9c5f89f5236a5c4d258e40054ddfc3492234373dbec0b1e8132887",
+            "kind": "target_size",
+            "target_width": 75,
+            "description": "Separate sips diagnostic: exterior margin crop and proportional downsample; directly opened at actual pixel size. Not a browser screenshot or application proof."
+          }
+        ],
+        "assessments": [
+          {
+            "criterion": "appropriateness",
+            "status": "pass",
+            "observation": "Broad r shoulder, large i dot, two low rising l forms and an open o form a coherent brush rhythm for fruit soda.",
+            "evidence_ids": [
+              "original"
+            ]
+          },
+          {
+            "criterion": "distinctiveness",
+            "status": "pass",
+            "observation": "Identifying relationships are described in the form observation; this is a reasoned design judgment, not tested recall or legal uniqueness.",
+            "evidence_ids": [
+              "original"
+            ]
+          },
+          {
+            "criterion": "form",
+            "status": "pass",
+            "observation": "Broad r shoulder, large i dot, two low rising l forms and an open o form a coherent brush rhythm for fruit soda.",
+            "evidence_ids": [
+              "original"
+            ]
+          },
+          {
+            "criterion": "optics",
+            "status": "pass",
+            "observation": "The letter rhythm and joining strokes remain coherent; background debris is removed in v2.",
+            "evidence_ids": [
+              "original",
+              "small"
+            ]
+          },
+          {
+            "criterion": "use_size",
+            "status": "pass",
+            "observation": "The exact lowercase rillo remains readable in the inspected 75 × 32 diagnostic.",
+            "evidence_ids": [
+              "small"
+            ]
+          },
+          {
+            "criterion": "versatility",
+            "status": "not_observed",
+            "observation": "HTML application panels exist, but final actual browser layout and context inspection were blocked by active user interaction. A scaled tile is not application evidence.",
+            "evidence_ids": []
+          },
+          {
+            "criterion": "scope",
+            "status": "pass",
+            "observation": "The requested exact text or text-free symbol is retained; selected master is fully opaque with no added slogan or mockup.",
+            "evidence_ids": [
+              "original"
+            ]
+          }
+        ],
+        "decision": "stop",
+        "reason": "Conclude this bounded raster showcase with a director-selected master. No further native correction is supported by the observed form; the unobserved application check prevents ready_for_user_review status.",
+        "preserve": [],
+        "changes": [],
+        "unresolved": [
+          "Actual application/browser visual inspection not observed; this is a study selection, not production readiness."
+        ],
+        "change_result": "improved",
+        "preservation_result": "pass"
+      }
+    },
+    {
+      "id": "02-sai",
+      "directorSelection": "02-sai-v2",
+      "loopStatus": "stopped",
+      "callsUsed": 2,
+      "critique": {
+        "request_number": 2,
+        "artifact_id": "02-sai-v2",
+        "artifact_sha256": "409b0f2c120429dc16977d9d6e96d3182e1ec2c0f0a2407ed82c48fe69f9d239",
+        "reviewer": "Independent model critic brand_studies_critic inspected originals before prompts and final diagnostics; coordinator independently viewed diagnostics and mapped observations into the harness.",
+        "evidence": [
+          {
+            "id": "original",
+            "path": "../images/02-sai-v2.png",
+            "sha256": "409b0f2c120429dc16977d9d6e96d3182e1ec2c0f0a2407ed82c48fe69f9d239",
+            "source_artifact_sha256": "409b0f2c120429dc16977d9d6e96d3182e1ec2c0f0a2407ed82c48fe69f9d239",
+            "kind": "original",
+            "description": "Unchanged native original inspected by independent critic and coordinator. Exact parent also inspected for edited versions."
+          },
+          {
+            "id": "small",
+            "path": "size-previews/02-sai-32px-high.png",
+            "sha256": "c3cd6d737e438a3ee763341e1cede02c1fb125b23f9a648f6eaf34b2a3d0cd37",
+            "source_artifact_sha256": "409b0f2c120429dc16977d9d6e96d3182e1ec2c0f0a2407ed82c48fe69f9d239",
+            "kind": "target_size",
+            "target_width": 99,
+            "description": "Separate sips diagnostic: exterior margin crop and proportional downsample; directly opened at actual pixel size. Not a browser screenshot or application proof."
+          }
+        ],
+        "assessments": [
+          {
+            "criterion": "appropriateness",
+            "status": "pass",
+            "observation": "Flared Hangul terminals, a long left ㅅ stroke and an open oval ㅇ give the bookshop name a substantial readable form.",
+            "evidence_ids": [
+              "original"
+            ]
+          },
+          {
+            "criterion": "distinctiveness",
+            "status": "pass",
+            "observation": "Identifying relationships are described in the form observation; this is a reasoned design judgment, not tested recall or legal uniqueness.",
+            "evidence_ids": [
+              "original"
+            ]
+          },
+          {
+            "criterion": "form",
+            "status": "pass",
+            "observation": "Flared Hangul terminals, a long left ㅅ stroke and an open oval ㅇ give the bookshop name a substantial readable form.",
+            "evidence_ids": [
+              "original"
+            ]
+          },
+          {
+            "criterion": "optics",
+            "status": "pass",
+            "observation": "The two syllables remain balanced; v2 retains their strokes and spacing while repairing the backing.",
+            "evidence_ids": [
+              "original",
+              "small"
+            ]
+          },
+          {
+            "criterion": "use_size",
+            "status": "pass",
+            "observation": "The two syllables 사이 and the open ㅇ remain readable at 32px height.",
+            "evidence_ids": [
+              "small"
+            ]
+          },
+          {
+            "criterion": "versatility",
+            "status": "not_observed",
+            "observation": "HTML application panels exist, but final actual browser layout and context inspection were blocked by active user interaction. A scaled tile is not application evidence.",
+            "evidence_ids": []
+          },
+          {
+            "criterion": "scope",
+            "status": "pass",
+            "observation": "The requested exact text or text-free symbol is retained; selected master is fully opaque with no added slogan or mockup.",
+            "evidence_ids": [
+              "original"
+            ]
+          }
+        ],
+        "decision": "stop",
+        "reason": "Conclude this bounded raster showcase with a director-selected master. No further native correction is supported by the observed form; the unobserved application check prevents ready_for_user_review status.",
+        "preserve": [],
+        "changes": [],
+        "unresolved": [
+          "Actual application/browser visual inspection not observed; this is a study selection, not production readiness."
+        ],
+        "change_result": "improved",
+        "preservation_result": "pass"
+      }
+    },
+    {
+      "id": "03-aline",
+      "directorSelection": "03-aline-v1",
+      "loopStatus": "stopped",
+      "callsUsed": 1,
+      "critique": {
+        "request_number": 1,
+        "artifact_id": "03-aline-v1",
+        "artifact_sha256": "3a004274975e85baccd8d029a53f9cd26c08ad29dfced6a22a8eaf72245ce4dd",
+        "reviewer": "Independent model critic brand_studies_critic inspected originals before prompts and final diagnostics; coordinator independently viewed diagnostics and mapped observations into the harness.",
+        "evidence": [
+          {
+            "id": "original",
+            "path": "../images/03-aline-v1.png",
+            "sha256": "3a004274975e85baccd8d029a53f9cd26c08ad29dfced6a22a8eaf72245ce4dd",
+            "source_artifact_sha256": "3a004274975e85baccd8d029a53f9cd26c08ad29dfced6a22a8eaf72245ce4dd",
+            "kind": "original",
+            "description": "Unchanged native original inspected by independent critic and coordinator. Exact parent also inspected for edited versions."
+          },
+          {
+            "id": "small",
+            "path": "size-previews/03-aline-32px-high.png",
+            "sha256": "e7deb94819ea9d0755f0dfc514f4e783df91d4fc2339cd15e275b0aa5aa4437c",
+            "source_artifact_sha256": "3a004274975e85baccd8d029a53f9cd26c08ad29dfced6a22a8eaf72245ce4dd",
+            "kind": "target_size",
+            "target_width": 137,
+            "description": "Separate sips diagnostic: exterior margin crop and proportional downsample; directly opened at actual pixel size. Not a browser screenshot or application proof."
+          }
+        ],
+        "assessments": [
+          {
+            "criterion": "appropriateness",
+            "status": "pass",
+            "observation": "Roman capitals share a coherent thick/thin stroke pattern and extended L/E terminals appropriate to an editorial study.",
+            "evidence_ids": [
+              "original"
+            ]
+          },
+          {
+            "criterion": "distinctiveness",
+            "status": "pass",
+            "observation": "Identifying relationships are described in the form observation; this is a reasoned design judgment, not tested recall or legal uniqueness.",
+            "evidence_ids": [
+              "original"
+            ]
+          },
+          {
+            "criterion": "form",
+            "status": "pass",
+            "observation": "Roman capitals share a coherent thick/thin stroke pattern and extended L/E terminals appropriate to an editorial study.",
+            "evidence_ids": [
+              "original"
+            ]
+          },
+          {
+            "criterion": "optics",
+            "status": "pass",
+            "observation": "Wine on mist separates the capitals; the fine A diagonal deserves attention in smaller or lower-contrast uses.",
+            "evidence_ids": [
+              "original",
+              "small"
+            ]
+          },
+          {
+            "criterion": "use_size",
+            "status": "pass",
+            "observation": "ALINE reads at 32px height; the thinnest strokes lose weight before the name loses readability.",
+            "evidence_ids": [
+              "small"
+            ]
+          },
+          {
+            "criterion": "versatility",
+            "status": "not_observed",
+            "observation": "HTML application panels exist, but final actual browser layout and context inspection were blocked by active user interaction. A scaled tile is not application evidence.",
+            "evidence_ids": []
+          },
+          {
+            "criterion": "scope",
+            "status": "pass",
+            "observation": "The requested exact text or text-free symbol is retained; selected master is fully opaque with no added slogan or mockup.",
+            "evidence_ids": [
+              "original"
+            ]
+          }
+        ],
+        "decision": "stop",
+        "reason": "Conclude this bounded raster showcase with a director-selected master. No further native correction is supported by the observed form; the unobserved application check prevents ready_for_user_review status.",
+        "preserve": [],
+        "changes": [],
+        "unresolved": [
+          "Actual application/browser visual inspection not observed; this is a study selection, not production readiness."
+        ],
+        "change_result": "initial",
+        "preservation_result": "not_observed"
+      }
+    },
+    {
+      "id": "04-tandem",
+      "directorSelection": "04-tandem-v1",
+      "loopStatus": "stopped",
+      "callsUsed": 1,
+      "critique": {
+        "request_number": 1,
+        "artifact_id": "04-tandem-v1",
+        "artifact_sha256": "4a46da077030480827752bcc31b74416d8b12212ba95a483f815b9d62db67944",
+        "reviewer": "Independent model critic brand_studies_critic inspected originals before prompts and final diagnostics; coordinator independently viewed diagnostics and mapped observations into the harness.",
+        "evidence": [
+          {
+            "id": "original",
+            "path": "../images/04-tandem-v1.png",
+            "sha256": "4a46da077030480827752bcc31b74416d8b12212ba95a483f815b9d62db67944",
+            "source_artifact_sha256": "4a46da077030480827752bcc31b74416d8b12212ba95a483f815b9d62db67944",
+            "kind": "original",
+            "description": "Unchanged native original inspected by independent critic and coordinator. Exact parent also inspected for edited versions."
+          },
+          {
+            "id": "small",
+            "path": "size-previews/04-tandem-48px-high.png",
+            "sha256": "39a6fdc7e1f8e6ec429a312497e728a78bbc245495ee93b8fb60d740d95e521d",
+            "source_artifact_sha256": "4a46da077030480827752bcc31b74416d8b12212ba95a483f815b9d62db67944",
+            "kind": "target_size",
+            "target_width": 47,
+            "description": "Separate sips diagnostic: exterior margin crop and proportional downsample; directly opened at actual pixel size. Not a browser screenshot or application proof."
+          }
+        ],
+        "assessments": [
+          {
+            "criterion": "appropriateness",
+            "status": "pass",
+            "observation": "Two comma-like masses and the central S-shaped interval support a conversational exchange without lettering.",
+            "evidence_ids": [
+              "original"
+            ]
+          },
+          {
+            "criterion": "distinctiveness",
+            "status": "pass",
+            "observation": "Identifying relationships are described in the form observation; this is a reasoned design judgment, not tested recall or legal uniqueness.",
+            "evidence_ids": [
+              "original"
+            ]
+          },
+          {
+            "criterion": "form",
+            "status": "pass",
+            "observation": "Two comma-like masses and the central S-shaped interval support a conversational exchange without lettering.",
+            "evidence_ids": [
+              "original"
+            ]
+          },
+          {
+            "criterion": "optics",
+            "status": "pass",
+            "observation": "The two masses remain balanced, with a continuous open interval between them.",
+            "evidence_ids": [
+              "original",
+              "small"
+            ]
+          },
+          {
+            "criterion": "use_size",
+            "status": "pass",
+            "observation": "Both masses and the separating curve remain identifiable at 48px height.",
+            "evidence_ids": [
+              "small"
+            ]
+          },
+          {
+            "criterion": "versatility",
+            "status": "not_observed",
+            "observation": "HTML application panels exist, but final actual browser layout and context inspection were blocked by active user interaction. A scaled tile is not application evidence.",
+            "evidence_ids": []
+          },
+          {
+            "criterion": "scope",
+            "status": "pass",
+            "observation": "The requested exact text or text-free symbol is retained; selected master is fully opaque with no added slogan or mockup.",
+            "evidence_ids": [
+              "original"
+            ]
+          }
+        ],
+        "decision": "stop",
+        "reason": "Conclude this bounded raster showcase with a director-selected master. No further native correction is supported by the observed form; the unobserved application check prevents ready_for_user_review status.",
+        "preserve": [],
+        "changes": [],
+        "unresolved": [
+          "Actual application/browser visual inspection not observed; this is a study selection, not production readiness."
+        ],
+        "change_result": "initial",
+        "preservation_result": "not_observed"
+      }
+    },
+    {
+      "id": "05-al",
+      "directorSelection": "05-al-v2",
+      "loopStatus": "stopped",
+      "callsUsed": 2,
+      "critique": {
+        "request_number": 2,
+        "artifact_id": "05-al-v2",
+        "artifact_sha256": "a5595a381c406b87061aa369a2bd9fee6acd4340c441eeef174ea57a8aff9d28",
+        "reviewer": "Independent model critic brand_studies_critic inspected originals before prompts and final diagnostics; coordinator independently viewed diagnostics and mapped observations into the harness.",
+        "evidence": [
+          {
+            "id": "original",
+            "path": "../images/05-al-v2.png",
+            "sha256": "a5595a381c406b87061aa369a2bd9fee6acd4340c441eeef174ea57a8aff9d28",
+            "source_artifact_sha256": "a5595a381c406b87061aa369a2bd9fee6acd4340c441eeef174ea57a8aff9d28",
+            "kind": "original",
+            "description": "Unchanged native original inspected by independent critic and coordinator. Exact parent also inspected for edited versions."
+          },
+          {
+            "id": "small",
+            "path": "size-previews/05-al-32px-high.png",
+            "sha256": "a90b3577275dcef929ae011fdc662cbd009a8a8952e9239747317f1fd0b8fce9",
+            "source_artifact_sha256": "a5595a381c406b87061aa369a2bd9fee6acd4340c441eeef174ea57a8aff9d28",
+            "kind": "target_size",
+            "target_width": 64,
+            "description": "Separate sips diagnostic: exterior margin crop and proportional downsample; directly opened at actual pixel size. Not a browser screenshot or application proof."
+          }
+        ],
+        "assessments": [
+          {
+            "criterion": "appropriateness",
+            "status": "pass",
+            "observation": "A broad serif A and a narrower L form readable separate initials for the architectural practice.",
+            "evidence_ids": [
+              "original"
+            ]
+          },
+          {
+            "criterion": "distinctiveness",
+            "status": "pass",
+            "observation": "Identifying relationships are described in the form observation; this is a reasoned design judgment, not tested recall or legal uniqueness.",
+            "evidence_ids": [
+              "original"
+            ]
+          },
+          {
+            "criterion": "form",
+            "status": "pass",
+            "observation": "A broad serif A and a narrower L form readable separate initials for the architectural practice.",
+            "evidence_ids": [
+              "original"
+            ]
+          },
+          {
+            "criterion": "optics",
+            "status": "pass",
+            "observation": "The edited lower gap is visibly open while stroke contrast, triangular A counter and curved L foot are preserved.",
+            "evidence_ids": [
+              "original",
+              "small"
+            ]
+          },
+          {
+            "criterion": "use_size",
+            "status": "pass",
+            "observation": "The letters remain separate and readable at 32px height; this is an AL lettermark, not an interlocking monogram.",
+            "evidence_ids": [
+              "small"
+            ]
+          },
+          {
+            "criterion": "versatility",
+            "status": "not_observed",
+            "observation": "HTML application panels exist, but final actual browser layout and context inspection were blocked by active user interaction. A scaled tile is not application evidence.",
+            "evidence_ids": []
+          },
+          {
+            "criterion": "scope",
+            "status": "pass",
+            "observation": "The requested exact text or text-free symbol is retained; selected master is fully opaque with no added slogan or mockup.",
+            "evidence_ids": [
+              "original"
+            ]
+          }
+        ],
+        "decision": "stop",
+        "reason": "Conclude this bounded raster showcase with a director-selected master. No further native correction is supported by the observed form; the unobserved application check prevents ready_for_user_review status.",
+        "preserve": [],
+        "changes": [],
+        "unresolved": [
+          "Actual application/browser visual inspection not observed; this is a study selection, not production readiness."
+        ],
+        "change_result": "improved",
+        "preservation_result": "pass"
+      }
+    },
+    {
+      "id": "06-red-hen",
+      "directorSelection": "06-red-hen-v1",
+      "loopStatus": "stopped",
+      "callsUsed": 1,
+      "critique": {
+        "request_number": 1,
+        "artifact_id": "06-red-hen-v1",
+        "artifact_sha256": "6e74528002b3aae991fb31ba1c2fa6e506d963a6150eef518bd4031ab42e6f1c",
+        "reviewer": "Independent model critic brand_studies_critic inspected originals before prompts and final diagnostics; coordinator independently viewed diagnostics and mapped observations into the harness.",
+        "evidence": [
+          {
+            "id": "original",
+            "path": "../images/06-red-hen-v1.png",
+            "sha256": "6e74528002b3aae991fb31ba1c2fa6e506d963a6150eef518bd4031ab42e6f1c",
+            "source_artifact_sha256": "6e74528002b3aae991fb31ba1c2fa6e506d963a6150eef518bd4031ab42e6f1c",
+            "kind": "original",
+            "description": "Unchanged native original inspected by independent critic and coordinator. Exact parent also inspected for edited versions."
+          },
+          {
+            "id": "small",
+            "path": "size-previews/06-red-hen-48px-high.png",
+            "sha256": "f8d07396acf5e8a3e1c44a34f4d14d956d29b9284a0356efac4652e5dc5ee2d9",
+            "source_artifact_sha256": "6e74528002b3aae991fb31ba1c2fa6e506d963a6150eef518bd4031ab42e6f1c",
+            "kind": "target_size",
+            "target_width": 45,
+            "description": "Separate sips diagnostic: exterior margin crop and proportional downsample; directly opened at actual pixel size. Not a browser screenshot or application proof."
+          }
+        ],
+        "assessments": [
+          {
+            "criterion": "appropriateness",
+            "status": "pass",
+            "observation": "A red bird body, three-part tail and dark eye/legs make a direct bakery pictorial mark.",
+            "evidence_ids": [
+              "original"
+            ]
+          },
+          {
+            "criterion": "distinctiveness",
+            "status": "pass",
+            "observation": "Identifying relationships are described in the form observation; this is a reasoned design judgment, not tested recall or legal uniqueness.",
+            "evidence_ids": [
+              "original"
+            ]
+          },
+          {
+            "criterion": "form",
+            "status": "pass",
+            "observation": "A red bird body, three-part tail and dark eye/legs make a direct bakery pictorial mark.",
+            "evidence_ids": [
+              "original"
+            ]
+          },
+          {
+            "criterion": "optics",
+            "status": "pass",
+            "observation": "The full silhouette is clear against sky blue; small eye and feet are supporting details, not the sole identifying feature.",
+            "evidence_ids": [
+              "original",
+              "small"
+            ]
+          },
+          {
+            "criterion": "use_size",
+            "status": "pass",
+            "observation": "The bird silhouette remains identifiable at 48px height; eye and foot details are weaker than the main body.",
+            "evidence_ids": [
+              "small"
+            ]
+          },
+          {
+            "criterion": "versatility",
+            "status": "not_observed",
+            "observation": "HTML application panels exist, but final actual browser layout and context inspection were blocked by active user interaction. A scaled tile is not application evidence.",
+            "evidence_ids": []
+          },
+          {
+            "criterion": "scope",
+            "status": "pass",
+            "observation": "The requested exact text or text-free symbol is retained; selected master is fully opaque with no added slogan or mockup.",
+            "evidence_ids": [
+              "original"
+            ]
+          }
+        ],
+        "decision": "stop",
+        "reason": "Conclude this bounded raster showcase with a director-selected master. No further native correction is supported by the observed form; the unobserved application check prevents ready_for_user_review status.",
+        "preserve": [],
+        "changes": [],
+        "unresolved": [
+          "Actual application/browser visual inspection not observed; this is a study selection, not production readiness."
+        ],
+        "change_result": "initial",
+        "preservation_result": "not_observed"
+      }
+    }
+  ],
+  "iconStudies": [
+    {
+      "id": "07-pip",
+      "workflow": "Existing icon-intent session; manual collection budget and independent review",
+      "observation": "큰 부리와 반쯤 감긴 눈이 특징인 캐릭터입니다. 56px와 32px에서 새의 실루엣은 유지되고, 작은 눈의 표정은 약해집니다."
+    },
+    {
+      "id": "08-spool",
+      "workflow": "Existing icon-intent session; manual collection budget and independent review",
+      "observation": "실패의 구멍과 감긴 실의 덩어리를 입체감으로 표현했습니다. 32px에서는 실 끝과 표면 질감이 약해집니다."
+    }
+  ]
+}

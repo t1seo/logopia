@@ -2,9 +2,24 @@
 
 [English](README.md) · [한국어](README.ko.md) · [문서](../README.ko.md) · [Logopia](../../README.ko.md)
 
-[**10월 실험 — 여섯 결과의 디자인 품질 거절 →**](../showcase/2026-10-01-use-cases/README.md) · [실험 갤러리](../gallery.ko.md#showcase) · [9월 20일 보관 보드](../showcase/2026-09-20-lifestyle/board.png)
+[**여덟 브랜드 스터디 →**](../showcase/2026-10-01-brand-studies/README.md) · [실제 이미지 갤러리](../gallery.ko.md#showcase) · [HTML 갤러리](../showcase/2026-10-01-brand-studies/index.html)
 
-사용자는 10월 실험 여섯 개에서 의미 있는 개선과 실사용 수준의 결과를 확인하지 못했습니다. 품질 개선은 입증되지 않았으며, 브라우저 QA는 갤러리 사용성만 확인했습니다. 아래 9월 컬렉션도 역사 자료이며 대안 품질 기준으로 추천하지 않습니다.
+## 여덟 브랜드 스터디 — 2026년 10월 1일
+
+가상 브랜드의 레터링·심볼·앱 아이콘 원본입니다. 정확한 프롬프트, rillo·사이·AL의 부모 편집과 검토 기록은 [컬렉션 문서](../showcase/2026-10-01-brand-studies/README.md)에 연결했습니다. 사용자 채택이나 완성된 벡터·플랫폼별 아이콘 패키지를 뜻하지 않습니다.
+
+| 스터디 | 유형 · 사용할 곳 | 표시 원본 |
+|---|---|---|
+| **rillo** | 브러시 워드마크 · 과일 소다 패키지 | [v2 PNG](../showcase/2026-10-01-brand-studies/images/01-rillo-v2.png) |
+| **사이** | 한글 워드마크 · 책방·음악 감상 공간 | [v2 PNG](../showcase/2026-10-01-brand-studies/images/02-sai-v2.png) |
+| **ALINE** | 에디토리얼 로만 워드마크 · 건축·공예 저널 | [v1 PNG](../showcase/2026-10-01-brand-studies/images/03-aline-v1.png) |
+| **TANDEM** | 심볼 · 일대일 대화 서비스 | [v1 PNG](../showcase/2026-10-01-brand-studies/images/04-tandem-v1.png) |
+| **AL** | 이니셜 마크 · 건축 스튜디오 | [v2 PNG](../showcase/2026-10-01-brand-studies/images/05-al-v2.png) |
+| **RED HEN** | 그림 심볼 · 동네 베이커리 | [v1 PNG](../showcase/2026-10-01-brand-studies/images/06-red-hen-v1.png) |
+| **Pip** | 마스코트 앱 아이콘 · 나만의 음성 메모 | [v1 PNG](../showcase/2026-10-01-brand-studies/images/07-pip-v1.png) |
+| **Spool** | 소프트 3D 앱 아이콘 · 공예 프로젝트 기록 | [v1 PNG](../showcase/2026-10-01-brand-studies/images/08-spool-v1.png) |
+
+[앞선 실험·갤러리 보관 자료](../gallery.ko.md#historical-outputs)에는 이전 결과와 당시 검토 상태를 보존했습니다.
 
 ## 9월 20일 생활 브랜드 컬렉션
 

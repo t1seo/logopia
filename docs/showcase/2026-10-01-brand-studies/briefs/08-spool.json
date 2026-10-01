@@ -1,0 +1,27 @@
+{
+  "brand_name": "Spool",
+  "exact_text": "",
+  "industry": "Fictional craft-project organizer for knitting and textile work",
+  "audience": "Makers recording projects, materials and unfinished ideas",
+  "logo_type": "symbol",
+  "background": "opaque",
+  "palette": [
+    "#F17849",
+    "#F5B690",
+    "#2B3D86"
+  ],
+  "concept_count": 1,
+  "use_cases": [
+    "앱 아이콘 · 프로젝트 라이브러리"
+  ],
+  "app_icon": {
+    "preset": "soft_3d",
+    "subject": "One coral-orange spool of thread with a single loose curved end",
+    "placement": "center",
+    "text": null
+  },
+  "assumptions": [
+    "Fictional brand study, not a customer commission",
+    "Color HEX values are intended roles, not exact sampled compliance"
+  ]
+}

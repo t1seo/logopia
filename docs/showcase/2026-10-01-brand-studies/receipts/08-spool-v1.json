@@ -1,0 +1,26 @@
+{
+  "id": "08-spool",
+  "artifactId": "08-spool-v1",
+  "collectionCall": 8,
+  "status": "returned",
+  "tool": "image_gen.imagegen",
+  "reportedModel": null,
+  "mode": "generation",
+  "returnedFilename": "exec-2fdef57b-1bf0-4edc-9892-abd227fb551c.png",
+  "image": "images/08-spool-v1.png",
+  "sha256": "cf65e2af1b116dd532b6bde333824a9154aa05011c880129584a6e9aa4e58904",
+  "prompt": "prompts/08-spool-v1.txt",
+  "promptSha256": "808a9720d1dec1705cf23ed5fa740d24ea6aa3b3c9b22863f331b58e58db199a",
+  "imageFacts": {
+    "format": "PNG",
+    "width": 1254,
+    "height": 1254,
+    "alpha_min": 255,
+    "alpha_max": 255,
+    "transparent_pixels": 0,
+    "visible_pixels": 1572516
+  },
+  "processing": "Unchanged native original",
+  "intendedBackground": "opaque",
+  "actualAlphaMinimum": 255
+}
