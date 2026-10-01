@@ -1,0 +1,21 @@
+{
+  "brand_name": "RED HEN",
+  "exact_text": "",
+  "industry": "Fictional neighborhood bakery making small batches each morning",
+  "audience": "Neighbors buying everyday bread",
+  "logo_type": "symbol",
+  "background": "opaque",
+  "palette": [
+    "#E83E2D",
+    "#4A263B",
+    "#D7EAF3"
+  ],
+  "concept_count": 1,
+  "use_cases": [
+    "빵 봉투 · 매장 사인 · 스티커"
+  ],
+  "assumptions": [
+    "Fictional brand study, not a customer commission",
+    "Color HEX values are intended roles, not exact sampled compliance"
+  ]
+}

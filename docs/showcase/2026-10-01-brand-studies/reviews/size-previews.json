@@ -1,0 +1,191 @@
+{
+  "purpose": "Small-size diagnostic PNG rendering only; not edited logo masters, background correction, design changes or delivery assets.",
+  "tool": "sips-316",
+  "method": "Aspect-preserving target height for cropped brand marks; whole original square resampled to 56 and 32 pixels for icons. No Python image edits.",
+  "sourceOriginalsUnchanged": true,
+  "visualInspection": {
+    "method": "Each diagnostic PNG directly opened with view_image at original detail",
+    "small_size": "observed",
+    "browser_rendering": "not_observed",
+    "app_context_versatility": "not_observed",
+    "limits": "Known expected names were visible to the reviewer; this is not a blind readability study, browser screenshot, physical-device proof or final brand approval."
+  },
+  "images": [
+    {
+      "id": "01-rillo",
+      "sourceImage": "../images/01-rillo-v2.png",
+      "sourceSha256": "d343d2654e9c5f89f5236a5c4d258e40054ddfc3492234373dbec0b1e8132887",
+      "image": "size-previews/01-rillo-32px-high.png",
+      "sha256": "e14e5789ccf5fc820620314409cc831df70118501dd7a9ea9e92a42c2b39aaa3",
+      "width": 75,
+      "height": 32,
+      "sourceBounds": [
+        270,
+        170,
+        1506,
+        693
+      ],
+      "croppedExteriorMargins": true
+    },
+    {
+      "id": "02-sai",
+      "sourceImage": "../images/02-sai-v2.png",
+      "sourceSha256": "409b0f2c120429dc16977d9d6e96d3182e1ec2c0f0a2407ed82c48fe69f9d239",
+      "image": "size-previews/02-sai-32px-high.png",
+      "sha256": "c3cd6d737e438a3ee763341e1cede02c1fb125b23f9a648f6eaf34b2a3d0cd37",
+      "width": 99,
+      "height": 32,
+      "sourceBounds": [
+        392,
+        283,
+        1381,
+        602
+      ],
+      "croppedExteriorMargins": true
+    },
+    {
+      "id": "03-aline",
+      "sourceImage": "../images/03-aline-v1.png",
+      "sourceSha256": "3a004274975e85baccd8d029a53f9cd26c08ad29dfced6a22a8eaf72245ce4dd",
+      "image": "size-previews/03-aline-32px-high.png",
+      "sha256": "e7deb94819ea9d0755f0dfc514f4e783df91d4fc2339cd15e275b0aa5aa4437c",
+      "width": 137,
+      "height": 32,
+      "sourceBounds": [
+        246,
+        292,
+        1532,
+        592
+      ],
+      "croppedExteriorMargins": true
+    },
+    {
+      "id": "04-tandem",
+      "sourceImage": "../images/04-tandem-v1.png",
+      "sourceSha256": "4a46da077030480827752bcc31b74416d8b12212ba95a483f815b9d62db67944",
+      "image": "size-previews/04-tandem-48px-high.png",
+      "sha256": "39a6fdc7e1f8e6ec429a312497e728a78bbc245495ee93b8fb60d740d95e521d",
+      "width": 47,
+      "height": 48,
+      "sourceBounds": [
+        240,
+        236,
+        1013,
+        1018
+      ],
+      "croppedExteriorMargins": true
+    },
+    {
+      "id": "05-al",
+      "sourceImage": "../images/05-al-v2.png",
+      "sourceSha256": "a5595a381c406b87061aa369a2bd9fee6acd4340c441eeef174ea57a8aff9d28",
+      "image": "size-previews/05-al-32px-high.png",
+      "sha256": "a90b3577275dcef929ae011fdc662cbd009a8a8952e9239747317f1fd0b8fce9",
+      "width": 64,
+      "height": 32,
+      "sourceBounds": [
+        150,
+        381,
+        1100,
+        857
+      ],
+      "croppedExteriorMargins": true
+    },
+    {
+      "id": "05-al-parent-v1",
+      "sourceImage": "../images/05-al-v1.png",
+      "sourceSha256": "9d22de45882f07d4b0cf8c03c42a0a97a5fea3f5f07be32946c493f6fb9717c1",
+      "image": "size-previews/05-al-v1-32px-high.png",
+      "sha256": "5d0fe252fecac928cd9a12834608a0636d630a31a5afac78d8e31b01cfe92bcf",
+      "width": 61,
+      "height": 32,
+      "sourceBounds": [
+        178,
+        381,
+        1083,
+        856
+      ],
+      "croppedExteriorMargins": true
+    },
+    {
+      "id": "06-red-hen",
+      "sourceImage": "../images/06-red-hen-v1.png",
+      "sourceSha256": "6e74528002b3aae991fb31ba1c2fa6e506d963a6150eef518bd4031ab42e6f1c",
+      "image": "size-previews/06-red-hen-48px-high.png",
+      "sha256": "f8d07396acf5e8a3e1c44a34f4d14d956d29b9284a0356efac4652e5dc5ee2d9",
+      "width": 45,
+      "height": 48,
+      "sourceBounds": [
+        186,
+        152,
+        1089,
+        1119
+      ],
+      "croppedExteriorMargins": true
+    },
+    {
+      "id": "07-pip",
+      "sourceImage": "../images/07-pip-v1.png",
+      "sourceSha256": "82d40ac3463041cfb6972889049311041dcf591013af5482429a7a2bd9ab63ae",
+      "image": "size-previews/07-pip-32px-square.png",
+      "sha256": "379a71657edfb08589662b31ecf31bc39ffda9ad8150e7ee1ef6f7540f2b8b68",
+      "width": 32,
+      "height": 32,
+      "sourceBounds": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "croppedExteriorMargins": false
+    },
+    {
+      "id": "07-pip",
+      "sourceImage": "../images/07-pip-v1.png",
+      "sourceSha256": "82d40ac3463041cfb6972889049311041dcf591013af5482429a7a2bd9ab63ae",
+      "image": "size-previews/07-pip-56px-square.png",
+      "sha256": "fac70244f3d93ee1f8c0fea6eef660e104851ecc80bf5f46909e43fbf79c66c3",
+      "width": 56,
+      "height": 56,
+      "sourceBounds": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "croppedExteriorMargins": false
+    },
+    {
+      "id": "08-spool",
+      "sourceImage": "../images/08-spool-v1.png",
+      "sourceSha256": "cf65e2af1b116dd532b6bde333824a9154aa05011c880129584a6e9aa4e58904",
+      "image": "size-previews/08-spool-32px-square.png",
+      "sha256": "1c0d78d4ac3eee1ba6d2ddcef38255b84a8791e9dd792e01b9d46299442eb314",
+      "width": 32,
+      "height": 32,
+      "sourceBounds": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "croppedExteriorMargins": false
+    },
+    {
+      "id": "08-spool",
+      "sourceImage": "../images/08-spool-v1.png",
+      "sourceSha256": "cf65e2af1b116dd532b6bde333824a9154aa05011c880129584a6e9aa4e58904",
+      "image": "size-previews/08-spool-56px-square.png",
+      "sha256": "d21155b3801be20edf7ad8fa17dbd31842a75e593d680554d3f0bf1a27dadd37",
+      "width": 56,
+      "height": 56,
+      "sourceBounds": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "croppedExteriorMargins": false
+    }
+  ]
+}

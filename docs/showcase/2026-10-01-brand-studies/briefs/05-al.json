@@ -1,0 +1,20 @@
+{
+  "brand_name": "AL",
+  "exact_text": "AL",
+  "industry": "Fictional small residential architecture practice",
+  "audience": "Owners of small homes and renovation projects",
+  "logo_type": "lettermark",
+  "background": "opaque",
+  "palette": [
+    "#173F34",
+    "#F3CDD5"
+  ],
+  "concept_count": 1,
+  "use_cases": [
+    "프로젝트 표지 · 스튜디오 프로필"
+  ],
+  "assumptions": [
+    "Fictional brand study, not a customer commission",
+    "Color HEX values are intended roles, not exact sampled compliance"
+  ]
+}

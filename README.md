@@ -20,50 +20,34 @@
   <a href="README.md">English</a> · <a href="README.ko.md">한국어</a> · <a href="docs/hermes.md">Hermes</a> · <a href="#installation">Codex setup</a> · <a href="docs/gallery.md">Gallery</a> · <a href="docs/README.md">Docs</a>
 </p>
 
-<a id="samples"></a><a id="ten-real-samples"></a><a id="transparent-background-logos"></a><a id="use-cases"></a>
+<a id="samples"></a><a id="ten-real-samples"></a><a id="transparent-background-logos"></a><a id="use-cases"></a><a id="brand-studies"></a>
 
-<a id="six-ways-to-use-logopia"></a>
+## Eight brand studies
 
-## October experiments — design quality rejected
-
-**The user rejected all six results on design quality, finding no meaningful improvement and no production-ready result.** Output-quality improvement remains unproven. The originals, requests and revision history are preserved as experiment records.
-
-<details>
-<summary>Inspect the six rejected experiments (original PNGs)</summary>
+Brush lettering, Hangul, Roman capitals, symbols and app icons, each made for a different fictional brand and use. **Click any image to open its actual original PNG.**
 
 <table>
   <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/01-mori.png"><img src="docs/showcase/2026-10-01-use-cases/images/01-mori.png" width="400" alt="mori in rounded forest-green lowercase letters with a lime dot"></a><br><strong>mori</strong><br><sub>Latin wordmark · Plant subscription</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/02-sai.png"><img src="docs/showcase/2026-10-01-use-cases/images/02-sai.png" width="400" alt="사이 in rounded cobalt and coral Hangul on white"></a><br><strong>사이</strong><br><sub>Hangul wordmark · Reading club</sub></td>
+    <td align="center" valign="top" width="50%"><a href="docs/showcase/2026-10-01-brand-studies/images/01-rillo-v2.png"><img src="docs/showcase/2026-10-01-brand-studies/images/01-rillo-v2.png" width="400" alt="Red-orange brush lettering spelling rillo on pale pink"></a><br><strong>rillo</strong><br><sub>Brush wordmark · Fruit soda packaging</sub></td>
+    <td align="center" valign="top" width="50%"><a href="docs/showcase/2026-10-01-brand-studies/images/02-sai-v2.png"><img src="docs/showcase/2026-10-01-brand-studies/images/02-sai-v2.png" width="400" alt="Cobalt Hangul 사이 with flared stroke ends on yellow"></a><br><strong>사이</strong><br><sub>Hangul wordmark · Bookshop &amp; listening room</sub></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/03-al.png"><img src="docs/showcase/2026-10-01-use-cases/images/03-al.png" width="400" alt="Indigo serif A and L sharing one structure on lilac"></a><br><strong>AL</strong><br><sub>Integrated monogram · Architecture studio</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/04-tandem.png"><img src="docs/showcase/2026-10-01-use-cases/images/04-tandem.png" width="400" alt="Two teal and cobalt curved forms around open white space, without text"></a><br><strong>Tandem</strong><br><sub>Abstract symbol · Shared planning</sub></td>
+    <td align="center" valign="top" width="50%"><a href="docs/showcase/2026-10-01-brand-studies/images/03-aline-v1.png"><img src="docs/showcase/2026-10-01-brand-studies/images/03-aline-v1.png" width="400" alt="Plum Roman-style capital letters ALINE on pale blue"></a><br><strong>ALINE</strong><br><sub>Editorial Roman wordmark · Architecture &amp; craft journal</sub></td>
+    <td align="center" valign="top" width="50%"><a href="docs/showcase/2026-10-01-brand-studies/images/04-tandem-v1.png"><img src="docs/showcase/2026-10-01-brand-studies/images/04-tandem-v1.png" width="400" alt="Two opposing peach comma-like shapes on cobalt, with no lettering"></a><br><strong>TANDEM</strong><br><sub>Symbol · Private conversation service</sub></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/05-pebble.png"><img src="docs/showcase/2026-10-01-use-cases/images/05-pebble.png" width="400" alt="Terracotta pebble with a white path beside the lowercase plum word pebble"></a><br><strong>pebble</strong><br><sub>Symbol + wordmark · Walking journal</sub></td>
-    <td align="center" width="50%"><a href="docs/showcase/2026-10-01-use-cases/images/06-pip.png"><img src="docs/showcase/2026-10-01-use-cases/images/06-pip.png" width="400" alt="Orange bird with a plum eye and beak in the lower-right of a lilac square"></a><br><strong>Pip</strong><br><sub>Character app icon · Daily voice notes</sub></td>
+    <td align="center" valign="top" width="50%"><a href="docs/showcase/2026-10-01-brand-studies/images/05-al-v2.png"><img src="docs/showcase/2026-10-01-brand-studies/images/05-al-v2.png" width="400" alt="Separate dark-green serif letters A and L on pink"></a><br><strong>AL</strong><br><sub>Lettermark · Architecture studio</sub></td>
+    <td align="center" valign="top" width="50%"><a href="docs/showcase/2026-10-01-brand-studies/images/06-red-hen-v1.png"><img src="docs/showcase/2026-10-01-brand-studies/images/06-red-hen-v1.png" width="400" alt="Red hen silhouette with a plum eye and feet on pale blue"></a><br><strong>RED HEN</strong><br><sub>Pictorial mark · Neighborhood bakery</sub></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="50%"><a href="docs/showcase/2026-10-01-brand-studies/images/07-pip-v1.png"><img src="docs/showcase/2026-10-01-brand-studies/images/07-pip-v1.png" width="400" alt="Orange bird with a large plum beak and half-closed eye on lilac"></a><br><strong>Pip</strong><br><sub>Mascot app icon · Private voice notes</sub></td>
+    <td align="center" valign="top" width="50%"><a href="docs/showcase/2026-10-01-brand-studies/images/08-spool-v1.png"><img src="docs/showcase/2026-10-01-brand-studies/images/08-spool-v1.png" width="400" alt="Dimensional coral-orange spool with a loose thread end on blue"></a><br><strong>Spool</strong><br><sub>Soft 3D app icon · Craft project organizer</sub></td>
   </tr>
 </table>
 
-</details>
+[Eight-study HTML gallery](docs/showcase/2026-10-01-brand-studies/index.html) · [Originals, exact prompts, edit history and review records](docs/showcase/2026-10-01-brand-studies/README.md)
 
-The short requests below remain examples of how to specify a task. Their resulting designs were not accepted. The [experiment record](docs/showcase/2026-10-01-use-cases/README.md) links the complete saved requests sent to the image tool.
-
-| Example | Request example |
-|---|---|
-| **mori** · Latin wordmark | Create a wordmark using the exact lowercase text mori for a plant subscription. Use forest green and lime; make the letters the design, with no separate icon. |
-| **사이** · Hangul wordmark | Create a Hangul wordmark for a reading club using only the exact text 사이. Use cobalt and coral, with clear, friendly letterforms. |
-| **AL** · Integrated monogram | Create one integrated AL monogram for an architecture studio in indigo. Keep both exact initials recognizable within a shared structure. |
-| **Tandem** · Abstract symbol | Create a symbol for a shared planning service using teal and cobalt. Express coordination through one compact mark, with no lettering. |
-| **pebble** · Symbol + wordmark | Create a symbol and wordmark for a walking journal using the exact lowercase text pebble. Pair terracotta with deep plum and keep the lockup simple. |
-| **Pip** · Character app icon | Create one app icon for a voice-note companion with one friendly flat orange bird on a lilac background. Use a bold, simple silhouette and no text. |
-
-[Rejected experiments, requests and limitations](docs/showcase/2026-10-01-use-cases/README.md) · [Offline HTML gallery](docs/showcase/2026-10-01-use-cases/index.html) · [Full gallery](docs/gallery.md#showcase)
-
-[Focused comparison after rejection](docs/showcase/2026-10-01-pebble-study/README.md) · [Offline comparison](docs/showcase/2026-10-01-pebble-study/index.html) — stopped without demonstrated overall design improvement; no candidate was adopted.
-
-Browser QA checked gallery usability only; it did not establish design quality or user acceptance. All brands are fictional experiment subjects. September material remains a historical archive, not a newly endorsed quality benchmark.
+rillo, 사이 and AL show native parent-based v2 edits; the others show v1. These are fictional raster studies, not user-adopted identities or finished vector deliverables.
 
 <a id="hermes-workflow"></a>
 
@@ -118,7 +102,7 @@ Latest release: **[0.8.0](https://github.com/t1seo/logopia/releases/tag/v0.8.0)*
 
 **Start with the letters.** A wordmark makes the brand name itself the logo. Describe the shape, rhythm and feeling you want; ask for the exact spelling you need.
 
-> $logo-land Create a chunky, playful wordmark for LOOP LAB. Use several bright colors, rounded letterforms and lively spacing. Keep the exact text LOOP LAB, with no extra icon or slogan.
+> $logo-land Create a wordmark for fruit soda brand rillo. Use the exact lowercase text rillo in red-orange brush lettering on pale pink, keeping the two l letters distinct.
 
 > $logo-land Create an original game-title logo for logopia. Use the exact lowercase text logopia, rounded multicolor letters and a sticker-like outline on a white background.
 
@@ -126,9 +110,9 @@ Latest release: **[0.8.0](https://github.com/t1seo/logopia/releases/tag/v0.8.0)*
 
 **Or build a compact mark.**
 
-> $logo-land Create a geometric monogram for NORTHLINE using only the exact initials NL. Share one vertical stroke between the letters and keep both letters readable.
+> $logo-land Create an AL lettermark for an architecture studio in dark green on pink. Balance the stroke weight and spacing while keeping both initials individually readable.
 
-> $logo-land Create one app icon of a little owl reading a book. Use a simple, chunky character in the lower-right corner, two character colors and one solid background. No lettering.
+> $logo-land Create a Pip voice-note app icon with one orange-and-plum bird, a large curved beak and a lilac background. Include no lettering.
 
 <a id="six-app-icon-directions"></a><a id="choose-colors-in-four-ways"></a><a id="pair-a-symbol-with-exact-lettering"></a><a id="eight-logo-types"></a><a id="revisions-and-delivery"></a>
 
@@ -149,6 +133,10 @@ Describe what your brand should mean, choose a shape that fits, then refine its 
 Results are **raster PNGs**. Reviewed exports can include the original PNG, a ZIP and a short brand guide. Editable vectors and font files are separate work; a font name describes a visual reference. App icon artwork needs platform-specific preparation, and transparent backgrounds need an explicit request and verification.
 
 [Lettering guide](skills/logo-land/references/lettering.md) · [Compare and refine](skills/logo-land/references/comparison-workflow.md) · [Colors and lettering](docs/colors/README.md) · [Transparent PNG example](docs/samples/transparency.md) · [Earlier sample archive](docs/gallery.md#historical-outputs)
+
+<a id="six-ways-to-use-logopia"></a><a id="october-experiments--design-quality-rejected"></a>
+
+The [historical experiments and galleries](docs/gallery.md#historical-outputs) preserve the earlier six-result quality rejection and the Pebble comparison that stopped without demonstrated overall improvement.
 
 <a id="research-and-verification"></a>
 

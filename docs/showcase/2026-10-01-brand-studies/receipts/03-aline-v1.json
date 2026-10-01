@@ -1,0 +1,26 @@
+{
+  "id": "03-aline",
+  "artifactId": "03-aline-v1",
+  "collectionCall": 3,
+  "status": "returned",
+  "tool": "image_gen.imagegen",
+  "reportedModel": null,
+  "mode": "generation",
+  "returnedFilename": "exec-0ad9baad-3d65-497a-bab0-a9d8bcc2c358.png",
+  "image": "images/03-aline-v1.png",
+  "sha256": "3a004274975e85baccd8d029a53f9cd26c08ad29dfced6a22a8eaf72245ce4dd",
+  "prompt": "prompts/03-aline-v1.txt",
+  "promptSha256": "7e14e139b9f9ac23fca18dc878d71971597d8fe1204bbb2dc00c586e991f739b",
+  "imageFacts": {
+    "format": "PNG",
+    "width": 1774,
+    "height": 887,
+    "alpha_min": 255,
+    "alpha_max": 255,
+    "transparent_pixels": 0,
+    "visible_pixels": 1573538
+  },
+  "processing": "Unchanged native original",
+  "intendedBackground": "opaque",
+  "actualAlphaMinimum": 255
+}

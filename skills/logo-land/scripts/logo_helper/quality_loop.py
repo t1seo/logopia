@@ -46,7 +46,12 @@ def _expect(store: Store, identifier: str, revision: int) -> QualityLoop:
 
 
 def request_step(
-    store: Store, identifier: str, revision: int, *, direction_id: str | None = None
+    store: Store,
+    identifier: str,
+    revision: int,
+    *,
+    direction_id: str | None = None,
+    prompt_override: str | None = None,
 ) -> QualityLoop:
     """Charge one call durably before the host can submit its exact native input."""
     with lock_loop(store, identifier):
@@ -59,7 +64,9 @@ def request_step(
             raise ProjectError("loop_terminal", f"No further calls: {state.status}")
         with store.locked(state.contract.session_id):
             source = store.load(state.contract.session_id)
-            direction, native_input = compile_input(store, state, source, direction_id)
+            direction, native_input = compile_input(
+                store, state, source, direction_id, prompt_override=prompt_override
+            )
             parent = (
                 source.artifact(native_input.parent_id)
                 if native_input.parent_id is not None

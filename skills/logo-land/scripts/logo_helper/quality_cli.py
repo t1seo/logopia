@@ -73,9 +73,16 @@ def loop_request_command(
     loop: LoopOption,
     revision: RevisionOption,
     direction: Annotated[str | None, typer.Option("--direction")] = None,
+    prompt_file: Annotated[
+        Path | None,
+        typer.Option("--prompt-file", help="Reserve this exact UTF-8 native prompt."),
+    ] = None,
 ) -> None:
     """Reserve one call and save its exact prompt and parent before host dispatch."""
-    result = request_step(store_from(ctx), loop, revision, direction_id=direction)
+    prompt_override = read_source(prompt_file).decode("utf-8") if prompt_file is not None else None
+    result = request_step(
+        store_from(ctx), loop, revision, direction_id=direction, prompt_override=prompt_override
+    )
     _echo_loop(result)
 
 

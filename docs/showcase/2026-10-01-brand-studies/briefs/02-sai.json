@@ -1,0 +1,20 @@
+{
+  "brand_name": "사이",
+  "exact_text": "사이",
+  "industry": "Fictional independent bookshop and evening listening room",
+  "audience": "Local readers and listeners",
+  "logo_type": "wordmark",
+  "background": "opaque",
+  "palette": [
+    "#183CCB",
+    "#FFDC46"
+  ],
+  "concept_count": 1,
+  "use_cases": [
+    "책방 간판 · 북마크 · 프로그램 포스터"
+  ],
+  "assumptions": [
+    "Fictional brand study, not a customer commission",
+    "Color HEX values are intended roles, not exact sampled compliance"
+  ]
+}

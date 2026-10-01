@@ -1,0 +1,20 @@
+{
+  "brand_name": "rillo",
+  "exact_text": "rillo",
+  "industry": "Fictional small-batch fruit soda",
+  "audience": "Independent-grocer customers seeking a lively grown-up soda",
+  "logo_type": "wordmark",
+  "background": "opaque",
+  "palette": [
+    "#ED492B",
+    "#FFE2ED"
+  ],
+  "concept_count": 1,
+  "use_cases": [
+    "음료 패키지 · 모바일 상품 헤더"
+  ],
+  "assumptions": [
+    "Fictional brand study, not a customer commission",
+    "Color HEX values are intended roles, not exact sampled compliance"
+  ]
+}

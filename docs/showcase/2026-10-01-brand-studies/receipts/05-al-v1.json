@@ -1,0 +1,26 @@
+{
+  "id": "05-al",
+  "artifactId": "05-al-v1",
+  "collectionCall": 5,
+  "status": "returned",
+  "tool": "image_gen.imagegen",
+  "reportedModel": null,
+  "mode": "generation",
+  "returnedFilename": "exec-140a82eb-613a-45e1-af7c-c67e527ccb87.png",
+  "image": "images/05-al-v1.png",
+  "sha256": "9d22de45882f07d4b0cf8c03c42a0a97a5fea3f5f07be32946c493f6fb9717c1",
+  "prompt": "prompts/05-al-v1.txt",
+  "promptSha256": "33eb87ee13b0777bff387f9a1b1a92f5683852785e019ff35b5e22d19913c8f3",
+  "imageFacts": {
+    "format": "PNG",
+    "width": 1254,
+    "height": 1254,
+    "alpha_min": 255,
+    "alpha_max": 255,
+    "transparent_pixels": 0,
+    "visible_pixels": 1572516
+  },
+  "processing": "Unchanged native original",
+  "intendedBackground": "opaque",
+  "actualAlphaMinimum": 255
+}

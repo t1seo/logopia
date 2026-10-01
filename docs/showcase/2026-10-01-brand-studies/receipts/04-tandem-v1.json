@@ -1,0 +1,26 @@
+{
+  "id": "04-tandem",
+  "artifactId": "04-tandem-v1",
+  "collectionCall": 4,
+  "status": "returned",
+  "tool": "image_gen.imagegen",
+  "reportedModel": null,
+  "mode": "generation",
+  "returnedFilename": "exec-1703c4b7-0f63-441d-aca3-8abc529292fc.png",
+  "image": "images/04-tandem-v1.png",
+  "sha256": "4a46da077030480827752bcc31b74416d8b12212ba95a483f815b9d62db67944",
+  "prompt": "prompts/04-tandem-v1.txt",
+  "promptSha256": "c0d36ecb9907cecf771cc4cc44f04e6dfdd67a68ecf9f4778a5bb92908f190db",
+  "imageFacts": {
+    "format": "PNG",
+    "width": 1254,
+    "height": 1254,
+    "alpha_min": 255,
+    "alpha_max": 255,
+    "transparent_pixels": 0,
+    "visible_pixels": 1572516
+  },
+  "processing": "Unchanged native original",
+  "intendedBackground": "opaque",
+  "actualAlphaMinimum": 255
+}

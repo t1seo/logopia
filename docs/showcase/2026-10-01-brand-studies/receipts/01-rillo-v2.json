@@ -1,0 +1,28 @@
+{
+  "id": "01-rillo",
+  "artifactId": "01-rillo-v2",
+  "collectionCall": 9,
+  "status": "returned",
+  "tool": "image_gen.imagegen",
+  "reportedModel": null,
+  "mode": "edit",
+  "parentArtifactId": "01-rillo-v1",
+  "parentSha256": "2b486055f69c2bf25b7cccba5462e449386a6c14cbf41b905dc3dfc339cb8964",
+  "returnedFilename": "exec-cd7a478e-b667-477b-99ee-ea4c607b5b77.png",
+  "image": "images/01-rillo-v2.png",
+  "sha256": "d343d2654e9c5f89f5236a5c4d258e40054ddfc3492234373dbec0b1e8132887",
+  "prompt": "prompts/01-rillo-v2.txt",
+  "promptSha256": "e95beb3280ae4582e70b3eb1baaf1fb5c6c4a395402e4ae605752656a2cc1be1",
+  "imageFacts": {
+    "format": "PNG",
+    "width": 1774,
+    "height": 887,
+    "alpha_min": 255,
+    "alpha_max": 255,
+    "transparent_pixels": 0,
+    "visible_pixels": 1573538
+  },
+  "processing": "Unchanged native original",
+  "intendedBackground": "opaque",
+  "actualAlphaMinimum": 255
+}

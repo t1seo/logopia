@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="여덟 가상 브랜드의 레터링, 심볼, 캐릭터와 입체 아이콘. 실제 원본과 작은 사용 맥락을 함께 살펴보는 디자인 스터디입니다.">
+  <title>Brand studies · Logopia</title>
+  <style>
+    :root { color-scheme: light; --paper: #f8f7f4; --ink: #272b2a; --muted: #6d716e; --line: #d9dcd5; --green: #234d3e; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--paper); font: 14px/1.6 "Avenir Next", "Apple SD Gothic Neo", sans-serif; }
+    a { color: inherit; text-underline-offset: 4px; }
+    button { font: inherit; cursor: pointer; }
+    a:hover { text-decoration-thickness: 2px; }
+    :focus-visible { outline: 2px solid var(--green); outline-offset: 5px; }
+    [hidden] { display: none !important; }
+    .skip { position: absolute; left: 20px; top: -80px; z-index: 4; background: white; padding: 12px 18px; }
+    .skip:focus { top: 16px; }
+    .shell { width: min(100% - 88px, 1640px); margin: auto; }
+    .masthead { min-height: 84px; display: flex; align-items: center; justify-content: space-between; gap: 24px; border-bottom: 1px solid var(--line); }
+    .wordmark { font: 500 29px/1 Georgia, serif; letter-spacing: -.075em; text-decoration: none; }
+    .masthead p { margin: 0; font-size: 11px; letter-spacing: .09em; text-transform: uppercase; }
+    .hero { display: grid; grid-template-columns: 1.3fr 1fr; align-items: end; gap: 72px; padding: 66px 0 44px; }
+    .eyebrow { margin: 0 0 20px; color: var(--green); font-size: 11px; font-weight: 650; letter-spacing: .1em; text-transform: uppercase; }
+    h1 { margin: 0; font: 400 clamp(45px, 5.5vw, 80px)/1.03 Georgia, "Apple SD Gothic Neo", serif; letter-spacing: -.055em; text-wrap: balance; }
+    .hero-copy { max-width: 540px; justify-self: end; }
+    .hero-copy > p { margin: 0 0 14px; font-size: 16px; line-height: 1.8; word-break: keep-all; }
+    .hero-copy .scope { margin-bottom: 0; color: var(--muted); font-size: 12px; }
+    .toolbar { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; border-top: 1px solid var(--ink); padding: 19px 0 27px; }
+    .filters { display: flex; flex-wrap: wrap; gap: 5px; }
+    .filters button { background: transparent; color: var(--muted); border: 0; padding: 9px 14px; min-height: 42px; border-radius: 2px; }
+    .filters button:first-child { margin-left: -14px; }
+    .filters button[aria-pressed="true"] { color: var(--ink); background: #e8ebe4; }
+    .filters button:hover { color: var(--ink); }
+    .count { margin: 0; color: var(--muted); font-size: 12px; }
+    .gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px 28px; align-items: start; }
+    .study { min-width: 0; }
+    .study-heading { display: flex; justify-content: space-between; gap: 20px; align-items: baseline; padding-bottom: 12px; }
+    .identity { display: flex; align-items: baseline; gap: 12px; }
+    .number { color: var(--muted); font: 12px/1 Georgia, serif; }
+    .study h2 { margin: 0; font-size: 19px; font-weight: 600; letter-spacing: -.025em; }
+    .type { color: var(--muted); font-size: 11px; text-align: right; }
+    .master { aspect-ratio: 1.45; position: relative; display: flex; align-items: center; justify-content: center; overflow: hidden; background: var(--brand-bg); text-decoration: none; }
+    .master:focus-visible { outline-offset: -5px; }
+    .artwork { position: relative; flex: none; overflow: hidden; }
+    .artwork img { display: block; position: absolute; max-width: none; height: auto; }
+    .missing-image { color: var(--ink); font-size: 12px; }
+    .context-block { border: 1px solid var(--line); border-top: 0; background: #fff; padding: 18px 20px 20px; }
+    .context-label { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 14px; color: var(--muted); font-size: 10px; letter-spacing: .025em; }
+    .context-size { white-space: nowrap; font-variant-numeric: tabular-nums; }
+    .application { min-height: 126px; display: flex; flex-direction: column; justify-content: center; gap: 14px; }
+    .mini-header { display: flex; align-items: center; justify-content: space-between; min-height: 58px; padding: 12px 16px; background: var(--brand-bg); gap: 16px; }
+    .mini-nav { font-size: 10px; white-space: nowrap; color: var(--brand-ink); }
+    .mini-copy { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 0 2px; }
+    .mini-copy p { margin: 0; font-size: 11px; }
+    .mini-copy small { display: block; font-size: 10px; color: var(--muted); }
+    .sample-rule { width: 25px; height: 1px; background: var(--ink); flex: none; }
+    .conversation-row, .launcher-row { display: flex; align-items: center; gap: 14px; padding: 14px; background: #f5f5f1; }
+    .avatar { display: flex; align-items: center; justify-content: center; background: var(--brand-bg); flex: none; width: 56px; height: 56px; }
+    .launcher-row .avatar { border-radius: 13px; overflow: hidden; }
+    .app-copy { flex: 1; min-width: 0; }
+    .app-copy strong { display: block; font-size: 12px; font-weight: 600; }
+    .app-copy span { display: block; color: var(--muted); font-size: 10px; line-height: 1.6; }
+    .app-meta { color: var(--muted); font-size: 10px; }
+    .project-cover { display: flex; align-items: center; justify-content: space-between; padding: 18px; gap: 20px; border: 1px solid var(--line); }
+    .project-cover .avatar { width: 68px; height: 68px; }
+    .project-copy { text-align: right; }
+    .project-copy strong { font: 18px/1.1 Georgia, serif; }
+    .project-copy span { display: block; margin-top: 5px; font-size: 9px; color: var(--muted); }
+    .bakery-label { display: flex; justify-content: center; align-items: center; gap: 28px; padding: 16px; background: var(--brand-bg); }
+    .bakery-label strong { display: block; font: 20px/1.1 Georgia, serif; color: var(--brand-ink); }
+    .bakery-label span { display: block; margin-top: 5px; font-size: 10px; color: var(--brand-ink); }
+    .study-copy { padding: 18px 0 0; }
+    .idea { margin: 0 0 13px; font-size: 13px; line-height: 1.7; word-break: keep-all; }
+    .meta-row { display: flex; gap: 16px; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+    .palette { display: flex; gap: 5px; align-items: center; }
+    .swatch { width: 13px; height: 13px; border-radius: 50%; border: 1px solid #00000018; }
+    .review-status { font-size: 10px; color: var(--muted); }
+    .review-status[data-status="director_selected"] { color: var(--green); }
+    .actions { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 11px; }
+    .actions a { min-height: 30px; display: inline-flex; align-items: center; }
+    details { border-top: 1px solid var(--line); margin-top: 12px; padding-top: 10px; }
+    summary { cursor: pointer; font-size: 11px; color: var(--muted); min-height: 30px; }
+    .brief { padding: 8px 0 2px; color: var(--muted); font-size: 12px; }
+    .brief dl { margin: 0; }
+    .brief dt { color: var(--ink); margin-top: 10px; font-size: 10px; }
+    .brief dd { margin: 3px 0 0; }
+    .versions { display: flex; flex-wrap: wrap; gap: 8px 18px; padding-top: 14px; }
+    .collection-note { display: grid; grid-template-columns: 1fr 2fr; gap: 40px; border-top: 1px solid var(--ink); margin-top: 62px; padding: 25px 0 30px; }
+    .collection-note h2 { margin: 0; font: 24px/1.2 Georgia, "Apple SD Gothic Neo", serif; }
+    .collection-note p { color: var(--muted); font-size: 12px; margin: 0; max-width: 780px; }
+    footer { display: flex; justify-content: space-between; gap: 20px; padding: 22px 0 32px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; }
+    .empty { border: 1px solid var(--line); padding: 36px; color: var(--muted); }
+    @media (min-width: 1550px) { .gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+    @media (max-width: 1000px) { .shell { width: calc(100% - 48px); } .hero { gap: 36px; } .mini-nav { font-size: 9px; } .context-block { padding: 15px; } }
+    @media (max-width: 820px) { .gallery { grid-template-columns: 1fr; } }
+    @media (max-width: 720px) { .shell { width: calc(100% - 36px); } .masthead { min-height: 70px; } .masthead p { font-size: 9px; } .hero { display: block; padding: 38px 0 30px; } .hero-copy { margin-top: 28px; } .hero-copy > p { font-size: 14px; } .hero-copy .scope { font-size: 11px; } .gallery { grid-template-columns: 1fr; gap: 38px; } .toolbar { align-items: start; } .filters { gap: 0; } .filters button { padding: 8px 10px; font-size: 12px; } .filters button:first-child { margin-left: -10px; } .count { font-size: 11px; } .master { aspect-ratio: 1.4; } .context-block { padding: 18px; } .collection-note { grid-template-columns: 1fr; gap: 16px; margin-top: 42px; } footer { flex-wrap: wrap; } }
+    @media (max-width: 400px) { .mini-nav { display: none; } }
+    @media (prefers-reduced-motion: no-preference) { .filters button { transition: background-color .16s, color .16s; } }
+    @media print { .shell { width: 100%; } .hero { padding: 24px 0; } .filters, .actions, details { display: none; } .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); } .study { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#gallery">디자인 바로 보기</a>
+  <div class="shell">
+    <div class="masthead"><a class="wordmark" href="../../../README.md">logopia</a><p>Independent identities · 01 October 2026</p></div>
+    <header class="hero">
+      <div><p class="eyebrow">A collection of eight studies</p><h1 id="collection-title">Small brands.<br>Distinct voices.</h1></div>
+      <div class="hero-copy"><p id="collection-subtitle">붓의 움직임부터 한글의 간격, 작은 캐릭터의 표정까지. 서로 다른 여덟 브랜드의 원본과 사용 맥락을 함께 살펴봅니다.</p><p class="scope">가상 브랜드 디자인 스터디입니다. 디렉터 선정은 사용자 채택이나 벡터 납품을 뜻하지 않습니다.</p></div>
+    </header>
+    <main id="gallery">
+      <div class="toolbar">
+        <div class="filters" role="group" aria-label="디자인 유형 필터">
+          <button type="button" data-filter="all" aria-pressed="true" aria-controls="cards">전체</button>
+          <button type="button" data-filter="lettering" aria-pressed="false" aria-controls="cards">레터링</button>
+          <button type="button" data-filter="symbol" aria-pressed="false" aria-controls="cards">심볼 · 이니셜</button>
+          <button type="button" data-filter="icon" aria-pressed="false" aria-controls="cards">앱 아이콘</button>
+        </div>
+        <p class="count" id="count" role="status" aria-live="polite"></p>
+      </div>
+      <div id="cards" class="gallery"></div>
+      <p id="empty" class="empty">브랜드 스터디를 준비하고 있습니다.</p>
+      <noscript><p class="empty">브랜드 목록을 표시하려면 JavaScript를 켜 주세요.</p></noscript>
+      <section class="collection-note" aria-labelledby="reading-title">
+        <h2 id="reading-title">크게 보고, 작게 읽기.</h2>
+        <p>큰 영역에서는 디자인 자체를, 아래에서는 같은 PNG를 실제 UI 크기로 줄여 봅니다. 작은 워드마크는 높이 32px 이내, 심볼은 36–48px, 앱 아이콘은 56px로 표시합니다. 이미지의 색과 형태는 바꾸지 않고 CSS로 바깥 여백을 숨기거나 비례 축소합니다. 정확한 원본은 각 카드의 링크에서 열 수 있습니다.</p>
+      </section>
+    </main>
+    <footer><span>Logopia / Brand studies / 2026</span><span>Original artwork &amp; everyday contexts</span></footer>
+  </div>
+  <template id="study-template">
+    <article class="study">
+      <div class="study-heading"><div class="identity"><span class="number"></span><h2></h2></div><span class="type"></span></div>
+      <a class="master"></a>
+      <div class="context-block"><div class="context-label"><span class="context-name"></span><span class="context-size"></span></div><div class="application"></div></div>
+      <div class="study-copy">
+        <p class="idea"></p>
+        <div class="meta-row"><div class="palette" role="img"></div><span class="review-status"></span></div>
+        <div class="actions"><a class="original-link">원본 열기 ↗</a><a class="download-link">PNG 다운로드 ↓</a><a class="prompt-link">정확한 프롬프트 ↗</a></div>
+        <details><summary>브랜드 브리프와 검토 메모</summary><div class="brief"><dl></dl><div class="versions"></div></div></details>
+      </div>
+    </article>
+  </template>
+  <script src="data.js"></script>
+  <script>
+    const collection = globalThis.LOGOPIA_STUDIES ?? { items: [] };
+    const items = Array.isArray(collection.items) ? collection.items : [];
+    const gallery = document.querySelector('#cards');
+    const masterFrames = new Map();
+    const masterObserver = new ResizeObserver(entries => {
+      for (const entry of entries) {
+        const frame = masterFrames.get(entry.target);
+        if (frame) sizeArtwork(frame, entry.contentRect.width * .78, entry.contentRect.height * .72);
+      }
+    });
+    const statusLabels = { in_review: '검토 중', director_selected: '디렉터 선정', needs_revision: '수정 검토' };
+    const contexts = {
+      product: { label: '모바일 상품 헤더', nav: 'Shop · Our story', title: 'A little something bright.', detail: 'Small-batch fruit soda' },
+      bookshop: { label: '책방 프로그램 헤더', nav: '책 · 프로그램', title: '오늘의 책, 오늘의 음악', detail: '동네에서 만나는 작은 장면들' },
+      editorial: { label: '웹 매거진 헤더', nav: 'Journal · Objects', title: 'The things we choose to keep.', detail: 'Architecture, objects & everyday life' }
+    };
+    function element(tag, className, text) {
+      const node = document.createElement(tag);
+      if (className) node.className = className;
+      if (text !== undefined) node.textContent = text;
+      return node;
+    }
+    function makeArtwork(item, fullCanvas = false) {
+      const width = Number(item.width) || 1;
+      const height = Number(item.height) || 1;
+      const supplied = item.bounds;
+      const valid = Array.isArray(supplied) && supplied.length === 4 && supplied.every(Number.isFinite) && supplied[2] > supplied[0] && supplied[3] > supplied[1];
+      const bounds = !fullCanvas && valid ? supplied : [0, 0, width, height];
+      const frame = element('div', 'artwork');
+      const image = element('img');
+      image.src = item.image;
+      image.alt = `${item.name} · ${item.typeLabel}`;
+      image.decoding = 'async';
+      frame.append(image);
+      frame.artwork = { width, height, bounds, image };
+      return frame;
+    }
+    function sizeArtwork(frame, maxWidth, maxHeight) {
+      const { width, bounds, image } = frame.artwork;
+      const [left, top, right, bottom] = bounds;
+      const scale = Math.min(maxWidth / (right - left), maxHeight / (bottom - top));
+      const shownWidth = (right - left) * scale;
+      const shownHeight = (bottom - top) * scale;
+      frame.style.width = `${shownWidth}px`;
+      frame.style.height = `${shownHeight}px`;
+      image.style.width = `${width * scale}px`;
+      image.style.left = `${-left * scale}px`;
+      image.style.top = `${-top * scale}px`;
+      return `${Math.round(shownWidth)} × ${Math.round(shownHeight)}px`;
+    }
+    function readableInk(hex) {
+      const value = /^#[\da-f]{6}$/i.test(hex ?? '') ? hex.slice(1) : 'ffffff';
+      const rgb = [0, 2, 4].map(offset => parseInt(value.slice(offset, offset + 2), 16) / 255);
+      const luminance = rgb.map(channel => channel <= .04045 ? channel / 12.92 : ((channel + .055) / 1.055) ** 2.4);
+      return luminance[0] * .2126 + luminance[1] * .7152 + luminance[2] * .0722 > .4 ? '#292b29' : '#ffffff';
+    }
+    function buildContext(item, view) {
+      const application = view.querySelector('.application');
+      const label = view.querySelector('.context-name');
+      const measurement = view.querySelector('.context-size');
+      const isIcon = item.category === 'icon';
+      const frame = makeArtwork(item, isIcon);
+      let dimensions;
+      if (contexts[item.context]) {
+        const context = contexts[item.context];
+        label.textContent = context.label;
+        dimensions = sizeArtwork(frame, 190, 32);
+        const header = element('div', 'mini-header');
+        header.append(frame, element('span', 'mini-nav', context.nav));
+        const copy = element('div', 'mini-copy');
+        const line = element('p', '', context.title);
+        line.append(element('small', '', context.detail));
+        copy.append(line, element('span', 'sample-rule'));
+        application.append(header, copy);
+      } else if (item.context === 'architecture') {
+        label.textContent = '프로젝트 표지';
+        dimensions = sizeArtwork(frame, 48, 40);
+        const cover = element('div', 'project-cover');
+        const mark = element('div', 'avatar'); mark.append(frame);
+        const copy = element('div', 'project-copy');
+        copy.append(element('strong', '', 'A place to return to.'), element('span', '', 'RESIDENTIAL PROJECT / 01'));
+        cover.append(mark, copy); application.append(cover);
+      } else if (item.context === 'bakery') {
+        label.textContent = '베이커리 포장 라벨';
+        dimensions = sizeArtwork(frame, 48, 48);
+        const pack = element('div', 'bakery-label');
+        const copy = element('div');
+        copy.append(element('strong', '', item.name), element('span', '', 'Baked for the neighborhood.'));
+        pack.append(frame, copy); application.append(pack);
+      } else {
+        const conversation = item.context === 'conversation';
+        label.textContent = conversation ? '대화 목록 아바타' : '앱 라이브러리';
+        dimensions = sizeArtwork(frame, isIcon ? 56 : 36, isIcon ? 56 : 36);
+        const row = element('div', conversation ? 'conversation-row' : 'launcher-row');
+        const avatar = element('div', 'avatar'); avatar.append(frame);
+        const copy = element('div', 'app-copy');
+        copy.append(element('strong', '', item.name), element('span', '', conversation ? 'A little room to listen.' : item.use));
+        row.append(avatar, copy, element('span', 'app-meta', conversation ? 'now' : 'Open'));
+        application.append(row);
+      }
+      measurement.textContent = `${isIcon || !Array.isArray(item.bounds) ? '원본 캔버스' : '아트워크'} ${dimensions}`;
+    }
+    function addBrief(dl, label, value) {
+      if (!value) return;
+      dl.append(element('dt', '', label), element('dd', '', value));
+    }
+    if (collection.title) {
+      document.querySelector('#collection-title').textContent = collection.title;
+      document.title = `${collection.title} · Logopia`;
+    }
+    if (collection.subtitle) document.querySelector('#collection-subtitle').textContent = collection.subtitle;
+    items.forEach((item, index) => {
+      const view = document.querySelector('#study-template').content.cloneNode(true);
+      const card = view.querySelector('.study');
+      card.dataset.category = item.category;
+      card.style.setProperty('--brand-bg', item.bg || '#ffffff');
+      card.style.setProperty('--brand-ink', readableInk(item.bg));
+      const heading = view.querySelector('h2');
+      heading.textContent = item.name;
+      heading.id = `study-${item.id}`;
+      card.setAttribute('aria-labelledby', heading.id);
+      view.querySelector('.number').textContent = String(index + 1).padStart(2, '0');
+      view.querySelector('.type').textContent = item.typeLabel;
+      view.querySelector('.idea').textContent = item.idea;
+      const master = view.querySelector('.master');
+      master.href = item.image;
+      master.setAttribute('aria-label', `${item.name} 원본 PNG 크게 열기`);
+      const artwork = makeArtwork(item, item.category === 'icon');
+      master.append(artwork);
+      masterFrames.set(master, artwork);
+      masterObserver.observe(master);
+      for (const selector of ['.original-link', '.download-link']) {
+        const link = view.querySelector(selector);
+        link.href = item.image;
+        link.setAttribute('aria-label', `${item.name} ${selector === '.download-link' ? 'PNG 다운로드' : '원본 열기'}`);
+      }
+      view.querySelector('.download-link').download = item.image.split('/').pop();
+      view.querySelector('.prompt-link').href = item.prompt;
+      view.querySelector('.prompt-link').setAttribute('aria-label', `${item.name} 정확한 프롬프트 보기`);
+      view.querySelector('.palette').setAttribute('aria-label', `요청 색상: ${(item.colors ?? []).join(', ')}`);
+      for (const color of item.colors ?? []) {
+        const swatch = element('span', 'swatch');
+        swatch.style.backgroundColor = color;
+        swatch.title = color;
+        swatch.setAttribute('aria-label', color);
+        view.querySelector('.palette').append(swatch);
+      }
+      const status = view.querySelector('.review-status');
+      status.textContent = statusLabels[item.reviewStatus] ?? '';
+      status.dataset.status = item.reviewStatus ?? '';
+      const dl = view.querySelector('dl');
+      addBrief(dl, '브랜드', item.industry);
+      addBrief(dl, '대상', item.audience);
+      addBrief(dl, '사용처', item.use);
+      addBrief(dl, '살펴볼 지점', item.risk);
+      addBrief(dl, '디렉터 메모', typeof item.review === 'string' ? item.review : item.review?.summary);
+      if (item.versions?.length > 1) {
+        for (const version of item.versions) {
+          const link = element('a', '', `${version.id} 원본`); link.href = version.image;
+          view.querySelector('.versions').append(link);
+        }
+      }
+      buildContext(item, view);
+      gallery.append(view);
+    });
+    document.querySelector('#empty').hidden = items.length > 0;
+    function filterCards(category) {
+      let visible = 0;
+      for (const card of gallery.children) {
+        card.hidden = category !== 'all' && card.dataset.category !== category;
+        if (!card.hidden) visible += 1;
+      }
+      document.querySelector('#count').textContent = `${String(visible).padStart(2, '0')} / ${String(items.length).padStart(2, '0')} studies`;
+      for (const button of document.querySelectorAll('[data-filter]')) button.setAttribute('aria-pressed', String(button.dataset.filter === category));
+    }
+    for (const button of document.querySelectorAll('[data-filter]')) button.addEventListener('click', () => filterCards(button.dataset.filter));
+    filterCards('all');
+  </script>
+</body>
+</html>

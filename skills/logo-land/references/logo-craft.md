@@ -108,6 +108,13 @@ For outlined game titles and decorated backplates, use [game-title-logos.md](gam
 
 ## Inspect and refine
 
+Judge a familiar serif, simple silhouette or conventional construction by its
+actual proportions, spacing, color relationships and fit to the brief. Familiarity
+alone is not a defect, and novelty alone is not a strength. When comparing unlike
+aspect ratios, fit each mark to its plausible header height or avatar area rather
+than forcing every mark to one width. Keep the uncropped original available beside
+any CSS framing or separately labeled diagnostic thumbnail.
+
 Open the returned original and display it at the intended use size without rewriting
 its bytes. Record the displayed size, background and actual inspection method in
 review evidence. A prepared HTML page without a rendered inspection leaves the
