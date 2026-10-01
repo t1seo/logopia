@@ -94,9 +94,10 @@ preserve this distinction without claiming to be resumable private loop state.
 
 The actual HTML script and final data executed in a minimal Node DOM mock: eight
 cards, sixteen master/application images, filters with counts 8/3/3/2, and original,
-download and prompt destinations were checked. Twenty-five asset and version paths
-returned HTTP 200 and bytes identical to the local files. This is static/script and
-link verification, not browser visual QA.
+download and prompt destinations were checked. The final pass checked 64 local
+paths, including the README, manifest and reviews, over HTTP. All passed; the 22
+original/prompt hashes also matched the manifest. This is static/script and link
+verification, not browser visual QA.
 
 Official Codex Computer Use encountered active user interaction in Chrome. The
 agent preserved user tabs and stopped navigation attempts. The final eight-card
