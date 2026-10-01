@@ -1,0 +1,35 @@
+{
+  "brand_name": "TIDE",
+  "exact_text": "",
+  "industry": "Team scheduling and shift coordination SaaS",
+  "audience": "Operations coordinators and teammates in teams of 5–30 people",
+  "slogan": "",
+  "logo_type": "abstract",
+  "styles": [
+    "calm",
+    "geometric",
+    "flat"
+  ],
+  "palette": [
+    "#2357A5",
+    "#C1DCE3",
+    "#FFFFFF"
+  ],
+  "forbidden": [
+    "lettering or initials",
+    "literal waves",
+    "clock",
+    "calendar",
+    "infinity sign"
+  ],
+  "use_cases": [
+    "32px web-app sidebar symbol",
+    "service landing page"
+  ],
+  "assumptions": [
+    "Fictional matched comparison brief; one concept requested; assistant chooses colors within the stated background request"
+  ],
+  "background": "opaque",
+  "concept_count": 1,
+  "lockup": null
+}

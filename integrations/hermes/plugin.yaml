@@ -1,6 +1,6 @@
 name: logopia-studio
-version: 0.8.0
-description: Native logo direction, image critiques, revisions and original PNG delivery
+version: 0.9.0
+description: Brand-led color and typography, native logo directions, critiques and original PNG delivery
 provides_tools:
   - logopia_start
   - logopia_action

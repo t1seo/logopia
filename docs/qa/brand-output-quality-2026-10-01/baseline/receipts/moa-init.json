@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "id": "baseline-moa",
+  "revision": 0,
+  "created_at": "2026-10-01T10:04:47.139471Z",
+  "updated_at": "2026-10-01T10:04:47.139471Z",
+  "brief": {
+    "brand_name": "모아",
+    "exact_text": "모아",
+    "industry": "Personal journaling and reading app",
+    "audience": "Korean-speaking adults aged 20–40 who want a sustainable reading and journaling habit",
+    "slogan": "",
+    "logo_type": "wordmark",
+    "styles": [
+      "rounded",
+      "calm",
+      "custom Hangul lettering",
+      "flat"
+    ],
+    "palette": [
+      "#9B473C",
+      "#FFFFFF"
+    ],
+    "forbidden": [
+      "separate book icon",
+      "character mascot",
+      "extra lettering",
+      "childish or toy-like treatment"
+    ],
+    "use_cases": [
+      "96px-wide app and website header wordmark",
+      "service landing page"
+    ],
+    "assumptions": [
+      "Fictional matched comparison brief; one concept requested; assistant chooses colors within the stated background request"
+    ],
+    "lockup": null,
+    "background": "opaque",
+    "concept_count": 1
+  },
+  "artifacts": [],
+  "selected_id": null,
+  "failures": [],
+  "exports": [],
+  "palettes": [],
+  "active_palette_id": null,
+  "references": [],
+  "color_reports": []
+}

@@ -1,0 +1,34 @@
+{
+  "swatches": [
+    {
+      "hex": "#364A9F",
+      "role": "primary upper-left solid form; the darker, visually leading half"
+    },
+    {
+      "hex": "#6591C4",
+      "role": "supporting lower-right solid form; clear blue companion with a different lightness"
+    },
+    {
+      "hex": "#FFFFFF",
+      "role": "opaque pure-white exterior canvas in every corner and margin, plus the open central joining interval"
+    }
+  ],
+  "constraints": {
+    "locked_hex": [],
+    "allowed_hex": null,
+    "max_colors": null,
+    "required_hex": [
+      "#FFFFFF"
+    ],
+    "allow_gradients": false
+  },
+  "source": "assistant",
+  "source_evidence": {
+    "notes": [
+      "Foreground colors chosen by the assistant under the user's delegation; no locked foreground, reference extraction or provider call.",
+      "Pure-white background is the user's explicit requirement. No quantitative contrast or output-color claim is made before generation."
+    ]
+  },
+  "selected_by": "assistant",
+  "rationale": "The darker first form anchors the coordination gesture; the lighter second form gives the handoff two readable parts without relying on a literal scheduling pictogram. White preserves the required clean surface and joining interval."
+}

@@ -1,4 +1,4 @@
 interface:
   display_name: "Logopia"
-  short_description: "대화로 브랜드를 정리하고 로고 시안 생성부터 수정과 파일 전달까지"
-  default_prompt: "$logo-land로 제 브랜드에 맞는 로고를 함께 만들어 주세요."
+  short_description: "브랜드에 맞는 형태와 색상·글자를 설계하고 로고 생성·비교·수정까지"
+  default_prompt: "$logo-land로 제품과 고객에 맞는 로고를 만들어 주세요. 색상 역할과 읽기 좋은 글자 형태를 함께 정하고 깨끗한 배경에서 보여 주세요."

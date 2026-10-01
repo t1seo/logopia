@@ -1,0 +1,86 @@
+{
+  "schema_version": 2,
+  "id": "baseline-moa",
+  "revision": 1,
+  "created_at": "2026-10-01T10:04:47.139471Z",
+  "updated_at": "2026-10-01T10:04:47.934212Z",
+  "brief": {
+    "brand_name": "모아",
+    "exact_text": "모아",
+    "industry": "Personal journaling and reading app",
+    "audience": "Korean-speaking adults aged 20–40 who want a sustainable reading and journaling habit",
+    "slogan": "",
+    "logo_type": "wordmark",
+    "styles": [
+      "rounded",
+      "calm",
+      "custom Hangul lettering",
+      "flat"
+    ],
+    "palette": [
+      "#9B473C",
+      "#FFFFFF"
+    ],
+    "forbidden": [
+      "separate book icon",
+      "character mascot",
+      "extra lettering",
+      "childish or toy-like treatment"
+    ],
+    "use_cases": [
+      "96px-wide app and website header wordmark",
+      "service landing page"
+    ],
+    "assumptions": [
+      "Fictional matched comparison brief; one concept requested; assistant chooses colors within the stated background request"
+    ],
+    "lockup": null,
+    "background": "opaque",
+    "concept_count": 1
+  },
+  "artifacts": [],
+  "selected_id": null,
+  "failures": [],
+  "exports": [],
+  "palettes": [
+    {
+      "swatches": [
+        {
+          "hex": "#9B473C",
+          "role": "complete Hangul wordmark"
+        },
+        {
+          "hex": "#FFFFFF",
+          "role": "explicitly requested opaque white exterior canvas"
+        }
+      ],
+      "constraints": {
+        "locked_hex": [],
+        "allowed_hex": null,
+        "max_colors": null,
+        "required_hex": [],
+        "allow_gradients": false
+      },
+      "source": "assistant",
+      "source_evidence": {
+        "reference_id": null,
+        "reference_sha256": null,
+        "provider": null,
+        "tool": null,
+        "response": null,
+        "notes": [
+          "Uses the existing Editorial craft primary suggestion for a reading/journaling product. The optional accent and paper surface are omitted because they have no role in this white-background wordmark. These are proposed values, not sampled colors."
+        ]
+      },
+      "selected_by": "assistant",
+      "rationale": "Muted red adds adult warmth to a calm rounded wordmark; a single foreground color avoids unnecessary decoration.",
+      "calculation_version": "logo-color-v1",
+      "id": "advisory-v1",
+      "parent_palette_id": null,
+      "digest": "f8a4dee76f32588177551567fcd0c79f7790ff5beb22e64216a2f468445bb496"
+    }
+  ],
+  "active_palette_id": "advisory-v1",
+  "references": [],
+  "color_reports": []
+}

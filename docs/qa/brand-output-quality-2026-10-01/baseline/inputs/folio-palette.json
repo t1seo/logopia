@@ -1,0 +1,12 @@
+{
+  "swatches": [
+    {"hex": "#9B473C", "role": "paper-layer symbol"},
+    {"hex": "#2C2927", "role": "exact Folio lettering"},
+    {"hex": "#EDE4D5", "role": "assistant-chosen opaque paper exterior canvas"}
+  ],
+  "constraints": {"locked_hex": [], "allowed_hex": null, "max_colors": null, "required_hex": [], "allow_gradients": false},
+  "source": "assistant",
+  "source_evidence": {"notes": ["Uses the existing Editorial craft primary, lettering and paper suggestion for a stationery brand. The user delegated the opaque surface choice. These are proposed values, not sampled colors."]},
+  "selected_by": "assistant",
+  "rationale": "The existing guide suggests muted red, charcoal and paper for editorial craft; apply them to symbol, readable name and calm stationery surface, then inspect for unwanted vintage appearance."
+}

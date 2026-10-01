@@ -1,0 +1,95 @@
+Hermes brand-quality contract evidence — 2026-10-01
+
+Scope
+The public registered logopia_start tool, real engine, persistent workflow store,
+gallery publisher and subprocess helper CLI were exercised. External LLM and image
+dispatch used deterministic transport fixtures. These results prove request/state
+contracts, not aesthetic success or live Hermes provider availability.
+
+Observed defect before implementation
+tests/hermes/test_brand_quality.py: 7 failed. Six cases could not supply strategy to
+image_prompt; the public start route saved a strategy but omitted it from actual
+image dispatch requests. A later independent review reproduced a >20,000-character
+request after serializing a valid long Strategy. Two new boundary tests failed for
+the same contract before a bounded visual-field projection was implemented.
+
+Final behavior
+- Saved positioning, audience need, promise, distinctive principle, typography and
+  color roles reach fresh brand image requests independently of direction prose.
+- Strategy is advisory, and the full persisted Strategy remains unchanged.
+- Image context omits assumptions; fields are capped at 320 characters with a
+  visible ellipsis and reduced further to fit the remaining 20,000-character
+  allowance. If that allowance is already full, optional context is omitted without
+  truncating original brief/direction data.
+- Explicit user text/color/canvas data remain separate; advisory color intent is
+  not described as proof of exact raster palette compliance.
+- App-icon/IP requests do not acquire the brand-only strategy projection.
+- Edit parent instructions are historical; latest scoped feedback is current.
+- New generation-only guidance and strategy occupy a separately framed optional
+  suffix. The mandatory request is smaller than the previous builder for the same
+  input. An edit omits only a suffix with the recognized generated-brand framing;
+  user brief/direction/parent identity and current keep/change are retained. Legacy
+  marker-like user text is preserved. The saved parent prompt itself is unchanged.
+- Repeating public start emits no duplicate images. Immutable helper brief bytes,
+  agreed image counts and planning/critique budgets remain unchanged.
+
+Captured requests
+hermes-request-fixture.json contains the actual persisted generation-job requests
+from the public-start test. The test asserts that captured native-dispatch prompts
+and saved candidates both include the expected visual fields. Its intentionally
+hostile brief note is inert input data, not an instruction followed by the test.
+
+Verification
+uv run --locked pytest tests/hermes/test_brand_quality.py tests/hermes/test_core_prompts.py tests/hermes/test_core_engine.py tests/hermes/test_exploration_pipeline.py tests/hermes/test_craft_contract.py tests/hermes/test_craft_budget.py tests/hermes/test_host_critique.py tests/hermes/test_host_transport.py tests/hermes/test_reference_pipeline.py -q
+Result: 71 passed in 30.71s.
+
+After the final concise prompt-wording adjustment:
+uv run --locked pytest tests/hermes/test_brand_quality.py tests/hermes/test_core_prompts.py -q
+Result: 14 passed in 3.37s.
+
+uv run --locked ruff check integrations/hermes/logopia_studio/prompts.py integrations/hermes/logopia_studio/engine_pipeline.py integrations/hermes/logopia_studio/host_prompts.py tests/hermes/test_brand_quality.py
+Result: All checks passed.
+
+uv run --locked ruff format --check integrations/hermes/logopia_studio/prompts.py integrations/hermes/logopia_studio/engine_pipeline.py integrations/hermes/logopia_studio/host_prompts.py tests/hermes/test_brand_quality.py
+Result: 4 files already formatted.
+
+uv run --locked basedpyright --pythonversion 3.11 integrations/hermes/logopia_studio/prompts.py integrations/hermes/logopia_studio/engine_pipeline.py integrations/hermes/logopia_studio/host_prompts.py tests/hermes/test_brand_quality.py
+Result: 0 errors, 0 warnings, 0 notes.
+
+Changed-file git diff --check: passed.
+Independent read-only review: the length-limit finding was fixed; no additional
+correctness issue or important policy contradiction was reported. Reviewer reran
+24 relevant tests successfully. Live aesthetic comparison belongs to the separate
+native-image experiment and must not be inferred from this fixture evidence.
+
+Capacity follow-up from the final independent code audit
+The first bounded-strategy fix did not account for new fixed prose or edit-wrapper
+growth. Three initial regression cases failed before the follow-up. Narrower exact
+boundary and legacy marker cases exposed three further failures and were fixed.
+The resulting test_brand_prompt_capacity.py has seven cases. Baseline fixture
+overheads (849 generation / 347 edit) were reproduced from git HEAD's actual builder
+with the same Example brief and direction/feedback inputs, not estimated.
+
+Observed HEAD/current lengths from the same live interpreter:
+- Direction 19051: generation 19900 / 19892.
+- Direction 19141: generation 19990 / 19982.
+- Empty parent, exact Example text, keep Exact text, change Open the gap:
+  edit wrapper 347 / 301.
+- Parent 19620 with the same feedback: edit 19967 / 19921.
+- Parent 19653 with the same feedback: edit 20000 / 19954.
+Every before/after value was validated against the actual Prompt model.
+The reviewer additionally checked HEAD generation 20000 / current 19992 and a
+16300-character direction plus strategy followed by edits of 17442 and 17743.
+
+uv run --locked pytest tests/hermes/test_brand_prompt_capacity.py tests/hermes/test_brand_quality.py tests/hermes/test_core_prompts.py -q --tb=short
+Result after the final production-code edit: 21 passed in 2.99s.
+Ruff, formatting and Python 3.11 basedpyright were rerun with all five changed
+Python files including test_brand_prompt_capacity.py: all passed, zero type errors.
+Final independent code review approved the exact-20000 boundaries, current-feedback
+priority, marker lookalikes and app/IP isolation, with no remaining actionable finding.
+
+Final expanded regression run after all production edits:
+uv run --locked pytest tests/hermes/test_brand_prompt_capacity.py tests/hermes/test_brand_quality.py tests/hermes/test_core_prompts.py tests/hermes/test_core_engine.py tests/hermes/test_exploration_pipeline.py tests/hermes/test_craft_contract.py tests/hermes/test_craft_budget.py tests/hermes/test_host_critique.py tests/hermes/test_host_transport.py tests/hermes/test_reference_pipeline.py -q
+Result: 78 passed in 40.54s.
+Temporary debug journal removed. No debugger, listener, source instrumentation or
+persistent environment setting was added by this capacity investigation.

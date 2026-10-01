@@ -1,0 +1,194 @@
+{
+  "id": "report-fe1a6bbbcc7d45a19a2eb29fbdc90efa",
+  "artifact_id": "a-v1",
+  "artifact_sha256": "88b22101e5e7a25dedafce07df45258fc8d8a484bd2f577ea66c86fb880e4d14",
+  "palette_id": "tide-palette-v1",
+  "palette_digest": "efe1be6cc534248da86cd1f1204849c1f753940f9208db9e289e9c8461212fc6",
+  "analysis_policy": "logo-color-v1",
+  "color_engine_version": "8.12.1",
+  "pillow_version": "12.3.0",
+  "profile_treatment": "assumed_srgb",
+  "sampling": {
+    "width": 1254,
+    "height": 1254,
+    "roi": null,
+    "scope": "full_image",
+    "coordinate_policy": "grid_128_pixel_centers",
+    "sampled_positions": 16384,
+    "sampled_fraction": 0.010418971889634192,
+    "visible_samples": 16384,
+    "core_samples": 16384,
+    "partial_alpha_samples": 0
+  },
+  "status": "pass",
+  "reasons": [],
+  "measured_swatches": [
+    {
+      "hex": "#FEFEFE",
+      "samples": 6707,
+      "share": 0.40936279296875
+    },
+    {
+      "hex": "#4763AD",
+      "samples": 3823,
+      "share": 0.23333740234375
+    },
+    {
+      "hex": "#FFFFFF",
+      "samples": 1684,
+      "share": 0.102783203125
+    },
+    {
+      "hex": "#FFFEFE",
+      "samples": 1500,
+      "share": 0.091552734375
+    },
+    {
+      "hex": "#FDFEFE",
+      "samples": 1365,
+      "share": 0.08331298828125
+    },
+    {
+      "hex": "#FEFEFD",
+      "samples": 1235,
+      "share": 0.07537841796875
+    },
+    {
+      "hex": "#FEFEFF",
+      "samples": 55,
+      "share": 0.00335693359375
+    },
+    {
+      "hex": "#C9D8EA",
+      "samples": 15,
+      "share": 0.00091552734375
+    }
+  ],
+  "targets": [
+    {
+      "hex": "#364A9F",
+      "matching_samples": 1693,
+      "share": 0.10333251953125,
+      "mean_delta_e": 1.1228107107187841,
+      "max_delta_e": 4.693788020204937
+    },
+    {
+      "hex": "#6591C4",
+      "matching_samples": 2121,
+      "share": 0.12945556640625,
+      "mean_delta_e": 0.8577328145786225,
+      "max_delta_e": 4.311050596598847
+    },
+    {
+      "hex": "#FFFFFF",
+      "matching_samples": 12544,
+      "share": 0.765625,
+      "mean_delta_e": 0.31687003118858387,
+      "max_delta_e": 4.816855948843146
+    }
+  ],
+  "matched_fraction": 0.9984130859375,
+  "unmatched_fraction": 0.0015869140625,
+  "observed_colors": 3,
+  "minor_swatches": [],
+  "contrasts": [
+    {
+      "foreground": "#FEFEFE",
+      "surface": "#FFFFFF",
+      "ratio": 1.008546618925115,
+      "alpha": 1.0
+    },
+    {
+      "foreground": "#FEFEFE",
+      "surface": "#171717",
+      "ratio": 17.775916270617873,
+      "alpha": 1.0
+    },
+    {
+      "foreground": "#FFFFFF",
+      "surface": "#FFFFFF",
+      "ratio": 1.0,
+      "alpha": 1.0
+    },
+    {
+      "foreground": "#FFFFFF",
+      "surface": "#171717",
+      "ratio": 17.927840253027597,
+      "alpha": 1.0
+    },
+    {
+      "foreground": "#FFFEFE",
+      "surface": "#FFFFFF",
+      "ratio": 1.0067170671479306,
+      "alpha": 1.0
+    },
+    {
+      "foreground": "#FFFEFE",
+      "surface": "#171717",
+      "ratio": 17.80822123520552,
+      "alpha": 1.0
+    },
+    {
+      "foreground": "#FEFDFD",
+      "surface": "#FFFFFF",
+      "ratio": 1.0153435482995168,
+      "alpha": 1.0
+    },
+    {
+      "foreground": "#FEFDFD",
+      "surface": "#171717",
+      "ratio": 17.656920441414037,
+      "alpha": 1.0
+    },
+    {
+      "foreground": "#FDFDFD",
+      "surface": "#FFFFFF",
+      "ratio": 1.0171949045327753,
+      "alpha": 1.0
+    },
+    {
+      "foreground": "#FDFDFD",
+      "surface": "#171717",
+      "ratio": 17.624783778544717,
+      "alpha": 1.0
+    },
+    {
+      "foreground": "#638FC4",
+      "surface": "#FFFFFF",
+      "ratio": 3.3565312609052413,
+      "alpha": 1.0
+    },
+    {
+      "foreground": "#638FC4",
+      "surface": "#171717",
+      "ratio": 5.341180778454166,
+      "alpha": 1.0
+    },
+    {
+      "foreground": "#3A4DA2",
+      "surface": "#FFFFFF",
+      "ratio": 7.600112540823465,
+      "alpha": 1.0
+    },
+    {
+      "foreground": "#3A4DA2",
+      "surface": "#171717",
+      "ratio": 2.3588914186111687,
+      "alpha": 1.0
+    },
+    {
+      "foreground": "#FEFFFF",
+      "surface": "#FFFFFF",
+      "ratio": 1.001805196886651,
+      "alpha": 1.0
+    },
+    {
+      "foreground": "#FEFFFF",
+      "surface": "#171717",
+      "ratio": 17.895535288439955,
+      "alpha": 1.0
+    }
+  ],
+  "delta_e_threshold": 5.0,
+  "created_at": "2026-10-01T10:15:14.658588Z"
+}

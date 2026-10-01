@@ -71,9 +71,9 @@ codex plugin add --help
 
 ## Source, release and installed versions
 
-This checkout's plugin manifest, Python project and locked helper package are **0.7.0**. For the matching release snapshot, use [v0.7.0](https://github.com/t1seo/logopia/releases/tag/v0.7.0), or run `git checkout v0.7.0` after cloning. The plugin name and invocation remain `logo-land` and `$logo-land`; the repository is named `logopia`.
+This checkout's Codex and Hermes manifests, Python project and locked helper package are **0.9.0, unreleased**. The latest published snapshot remains [v0.8.0](https://github.com/t1seo/logopia/releases/tag/v0.8.0); use `git checkout v0.8.0` after cloning if you want that release. The plugin name and invocation remain `logo-land` and `$logo-land`; the repository is named `logopia`.
 
-An existing installed cache may contain an older version until refreshed. A local version such as `0.7.0+codex.<timestamp>` identifies a cache refresh, separately from release version `0.7.0`. After an update and reinstall, start a new conversation to load the changed skill. GitHub source archives are repository snapshots, not one-click plugin installers. See [release guidance](releases.md) and the [changelog](../CHANGELOG.md).
+An existing installed cache may contain an older version until refreshed. A local version such as `0.9.0+codex.<timestamp>` identifies a cache refresh and does not establish a published release. After an update and reinstall, start a new conversation to load the changed skill. GitHub source archives are repository snapshots, not one-click plugin installers. See [release guidance](releases.md) and the [changelog](../CHANGELOG.md).
 
 ## Project files
 

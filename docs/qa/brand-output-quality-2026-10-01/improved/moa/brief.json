@@ -1,0 +1,48 @@
+{
+  "brand_name": "모아",
+  "exact_text": "모아",
+  "industry": "Personal journaling and reading app",
+  "audience": "Korean-speaking adults aged 20–40 who want a sustainable reading and journaling habit",
+  "slogan": "",
+  "logo_type": "wordmark",
+  "lockup": null,
+  "styles": [
+    "rounded Hangul wordmark",
+    "composed",
+    "friendly",
+    "medium weight",
+    "flat"
+  ],
+  "palette": [
+    "#614A68",
+    "#FFFFFF"
+  ],
+  "forbidden": [
+    "separate book icon",
+    "character mascot",
+    "extra lettering",
+    "childish or toy-like treatment"
+  ],
+  "use_cases": [
+    "96px-wide app and website header wordmark",
+    "service landing page"
+  ],
+  "assumptions": [
+    "The 96px-wide header is the primary legibility target; no separate app icon is requested.",
+    "A slightly broad, steady wordmark is the proposed interpretation of adult friendliness and calm."
+  ],
+  "background": "opaque",
+  "concept_count": 1,
+  "brand_strategy": {
+    "positioning": "A personal reading and journaling app for Korean-speaking adults aged 20–40 who collect meaningful passages and short everyday notes to revisit.",
+    "audience_need": "An approachable, calm place that makes a continued reading and recording habit feel manageable, with a name that remains clear in a 96px header.",
+    "brand_promise": "A thoughtful place for keeping and revisiting personal words; this is the proposed identity rather than a measured habit outcome.",
+    "distinctive_principle": "The exact Hangul name is the identity. Generous inner spaces and related restrained terminal curves make the two syllables feel like a coherent collection without ornament or a children's-app tone.",
+    "typography": "Custom rounded Hangul appearance, medium near-uniform strokes, gently broad syllable blocks, softly square ㅁ, round ㅇ, clear ㅗ/ㅏ and a steady baseline; preserve exact 모아.",
+    "color_roles": "Quiet plum #614A68 fills every letter; pure white #FFFFFF is the opaque exterior and all letter interiors. No additional accent is necessary in this small wordmark.",
+    "assumptions": [
+      "The 96px-wide header is the primary legibility target; no separate app icon is requested.",
+      "A slightly broad, steady wordmark is the proposed interpretation of adult friendliness and calm."
+    ]
+  }
+}

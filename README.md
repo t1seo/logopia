@@ -22,7 +22,9 @@
 
 <a id="hermes-workflow"></a>
 
-The current source includes product-specific icon construction, reference input, asset-specific PNG checks and blind preference comparison. [Implementation and experiment record](docs/research/icon-craft-2026/README.md). Default generation counts are unchanged; Hermes 3×3 exploration is opt-in. The samples below were regenerated on September 20 and do not inherit prior experiment recommendations or reviews. These source changes have not been released.
+The **0.9.0 source update is unreleased**. It carries a proposed brand strategy into generation, assigns colors and typography to concrete roles, and defaults ordinary brand artwork to a clean white canvas when the supplied intent permits it. Explicit colors, backgrounds and expressive styles still take precedence. [Research and design decisions](docs/research/brand-output-quality-2026-10-01.md) · [All six before/after originals and limitations](docs/qa/brand-output-quality-2026-10-01/README.md).
+
+Reference input, asset-specific PNG checks and blind comparison remain available. [Earlier icon experiment](docs/research/icon-craft-2026/README.md). Default generation counts are unchanged; Hermes 3×3 exploration is opt-in. The samples below were generated on September 20 and are not examples of the 0.9.0 update.
 
 ## A guided workflow in Hermes
 

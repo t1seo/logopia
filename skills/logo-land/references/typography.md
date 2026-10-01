@@ -37,6 +37,37 @@ An illustrative lockup object is:
 
 Keep `exact_text` and `slogan` as separate source strings, preserving every character, space, capitalization and punctuation. Do not translate, romanize, abbreviate, add a tagline or break a Hangul syllable into decorative pseudo-letters. When the user already specified arrangement and feel, generate without a second questionnaire. If layout is delegated, choose for the stated use and record the assumption.
 
+## Give typography a brand role
+
+Translate the intended character into visible letter choices: width, stroke weight,
+terminal shape, counters and spacing rhythm. “High quality”, “premium” or a famous
+font name alone leaves those choices unresolved. A calm wordmark may be distinguished
+by proportion and spacing without custom cuts or a forced ligature. Keep supplied
+athletic, playful, retro or sculpted treatments when they serve the actual request.
+
+Balance a combination mark by visual mass, not identical bounding-box height. Keep
+the name readable at its real header width rather than shrinking it to accommodate
+an oversized emblem. For mixed Hangul/Latin, inspect the actual strings together:
+syllable density, perceived stroke weight, baseline, counters, punctuation and gaps.
+Matching nominal font sizes does not guarantee optical balance; do not apply a fixed
+Latin/Hangul scale factor to every brand. Character-by-character correctness and
+visual balance are separate checks.
+
+If the user also requests product typography, distinguish three possible roles:
+
+| Role | What can be delivered here |
+|---|---|
+| Logo lettering | Generated visual letterforms, with exact-text and appearance review. |
+| Supporting display/UI/body family | A recommendation with purpose, source, available weights and script coverage checked against current official metadata. |
+| Actual typesetting | Only claim a font was used when a separate workflow really loaded that font, composed the text and inspected its output. |
+
+One family may serve multiple supporting roles; a second font is not mandatory.
+Verify the license and required characters before recommending a real family for
+use or redistribution. Distinguish that verified recommendation from custom logo
+lettering; a raster cannot identify its generator's font, provide editable text or
+prove Hangul coverage. This skill does not install/download fonts or silently switch
+to a typesetting engine. Keep those limits explicit when discussing a brand guide.
+
 ## Build and revise the prompt
 
 Include symbol subject, layout/position, relative symbol-to-text size, text alignment, exact brand string, exact slogan when supplied, typeface appearance, palette roles and background. Use quotation-delimited verbatim text, such as brand `"달빛 빵집"` and slogan `"오늘도, 따뜻하게!"`. Never turn an example into the user's brand.
@@ -89,7 +120,7 @@ The [font-tools research](https://github.com/t1seo/logo-land/blob/main/docs/rese
 These are publisher declarations, not binary glyph tests or proof of generated spelling. The research links each selected family's OFL-1.1 file; naming a family does not establish actual font-file use. For a mixed-script brief, describe each treatment separately, for example “Space Grotesk-like Latin name with balanced Pretendard-like Korean slogan,” while preserving both exact strings.
 
 Google Fonts' catalog/CSS and metadata API, Adobe Fonts/Typekit's service/API, community font skills/MCPs, and fontTools' library are distinct surfaces. None is required here. The inspected community font suggestions do not validate individual Hangul glyphs; the download-oriented Microck MCP is excluded. Consult the research only when that distinction matters, and do not install or connect these tools as part of creating a logo.
-# Reference-informed typography
+## Reference-informed typography
 
 Separate a wordmark's spacing and clear space from a mark or square app tile. Preserve
 requested expressive lettering, outlines and depth when they serve the title. Inspect

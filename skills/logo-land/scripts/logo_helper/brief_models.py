@@ -6,6 +6,7 @@ from pydantic import Field, model_validator
 
 from logo_helper.app_icon_models import AppIconIntent, omit_absent
 from logo_helper.asset_models import IconAssetIntent
+from logo_helper.brand_strategy import BrandStrategy, absent_strategy
 from logo_helper.lockup_models import LockupIntent
 from logo_helper.model_base import Background, FrozenModel, LogoType, ProjectError, Text
 
@@ -28,6 +29,7 @@ class Brief(FrozenModel):
     background: Background = "opaque"
     concept_count: Annotated[int, Field(ge=1)] = 3
     app_icon: AppIconIntent | None = Field(default=None, exclude_if=omit_absent)
+    brand_strategy: BrandStrategy | None = Field(default=None, exclude_if=absent_strategy)
 
     @model_validator(mode="after")
     def consistent_icon_brief(self) -> Self:

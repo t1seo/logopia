@@ -1,0 +1,70 @@
+{
+  "protocol_version": 1,
+  "date": "2026-10-01",
+  "baseline_git_head": "4d102c260ec1b65e086ab5f5699cee4ffcbdad01",
+  "baseline_package_version": "0.8.0",
+  "purpose": "Compare the existing documented Logopia workflow with the updated workflow for three matched, realistic brand-logo briefs. This is qualitative evidence from one sample per brief per workflow, not a general quality guarantee.",
+  "feedback_to_investigate": [
+    "Unrequested beige backgrounds",
+    "Synthetic industrial or game-company identity",
+    "Artificial cinematic treatment",
+    "Weak product fit",
+    "Incoherent color combinations"
+  ],
+  "fixed_shared_inputs": [
+    "raw_user_request",
+    "brand_name",
+    "exact_text",
+    "industry",
+    "audience",
+    "logo_type",
+    "use_cases",
+    "shared_direction",
+    "background_request",
+    "concept_count",
+    "forbidden"
+  ],
+  "workflow_dependent_inputs": [
+    "assistant concept elaboration",
+    "palette with roles and rationale",
+    "helper-produced prompt",
+    "new workflow-supported context"
+  ],
+  "calls": {
+    "tool": "image_gen__imagegen",
+    "baseline_generation_calls": 3,
+    "improved_generation_calls": 3,
+    "total_generation_calls": 6,
+    "edit_calls": 0,
+    "retry_calls": 0,
+    "candidates_per_brief_per_workflow": 1,
+    "run_order": [
+      "baseline-tide",
+      "baseline-moa",
+      "baseline-folio",
+      "improved-tide",
+      "improved-moa",
+      "improved-folio"
+    ],
+    "failure_policy": "Preserve an actual tool failure in the ledger; do not silently replace a failed or visually weak candidate. Tool infrastructure recovery needs an explicit amended protocol, not an unrecorded retry.",
+    "image_conditioning": "No reference images or prior generated candidates attached",
+    "other_tool_parameters": "Use only prompt for each new image; omit both referenced_image_paths and num_last_images_to_include. The exposed tool has no seed or model control.",
+    "execution_batches": "Baseline three independent calls may run in parallel; improved three may run in parallel after their prompts are fixed. Order within each parallel batch is not controlled."
+  },
+  "palette_policy": "Assistant-proposed advisory palettes with named roles. White canvas is authoritative for TIDE and 모아. No strict foreground exact-pixel export gate is invented. Folio's background is unspecified in both methods; record the chosen surface and actual result honestly.",
+  "comparison_criteria": [
+    "Fit to the supplied product, audience, and desired personality",
+    "Observable distinguishing construction and avoidance of generic stock motifs",
+    "Exact text and Hangul identity where text is required; absence of text for TIDE",
+    "Contour, spacing, counters, symbol-to-lettering balance and clarity at declared sizes",
+    "Palette relationship, visible role separation and actual background treatment",
+    "Practical flat master-logo behavior versus unsolicited cinematic, emblematic or mockup treatment"
+  ],
+  "limitations": [
+    "One candidate per method per brief cannot establish a statistical improvement",
+    "Native model and sampling may vary; there is no exposed seed",
+    "Visual review and user preference remain distinct from measured file properties",
+    "The neutral comparison should preserve all six originals and exact prompts without making the better-looking candidate larger"
+  ],
+  "generation_status_at_protocol_creation": "No image calls have been made"
+}

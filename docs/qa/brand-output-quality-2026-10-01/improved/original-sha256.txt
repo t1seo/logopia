@@ -1,0 +1,3 @@
+58db19b78464950e792b77fe726649a3b98a4cb1e345cfdd85b4ba71f33e5294  docs/qa/brand-output-quality-2026-10-01/originals/improved-folio.png
+10a1a4535255d52894fa1f0d04f9b7d8ea1f71cbc918747388a87fa2da51416f  docs/qa/brand-output-quality-2026-10-01/originals/improved-moa.png
+88b22101e5e7a25dedafce07df45258fc8d8a484bd2f577ea66c86fb880e4d14  docs/qa/brand-output-quality-2026-10-01/originals/improved-tide.png

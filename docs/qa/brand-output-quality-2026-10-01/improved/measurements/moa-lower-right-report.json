@@ -1,0 +1,1082 @@
+{
+  "schema_version": 2,
+  "id": "improved-moa",
+  "revision": 6,
+  "created_at": "2026-10-01T10:11:52.997661Z",
+  "updated_at": "2026-10-01T10:15:17.829063Z",
+  "brief": {
+    "brand_name": "모아",
+    "exact_text": "모아",
+    "industry": "Personal journaling and reading app",
+    "audience": "Korean-speaking adults aged 20–40 who want a sustainable reading and journaling habit",
+    "slogan": "",
+    "logo_type": "wordmark",
+    "styles": [
+      "rounded Hangul wordmark",
+      "composed",
+      "friendly",
+      "medium weight",
+      "flat"
+    ],
+    "palette": [
+      "#614A68",
+      "#FFFFFF"
+    ],
+    "forbidden": [
+      "separate book icon",
+      "character mascot",
+      "extra lettering",
+      "childish or toy-like treatment"
+    ],
+    "use_cases": [
+      "96px-wide app and website header wordmark",
+      "service landing page"
+    ],
+    "assumptions": [
+      "The 96px-wide header is the primary legibility target; no separate app icon is requested.",
+      "A slightly broad, steady wordmark is the proposed interpretation of adult friendliness and calm."
+    ],
+    "lockup": null,
+    "background": "opaque",
+    "concept_count": 1,
+    "brand_strategy": {
+      "positioning": "A personal reading and journaling app for Korean-speaking adults aged 20–40 who collect meaningful passages and short everyday notes to revisit.",
+      "audience_need": "An approachable, calm place that makes a continued reading and recording habit feel manageable, with a name that remains clear in a 96px header.",
+      "brand_promise": "A thoughtful place for keeping and revisiting personal words; this is the proposed identity rather than a measured habit outcome.",
+      "distinctive_principle": "The exact Hangul name is the identity. Generous inner spaces and related restrained terminal curves make the two syllables feel like a coherent collection without ornament or a children's-app tone.",
+      "typography": "Custom rounded Hangul appearance, medium near-uniform strokes, gently broad syllable blocks, softly square ㅁ, round ㅇ, clear ㅗ/ㅏ and a steady baseline; preserve exact 모아.",
+      "color_roles": "Quiet plum #614A68 fills every letter; pure white #FFFFFF is the opaque exterior and all letter interiors. No additional accent is necessary in this small wordmark.",
+      "assumptions": [
+        "The 96px-wide header is the primary legibility target; no separate app icon is requested.",
+        "A slightly broad, steady wordmark is the proposed interpretation of adult friendliness and calm."
+      ]
+    }
+  },
+  "artifacts": [
+    {
+      "id": "a-v1",
+      "path": "artifacts/a-v1.png",
+      "sha256": "10a1a4535255d52894fa1f0d04f9b7d8ea1f71cbc918747388a87fa2da51416f",
+      "image": {
+        "format": "PNG",
+        "width": 1774,
+        "height": 887,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1573538
+      },
+      "prompt": "Create one wordmark logo for 모아. Exact text (copy verbatim, no other words): '모아'. Exact slogan: ''.\nRender only the supplied exact text and nonempty slogan; the brand context is not additional lettering. Empty strings request no corresponding text.\nIndustry: Personal journaling and reading app. Audience: Korean-speaking adults aged 20–40 who want a sustainable reading and journaling habit.\nStyles: rounded Hangul wordmark, composed, friendly, medium weight, flat. Original brief palette context: #614A68, #FFFFFF.\nAvoid: separate book icon, character mascot, extra lettering, childish or toy-like treatment. Use cases: 96px-wide app and website header wordmark, service landing page.\nBackground: opaque. Produce a real PNG raster image. Use clean, readable shapes at small sizes; leave safe margins. Do not draw a transparency checkerboard, mockup, watermarks, or a concept grid.\nConcept direction: For a personal reading and journaling app for Korean-speaking adults, make the exact two-syllable wordmark \"모아\" the entire identity. Draw composed, slightly broad Hangul blocks with medium, near-uniform strokes, gently rounded corners and generous inner spaces. Keep the ㅁ of 모 recognizably softly squared and the ㅇ of 아 recognizably round, relating their corner softness without confusing the consonants. Preserve the ㅗ below ㅁ and the ㅏ to the right of ㅇ; use the same softly finished terminal family, a steady baseline and a comfortable optical gap between the two syllable blocks. Fill all lettering with quiet plum #614A68. At a total wordmark width of 96px, both syllables and the ㅁ/ㅇ interiors must read immediately. Use an opaque pure #FFFFFF canvas across every exterior corner and margin. No separate symbol, book, character, extra text, inflated bubble strokes, bouncing baseline, shadows or toy-like decoration.. Assumptions: The 96px-wide header is the primary legibility target; no separate app icon is requested., A slightly broad, steady wordmark is the proposed interpretation of adult friendliness and calm..\nBrand rendering: flat, front-facing product artwork by default; one clear idea, deliberate negative space and balanced optical weight. No paper texture, beige tint, presentation lighting, shadows or cinematic effects unless explicitly requested. Requested styles/concept override these surface defaults; depth and extra tones must obey the palette and gradient policy. Use the explicitly requested solid canvas or declared background role first; otherwise plain white #FFFFFF. User canvas and color/count requirements take precedence over this white fallback.\nLogo construction: Make a lettering-only wordmark: the supplied exact text itself is the identity. Do not add a separate icon, mascot, badge or decorative symbol. Build original letterforms from the requested styles and concept: choose a coherent width, weight, slant, curve and terminal family, then make the identifying counter shape, spacing rhythm or readable ligature deliberate. Do not merely place ordinary typeset text beside a motif. Keep every letter recognizable; a ligature must not hide, replace or invent characters. Optical kerning may balance gaps but must preserve the supplied word spaces and reading order. Use style references for broad construction traits, not their brand words or traced signature shapes. The identity should remain recognizable in a one-color silhouette at the intended use size. This construction check does not replace the requested palette or request an extra monochrome image.\nSupporting brand strategy (proposed context, not verified market facts): {\"positioning\":\"A personal reading and journaling app for Korean-speaking adults aged 20–40 who collect meaningful passages and short everyday notes to revisit.\",\"audience_need\":\"An approachable, calm place that makes a continued reading and recording habit feel manageable, with a name that remains clear in a 96px header.\",\"brand_promise\":\"A thoughtful place for keeping and revisiting personal words; this is the proposed identity rather than a measured habit outcome.\",\"distinctive_principle\":\"The exact Hangul name is the identity. Generous inner spaces and related restrained terminal curves make the two syllables feel like a coherent collection without ornament or a children's-app tone.\",\"typography\":\"Custom rounded Hangul appearance, medium near-uniform strokes, gently broad syllable blocks, softly square ㅁ, round ㅇ, clear ㅗ/ㅏ and a steady baseline; preserve exact 모아.\",\"color_roles\":\"Quiet plum #614A68 fills every letter; pure white #FFFFFF is the opaque exterior and all letter interiors. No additional accent is necessary in this small wordmark.\",\"assumptions\":[\"The 96px-wide header is the primary legibility target; no separate app icon is requested.\",\"A slightly broad, steady wordmark is the proposed interpretation of adult friendliness and calm.\"]}\nUse this context only where compatible with the supplied exact text, slogan, palette constraints, explicit lockup, styles and concept; those requests take precedence. Strategy does not authorize new lettering, colors or motifs.\nEffective structured palette intent (authoritative over historical palette): {\"swatches\":[{\"hex\":\"#614A68\",\"role\":\"all exact Hangul lettering; one quiet plum fill keeps both syllables equally legible\"},{\"hex\":\"#FFFFFF\",\"role\":\"opaque pure-white exterior canvas in every corner and margin, and the open Hangul counters\"}],\"constraints\":{\"locked_hex\":[],\"allowed_hex\":null,\"max_colors\":null,\"required_hex\":[\"#FFFFFF\"],\"allow_gradients\":false}}. Keep locked and required HEX values exactly in intent; use the declared roles and allowed colors/count. Opaque backgrounds count as visible design colors; transparent pixels do not. No gradients unless allowed. Raster fidelity is measured after generation, never promised as exact pixels.\nLettering fidelity: preserve every Unicode character, capitalization, punctuation, space and reading order in the applicable text. Keep Hangul syllable blocks intact; do not translate, romanize, abbreviate or substitute lookalike glyphs. Shape changes must keep required text readable, including counters and joins at the intended size.",
+      "parent_id": null,
+      "created_at": "2026-10-01T10:15:14.905208Z",
+      "requested_background": "opaque",
+      "palette_id": "moa-palette-v1",
+      "lockup": null,
+      "review": null,
+      "reviewed_at": null
+    }
+  ],
+  "selected_id": null,
+  "failures": [],
+  "exports": [],
+  "palettes": [
+    {
+      "swatches": [
+        {
+          "hex": "#614A68",
+          "role": "all exact Hangul lettering; one quiet plum fill keeps both syllables equally legible"
+        },
+        {
+          "hex": "#FFFFFF",
+          "role": "opaque pure-white exterior canvas in every corner and margin, and the open Hangul counters"
+        }
+      ],
+      "constraints": {
+        "locked_hex": [],
+        "allowed_hex": null,
+        "max_colors": null,
+        "required_hex": [
+          "#FFFFFF"
+        ],
+        "allow_gradients": false
+      },
+      "source": "assistant",
+      "source_evidence": {
+        "reference_id": null,
+        "reference_sha256": null,
+        "provider": null,
+        "tool": null,
+        "response": null,
+        "notes": [
+          "Assistant-selected foreground under the user's palette delegation; not extracted from a reference or verified in a generated image.",
+          "Pure-white background is explicitly required; no named font or font binary is selected."
+        ]
+      },
+      "selected_by": "assistant",
+      "rationale": "A dark, quiet plum makes the reading-note identity feel personal while supporting compact letter interiors on white. One continuous lettering color lets the Hangul construction carry the distinction without playful syllable coloring.",
+      "calculation_version": "logo-color-v1",
+      "id": "moa-palette-v1",
+      "parent_palette_id": null,
+      "digest": "9785d5116c45681f5ef8508e0f731c397a54f3e3fa5a28395dc681ffd782e504"
+    }
+  ],
+  "active_palette_id": "moa-palette-v1",
+  "references": [],
+  "color_reports": [
+    {
+      "id": "report-65c85323a7ab4aafaf803633ca7540cd",
+      "artifact_id": "a-v1",
+      "artifact_sha256": "10a1a4535255d52894fa1f0d04f9b7d8ea1f71cbc918747388a87fa2da51416f",
+      "palette_id": "moa-palette-v1",
+      "palette_digest": "9785d5116c45681f5ef8508e0f731c397a54f3e3fa5a28395dc681ffd782e504",
+      "analysis_policy": "logo-color-v1",
+      "color_engine_version": "8.12.1",
+      "pillow_version": "12.3.0",
+      "profile_treatment": "assumed_srgb",
+      "sampling": {
+        "width": 1774,
+        "height": 887,
+        "roi": null,
+        "scope": "full_image",
+        "coordinate_policy": "grid_128_pixel_centers",
+        "sampled_positions": 16384,
+        "sampled_fraction": 0.010412204853012764,
+        "visible_samples": 16384,
+        "core_samples": 16384,
+        "partial_alpha_samples": 0
+      },
+      "status": "pass",
+      "reasons": [],
+      "measured_swatches": [
+        {
+          "hex": "#FEFEFE",
+          "samples": 7546,
+          "share": 0.4605712890625
+        },
+        {
+          "hex": "#705574",
+          "samples": 2610,
+          "share": 0.1593017578125
+        },
+        {
+          "hex": "#FDFDFD",
+          "samples": 2537,
+          "share": 0.15484619140625
+        },
+        {
+          "hex": "#FFFFFF",
+          "samples": 1964,
+          "share": 0.119873046875
+        },
+        {
+          "hex": "#FFFEFE",
+          "samples": 1303,
+          "share": 0.07952880859375
+        },
+        {
+          "hex": "#FDFEFE",
+          "samples": 230,
+          "share": 0.0140380859375
+        },
+        {
+          "hex": "#FEFEFD",
+          "samples": 117,
+          "share": 0.00714111328125
+        },
+        {
+          "hex": "#FEFEFF",
+          "samples": 77,
+          "share": 0.00469970703125
+        }
+      ],
+      "targets": [
+        {
+          "hex": "#614A68",
+          "matching_samples": 2569,
+          "share": 0.15679931640625,
+          "mean_delta_e": 2.296289462346048,
+          "max_delta_e": 4.507138794011678
+        },
+        {
+          "hex": "#FFFFFF",
+          "matching_samples": 13758,
+          "share": 0.8397216796875,
+          "mean_delta_e": 0.30452714820341065,
+          "max_delta_e": 4.552681515548777
+        }
+      ],
+      "matched_fraction": 0.99652099609375,
+      "unmatched_fraction": 0.00347900390625,
+      "observed_colors": 2,
+      "minor_swatches": [],
+      "contrasts": [
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.008546618925115,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#171717",
+          "ratio": 17.775916270617873,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#171717",
+          "ratio": 17.927840253027597,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFD",
+          "surface": "#FFFFFF",
+          "ratio": 1.0171949045327753,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFD",
+          "surface": "#171717",
+          "ratio": 17.624783778544717,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0067170671479306,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFE",
+          "surface": "#171717",
+          "ratio": 17.80822123520552,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFD",
+          "surface": "#FFFFFF",
+          "ratio": 1.0153435482995168,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFD",
+          "surface": "#171717",
+          "ratio": 17.656920441414037,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#694C6D",
+          "surface": "#FFFFFF",
+          "ratio": 7.354757062353714,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#694C6D",
+          "surface": "#171717",
+          "ratio": 2.437584287425834,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.006097430915604,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFF",
+          "surface": "#171717",
+          "ratio": 17.8191889792545,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0147165323467515,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFE",
+          "surface": "#171717",
+          "ratio": 17.667831045943036,
+          "alpha": 1.0
+        }
+      ],
+      "delta_e_threshold": 5.0,
+      "created_at": "2026-10-01T10:15:15.006953Z"
+    },
+    {
+      "id": "report-3f4f226426374e4dbf2e1d29966fd734",
+      "artifact_id": "a-v1",
+      "artifact_sha256": "10a1a4535255d52894fa1f0d04f9b7d8ea1f71cbc918747388a87fa2da51416f",
+      "palette_id": "moa-palette-v1",
+      "palette_digest": "9785d5116c45681f5ef8508e0f731c397a54f3e3fa5a28395dc681ffd782e504",
+      "analysis_policy": "logo-color-v1",
+      "color_engine_version": "8.12.1",
+      "pillow_version": "12.3.0",
+      "profile_treatment": "assumed_srgb",
+      "sampling": {
+        "width": 1774,
+        "height": 887,
+        "roi": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        "scope": "roi",
+        "coordinate_policy": "all_pixels",
+        "sampled_positions": 256,
+        "sampled_fraction": 1.0,
+        "visible_samples": 256,
+        "core_samples": 256,
+        "partial_alpha_samples": 0
+      },
+      "status": "pass",
+      "reasons": [],
+      "measured_swatches": [
+        {
+          "hex": "#FEFEFE",
+          "samples": 121,
+          "share": 0.47265625
+        },
+        {
+          "hex": "#FDFDFE",
+          "samples": 39,
+          "share": 0.15234375
+        },
+        {
+          "hex": "#FEFEFF",
+          "samples": 34,
+          "share": 0.1328125
+        },
+        {
+          "hex": "#FFFEFF",
+          "samples": 19,
+          "share": 0.07421875
+        },
+        {
+          "hex": "#FFFFFF",
+          "samples": 17,
+          "share": 0.06640625
+        },
+        {
+          "hex": "#FEFDFE",
+          "samples": 12,
+          "share": 0.046875
+        },
+        {
+          "hex": "#FDFEFE",
+          "samples": 11,
+          "share": 0.04296875
+        },
+        {
+          "hex": "#FEFEFD",
+          "samples": 3,
+          "share": 0.01171875
+        }
+      ],
+      "targets": [
+        {
+          "hex": "#614A68",
+          "matching_samples": 0,
+          "share": 0.0,
+          "mean_delta_e": null,
+          "max_delta_e": null
+        },
+        {
+          "hex": "#FFFFFF",
+          "matching_samples": 256,
+          "share": 1.0,
+          "mean_delta_e": 0.4226058666375775,
+          "max_delta_e": 1.2461296822287578
+        }
+      ],
+      "matched_fraction": 1.0,
+      "unmatched_fraction": 0.0,
+      "observed_colors": 1,
+      "minor_swatches": [],
+      "contrasts": [
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.008546618925115,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#171717",
+          "ratio": 17.775916270617873,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0079247291568614,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFF",
+          "surface": "#171717",
+          "ratio": 17.786884014666857,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.016565600628364,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFE",
+          "surface": "#171717",
+          "ratio": 17.635694383073716,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.006097430915604,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFF",
+          "surface": "#171717",
+          "ratio": 17.8191889792545,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFD",
+          "surface": "#FFFFFF",
+          "ratio": 1.0171949045327753,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFD",
+          "surface": "#171717",
+          "ratio": 17.624783778544717,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#171717",
+          "ratio": 17.927840253027597,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0147165323467515,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFE",
+          "surface": "#171717",
+          "ratio": 17.667831045943036,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0159337853175494,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFF",
+          "surface": "#171717",
+          "ratio": 17.646662127122696,
+          "alpha": 1.0
+        }
+      ],
+      "delta_e_threshold": 5.0,
+      "created_at": "2026-10-01T10:15:16.860746Z"
+    },
+    {
+      "id": "report-a52a11db840942a8a5f131c5c5f13d7f",
+      "artifact_id": "a-v1",
+      "artifact_sha256": "10a1a4535255d52894fa1f0d04f9b7d8ea1f71cbc918747388a87fa2da51416f",
+      "palette_id": "moa-palette-v1",
+      "palette_digest": "9785d5116c45681f5ef8508e0f731c397a54f3e3fa5a28395dc681ffd782e504",
+      "analysis_policy": "logo-color-v1",
+      "color_engine_version": "8.12.1",
+      "pillow_version": "12.3.0",
+      "profile_treatment": "assumed_srgb",
+      "sampling": {
+        "width": 1774,
+        "height": 887,
+        "roi": {
+          "x": 1758,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        "scope": "roi",
+        "coordinate_policy": "all_pixels",
+        "sampled_positions": 256,
+        "sampled_fraction": 1.0,
+        "visible_samples": 256,
+        "core_samples": 256,
+        "partial_alpha_samples": 0
+      },
+      "status": "pass",
+      "reasons": [],
+      "measured_swatches": [
+        {
+          "hex": "#FEFEFE",
+          "samples": 74,
+          "share": 0.2890625
+        },
+        {
+          "hex": "#FFFFFF",
+          "samples": 53,
+          "share": 0.20703125
+        },
+        {
+          "hex": "#FEFEFF",
+          "samples": 45,
+          "share": 0.17578125
+        },
+        {
+          "hex": "#FFFEFE",
+          "samples": 30,
+          "share": 0.1171875
+        },
+        {
+          "hex": "#FEFFFF",
+          "samples": 21,
+          "share": 0.08203125
+        },
+        {
+          "hex": "#FFFFFE",
+          "samples": 17,
+          "share": 0.06640625
+        },
+        {
+          "hex": "#FDFDFE",
+          "samples": 11,
+          "share": 0.04296875
+        },
+        {
+          "hex": "#FDFEFE",
+          "samples": 5,
+          "share": 0.01953125
+        }
+      ],
+      "targets": [
+        {
+          "hex": "#614A68",
+          "matching_samples": 0,
+          "share": 0.0,
+          "mean_delta_e": null,
+          "max_delta_e": null
+        },
+        {
+          "hex": "#FFFFFF",
+          "matching_samples": 256,
+          "share": 1.0,
+          "mean_delta_e": 0.3552820062394815,
+          "max_delta_e": 1.243062263199578
+        }
+      ],
+      "matched_fraction": 1.0,
+      "unmatched_fraction": 0.0,
+      "observed_colors": 1,
+      "minor_swatches": [],
+      "contrasts": [
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.008546618925115,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#171717",
+          "ratio": 17.775916270617873,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#171717",
+          "ratio": 17.927840253027597,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0079247291568614,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFF",
+          "surface": "#171717",
+          "ratio": 17.786884014666857,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0067170671479306,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFE",
+          "surface": "#171717",
+          "ratio": 17.80822123520552,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.000612146123353,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFE",
+          "surface": "#171717",
+          "ratio": 17.916872508978617,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.006097430915604,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFF",
+          "surface": "#171717",
+          "ratio": 17.8191889792545,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.001805196886651,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFF",
+          "surface": "#171717",
+          "ratio": 17.895535288439955,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0024195557722724,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFE",
+          "surface": "#171717",
+          "ratio": 17.884567544390972,
+          "alpha": 1.0
+        }
+      ],
+      "delta_e_threshold": 5.0,
+      "created_at": "2026-10-01T10:15:17.167647Z"
+    },
+    {
+      "id": "report-c85631cb2e0344c29dcbf7106a16b37d",
+      "artifact_id": "a-v1",
+      "artifact_sha256": "10a1a4535255d52894fa1f0d04f9b7d8ea1f71cbc918747388a87fa2da51416f",
+      "palette_id": "moa-palette-v1",
+      "palette_digest": "9785d5116c45681f5ef8508e0f731c397a54f3e3fa5a28395dc681ffd782e504",
+      "analysis_policy": "logo-color-v1",
+      "color_engine_version": "8.12.1",
+      "pillow_version": "12.3.0",
+      "profile_treatment": "assumed_srgb",
+      "sampling": {
+        "width": 1774,
+        "height": 887,
+        "roi": {
+          "x": 0,
+          "y": 871,
+          "width": 16,
+          "height": 16
+        },
+        "scope": "roi",
+        "coordinate_policy": "all_pixels",
+        "sampled_positions": 256,
+        "sampled_fraction": 1.0,
+        "visible_samples": 256,
+        "core_samples": 256,
+        "partial_alpha_samples": 0
+      },
+      "status": "pass",
+      "reasons": [],
+      "measured_swatches": [
+        {
+          "hex": "#FEFEFE",
+          "samples": 148,
+          "share": 0.578125
+        },
+        {
+          "hex": "#FFFEFF",
+          "samples": 26,
+          "share": 0.1015625
+        },
+        {
+          "hex": "#FFFFFF",
+          "samples": 25,
+          "share": 0.09765625
+        },
+        {
+          "hex": "#FDFDFD",
+          "samples": 20,
+          "share": 0.078125
+        },
+        {
+          "hex": "#FEFDFE",
+          "samples": 13,
+          "share": 0.05078125
+        },
+        {
+          "hex": "#FEFEFF",
+          "samples": 11,
+          "share": 0.04296875
+        },
+        {
+          "hex": "#FEFFFE",
+          "samples": 10,
+          "share": 0.0390625
+        },
+        {
+          "hex": "#FFFFFE",
+          "samples": 3,
+          "share": 0.01171875
+        }
+      ],
+      "targets": [
+        {
+          "hex": "#614A68",
+          "matching_samples": 0,
+          "share": 0.0,
+          "mean_delta_e": null,
+          "max_delta_e": null
+        },
+        {
+          "hex": "#FFFFFF",
+          "matching_samples": 256,
+          "share": 1.0,
+          "mean_delta_e": 0.3239079905229848,
+          "max_delta_e": 0.8506789873283536
+        }
+      ],
+      "matched_fraction": 1.0,
+      "unmatched_fraction": 0.0,
+      "observed_colors": 1,
+      "minor_swatches": [],
+      "contrasts": [
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.008546618925115,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#171717",
+          "ratio": 17.775916270617873,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#171717",
+          "ratio": 17.927840253027597,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.006097430915604,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFF",
+          "surface": "#171717",
+          "ratio": 17.8191889792545,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFD",
+          "surface": "#FFFFFF",
+          "ratio": 1.0171949045327753,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFD",
+          "surface": "#171717",
+          "ratio": 17.624783778544717,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0147165323467515,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFE",
+          "surface": "#171717",
+          "ratio": 17.667831045943036,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0079247291568614,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFF",
+          "surface": "#171717",
+          "ratio": 17.786884014666857,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0024195557722724,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFE",
+          "surface": "#171717",
+          "ratio": 17.884567544390972,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0067170671479306,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFE",
+          "surface": "#171717",
+          "ratio": 17.80822123520552,
+          "alpha": 1.0
+        }
+      ],
+      "delta_e_threshold": 5.0,
+      "created_at": "2026-10-01T10:15:17.485046Z"
+    },
+    {
+      "id": "report-72f10e08ba8d470e8b5cf0dc619f4fe0",
+      "artifact_id": "a-v1",
+      "artifact_sha256": "10a1a4535255d52894fa1f0d04f9b7d8ea1f71cbc918747388a87fa2da51416f",
+      "palette_id": "moa-palette-v1",
+      "palette_digest": "9785d5116c45681f5ef8508e0f731c397a54f3e3fa5a28395dc681ffd782e504",
+      "analysis_policy": "logo-color-v1",
+      "color_engine_version": "8.12.1",
+      "pillow_version": "12.3.0",
+      "profile_treatment": "assumed_srgb",
+      "sampling": {
+        "width": 1774,
+        "height": 887,
+        "roi": {
+          "x": 1758,
+          "y": 871,
+          "width": 16,
+          "height": 16
+        },
+        "scope": "roi",
+        "coordinate_policy": "all_pixels",
+        "sampled_positions": 256,
+        "sampled_fraction": 1.0,
+        "visible_samples": 256,
+        "core_samples": 256,
+        "partial_alpha_samples": 0
+      },
+      "status": "pass",
+      "reasons": [],
+      "measured_swatches": [
+        {
+          "hex": "#FEFEFE",
+          "samples": 104,
+          "share": 0.40625
+        },
+        {
+          "hex": "#FFFEFF",
+          "samples": 39,
+          "share": 0.15234375
+        },
+        {
+          "hex": "#FEFDFE",
+          "samples": 38,
+          "share": 0.1484375
+        },
+        {
+          "hex": "#FFFFFF",
+          "samples": 29,
+          "share": 0.11328125
+        },
+        {
+          "hex": "#FEFEFF",
+          "samples": 21,
+          "share": 0.08203125
+        },
+        {
+          "hex": "#FEFFFF",
+          "samples": 14,
+          "share": 0.0546875
+        },
+        {
+          "hex": "#FDFEFD",
+          "samples": 9,
+          "share": 0.03515625
+        },
+        {
+          "hex": "#FEFEFD",
+          "samples": 2,
+          "share": 0.0078125
+        }
+      ],
+      "targets": [
+        {
+          "hex": "#614A68",
+          "matching_samples": 0,
+          "share": 0.0,
+          "mean_delta_e": null,
+          "max_delta_e": null
+        },
+        {
+          "hex": "#FFFFFF",
+          "matching_samples": 256,
+          "share": 1.0,
+          "mean_delta_e": 0.44348635036109746,
+          "max_delta_e": 1.2461296822287578
+        }
+      ],
+      "matched_fraction": 1.0,
+      "unmatched_fraction": 0.0,
+      "observed_colors": 1,
+      "minor_swatches": [],
+      "contrasts": [
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.008546618925115,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#171717",
+          "ratio": 17.775916270617873,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.006097430915604,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFF",
+          "surface": "#171717",
+          "ratio": 17.8191889792545,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0147165323467515,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFE",
+          "surface": "#171717",
+          "ratio": 17.667831045943036,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#171717",
+          "ratio": 17.927840253027597,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0079247291568614,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFF",
+          "surface": "#171717",
+          "ratio": 17.786884014666857,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0024195557722724,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFE",
+          "surface": "#171717",
+          "ratio": 17.884567544390972,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.001805196886651,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFF",
+          "surface": "#171717",
+          "ratio": 17.895535288439955,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFEFD",
+          "surface": "#FFFFFF",
+          "ratio": 1.0109949072410473,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFEFD",
+          "surface": "#171717",
+          "ratio": 17.732869003219555,
+          "alpha": 1.0
+        }
+      ],
+      "delta_e_threshold": 5.0,
+      "created_at": "2026-10-01T10:15:17.828682Z"
+    }
+  ]
+}

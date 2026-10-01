@@ -40,7 +40,9 @@ def _produce_direction(steps: Steps, state: Workflow, direction: Direction, slot
         except (StudioError, OSError, ValidationError) as error:
             return steps.fail(state, job, error)
     variation = next((item for item in direction.variations if item.slot == slot), None)
-    prompt = image_prompt(state.brief, direction, variation, state.reference_analysis)
+    prompt = image_prompt(
+        state.brief, direction, variation, state.reference_analysis, strategy=state.strategy
+    )
     job = Job(
         id=f"j{len(state.jobs) + 1}",
         kind="generate",

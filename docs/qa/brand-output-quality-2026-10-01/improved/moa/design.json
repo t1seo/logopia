@@ -1,0 +1,28 @@
+{
+  "concept_title": "차분한 한글의 여백",
+  "styles": ["rounded Hangul wordmark", "composed", "friendly", "medium weight", "flat"],
+  "concept": "For a personal reading and journaling app for Korean-speaking adults, make the exact two-syllable wordmark \"모아\" the entire identity. Draw composed, slightly broad Hangul blocks with medium, near-uniform strokes, gently rounded corners and generous inner spaces. Keep the ㅁ of 모 recognizably softly squared and the ㅇ of 아 recognizably round, relating their corner softness without confusing the consonants. Preserve the ㅗ below ㅁ and the ㅏ to the right of ㅇ; use the same softly finished terminal family, a steady baseline and a comfortable optical gap between the two syllable blocks. Fill all lettering with quiet plum #614A68. At a total wordmark width of 96px, both syllables and the ㅁ/ㅇ interiors must read immediately. Use an opaque pure #FFFFFF canvas across every exterior corner and margin. No separate symbol, book, character, extra text, inflated bubble strokes, bouncing baseline, shadows or toy-like decoration.",
+  "brand_strategy": {
+    "positioning": "A personal reading and journaling app for Korean-speaking adults aged 20–40 who collect meaningful passages and short everyday notes to revisit.",
+    "audience_need": "An approachable, calm place that makes a continued reading and recording habit feel manageable, with a name that remains clear in a 96px header.",
+    "brand_promise": "A thoughtful place for keeping and revisiting personal words; this is the proposed identity rather than a measured habit outcome.",
+    "distinctive_principle": "The exact Hangul name is the identity. Generous inner spaces and related restrained terminal curves make the two syllables feel like a coherent collection without ornament or a children's-app tone.",
+    "typography": "Custom rounded Hangul appearance, medium near-uniform strokes, gently broad syllable blocks, softly square ㅁ, round ㅇ, clear ㅗ/ㅏ and a steady baseline; preserve exact 모아.",
+    "color_roles": "Quiet plum #614A68 fills every letter; pure white #FFFFFF is the opaque exterior and all letter interiors. No additional accent is necessary in this small wordmark.",
+    "assumptions": ["The 96px-wide header is the primary legibility target; no separate app icon is requested.", "A slightly broad, steady wordmark is the proposed interpretation of adult friendliness and calm."]
+  },
+  "lockup": null,
+  "palette": {
+    "swatches": [
+      {"hex": "#614A68", "role": "all exact Hangul lettering; one quiet plum fill keeps both syllables equally legible"},
+      {"hex": "#FFFFFF", "role": "opaque pure-white exterior canvas in every corner and margin, and the open Hangul counters"}
+    ],
+    "constraints": {"locked_hex": [], "allowed_hex": null, "max_colors": null, "required_hex": ["#FFFFFF"], "allow_gradients": false},
+    "source": "assistant",
+    "source_evidence": {"notes": ["Assistant-selected foreground under the user's palette delegation; not extracted from a reference or verified in a generated image.", "Pure-white background is explicitly required; no named font or font binary is selected."]},
+    "selected_by": "assistant",
+    "rationale": "A dark, quiet plum makes the reading-note identity feel personal while supporting compact letter interiors on white. One continuous lettering color lets the Hangul construction carry the distinction without playful syllable coloring."
+  },
+  "decision_rationale_ko": ["모아의 의미를 아이콘 대신 글자 안의 여백과 두 음절의 균형으로 해석했습니다.", "ㅁ과 ㅇ에 같은 둥글기를 기계적으로 적용하지 않고, 자소 구별을 유지해 정확한 한글 읽기를 우선합니다.", "차분한 자주색 한 색으로 이름을 묶고, 유아용 인상을 줄 수 있는 부푼 획·튀는 기준선·캐릭터는 배제했습니다."],
+  "inspect_risks": ["The softly squared ㅁ may become circular and alter the first syllable.", "Medium rounded strokes may become inflated toy-like lettering.", "The ㅗ or ㅏ may merge with adjacent strokes or lose clarity at 96px width."]
+}

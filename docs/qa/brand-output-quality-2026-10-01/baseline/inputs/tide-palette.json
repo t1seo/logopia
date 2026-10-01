@@ -1,0 +1,12 @@
+{
+  "swatches": [
+    {"hex": "#2357A5", "role": "dominant abstract handoff form"},
+    {"hex": "#C1DCE3", "role": "smaller supporting abstract form"},
+    {"hex": "#FFFFFF", "role": "explicitly requested opaque white exterior canvas"}
+  ],
+  "constraints": {"locked_hex": [], "allowed_hex": null, "max_colors": null, "required_hex": [], "allow_gradients": false},
+  "source": "assistant",
+  "source_evidence": {"notes": ["Uses the existing Quiet technology primary and pale companion suggestion; omits the lettering color because the user requests no text. White exterior follows the explicit brief. These are proposed values, not sampled colors."]},
+  "selected_by": "assistant",
+  "rationale": "A restrained blue dominant mark with a pale cyan supporting form fits a calm coordination service; role hierarchy is to be visually checked at 32px."
+}

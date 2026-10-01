@@ -1,0 +1,43 @@
+{
+  "brand_id": "tide",
+  "status": "ready_for_parent_native_generation",
+  "input_source": "tide/input.json",
+  "input_sha256": "5e7e20fd7c370e908201570b71ee80582248153f16adc85ba6b31aa4d3421486",
+  "raw_user_request": "TIDE는 작은 팀이 서로 가능한 시간을 맞추고 업무 교대를 조율하는 일정 SaaS입니다. 5~30명 팀의 운영 담당자와 팀원이 쓰며, 신뢰감 있고 유연하되 딱딱하지 않은 인상이면 좋겠습니다. 이름이나 문자가 없는 추상 심볼 로고 하나를 만들어 주세요. 일정의 흐름과 자연스러운 인수인계가 느껴지면 좋지만 파도, 시계, 달력, 무한대 기호를 그대로 그리지는 말아 주세요. 웹 앱 사이드바의 32px 심볼과 서비스 소개 페이지에 쓸 예정입니다. 로고에 맞는 색 조합을 골라 주시고, 배경은 순백색으로 해 주세요.",
+  "raw_user_request_text_sha256": "1de9a410ab6ca9472ac5b15686c82d6401365d4353f30c54381ec0b5d7bc12ed",
+  "shared_direction": "An abstract handoff gesture: two offset, substantial forms share one clear joining interval, communicating coordination without literal waves or calendar imagery.",
+  "brief_sha256": "e301d54f633b9433a2ebd21e96d84908632a7039238eff10ee68160aa2010406",
+  "design_sha256": "629e7c8a1e9d44187c0f4d2b489fe15bfe885ebe2bca3f4f3eb5af1a3c7c15ff",
+  "palette_file_sha256": "9c8743fd861f66db3318d66ac7333a66281b0f4301ed69b35e5e350a6811fe3a",
+  "exact_final_prompt_file": "tide/prompt.txt",
+  "exact_final_prompt_sha256": "a847d355dcd48aae5d21aa9cf13b2448c61fe471fff0b99e789a549e07a18d01",
+  "final_prompt_matches_helper_verbatim": true,
+  "source_version_file": "provenance/source-version.json",
+  "source_version_sha256": "c633e5716efe117544c10a129f3d1bb13ad54a7245e0f3c33801203ceddbbcbc",
+  "helper_workspace": "/tmp/logopia-improved-20261001.B2s8rF",
+  "helper_session_id": "improved-tide",
+  "helper_prompt_revision": 1,
+  "effective_palette_id": "tide-palette-v1",
+  "effective_palette_digest": "efe1be6cc534248da86cd1f1204849c1f753940f9208db9e289e9c8461212fc6",
+  "effective_lockup": null,
+  "one_pass": {
+    "candidate_count_for_this_brand": 1,
+    "max_candidates_across_all_three_brands": 3,
+    "planned_native_calls_for_this_brand": 1,
+    "actual_native_calls_by_this_agent": 0,
+    "rerolls_allowed": 0,
+    "actual_rerolls": 0,
+    "native_generation_owner": "parent",
+    "native_generation_status": "not_started_by_this_agent",
+    "output_artifacts": []
+  },
+  "review": {
+    "fixed_input_fields_preserved": true,
+    "background_request_preserved": true,
+    "foreground_palette_selected_by": "assistant",
+    "locked_foreground_colors": [],
+    "image_quality_observed": false,
+    "user_approved": false,
+    "superiority_claim": false
+  }
+}

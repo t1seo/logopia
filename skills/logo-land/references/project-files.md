@@ -31,10 +31,41 @@ Optional fields:
 | `concept_count` | integer, 3 |
 | `lockup` | `LockupIntent` object or null; null |
 | `app_icon` | `AppIconIntent` object or null; null |
+| `brand_strategy` | `BrandStrategy` object or null; null, omitted from saved JSON when absent |
 
 Use [brief.example.json](../assets/brief.example.json) as a starting shape. Do not treat its fictional brand as the user's brand. For an unknown audience or other nonessential field, record a reasonable assumption rather than claiming the user supplied it.
 
 The brief's free-text `palette` is historical intent, not a structured restriction or a measured color report. Save enforceable intent with `palette-add`. `lockup` uses the same object accepted by `--lockup-file` below. The exact text and slogan remain verbatim strings; do not encode replacement lettering in the font reference.
+
+### Brand strategy
+
+An optional `brand_strategy` keeps compact shared context for a new brand logo. Its
+six string fields below are required and nonempty when the object is supplied (each
+up to 20,000 characters); `assumptions` defaults to an empty array and accepts at most
+12 nonempty strings. Unknown fields are rejected. Omit the object for a simple brief
+that does not benefit from it; do not invent empty filler values.
+
+```json
+{
+  "positioning": "A personal reading-note service for casual readers",
+  "audience_need": "Keep notes without making reading feel like work",
+  "brand_promise": "Approachable and attentive, without a childish tone",
+  "distinctive_principle": "Let the exact name carry the identity; calm proportions, no industrial badge",
+  "typography": "Medium rounded terminals, distinct Hangul syllables and open counters",
+  "color_roles": "Deep ink lettering on white; reserve an accent for application UI",
+  "assumptions": ["Fictional example; a 160px-wide website header is the first use"]
+}
+```
+
+Place this object under the brief's `brand_strategy` key, not as a standalone brief.
+The helper sends it as subordinate context for fresh brand-logo generation only,
+bounded to the first 320 characters per main description and the first three
+assumptions at 160 characters each. Keep useful decisions first; full strings remain
+saved, and this bound is truncation rather than a model-written summary. In the prompt,
+explicit text, concept, styles, palette/background constraints and lockup remain
+authoritative. Parent edits and app-icon prompts exclude historical strategy to avoid
+resetting selected artwork. See [brand-strategy.md](brand-strategy.md) for translating
+this data into concise visual decisions and preserving assumptions.
 
 ## App icon intent and commands
 

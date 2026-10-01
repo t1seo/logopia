@@ -24,15 +24,26 @@ def plan_instructions(role: Literal["strategy", "directions"], brief: StudioBrie
         case "strategy":
             task = (
                 "Act as the strategist. Connect the stated audience need to a concrete visual "
-                "principle; propose positioning, promise, typography and color roles. "
-                "Record unknowns as assumptions. Do not draft a self-review. "
+                "principle; propose positioning, promise, typography and color roles. Give "
+                "one product-specific reason for the chosen construction, not a list of brand "
+                "adjectives. Typography names a suitable letter skeleton, weight, spacing and "
+                "language coverage; a font name is appearance guidance, not a used font file. "
+                "Color roles explain dominant and any supporting/accent placement, relative area, "
+                "lightness and saturation; add no role without a purpose. Record unknowns as "
+                "assumptions. "
+                "Keep each of the six visual strategy fields within 320 characters, with its "
+                "specific design decision first. "
+                "Explicit user constraints outrank every proposed strategy. Do not draft a "
+                "self-review or add an unsolicited brand-name/tagline exercise. "
             )
         case "directions":
             task = (
                 f"Act as the art director. Return exactly {brief.effective_direction_count} "
                 "independent directions with portable IDs and distinct meaning/construction, "
                 "visible preserve features, an honest risk and a complete image prompt each. "
-                "The saved strategy is context, not a verdict. Each prompt requests one square "
+                "Translate the saved strategy into visible form, lettering and color placement; "
+                "retain explicit brief constraints when they conflict. The saved strategy is "
+                "context, not a verdict. Each prompt requests one square "
                 "original, never a collage, mockup, grid or contact sheet. "
                 "Supply a concise design_spec: primary form, construction decisions, color roles, "
                 "chosen material or reason for no depth, transferable reference traits, excluded "
@@ -62,8 +73,17 @@ def plan_instructions(role: Literal["strategy", "directions"], brief: StudioBrie
             mode = (
                 "Preserve exact_text character for character, including case and Hangul. "
                 "Honor logo_type; wordmarks must not acquire an unsolicited symbol. "
-                "Unless transparent is explicitly requested, require pure white #FFFFFF "
-                "across empty corners and margins, without texture, vignette or exterior shadow. "
+                "Build a recognizable product identity with a coherent silhouette or readable "
+                "letter skeleton. A combination mark needs a deliberate symbol/text size ratio, "
+                "optical baseline and clear gap. Avoid forced letter fusions, arbitrary cuts and "
+                "generic fictional industrial emblems. Default to flat original artwork; do not "
+                "infer cinematic lighting, metal, bevels, embossing, premium darkness or game "
+                "faction styling from words like professional or innovative. An explicit request "
+                "for such a style is valid. For an opaque brand canvas, default to pure white "
+                "#FFFFFF across empty corners and margins unless the brief explicitly specifies "
+                "another exterior canvas color. Transparent background remains transparent. A "
+                "colored backplate is foreground artwork, not an exterior canvas instruction. "
+                "Exclude unrequested beige, paper texture, vignette and exterior shadows. "
             )
         case _:
             assert_never(brief.mode)
@@ -89,12 +109,18 @@ def critique_instructions(role: Literal["design", "production"]) -> str:
                 "color-role placement and preservation of the requested parent features. "
                 "Compare the brief and labeled references: describe visible fit or specific "
                 "confusion, curvature consistency and whether material supports the silhouette. "
+                "For brand work, flag a generic decorative fusion, artificial letter anatomy, "
+                "competing color accents or unrequested cinematic finish under composition; "
+                "identify the visible part and its effect at use size. Respect an explicitly "
+                "requested expressive style. A mockup's polish cannot establish logo quality. "
                 "Do not require a shape metaphor, symmetry, minimalism or a beauty score. "
             )
         case "production":
             focus = (
                 "Independently examine production and actual display size: readability, fragile "
                 "gaps/strokes, aliasing, clear space, canvas/background and parent regressions. "
+                "For brand work, inspect empty corners and margins for unrequested beige, "
+                "texture, lighting or cast shadows against the user's canvas intent. "
                 "Do not infer visual success from metadata or a claimed requested resolution. "
             )
         case _:

@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Logopia 브랜드 로고 생성 근거 · 2026-10-01</title>
+  <style>
+    :root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; color: #18202b; background: #f5f6f8; }
+    * { box-sizing: border-box; }
+    body { margin: 0; line-height: 1.65; }
+    main { max-width: 1120px; margin: 0 auto; padding: 48px 24px 64px; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 { font-size: clamp(1.7rem, 4vw, 2.5rem); line-height: 1.25; letter-spacing: -.035em; margin-bottom: 18px; }
+    h2 { font-size: 1.5rem; letter-spacing: -.025em; margin-bottom: 8px; }
+    h3 { font-size: 1rem; margin-bottom: 12px; }
+    a { color: #2356a0; text-underline-offset: 3px; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 3px solid #2356a0; outline-offset: 4px; }
+    .eyebrow, .meta, figcaption { color: #56606e; font-size: .875rem; }
+    .eyebrow { letter-spacing: .05em; margin-bottom: 10px; }
+    .intro { max-width: 80ch; }
+    .notice { border-left: 3px solid #697c98; padding: 16px 20px; margin: 24px 0; background: #eaf0f7; }
+    .notice p:last-child, section p:last-child { margin-bottom: 0; }
+    nav ul, .links { display: flex; flex-wrap: wrap; gap: 8px 20px; padding: 0; list-style: none; }
+    .case { margin-top: 36px; padding: 28px; background: #fff; border: 1px solid #dce1e8; border-radius: 12px; }
+    .brief { max-width: 84ch; }
+    figure { margin: 0; }
+    .comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-top: 24px; }
+    .arm { min-width: 0; }
+    .arm h3 { font-size: 1.15rem; margin-bottom: 6px; }
+    h4 { font-size: 1rem; margin: 20px 0 12px; }
+    .large-frame { width: 100%; height: 360px; margin: 14px 0 12px; display: flex; align-items: center; justify-content: center; background: #f0f2f5; border: 1px solid #e0e4e9; }
+    .large-frame img { display: block; width: 100%; height: 100%; object-fit: contain; }
+    .small-grid { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 24px; margin: 16px 0; }
+    .small-grid figure { max-width: 100%; }
+    .small-grid img { display: block; height: auto; max-width: 100%; border: 1px solid #e0e4e9; }
+    .small-grid figcaption { margin-top: 8px; }
+    .method { margin-top: 36px; padding-top: 24px; border-top: 1px solid #d3dae3; }
+    .method li + li { margin-top: 8px; }
+    code { font-size: .875em; overflow-wrap: anywhere; }
+    @media (max-width: 760px) { .comparison { grid-template-columns: 1fr; gap: 36px; } }
+    @media (max-width: 620px) { main { padding: 28px 16px 40px; } .case { padding: 20px 16px; } .large-frame { height: 300px; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow">LOGOPIA · 2026-10-01 · 생성 근거</p>
+    <h1>브랜드 로고 출력 검토</h1>
+    <p class="intro">같은 제품 브리프를 기존 워크플로와 개선 워크플로에 적용한 제한된 비교 실험입니다. 실제 생성된 원본 6개를 브리프별로 나란히 표시합니다. ‘개선 워크플로’는 변경한 방법의 이름이며, 결과 품질이 더 높다는 판정은 아닙니다.</p>
+    <div class="notice">
+      <p><strong>아직 품질 개선이나 선호 결과를 결론 내리지 않습니다.</strong> 사용자 선호 결과는 수집되지 않았습니다. 브리프·방법별 표본은 1개이며, 이 자료만으로 일반적인 품질 향상을 입증할 수 없습니다.</p>
+    </div>
+    <nav aria-label="공통 근거 자료">
+      <ul>
+        <li><a href="README.md">실험 안내</a></li>
+        <li><a href="protocol.json">고정 실험 조건</a></li>
+        <li><a href="calls.json">실제 호출 기록</a></li>
+        <li><a href="baseline/provenance.json">기존 소스 출처·버전</a></li>
+        <li><a href="baseline/source/SHA256SUMS">보존 소스 해시</a></li>
+        <li><a href="baseline/input-sha256.txt">입력 해시</a></li>
+        <li><a href="baseline/original-sha256.txt">기존 원본 해시</a></li>
+        <li><a href="baseline/observed-technical.json">기존 원본 기술 측정</a></li>
+        <li><a href="improved/execution-manifest.json">개선 입력 준비 기록</a></li>
+        <li><a href="improved/provenance/source-hashes.json">개선 소스 해시</a></li>
+        <li><a href="improved/original-sha256.txt">개선 원본 해시</a></li>
+        <li><a href="improved/observed-technical.json">개선 원본 기술 측정</a></li>
+      </ul>
+    </nav>
+    <p class="meta">기존 버전 0.8.0 · Git <code>4d102c260ec1b65e086ab5f5699cee4ffcbdad01</code> · 실제 생성 6회 완료, 실패 0회, 편집 0회, 재시도 0회.</p>
+    <p class="meta">공식 Codex Computer Use를 사용할 수 없어 이 HTML의 실제 브라우저 렌더링과 CSS 표시 크기는 검증하지 못했습니다. 파일·링크·원본 크기에 대한 정적 검사와 화면 검증을 구분해 주세요.</p>
+  </header>
+
+  <section class="case" aria-labelledby="tide-title">
+    <h2 id="tide-title">TIDE · 추상 심볼</h2>
+    <p class="brief">작은 팀의 일정·교대 조율 서비스입니다. 신뢰감 있고 유연한 인상, 문자가 없는 추상 심볼, 순백색 배경이 공통 요구입니다. 파도·시계·달력·무한대 기호의 직접 묘사는 금지했습니다.</p>
+    <p><a href="briefs/tide.json">공통 원문 브리프</a></p>
+    <div class="comparison">
+    <section class="arm" aria-labelledby="tide-baseline-title">
+    <h3 id="tide-baseline-title">기존 워크플로</h3>
+    <p class="meta">원본 · 1254 × 1254px · 1:1</p>
+    <figure>
+      <div class="large-frame"><img src="originals/baseline-tide.png" alt="기존 워크플로에서 생성한 TIDE 추상 심볼 원본" width="1254" height="1254"></div>
+      <figcaption>원본 전체를 공통 크기의 프레임에 맞춰 표시합니다. 잘라내기나 배경 교체를 하지 않았습니다.</figcaption>
+    </figure>
+    <ul class="links">
+      <li><a href="originals/baseline-tide.png" download>PNG 원본 다운로드</a></li>
+      <li><a href="baseline/prompts/tide.txt">실제 생성 프롬프트</a></li>
+      <li><a href="baseline/prompts/tide.json">프롬프트 메타데이터</a></li>
+      <li><a href="baseline/inputs/tide-palette.json">기존 제안 팔레트</a></li>
+    </ul>
+    <h4>작게 보기 · 전체 이미지 폭</h4>
+    <div class="small-grid">
+      <figure><img src="originals/baseline-tide.png" alt="TIDE 원본을 전체 폭 32px로 표시" width="32" height="32"><figcaption>32px</figcaption></figure>
+      <figure><img src="originals/baseline-tide.png" alt="TIDE 원본을 전체 폭 48px로 표시" width="48" height="48"><figcaption>48px</figcaption></figure>
+      <figure><img src="originals/baseline-tide.png" alt="TIDE 원본을 전체 폭 64px로 표시" width="64" height="64"><figcaption>64px</figcaption></figure>
+      <figure><img src="originals/baseline-tide.png" alt="TIDE 원본을 전체 폭 128px로 표시" width="128" height="128"><figcaption>128px</figcaption></figure>
+    </div>
+    </section>
+    <section class="arm" aria-labelledby="tide-improved-title">
+    <h3 id="tide-improved-title">개선 워크플로</h3>
+    <p class="meta">원본 · 1254 × 1254px · 1:1</p>
+    <figure>
+      <div class="large-frame"><img src="originals/improved-tide.png" alt="개선 워크플로에서 생성한 TIDE 추상 심볼 원본" width="1254" height="1254"></div>
+      <figcaption>원본 전체를 공통 크기의 프레임에 맞춰 표시합니다. 잘라내기나 배경 교체를 하지 않았습니다.</figcaption>
+    </figure>
+    <ul class="links">
+      <li><a href="originals/improved-tide.png" download>PNG 원본 다운로드</a></li>
+      <li><a href="improved/tide/prompt.txt">실제 생성 프롬프트</a></li>
+      <li><a href="improved/tide/prompt.json">프롬프트 메타데이터</a></li>
+      <li><a href="improved/tide/palette.json">개선 제안 팔레트</a></li>
+      <li><a href="improved/tide/brief.json">구조화 브리프</a></li>
+      <li><a href="improved/tide/design.json">디자인 입력</a></li>
+    </ul>
+    <h4>작게 보기 · 전체 이미지 폭</h4>
+    <div class="small-grid">
+      <figure><img src="originals/improved-tide.png" alt="개선 TIDE 원본을 전체 폭 32px로 표시" width="32" height="32"><figcaption>32px</figcaption></figure>
+      <figure><img src="originals/improved-tide.png" alt="개선 TIDE 원본을 전체 폭 48px로 표시" width="48" height="48"><figcaption>48px</figcaption></figure>
+      <figure><img src="originals/improved-tide.png" alt="개선 TIDE 원본을 전체 폭 64px로 표시" width="64" height="64"><figcaption>64px</figcaption></figure>
+      <figure><img src="originals/improved-tide.png" alt="개선 TIDE 원본을 전체 폭 128px로 표시" width="128" height="128"><figcaption>128px</figcaption></figure>
+    </div>
+    </section>
+    </div>
+  </section>
+
+  <section class="case" aria-labelledby="moa-title">
+    <h2 id="moa-title">모아 · 한글 워드마크</h2>
+    <p class="brief">성인 한국어 사용자를 위한 독서·개인 기록 앱입니다. 정확히 ‘모아’ 두 글자, 둥글고 친근하면서 차분한 인상, 순백색 배경이 공통 요구입니다. 별도 책 아이콘·캐릭터·유아적인 장식은 금지했습니다.</p>
+    <p><a href="briefs/moa.json">공통 원문 브리프</a></p>
+    <div class="comparison">
+    <section class="arm" aria-labelledby="moa-baseline-title">
+    <h3 id="moa-baseline-title">기존 워크플로</h3>
+    <p class="meta">원본 · 1774 × 887px · 2:1</p>
+    <figure>
+      <div class="large-frame"><img src="originals/baseline-moa.png" alt="기존 워크플로에서 생성한 모아 한글 워드마크 원본" width="1774" height="887"></div>
+      <figcaption>원본 전체를 공통 크기의 프레임에 맞춰 표시합니다. 잘라내기나 배경 교체를 하지 않았습니다.</figcaption>
+    </figure>
+    <ul class="links">
+      <li><a href="originals/baseline-moa.png" download>PNG 원본 다운로드</a></li>
+      <li><a href="baseline/prompts/moa.txt">실제 생성 프롬프트</a></li>
+      <li><a href="baseline/prompts/moa.json">프롬프트 메타데이터</a></li>
+      <li><a href="baseline/inputs/moa-palette.json">기존 제안 팔레트</a></li>
+    </ul>
+    <h4>작게 보기 · 전체 이미지 폭</h4>
+    <div class="small-grid">
+      <figure><img src="originals/baseline-moa.png" alt="모아 원본을 전체 폭 96px로 표시" width="96" height="48"><figcaption>96px</figcaption></figure>
+      <figure><img src="originals/baseline-moa.png" alt="모아 원본을 전체 폭 144px로 표시" width="144" height="72"><figcaption>144px</figcaption></figure>
+      <figure><img src="originals/baseline-moa.png" alt="모아 원본을 전체 폭 240px로 표시" width="240" height="120"><figcaption>240px</figcaption></figure>
+    </div>
+    </section>
+    <section class="arm" aria-labelledby="moa-improved-title">
+    <h3 id="moa-improved-title">개선 워크플로</h3>
+    <p class="meta">원본 · 1774 × 887px · 2:1</p>
+    <figure>
+      <div class="large-frame"><img src="originals/improved-moa.png" alt="개선 워크플로에서 생성한 모아 한글 워드마크 원본" width="1774" height="887"></div>
+      <figcaption>원본 전체를 공통 크기의 프레임에 맞춰 표시합니다. 잘라내기나 배경 교체를 하지 않았습니다.</figcaption>
+    </figure>
+    <ul class="links">
+      <li><a href="originals/improved-moa.png" download>PNG 원본 다운로드</a></li>
+      <li><a href="improved/moa/prompt.txt">실제 생성 프롬프트</a></li>
+      <li><a href="improved/moa/prompt.json">프롬프트 메타데이터</a></li>
+      <li><a href="improved/moa/palette.json">개선 제안 팔레트</a></li>
+      <li><a href="improved/moa/brief.json">구조화 브리프</a></li>
+      <li><a href="improved/moa/design.json">디자인 입력</a></li>
+    </ul>
+    <h4>작게 보기 · 전체 이미지 폭</h4>
+    <div class="small-grid">
+      <figure><img src="originals/improved-moa.png" alt="개선 모아 원본을 전체 폭 96px로 표시" width="96" height="48"><figcaption>96px</figcaption></figure>
+      <figure><img src="originals/improved-moa.png" alt="개선 모아 원본을 전체 폭 144px로 표시" width="144" height="72"><figcaption>144px</figcaption></figure>
+      <figure><img src="originals/improved-moa.png" alt="개선 모아 원본을 전체 폭 240px로 표시" width="240" height="120"><figcaption>240px</figcaption></figure>
+    </div>
+    </section>
+    </div>
+  </section>
+
+  <section class="case" aria-labelledby="folio-title">
+    <h2 id="folio-title">Folio · 심볼과 영문 이름</h2>
+    <p class="brief">성인 직장인·창작자를 위한 독립 문구 브랜드입니다. 종이의 겹침이나 접힘에서 출발한 작은 심볼과 정확한 ‘Folio’ 이름을 나란히 놓습니다. 배경은 불투명해야 하지만 색은 지정하지 않았습니다.</p>
+    <p><a href="briefs/folio.json">공통 원문 브리프</a></p>
+    <div class="comparison">
+    <section class="arm" aria-labelledby="folio-baseline-title">
+    <h3 id="folio-baseline-title">기존 워크플로</h3>
+    <p class="meta">원본 · 1665 × 945px · 37:21 (약 1.76:1)</p>
+    <figure>
+      <div class="large-frame"><img src="originals/baseline-folio.png" alt="기존 워크플로에서 생성한 Folio 심볼과 영문 이름 조합 원본" width="1665" height="945"></div>
+      <figcaption>원본 전체를 공통 크기의 프레임에 맞춰 표시합니다. 잘라내기나 배경 교체를 하지 않았습니다.</figcaption>
+    </figure>
+    <ul class="links">
+      <li><a href="originals/baseline-folio.png" download>PNG 원본 다운로드</a></li>
+      <li><a href="baseline/prompts/folio.txt">실제 생성 프롬프트</a></li>
+      <li><a href="baseline/prompts/folio.json">프롬프트 메타데이터</a></li>
+      <li><a href="baseline/inputs/folio-palette.json">기존 제안 팔레트</a></li>
+    </ul>
+    <h4>작게 보기 · 전체 이미지 폭</h4>
+    <div class="small-grid">
+      <figure><img src="originals/baseline-folio.png" alt="Folio 원본을 전체 폭 180px로 표시" width="180" height="102"><figcaption>180px</figcaption></figure>
+      <figure><img src="originals/baseline-folio.png" alt="Folio 원본을 전체 폭 240px로 표시" width="240" height="136"><figcaption>240px</figcaption></figure>
+      <figure><img src="originals/baseline-folio.png" alt="Folio 원본을 전체 폭 360px로 표시" width="360" height="204"><figcaption>360px</figcaption></figure>
+    </div>
+    </section>
+    <section class="arm" aria-labelledby="folio-improved-title">
+    <h3 id="folio-improved-title">개선 워크플로</h3>
+    <p class="meta">원본 · 1665 × 945px · 37:21 (약 1.76:1)</p>
+    <figure>
+      <div class="large-frame"><img src="originals/improved-folio.png" alt="개선 워크플로에서 생성한 Folio 심볼과 영문 이름 조합 원본" width="1665" height="945"></div>
+      <figcaption>원본 전체를 공통 크기의 프레임에 맞춰 표시합니다. 잘라내기나 배경 교체를 하지 않았습니다.</figcaption>
+    </figure>
+    <ul class="links">
+      <li><a href="originals/improved-folio.png" download>PNG 원본 다운로드</a></li>
+      <li><a href="improved/folio/prompt.txt">실제 생성 프롬프트</a></li>
+      <li><a href="improved/folio/prompt.json">프롬프트 메타데이터</a></li>
+      <li><a href="improved/folio/palette.json">개선 제안 팔레트</a></li>
+      <li><a href="improved/folio/brief.json">구조화 브리프</a></li>
+      <li><a href="improved/folio/design.json">디자인 입력</a></li>
+    </ul>
+    <h4>작게 보기 · 전체 이미지 폭</h4>
+    <div class="small-grid">
+      <figure><img src="originals/improved-folio.png" alt="개선 Folio 원본을 전체 폭 180px로 표시" width="180" height="102"><figcaption>180px</figcaption></figure>
+      <figure><img src="originals/improved-folio.png" alt="개선 Folio 원본을 전체 폭 240px로 표시" width="240" height="136"><figcaption>240px</figcaption></figure>
+      <figure><img src="originals/improved-folio.png" alt="개선 Folio 원본을 전체 폭 360px로 표시" width="360" height="204"><figcaption>360px</figcaption></figure>
+    </div>
+    </section>
+    </div>
+  </section>
+
+  <section class="method" aria-labelledby="method-title">
+    <h2 id="method-title">읽으실 때 참고해 주세요</h2>
+    <ul>
+      <li>큰 이미지의 프레임 크기와 <code>object-fit: contain</code> 표시 규칙은 같습니다. 원본의 종횡비와 여백이 달라 실제 로고가 차지하는 면적까지 같아지는 것은 아닙니다.</li>
+      <li>작게 보기는 원본 여백을 포함한 전체 캔버스의 CSS 표시 폭입니다. 로고 외곽을 추출한 32px 심볼 또는 96px 워드마크 검증과는 다릅니다. 작은 화면에서는 화면 폭에 맞춰 더 작게 표시될 수 있습니다.</li>
+      <li>브리프와 생성 횟수는 고정하지만, 콘셉트 구체화·팔레트·생성 프롬프트는 각 워크플로의 일부입니다. 이미지 도구에는 모델·시드·샘플링 설정 제어가 노출되지 않았습니다.</li>
+      <li>TIDE와 모아의 순백색 배경 요구, Folio의 배경색 미지정 조건을 구분해 검토해야 합니다. Folio의 종이색 배경 선택 자체를 명시적 배경 요구 위반으로 보지 않습니다.</li>
+      <li>기술 측정은 파일·픽셀의 관찰 기록입니다. 브랜드 적합성, 독창성, 글자 완성도 또는 사용자 선호의 증거를 대신하지 않습니다.</li>
+      <li>사용자 선호 결과는 수집되지 않았으며, 이 페이지는 미적 승자나 품질 향상을 선언하지 않습니다.</li>
+      <li>공식 Codex Computer Use를 사용할 수 없어 실제 브라우저 렌더링과 CSS 표시 크기는 검증하지 못했습니다. 명시한 크기는 HTML·CSS 설정값입니다.</li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "swatches": [
+    {
+      "hex": "#A76148",
+      "role": "compact paper-layer symbol only; muted clay adds a material-related warmth without tinting the canvas"
+    },
+    {
+      "hex": "#333B39",
+      "role": "all exact Folio lettering; graphite carries the principal small-header reading"
+    },
+    {
+      "hex": "#FFFFFF",
+      "role": "assistant-selected opaque white exterior across every corner and margin, plus the open paper-fold interval"
+    }
+  ],
+  "constraints": {
+    "locked_hex": [],
+    "allowed_hex": null,
+    "max_colors": null,
+    "required_hex": [],
+    "allow_gradients": false
+  },
+  "source": "assistant",
+  "source_evidence": {
+    "notes": [
+      "All foreground and background choices are assistant proposals within the user's delegation; no external provider or sampled palette.",
+      "A white flat master was deliberately chosen for header and label uses; no print, font-file or vector delivery is claimed."
+    ]
+  },
+  "selected_by": "assistant",
+  "rationale": "Clay stays in the small material-inspired symbol while graphite gives the name a steady reading. White keeps the original contour visible and supports a contemporary everyday-stationery character without introducing a vintage paper backdrop."
+}

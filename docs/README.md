@@ -16,6 +16,7 @@ Start with what your brand should mean, choose a fitting shape, then refine the 
 
 ## Samples
 
+- [October 1 brand-quality comparison](qa/brand-output-quality-2026-10-01/README.md): all six before/after originals for the unreleased 0.9.0 workflow, with exact prompts, measurements and remaining limitations.
 - [September 20 refresh:24 new samples](showcase/2026-09-20-lifestyle/README.md): original PNGs, exact prompts and size/context diagnostics for everyday brands and apps.
 - [September 19 icon craft comparison](research/icon-craft-2026/README.md): six native originals and preserved baseline prompts. The user subsequently rejected Candidate2/5; this experiment is not evidence of improved preference.
 - [Historical OFFCUT Hermes example](hermes-demo/README.md): three initial originals, two exact-parent edits and the delivered e2 ZIP. The first edit's failed preservation check remains visible. Download the folder and open its HTML page locally for the offline comparison.
@@ -35,6 +36,7 @@ Every [sample in the README](../README.md#samples) opens its original PNG direct
 | Hermes setup, focused revisions and safe continuation | [Native plugin guide](hermes.md) |
 | Letter shapes and logo forms | [Letter construction](../skills/logo-land/references/lettering.md) · [Logo directions](../skills/logo-land/references/logo-directions.md) · [Lettering and font references](../skills/logo-land/references/typography.md) |
 | Palette choices and changes | [Colors and palettes](../skills/logo-land/references/color-workflow.md) |
+| Brand fit and rendering decisions | [Brand strategy](../skills/logo-land/references/brand-strategy.md) · [Quality research](research/brand-output-quality-2026-10-01.md) |
 | Small square artwork | [App icon artwork](../skills/logo-land/references/app-icons.md) |
 | Visual references, platform intent and blind comparison | [Reference input](../skills/logo-land/references/visual-references.md) · [Asset checks](icon-assets.md) · [Preference review](preference-review.md) |
 | Choosing and refining a candidate | [Comparison workflow](../skills/logo-land/references/comparison-workflow.md) |

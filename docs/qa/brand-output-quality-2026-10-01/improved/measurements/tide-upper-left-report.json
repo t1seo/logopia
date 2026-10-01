@@ -1,0 +1,526 @@
+{
+  "schema_version": 2,
+  "id": "improved-tide",
+  "revision": 3,
+  "created_at": "2026-10-01T10:11:47.516321Z",
+  "updated_at": "2026-10-01T10:15:15.661427Z",
+  "brief": {
+    "brand_name": "TIDE",
+    "exact_text": "",
+    "industry": "Team scheduling and shift coordination SaaS",
+    "audience": "Operations coordinators and teammates in teams of 5–30 people",
+    "slogan": "",
+    "logo_type": "abstract",
+    "styles": [
+      "abstract",
+      "substantial soft-cornered forms",
+      "calm",
+      "flexible",
+      "flat"
+    ],
+    "palette": [
+      "#364A9F",
+      "#6591C4",
+      "#FFFFFF"
+    ],
+    "forbidden": [
+      "lettering or initials",
+      "literal waves",
+      "clock",
+      "calendar",
+      "infinity sign"
+    ],
+    "use_cases": [
+      "32px web-app sidebar symbol",
+      "service landing page"
+    ],
+    "assumptions": [
+      "The 32px symbol is the primary stress case; the landing page may display the same master larger.",
+      "Two unequal but related solid forms are the proposed visual interpretation of the supplied handoff direction."
+    ],
+    "lockup": null,
+    "background": "opaque",
+    "concept_count": 1,
+    "brand_strategy": {
+      "positioning": "A scheduling and shift-coordination service for operations coordinators and teammates in teams of 5–30 people.",
+      "audience_need": "Recognize a dependable shared place for arranging availability and handing work to the next person, even in a 32px sidebar.",
+      "brand_promise": "Coordination that feels steady and accommodating; this is an intended identity, not a claim of proven product performance.",
+      "distinctive_principle": "Two offset substantial forms share one open joining interval. Soft corners and an uneven length rhythm make the handoff feel flexible while preserving a clear small silhouette; no literal wave or loop.",
+      "typography": "No lettering, initials, digits or slogan. The two shapes alone carry the identity, including in the sidebar.",
+      "color_roles": "Deep blue-violet #364A9F leads in the upper-left form; supporting blue #6591C4 fills the lower-right form. Pure white #FFFFFF is the open joining interval and the entire opaque exterior.",
+      "assumptions": [
+        "The 32px symbol is the primary stress case; the landing page may display the same master larger.",
+        "Two unequal but related solid forms are the proposed visual interpretation of the supplied handoff direction."
+      ]
+    }
+  },
+  "artifacts": [
+    {
+      "id": "a-v1",
+      "path": "artifacts/a-v1.png",
+      "sha256": "88b22101e5e7a25dedafce07df45258fc8d8a484bd2f577ea66c86fb880e4d14",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "prompt": "Create one abstract logo for TIDE. Exact text (copy verbatim, no other words): ''. Exact slogan: ''.\nRender only the supplied exact text and nonempty slogan; the brand context is not additional lettering. Empty strings request no corresponding text.\nIndustry: Team scheduling and shift coordination SaaS. Audience: Operations coordinators and teammates in teams of 5–30 people.\nStyles: abstract, substantial soft-cornered forms, calm, flexible, flat. Original brief palette context: #364A9F, #6591C4, #FFFFFF.\nAvoid: lettering or initials, literal waves, clock, calendar, infinity sign. Use cases: 32px web-app sidebar symbol, service landing page.\nBackground: opaque. Produce a real PNG raster image. Use clean, readable shapes at small sizes; leave safe margins. Do not draw a transparency checkerboard, mockup, watermarks, or a concept grid.\nConcept direction: For a small-team scheduling service, make a compact abstract handoff from exactly two substantial, low, soft-cornered forms offset diagonally: one upper left and one lower right. Their broad inward-facing ends fit across one short, clearly open diagonal white interval; the two forms do not touch and have no holes or enclosed loops. Use a restrained corner radius and slightly different lengths to give a settled but flexible rhythm, not two identical pills. Fill the upper-left form with deep blue-violet #364A9F and the lower-right form with supporting blue #6591C4. At 32px the two masses and the single central interval must remain distinct; the gesture must not turn into a wave, infinity sign, letter, clock or calendar. Center this one text-free symbol with clear margins on opaque pure #FFFFFF across the entire exterior canvas, including all four corners. Keep the mark flat, without a container, lighting, shadow or texture.. Assumptions: The 32px symbol is the primary stress case; the landing page may display the same master larger., Two unequal but related solid forms are the proposed visual interpretation of the supplied handoff direction..\nBrand rendering: flat, front-facing product artwork by default; one clear idea, deliberate negative space and balanced optical weight. No paper texture, beige tint, presentation lighting, shadows or cinematic effects unless explicitly requested. Requested styles/concept override these surface defaults; depth and extra tones must obey the palette and gradient policy. Use the explicitly requested solid canvas or declared background role first; otherwise plain white #FFFFFF. User canvas and color/count requirements take precedence over this white fallback.\nLogo construction: Build a nonliteral abstract mark around the concept's geometric or organic gesture, with coherent weight, deliberate openings and a memorable silhouette. Use style references for broad construction traits, not their brand words or traced signature shapes. The identity should remain recognizable in a one-color silhouette at the intended use size. This construction check does not replace the requested palette or request an extra monochrome image.\nSupporting brand strategy (proposed context, not verified market facts): {\"positioning\":\"A scheduling and shift-coordination service for operations coordinators and teammates in teams of 5–30 people.\",\"audience_need\":\"Recognize a dependable shared place for arranging availability and handing work to the next person, even in a 32px sidebar.\",\"brand_promise\":\"Coordination that feels steady and accommodating; this is an intended identity, not a claim of proven product performance.\",\"distinctive_principle\":\"Two offset substantial forms share one open joining interval. Soft corners and an uneven length rhythm make the handoff feel flexible while preserving a clear small silhouette; no literal wave or loop.\",\"typography\":\"No lettering, initials, digits or slogan. The two shapes alone carry the identity, including in the sidebar.\",\"color_roles\":\"Deep blue-violet #364A9F leads in the upper-left form; supporting blue #6591C4 fills the lower-right form. Pure white #FFFFFF is the open joining interval and the entire opaque exterior.\",\"assumptions\":[\"The 32px symbol is the primary stress case; the landing page may display the same master larger.\",\"Two unequal but related solid forms are the proposed visual interpretation of the supplied handoff direction.\"]}\nUse this context only where compatible with the supplied exact text, slogan, palette constraints, explicit lockup, styles and concept; those requests take precedence. Strategy does not authorize new lettering, colors or motifs.\nEffective structured palette intent (authoritative over historical palette): {\"swatches\":[{\"hex\":\"#364A9F\",\"role\":\"primary upper-left solid form; the darker, visually leading half\"},{\"hex\":\"#6591C4\",\"role\":\"supporting lower-right solid form; clear blue companion with a different lightness\"},{\"hex\":\"#FFFFFF\",\"role\":\"opaque pure-white exterior canvas in every corner and margin, plus the open central joining interval\"}],\"constraints\":{\"locked_hex\":[],\"allowed_hex\":null,\"max_colors\":null,\"required_hex\":[\"#FFFFFF\"],\"allow_gradients\":false}}. Keep locked and required HEX values exactly in intent; use the declared roles and allowed colors/count. Opaque backgrounds count as visible design colors; transparent pixels do not. No gradients unless allowed. Raster fidelity is measured after generation, never promised as exact pixels.\nLettering fidelity: preserve every Unicode character, capitalization, punctuation, space and reading order in the applicable text. Keep Hangul syllable blocks intact; do not translate, romanize, abbreviate or substitute lookalike glyphs. Shape changes must keep required text readable, including counters and joins at the intended size.",
+      "parent_id": null,
+      "created_at": "2026-10-01T10:15:14.530713Z",
+      "requested_background": "opaque",
+      "palette_id": "tide-palette-v1",
+      "lockup": null,
+      "review": null,
+      "reviewed_at": null
+    }
+  ],
+  "selected_id": null,
+  "failures": [],
+  "exports": [],
+  "palettes": [
+    {
+      "swatches": [
+        {
+          "hex": "#364A9F",
+          "role": "primary upper-left solid form; the darker, visually leading half"
+        },
+        {
+          "hex": "#6591C4",
+          "role": "supporting lower-right solid form; clear blue companion with a different lightness"
+        },
+        {
+          "hex": "#FFFFFF",
+          "role": "opaque pure-white exterior canvas in every corner and margin, plus the open central joining interval"
+        }
+      ],
+      "constraints": {
+        "locked_hex": [],
+        "allowed_hex": null,
+        "max_colors": null,
+        "required_hex": [
+          "#FFFFFF"
+        ],
+        "allow_gradients": false
+      },
+      "source": "assistant",
+      "source_evidence": {
+        "reference_id": null,
+        "reference_sha256": null,
+        "provider": null,
+        "tool": null,
+        "response": null,
+        "notes": [
+          "Foreground colors chosen by the assistant under the user's delegation; no locked foreground, reference extraction or provider call.",
+          "Pure-white background is the user's explicit requirement. No quantitative contrast or output-color claim is made before generation."
+        ]
+      },
+      "selected_by": "assistant",
+      "rationale": "The darker first form anchors the coordination gesture; the lighter second form gives the handoff two readable parts without relying on a literal scheduling pictogram. White preserves the required clean surface and joining interval.",
+      "calculation_version": "logo-color-v1",
+      "id": "tide-palette-v1",
+      "parent_palette_id": null,
+      "digest": "efe1be6cc534248da86cd1f1204849c1f753940f9208db9e289e9c8461212fc6"
+    }
+  ],
+  "active_palette_id": "tide-palette-v1",
+  "references": [],
+  "color_reports": [
+    {
+      "id": "report-fe1a6bbbcc7d45a19a2eb29fbdc90efa",
+      "artifact_id": "a-v1",
+      "artifact_sha256": "88b22101e5e7a25dedafce07df45258fc8d8a484bd2f577ea66c86fb880e4d14",
+      "palette_id": "tide-palette-v1",
+      "palette_digest": "efe1be6cc534248da86cd1f1204849c1f753940f9208db9e289e9c8461212fc6",
+      "analysis_policy": "logo-color-v1",
+      "color_engine_version": "8.12.1",
+      "pillow_version": "12.3.0",
+      "profile_treatment": "assumed_srgb",
+      "sampling": {
+        "width": 1254,
+        "height": 1254,
+        "roi": null,
+        "scope": "full_image",
+        "coordinate_policy": "grid_128_pixel_centers",
+        "sampled_positions": 16384,
+        "sampled_fraction": 0.010418971889634192,
+        "visible_samples": 16384,
+        "core_samples": 16384,
+        "partial_alpha_samples": 0
+      },
+      "status": "pass",
+      "reasons": [],
+      "measured_swatches": [
+        {
+          "hex": "#FEFEFE",
+          "samples": 6707,
+          "share": 0.40936279296875
+        },
+        {
+          "hex": "#4763AD",
+          "samples": 3823,
+          "share": 0.23333740234375
+        },
+        {
+          "hex": "#FFFFFF",
+          "samples": 1684,
+          "share": 0.102783203125
+        },
+        {
+          "hex": "#FFFEFE",
+          "samples": 1500,
+          "share": 0.091552734375
+        },
+        {
+          "hex": "#FDFEFE",
+          "samples": 1365,
+          "share": 0.08331298828125
+        },
+        {
+          "hex": "#FEFEFD",
+          "samples": 1235,
+          "share": 0.07537841796875
+        },
+        {
+          "hex": "#FEFEFF",
+          "samples": 55,
+          "share": 0.00335693359375
+        },
+        {
+          "hex": "#C9D8EA",
+          "samples": 15,
+          "share": 0.00091552734375
+        }
+      ],
+      "targets": [
+        {
+          "hex": "#364A9F",
+          "matching_samples": 1693,
+          "share": 0.10333251953125,
+          "mean_delta_e": 1.1228107107187841,
+          "max_delta_e": 4.693788020204937
+        },
+        {
+          "hex": "#6591C4",
+          "matching_samples": 2121,
+          "share": 0.12945556640625,
+          "mean_delta_e": 0.8577328145786225,
+          "max_delta_e": 4.311050596598847
+        },
+        {
+          "hex": "#FFFFFF",
+          "matching_samples": 12544,
+          "share": 0.765625,
+          "mean_delta_e": 0.31687003118858387,
+          "max_delta_e": 4.816855948843146
+        }
+      ],
+      "matched_fraction": 0.9984130859375,
+      "unmatched_fraction": 0.0015869140625,
+      "observed_colors": 3,
+      "minor_swatches": [],
+      "contrasts": [
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.008546618925115,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#171717",
+          "ratio": 17.775916270617873,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#171717",
+          "ratio": 17.927840253027597,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0067170671479306,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFE",
+          "surface": "#171717",
+          "ratio": 17.80822123520552,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFD",
+          "surface": "#FFFFFF",
+          "ratio": 1.0153435482995168,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFD",
+          "surface": "#171717",
+          "ratio": 17.656920441414037,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFD",
+          "surface": "#FFFFFF",
+          "ratio": 1.0171949045327753,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFD",
+          "surface": "#171717",
+          "ratio": 17.624783778544717,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#638FC4",
+          "surface": "#FFFFFF",
+          "ratio": 3.3565312609052413,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#638FC4",
+          "surface": "#171717",
+          "ratio": 5.341180778454166,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#3A4DA2",
+          "surface": "#FFFFFF",
+          "ratio": 7.600112540823465,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#3A4DA2",
+          "surface": "#171717",
+          "ratio": 2.3588914186111687,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.001805196886651,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFF",
+          "surface": "#171717",
+          "ratio": 17.895535288439955,
+          "alpha": 1.0
+        }
+      ],
+      "delta_e_threshold": 5.0,
+      "created_at": "2026-10-01T10:15:14.658588Z"
+    },
+    {
+      "id": "report-7584abf9d92e4cd6a62cde7bc67adf87",
+      "artifact_id": "a-v1",
+      "artifact_sha256": "88b22101e5e7a25dedafce07df45258fc8d8a484bd2f577ea66c86fb880e4d14",
+      "palette_id": "tide-palette-v1",
+      "palette_digest": "efe1be6cc534248da86cd1f1204849c1f753940f9208db9e289e9c8461212fc6",
+      "analysis_policy": "logo-color-v1",
+      "color_engine_version": "8.12.1",
+      "pillow_version": "12.3.0",
+      "profile_treatment": "assumed_srgb",
+      "sampling": {
+        "width": 1254,
+        "height": 1254,
+        "roi": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        "scope": "roi",
+        "coordinate_policy": "all_pixels",
+        "sampled_positions": 256,
+        "sampled_fraction": 1.0,
+        "visible_samples": 256,
+        "core_samples": 256,
+        "partial_alpha_samples": 0
+      },
+      "status": "pass",
+      "reasons": [],
+      "measured_swatches": [
+        {
+          "hex": "#FEFEFE",
+          "samples": 123,
+          "share": 0.48046875
+        },
+        {
+          "hex": "#FEFEFF",
+          "samples": 29,
+          "share": 0.11328125
+        },
+        {
+          "hex": "#FEFFFF",
+          "samples": 24,
+          "share": 0.09375
+        },
+        {
+          "hex": "#FFFFFF",
+          "samples": 20,
+          "share": 0.078125
+        },
+        {
+          "hex": "#FFFEFF",
+          "samples": 19,
+          "share": 0.07421875
+        },
+        {
+          "hex": "#FDFEFE",
+          "samples": 18,
+          "share": 0.0703125
+        },
+        {
+          "hex": "#FDFDFD",
+          "samples": 15,
+          "share": 0.05859375
+        },
+        {
+          "hex": "#FFFEFE",
+          "samples": 8,
+          "share": 0.03125
+        }
+      ],
+      "targets": [
+        {
+          "hex": "#364A9F",
+          "matching_samples": 0,
+          "share": 0.0,
+          "mean_delta_e": null,
+          "max_delta_e": null
+        },
+        {
+          "hex": "#6591C4",
+          "matching_samples": 0,
+          "share": 0.0,
+          "mean_delta_e": null,
+          "max_delta_e": null
+        },
+        {
+          "hex": "#FFFFFF",
+          "matching_samples": 256,
+          "share": 1.0,
+          "mean_delta_e": 0.3877153612196476,
+          "max_delta_e": 1.212929076527481
+        }
+      ],
+      "matched_fraction": 1.0,
+      "unmatched_fraction": 0.0,
+      "observed_colors": 1,
+      "minor_swatches": [],
+      "contrasts": [
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.008546618925115,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#171717",
+          "ratio": 17.775916270617873,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0079247291568614,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFF",
+          "surface": "#171717",
+          "ratio": 17.786884014666857,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.006097430915604,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFF",
+          "surface": "#171717",
+          "ratio": 17.8191889792545,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.001805196886651,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFF",
+          "surface": "#171717",
+          "ratio": 17.895535288439955,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#171717",
+          "ratio": 17.927840253027597,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0103732490680095,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFEFE",
+          "surface": "#171717",
+          "ratio": 17.743779607748554,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0024195557722724,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFE",
+          "surface": "#171717",
+          "ratio": 17.884567544390972,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0067170671479306,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFE",
+          "surface": "#171717",
+          "ratio": 17.80822123520552,
+          "alpha": 1.0
+        }
+      ],
+      "delta_e_threshold": 5.0,
+      "created_at": "2026-10-01T10:15:15.661153Z"
+    }
+  ]
+}

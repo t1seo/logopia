@@ -1,0 +1,29 @@
+{
+  "concept_title": "열린 인수인계 간격",
+  "styles": ["abstract", "substantial soft-cornered forms", "calm", "flexible", "flat"],
+  "concept": "For a small-team scheduling service, make a compact abstract handoff from exactly two substantial, low, soft-cornered forms offset diagonally: one upper left and one lower right. Their broad inward-facing ends fit across one short, clearly open diagonal white interval; the two forms do not touch and have no holes or enclosed loops. Use a restrained corner radius and slightly different lengths to give a settled but flexible rhythm, not two identical pills. Fill the upper-left form with deep blue-violet #364A9F and the lower-right form with supporting blue #6591C4. At 32px the two masses and the single central interval must remain distinct; the gesture must not turn into a wave, infinity sign, letter, clock or calendar. Center this one text-free symbol with clear margins on opaque pure #FFFFFF across the entire exterior canvas, including all four corners. Keep the mark flat, without a container, lighting, shadow or texture.",
+  "brand_strategy": {
+    "positioning": "A scheduling and shift-coordination service for operations coordinators and teammates in teams of 5–30 people.",
+    "audience_need": "Recognize a dependable shared place for arranging availability and handing work to the next person, even in a 32px sidebar.",
+    "brand_promise": "Coordination that feels steady and accommodating; this is an intended identity, not a claim of proven product performance.",
+    "distinctive_principle": "Two offset substantial forms share one open joining interval. Soft corners and an uneven length rhythm make the handoff feel flexible while preserving a clear small silhouette; no literal wave or loop.",
+    "typography": "No lettering, initials, digits or slogan. The two shapes alone carry the identity, including in the sidebar.",
+    "color_roles": "Deep blue-violet #364A9F leads in the upper-left form; supporting blue #6591C4 fills the lower-right form. Pure white #FFFFFF is the open joining interval and the entire opaque exterior.",
+    "assumptions": ["The 32px symbol is the primary stress case; the landing page may display the same master larger.", "Two unequal but related solid forms are the proposed visual interpretation of the supplied handoff direction."]
+  },
+  "lockup": null,
+  "palette": {
+    "swatches": [
+      {"hex": "#364A9F", "role": "primary upper-left solid form; the darker, visually leading half"},
+      {"hex": "#6591C4", "role": "supporting lower-right solid form; clear blue companion with a different lightness"},
+      {"hex": "#FFFFFF", "role": "opaque pure-white exterior canvas in every corner and margin, plus the open central joining interval"}
+    ],
+    "constraints": {"locked_hex": [], "allowed_hex": null, "max_colors": null, "required_hex": ["#FFFFFF"], "allow_gradients": false},
+    "source": "assistant",
+    "source_evidence": {"notes": ["Foreground colors chosen by the assistant under the user's delegation; no locked foreground, reference extraction or provider call.", "Pure-white background is the user's explicit requirement. No quantitative contrast or output-color claim is made before generation."]},
+    "selected_by": "assistant",
+    "rationale": "The darker first form anchors the coordination gesture; the lighter second form gives the handoff two readable parts without relying on a literal scheduling pictogram. White preserves the required clean surface and joining interval."
+  },
+  "decision_rationale_ko": ["조율이라는 기능을 두 덩어리의 관계와 한 개의 열린 간격으로 번역했습니다. 시계나 달력 없이도 형태 간 인수인계를 제안합니다.", "둥근 모서리는 유연함을, 넓은 단면과 짧은 간격은 작은 크기에서의 안정감을 목표로 합니다.", "색은 두 역할의 구분을 돕는 청보라와 파랑으로 정했으며, 형태 식별을 색상 차이만에 맡기지는 않습니다."],
+  "inspect_risks": ["The central white interval may close at 32px.", "The generator may substitute an infinity sign, wave, letter S or two generic pills.", "The blue forms may merge if geometry depends only on the color difference."]
+}

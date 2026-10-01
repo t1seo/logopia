@@ -1,0 +1,17 @@
+ M pyproject.toml
+ M skills/logo-land/SKILL.md
+ M skills/logo-land/agents/openai.yaml
+ M skills/logo-land/references/color-workflow.md
+ M skills/logo-land/references/delivery-checks.md
+ M skills/logo-land/references/logo-craft.md
+ M skills/logo-land/references/project-files.md
+ M skills/logo-land/references/typography.md
+ M skills/logo-land/scripts/logo_helper/brief_models.py
+ M skills/logo-land/scripts/logo_helper/logo_prompts.py
+ M skills/logo-land/scripts/logo_helper/prompts.py
+ M uv.lock
+?? skills/logo-land/assets/brand-building-skills.LICENSE
+?? skills/logo-land/assets/taste-brandkit.LICENSE
+?? skills/logo-land/references/brand-strategy.md
+?? skills/logo-land/references/vector-provider.md
+?? skills/logo-land/scripts/logo_helper/brand_strategy.py

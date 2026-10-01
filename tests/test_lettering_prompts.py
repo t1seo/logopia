@@ -23,6 +23,7 @@ from logo_helper.models import (
 )
 from logo_helper.prompts import PromptResult, build_prompt
 from logo_helper.storage import Store
+from tests.test_brand_quality import palette_instruction
 from tests.test_color_models import palette, session
 
 if TYPE_CHECKING:
@@ -175,7 +176,9 @@ def test_strict_palette_overrides_sculpted_multicolor_style(harness: Harness) ->
     )
     assert result.palette_id == strict.id
     assert result.palette_digest == strict.digest
-    assert strict.model_dump_json() in result.prompt
+    assert palette_instruction(result.prompt) == strict.model_dump(
+        mode="json", include={"swatches", "constraints"}
+    )
     assert "depth and extra tones must obey the palette and gradient policy" in result.prompt
     assert "No gradients unless allowed" in result.prompt
     assert state.palette(strict.id) == strict

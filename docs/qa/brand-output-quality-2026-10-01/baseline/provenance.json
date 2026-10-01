@@ -1,0 +1,11 @@
+{
+  "git_head": "4d102c260ec1b65e086ab5f5699cee4ffcbdad01",
+  "package_version": "0.8.0",
+  "python_version": "CPython 3.13.11",
+  "uv_version": "uv 0.9.16 (Homebrew 2025-12-06)",
+  "uv_lock_sha256": "6ba5fda3da53b5f19fa10a5fbfbb20dcd854949c49437b6ce6f9a91704772a21",
+  "pyproject_sha256": "84161b724692b7ea54fb091360a3b3a57074910c4fc8887e4430d3b9ec10a990",
+  "source_strategy": "git archive of pinned HEAD into an isolated temporary source tree",
+  "dependencies": "uv run --locked --project isolated-source",
+  "native_image_calls_by_baseline_preparation": 0
+}

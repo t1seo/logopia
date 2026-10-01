@@ -1,0 +1,11 @@
+{
+  "swatches": [
+    {"hex": "#9B473C", "role": "complete Hangul wordmark"},
+    {"hex": "#FFFFFF", "role": "explicitly requested opaque white exterior canvas"}
+  ],
+  "constraints": {"locked_hex": [], "allowed_hex": null, "max_colors": null, "required_hex": [], "allow_gradients": false},
+  "source": "assistant",
+  "source_evidence": {"notes": ["Uses the existing Editorial craft primary suggestion for a reading/journaling product. The optional accent and paper surface are omitted because they have no role in this white-background wordmark. These are proposed values, not sampled colors."]},
+  "selected_by": "assistant",
+  "rationale": "Muted red adds adult warmth to a calm rounded wordmark; a single foreground color avoids unnecessary decoration."
+}

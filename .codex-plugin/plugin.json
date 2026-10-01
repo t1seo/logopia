@@ -1,7 +1,7 @@
 {
   "name": "logo-land",
-  "version": "0.8.0",
-  "description": "Create custom lettering, logos and app icons with native Codex images, then compare, refine and export saved originals.",
+  "version": "0.9.0",
+  "description": "Develop brand-fit logos, deliberate color palettes and readable lettering with native Codex images, then compare, refine and export saved originals.",
   "author": {
     "name": "t1seo"
   },
@@ -9,16 +9,17 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Logopia",
-    "shortDescription": "Custom lettering, logos and app icons through conversation.",
-    "longDescription": "Create playful wordmarks, kinetic lettering, geometric lettermarks and monograms alongside eight logo types and six app icon styles. Keep exact English or Korean text, compare original PNGs across saved projects, and refine the chosen design. Export reviewed artwork with color evidence. Results are raster images; font files, vectors and platform icon layers are separate deliverables.",
+    "shortDescription": "Brand direction, color and lettering for product logos.",
+    "longDescription": "Connect your product and audience to a concrete logo direction, purposeful color roles and readable Korean or Latin lettering. Create a symbol, wordmark or symbol-and-name lockup on a clean canvas, with expressive styles when requested. Compare original PNGs and refine the chosen design while retaining its history. Export reviewed artwork with color evidence. Results are raster images; actual font files, vectors and platform icon layers are separate deliverables.",
     "developerName": "t1seo",
     "category": "Productivity",
     "capabilities": [],
     "defaultPrompt": [
-      "$logo-land Help me create a logo that fits my brand.",
-      "$logo-land Create a playful LUMA wordmark with chunky multicolor lettering and no separate icon.",
+      "$logo-land Create a logo for my product. Use its audience and purpose to choose the shape, color roles and lettering.",
+      "$logo-land Create a clean symbol-and-name logo for Folio, an everyday notebook brand. Keep the exact text Folio on a plain white background.",
+      "$logo-land Create a calm, readable Korean wordmark for 모아, an adult reading app. Choose a coherent palette and use a plain white background.",
       "$logo-land Create six independent IP character candidates for my reading app, using three directions.",
-      "$logo-land Create a centered notes-app monogram using the exact Korean text 메모 on a solid cream background.",
+      "$logo-land Create a playful LUMA wordmark with chunky multicolor lettering and no separate icon.",
       "Keep #247A52 and suggest warmer companion colors for the selected logo.",
       "Create a symbol-plus-text logo with the symbol above the exact brand name.",
       "Create a transparent PNG logo and preserve intentional white lettering.",

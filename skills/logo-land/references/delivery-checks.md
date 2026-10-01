@@ -19,6 +19,17 @@ hierarchy and optical observations. Record the actual display size and what rema
 readable there. A wide title inspected at 360px does not prove a 32px icon works;
 subjective preference is separate from a required spelling, color or background check.
 
+Record one visible reason the result fits this brand and any mismatch: inappropriate
+industrial/fantasy styling, a generic category symbol, or typography that conflicts
+with the intended character. Compare against the pre-generation decisions rather
+than inventing a story to justify an accidental result. A color-conformance report or
+valid PNG does not measure harmony, brand fit or professional quality.
+
+For an ordinary brand master, check it directly at its real use size on the intended
+surface before evaluating a mockup. Note unrequested paper/beige tint, bevels, scene
+lighting, cast shadows or metallic texture. Preserve expressive effects when requested;
+the failure is unwanted treatment or poor use-size behavior, not expression itself.
+
 For a requested opaque white canvas, inspect the original's exterior for tint,
 texture, gradients and cast shadows. Sample regions declared empty for that composition
 before generation, including margins where applicable; do not require all corners to
@@ -47,7 +58,7 @@ Record these review fields based on what was observed:
 - `preservation_ok`: an edit keeps the specified invariants; for a new generation, the requested constraints are respected.
 - `background_checked`: observed background matches the selected artifact's requested background (the original brief unless explicitly overridden) and the stated transparency status.
 
-Use false for a failed check and fix the image through the image tool. Never run a default all-true review to unlock export. The JSON above illustrates the schema, not a ready-made approval.
+Use false for a failed check and fix the image through the image tool. Never run a default all-true review to unlock export. The JSON above illustrates the schema, not a ready-made approval. Keep uninspected results pending rather than treating unavailable evidence as true. These booleans record operational visual checks; they are not an automatic aesthetic score or proof that the user prefers the result.
 
 For a refinement, read the saved source session/artifact and keep/change notes from
 [comparison-workflow.md](comparison-workflow.md), then open parent and child. Record
@@ -133,4 +144,11 @@ illustrations unless actual application files were separately produced and verif
 
 Include the selected original PNG, an archive, and a short guide identifying selected palette intent, actual color-report status, exact text, usage notes, and known limitations. Keep historical free-text palette values separate from current structured intent and measurements. Generated typography does not identify a licensed font file. Font sources and requested-reference boundaries are documented in [typography.md](typography.md) and the [font research](../../../docs/research/font-tools.md).
 
-Report actual format, dimensions, transparency, selected version and saved path. Do not promise editable vector paths, outline fonts, EPS/AI, CMYK, physical-print readiness, exclusivity or trademark clearance from a raster image. If the user requests vectors, describe the additional vector reconstruction and validation that would be required.
+Lead usage guidance with the actual supplied file, checked surface/display size,
+color roles and any unresolved limitation. Do not declare a minimum size that was
+not inspected, claim variants that exist only in a mockup, or substitute a full-page
+brand board for the original. Keep generated logo lettering separate from any
+verified supporting-font recommendation and link technical prompt/report records
+when more detail is useful.
+
+Report actual format, dimensions, transparency, selected version and saved path. Do not promise editable vector paths, outline fonts, EPS/AI, CMYK, physical-print readiness, exclusivity or trademark clearance from a raster image. If the user requests vectors, use the optional [provider reference](vector-provider.md) to distinguish a separately produced and checked SVG from the existing PNG-only helper package.

@@ -1,0 +1,50 @@
+{
+  "status": "intent_and_cli_review_only",
+  "design_decisions": {
+    "tide": "두 단단한 형태가 짧고 열린 한 개의 공통 간격을 공유하도록 정했습니다. 길이와 명도 차이는 인수인계 관계를 돕되 작은 크기에서 형태 구별을 색에만 의존하지 않도록 한 제안입니다.",
+    "moa": "모아라는 두 음절 자체를 정체성으로 삼고, ㅁ의 부드러운 사각과 ㅇ의 둥근 내부를 구별하면서 획끝과 간격을 통일했습니다. 차분한 자주색은 위임받아 고른 색이며 서체 파일을 사용했다는 의미는 아닙니다.",
+    "folio": "종이 겹침의 어긋난 외곽과 짧은 접힘 간격을 작은 심볼에 남기고 정확한 Folio를 크게 읽히게 했습니다. 작은 흙빛 심볼, 흑연색 이름, 위임받아 선택한 순백색 배경으로 정리했습니다."
+  },
+  "independent_fidelity_check": {
+    "scope": "A child reviewer read only the same three original brief JSON inputs and checked these existing design intentions without producing another candidate.",
+    "result": "No explicit requirement conflict identified at the intent stage.",
+    "risks": [
+      "TIDE의 대각 간격이 길어지면 인수인계보다 단순 분리선으로 보일 수 있으므로 32px에서 짧은 공통 간격을 확인해야 합니다.",
+      "모아의 ㅁ/ㅇ 구별과 획끝 곡선 일관성을 확인하고, 과도한 둥글림으로 유아용 인상이 생기는지 보아야 합니다.",
+      "Folio는 일반 문서/복사 글리프로 수렴할 수 있으므로 고유한 외곽을 확인해야 하며 질감·장식이 추가되면 과한 빈티지 인상으로 흐를 수 있습니다."
+    ]
+  },
+  "skill_ambiguities_and_resolutions": [
+    {
+      "observation": "Brief.background는 opaque/transparent만 저장하므로 순백색이라는 명시 조건을 이 필드만으로는 보존하지 못합니다.",
+      "resolution": "TIDE와 모아는 concept와 palette role에 모든 외곽의 #FFFFFF를 명시하고 required_hex에도 흰색만 기록했습니다. Folio의 흰색은 위임받아 선택한 것으로 required_hex는 비웠습니다. 모든 foreground locked_hex는 비어 있습니다."
+    },
+    {
+      "observation": "간결한 프롬프트를 권장하지만 helper는 concept, 스타일, 전략, palette role, 일반 제작/문자 지침을 함께 넣어 일부 지시가 반복됩니다.",
+      "resolution": "전략 6개 필드는 각 320자 이하, 가정은 3개 이하·각 160자 이하로 유지했습니다. helper 결과를 임의 축약하지 않고 정확히 저장했으며, 반복이 결과에 미치는 효과는 아직 관찰하지 않았습니다."
+    },
+    {
+      "observation": "helper의 일반 구성 안내는 one-color silhouette에서의 인식성을 권장하고, 참조 문서는 모든 다색 디자인에 단색 파생 이미지를 강요하지 말라고 설명합니다.",
+      "resolution": "이번 세 방향에서는 형태의 읽힘에 관한 점검 의도로만 해석했습니다. 다색 팔레트를 유지하며 단색 이미지나 추가 호출을 만들지 않았습니다."
+    },
+    {
+      "observation": "스킬의 기본 3개 후보 규칙과 사용자 입력의 브랜드별 1개 후보가 함께 존재합니다.",
+      "resolution": "명시 요청을 우선하여 브랜드별 1개, 전체 최대 3개만 준비했습니다. 추가 팔레트나 구조 탐색 후보는 생성하지 않았습니다."
+    }
+  ],
+  "verification": {
+    "helper_init_runs_succeeded": 3,
+    "helper_palette_add_runs_succeeded": 3,
+    "helper_prompt_runs_succeeded": 3,
+    "saved_prompt_verbatim_checks_passed": 3,
+    "fixed_brief_field_checks_passed": 3,
+    "brand_strategy_prompt_bound_checks_passed": 3,
+    "source_hashes_saved": true,
+    "baseline_or_previous_artifacts_read": false,
+    "native_generation_calls": 0,
+    "image_visual_review_complete": false,
+    "design_superiority_established": false,
+    "user_approval_claimed": false
+  },
+  "next_owner": "Parent agent: one native image call per exact saved prompt; retain originals and inspect actual results at the supplied use sizes, without automatic rerolls."
+}

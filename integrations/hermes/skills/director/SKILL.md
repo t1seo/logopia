@@ -10,6 +10,18 @@ personality and use case. Preserve `exact_text` verbatim, including spaces, case
 punctuation and Hangul. Ask only for missing information that changes the design.
 Read [craft guidance](references/craft.md) before creating a brief; read
 [IP guidance and credit](references/ip.md) for a character request.
+Brand research sources, adaptation scope and MIT notices are recorded in
+[third-party notices](references/THIRD_PARTY_NOTICES.md).
+
+For brand work, connect audience need and promise to one visible principle before
+choosing shapes or fonts. Carry the saved strategy into every brand candidate:
+meaning, letter anatomy and spacing, then dominant/support/accent color placement
+with deliberate lightness, saturation and area balance. User constraints outrank
+all inferred strategy. Judge the actual mark at its use size; a cinematic render
+or elaborate brand board cannot establish a usable logo. Default to flat original
+artwork and natural readable lettering. Metal, bevels, artificial shine, dramatic
+lighting and game-faction styling require an explicit user request. Do not infer
+them from professional, premium or innovative.
 
 Call `logopia_start` with a portable `workflow_id` and a `brief`: `name`,
 `exact_text`, `product`, `audience`, `personality`, `use_case`, plus the relevant
@@ -43,7 +55,10 @@ user preference, and a source citation never grants permission to redistribute i
 Colors in this native workflow are advisory visual roles. For exact palette locks,
 restricted sets or strict color-count compliance, route to the existing Logo Land
 skill/helper workflow; do not claim that advisory colors satisfy those constraints.
-Brand artwork uses pure white presentation unless transparent is explicitly chosen.
+For opaque brand artwork, pure white #FFFFFF is the exterior canvas default. An
+explicit exterior canvas color in `notes` or `colors` takes precedence; a colored
+symbol/backplate alone does not tint surrounding space. Transparent requests remain
+transparent. Exclude unrequested beige, cream, paper texture and exterior shadows.
 
 The start tool saves a strategy and distinct visual directions, makes the agreed
 native image requests and performs two independent structured pixel critiques.

@@ -71,9 +71,9 @@ codex plugin add --help
 
 ## 소스·릴리스·설치 버전
 
-현재 저장소의 플러그인 manifest, Python 프로젝트와 잠금 파일의 보조 패키지는 **0.7.0**입니다. 같은 버전의 소스는 [v0.7.0 릴리스](https://github.com/t1seo/logopia/releases/tag/v0.7.0)에서 받으시거나, 복제 후 `git checkout v0.7.0`으로 선택하실 수 있습니다. 저장소 이름은 `logopia`이며, 플러그인 이름과 호출은 기존의 `logo-land`, `$logo-land`를 사용합니다.
+현재 저장소의 Codex·Hermes manifest, Python 프로젝트와 잠금 파일의 보조 패키지는 **아직 발행하지 않은 0.9.0**입니다. 최신 발행본은 [v0.8.0 릴리스](https://github.com/t1seo/logopia/releases/tag/v0.8.0)이며, 복제 후 `git checkout v0.8.0`으로 선택하실 수 있습니다. 저장소 이름은 `logopia`이며, 플러그인 이름과 호출은 기존의 `logo-land`, `$logo-land`를 사용합니다.
 
-기존 설치 캐시는 갱신 전까지 이전 버전일 수 있습니다. `0.7.0+codex.<timestamp>` 같은 로컬 버전은 캐시 갱신을 표시하며 릴리스 버전 `0.7.0`과 구분합니다. 소스 갱신과 재설치 후에는 새 대화를 시작해 변경된 스킬을 불러와 주세요. GitHub 소스 압축 파일은 저장소 스냅샷이며 자동 설치 프로그램이 아닙니다. [릴리스 안내](releases.md)와 [변경 이력](../CHANGELOG.md)을 참고해 주세요.
+기존 설치 캐시는 갱신 전까지 이전 버전일 수 있습니다. `0.9.0+codex.<timestamp>` 같은 로컬 버전은 캐시 갱신을 표시하며 공개 릴리스 발행을 뜻하지 않습니다. 소스 갱신과 재설치 후에는 새 대화를 시작해 변경된 스킬을 불러와 주세요. GitHub 소스 압축 파일은 저장소 스냅샷이며 자동 설치 프로그램이 아닙니다. [릴리스 안내](releases.md)와 [변경 이력](../CHANGELOG.md)을 참고해 주세요.
 
 ## 프로젝트 파일
 
