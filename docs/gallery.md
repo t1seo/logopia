@@ -2,21 +2,71 @@
 
 [English](gallery.md) · [한국어](gallery.ko.md) · [Docs](README.md) · [Logopia](../README.md)
 
-[Current samples](#showcase) · [Logopia identity](#identity) · [Earlier outputs](#historical-outputs)
+[Rejected October experiments](#showcase) · [Logopia identity](#identity) · [Earlier outputs](#historical-outputs)
 
 <a id="showcase"></a>
 
-## Everyday identities — September 20 refresh
+<a id="six-use-cases--october-1-2026"></a>
 
-Ten brand logos, twelve app icon artworks and two OFFCUT lettering directions, regenerated on September 20. [See the app and brand samples directly in the README](../README.md#samples), where every thumbnail opens its original PNG.
+## October experiments — user rejected design quality
+
+**The user rejected the design quality of all six October 1 results.** They were not accepted as meaningfully improved or ready for production. Output-quality improvement remains unproven; the originals, requests and revision history are preserved for inspection.
+
+<table>
+  <tr>
+    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/01-mori.png"><img src="showcase/2026-10-01-use-cases/images/01-mori.png" width="400" alt="mori in rounded forest-green lowercase letters with a lime dot"></a><br><strong>mori</strong><br><sub>Latin wordmark · Plant subscription</sub></td>
+    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/02-sai.png"><img src="showcase/2026-10-01-use-cases/images/02-sai.png" width="400" alt="사이 in rounded cobalt and coral Hangul on white"></a><br><strong>사이</strong><br><sub>Hangul wordmark · Reading club</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/03-al.png"><img src="showcase/2026-10-01-use-cases/images/03-al.png" width="400" alt="Indigo serif A and L sharing one structure on lilac"></a><br><strong>AL</strong><br><sub>Integrated monogram · Architecture studio</sub></td>
+    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/04-tandem.png"><img src="showcase/2026-10-01-use-cases/images/04-tandem.png" width="400" alt="Two teal and cobalt curved forms around open white space, without text"></a><br><strong>Tandem</strong><br><sub>Abstract symbol · Shared planning</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/05-pebble.png"><img src="showcase/2026-10-01-use-cases/images/05-pebble.png" width="400" alt="Terracotta pebble with a white path beside the lowercase plum word pebble"></a><br><strong>pebble</strong><br><sub>Symbol + wordmark · Walking journal</sub></td>
+    <td align="center" width="50%"><a href="showcase/2026-10-01-use-cases/images/06-pip.png"><img src="showcase/2026-10-01-use-cases/images/06-pip.png" width="400" alt="Orange bird with a plum eye and beak in the lower-right of a lilac square"></a><br><strong>Pip</strong><br><sub>Character app icon · Daily voice notes</sub></td>
+  </tr>
+</table>
+
+| Example | Use case | Saved native prompt |
+|---|---|---|
+| **mori** | Latin wordmark for plant subscription | [Prompt](showcase/2026-10-01-use-cases/prompts/01-mori.txt) |
+| **사이** | Hangul wordmark for reading club | [Prompt](showcase/2026-10-01-use-cases/prompts/02-sai.txt) |
+| **AL** | Integrated monogram for architecture studio | [Prompt](showcase/2026-10-01-use-cases/prompts/03-al.txt) |
+| **Tandem** | Abstract symbol for shared planning | [Prompt](showcase/2026-10-01-use-cases/prompts/04-tandem.txt) |
+| **pebble** | Symbol + wordmark for walking journal | [Prompt](showcase/2026-10-01-use-cases/prompts/05-pebble.txt) |
+| **Pip** | Character app icon for daily voice notes | [Prompt](showcase/2026-10-01-use-cases/prompts/06-pip.txt) |
+
+[Requests, originals and limitations](showcase/2026-10-01-use-cases/README.md) · [Offline HTML gallery](showcase/2026-10-01-use-cases/index.html)
+
+[Focused comparison after rejection](showcase/2026-10-01-pebble-study/README.md) · [Offline comparison](showcase/2026-10-01-pebble-study/index.html) — stopped without demonstrated overall design improvement; no candidate was adopted.
+
+The 0.10.0 source remains unreleased. Browser QA checked gallery usability only, not design acceptance. All brands are fictional, with no affiliation or trademark-clearance claim. Outputs are raster PNGs.
+
+<a id="identity"></a><a id="current-logo-land-identity"></a>
+
+## Logopia identity
+
+Original game-title lettering: rounded, colorful lowercase **logopia** on white. [Open the original PNG](../assets/logopia-game-title.png) · [Identity and downloads](brand/README.md)
+
+<a id="historical-outputs"></a>
+
+## Earlier outputs — preserved archive
+
+These images remain historical records. Rejection of the October experiments does not make earlier work a newly endorsed quality benchmark.
+
+<a id="september-20-2026"></a><a id="everyday-identities--september-20-refresh"></a>
+
+## Historical: everyday identities — September 20, 2026
+
+Ten brand logos, twelve app icon artworks and two OFFCUT lettering directions generated on September 20. These historical samples predate the 0.9.0 and 0.10.0 source updates. Their original files and prompts remain available below.
 
 <p align="center">
-  <a href="showcase/2026-09-20-lifestyle/board.png"><img src="showcase/2026-09-20-lifestyle/board.png" width="960" alt="Twenty-four newly generated consumer and lifestyle identity samples"></a>
+  <a href="showcase/2026-09-20-lifestyle/board.png"><img src="showcase/2026-09-20-lifestyle/board.png" width="960" alt="Twenty-four historical consumer and lifestyle identity samples from September 20, 2026"></a>
 </p>
 
 [Open the board](showcase/2026-09-20-lifestyle/board.png) · [All sample files](showcase/2026-09-20-lifestyle/README.md) · [Local HTML gallery](showcase/2026-09-20-lifestyle/index.html)
 
-OFFCUT’s [editorial](showcase/2026-09-20-lifestyle/images/00-offcut-editorial.png) and [playful](showcase/2026-09-20-lifestyle/images/00-offcut-playful.png) lettering are separate new directions. Open the [icon size/context diagnostics](showcase/2026-09-20-lifestyle/diagnostics.html) for the twelve app artworks.
+OFFCUT’s [editorial](showcase/2026-09-20-lifestyle/images/00-offcut-editorial.png) and [playful](showcase/2026-09-20-lifestyle/images/00-offcut-playful.png) lettering are separate directions. Open the [icon size/context diagnostics](showcase/2026-09-20-lifestyle/diagnostics.html) for the twelve app artworks.
 
 ### Ten brand logos
 
@@ -52,21 +102,11 @@ OFFCUT’s [editorial](showcase/2026-09-20-lifestyle/images/00-offcut-editorial.
 
 These are raster PNG examples. See the [manifest](showcase/2026-09-20-lifestyle/manifest.json) for actual dimensions and file details. Editable vectors, font files and platform-specific app icon packages require separate work.
 
-<a id="identity"></a><a id="current-logo-land-identity"></a>
-
-## Logopia identity
-
-Original game-title lettering: rounded, colorful lowercase **logopia** on white. [Open the original PNG](../assets/logopia-game-title.png) · [Identity and downloads](brand/README.md)
-
-<a id="historical-outputs"></a>
-
-## Earlier outputs — preserved archive
-
 [Previous white collection](showcase/2026-09-white/README.md) · [Historical Hermes OFFCUT case](hermes-demo/README.md)
 
 [September 2026 colored showcase](showcase/2026-09/README.md) · [Its original file inventory](showcase/2026-09/manifest.json)
 
-The images below belong to earlier collections and experiments. Their original files, prompts, observations and packages remain attached to those earlier outputs. They are not the source records or review results for the current lifestyle collection.
+The images below belong to earlier collections and experiments. Their original files, prompts, observations and packages remain attached to those earlier outputs. They are not the source records or review results for the October experiment archive.
 
 [Comparison study](#new-samples) · [10 earlier brands](#brands) · [16 earlier app icons](#app-icons) · [8 color cases](#colors) · [Earlier identities](#historical-identity)
 

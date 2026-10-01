@@ -1,0 +1,90 @@
+{
+  "request_number": 5,
+  "artifact_id": "imprint-v2",
+  "artifact_sha256": "6f99da65a656f4236aca669a052f507d3727592441225cf6cbaaed13e21a7b76",
+  "reviewer": "Independent hm_imprint_independent compared actual child and parent pixels; root translated the typed report.",
+  "evidence": [
+    {
+      "id": "original",
+      "path": ".logo-generator/sessions/hail-mary-designer/artifacts/imprint-v2.png",
+      "sha256": "6f99da65a656f4236aca669a052f507d3727592441225cf6cbaaed13e21a7b76",
+      "source_artifact_sha256": "6f99da65a656f4236aca669a052f507d3727592441225cf6cbaaed13e21a7b76",
+      "kind": "original",
+      "description": "Independent critic inspected this native child and step-4 parent at large size; target-size/application remain unknown."
+    }
+  ],
+  "assessments": [
+    {
+      "criterion": "appropriateness",
+      "status": "pass",
+      "observation": "Full curves feel approachable while the heavy connected mass feels assured; no strong genre conflict with the independent studio is visible.",
+      "issue_id": null,
+      "evidence_ids": [
+        "original"
+      ]
+    },
+    {
+      "criterion": "distinctiveness",
+      "status": "pass",
+      "observation": "The asymmetric outer arch and diagonally cut internal opening create a specific visible relationship, although the first association remains an arch or lowercase-n family. This is a limited visual judgment, not a uniqueness study.",
+      "issue_id": null,
+      "evidence_ids": [
+        "original"
+      ]
+    },
+    {
+      "criterion": "form",
+      "status": "pass",
+      "observation": "The inner upper-right corner flows more naturally; the continuous outer arch and open lower counter remain clear.",
+      "issue_id": null,
+      "evidence_ids": [
+        "original"
+      ]
+    },
+    {
+      "criterion": "optics",
+      "status": "pass",
+      "observation": "The raised counter reduces pressure from the top and the upper-right join is softer. The right interior is more vertical, slightly reducing the previous tension without clear regression.",
+      "issue_id": null,
+      "evidence_ids": [
+        "original"
+      ]
+    },
+    {
+      "criterion": "use_size",
+      "status": "not_observed",
+      "observation": "Only the large native PNG was inspected; actual 32–64px behavior remains unverified.",
+      "issue_id": null,
+      "evidence_ids": []
+    },
+    {
+      "criterion": "versatility",
+      "status": "not_observed",
+      "observation": "Inverse, other backgrounds and actual Inter/header/credit placement were not inspected.",
+      "issue_id": null,
+      "evidence_ids": []
+    },
+    {
+      "criterion": "scope",
+      "status": "pass",
+      "observation": "Only the symbol was revised. No lettering or wordmark was added; fixed typography remains outside the image task.",
+      "issue_id": null,
+      "evidence_ids": [
+        "original"
+      ]
+    }
+  ],
+  "decision": "stop",
+  "reason": "Both optical edits visibly improved and the main character is preserved. Further generation is not justified before actual target-size and application inspection; retain a promising unverified candidate rather than mark it production-ready.",
+  "preserve": [
+    "The asymmetric outer arch, its current outer silhouette and baseline",
+    "Diagonal internal top edge, open bottom, confident ink weight, flat ink on white, no lettering"
+  ],
+  "changes": [],
+  "unresolved": [
+    "Actual 32–64px use-size rendering has not been visually inspected.",
+    "Inverse/header/credits and existing Inter context have not been visually inspected."
+  ],
+  "change_result": "improved",
+  "preservation_result": "pass"
+}

@@ -1,0 +1,92 @@
+{
+  "request_number": 4,
+  "artifact_id": "imprint-v1",
+  "artifact_sha256": "584534d05e7d9f0078e3c6516ec142ab8afae550b0617d75aa5fd8fecfd63a89",
+  "reviewer": "Fresh-context hm_imprint_independent inspected only the original without author rationale. Root translated report and separately adjudicated symbol-only scope; application remains unobserved.",
+  "evidence": [
+    {
+      "id": "original",
+      "path": ".logo-generator/sessions/hail-mary-designer/artifacts/imprint-v1.png",
+      "sha256": "584534d05e7d9f0078e3c6516ec142ab8afae550b0617d75aa5fd8fecfd63a89",
+      "source_artifact_sha256": "584534d05e7d9f0078e3c6516ec142ab8afae550b0617d75aa5fd8fecfd63a89",
+      "kind": "original",
+      "description": "Large native original inspected directly; no target-size/application claim."
+    }
+  ],
+  "assessments": [
+    {
+      "criterion": "appropriateness",
+      "status": "pass",
+      "observation": "Full curves feel approachable while the heavy connected mass feels assured; no strong genre conflict with the independent studio is visible.",
+      "issue_id": null,
+      "evidence_ids": [
+        "original"
+      ]
+    },
+    {
+      "criterion": "distinctiveness",
+      "status": "pass",
+      "observation": "The asymmetric outer arch and diagonally cut internal opening create a specific visible relationship, although the first association remains an arch or lowercase-n family. This is a limited visual judgment, not a uniqueness study.",
+      "issue_id": null,
+      "evidence_ids": [
+        "original"
+      ]
+    },
+    {
+      "criterion": "form",
+      "status": "pass",
+      "observation": "The continuous silhouette and open counter are clear; soft exterior and diagonal interior have a coherent contrast.",
+      "issue_id": null,
+      "evidence_ids": [
+        "original"
+      ]
+    },
+    {
+      "criterion": "optics",
+      "status": "revise",
+      "observation": "The heavy top compresses the opening; the left inner top is broadly rounded while the right inner top has an abrupt turn.",
+      "issue_id": "top-heavy-counter",
+      "evidence_ids": [
+        "original"
+      ]
+    },
+    {
+      "criterion": "use_size",
+      "status": "not_observed",
+      "observation": "Only the large native PNG was inspected; actual 32–64px behavior remains unverified.",
+      "issue_id": null,
+      "evidence_ids": []
+    },
+    {
+      "criterion": "versatility",
+      "status": "not_observed",
+      "observation": "Inverse, other backgrounds and actual Inter/header/credit placement were not inspected.",
+      "issue_id": null,
+      "evidence_ids": []
+    },
+    {
+      "criterion": "scope",
+      "status": "pass",
+      "observation": "Root scope adjudication: the inspected image contains only a standalone symbol and no new lettering. The independent critic left combined Inter placement unobserved; that remains a versatility limit, not permission to redraw typography.",
+      "issue_id": null,
+      "evidence_ids": [
+        "original"
+      ]
+    }
+  ],
+  "decision": "refine",
+  "reason": "The off-centre arch and diagonal counter create a viable relationship worth one optical refinement. Reduce excess top weight and regularize the abrupt interior turn without losing the asymmetric character.",
+  "preserve": [
+    "The asymmetric outer arch, its current outer silhouette and baseline",
+    "Diagonal internal top edge, open bottom, confident ink weight, flat ink on white, no lettering"
+  ],
+  "changes": [
+    "Raise the diagonal top edge of the white interior opening slightly to reduce the overly heavy top band; retain the same diagonal angle and keep both outside shoulders unchanged.",
+    "Soften the abrupt upper-right interior corner just enough to create a controlled rounded transition consistent with the inner left corner, without turning the diagonal opening into a generic semicircle."
+  ],
+  "unresolved": [
+    "Actual 32–64px and Inter/application views not inspected."
+  ],
+  "change_result": "initial",
+  "preservation_result": "not_observed"
+}

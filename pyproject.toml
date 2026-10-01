@@ -1,6 +1,6 @@
 [project]
 name = "logo-land-helper"
-version = "0.9.0"
+version = "0.10.0"
 description = "Workspace-local logo provenance, native Hermes workflows and PNG delivery for Logopia"
 requires-python = ">=3.12"
 dependencies = ["coloraide==8.12.1", "pydantic>=2.12,<3", "pillow>=11.2,<13", "typer>=0.16,<1", "rich>=14,<15"]

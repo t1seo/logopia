@@ -1,0 +1,36 @@
+{
+  "brand_name": "Pip",
+  "exact_text": "",
+  "industry": "A fictional short voice-note companion",
+  "audience": "People recording a small daily thought",
+  "logo_type": "mascot",
+  "background": "opaque",
+  "concept_count": 1,
+  "palette": [
+    "Warm orange #ED9252 bird body",
+    "Deep plum #442D4B beak and one eye",
+    "Soft lilac #C5B6EB full square background"
+  ],
+  "styles": [
+    "Flat deliberate shape and color relationships",
+    "No beige paper or cinematic presentation"
+  ],
+  "use_cases": [
+    "Character app icon"
+  ],
+  "forbidden": [
+    "Extra slogans",
+    "Watermarks",
+    "Mockup photographs"
+  ],
+  "assumptions": [
+    "Fictional brand made for a capability sample; not a customer project",
+    "Palette HEX values are design intentions, not measured output compliance"
+  ],
+  "app_icon": {
+    "preset": "ip_mascot",
+    "subject": "One compact orange bird with a broad head, short plum beak, single eye and upward-curving tail",
+    "placement": "lower_right",
+    "text": null
+  }
+}

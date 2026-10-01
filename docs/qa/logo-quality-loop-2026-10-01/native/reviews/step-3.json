@@ -1,0 +1,90 @@
+{
+  "request_number": 3,
+  "artifact_id": "hare-v1",
+  "artifact_sha256": "1fd154b88ac17f6e0f8e33154ba81e541eabf6d79ca0fcbce1515db5217d12ff",
+  "reviewer": "Independent hm_loop_blind_critic, original pixels described before author prompt/rationale; root translated the typed record.",
+  "evidence": [
+    {
+      "id": "original",
+      "path": ".logo-generator/sessions/hail-mary-designer/artifacts/hare-v1.png",
+      "sha256": "1fd154b88ac17f6e0f8e33154ba81e541eabf6d79ca0fcbce1515db5217d12ff",
+      "source_artifact_sha256": "1fd154b88ac17f6e0f8e33154ba81e541eabf6d79ca0fcbce1515db5217d12ff",
+      "kind": "original",
+      "description": "Large native original inspected directly, no small-size or application claim."
+    }
+  ],
+  "assessments": [
+    {
+      "criterion": "appropriateness",
+      "status": "revise",
+      "observation": "The raised eye and pointed face read wary and forceful, closer to a sports or gaming animal emblem than an approachable independent product studio.",
+      "issue_id": "heraldic-tone",
+      "evidence_ids": [
+        "original"
+      ]
+    },
+    {
+      "criterion": "distinctiveness",
+      "status": "revise",
+      "observation": "The asymmetric ears give a memorable feature, but the familiar sharp animal-profile vocabulary dominates.",
+      "issue_id": "generic-animal-profile",
+      "evidence_ids": [
+        "original"
+      ]
+    },
+    {
+      "criterion": "form",
+      "status": "revise",
+      "observation": "Thin pointed cuts in the folded ear, eye and nose/mouth add illustrative decoration. Rabbit recognition itself is clear.",
+      "issue_id": "decorative-cuts",
+      "evidence_ids": [
+        "original"
+      ]
+    },
+    {
+      "criterion": "optics",
+      "status": "revise",
+      "observation": "The tall upright ear dominates above a heavy head and neck, creating a long vertical proportion.",
+      "issue_id": "elongated-profile",
+      "evidence_ids": [
+        "original"
+      ]
+    },
+    {
+      "criterion": "use_size",
+      "status": "not_observed",
+      "observation": "Only the large original was inspected; 32–64px details remain unverified.",
+      "issue_id": null,
+      "evidence_ids": []
+    },
+    {
+      "criterion": "versatility",
+      "status": "not_observed",
+      "observation": "Inverse and real product-credit/Inter contexts were not inspected.",
+      "issue_id": null,
+      "evidence_ids": []
+    },
+    {
+      "criterion": "scope",
+      "status": "pass",
+      "observation": "Only a standalone symbol appears, with no typography change.",
+      "issue_id": null,
+      "evidence_ids": [
+        "original"
+      ]
+    }
+  ],
+  "decision": "reframe",
+  "next_direction_id": "imprint",
+  "reason": "The underlying heraldic animal-profile character conflicts with the studio direction. Two local detail changes would not correct that character; use the remaining structurally different direction.",
+  "preserve": [
+    "Readable silhouette and decisive single-color expression as general goals, not the rabbit geometry."
+  ],
+  "changes": [],
+  "unresolved": [
+    "Genre mismatch and generic animal-profile treatment.",
+    "Actual target-size and application views remain unobserved."
+  ],
+  "change_result": "initial",
+  "preservation_result": "not_observed"
+}

@@ -1,0 +1,40 @@
+{
+  "session_id": "pebble-study",
+  "scope": "full_logo",
+  "fixed_typography": false,
+  "fixed_decisions": [
+    "Exact lowercase text pebble; a wordmark only",
+    "Flat plum lettering on pure white; keep all six letters separate and legible",
+    "One centered wordmark, filling roughly 80% of a wide canvas; no mockup, small repeated samples or specimen labels"
+  ],
+  "source_evidence": [
+    "Fictional walking-journal brief; personal observation of ordinary places instead of exercise tracking",
+    "Previous rejected sample used a generic path inside a stone and uniformly rounded lettering",
+    "Studio reference research supports specific structure and optical craft; do not imitate any named studio or existing brand"
+  ],
+  "success_criteria": [
+    "First reading is pebble without explanation",
+    "The repeated bb has a controlled common rhythm, with open e apertures and individually balanced letter intervals",
+    "The wordmark expresses a personal, grounded journal rather than a sport tracker or a generic rounded app font",
+    "At 240px visible wordmark width the counters and spacing stay clear"
+  ],
+  "use_contexts": [
+    "240px visible wordmark width in a white desktop product header",
+    "Same master in a 360px mobile journal page"
+  ],
+  "directions": [
+    {
+      "id": "notebook",
+      "idea": "A personal walking notebook: observant, unhurried, substantial rather than cute",
+      "structure": "An upright lowercase wordmark in a moderately bold flared serif construction. Low stroke contrast. Broad flat feet with short soft brackets, not hairline serifs. Tall restrained ascenders and a deep p descender. The two b bowls are softly squared teardrops, a little narrower at the shoulder than at the base; repeat the same bowl geometry. The e has a generous open mouth. The l has a short understated foot. Keep the baseline level and tune each gap optically.",
+      "distinction": "The asymmetrical repeated b counters and the mix of flat feet with relaxed curves carry the character. No standard bubbly geometric font, ligature, swash or isolated decorative trick. Reject if it looks like an unmodified book font or the bb merges."
+    },
+    {
+      "id": "handwritten",
+      "idea": "The quick personal note after a walk: direct, relaxed and remembered by its written rhythm",
+      "structure": "A compact upright handwritten lowercase wordmark with thick confident ink-like strokes, clear narrow joins, tall loopless b ascenders and open e apertures. The p descender curves gently right. Separate the letters; no script connections. Let broad bowls alternate with narrow vertical stems. Smooth intentional contours, no paper texture or scratchiness.",
+      "distinction": "A condensed vertical writing rhythm with visibly drawn asymmetric bowls, different from the horizontal flared serif direction. No cartoon bubble letters and no calligraphic swashes. Reject if the name needs decoding or only the description makes it distinctive."
+    }
+  ],
+  "call_budget": 3
+}

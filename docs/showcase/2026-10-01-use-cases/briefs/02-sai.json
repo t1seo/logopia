@@ -1,0 +1,30 @@
+{
+  "brand_name": "사이",
+  "exact_text": "사이",
+  "industry": "A fictional neighborhood reading club",
+  "audience": "Adults sharing reading and conversation",
+  "logo_type": "wordmark",
+  "background": "opaque",
+  "concept_count": 1,
+  "palette": [
+    "Cobalt #3454C5 for 사",
+    "Warm coral #DD6758 for 이",
+    "Pure white #FFFFFF exterior"
+  ],
+  "styles": [
+    "Flat deliberate shape and color relationships",
+    "No beige paper or cinematic presentation"
+  ],
+  "use_cases": [
+    "Hangul wordmark"
+  ],
+  "forbidden": [
+    "Extra slogans",
+    "Watermarks",
+    "Mockup photographs"
+  ],
+  "assumptions": [
+    "Fictional brand made for a capability sample; not a customer project",
+    "Palette HEX values are design intentions, not measured output compliance"
+  ]
+}

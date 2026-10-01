@@ -1,0 +1,30 @@
+{
+  "brand_name": "mori",
+  "exact_text": "mori",
+  "industry": "A fictional houseplant subscription for small urban homes",
+  "audience": "People caring for their first few indoor plants",
+  "logo_type": "wordmark",
+  "background": "opaque",
+  "concept_count": 1,
+  "palette": [
+    "Deep forest green #174D38 for the letters",
+    "Fresh lime #A8D653 for the dot of i only",
+    "Pure white #FFFFFF exterior"
+  ],
+  "styles": [
+    "Flat deliberate shape and color relationships",
+    "No beige paper or cinematic presentation"
+  ],
+  "use_cases": [
+    "Latin wordmark"
+  ],
+  "forbidden": [
+    "Extra slogans",
+    "Watermarks",
+    "Mockup photographs"
+  ],
+  "assumptions": [
+    "Fictional brand made for a capability sample; not a customer project",
+    "Palette HEX values are design intentions, not measured output compliance"
+  ]
+}

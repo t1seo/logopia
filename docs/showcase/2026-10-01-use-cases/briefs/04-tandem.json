@@ -1,0 +1,30 @@
+{
+  "brand_name": "Tandem",
+  "exact_text": "",
+  "industry": "A fictional shared planning tool for two-person teams",
+  "audience": "Pairs coordinating a small recurring project",
+  "logo_type": "abstract",
+  "background": "opaque",
+  "concept_count": 1,
+  "palette": [
+    "Deep teal #087F83 for the larger form",
+    "Cobalt #425DCD for the smaller form",
+    "Pure white #FFFFFF exterior"
+  ],
+  "styles": [
+    "Flat deliberate shape and color relationships",
+    "No beige paper or cinematic presentation"
+  ],
+  "use_cases": [
+    "Symbol only"
+  ],
+  "forbidden": [
+    "Extra slogans",
+    "Watermarks",
+    "Mockup photographs"
+  ],
+  "assumptions": [
+    "Fictional brand made for a capability sample; not a customer project",
+    "Palette HEX values are design intentions, not measured output compliance"
+  ]
+}

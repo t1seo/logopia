@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-01",
+  "provider": "image_gen.imagegen",
+  "model": null,
+  "source_version": "0.10.0 unreleased",
+  "mode": "six independent capability examples; not a single brand quality-loop run",
+  "initial_calls": 6,
+  "correction_budget": 3,
+  "calls_used": 8,
+  "fictional_brands": true,
+  "samples": [
+    {
+      "id": "01-mori",
+      "brand": "mori",
+      "exact_text": "mori",
+      "type": "Latin wordmark",
+      "image": "images/01-mori.png",
+      "prompt": "prompts/01-mori.txt",
+      "brief": "briefs/01-mori.json",
+      "palette_intent": [
+        "Deep forest green #174D38 for the letters",
+        "Fresh lime #A8D653 for the dot of i only",
+        "Pure white #FFFFFF exterior"
+      ],
+      "state": "generated",
+      "source_revision": 0,
+      "reserved_at": "2026-10-01T12:00:39.747398+00:00",
+      "sha256": "95e67c5412cc6dadf1f820e74a74ec72f9f285abb7bc5cb411741c418b28d347",
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGB",
+      "size_bytes": 792616,
+      "artifact": "sample"
+    },
+    {
+      "id": "02-sai",
+      "brand": "사이",
+      "exact_text": "사이",
+      "type": "Hangul wordmark",
+      "image": "images/02-sai.png",
+      "prompt": "prompts/02-sai.txt",
+      "brief": "briefs/02-sai.json",
+      "palette_intent": [
+        "Cobalt #3454C5 for 사",
+        "Warm coral #DD6758 for 이",
+        "Pure white #FFFFFF exterior"
+      ],
+      "state": "generated_corrected",
+      "source_revision": 1,
+      "reserved_at": "2026-10-01T12:01:19.417967+00:00",
+      "sha256": "0714d8265f3eacd907f3ddbeda754f67a02cc17d629840958a7d0817d24e9b25",
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGB",
+      "size_bytes": 760129,
+      "artifact": "sample-v2",
+      "initial_request": "revisions/02-sai-v1.txt",
+      "initial_result": "revisions/02-sai-v1.png"
+    },
+    {
+      "id": "03-al",
+      "brand": "AL Atelier",
+      "exact_text": "AL",
+      "type": "Monogram",
+      "image": "images/03-al.png",
+      "prompt": "prompts/03-al.txt",
+      "brief": "briefs/03-al.json",
+      "palette_intent": [
+        "Deep indigo #34305B mark",
+        "Pale lilac #EEEAF8 background"
+      ],
+      "state": "generated",
+      "source_revision": 0,
+      "reserved_at": "2026-10-01T12:02:03.393450+00:00",
+      "sha256": "766fb0c619fbc211e6162d21e19ae867d604698fa32d0e8894f6bfb71abd9a1f",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "size_bytes": 832739,
+      "artifact": "sample"
+    },
+    {
+      "id": "04-tandem",
+      "brand": "Tandem",
+      "exact_text": "",
+      "type": "Symbol only",
+      "image": "images/04-tandem.png",
+      "prompt": "prompts/04-tandem.txt",
+      "brief": "briefs/04-tandem.json",
+      "palette_intent": [
+        "Deep teal #087F83 for the larger form",
+        "Cobalt #425DCD for the smaller form",
+        "Pure white #FFFFFF exterior"
+      ],
+      "state": "generated_corrected",
+      "source_revision": 1,
+      "reserved_at": "2026-10-01T12:02:42.717598+00:00",
+      "sha256": "4f70e091b65a321f217f6e136f0e86bdf47781b3c99724a01113cfe3c24dbc0f",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "size_bytes": 764610,
+      "artifact": "sample-v2",
+      "initial_request": "revisions/04-tandem-v1.txt",
+      "initial_result": "revisions/04-tandem-v1.png"
+    },
+    {
+      "id": "05-pebble",
+      "brand": "pebble",
+      "exact_text": "pebble",
+      "type": "Symbol + wordmark",
+      "image": "images/05-pebble.png",
+      "prompt": "prompts/05-pebble.txt",
+      "brief": "briefs/05-pebble.json",
+      "palette_intent": [
+        "Terracotta #C4654F for the symbol",
+        "Deep plum #392C40 for the wordmark",
+        "Pure white #FFFFFF exterior"
+      ],
+      "state": "generated",
+      "source_revision": 0,
+      "reserved_at": "2026-10-01T12:03:40.965853+00:00",
+      "sha256": "97efe939bcd65ee6e528e05085e08c321de727c97e20d0917164ad3d9d0cb73e",
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGB",
+      "size_bytes": 795924,
+      "artifact": "sample"
+    },
+    {
+      "id": "06-pip",
+      "brand": "Pip",
+      "exact_text": "",
+      "type": "Character app icon",
+      "image": "images/06-pip.png",
+      "prompt": "prompts/06-pip.txt",
+      "brief": "briefs/06-pip.json",
+      "palette_intent": [
+        "Warm orange #ED9252 bird body",
+        "Deep plum #442D4B beak and one eye",
+        "Soft lilac #C5B6EB full square background"
+      ],
+      "state": "generated",
+      "source_revision": 0,
+      "reserved_at": "2026-10-01T12:04:10.651394+00:00",
+      "sha256": "b5bf9b586a6a483a8fa7701f95e74d2d974fadb785b59d4949cc7170c1837be7",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "size_bytes": 940541,
+      "artifact": "sample"
+    }
+  ],
+  "corrections": [
+    {
+      "id": "02-sai",
+      "state": "returned",
+      "reason": "Unexpected transparency and edge debris against opaque brief",
+      "prompt": "prompts/02-sai-correction.txt",
+      "parent_original": "revisions/02-sai-v1.png",
+      "reserved_at": "2026-10-01T12:05:12.923573+00:00",
+      "sha256": "0714d8265f3eacd907f3ddbeda754f67a02cc17d629840958a7d0817d24e9b25",
+      "result": "images/02-sai.png"
+    },
+    {
+      "id": "04-tandem",
+      "state": "returned",
+      "reason": "Unexpected transparency and edge debris against opaque brief",
+      "prompt": "prompts/04-tandem-correction.txt",
+      "parent_original": "revisions/04-tandem-v1.png",
+      "reserved_at": "2026-10-01T12:06:20.303646+00:00",
+      "sha256": "4f70e091b65a321f217f6e136f0e86bdf47781b3c99724a01113cfe3c24dbc0f",
+      "result": "images/04-tandem.png"
+    }
+  ],
+  "status": "generation_complete",
+  "publication_review": "user_rejected_design_quality",
+  "output": "Raster PNG capability samples, not font files or vector masters",
+  "user_feedback": "User reviewed samples and found no meaningful improvement over earlier output; not at production design level.",
+  "showcase_eligibility": "experimental_only; not evidence of improved design quality"
+}

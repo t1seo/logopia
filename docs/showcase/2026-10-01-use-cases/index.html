@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="October 1 Logopia experiments rejected by the user on design quality. Original PNGs, saved requests and observations are preserved.">
+  <title>Rejected October experiments · Logopia</title>
+  <style>
+    :root { color-scheme: light; --paper: #f7f8f0; --ink: #17352b; --muted: #536257; --line: #d4dccf; --lime: #b9f582; --white: #fff; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--paper); font: 1rem/1.6 "Trebuchet MS", "Apple SD Gothic Neo", sans-serif; }
+    a { color: inherit; text-underline-offset: .22em; }
+    a:hover { text-decoration-thickness: 2px; }
+    :focus-visible { outline: 3px solid #6347b8; outline-offset: 5px; }
+    .skip { position: absolute; top: -5rem; left: 1rem; padding: .75rem 1rem; background: var(--ink); color: var(--white); z-index: 2; }
+    .skip:focus { top: 1rem; }
+    .shell { max-width: 1360px; margin: auto; padding: 0 44px; }
+    .topbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; min-height: 88px; border-bottom: 1px solid var(--line); }
+    .brand { font-weight: 800; font-size: 1.4rem; letter-spacing: -.06em; text-decoration: none; }
+    .topbar nav { display: flex; flex-wrap: wrap; gap: 20px; font-size: .875rem; }
+    header { display: grid; grid-template-columns: 1.65fr 1fr; align-items: end; gap: 48px; padding: 70px 0 44px; }
+    .eyebrow, .kind { font-size: .7rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+    .eyebrow { display: inline-block; background: var(--lime); padding: 5px 10px; margin: 0 0 24px; }
+    h1 { font: 500 clamp(3rem, 5.6vw, 5.4rem)/1.02 Georgia, "Times New Roman", serif; letter-spacing: -.05em; margin: 0; max-width: 10em; }
+    .intro { margin: 0 0 4px; color: var(--muted); max-width: 37rem; }
+    .intro strong { color: var(--ink); }
+    .intro .ko { display: block; margin-top: 14px; font-size: .875rem; }
+    .status-note { border-left: 4px solid #873e2d; background: #f5e9e3; padding: 16px 20px; margin-bottom: 28px; font-size: .875rem; }
+    .status-note p { margin: 0; }
+    .status-note p + p { margin-top: 8px; }
+    .rejected { font-size: .75rem; color: #873e2d; margin: 12px 0 0; }
+    .toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; border-top: 1px solid var(--ink); padding: 22px 0; }
+    .filters[hidden] { display: none; }
+    .filters { display: flex; flex-wrap: wrap; gap: 8px; }
+    button { font: inherit; cursor: pointer; border: 1px solid var(--line); border-radius: 999px; background: transparent; color: var(--ink); padding: 8px 16px; min-height: 44px; }
+    button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--white); }
+    button:hover { border-color: var(--ink); }
+    .count { font-size: .875rem; color: var(--muted); margin: 0; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; align-items: start; }
+    .card { background: var(--white); border: 1px solid var(--line); min-width: 0; }
+    .card[hidden] { display: none; }
+    .art { display: block; background: var(--white); }
+    .art img { display: block; width: 100%; height: auto; }
+    .card-body { padding: 25px 28px 22px; border-top: 1px solid var(--line); }
+    .card-heading { display: flex; align-items: start; gap: 17px; }
+    .number { font: .8rem/1.4 Georgia, serif; color: var(--muted); padding-top: 3px; }
+    .kind { margin: 0 0 6px; color: var(--muted); }
+    h2 { margin: 0; font-size: 1.75rem; line-height: 1.2; letter-spacing: -.045em; }
+    .use { margin: 16px 0 6px; }
+    .palette { margin: 0; font-size: .8rem; color: var(--muted); }
+    .palette span { font-weight: 700; padding-right: 5px; }
+    details { margin-top: 20px; border-top: 1px solid var(--line); padding-top: 14px; }
+    summary { cursor: pointer; min-height: 32px; font-size: .875rem; font-weight: 700; }
+    summary span { font-weight: 400; margin-left: 8px; color: var(--muted); }
+    blockquote { margin: 8px 0 14px; padding-left: 16px; border-left: 3px solid var(--lime); font-size: .875rem; }
+    blockquote p { margin: 0 0 10px; }
+    blockquote p[lang="ko"] { color: var(--muted); }
+    .review { font-size: .8rem; color: var(--muted); margin: 14px 0 20px; }
+    .review strong { color: var(--ink); }
+    .card-links { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 20px; font-size: .8rem; }
+    .notes { margin: 44px 0 48px; padding: 28px 0; border-top: 1px solid var(--ink); display: grid; grid-template-columns: 1fr 2fr; gap: 40px; }
+    .notes h2 { font: 1.75rem/1.2 Georgia, serif; letter-spacing: -.025em; }
+    .notes p { margin: 0 0 14px; font-size: .875rem; color: var(--muted); max-width: 50rem; }
+    footer { padding: 24px 0 36px; border-top: 1px solid var(--line); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 24px; font-size: .8rem; color: var(--muted); }
+    @media (max-width: 760px) { .shell { padding: 0 22px; } header { grid-template-columns: 1fr; gap: 28px; padding-top: 42px; } h1 { max-width: 11em; } .grid { grid-template-columns: 1fr; gap: 26px; } .card-body { padding: 22px; } .notes { grid-template-columns: 1fr; gap: 18px; } }
+    @media (prefers-reduced-motion: no-preference) { a, button { transition: color .15s ease, background-color .15s ease, border-color .15s ease; } }
+    @media print { .skip, .filters { display: none; } .shell { padding: 0; } header { padding: 24px 0; } .grid { display: block; } .card { break-inside: avoid; margin-bottom: 24px; } .art img { max-width: 360px; margin: auto; } details { display: none; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#gallery">Skip to the examples</a>
+  <div class="shell">
+    <div class="topbar"><a class="brand" href="../../../README.md">logopia</a><nav aria-label="Collection"><a href="README.md">Collection &amp; requests</a><a href="../../../README.ko.md#use-cases" lang="ko">한국어 소개</a><a href="../../gallery.md#historical-outputs">Archive</a></nav></div>
+    <header>
+      <div><p class="eyebrow">Experiment archive · 01 October 2026</p><h1>October<br>experiments.</h1></div>
+      <p class="intro"><strong>Six results, rejected on design quality.</strong> The user found no meaningful improvement and no production-ready result. The original files and requests remain available for inspection.<span class="ko" lang="ko">사용자가 여섯 결과 모두 디자인 품질을 거절했습니다. 의미 있는 개선과 실사용 품질은 입증되지 않았으며, 원본·요청을 실험 기록으로 보존했습니다.</span></p>
+    </header>
+    <main id="gallery">
+      <div class="status-note"><p><strong>Design quality rejected for all six displayed results, including the corrected versions.</strong> Output-quality improvement remains unproven.</p><p>Browser QA passed usability checks only. It did not establish design quality or user acceptance.</p></div>
+      <div class="toolbar">
+        <div class="filters" role="group" aria-label="Filter by use case" hidden>
+          <button type="button" data-filter="all" aria-pressed="true" aria-controls="cards">All six</button>
+          <button type="button" data-filter="lettering" aria-pressed="false" aria-controls="cards">Lettering</button>
+          <button type="button" data-filter="symbols" aria-pressed="false" aria-controls="cards">Symbols &amp; marks</button>
+          <button type="button" data-filter="icons" aria-pressed="false" aria-controls="cards">App icon</button>
+        </div>
+        <p class="count" role="status" aria-live="polite" aria-atomic="true">Showing 6 of 6 original PNGs</p>
+      </div>
+      <div class="grid" id="cards">
+      <article class="card" data-category="lettering" aria-labelledby="title-01-mori">
+        <a class="art" href="images/01-mori.png" aria-label="Open mori original PNG"><img src="images/01-mori.png" alt="mori in rounded forest-green lowercase letters with a lime dot" loading="eager" decoding="async"></a>
+        <div class="card-body">
+          <div class="card-heading"><span class="number">01</span><div><p class="kind">Latin wordmark</p><h2 id="title-01-mori">mori</h2></div></div>
+          <p class="rejected">User rejected design quality</p>
+          <p class="use">Plant subscription</p>
+          <p class="palette"><span>Palette intent</span> Forest green + lime</p>
+          <details><summary>See the brief <span lang="ko">요청 보기</span></summary><blockquote><p>Create a wordmark using the exact lowercase text mori for a plant subscription. Use forest green and lime; make the letters the design, with no separate icon.</p><p lang="ko">식물 구독 서비스 mori의 워드마크를 만들어 주세요. 정확한 글자는 mori이며, 포레스트 그린과 라임을 사용하고 별도 아이콘 없이 글자 자체를 디자인해 주세요.</p></blockquote></details>
+          <p class="review"><strong>Observed result.</strong> The exact lowercase mori is readable, with broad rounded green letters, an open o counter and a lime dot.</p>
+          <p class="review"><strong>Limit.</strong> The soft rounded style is relatively generic. The image supplies no editable font or verified typeface provenance.</p>
+          <div class="card-links"><a href="prompts/01-mori.txt">Saved native request</a><a href="images/01-mori.png" download="01-mori.png" aria-label="Download 01-mori original PNG">Download PNG <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </article>
+      <article class="card" data-category="lettering" aria-labelledby="title-02-sai">
+        <a class="art" href="images/02-sai.png" aria-label="Open 사이 original PNG"><img src="images/02-sai.png" alt="사이 in rounded cobalt and coral Hangul on white" loading="eager" decoding="async"></a>
+        <div class="card-body">
+          <div class="card-heading"><span class="number">02</span><div><p class="kind">Hangul wordmark</p><h2 id="title-02-sai">사이</h2></div></div>
+          <p class="rejected">User rejected design quality</p>
+          <p class="use">Reading club</p>
+          <p class="palette"><span>Palette intent</span> Cobalt + coral</p>
+          <details><summary>See the brief <span lang="ko">요청 보기</span></summary><blockquote><p>Create a Hangul wordmark for a reading club using only the exact text 사이. Use cobalt and coral, with clear, friendly letterforms.</p><p lang="ko">독서 모임의 한글 워드마크를 만들어 주세요. 정확한 글자 사이만 사용하고, 코발트와 코랄로 친근하면서 또렷하게 읽히는 글자를 표현해 주세요.</p></blockquote></details>
+          <p class="review"><strong>Observed result.</strong> The exact Hangul 사이 is readable: rounded cobalt 사 and coral 이 on white. A native edit corrected the first result’s unexpected transparency and stray edge fragments.</p>
+          <p class="review"><strong>Limit.</strong> The broad rounded lettering does not establish a distinctive type system or an editable font. Minimum readable size is not established.</p>
+          <div class="card-links"><a href="prompts/02-sai.txt">Saved native edit request</a><a href="images/02-sai.png" download="02-sai.png" aria-label="Download 02-sai original PNG">Download PNG <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </article>
+      <article class="card" data-category="symbols" aria-labelledby="title-03-al">
+        <a class="art" href="images/03-al.png" aria-label="Open AL original PNG"><img src="images/03-al.png" alt="Indigo serif A and L sharing one structure on lilac" loading="lazy" decoding="async"></a>
+        <div class="card-body">
+          <div class="card-heading"><span class="number">03</span><div><p class="kind">Integrated monogram</p><h2 id="title-03-al">AL</h2></div></div>
+          <p class="rejected">User rejected design quality</p>
+          <p class="use">Architecture studio</p>
+          <p class="palette"><span>Palette intent</span> Indigo</p>
+          <details><summary>See the brief <span lang="ko">요청 보기</span></summary><blockquote><p>Create one integrated AL monogram for an architecture studio in indigo. Keep both exact initials recognizable within a shared structure.</p><p lang="ko">건축 스튜디오의 이니셜 AL을 하나로 결합한 모노그램을 인디고로 만들어 주세요. 구조를 공유하되 두 글자를 알아볼 수 있게 해 주세요.</p></blockquote></details>
+          <p class="review"><strong>Observed result.</strong> A readable indigo A and L share a compact structure on lilac, with visible serif details.</p>
+          <p class="review"><strong>Limit.</strong> The A uses a thinner stroke than the L, leaving uneven stroke balance. Small-size legibility is not established.</p>
+          <div class="card-links"><a href="prompts/03-al.txt">Saved native request</a><a href="images/03-al.png" download="03-al.png" aria-label="Download 03-al original PNG">Download PNG <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </article>
+      <article class="card" data-category="symbols" aria-labelledby="title-04-tandem">
+        <a class="art" href="images/04-tandem.png" aria-label="Open Tandem original PNG"><img src="images/04-tandem.png" alt="Two teal and cobalt curved forms around open white space, without text" loading="lazy" decoding="async"></a>
+        <div class="card-body">
+          <div class="card-heading"><span class="number">04</span><div><p class="kind">Abstract symbol</p><h2 id="title-04-tandem">Tandem</h2></div></div>
+          <p class="rejected">User rejected design quality</p>
+          <p class="use">Shared planning</p>
+          <p class="palette"><span>Palette intent</span> Teal + cobalt</p>
+          <details><summary>See the brief <span lang="ko">요청 보기</span></summary><blockquote><p>Create a symbol for a shared planning service using teal and cobalt. Express coordination through one compact mark, with no lettering.</p><p lang="ko">공동 일정 계획 서비스의 심볼을 틸과 코발트로 만들어 주세요. 하나의 간결한 마크로 협업을 표현하고 글자는 넣지 말아 주세요.</p></blockquote></details>
+          <p class="review"><strong>Observed result.</strong> A larger teal curve and smaller cobalt curve frame an open central space, with no lettering. A native edit cleaned the first result’s edges and restored a white background.</p>
+          <p class="review"><strong>Limit.</strong> The connection to shared planning is the brief’s intent; audience recognition of that meaning has not been tested. A one-color version is not included.</p>
+          <div class="card-links"><a href="prompts/04-tandem.txt">Saved native edit request</a><a href="images/04-tandem.png" download="04-tandem.png" aria-label="Download 04-tandem original PNG">Download PNG <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </article>
+      <article class="card" data-category="symbols" aria-labelledby="title-05-pebble">
+        <a class="art" href="images/05-pebble.png" aria-label="Open pebble original PNG"><img src="images/05-pebble.png" alt="Terracotta pebble with a white path beside the lowercase plum word pebble" loading="lazy" decoding="async"></a>
+        <div class="card-body">
+          <div class="card-heading"><span class="number">05</span><div><p class="kind">Symbol + wordmark</p><h2 id="title-05-pebble">pebble</h2></div></div>
+          <p class="rejected">User rejected design quality</p>
+          <p class="use">Walking journal</p>
+          <p class="palette"><span>Palette intent</span> Terracotta + deep plum</p>
+          <details><summary>See the brief <span lang="ko">요청 보기</span></summary><blockquote><p>Create a symbol and wordmark for a walking journal using the exact lowercase text pebble. Pair terracotta with deep plum and keep the lockup simple.</p><p lang="ko">걷기 브랜드의 심볼과 워드마크를 만들어 주세요. 정확한 소문자 pebble을 사용하고, 테라코타와 딥 플럼으로 간결한 조합을 구성해 주세요.</p></blockquote></details>
+          <p class="review"><strong>Observed result.</strong> The exact lowercase pebble sits beside a terracotta pebble shape with a curved white path. Deep plum lettering forms a wide horizontal lockup.</p>
+          <p class="review"><strong>Limit.</strong> The path narrows toward its upper end. The full lockup needs testing at its intended header size; a compact icon version is not included.</p>
+          <div class="card-links"><a href="prompts/05-pebble.txt">Saved native request</a><a href="images/05-pebble.png" download="05-pebble.png" aria-label="Download 05-pebble original PNG">Download PNG <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </article>
+      <article class="card" data-category="icons" aria-labelledby="title-06-pip">
+        <a class="art" href="images/06-pip.png" aria-label="Open Pip original PNG"><img src="images/06-pip.png" alt="Orange bird with a plum eye and beak in the lower-right of a lilac square" loading="lazy" decoding="async"></a>
+        <div class="card-body">
+          <div class="card-heading"><span class="number">06</span><div><p class="kind">Character app icon</p><h2 id="title-06-pip">Pip</h2></div></div>
+          <p class="rejected">User rejected design quality</p>
+          <p class="use">Daily voice notes</p>
+          <p class="palette"><span>Palette intent</span> Orange + lilac</p>
+          <details><summary>See the brief <span lang="ko">요청 보기</span></summary><blockquote><p>Create one app icon for a voice-note companion with one friendly flat orange bird on a lilac background. Use a bold, simple silhouette and no text.</p><p lang="ko">음성 메모 앱을 위해 라일락 배경에 친근한 오렌지색 새 한 마리를 넣은 아이콘을 만들어 주세요. 굵고 단순한 평면 실루엣을 사용하고 글자는 넣지 말아 주세요.</p></blockquote></details>
+          <p class="review"><strong>Observed result.</strong> One orange bird fills the lower-right of a lilac square, with a dark plum eye and beak, an upturned tail and no lettering.</p>
+          <p class="review"><strong>Limit.</strong> Subtle tonal variation remains despite the flat-color intent. The artwork is not a platform-specific app icon package.</p>
+          <div class="card-links"><a href="prompts/06-pip.txt">Saved native request</a><a href="images/06-pip.png" download="06-pip.png" aria-label="Download 06-pip original PNG">Download PNG <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </article>
+      </div>
+      <section class="notes" aria-labelledby="notes-title">
+        <h2 id="notes-title">Status and evidence</h2>
+        <div><p>The <strong>0.10.0 source is unreleased</strong>. All six designs were rejected by the user. The saved files document that outcome; output-quality improvement remains unproven. The brands are fictional examples; no affiliation or trademark clearance is implied.</p><p>These are raster PNGs. Palette descriptions are brief intentions, not measured color compliance. Editable vectors, font files and platform-specific icon packages require separate work. Review notes distinguish the request from what needs checking at the intended size. Earlier galleries remain historical records, without a new quality endorsement.</p><p><strong>Production record.</strong> Six initial generations and two native parent edits: eight calls total. 사이 and Tandem needed white-background and edge cleanup. Correcting those technical defects did not establish design quality; the user rejected all six displayed results. <a href="manifest.json">Manifest</a> · <a href="README.md#production-record">Preserved first attempts, prompts and receipts</a>.</p><p lang="ko">현재 소스는 미발행 0.10.0입니다. 사용자가 여섯 결과 모두 디자인 품질을 거절했으며, 결과물의 품질 개선은 입증되지 않았습니다. 가상 브랜드의 PNG 원본으로, 제휴·상표 사용 가능성이나 실제 서비스 적용 승인을 뜻하지 않습니다.</p></div>
+      </section>
+    </main>
+    <footer><span>Rejected experiments · original files · saved requests</span><span><a href="README.md">Collection notes</a> · <a href="../2026-09-20-lifestyle/README.md">September 20 archive</a></span></footer>
+  </div>
+  <script>
+    const filterBar = document.querySelector('.filters');
+    const filterButtons = [...document.querySelectorAll('[data-filter]')];
+    const cards = [...document.querySelectorAll('[data-category]')];
+    const count = document.querySelector('.count');
+    filterBar.hidden = false;
+    for (const button of filterButtons) {
+      button.addEventListener('click', () => {
+        const category = button.dataset.filter;
+        for (const candidate of filterButtons) candidate.setAttribute('aria-pressed', String(candidate === button));
+        let visible = 0;
+        for (const card of cards) {
+          card.hidden = category !== 'all' && card.dataset.category !== category;
+          if (!card.hidden) visible += 1;
+        }
+        count.textContent = 'Showing ' + visible + ' of ' + cards.length + ' original PNG' + (cards.length === 1 ? '' : 's');
+      });
+    }
+  </script>
+</body>
+</html>

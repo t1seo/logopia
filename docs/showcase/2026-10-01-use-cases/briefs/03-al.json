@@ -1,0 +1,29 @@
+{
+  "brand_name": "AL Atelier",
+  "exact_text": "AL",
+  "industry": "A fictional architecture and spatial design atelier",
+  "audience": "Small businesses commissioning thoughtful interiors",
+  "logo_type": "monogram",
+  "background": "opaque",
+  "concept_count": 1,
+  "palette": [
+    "Deep indigo #34305B mark",
+    "Pale lilac #EEEAF8 background"
+  ],
+  "styles": [
+    "Flat deliberate shape and color relationships",
+    "No beige paper or cinematic presentation"
+  ],
+  "use_cases": [
+    "Monogram"
+  ],
+  "forbidden": [
+    "Extra slogans",
+    "Watermarks",
+    "Mockup photographs"
+  ],
+  "assumptions": [
+    "Fictional brand made for a capability sample; not a customer project",
+    "Palette HEX values are design intentions, not measured output compliance"
+  ]
+}

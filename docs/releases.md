@@ -4,6 +4,8 @@ Logopia uses `MAJOR.MINOR.PATCH` versions and Git tags named `vMAJOR.MINOR.PATCH
 
 The latest release is **[0.8.0](https://github.com/t1seo/logopia/releases/tag/v0.8.0)**. It adds a guided [native Hermes workflow](hermes.md), with distinct directions, actual image critiques, preserved revisions and checked PNG delivery. See the [release notes](qa/hermes-workflow/release-notes.md) and [real OFFCUT example](hermes-demo/README.md).
 
+The current source version is **0.10.0, unreleased**. It adds a bounded native-host [logo development loop](../skills/logo-land/references/quality-loop.md), informed by primary-source identity-design research and an audit of earlier output failures. The 0.9.0 brand-strategy changes are retained as an earlier unpublished draft. Neither source version changes the latest published release or relabels historical samples as new results. See the [changelog](../CHANGELOG.md).
+
 The existing Codex workflow and sixteen white-background showcase originals remain available. The earlier [0.7.0 lettering refresh](qa/lettering-refresh/release-notes.md) retains its [verification record](qa/lettering-refresh/verification.md).
 
 The earlier 0.4.0 native color experiments remain [historical failed validation](qa/color-workflow/README.md); their draft and evidence are not republished or reclassified as passing. Strict palette exports still require measured conformance, and generated spelling, alpha and colors need inspection. This release does not guarantee exact raster colors, editable fonts, vectors or platform-ready icon layers.
@@ -34,7 +36,7 @@ Before creating a tag or release, check whether the intended version already exi
 
 ## Local plugin installations
 
-Personal development installations may use a version such as `0.8.0+codex.<timestamp>` to refresh the Codex cache. Apply the official cachebuster helper to the personal plugin source and reinstall it from its existing marketplace. Keep the repository manifest, `pyproject.toml` and `uv.lock` at the clean release version `0.8.0`; create a release tag only through an authorized publication workflow. The cachebuster is not a separate public release. Existing installations can retain an older payload until refreshed, so record source and installed-cache versions/hashes separately rather than inferring one from the other.
+Personal development installations may use a version such as `0.10.0+codex.<timestamp>` to refresh the Codex cache. Apply the official cachebuster helper to the personal plugin source and reinstall it from its existing marketplace. Keep the repository manifest, `pyproject.toml` and `uv.lock` at the clean source version `0.10.0`; create a release tag only through an authorized publication workflow. The cachebuster is not a separate public release. Existing installations can retain an older payload until refreshed, so record source and installed-cache versions/hashes separately rather than inferring one from the other.
 
 Open a new Codex conversation after reinstalling so the updated plugin is discovered. The [installation record](qa/installation.md) distinguishes release versions from local cache versions.
 

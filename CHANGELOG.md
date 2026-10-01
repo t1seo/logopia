@@ -2,6 +2,22 @@
 
 Logopia's Codex plugin, Hermes plugin and local helper share one release version. Tagged releases and their notes are available on [GitHub Releases](https://github.com/t1seo/logopia/releases). See the [release guide](docs/releases.md) for versioning and publication steps.
 
+## 0.10.0 — Unreleased
+
+Research-led logo development with a bounded native-host critique loop.
+
+- Ground the designer's working persona in [primary-source logo research](docs/research/logo-design-foundations-2026-10-01.md) and [iteration practice](docs/research/logo-iteration-practice-2026-10-01.md): brand research, distinct ideas, independent artifact critique and focused craft refinement. Preserve the [failure audit](docs/research/logo-quality-failure-audit-2026-10-01.md) instead of treating earlier candidates as successful designs.
+- Add a separate quality-loop record with a fixed brief, source evidence, settled decisions, direction hypotheses and a finite native-call budget. Delegated quality mode defaults to six calls and accepts at most twelve; explicitly requested quick exploration remains in the fast path. A requested count or README showcase does not override an active quality-improvement task.
+- Reserve each request before dispatch, bind its exact native prompt and edit parent to the returned artifact, and charge failed or unknown outcomes without automatic resubmission. The host still makes the actual image calls.
+- Turn observations about the real original into a next action: refine a viable parent, reframe the idea, reject a candidate, present a reviewable result or stop when the budget is exhausted. Preserve fixed typography and symbol-only scope rather than generating new lettering by default.
+- Keep creative critique separate from user approval, saved selection, mechanical PNG checks and export gates. An exhausted loop can retain no suitable candidate; the harness does not establish aesthetic quality or guarantee brand adoption.
+- Document the [loop contract and commands](skills/logo-land/references/quality-loop.md). Existing Hermes exploration remains available; its adapter does not automatically execute the new native-host loop. Output remains raster PNG, with no new SVG provider or font-file generation.
+
+- Preserve [six colored use-case experiments](docs/showcase/2026-10-01-use-cases/README.md), all rejected by the user for design quality, with actual native originals, exact prompts, two background-correction histories and an offline gallery. Both READMEs mark them as rejected experiments; they do not demonstrate improved design quality. The September collection remains historical.
+- Require comparison with the earlier result at matching intended sizes when improvement is requested. Preserve user rejection separately from technical QA, including in README examples. Record the [focused Pebble follow-up](docs/showcase/2026-10-01-pebble-study/README.md) without treating a style change as proof of better design.
+
+This source version has not been tagged or published. The latest published release remains 0.8.0.
+
 ## 0.9.0 — Unreleased
 
 Product logo direction, color relationships and typography.
@@ -13,7 +29,7 @@ Product logo direction, color relationships and typography.
 - Document the optional Recraft remote MCP boundary without adding credentials, paid calls or SVG export claims. Native delivery remains PNG.
 - Preserve earlier samples and their findings. The [quality research](docs/research/brand-output-quality-2026-10-01.md) records the sources; the [six-image comparison](docs/qa/brand-output-quality-2026-10-01/README.md) preserves every before/after original and separates technical checks from limited visual observations.
 
-This source version has not been tagged or published. The latest published release remains 0.8.0.
+This draft was not tagged or published separately. Its changes remain in the 0.10.0 source update; the latest published release remains 0.8.0.
 
 ## 0.8.0 — 2026-09-15
 

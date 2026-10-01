@@ -1,0 +1,16 @@
+{
+  "provider": "image_gen.imagegen",
+  "model": null,
+  "generated_at": "2026-10-01T12:01:48.434768+00:00",
+  "returned_filename": "exec-34c505ec-e254-4db3-9780-a4fa9b893533.png",
+  "copied_without_image_edits": true,
+  "image": "images/02-sai.png",
+  "sha256": "715d2a8814cfce5daadf09e4d2d36a9f307908d062bfe947241dea830c3c2c95",
+  "dimensions": [
+    1774,
+    887
+  ],
+  "mode": "RGBA",
+  "prompt": "prompts/02-sai.txt",
+  "prompt_sha256": "d82a5e0c7334edcb11b63f843f55f522ba6726de3b7f25bc4c8ca2236fc83fe3"
+}

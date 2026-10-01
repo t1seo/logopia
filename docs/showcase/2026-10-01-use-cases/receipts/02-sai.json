@@ -1,0 +1,21 @@
+{
+  "provider": "image_gen.imagegen",
+  "model": null,
+  "generated_at": "2026-10-01T12:05:33.837580+00:00",
+  "returned_filename": "exec-224c459f-ee2f-4933-a564-c260eca50b98.png",
+  "copied_without_image_edits": true,
+  "image": "images/02-sai.png",
+  "sha256": "0714d8265f3eacd907f3ddbeda754f67a02cc17d629840958a7d0817d24e9b25",
+  "dimensions": [
+    1774,
+    887
+  ],
+  "mode": "RGB",
+  "alpha_extrema": [
+    255,
+    255
+  ],
+  "prompt": "prompts/02-sai.txt",
+  "prompt_sha256": "56c2d45bbeb4618e77515f86992327618423b40f2119b99c9424ec4bbb225d3a",
+  "parent_original": "revisions/02-sai-v1.png"
+}

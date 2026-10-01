@@ -1,0 +1,21 @@
+{
+  "provider": "image_gen.imagegen",
+  "model": null,
+  "generated_at": "2026-10-01T12:06:47.000734+00:00",
+  "returned_filename": "exec-6ab43332-99c6-448a-9377-a50b31ca2cad.png",
+  "copied_without_image_edits": true,
+  "image": "images/04-tandem.png",
+  "sha256": "4f70e091b65a321f217f6e136f0e86bdf47781b3c99724a01113cfe3c24dbc0f",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "alpha_extrema": [
+    255,
+    255
+  ],
+  "prompt": "prompts/04-tandem.txt",
+  "prompt_sha256": "b3190b0bd1e2a7c06989c252e413622ee76a09ce839ced1f3f9448cff927e41a",
+  "parent_original": "revisions/04-tandem-v1.png"
+}
