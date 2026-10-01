@@ -1,0 +1,873 @@
+{
+  "schema_version": 2,
+  "id": "baseline-moa",
+  "revision": 5,
+  "created_at": "2026-10-01T10:04:47.139471Z",
+  "updated_at": "2026-10-01T10:07:50.925933Z",
+  "brief": {
+    "brand_name": "모아",
+    "exact_text": "모아",
+    "industry": "Personal journaling and reading app",
+    "audience": "Korean-speaking adults aged 20–40 who want a sustainable reading and journaling habit",
+    "slogan": "",
+    "logo_type": "wordmark",
+    "styles": [
+      "rounded",
+      "calm",
+      "custom Hangul lettering",
+      "flat"
+    ],
+    "palette": [
+      "#9B473C",
+      "#FFFFFF"
+    ],
+    "forbidden": [
+      "separate book icon",
+      "character mascot",
+      "extra lettering",
+      "childish or toy-like treatment"
+    ],
+    "use_cases": [
+      "96px-wide app and website header wordmark",
+      "service landing page"
+    ],
+    "assumptions": [
+      "Fictional matched comparison brief; one concept requested; assistant chooses colors within the stated background request"
+    ],
+    "lockup": null,
+    "background": "opaque",
+    "concept_count": 1
+  },
+  "artifacts": [
+    {
+      "id": "a-v1",
+      "path": "artifacts/a-v1.png",
+      "sha256": "41db9b8b9bffb3d4a0dc2c0cf7877bef117cbd314e1498a2daef52c87fd2de5f",
+      "image": {
+        "format": "PNG",
+        "width": 1774,
+        "height": 887,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1573538
+      },
+      "prompt": "Create one wordmark logo for 모아. Exact text (copy verbatim, no other words): '모아'. Exact slogan: ''.\nRender only the supplied exact text and nonempty slogan; the brand context is not additional lettering. Empty strings request no corresponding text.\nIndustry: Personal journaling and reading app. Audience: Korean-speaking adults aged 20–40 who want a sustainable reading and journaling habit.\nStyles: rounded, calm, custom Hangul lettering, flat. Original brief palette context: #9B473C, #FFFFFF.\nAvoid: separate book icon, character mascot, extra lettering, childish or toy-like treatment. Use cases: 96px-wide app and website header wordmark, service landing page.\nBackground: opaque. Produce a real PNG raster image. Use clean, readable shapes at small sizes; leave safe margins. Do not draw a transparency checkerboard, mockup, watermarks, or a concept grid.\nConcept direction: An adult personal-reading and journaling app collects thoughts quietly: the exact Hangul 모아 is the entire logo, using substantial rounded strokes, composed horizontal rhythm and open, softly squared counters. Relate the rounded corners of ㅁ to the curve of ㅇ while preserving the different consonants and the intact ㅗ and ㅏ vowel structures. Keep two syllable blocks clearly separate, without bounce, a face, book icon or a childish bubble effect. Use muted editorial red #9B473C for all lettering, with no decorative accent. Flat lettering on opaque #FFFFFF across the entire exterior canvas, including corners and margins, with no cream tint, paper texture, gradient, vignette or exterior shadow. At 96px wordmark width, retain the counter openings and the distinct 모 / 아 spacing. Risk to inspect: excessive rounding may make Hangul look toy-like or close the counters.. Assumptions: Fictional matched comparison brief; one concept requested; assistant chooses colors within the stated background request.\nLogo construction: Make a lettering-only wordmark: the supplied exact text itself is the identity. Do not add a separate icon, mascot, badge or decorative symbol. Build original letterforms from the requested styles and concept: choose a coherent width, weight, slant, curve and terminal family, then make the identifying counter shape, spacing rhythm or readable ligature deliberate. Do not merely place ordinary typeset text beside a motif. Keep every letter recognizable; a ligature must not hide, replace or invent characters. Optical kerning may balance gaps but must preserve the supplied word spaces and reading order. For requested sculpted lettering, keep volume within the letter bodies and counters open; depth and extra tones must obey the palette and gradient policy. For requested athletic lettering, use a coherent forward slant, strong strokes and purposeful cuts without adding speed symbols. Apply these treatments only when requested by the styles or concept, not as mandatory embellishments. Use style references for broad construction traits, not their brand words or traced signature shapes. The identity should remain recognizable in a one-color silhouette at the intended use size. This construction check does not replace the requested palette or request an extra monochrome image.\nEffective structured palette intent (authoritative over historical palette): {\"swatches\":[{\"hex\":\"#9B473C\",\"role\":\"complete Hangul wordmark\"},{\"hex\":\"#FFFFFF\",\"role\":\"explicitly requested opaque white exterior canvas\"}],\"constraints\":{\"locked_hex\":[],\"allowed_hex\":null,\"max_colors\":null,\"required_hex\":[],\"allow_gradients\":false},\"source\":\"assistant\",\"source_evidence\":{\"reference_id\":null,\"reference_sha256\":null,\"provider\":null,\"tool\":null,\"response\":null,\"notes\":[\"Uses the existing Editorial craft primary suggestion for a reading/journaling product. The optional accent and paper surface are omitted because they have no role in this white-background wordmark. These are proposed values, not sampled colors.\"]},\"selected_by\":\"assistant\",\"rationale\":\"Muted red adds adult warmth to a calm rounded wordmark; a single foreground color avoids unnecessary decoration.\",\"calculation_version\":\"logo-color-v1\",\"id\":\"advisory-v1\",\"parent_palette_id\":null,\"digest\":\"f8a4dee76f32588177551567fcd0c79f7790ff5beb22e64216a2f468445bb496\"}. Keep locked and required HEX values exactly in intent; use the declared roles and allowed colors/count. Opaque backgrounds count as visible design colors; transparent pixels do not. No gradients unless allowed. Raster fidelity is measured after generation, never promised as exact pixels.\nLettering fidelity: preserve every Unicode character, capitalization, punctuation, space and reading order in the applicable text. Keep Hangul syllable blocks intact; do not translate, romanize, abbreviate or substitute lookalike glyphs. Shape changes must keep required text readable, including counters and joins at the intended size.\n",
+      "parent_id": null,
+      "created_at": "2026-10-01T10:07:15.743995Z",
+      "requested_background": "opaque",
+      "palette_id": "advisory-v1",
+      "lockup": null,
+      "review": null,
+      "reviewed_at": null
+    }
+  ],
+  "selected_id": null,
+  "failures": [],
+  "exports": [],
+  "palettes": [
+    {
+      "swatches": [
+        {
+          "hex": "#9B473C",
+          "role": "complete Hangul wordmark"
+        },
+        {
+          "hex": "#FFFFFF",
+          "role": "explicitly requested opaque white exterior canvas"
+        }
+      ],
+      "constraints": {
+        "locked_hex": [],
+        "allowed_hex": null,
+        "max_colors": null,
+        "required_hex": [],
+        "allow_gradients": false
+      },
+      "source": "assistant",
+      "source_evidence": {
+        "reference_id": null,
+        "reference_sha256": null,
+        "provider": null,
+        "tool": null,
+        "response": null,
+        "notes": [
+          "Uses the existing Editorial craft primary suggestion for a reading/journaling product. The optional accent and paper surface are omitted because they have no role in this white-background wordmark. These are proposed values, not sampled colors."
+        ]
+      },
+      "selected_by": "assistant",
+      "rationale": "Muted red adds adult warmth to a calm rounded wordmark; a single foreground color avoids unnecessary decoration.",
+      "calculation_version": "logo-color-v1",
+      "id": "advisory-v1",
+      "parent_palette_id": null,
+      "digest": "f8a4dee76f32588177551567fcd0c79f7790ff5beb22e64216a2f468445bb496"
+    }
+  ],
+  "active_palette_id": "advisory-v1",
+  "references": [],
+  "color_reports": [
+    {
+      "id": "report-2a133a8eeb094c1c90a6d25d124082d4",
+      "artifact_id": "a-v1",
+      "artifact_sha256": "41db9b8b9bffb3d4a0dc2c0cf7877bef117cbd314e1498a2daef52c87fd2de5f",
+      "palette_id": "advisory-v1",
+      "palette_digest": "f8a4dee76f32588177551567fcd0c79f7790ff5beb22e64216a2f468445bb496",
+      "analysis_policy": "logo-color-v1",
+      "color_engine_version": "8.12.1",
+      "pillow_version": "12.3.0",
+      "profile_treatment": "assumed_srgb",
+      "sampling": {
+        "width": 1774,
+        "height": 887,
+        "roi": null,
+        "scope": "full_image",
+        "coordinate_policy": "grid_128_pixel_centers",
+        "sampled_positions": 16384,
+        "sampled_fraction": 0.010412204853012764,
+        "visible_samples": 16384,
+        "core_samples": 16384,
+        "partial_alpha_samples": 0
+      },
+      "status": "pass",
+      "reasons": [],
+      "measured_swatches": [
+        {
+          "hex": "#FEFEFE",
+          "samples": 7183,
+          "share": 0.43841552734375
+        },
+        {
+          "hex": "#FEFDFD",
+          "samples": 3142,
+          "share": 0.1917724609375
+        },
+        {
+          "hex": "#A95C50",
+          "samples": 2342,
+          "share": 0.1429443359375
+        },
+        {
+          "hex": "#FFFFFF",
+          "samples": 1766,
+          "share": 0.1077880859375
+        },
+        {
+          "hex": "#FFFEFE",
+          "samples": 1502,
+          "share": 0.0916748046875
+        },
+        {
+          "hex": "#FDFEFD",
+          "samples": 269,
+          "share": 0.01641845703125
+        },
+        {
+          "hex": "#FEFEFF",
+          "samples": 113,
+          "share": 0.00689697265625
+        },
+        {
+          "hex": "#FEFEFD",
+          "samples": 67,
+          "share": 0.00408935546875
+        }
+      ],
+      "targets": [
+        {
+          "hex": "#9B473C",
+          "matching_samples": 2308,
+          "share": 0.140869140625,
+          "mean_delta_e": 1.551081409691023,
+          "max_delta_e": 4.651314354956186
+        },
+        {
+          "hex": "#FFFFFF",
+          "matching_samples": 14001,
+          "share": 0.85455322265625,
+          "mean_delta_e": 0.3479756557137151,
+          "max_delta_e": 4.545327637996403
+        }
+      ],
+      "matched_fraction": 0.99542236328125,
+      "unmatched_fraction": 0.00457763671875,
+      "observed_colors": 2,
+      "minor_swatches": [],
+      "contrasts": [
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.008546618925115,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#171717",
+          "ratio": 17.775916270617873,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#171717",
+          "ratio": 17.927840253027597,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFD",
+          "surface": "#FFFFFF",
+          "ratio": 1.0171949045327753,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFD",
+          "surface": "#171717",
+          "ratio": 17.624783778544717,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0067170671479306,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFE",
+          "surface": "#171717",
+          "ratio": 17.80822123520552,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.006097430915604,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFF",
+          "surface": "#171717",
+          "ratio": 17.8191889792545,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0147165323467515,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFE",
+          "surface": "#171717",
+          "ratio": 17.667831045943036,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFD",
+          "surface": "#FFFFFF",
+          "ratio": 1.0153435482995168,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFD",
+          "surface": "#171717",
+          "ratio": 17.656920441414037,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#9F493B",
+          "surface": "#FFFFFF",
+          "ratio": 6.016194791552516,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#9F493B",
+          "surface": "#171717",
+          "ratio": 2.9799301508987894,
+          "alpha": 1.0
+        }
+      ],
+      "delta_e_threshold": 5.0,
+      "created_at": "2026-10-01T10:07:15.867144Z"
+    },
+    {
+      "id": "report-769c69226cea4c19aacc256b523665ff",
+      "artifact_id": "a-v1",
+      "artifact_sha256": "41db9b8b9bffb3d4a0dc2c0cf7877bef117cbd314e1498a2daef52c87fd2de5f",
+      "palette_id": "advisory-v1",
+      "palette_digest": "f8a4dee76f32588177551567fcd0c79f7790ff5beb22e64216a2f468445bb496",
+      "analysis_policy": "logo-color-v1",
+      "color_engine_version": "8.12.1",
+      "pillow_version": "12.3.0",
+      "profile_treatment": "assumed_srgb",
+      "sampling": {
+        "width": 1774,
+        "height": 887,
+        "roi": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        "scope": "roi",
+        "coordinate_policy": "all_pixels",
+        "sampled_positions": 256,
+        "sampled_fraction": 1.0,
+        "visible_samples": 256,
+        "core_samples": 256,
+        "partial_alpha_samples": 0
+      },
+      "status": "pass",
+      "reasons": [],
+      "measured_swatches": [
+        {
+          "hex": "#FEFEFE",
+          "samples": 126,
+          "share": 0.4921875
+        },
+        {
+          "hex": "#FDFDFE",
+          "samples": 44,
+          "share": 0.171875
+        },
+        {
+          "hex": "#FEFEFF",
+          "samples": 32,
+          "share": 0.125
+        },
+        {
+          "hex": "#FFFEFF",
+          "samples": 21,
+          "share": 0.08203125
+        },
+        {
+          "hex": "#FEFDFE",
+          "samples": 13,
+          "share": 0.05078125
+        },
+        {
+          "hex": "#FFFFFF",
+          "samples": 13,
+          "share": 0.05078125
+        },
+        {
+          "hex": "#FDFEFE",
+          "samples": 4,
+          "share": 0.015625
+        },
+        {
+          "hex": "#FEFEFD",
+          "samples": 3,
+          "share": 0.01171875
+        }
+      ],
+      "targets": [
+        {
+          "hex": "#9B473C",
+          "matching_samples": 0,
+          "share": 0.0,
+          "mean_delta_e": null,
+          "max_delta_e": null
+        },
+        {
+          "hex": "#FFFFFF",
+          "matching_samples": 256,
+          "share": 1.0,
+          "mean_delta_e": 0.4140152584347358,
+          "max_delta_e": 1.243062263199578
+        }
+      ],
+      "matched_fraction": 1.0,
+      "unmatched_fraction": 0.0,
+      "observed_colors": 1,
+      "minor_swatches": [],
+      "contrasts": [
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.008546618925115,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#171717",
+          "ratio": 17.775916270617873,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0079247291568614,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFF",
+          "surface": "#171717",
+          "ratio": 17.786884014666857,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.016565600628364,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFE",
+          "surface": "#171717",
+          "ratio": 17.635694383073716,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.006097430915604,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFF",
+          "surface": "#171717",
+          "ratio": 17.8191889792545,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFD",
+          "surface": "#FFFFFF",
+          "ratio": 1.0171949045327753,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFD",
+          "surface": "#171717",
+          "ratio": 17.624783778544717,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0147165323467515,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFE",
+          "surface": "#171717",
+          "ratio": 17.667831045943036,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#171717",
+          "ratio": 17.927840253027597,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0159337853175494,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFF",
+          "surface": "#171717",
+          "ratio": 17.646662127122696,
+          "alpha": 1.0
+        }
+      ],
+      "delta_e_threshold": 5.0,
+      "created_at": "2026-10-01T10:07:49.841445Z"
+    },
+    {
+      "id": "report-2357a19888f541fe9f057f941c086bce",
+      "artifact_id": "a-v1",
+      "artifact_sha256": "41db9b8b9bffb3d4a0dc2c0cf7877bef117cbd314e1498a2daef52c87fd2de5f",
+      "palette_id": "advisory-v1",
+      "palette_digest": "f8a4dee76f32588177551567fcd0c79f7790ff5beb22e64216a2f468445bb496",
+      "analysis_policy": "logo-color-v1",
+      "color_engine_version": "8.12.1",
+      "pillow_version": "12.3.0",
+      "profile_treatment": "assumed_srgb",
+      "sampling": {
+        "width": 1774,
+        "height": 887,
+        "roi": {
+          "x": 1758,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        "scope": "roi",
+        "coordinate_policy": "all_pixels",
+        "sampled_positions": 256,
+        "sampled_fraction": 1.0,
+        "visible_samples": 256,
+        "core_samples": 256,
+        "partial_alpha_samples": 0
+      },
+      "status": "pass",
+      "reasons": [],
+      "measured_swatches": [
+        {
+          "hex": "#FEFEFE",
+          "samples": 91,
+          "share": 0.35546875
+        },
+        {
+          "hex": "#FFFFFF",
+          "samples": 42,
+          "share": 0.1640625
+        },
+        {
+          "hex": "#FEFEFF",
+          "samples": 37,
+          "share": 0.14453125
+        },
+        {
+          "hex": "#FFFEFF",
+          "samples": 34,
+          "share": 0.1328125
+        },
+        {
+          "hex": "#FEFFFF",
+          "samples": 23,
+          "share": 0.08984375
+        },
+        {
+          "hex": "#FDFDFE",
+          "samples": 14,
+          "share": 0.0546875
+        },
+        {
+          "hex": "#FFFFFE",
+          "samples": 8,
+          "share": 0.03125
+        },
+        {
+          "hex": "#FDFEFE",
+          "samples": 7,
+          "share": 0.02734375
+        }
+      ],
+      "targets": [
+        {
+          "hex": "#9B473C",
+          "matching_samples": 0,
+          "share": 0.0,
+          "mean_delta_e": null,
+          "max_delta_e": null
+        },
+        {
+          "hex": "#FFFFFF",
+          "matching_samples": 256,
+          "share": 1.0,
+          "mean_delta_e": 0.36163884413041253,
+          "max_delta_e": 0.8506789873283536
+        }
+      ],
+      "matched_fraction": 1.0,
+      "unmatched_fraction": 0.0,
+      "observed_colors": 1,
+      "minor_swatches": [],
+      "contrasts": [
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.008546618925115,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#171717",
+          "ratio": 17.775916270617873,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#171717",
+          "ratio": 17.927840253027597,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0079247291568614,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFF",
+          "surface": "#171717",
+          "ratio": 17.786884014666857,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.006097430915604,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFF",
+          "surface": "#171717",
+          "ratio": 17.8191889792545,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.001805196886651,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFF",
+          "surface": "#171717",
+          "ratio": 17.895535288439955,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0067170671479306,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFE",
+          "surface": "#171717",
+          "ratio": 17.80822123520552,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.000612146123353,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFE",
+          "surface": "#171717",
+          "ratio": 17.916872508978617,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0024195557722724,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFE",
+          "surface": "#171717",
+          "ratio": 17.884567544390972,
+          "alpha": 1.0
+        }
+      ],
+      "delta_e_threshold": 5.0,
+      "created_at": "2026-10-01T10:07:50.418675Z"
+    },
+    {
+      "id": "report-70c5155bfcf549f4b34a179a63a1d910",
+      "artifact_id": "a-v1",
+      "artifact_sha256": "41db9b8b9bffb3d4a0dc2c0cf7877bef117cbd314e1498a2daef52c87fd2de5f",
+      "palette_id": "advisory-v1",
+      "palette_digest": "f8a4dee76f32588177551567fcd0c79f7790ff5beb22e64216a2f468445bb496",
+      "analysis_policy": "logo-color-v1",
+      "color_engine_version": "8.12.1",
+      "pillow_version": "12.3.0",
+      "profile_treatment": "assumed_srgb",
+      "sampling": {
+        "width": 1774,
+        "height": 887,
+        "roi": {
+          "x": 0,
+          "y": 871,
+          "width": 16,
+          "height": 16
+        },
+        "scope": "roi",
+        "coordinate_policy": "all_pixels",
+        "sampled_positions": 256,
+        "sampled_fraction": 1.0,
+        "visible_samples": 256,
+        "core_samples": 256,
+        "partial_alpha_samples": 0
+      },
+      "status": "pass",
+      "reasons": [],
+      "measured_swatches": [
+        {
+          "hex": "#FEFEFE",
+          "samples": 162,
+          "share": 0.6328125
+        },
+        {
+          "hex": "#FDFDFD",
+          "samples": 41,
+          "share": 0.16015625
+        },
+        {
+          "hex": "#FFFFFF",
+          "samples": 24,
+          "share": 0.09375
+        },
+        {
+          "hex": "#FEFEFF",
+          "samples": 12,
+          "share": 0.046875
+        },
+        {
+          "hex": "#FEFDFE",
+          "samples": 9,
+          "share": 0.03515625
+        },
+        {
+          "hex": "#FDFEFE",
+          "samples": 4,
+          "share": 0.015625
+        },
+        {
+          "hex": "#FFFEFE",
+          "samples": 3,
+          "share": 0.01171875
+        },
+        {
+          "hex": "#FEFEFD",
+          "samples": 1,
+          "share": 0.00390625
+        }
+      ],
+      "targets": [
+        {
+          "hex": "#9B473C",
+          "matching_samples": 0,
+          "share": 0.0,
+          "mean_delta_e": null,
+          "max_delta_e": null
+        },
+        {
+          "hex": "#FFFFFF",
+          "matching_samples": 256,
+          "share": 1.0,
+          "mean_delta_e": 0.28304108309630266,
+          "max_delta_e": 1.0787611062645324
+        }
+      ],
+      "matched_fraction": 1.0,
+      "unmatched_fraction": 0.0,
+      "observed_colors": 1,
+      "minor_swatches": [],
+      "contrasts": [
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.008546618925115,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#171717",
+          "ratio": 17.775916270617873,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFD",
+          "surface": "#FFFFFF",
+          "ratio": 1.0171949045327753,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFD",
+          "surface": "#171717",
+          "ratio": 17.624783778544717,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#171717",
+          "ratio": 17.927840253027597,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.016565600628364,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFE",
+          "surface": "#171717",
+          "ratio": 17.635694383073716,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0079247291568614,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFF",
+          "surface": "#171717",
+          "ratio": 17.786884014666857,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0147165323467515,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFE",
+          "surface": "#171717",
+          "ratio": 17.667831045943036,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFD",
+          "surface": "#FFFFFF",
+          "ratio": 1.0153435482995168,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFD",
+          "surface": "#171717",
+          "ratio": 17.656920441414037,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0067170671479306,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFE",
+          "surface": "#171717",
+          "ratio": 17.80822123520552,
+          "alpha": 1.0
+        }
+      ],
+      "delta_e_threshold": 5.0,
+      "created_at": "2026-10-01T10:07:50.925606Z"
+    }
+  ]
+}

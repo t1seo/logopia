@@ -1,0 +1,108 @@
+Logopia helper contract verification, 2026-10-01
+
+Scope
+This records the helper worker's completed checks. It is a verification summary,
+not a verbatim terminal transcript. Repository root:
+/Users/cillian/Documents/Github/Projects/logopia
+
+Implemented source contracts
+- skills/logo-land/scripts/logo_helper/brand_strategy.py: frozen, strict optional
+  BrandStrategy with positioning, audience_need, brand_promise,
+  distinctive_principle, typography, color_roles and assumptions. Saved values are
+  preserved; prompt context uses up to 320 characters per main field and the
+  first three assumptions, up to 160 characters each, after trimming whitespace.
+- skills/logo-land/scripts/logo_helper/brief_models.py: Brief.brand_strategy is
+  optional and omitted from serialized JSON when absent. Existing schema-1
+  parsing is unchanged; existing schema-1/schema-2 read operations preserve the
+  session file bytes.
+- skills/logo-land/scripts/logo_helper/prompts.py: supporting strategy is sent
+  only for fresh brand generation. Exact text, slogan, requested styles/concept,
+  explicit lockup and effective palette constraints take precedence. Parent edits
+  and app-icon routing receive no fresh brand strategy or rendering defaults.
+  Palette generation context contains swatches and constraints, excluding IDs,
+  digest, source evidence, raw provider response, rationale and calculation
+  metadata; those values remain in the stored palette and PromptResult binding.
+- skills/logo-land/scripts/logo_helper/logo_prompts.py: fresh brand output
+  defaults to flat product artwork. Explicit treatments remain allowed. Opaque
+  canvas instructions prefer a requested canvas or declared background role.
+  White fallback is included only when allowed_hex permits it and max_colors
+  can accommodate the selected swatches plus white. Advisory foreground color
+  alone does not force a colored canvas. Transparent output receives no white
+  fallback. Wordmarks receive no unsolicited sculpted/athletic guidance.
+
+Behavioral tests and their timing
+1. Initial strategy tests failed as expected before implementation: six failures
+   and two passes, caused by the absent optional model field. After implementing
+   the model and routing, all eight then-current tests passed.
+2. Initial brand quality tests failed as expected before implementation: five
+   failures and one pass, covering canvas defaults, unrequested styles, metadata
+   filtering and explicit-request precedence.
+3. The advisory foreground/white regression test failed in three of six cases
+   before the canvas correction. All six passed after the correction. Cases
+   cover unrestricted colors, locked foreground, allowed white, forbidden white
+   and color-count limits.
+4. Latest focused run, after the canvas correction:
+   uv run pytest tests/test_brand_quality.py tests/test_brand_strategy.py tests/test_lettering_prompts.py -q
+   Result: 41 passed in 5.40s.
+5. Expanded regression run:
+   uv run pytest tests/test_brand_strategy.py tests/test_brand_quality.py tests/test_lettering_prompts.py tests/test_palette_compatibility.py tests/test_lockup_continuity.py tests/test_app_icon_prompts.py tests/test_background_compatibility.py -q
+   Result: 73 passed in 40.99s.
+   Timing limitation: this expanded run preceded the final advisory-canvas
+   correction; the subsequent focused 41-test run verifies that correction and
+   its affected strategy/lettering paths. It is not described as a second final
+   full regression run.
+
+Checks on the final helper-worker changes
+The following seven files were checked together:
+  skills/logo-land/scripts/logo_helper/brand_strategy.py
+  skills/logo-land/scripts/logo_helper/brief_models.py
+  skills/logo-land/scripts/logo_helper/prompts.py
+  skills/logo-land/scripts/logo_helper/logo_prompts.py
+  tests/test_brand_strategy.py
+  tests/test_brand_quality.py
+  tests/test_lettering_prompts.py
+
+uv run ruff check <seven paths>: All checks passed.
+uv run ruff format --check <seven paths>: 7 files already formatted.
+uv run basedpyright <seven paths>: 0 errors, 0 warnings, 0 notes.
+Programming skill check-no-excuse-rules.py <seven paths>: no violations in 7 files.
+git diff --check on the tracked changed helper/test files: exit 0, no output.
+No tests were deleted. The previous whole-palette-JSON assertion was changed to
+parsed equality of all rendering swatches and constraints, with additional
+source-metadata exclusion coverage. Existing Unicode lettering, parent lineage,
+effective lockup and app-icon routing tests remain active.
+
+Direct CLI exercise outside pytest
+Workspace: /tmp/logopia-helper-quality-20261001.P0y7v9
+CLI: uv run skills/logo-land/scripts/logo_project.py --workspace <workspace>
+Session: brand-check
+
+Commands completed successfully:
+  init --session brand-check --brief <workspace>/brief.json
+  prompt --session brand-check --concept '접힌 페이지 한 번의 선과 열린 여백'
+  import --session brand-check --artifact v1 --image docs/qa/app-icons/core-fixtures/synthetic-baseline.png --prompt-file <workspace>/prompt.txt --revision 0
+  prompt --session brand-check --parent v1 --changes '로고와 글자 사이 여백만 조금 더 넓게'
+
+Local receipts checked to exist during consolidation:
+  /tmp/logopia-helper-quality-20261001.P0y7v9/brief.json
+  /tmp/logopia-helper-quality-20261001.P0y7v9/init.json
+  /tmp/logopia-helper-quality-20261001.P0y7v9/generation.json
+  /tmp/logopia-helper-quality-20261001.P0y7v9/prompt.txt
+  /tmp/logopia-helper-quality-20261001.P0y7v9/import.json
+  /tmp/logopia-helper-quality-20261001.P0y7v9/edit.json
+
+Observed results:
+- Generation mode included supporting strategy and the white fallback.
+- Parent edit mode had parent_id=v1, no supporting strategy and no white fallback.
+- Imported session revision was 1 with one artifact.
+- Exact text remained '책갈피  Nook', including its two spaces.
+- Saved distinctive_principle remained '열린 접힘 하나로 여백과 기억을 표현하기'.
+- The generation prompt contained 2,826 Unicode characters.
+
+Evidence limits
+The imported image was an existing synthetic fixture, not a newly generated
+logo. These checks prove CLI workflow behavior and contract preservation; they
+do not prove aesthetic quality, exact generated lettering, pixel color fidelity,
+font licensing or vector output. The /tmp receipts are local, ephemeral evidence.
+Image-generation comparisons and consolidated repository-wide QA are recorded
+separately by the coordinating worker in this QA directory.

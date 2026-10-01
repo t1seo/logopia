@@ -5,7 +5,47 @@ from __future__ import annotations
 from typing import TYPE_CHECKING, assert_never
 
 if TYPE_CHECKING:
-    from logo_helper.model_base import LogoType
+    from logo_helper.color_models import PaletteVersion
+    from logo_helper.model_base import Background, LogoType
+
+
+def logo_rendering(background: Background, palette: PaletteVersion | None) -> str:
+    """Fresh-logo defaults yield to requested styles, canvas and color constraints."""
+    surface = (
+        "Brand rendering: flat, front-facing product artwork by default; one clear idea, "
+        "deliberate negative space and balanced optical weight. No paper texture, beige tint, "
+        "presentation lighting, shadows or cinematic effects unless explicitly requested. "
+        "Requested styles/concept override these surface defaults; depth and extra tones "
+        "must obey the palette and gradient policy. "
+    )
+    match background:
+        case "transparent":
+            return surface + "Keep the canvas genuinely transparent with no simulated backdrop."
+        case "opaque":
+            white_allowed = palette is None or (
+                (
+                    palette.constraints.allowed_hex is None
+                    or "#FFFFFF" in palette.constraints.allowed_hex
+                )
+                and (
+                    palette.constraints.max_colors is None
+                    or len({swatch.hex for swatch in palette.swatches} | {"#FFFFFF"})
+                    <= palette.constraints.max_colors
+                )
+            )
+            if not white_allowed:
+                return surface + (
+                    "Use the requested canvas or declared background role within the effective "
+                    "color constraints; otherwise choose a permitted solid canvas. Do not add "
+                    "a new neutral: opaque backgrounds count toward allowed colors/max_colors."
+                )
+            return surface + (
+                "Use the explicitly requested solid canvas or declared background role first; "
+                "otherwise plain white #FFFFFF. User canvas and color/count requirements take "
+                "precedence over this white fallback."
+            )
+        case _:
+            assert_never(background)
 
 
 def logo_construction(logo_type: LogoType) -> str:  # noqa: PLR0911 - One branch per existing type.
@@ -20,12 +60,7 @@ def logo_construction(logo_type: LogoType) -> str:  # noqa: PLR0911 - One branch
                 "shape, spacing rhythm or readable ligature deliberate. Do not merely place "
                 "ordinary typeset text beside a motif. Keep every letter recognizable; a "
                 "ligature must not hide, replace or invent characters. Optical kerning may "
-                "balance gaps but must preserve the supplied word spaces and reading order. "
-                "For requested sculpted lettering, keep volume within the letter bodies and "
-                "counters open; depth and extra tones must obey the palette and gradient policy. "
-                "For requested athletic lettering, use a coherent forward slant, strong strokes "
-                "and purposeful cuts without adding speed symbols. Apply these treatments only "
-                "when requested by the styles or concept, not as mandatory embellishments."
+                "balance gaps but must preserve the supplied word spaces and reading order."
             )
         case "lettermark":
             return (

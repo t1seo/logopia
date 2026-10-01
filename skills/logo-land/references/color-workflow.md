@@ -47,26 +47,56 @@ Extract from the supplied reference, retain the exact anchor, and choose one com
 
 Count visible design colors in the declared full image or ROI, including opaque backgrounds and intentional white/black artwork. An opaque ivory surface consumes a slot in a two-color logo; do not quietly add white as a third color. Transparent exterior and CSS backgrounds are excluded. Do not count every antialiased RGB value as an additional design color, or claim automatic foreground segmentation.
 
-## Suggest a coherent direction
+## Compose the palette for the brief
 
-Ordinary proposals prefer about three colors without imposing a strict three-color rule. Reduce that suggestion to fit the user's limits. Assign a role and short rationale to each retained swatch; omit decorative colors with no purpose. Local monochromatic, analogous and complementary proposals use OKLCH calculations, preserve locked sRGB values, and gamut-map generated companions only. An achromatic anchor uses documented companion hues 45°, 145° and 250°. Determinism applies to the same structured local inputs and calculation version, not to conversation or native image pixels.
+Choose colors from the specific brand intention, existing assets and requested use;
+do not map a category to a fixed palette. First decide what carries identity, what
+must remain readable and which surface is actually part of the image. An accent is
+optional. The logo may use fewer colors than the surrounding product interface.
 
-The following are original, ordinary sRGB starting suggestions. Their names describe a possible brief, not universal industry rules, measured reference colors, Pantone equivalents, or guaranteed contrast results.
+| Relationship | Concrete decision for the final prompt and review |
+|---|---|
+| Primary and text | Which shape or lettering carries the main color; whether the name needs a darker or lighter companion. |
+| Lightness | Separate touching forms, important counters and text from their actual surroundings. Different hues can still merge visually. |
+| Chroma | Decide which area leads and which supports it; equal saturation everywhere can create competition. Vivid multicolor work remains valid when requested. |
+| Area and accent | Specify broad fill, supporting region or small detail rather than imposing a universal percentage recipe. |
+| Exterior surface | Use the supplied background, transparency or declared background role. Otherwise an ordinary brand master uses white when the allowed set/count permit it, or a permitted solid color. No automatic cream, sand or paper finish. |
 
-| Direction | Primary | Lettering | Accent or requested opaque surface | Why try it |
-|---|---|---|---|---|
-| Warm bakery | `#A84432` | `#3A2620` | `#F4E3C1` | Terracotta, dark brown and cream can support a handmade brief. |
-| Quiet technology | `#2357A5` | `#142238` | `#C1DCE3` | Blue, dark ink and pale cyan can separate a precise symbol from its name. |
-| Botanical | `#247A52` | `#193B2B` | `#EADFC5` | Green, deep green and sand can keep an organic mark restrained. |
-| Playful studio | `#6B3FA0` | `#28213D` | `#FFC857` | Violet, ink and yellow can emphasize one expressive detail. |
-| Editorial craft | `#9B473C` | `#2C2927` | `#EDE4D5` | Muted red, charcoal and paper can support a typographic treatment. |
-| Black and ivory | `#000000` | `#000000` | `#F4EBDD` | Two distinct colors can support either a badge or a reversed treatment. |
+Assign HEX, placement and a short reason to every retained swatch. Roles can share a
+color; combine their descriptions instead of duplicating swatches. Omit colors with
+no use. There is no default 60/30/10 ratio, fixed two/three-color target, compulsory
+complement or universal desaturation rule. User locks/count limits always prevail;
+white is not silently added outside a restricted set. Transparent exterior is not a
+swatch, and a separate CSS demonstration surface is not a design color in the PNG.
 
-The shared black roles in the last row are one color, not duplicate swatches. For transparent work, use a listed pale tone only when it belongs to visible artwork; otherwise omit it. For a locked green request, never substitute one of these palettes wholesale.
+### Local harmony is a starting calculation
+
+`local_harmony` receives structured color inputs, not the brand brief. Its
+monochromatic, analogous and complementary candidates calculate relationships in
+OKLCH, preserve locked sRGB, and gamut-map generated companions only. An achromatic
+anchor uses documented companion hues 45°, 145° and 250°. These are deterministic
+mathematical proposals, not evidence of brand fit, attractive color or suitable role
+placement. A seed alone cannot decide whether a color belongs on text or a background.
+
+Inspect and revise a proposal before generation. If its mechanically produced tones
+or roles do not suit the brief, write a `source: "assistant"` palette with truthful
+rationale and notes; do not describe your revisions as untouched local calculations.
+Keep every explicit lock. The [hand-authored example](project-files.md#four-entry-points-and-combined-restrictions)
+shows the accepted `PaletteContent` shape. Record placement/visual emphasis in each
+swatch's `role`; keep the selection reason in `rationale`. The helper transmits swatches,
+roles and constraints, while source/evidence, IDs, digests and rationale remain saved
+metadata. Do not rely on rationale alone for an instruction the image tool needs.
+No new area-percentage field is needed.
+
+For example, if the main symbol is bright but the name must read in a compact header,
+an assistant palette can place the brighter tone only in the symbol and give the name
+a deeper companion. That relationship, exact chosen HEX and the actual exterior
+surface must reach the native prompt. The example is not a standing rule that every
+brand needs a colored symbol, dark name or neutral background.
 
 ## Bind each generation and edit
 
-Save the selected palette as an immutable version with constraints, source evidence, selection authority and rationale. Build a prompt using its effective ID/digest and save the returned session revision. Include exact HEX, role placement, forbidden extra colors/gradients where constrained, exact text and requested background. After the native call, import the exact returned PNG using the same revision and intent. If the session changed, resolve `stale_revision` and rebuild the binding; do not attach the result to a different palette silently.
+Save the selected palette as an immutable version with constraints, source evidence, selection authority and rationale. Build a prompt using its effective ID/digest and save the returned session revision. Include exact HEX, role placement, intended emphasis, forbidden extra colors/gradients where constrained, exact text and requested background. A `brand_strategy.color_roles` description supports these decisions but cannot override the actual palette or add colors. After the native call, import the exact returned PNG using the same revision and intent. If the session changed, resolve `stale_revision` and rebuild the binding; do not attach the result to a different palette silently.
 
 For an edit, precedence is explicit palette → selected parent's palette → unknown structured intent for a legacy parent. New generations use the explicit or active palette. The original brief and the current active palette cannot reset a revised parent's colors. Geometry-only changes inherit; changing colors creates a new palette version with its real parent. Keep all old versions and artifacts.
 

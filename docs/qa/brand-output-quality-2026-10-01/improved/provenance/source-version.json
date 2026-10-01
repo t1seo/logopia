@@ -1,0 +1,305 @@
+{
+  "captured_at_utc": "2026-10-01T10:12:45Z",
+  "git_head": "4d102c260ec1b65e086ab5f5699cee4ffcbdad01",
+  "working_tree_modified": true,
+  "git_status": " M pyproject.toml\n M skills/logo-land/SKILL.md\n M skills/logo-land/agents/openai.yaml\n M skills/logo-land/references/color-workflow.md\n M skills/logo-land/references/delivery-checks.md\n M skills/logo-land/references/logo-craft.md\n M skills/logo-land/references/project-files.md\n M skills/logo-land/references/typography.md\n M skills/logo-land/scripts/logo_helper/brief_models.py\n M skills/logo-land/scripts/logo_helper/logo_prompts.py\n M skills/logo-land/scripts/logo_helper/prompts.py\n M uv.lock\n?? skills/logo-land/assets/brand-building-skills.LICENSE\n?? skills/logo-land/assets/taste-brandkit.LICENSE\n?? skills/logo-land/references/brand-strategy.md\n?? skills/logo-land/references/vector-provider.md\n?? skills/logo-land/scripts/logo_helper/brand_strategy.py\n",
+  "source_files": [
+    {
+      "path": "pyproject.toml",
+      "sha256": "fda64d28b792711dae4d5f9f22ea30adbedbd2fec5f6a4189d7a2fcdf344fa48"
+    },
+    {
+      "path": "skills/logo-land/SKILL.md",
+      "sha256": "497339adccae24a0be9202ebc5a7f595ccc47bbc2b430b100c903d7fcedf0983"
+    },
+    {
+      "path": "skills/logo-land/assets/brief.example.json",
+      "sha256": "2841dbbba9e3d94759c1a1b5ccc2885b8a94a87e7ede81f0786d0b7d31155342"
+    },
+    {
+      "path": "skills/logo-land/references/brand-strategy.md",
+      "sha256": "48f53376fb363a7ae8585b9ad91f51dcc68fafb7c4423abd748794ef39b38712"
+    },
+    {
+      "path": "skills/logo-land/references/color-workflow.md",
+      "sha256": "fd4848d270cfdf3f98f3215d86b2a00305f18f1a437ccf000d5cfb790885acd1"
+    },
+    {
+      "path": "skills/logo-land/references/lettering.md",
+      "sha256": "74dbe4240a94d8f7b4153334134c150380e6cbc66cb473c1b7eeb813031368fb"
+    },
+    {
+      "path": "skills/logo-land/references/logo-craft.md",
+      "sha256": "b5eb2da237d1eb7b7e99f270c34fce3d9f1c1d4ea4ff81a16f27e0fc4687d1f3"
+    },
+    {
+      "path": "skills/logo-land/references/project-files.md",
+      "sha256": "e868dcb3c04b00d4e8c39f1865546e5eb62fa039133aae5f116200f25caceb49"
+    },
+    {
+      "path": "skills/logo-land/references/typography.md",
+      "sha256": "13ca1176b3182a3b37df0247809cf9dfe4c8f6e1bcaafeb10d44f57fc86633b9"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/__init__.py",
+      "sha256": "23c8d2ce225a99efe9832a41c20b46d139f5b31049dd641a04e13ff83b84f4d0"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/app_icon_cli.py",
+      "sha256": "e09075977adfd8c0b98202242ab3759fb1145227df987aeaac33c31896d35ada"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/app_icon_gallery.py",
+      "sha256": "4e6ab629b84c8d6b055a8ddbe20ff8117b0e65498e92be3d406237c4983f30f1"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/app_icon_guide.py",
+      "sha256": "735ebf64b75b548e6cb8bd49197a5caa1b665b4f24f85bd4eb083f0366ddd6fa"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/app_icon_models.py",
+      "sha256": "e814abcf90ed7ef80edd126bbe38c9b49d783d659f7a42e4cde4107cc29acddd"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/app_icon_presets.py",
+      "sha256": "ad0fb16d5cd5ea7a79e8a2e206e0e75d0136d3c350e006536a2a219f7b5c6994"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/app_icon_prompts.py",
+      "sha256": "ab984a613ffbe80882fa30799807e36927d1f757eae6322c1f6630a7780a30bf"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/app_icon_publish.py",
+      "sha256": "fb4dea5c484a4c617e898626d324a1aed5335e7b853299f45827d15d8a652ae5"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/artifact_models.py",
+      "sha256": "f35d32f2da234e92dd5144d48eb62fbddfac3039dd079b4d0a5d35eccd3231f0"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/asset_checks.py",
+      "sha256": "c070892049adeaa250c2d9a67500a2091199444c2db2e730ad02226d15b8f861"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/asset_cli.py",
+      "sha256": "00845d2a02d42fc645fca94b6e5df54236804cd5b7a7571a0389ea6250b65461"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/asset_geometry.py",
+      "sha256": "78182cca6a1dba097e788f3dd13dbdb9ce013e2e81223d9eefe85399850b3e9b"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/asset_models.py",
+      "sha256": "0310a1258eaebb815ead983606b7b3d9885cc2578cfb401493fda033d514a3a0"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/asset_policy.py",
+      "sha256": "0e6bc21df5e2a270ab1864d169ed0df878b5a7e99e198ee4b6aaddd49e44119b"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/asset_prompts.py",
+      "sha256": "48b1c68e2754c828231c56762bae6cb7ba471f74583cd5d860c3c691f952919d"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/brand_strategy.py",
+      "sha256": "96b966dba8c7fea61e4e8724138c74460688dfc55f0e211543d2b577323fabdf"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/brief_models.py",
+      "sha256": "195922d2d10bfa82dd0fd1bc2931c7522154f69a974199bd276db0c41adf4944"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/cli_options.py",
+      "sha256": "e3f697458b482079c27b446cbb56aef4c6cf38ce3cd49ca94f1600ab76f4c8d3"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/color_analysis.py",
+      "sha256": "cfcef1c51c0f7a4067b7e9317df5b6f4acdb5312036e37516c9aab16f2d0ba30"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/color_cli.py",
+      "sha256": "d731f309d0dc877eb9f0ec71bf733c2461cda8757f9f15ac38fe7d0d7b9e3809"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/color_delivery.py",
+      "sha256": "7e7f0a4745def5b15ad08699dc57b113eca97eeeaa9b2aefaba35ef138d98f55"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/color_gallery.py",
+      "sha256": "05076788df31137f3ca6576a58346533130f2dd710779e35eb9311370ae6b56d"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/color_gallery_cards.py",
+      "sha256": "253ba8f0a439a4bb8129d2cb43463d5897df2d42cc9528ee627f8c709d669a53"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/color_gallery_data.py",
+      "sha256": "81dbf0876dc5cdc6e21493e80098489f54bc8e39dcb13bd3e61a38c5b998a030"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/color_guide.py",
+      "sha256": "34cdb38dddc6b398376fe5b492eef1799052b0b82a47bb48f3f4b801ea6f424a"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/color_math.py",
+      "sha256": "aa677d064632e48a9d108ba5d0b818c57f589ba1bcb61406261d8502cdc86288"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/color_models.py",
+      "sha256": "d3b4093611e2aa2d095c6c4f9027e65c794ef8b836c89d4a24c554f4a720f547"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/color_profiles.py",
+      "sha256": "055a299c1bd6738add1b44ad8977ffb48b9a3310bb9387665daa6efe04ca34df"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/color_reports.py",
+      "sha256": "95cf4f2605c8ca248a489d4e53fafee9f18b663d6effd38f3b5e5d080dd5596d"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/color_sampling.py",
+      "sha256": "71946e9eda8b329b5cafffc0163161abd2b17ddab3c92184bc5d4ba99ad94330"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/color_workflow.py",
+      "sha256": "7ef6e5c33c7f56d2320a643f5cd99428555b9eb4fa24fe65857b96147379cc42"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/comparison_cards.py",
+      "sha256": "8f4e45b7296fb60c13e73130fbacdbf52fe8ccb483346b89043c29d11c497af8"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/comparison_cli.py",
+      "sha256": "fa8a22ccb2dd1702fb4e81c32fb1faaea7e465bca97390beed48a64b6fc0b592"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/comparison_gallery.py",
+      "sha256": "17a81c7eb7488f500babe27eb653948ea88ca1c46467cfb81d3e55db141e2879"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/comparison_models.py",
+      "sha256": "016c802eef0f06c0bdc9040427b53d480799a3f150f336b346396a3167ef1336"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/conditioning.py",
+      "sha256": "f42cce43d91a320f47b0072ba14adae39e82affc6944d10a458c22fe5ccbdd2b"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/conditioning_models.py",
+      "sha256": "caf74d1ffc70608b25f35dd232811c7cd28cfc37bb4ec71ccab32de228c1c724"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/delivery.py",
+      "sha256": "06b8177d76e3b49d06ba725b23e0f1259dada87fcc5b00f87dc3f3c6cc0a8238"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/export_bundle.py",
+      "sha256": "33de44fb7677569d65c7b883c6d5b098c998e19bd9f731a6138ee9c09a1de612"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/images.py",
+      "sha256": "bd3d03ce8ab8fc7c6767da8fe8269e688ee63f16e14f04bf21d0e9d631a15f0a"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/import_reports.py",
+      "sha256": "69ffb9f6a9dbe5ac149fb9113f36ff63067cbad244c8c3a48af919e30223691c"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/intent.py",
+      "sha256": "9a8ece8285703df5fb00585ecc33990089378f84bd2aaadae31448fd7501d271"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/legacy_state.py",
+      "sha256": "09119091b50d9a4b8d9e4782636a8cddbd93b0d0fd197c774c129d2bc8ac3c5d"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/lockup_models.py",
+      "sha256": "0c0fb574ca59d4e6bb72ef26df4dcc36e013e354901840f4bf7cb30291c035cc"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/logo_prompts.py",
+      "sha256": "2db87c5b9fddd4b33fa4f539bf1e997b0f9eaea717d64861442363175b4e3738"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/model_base.py",
+      "sha256": "0051b0fc239944f0143da201848f98d8c414c9d2d520f5de4f4718c88756c49e"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/models.py",
+      "sha256": "dc28d55027542510328ebdf80a820ed3456e6f6cfbd00cae102395026a0079ca"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/palette_proposals.py",
+      "sha256": "6968ca4356be8197ffdd68500ea2f53c72dff935c743e57305bb7ae4e10aca4b"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/palettes.py",
+      "sha256": "6c60dffcca290bd390e1259600cdd91e190589995af6c42152ba42f719d77e08"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/preference_cards.py",
+      "sha256": "e2e9374432eff0fa52e4d1f8625a2d6259117e18d711131c20197b5d531f9a86"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/preference_cli.py",
+      "sha256": "c439e7f02bacf2608bde78d963ad5620a4b7dfb59230dacbb86898818b89b06e"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/preference_gallery.py",
+      "sha256": "3cc53b5a9c8095237ae26bea352698e32205e1397b8bc96dcc572109cfc5cbd0"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/preference_models.py",
+      "sha256": "2fa3d994a8ed238faa4f3e4b63a4b7d53e89d8b4db3da06577ba808ae3f46ead"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/preference_records.py",
+      "sha256": "546dbf74212f904e1087c2e5008c72ca849ada3fcbbc7cefffc5fe6352391787"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/preference_response.py",
+      "sha256": "26d7f08ed4466e1241bee97cc67af20c8537d04214b22e585d0f9ecf693637ab"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/prompts.py",
+      "sha256": "e2c80b5c923faaf8ddd3599e671dce3fb1830214e8cf0fc334e687efad67f0ce"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/reference_decode.py",
+      "sha256": "b55055f40a5fee8a01943acd082bfe8b7a521b61bb1773f36a208f5e5f9c453f"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/reference_evidence.py",
+      "sha256": "ab80fa6b9a19f77b525566c9f4b8129720dee403daea9994155e0888e2d0d1f4"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/reference_models.py",
+      "sha256": "87da637a01602f5dd0655ff6e8bfefae9ca2c609513dcbfe43a9f5e07553064e"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/references.py",
+      "sha256": "a02f6d9bf3775820bc4d394d539186c64da7ce96cb00a359e34e266acec4d3b7"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/session_models.py",
+      "sha256": "3d5917431dd8c8f7f43c2acc91dd845682b0d8483e1de835ba5794eda3dcdaea"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/storage.py",
+      "sha256": "e0a9bd8c18458beeda1a0ad9479afbec68ac6c4690b42f795dc3cdbd813b42a6"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_helper/workflow.py",
+      "sha256": "966482b460949125f6072c3e042ee574ec27364c6ead29d5647ae0db95e2dcff"
+    },
+    {
+      "path": "skills/logo-land/scripts/logo_project.py",
+      "sha256": "2206f740ab98912ca35d86dc74d1d5f9716962b94e9b8fd98c3a23c038da8ac4"
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "2a86e1e8276e09561399cdc2274d3decb676b6ae2cb3af048b28b56ee0f48942"
+    }
+  ],
+  "source_scope": "Current skill, six references, example, full helper Python tree, project and lockfile; content hashes distinguish the uncommitted stable implementation from HEAD."
+}

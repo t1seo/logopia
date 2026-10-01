@@ -1,0 +1,24 @@
+.........F.............................................................. [  6%]
+........................................................................ [ 13%]
+........................................................................ [ 19%]
+........................................................................ [ 26%]
+........................................................................ [ 32%]
+........................................................................ [ 39%]
+........................................................................ [ 46%]
+........................................................................ [ 52%]
+........................................................................ [ 59%]
+........................................................................ [ 65%]
+........................................................................ [ 72%]
+........................................................................ [ 79%]
+........................................................................ [ 85%]
+........................................................................ [ 92%]
+........................................................................ [ 98%]
+.............                                                            [100%]
+=================================== FAILURES ===================================
+______ test_latest_edit_feedback_is_current_when_parent_contains_strategy ______
+tests/hermes/test_brand_quality.py:100: in test_latest_edit_feedback_is_current_when_parent_contains_strategy
+    assert f'<parent-request authority="historical">{parent}</parent-request>' in prompt
+E   assert '<parent-request authority="historical">Create one original PNG. Original logo artwork; no staged mockup or collage. D...ble Latin gaps","color_roles":"Teal form on white"}</brand-strategy-data>\n</brand-generation-advice></parent-request>' in 'Edit the attached exact parent original. Keep exact text \'틈 Space\', colors, background and keep features. Current f...ettering","Teal symbol","White canvas"],"change":"Increase the gap between the symbol and lettering."}</feedback-data>'
+=========================== short test summary info ============================
+FAILED tests/hermes/test_brand_quality.py::test_latest_edit_feedback_is_current_when_parent_contains_strategy
+1 failed, 1092 passed in 389.72s (0:06:29)

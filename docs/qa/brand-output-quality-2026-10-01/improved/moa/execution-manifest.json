@@ -1,0 +1,43 @@
+{
+  "brand_id": "moa",
+  "status": "ready_for_parent_native_generation",
+  "input_source": "moa/input.json",
+  "input_sha256": "fdd9e2f45d9f02c3a9387da2ecf0a1487e14ade4b59ec6f1468671129896988b",
+  "raw_user_request": "모아는 읽은 책에서 마음에 남은 문장과 일상의 짧은 기록을 모아 다시 보는 개인 기록·독서 앱입니다. 독서와 기록을 꾸준히 하고 싶은 한국어 사용자 20~40대가 대상입니다. 정확히 ‘모아’ 두 글자만으로 된 한글 워드마크 하나를 만들어 주세요. 둥글고 친근하며 차분했으면 좋겠고, 유아용 앱처럼 귀엽거나 장난감 같지는 않았으면 합니다. 별도 책 아이콘이나 캐릭터는 넣지 말아 주세요. 앱과 웹의 96px 폭 헤더, 서비스 소개 페이지에 쓰겠습니다. 브랜드에 맞는 색을 골라 주시고, 배경은 순백색으로 해 주세요.",
+  "raw_user_request_text_sha256": "e6973f67b78fec70d62d6eacca84b1953ce504c812b9e9869dc4aea970f42d1f",
+  "shared_direction": "A rounded yet composed Hangul wordmark whose generous inner spaces and related terminal curves communicate collecting thoughts without childish decoration.",
+  "brief_sha256": "90d263f986db5684809d8e25a6946b5ad0298978fcc439b39cc77336a6432ade",
+  "design_sha256": "fab0c50263c74aefae50a5bed8448cea9d1040c22f0a8a061f04fffe1f03e353",
+  "palette_file_sha256": "42d653d4349077bb5277e754020da0b91501a184f7c38ec37d251848dcca6b3f",
+  "exact_final_prompt_file": "moa/prompt.txt",
+  "exact_final_prompt_sha256": "f1011b6a4b94012fbd6329575367b5658aab7d285c2d0b25cdcf03ab22f703e9",
+  "final_prompt_matches_helper_verbatim": true,
+  "source_version_file": "provenance/source-version.json",
+  "source_version_sha256": "c633e5716efe117544c10a129f3d1bb13ad54a7245e0f3c33801203ceddbbcbc",
+  "helper_workspace": "/tmp/logopia-improved-20261001.B2s8rF",
+  "helper_session_id": "improved-moa",
+  "helper_prompt_revision": 1,
+  "effective_palette_id": "moa-palette-v1",
+  "effective_palette_digest": "9785d5116c45681f5ef8508e0f731c397a54f3e3fa5a28395dc681ffd782e504",
+  "effective_lockup": null,
+  "one_pass": {
+    "candidate_count_for_this_brand": 1,
+    "max_candidates_across_all_three_brands": 3,
+    "planned_native_calls_for_this_brand": 1,
+    "actual_native_calls_by_this_agent": 0,
+    "rerolls_allowed": 0,
+    "actual_rerolls": 0,
+    "native_generation_owner": "parent",
+    "native_generation_status": "not_started_by_this_agent",
+    "output_artifacts": []
+  },
+  "review": {
+    "fixed_input_fields_preserved": true,
+    "background_request_preserved": true,
+    "foreground_palette_selected_by": "assistant",
+    "locked_foreground_colors": [],
+    "image_quality_observed": false,
+    "user_approved": false,
+    "superiority_claim": false
+  }
+}

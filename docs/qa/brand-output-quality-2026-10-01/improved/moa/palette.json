@@ -1,0 +1,30 @@
+{
+  "swatches": [
+    {
+      "hex": "#614A68",
+      "role": "all exact Hangul lettering; one quiet plum fill keeps both syllables equally legible"
+    },
+    {
+      "hex": "#FFFFFF",
+      "role": "opaque pure-white exterior canvas in every corner and margin, and the open Hangul counters"
+    }
+  ],
+  "constraints": {
+    "locked_hex": [],
+    "allowed_hex": null,
+    "max_colors": null,
+    "required_hex": [
+      "#FFFFFF"
+    ],
+    "allow_gradients": false
+  },
+  "source": "assistant",
+  "source_evidence": {
+    "notes": [
+      "Assistant-selected foreground under the user's palette delegation; not extracted from a reference or verified in a generated image.",
+      "Pure-white background is explicitly required; no named font or font binary is selected."
+    ]
+  },
+  "selected_by": "assistant",
+  "rationale": "A dark, quiet plum makes the reading-note identity feel personal while supporting compact letter interiors on white. One continuous lettering color lets the Hangul construction carry the distinction without playful syllable coloring."
+}

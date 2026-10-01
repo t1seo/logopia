@@ -1,0 +1,707 @@
+{
+  "schema_version": 2,
+  "id": "baseline-tide",
+  "revision": 4,
+  "created_at": "2026-10-01T10:04:30.073985Z",
+  "updated_at": "2026-10-01T10:07:48.126036Z",
+  "brief": {
+    "brand_name": "TIDE",
+    "exact_text": "",
+    "industry": "Team scheduling and shift coordination SaaS",
+    "audience": "Operations coordinators and teammates in teams of 5–30 people",
+    "slogan": "",
+    "logo_type": "abstract",
+    "styles": [
+      "calm",
+      "geometric",
+      "flat"
+    ],
+    "palette": [
+      "#2357A5",
+      "#C1DCE3",
+      "#FFFFFF"
+    ],
+    "forbidden": [
+      "lettering or initials",
+      "literal waves",
+      "clock",
+      "calendar",
+      "infinity sign"
+    ],
+    "use_cases": [
+      "32px web-app sidebar symbol",
+      "service landing page"
+    ],
+    "assumptions": [
+      "Fictional matched comparison brief; one concept requested; assistant chooses colors within the stated background request"
+    ],
+    "lockup": null,
+    "background": "opaque",
+    "concept_count": 1
+  },
+  "artifacts": [
+    {
+      "id": "a-v1",
+      "path": "artifacts/a-v1.png",
+      "sha256": "16a1a7bc9ed286463d4771d051fee0b81994734fa3ac92b9b2e5f85beefac9bb",
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "prompt": "Create one abstract logo for TIDE. Exact text (copy verbatim, no other words): ''. Exact slogan: ''.\nRender only the supplied exact text and nonempty slogan; the brand context is not additional lettering. Empty strings request no corresponding text.\nIndustry: Team scheduling and shift coordination SaaS. Audience: Operations coordinators and teammates in teams of 5–30 people.\nStyles: calm, geometric, flat. Original brief palette context: #2357A5, #C1DCE3, #FFFFFF.\nAvoid: lettering or initials, literal waves, clock, calendar, infinity sign. Use cases: 32px web-app sidebar symbol, service landing page.\nBackground: opaque. Produce a real PNG raster image. Use clean, readable shapes at small sizes; leave safe margins. Do not draw a transparency checkerboard, mockup, watermarks, or a concept grid.\nConcept direction: A team scheduling service makes handoffs feel coordinated: two substantial offset forms meet through a single clear interval, with consistent curve weight and an open central gap. Keep the asymmetry of the handoff readable at 32px without resembling waves, a clock, a calendar, an infinity sign or a letter. Use quiet-technology blue #2357A5 for the dominant form and pale cyan #C1DCE3 for a smaller supporting form; the blue silhouette must carry the idea. Use flat color with no dimensional lighting. Keep generous exterior space on an opaque #FFFFFF canvas, including empty corners and margins, with no cream tint, paper texture, gradient, vignette or exterior shadow. Risk to inspect: the pale supporting form may disappear at 32px or the join may look like a generic chain link.. Assumptions: Fictional matched comparison brief; one concept requested; assistant chooses colors within the stated background request.\nLogo construction: Build a nonliteral abstract mark around the concept's geometric or organic gesture, with coherent weight, deliberate openings and a memorable silhouette. Use style references for broad construction traits, not their brand words or traced signature shapes. The identity should remain recognizable in a one-color silhouette at the intended use size. This construction check does not replace the requested palette or request an extra monochrome image.\nEffective structured palette intent (authoritative over historical palette): {\"swatches\":[{\"hex\":\"#2357A5\",\"role\":\"dominant abstract handoff form\"},{\"hex\":\"#C1DCE3\",\"role\":\"smaller supporting abstract form\"},{\"hex\":\"#FFFFFF\",\"role\":\"explicitly requested opaque white exterior canvas\"}],\"constraints\":{\"locked_hex\":[],\"allowed_hex\":null,\"max_colors\":null,\"required_hex\":[],\"allow_gradients\":false},\"source\":\"assistant\",\"source_evidence\":{\"reference_id\":null,\"reference_sha256\":null,\"provider\":null,\"tool\":null,\"response\":null,\"notes\":[\"Uses the existing Quiet technology primary and pale companion suggestion; omits the lettering color because the user requests no text. White exterior follows the explicit brief. These are proposed values, not sampled colors.\"]},\"selected_by\":\"assistant\",\"rationale\":\"A restrained blue dominant mark with a pale cyan supporting form fits a calm coordination service; role hierarchy is to be visually checked at 32px.\",\"calculation_version\":\"logo-color-v1\",\"id\":\"advisory-v1\",\"parent_palette_id\":null,\"digest\":\"dcbfdc13f7d0c1fd0bb7c4fa97b98a68586dfbb0a7bdff1bbbb23dc6987bab0b\"}. Keep locked and required HEX values exactly in intent; use the declared roles and allowed colors/count. Opaque backgrounds count as visible design colors; transparent pixels do not. No gradients unless allowed. Raster fidelity is measured after generation, never promised as exact pixels.\nLettering fidelity: preserve every Unicode character, capitalization, punctuation, space and reading order in the applicable text. Keep Hangul syllable blocks intact; do not translate, romanize, abbreviate or substitute lookalike glyphs. Shape changes must keep required text readable, including counters and joins at the intended size.\n",
+      "parent_id": null,
+      "created_at": "2026-10-01T10:07:15.161680Z",
+      "requested_background": "opaque",
+      "palette_id": "advisory-v1",
+      "lockup": null,
+      "review": null,
+      "reviewed_at": null
+    }
+  ],
+  "selected_id": null,
+  "failures": [],
+  "exports": [],
+  "palettes": [
+    {
+      "swatches": [
+        {
+          "hex": "#2357A5",
+          "role": "dominant abstract handoff form"
+        },
+        {
+          "hex": "#C1DCE3",
+          "role": "smaller supporting abstract form"
+        },
+        {
+          "hex": "#FFFFFF",
+          "role": "explicitly requested opaque white exterior canvas"
+        }
+      ],
+      "constraints": {
+        "locked_hex": [],
+        "allowed_hex": null,
+        "max_colors": null,
+        "required_hex": [],
+        "allow_gradients": false
+      },
+      "source": "assistant",
+      "source_evidence": {
+        "reference_id": null,
+        "reference_sha256": null,
+        "provider": null,
+        "tool": null,
+        "response": null,
+        "notes": [
+          "Uses the existing Quiet technology primary and pale companion suggestion; omits the lettering color because the user requests no text. White exterior follows the explicit brief. These are proposed values, not sampled colors."
+        ]
+      },
+      "selected_by": "assistant",
+      "rationale": "A restrained blue dominant mark with a pale cyan supporting form fits a calm coordination service; role hierarchy is to be visually checked at 32px.",
+      "calculation_version": "logo-color-v1",
+      "id": "advisory-v1",
+      "parent_palette_id": null,
+      "digest": "dcbfdc13f7d0c1fd0bb7c4fa97b98a68586dfbb0a7bdff1bbbb23dc6987bab0b"
+    }
+  ],
+  "active_palette_id": "advisory-v1",
+  "references": [],
+  "color_reports": [
+    {
+      "id": "report-96e5b94664bb411dbce918d1222c0fed",
+      "artifact_id": "a-v1",
+      "artifact_sha256": "16a1a7bc9ed286463d4771d051fee0b81994734fa3ac92b9b2e5f85beefac9bb",
+      "palette_id": "advisory-v1",
+      "palette_digest": "dcbfdc13f7d0c1fd0bb7c4fa97b98a68586dfbb0a7bdff1bbbb23dc6987bab0b",
+      "analysis_policy": "logo-color-v1",
+      "color_engine_version": "8.12.1",
+      "pillow_version": "12.3.0",
+      "profile_treatment": "assumed_srgb",
+      "sampling": {
+        "width": 1254,
+        "height": 1254,
+        "roi": null,
+        "scope": "full_image",
+        "coordinate_policy": "grid_128_pixel_centers",
+        "sampled_positions": 16384,
+        "sampled_fraction": 0.010418971889634192,
+        "visible_samples": 16384,
+        "core_samples": 16384,
+        "partial_alpha_samples": 0
+      },
+      "status": "pass",
+      "reasons": [],
+      "measured_swatches": [
+        {
+          "hex": "#FEFEFE",
+          "samples": 6454,
+          "share": 0.3939208984375
+        },
+        {
+          "hex": "#2257AA",
+          "samples": 2604,
+          "share": 0.158935546875
+        },
+        {
+          "hex": "#FFFFFF",
+          "samples": 2589,
+          "share": 0.15802001953125
+        },
+        {
+          "hex": "#FFFEFE",
+          "samples": 1825,
+          "share": 0.11138916015625
+        },
+        {
+          "hex": "#E3EFF2",
+          "samples": 1123,
+          "share": 0.06854248046875
+        },
+        {
+          "hex": "#FDFEFE",
+          "samples": 881,
+          "share": 0.05377197265625
+        },
+        {
+          "hex": "#FEFEFD",
+          "samples": 812,
+          "share": 0.049560546875
+        },
+        {
+          "hex": "#FEFEFF",
+          "samples": 96,
+          "share": 0.005859375
+        }
+      ],
+      "targets": [
+        {
+          "hex": "#2357A5",
+          "matching_samples": 2584,
+          "share": 0.15771484375,
+          "mean_delta_e": 0.7088976418252,
+          "max_delta_e": 4.975810952482082
+        },
+        {
+          "hex": "#C1DCE3",
+          "matching_samples": 1093,
+          "share": 0.06671142578125,
+          "mean_delta_e": 1.4767069733720521,
+          "max_delta_e": 4.627587713524598
+        },
+        {
+          "hex": "#FFFFFF",
+          "matching_samples": 12664,
+          "share": 0.77294921875,
+          "mean_delta_e": 0.29785696500149866,
+          "max_delta_e": 4.098954879793375
+        }
+      ],
+      "matched_fraction": 0.99737548828125,
+      "unmatched_fraction": 0.00262451171875,
+      "observed_colors": 3,
+      "minor_swatches": [],
+      "contrasts": [
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.008546618925115,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#171717",
+          "ratio": 17.775916270617873,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#171717",
+          "ratio": 17.927840253027597,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0067170671479306,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFE",
+          "surface": "#171717",
+          "ratio": 17.80822123520552,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFD",
+          "surface": "#FFFFFF",
+          "ratio": 1.0153435482995168,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFDFD",
+          "surface": "#171717",
+          "ratio": 17.656920441414037,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFD",
+          "surface": "#FFFFFF",
+          "ratio": 1.0171949045327753,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFD",
+          "surface": "#171717",
+          "ratio": 17.624783778544717,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#2156AA",
+          "surface": "#FFFFFF",
+          "ratio": 7.056144066317087,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#2156AA",
+          "surface": "#171717",
+          "ratio": 2.54074181090026,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#BAD9E1",
+          "surface": "#FFFFFF",
+          "ratio": 1.4893571007680126,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#BAD9E1",
+          "surface": "#171717",
+          "ratio": 12.037301358943935,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.001805196886651,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFF",
+          "surface": "#171717",
+          "ratio": 17.895535288439955,
+          "alpha": 1.0
+        }
+      ],
+      "delta_e_threshold": 5.0,
+      "created_at": "2026-10-01T10:07:15.450618Z"
+    },
+    {
+      "id": "report-9c110a239ba84511855df65d97178915",
+      "artifact_id": "a-v1",
+      "artifact_sha256": "16a1a7bc9ed286463d4771d051fee0b81994734fa3ac92b9b2e5f85beefac9bb",
+      "palette_id": "advisory-v1",
+      "palette_digest": "dcbfdc13f7d0c1fd0bb7c4fa97b98a68586dfbb0a7bdff1bbbb23dc6987bab0b",
+      "analysis_policy": "logo-color-v1",
+      "color_engine_version": "8.12.1",
+      "pillow_version": "12.3.0",
+      "profile_treatment": "assumed_srgb",
+      "sampling": {
+        "width": 1254,
+        "height": 1254,
+        "roi": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        "scope": "roi",
+        "coordinate_policy": "all_pixels",
+        "sampled_positions": 256,
+        "sampled_fraction": 1.0,
+        "visible_samples": 256,
+        "core_samples": 256,
+        "partial_alpha_samples": 0
+      },
+      "status": "pass",
+      "reasons": [],
+      "measured_swatches": [
+        {
+          "hex": "#FEFEFE",
+          "samples": 128,
+          "share": 0.5
+        },
+        {
+          "hex": "#FFFFFF",
+          "samples": 49,
+          "share": 0.19140625
+        },
+        {
+          "hex": "#FEFFFF",
+          "samples": 24,
+          "share": 0.09375
+        },
+        {
+          "hex": "#FEFEFF",
+          "samples": 18,
+          "share": 0.0703125
+        },
+        {
+          "hex": "#FDFDFD",
+          "samples": 17,
+          "share": 0.06640625
+        },
+        {
+          "hex": "#FFFEFF",
+          "samples": 9,
+          "share": 0.03515625
+        },
+        {
+          "hex": "#FFFFFE",
+          "samples": 6,
+          "share": 0.0234375
+        },
+        {
+          "hex": "#FDFEFE",
+          "samples": 5,
+          "share": 0.01953125
+        }
+      ],
+      "targets": [
+        {
+          "hex": "#2357A5",
+          "matching_samples": 0,
+          "share": 0.0,
+          "mean_delta_e": null,
+          "max_delta_e": null
+        },
+        {
+          "hex": "#C1DCE3",
+          "matching_samples": 0,
+          "share": 0.0,
+          "mean_delta_e": null,
+          "max_delta_e": null
+        },
+        {
+          "hex": "#FFFFFF",
+          "matching_samples": 256,
+          "share": 1.0,
+          "mean_delta_e": 0.27585442919113806,
+          "max_delta_e": 1.0787611062645324
+        }
+      ],
+      "matched_fraction": 1.0,
+      "unmatched_fraction": 0.0,
+      "observed_colors": 1,
+      "minor_swatches": [],
+      "contrasts": [
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.008546618925115,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#171717",
+          "ratio": 17.775916270617873,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#171717",
+          "ratio": 17.927840253027597,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0079247291568614,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFF",
+          "surface": "#171717",
+          "ratio": 17.786884014666857,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.001805196886651,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFF",
+          "surface": "#171717",
+          "ratio": 17.895535288439955,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFD",
+          "surface": "#FFFFFF",
+          "ratio": 1.0171949045327753,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFD",
+          "surface": "#171717",
+          "ratio": 17.624783778544717,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0024195557722724,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFE",
+          "surface": "#171717",
+          "ratio": 17.884567544390972,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.000612146123353,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFE",
+          "surface": "#171717",
+          "ratio": 17.916872508978617,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.016565600628364,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFE",
+          "surface": "#171717",
+          "ratio": 17.635694383073716,
+          "alpha": 1.0
+        }
+      ],
+      "delta_e_threshold": 5.0,
+      "created_at": "2026-10-01T10:07:47.724062Z"
+    },
+    {
+      "id": "report-171e1a032e8842ecaabea5d6e3788b07",
+      "artifact_id": "a-v1",
+      "artifact_sha256": "16a1a7bc9ed286463d4771d051fee0b81994734fa3ac92b9b2e5f85beefac9bb",
+      "palette_id": "advisory-v1",
+      "palette_digest": "dcbfdc13f7d0c1fd0bb7c4fa97b98a68586dfbb0a7bdff1bbbb23dc6987bab0b",
+      "analysis_policy": "logo-color-v1",
+      "color_engine_version": "8.12.1",
+      "pillow_version": "12.3.0",
+      "profile_treatment": "assumed_srgb",
+      "sampling": {
+        "width": 1254,
+        "height": 1254,
+        "roi": {
+          "x": 1238,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        "scope": "roi",
+        "coordinate_policy": "all_pixels",
+        "sampled_positions": 256,
+        "sampled_fraction": 1.0,
+        "visible_samples": 256,
+        "core_samples": 256,
+        "partial_alpha_samples": 0
+      },
+      "status": "pass",
+      "reasons": [],
+      "measured_swatches": [
+        {
+          "hex": "#FEFEFE",
+          "samples": 122,
+          "share": 0.4765625
+        },
+        {
+          "hex": "#FFFFFF",
+          "samples": 53,
+          "share": 0.20703125
+        },
+        {
+          "hex": "#FEFEFF",
+          "samples": 24,
+          "share": 0.09375
+        },
+        {
+          "hex": "#FDFDFE",
+          "samples": 17,
+          "share": 0.06640625
+        },
+        {
+          "hex": "#FFFEFF",
+          "samples": 14,
+          "share": 0.0546875
+        },
+        {
+          "hex": "#FEFFFE",
+          "samples": 12,
+          "share": 0.046875
+        },
+        {
+          "hex": "#FFFFFE",
+          "samples": 11,
+          "share": 0.04296875
+        },
+        {
+          "hex": "#FDFEFE",
+          "samples": 3,
+          "share": 0.01171875
+        }
+      ],
+      "targets": [
+        {
+          "hex": "#2357A5",
+          "matching_samples": 0,
+          "share": 0.0,
+          "mean_delta_e": null,
+          "max_delta_e": null
+        },
+        {
+          "hex": "#C1DCE3",
+          "matching_samples": 0,
+          "share": 0.0,
+          "mean_delta_e": null,
+          "max_delta_e": null
+        },
+        {
+          "hex": "#FFFFFF",
+          "matching_samples": 256,
+          "share": 1.0,
+          "mean_delta_e": 0.28376347663613466,
+          "max_delta_e": 1.0787611062645324
+        }
+      ],
+      "matched_fraction": 1.0,
+      "unmatched_fraction": 0.0,
+      "observed_colors": 1,
+      "minor_swatches": [],
+      "contrasts": [
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.008546618925115,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFE",
+          "surface": "#171717",
+          "ratio": 17.775916270617873,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFF",
+          "surface": "#171717",
+          "ratio": 17.927840253027597,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.0079247291568614,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFEFF",
+          "surface": "#171717",
+          "ratio": 17.786884014666857,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.000612146123353,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFFFE",
+          "surface": "#171717",
+          "ratio": 17.916872508978617,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFF",
+          "surface": "#FFFFFF",
+          "ratio": 1.006097430915604,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FFFEFF",
+          "surface": "#171717",
+          "ratio": 17.8191889792545,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFD",
+          "surface": "#FFFFFF",
+          "ratio": 1.0171949045327753,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFD",
+          "surface": "#171717",
+          "ratio": 17.624783778544717,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.0024195557722724,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FEFFFE",
+          "surface": "#171717",
+          "ratio": 17.884567544390972,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFE",
+          "surface": "#FFFFFF",
+          "ratio": 1.016565600628364,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#FDFDFE",
+          "surface": "#171717",
+          "ratio": 17.635694383073716,
+          "alpha": 1.0
+        }
+      ],
+      "delta_e_threshold": 5.0,
+      "created_at": "2026-10-01T10:07:48.125755Z"
+    }
+  ]
+}

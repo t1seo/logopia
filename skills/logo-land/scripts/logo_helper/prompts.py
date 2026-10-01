@@ -11,7 +11,7 @@ from logo_helper.app_icon_prompts import build_app_icon_prompt
 from logo_helper.asset_policy import icon_import_background
 from logo_helper.conditioning_models import InputPlan, no_input_plan
 from logo_helper.intent import resolve_intent
-from logo_helper.logo_prompts import logo_construction
+from logo_helper.logo_prompts import logo_construction, logo_rendering
 from logo_helper.models import (
     AppIconIntent,
     ArtifactId,
@@ -133,12 +133,21 @@ def build_prompt(  # noqa: PLR0913 - Shared explicit intent options mirror the C
     )
     if parent_id is None:
         direction += (
+            f"\n{logo_rendering(brief.background, intent.palette)}"
             f"\nLogo construction: {logo_construction(logo_type)} "
             "Use style references for broad construction traits, not their brand words or "
             "traced signature shapes. The identity should remain recognizable in a "
             "one-color silhouette at the intended use size. This construction check does not "
             "replace the requested palette or request an extra monochrome image."
         )
+        if brief.brand_strategy is not None:
+            direction += (
+                "\nSupporting brand strategy (proposed context, not verified market facts): "
+                f"{brief.brand_strategy.prompt_context()}\n"
+                "Use this context only where compatible with the supplied exact text, slogan, "
+                "palette constraints, explicit lockup, styles and concept; those requests take "
+                "precedence. Strategy does not authorize new lettering, colors or motifs."
+            )
     parent_path: str | None = None
     parent_background: Background | None = None
     mode: Literal["generation", "edit"] = "generation"
@@ -164,7 +173,8 @@ def build_prompt(  # noqa: PLR0913 - Shared explicit intent options mirror the C
         palette = intent.palette
         direction += (
             "\nEffective structured palette intent (authoritative over historical palette): "
-            f"{palette.model_dump_json()}. Keep locked and required HEX values exactly in intent; "
+            f"{palette.model_dump_json(include={'swatches', 'constraints'})}. "
+            "Keep locked and required HEX values exactly in intent; "
             "use the declared roles and allowed colors/count. Opaque backgrounds count as "
             "visible design colors; transparent pixels do not. No gradients unless allowed. "
             "Raster fidelity is measured after generation, never promised as exact pixels."

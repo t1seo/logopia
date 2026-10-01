@@ -1,0 +1,49 @@
+{
+  "brand_id": "folio",
+  "status": "ready_for_parent_native_generation",
+  "input_source": "folio/input.json",
+  "input_sha256": "d83cc41bd8ae6d876d494dcbe2fd7b483b0614c817cd1de8dc5a988bf49e1b2d",
+  "raw_user_request": "Folio는 오래 쓰기 좋은 노트와 문구를 만드는 독립 브랜드입니다. 종이에 생각을 정리하는 것을 좋아하는 성인 직장인과 창작자를 위한 브랜드이고, 세심하고 편안하지만 과하게 빈티지하거나 고급 호텔 같지는 않았으면 합니다. 작은 심볼과 정확히 ‘Folio’라는 영문 이름을 함께 놓은 가로형 로고 하나를 만들어 주세요. 흔한 노트·펜 클립아트나 기본 글리프 아이콘은 피하고, 종이의 겹침이나 접힘에서 출발한 간결한 형태면 좋겠습니다. 웹 쇼핑몰의 180px 폭 헤더와 노트 포장 라벨에 쓰겠습니다. 색 조합과 불투명 배경색은 브랜드에 맞게 골라 주세요.",
+  "raw_user_request_text_sha256": "4d0362bc5bed99361a8ca79da6d6f2f656df7da606fa445ec8d8a68517e83fda",
+  "shared_direction": "A compact paper-layer or fold gesture beside calm, readable Folio lettering; use an original contour rather than a stock notebook or pen glyph.",
+  "brief_sha256": "164f7bafa32fb3e033654c91aee5596d8807d4b7514e2b2fd9b083e485365410",
+  "design_sha256": "1ed52c68162eb0548f90c227d64050e902b921cc5bac4a9e3daf3f08d7ff1d21",
+  "palette_file_sha256": "e66bbd05089641c91e85cf607c93ab0d0179d1f2b421dc3ebbb33e68bdbdc242",
+  "exact_final_prompt_file": "folio/prompt.txt",
+  "exact_final_prompt_sha256": "895f4d9562166d988a8f3ad6777a09a19775c8d522f1e1902ae1c540632d7fca",
+  "final_prompt_matches_helper_verbatim": true,
+  "source_version_file": "provenance/source-version.json",
+  "source_version_sha256": "c633e5716efe117544c10a129f3d1bb13ad54a7245e0f3c33801203ceddbbcbc",
+  "helper_workspace": "/tmp/logopia-improved-20261001.B2s8rF",
+  "helper_session_id": "improved-folio",
+  "helper_prompt_revision": 1,
+  "effective_palette_id": "folio-palette-v1",
+  "effective_palette_digest": "4d6b759da41a296af586735fbdc791edfa6c528d69e19350e05816942615a8b8",
+  "effective_lockup": {
+    "layout": "horizontal",
+    "symbol_position": "start",
+    "text_alignment": "start",
+    "typography_style": "Medium-weight low-contrast humanist sans appearance; softly resolved terminals, generous o counters, distinct l stem, capital F plus lowercase olio on a steady baseline; balanced Fo, ol, li and io spacing",
+    "font_reference": null
+  },
+  "one_pass": {
+    "candidate_count_for_this_brand": 1,
+    "max_candidates_across_all_three_brands": 3,
+    "planned_native_calls_for_this_brand": 1,
+    "actual_native_calls_by_this_agent": 0,
+    "rerolls_allowed": 0,
+    "actual_rerolls": 0,
+    "native_generation_owner": "parent",
+    "native_generation_status": "not_started_by_this_agent",
+    "output_artifacts": []
+  },
+  "review": {
+    "fixed_input_fields_preserved": true,
+    "background_request_preserved": true,
+    "foreground_palette_selected_by": "assistant",
+    "locked_foreground_colors": [],
+    "image_quality_observed": false,
+    "user_approved": false,
+    "superiority_claim": false
+  }
+}

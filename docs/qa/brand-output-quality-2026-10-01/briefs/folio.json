@@ -1,0 +1,17 @@
+{
+  "id": "folio",
+  "raw_user_request": "Folio는 오래 쓰기 좋은 노트와 문구를 만드는 독립 브랜드입니다. 종이에 생각을 정리하는 것을 좋아하는 성인 직장인과 창작자를 위한 브랜드이고, 세심하고 편안하지만 과하게 빈티지하거나 고급 호텔 같지는 않았으면 합니다. 작은 심볼과 정확히 ‘Folio’라는 영문 이름을 함께 놓은 가로형 로고 하나를 만들어 주세요. 흔한 노트·펜 클립아트나 기본 글리프 아이콘은 피하고, 종이의 겹침이나 접힘에서 출발한 간결한 형태면 좋겠습니다. 웹 쇼핑몰의 180px 폭 헤더와 노트 포장 라벨에 쓰겠습니다. 색 조합과 불투명 배경색은 브랜드에 맞게 골라 주세요.",
+  "industry": "Independent stationery and notebook products",
+  "audience": "Adult professionals and creators who enjoy organizing thoughts on paper",
+  "brand_name": "Folio",
+  "exact_text": "Folio",
+  "logo_type": "combination",
+  "use_cases": ["180px-wide online-shop header lockup", "notebook packaging label"],
+  "shared_direction": "A compact paper-layer or fold gesture beside calm, readable Folio lettering; use an original contour rather than a stock notebook or pen glyph.",
+  "background_request": "opaque; no background color specified",
+  "concept_count": 1,
+  "palette_choice": "Foreground and opaque background delegated to each workflow",
+  "forbidden": ["stock notebook or pen clip art", "basic glyph icon", "extra lettering", "excessively vintage or luxury-hotel styling"],
+  "empty_background_regions": ["upper-left exterior corner", "upper-right exterior corner", "lower-left exterior corner", "lower-right exterior corner"],
+  "use_size_review": {"lockup_width_px": [180, 240, 360]}
+}

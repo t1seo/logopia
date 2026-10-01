@@ -1,6 +1,24 @@
 # Third-party guidance notices
 
-Logo Land's color and IP references adapt portions of upstream guidance. These credits identify the original authors, pinned sources, licenses and changes; they do not imply endorsement. The complete IP guidance MIT notice is included. No upstream executable code, showcase image, font binaries, palette collection or third-party reference archive is vendored by this documentation change.
+Logopia's brand, color and IP references adapt portions of upstream guidance. These credits identify the original authors, pinned sources, licenses and changes; they do not imply endorsement. The complete applicable MIT notices are included. No upstream executable code, showcase image, font binaries, palette collection or third-party reference archive is vendored by this documentation change.
+
+## Brand Building Skills
+
+- Publisher: [arnabbagxd/Brand-building-skills](https://github.com/arnabbagxd/Brand-building-skills). The upstream notice reads exactly `Copyright (c) 2026`; no author name has been added to it.
+- Sources: [brand-context](https://github.com/arnabbagxd/Brand-building-skills/blob/4a0a8b5b7a0f64bf0fc551978a18a591670a5223/skills/brand-context/SKILL.md) and [brand-identity](https://github.com/arnabbagxd/Brand-building-skills/blob/4a0a8b5b7a0f64bf0fc551978a18a591670a5223/skills/brand-identity/SKILL.md), commit `4a0a8b5b7a0f64bf0fc551978a18a591670a5223`.
+- License: [pinned MIT License](https://github.com/arnabbagxd/Brand-building-skills/blob/4a0a8b5b7a0f64bf0fc551978a18a591670a5223/LICENSE), reproduced unchanged at [skills/logo-land/assets/brand-building-skills.LICENSE](skills/logo-land/assets/brand-building-skills.LICENSE).
+- Location: [brand strategy](skills/logo-land/references/brand-strategy.md), [color workflow](skills/logo-land/references/color-workflow.md), [typography](skills/logo-land/references/typography.md), main skill and corresponding Hermes director guidance.
+- Adaptation: reuse supplied context and translate product value/audience into concrete logo, color-role and lettering choices. Logopia adds an optional compact saved strategy, prompt precedence, measured-versus-intended color boundaries and raster/font distinctions. Full strategy questionnaires, compulsory font pairs and fixed companion-color counts are not adopted.
+
+## Taste brandkit
+
+- Author: Leonxlnx. Copyright (c) 2026 Leonxlnx.
+- Source: [brandkit SKILL.md](https://github.com/Leonxlnx/taste-skill/blob/ce26fc25c0e5e8cab638f883de62d9a86ee5e45b/skills/brandkit/SKILL.md), commit `ce26fc25c0e5e8cab638f883de62d9a86ee5e45b`.
+- License: [pinned MIT License](https://github.com/Leonxlnx/taste-skill/blob/ce26fc25c0e5e8cab638f883de62d9a86ee5e45b/LICENSE), reproduced unchanged at [skills/logo-land/assets/taste-brandkit.LICENSE](skills/logo-land/assets/taste-brandkit.LICENSE).
+- Location: [brand strategy applications](skills/logo-land/references/brand-strategy.md#applications-after-the-master), main skill, delivery guidance and corresponding Hermes director guidance.
+- Adaptation: preserve a coherent identity across requested applications and assign intentional palette/type roles. Logopia keeps the real master and accurate text/swatch data separate from generated mockups. Default dark/premium/cinematic direction, fixed grids, material styling and unverified construction diagrams are not adopted. No board-generation engine or editable multi-asset export is implied.
+
+The Hermes skill bundle includes these two notices in its own [THIRD_PARTY_NOTICES.md](integrations/hermes/skills/director/references/THIRD_PARTY_NOTICES.md) so that the attribution accompanies independently installed guidance.
 
 ## IP as Logo
 

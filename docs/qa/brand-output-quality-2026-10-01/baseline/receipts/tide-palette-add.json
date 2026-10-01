@@ -1,0 +1,91 @@
+{
+  "schema_version": 2,
+  "id": "baseline-tide",
+  "revision": 1,
+  "created_at": "2026-10-01T10:04:30.073985Z",
+  "updated_at": "2026-10-01T10:04:47.541447Z",
+  "brief": {
+    "brand_name": "TIDE",
+    "exact_text": "",
+    "industry": "Team scheduling and shift coordination SaaS",
+    "audience": "Operations coordinators and teammates in teams of 5–30 people",
+    "slogan": "",
+    "logo_type": "abstract",
+    "styles": [
+      "calm",
+      "geometric",
+      "flat"
+    ],
+    "palette": [
+      "#2357A5",
+      "#C1DCE3",
+      "#FFFFFF"
+    ],
+    "forbidden": [
+      "lettering or initials",
+      "literal waves",
+      "clock",
+      "calendar",
+      "infinity sign"
+    ],
+    "use_cases": [
+      "32px web-app sidebar symbol",
+      "service landing page"
+    ],
+    "assumptions": [
+      "Fictional matched comparison brief; one concept requested; assistant chooses colors within the stated background request"
+    ],
+    "lockup": null,
+    "background": "opaque",
+    "concept_count": 1
+  },
+  "artifacts": [],
+  "selected_id": null,
+  "failures": [],
+  "exports": [],
+  "palettes": [
+    {
+      "swatches": [
+        {
+          "hex": "#2357A5",
+          "role": "dominant abstract handoff form"
+        },
+        {
+          "hex": "#C1DCE3",
+          "role": "smaller supporting abstract form"
+        },
+        {
+          "hex": "#FFFFFF",
+          "role": "explicitly requested opaque white exterior canvas"
+        }
+      ],
+      "constraints": {
+        "locked_hex": [],
+        "allowed_hex": null,
+        "max_colors": null,
+        "required_hex": [],
+        "allow_gradients": false
+      },
+      "source": "assistant",
+      "source_evidence": {
+        "reference_id": null,
+        "reference_sha256": null,
+        "provider": null,
+        "tool": null,
+        "response": null,
+        "notes": [
+          "Uses the existing Quiet technology primary and pale companion suggestion; omits the lettering color because the user requests no text. White exterior follows the explicit brief. These are proposed values, not sampled colors."
+        ]
+      },
+      "selected_by": "assistant",
+      "rationale": "A restrained blue dominant mark with a pale cyan supporting form fits a calm coordination service; role hierarchy is to be visually checked at 32px.",
+      "calculation_version": "logo-color-v1",
+      "id": "advisory-v1",
+      "parent_palette_id": null,
+      "digest": "dcbfdc13f7d0c1fd0bb7c4fa97b98a68586dfbb0a7bdff1bbbb23dc6987bab0b"
+    }
+  ],
+  "active_palette_id": "advisory-v1",
+  "references": [],
+  "color_reports": []
+}

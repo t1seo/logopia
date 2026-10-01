@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "id": "baseline-folio",
+  "revision": 0,
+  "created_at": "2026-10-01T10:04:47.330919Z",
+  "updated_at": "2026-10-01T10:04:47.330919Z",
+  "brief": {
+    "brand_name": "Folio",
+    "exact_text": "Folio",
+    "industry": "Independent stationery and notebook products",
+    "audience": "Adult professionals and creators who enjoy organizing thoughts on paper",
+    "slogan": "",
+    "logo_type": "combination",
+    "styles": [
+      "editorial",
+      "minimal",
+      "approachable",
+      "flat"
+    ],
+    "palette": [
+      "#9B473C",
+      "#2C2927",
+      "#EDE4D5"
+    ],
+    "forbidden": [
+      "stock notebook or pen clip art",
+      "basic glyph icon",
+      "extra lettering",
+      "excessively vintage or luxury-hotel styling"
+    ],
+    "use_cases": [
+      "180px-wide online-shop header lockup",
+      "notebook packaging label"
+    ],
+    "assumptions": [
+      "Fictional matched comparison brief; one concept requested; assistant chooses colors within the stated background request"
+    ],
+    "lockup": {
+      "layout": "horizontal",
+      "symbol_position": "start",
+      "text_alignment": "start",
+      "typography_style": "Calm humanist sans-serif, moderate weight, open counters, optical F-o and l-i spacing; symbol approximately the lettering cap-height, with a clear half-cap-height gap",
+      "font_reference": null
+    },
+    "background": "opaque",
+    "concept_count": 1
+  },
+  "artifacts": [],
+  "selected_id": null,
+  "failures": [],
+  "exports": [],
+  "palettes": [],
+  "active_palette_id": null,
+  "references": [],
+  "color_reports": []
+}

@@ -2,6 +2,19 @@
 
 Logopia's Codex plugin, Hermes plugin and local helper share one release version. Tagged releases and their notes are available on [GitHub Releases](https://github.com/t1seo/logopia/releases). See the [release guide](docs/releases.md) for versioning and publication steps.
 
+## 0.9.0 — Unreleased
+
+Product logo direction, color relationships and typography.
+
+- Add an optional proposed brand strategy to Codex briefs and deliver the saved Hermes strategy to actual image requests. Exact text, effective palettes, explicit styling and parent edits retain precedence.
+- Keep ordinary brand masters flat and clean, with a white canvas when compatible with the requested surface and color constraints. Remove unrequested sculpted/athletic examples from generic wordmark prompts; expressive user requests remain supported.
+- Give the image model effective palette roles and constraints without internal provenance metadata. Keep the complete palette record and original hashes in the local project.
+- Adapt selected Brand Building Skills and Taste brandkit principles for brand fit, color lightness/chroma/area, typography and application review, with pinned sources and bundled MIT notices. Their cinematic presentation defaults and fixed moodboard layouts are not adopted.
+- Document the optional Recraft remote MCP boundary without adding credentials, paid calls or SVG export claims. Native delivery remains PNG.
+- Preserve earlier samples and their findings. The [quality research](docs/research/brand-output-quality-2026-10-01.md) records the sources; the [six-image comparison](docs/qa/brand-output-quality-2026-10-01/README.md) preserves every before/after original and separates technical checks from limited visual observations.
+
+This source version has not been tagged or published. The latest published release remains 0.8.0.
+
 ## 0.8.0 — 2026-09-15
 
 A guided native Hermes workflow, from the brief to reviewed original delivery.

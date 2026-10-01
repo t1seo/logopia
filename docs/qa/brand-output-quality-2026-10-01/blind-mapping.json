@@ -1,0 +1,10 @@
+{
+  "mapping_disclosed_after_review": true,
+  "reviewer_input": "Three fixed briefs and six byte-identical PNG copies with neutral A/B filenames only",
+  "pairs": {
+    "tide": {"A": "originals/baseline-tide.png", "B": "originals/improved-tide.png", "preference": "B"},
+    "moa": {"A": "originals/improved-moa.png", "B": "originals/baseline-moa.png", "preference": "A, slight"},
+    "folio": {"A": "originals/baseline-folio.png", "B": "originals/improved-folio.png", "preference": "B"}
+  },
+  "interpretation": "One AI reviewer preferred the revised sample in each pair, narrowly for moa. This is not user preference, delivery approval, intended-size verification, or proof of general quality improvement."
+}

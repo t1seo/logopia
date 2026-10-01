@@ -1,0 +1,1430 @@
+{
+  "method": "Pinned baseline helper import plus color-analyze on four 16x16 exterior corner ROIs",
+  "source_git_head": "4d102c260ec1b65e086ab5f5699cee4ffcbdad01",
+  "mutates_image_bytes": false,
+  "generated_or_edited_images": 0,
+  "cases": [
+    {
+      "id": "baseline-tide",
+      "source_sha256": "16a1a7bc9ed286463d4771d051fee0b81994734fa3ac92b9b2e5f85beefac9bb",
+      "original_copy_sha256": "16a1a7bc9ed286463d4771d051fee0b81994734fa3ac92b9b2e5f85beefac9bb",
+      "imported_copy_sha256": "16a1a7bc9ed286463d4771d051fee0b81994734fa3ac92b9b2e5f85beefac9bb",
+      "prompt_file_sha256": "2bfd45714252b62dfa76b7f416d4045a5c3780af4411983b129aa309ad10863c",
+      "source_bytes_preserved": true,
+      "image": {
+        "format": "PNG",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1572516
+      },
+      "aspect_ratio": 1,
+      "session_revision_after_import": 2,
+      "session_revision_after_corner_analysis": 6,
+      "full_image_report": {
+        "id": "report-96e5b94664bb411dbce918d1222c0fed",
+        "artifact_sha256": "16a1a7bc9ed286463d4771d051fee0b81994734fa3ac92b9b2e5f85beefac9bb",
+        "palette_id": "advisory-v1",
+        "palette_digest": "dcbfdc13f7d0c1fd0bb7c4fa97b98a68586dfbb0a7bdff1bbbb23dc6987bab0b",
+        "analysis_policy": "logo-color-v1",
+        "color_engine_version": "8.12.1",
+        "pillow_version": "12.3.0",
+        "profile_treatment": "assumed_srgb",
+        "sampling": {
+          "width": 1254,
+          "height": 1254,
+          "roi": null,
+          "scope": "full_image",
+          "coordinate_policy": "grid_128_pixel_centers",
+          "sampled_positions": 16384,
+          "sampled_fraction": 0.010418971889634192,
+          "visible_samples": 16384,
+          "core_samples": 16384,
+          "partial_alpha_samples": 0
+        },
+        "status": "pass",
+        "reasons": [],
+        "measured_swatches": [
+          {
+            "hex": "#FEFEFE",
+            "samples": 6454,
+            "share": 0.3939208984375
+          },
+          {
+            "hex": "#2257AA",
+            "samples": 2604,
+            "share": 0.158935546875
+          },
+          {
+            "hex": "#FFFFFF",
+            "samples": 2589,
+            "share": 0.15802001953125
+          },
+          {
+            "hex": "#FFFEFE",
+            "samples": 1825,
+            "share": 0.11138916015625
+          },
+          {
+            "hex": "#E3EFF2",
+            "samples": 1123,
+            "share": 0.06854248046875
+          },
+          {
+            "hex": "#FDFEFE",
+            "samples": 881,
+            "share": 0.05377197265625
+          },
+          {
+            "hex": "#FEFEFD",
+            "samples": 812,
+            "share": 0.049560546875
+          },
+          {
+            "hex": "#FEFEFF",
+            "samples": 96,
+            "share": 0.005859375
+          }
+        ],
+        "targets": [
+          {
+            "hex": "#2357A5",
+            "matching_samples": 2584,
+            "share": 0.15771484375,
+            "mean_delta_e": 0.7088976418252,
+            "max_delta_e": 4.975810952482082
+          },
+          {
+            "hex": "#C1DCE3",
+            "matching_samples": 1093,
+            "share": 0.06671142578125,
+            "mean_delta_e": 1.4767069733720521,
+            "max_delta_e": 4.627587713524598
+          },
+          {
+            "hex": "#FFFFFF",
+            "matching_samples": 12664,
+            "share": 0.77294921875,
+            "mean_delta_e": 0.29785696500149866,
+            "max_delta_e": 4.098954879793375
+          }
+        ],
+        "matched_fraction": 0.99737548828125,
+        "observed_colors": 3
+      },
+      "background_corner_reports": [
+        {
+          "corner": "upper-left",
+          "report": {
+            "id": "report-9c110a239ba84511855df65d97178915",
+            "artifact_sha256": "16a1a7bc9ed286463d4771d051fee0b81994734fa3ac92b9b2e5f85beefac9bb",
+            "profile_treatment": "assumed_srgb",
+            "sampling": {
+              "width": 1254,
+              "height": 1254,
+              "roi": {
+                "x": 0,
+                "y": 0,
+                "width": 16,
+                "height": 16
+              },
+              "scope": "roi",
+              "coordinate_policy": "all_pixels",
+              "sampled_positions": 256,
+              "sampled_fraction": 1.0,
+              "visible_samples": 256,
+              "core_samples": 256,
+              "partial_alpha_samples": 0
+            },
+            "status": "pass",
+            "reasons": [],
+            "measured_swatches": [
+              {
+                "hex": "#FEFEFE",
+                "samples": 128,
+                "share": 0.5
+              },
+              {
+                "hex": "#FFFFFF",
+                "samples": 49,
+                "share": 0.19140625
+              },
+              {
+                "hex": "#FEFFFF",
+                "samples": 24,
+                "share": 0.09375
+              },
+              {
+                "hex": "#FEFEFF",
+                "samples": 18,
+                "share": 0.0703125
+              },
+              {
+                "hex": "#FDFDFD",
+                "samples": 17,
+                "share": 0.06640625
+              },
+              {
+                "hex": "#FFFEFF",
+                "samples": 9,
+                "share": 0.03515625
+              },
+              {
+                "hex": "#FFFFFE",
+                "samples": 6,
+                "share": 0.0234375
+              },
+              {
+                "hex": "#FDFEFE",
+                "samples": 5,
+                "share": 0.01953125
+              }
+            ],
+            "targets": [
+              {
+                "hex": "#2357A5",
+                "matching_samples": 0,
+                "share": 0.0,
+                "mean_delta_e": null,
+                "max_delta_e": null
+              },
+              {
+                "hex": "#C1DCE3",
+                "matching_samples": 0,
+                "share": 0.0,
+                "mean_delta_e": null,
+                "max_delta_e": null
+              },
+              {
+                "hex": "#FFFFFF",
+                "matching_samples": 256,
+                "share": 1.0,
+                "mean_delta_e": 0.27585442919113806,
+                "max_delta_e": 1.0787611062645324
+              }
+            ]
+          }
+        },
+        {
+          "corner": "upper-right",
+          "report": {
+            "id": "report-171e1a032e8842ecaabea5d6e3788b07",
+            "artifact_sha256": "16a1a7bc9ed286463d4771d051fee0b81994734fa3ac92b9b2e5f85beefac9bb",
+            "profile_treatment": "assumed_srgb",
+            "sampling": {
+              "width": 1254,
+              "height": 1254,
+              "roi": {
+                "x": 1238,
+                "y": 0,
+                "width": 16,
+                "height": 16
+              },
+              "scope": "roi",
+              "coordinate_policy": "all_pixels",
+              "sampled_positions": 256,
+              "sampled_fraction": 1.0,
+              "visible_samples": 256,
+              "core_samples": 256,
+              "partial_alpha_samples": 0
+            },
+            "status": "pass",
+            "reasons": [],
+            "measured_swatches": [
+              {
+                "hex": "#FEFEFE",
+                "samples": 122,
+                "share": 0.4765625
+              },
+              {
+                "hex": "#FFFFFF",
+                "samples": 53,
+                "share": 0.20703125
+              },
+              {
+                "hex": "#FEFEFF",
+                "samples": 24,
+                "share": 0.09375
+              },
+              {
+                "hex": "#FDFDFE",
+                "samples": 17,
+                "share": 0.06640625
+              },
+              {
+                "hex": "#FFFEFF",
+                "samples": 14,
+                "share": 0.0546875
+              },
+              {
+                "hex": "#FEFFFE",
+                "samples": 12,
+                "share": 0.046875
+              },
+              {
+                "hex": "#FFFFFE",
+                "samples": 11,
+                "share": 0.04296875
+              },
+              {
+                "hex": "#FDFEFE",
+                "samples": 3,
+                "share": 0.01171875
+              }
+            ],
+            "targets": [
+              {
+                "hex": "#2357A5",
+                "matching_samples": 0,
+                "share": 0.0,
+                "mean_delta_e": null,
+                "max_delta_e": null
+              },
+              {
+                "hex": "#C1DCE3",
+                "matching_samples": 0,
+                "share": 0.0,
+                "mean_delta_e": null,
+                "max_delta_e": null
+              },
+              {
+                "hex": "#FFFFFF",
+                "matching_samples": 256,
+                "share": 1.0,
+                "mean_delta_e": 0.28376347663613466,
+                "max_delta_e": 1.0787611062645324
+              }
+            ]
+          }
+        },
+        {
+          "corner": "lower-left",
+          "report": {
+            "id": "report-88bec10995be4e21b31da446f02d0054",
+            "artifact_sha256": "16a1a7bc9ed286463d4771d051fee0b81994734fa3ac92b9b2e5f85beefac9bb",
+            "profile_treatment": "assumed_srgb",
+            "sampling": {
+              "width": 1254,
+              "height": 1254,
+              "roi": {
+                "x": 0,
+                "y": 1238,
+                "width": 16,
+                "height": 16
+              },
+              "scope": "roi",
+              "coordinate_policy": "all_pixels",
+              "sampled_positions": 256,
+              "sampled_fraction": 1.0,
+              "visible_samples": 256,
+              "core_samples": 256,
+              "partial_alpha_samples": 0
+            },
+            "status": "pass",
+            "reasons": [],
+            "measured_swatches": [
+              {
+                "hex": "#FEFEFE",
+                "samples": 155,
+                "share": 0.60546875
+              },
+              {
+                "hex": "#FFFFFF",
+                "samples": 39,
+                "share": 0.15234375
+              },
+              {
+                "hex": "#FFFEFF",
+                "samples": 21,
+                "share": 0.08203125
+              },
+              {
+                "hex": "#FEFDFD",
+                "samples": 12,
+                "share": 0.046875
+              },
+              {
+                "hex": "#FEFFFE",
+                "samples": 12,
+                "share": 0.046875
+              },
+              {
+                "hex": "#FEFEFF",
+                "samples": 9,
+                "share": 0.03515625
+              },
+              {
+                "hex": "#FFFFFE",
+                "samples": 5,
+                "share": 0.01953125
+              },
+              {
+                "hex": "#FDFEFD",
+                "samples": 3,
+                "share": 0.01171875
+              }
+            ],
+            "targets": [
+              {
+                "hex": "#2357A5",
+                "matching_samples": 0,
+                "share": 0.0,
+                "mean_delta_e": null,
+                "max_delta_e": null
+              },
+              {
+                "hex": "#C1DCE3",
+                "matching_samples": 0,
+                "share": 0.0,
+                "mean_delta_e": null,
+                "max_delta_e": null
+              },
+              {
+                "hex": "#FFFFFF",
+                "matching_samples": 256,
+                "share": 1.0,
+                "mean_delta_e": 0.2785395440016344,
+                "max_delta_e": 0.8506789873283536
+              }
+            ]
+          }
+        },
+        {
+          "corner": "lower-right",
+          "report": {
+            "id": "report-213d1d9223ea474b8d6589aedf6672d8",
+            "artifact_sha256": "16a1a7bc9ed286463d4771d051fee0b81994734fa3ac92b9b2e5f85beefac9bb",
+            "profile_treatment": "assumed_srgb",
+            "sampling": {
+              "width": 1254,
+              "height": 1254,
+              "roi": {
+                "x": 1238,
+                "y": 1238,
+                "width": 16,
+                "height": 16
+              },
+              "scope": "roi",
+              "coordinate_policy": "all_pixels",
+              "sampled_positions": 256,
+              "sampled_fraction": 1.0,
+              "visible_samples": 256,
+              "core_samples": 256,
+              "partial_alpha_samples": 0
+            },
+            "status": "pass",
+            "reasons": [],
+            "measured_swatches": [
+              {
+                "hex": "#FEFEFE",
+                "samples": 157,
+                "share": 0.61328125
+              },
+              {
+                "hex": "#FFFFFF",
+                "samples": 45,
+                "share": 0.17578125
+              },
+              {
+                "hex": "#FFFEFF",
+                "samples": 19,
+                "share": 0.07421875
+              },
+              {
+                "hex": "#FDFDFD",
+                "samples": 16,
+                "share": 0.0625
+              },
+              {
+                "hex": "#FEFFFE",
+                "samples": 10,
+                "share": 0.0390625
+              },
+              {
+                "hex": "#FDFEFE",
+                "samples": 5,
+                "share": 0.01953125
+              },
+              {
+                "hex": "#FEFEFF",
+                "samples": 2,
+                "share": 0.0078125
+              },
+              {
+                "hex": "#FFFFFE",
+                "samples": 2,
+                "share": 0.0078125
+              }
+            ],
+            "targets": [
+              {
+                "hex": "#2357A5",
+                "matching_samples": 0,
+                "share": 0.0,
+                "mean_delta_e": null,
+                "max_delta_e": null
+              },
+              {
+                "hex": "#C1DCE3",
+                "matching_samples": 0,
+                "share": 0.0,
+                "mean_delta_e": null,
+                "max_delta_e": null
+              },
+              {
+                "hex": "#FFFFFF",
+                "matching_samples": 256,
+                "share": 1.0,
+                "mean_delta_e": 0.2614308576433619,
+                "max_delta_e": 0.8506789873283536
+              }
+            ]
+          }
+        }
+      ],
+      "palette_evaluation": "Advisory; a helper pass is not design approval or exact-HEX certification",
+      "background_evaluation": "Four predeclared empty 16x16 corner regions were analyzed without changing image bytes. Quantized swatches and tolerance-based target matches describe only sampled regions, not the complete exterior canvas."
+    },
+    {
+      "id": "baseline-moa",
+      "source_sha256": "41db9b8b9bffb3d4a0dc2c0cf7877bef117cbd314e1498a2daef52c87fd2de5f",
+      "original_copy_sha256": "41db9b8b9bffb3d4a0dc2c0cf7877bef117cbd314e1498a2daef52c87fd2de5f",
+      "imported_copy_sha256": "41db9b8b9bffb3d4a0dc2c0cf7877bef117cbd314e1498a2daef52c87fd2de5f",
+      "prompt_file_sha256": "6197c00a73d8c01c99139fa60e4887c876eb8c9e4bef8c8aa68acff0f84d37c5",
+      "source_bytes_preserved": true,
+      "image": {
+        "format": "PNG",
+        "width": 1774,
+        "height": 887,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1573538
+      },
+      "aspect_ratio": 2,
+      "session_revision_after_import": 2,
+      "session_revision_after_corner_analysis": 6,
+      "full_image_report": {
+        "id": "report-2a133a8eeb094c1c90a6d25d124082d4",
+        "artifact_sha256": "41db9b8b9bffb3d4a0dc2c0cf7877bef117cbd314e1498a2daef52c87fd2de5f",
+        "palette_id": "advisory-v1",
+        "palette_digest": "f8a4dee76f32588177551567fcd0c79f7790ff5beb22e64216a2f468445bb496",
+        "analysis_policy": "logo-color-v1",
+        "color_engine_version": "8.12.1",
+        "pillow_version": "12.3.0",
+        "profile_treatment": "assumed_srgb",
+        "sampling": {
+          "width": 1774,
+          "height": 887,
+          "roi": null,
+          "scope": "full_image",
+          "coordinate_policy": "grid_128_pixel_centers",
+          "sampled_positions": 16384,
+          "sampled_fraction": 0.010412204853012764,
+          "visible_samples": 16384,
+          "core_samples": 16384,
+          "partial_alpha_samples": 0
+        },
+        "status": "pass",
+        "reasons": [],
+        "measured_swatches": [
+          {
+            "hex": "#FEFEFE",
+            "samples": 7183,
+            "share": 0.43841552734375
+          },
+          {
+            "hex": "#FEFDFD",
+            "samples": 3142,
+            "share": 0.1917724609375
+          },
+          {
+            "hex": "#A95C50",
+            "samples": 2342,
+            "share": 0.1429443359375
+          },
+          {
+            "hex": "#FFFFFF",
+            "samples": 1766,
+            "share": 0.1077880859375
+          },
+          {
+            "hex": "#FFFEFE",
+            "samples": 1502,
+            "share": 0.0916748046875
+          },
+          {
+            "hex": "#FDFEFD",
+            "samples": 269,
+            "share": 0.01641845703125
+          },
+          {
+            "hex": "#FEFEFF",
+            "samples": 113,
+            "share": 0.00689697265625
+          },
+          {
+            "hex": "#FEFEFD",
+            "samples": 67,
+            "share": 0.00408935546875
+          }
+        ],
+        "targets": [
+          {
+            "hex": "#9B473C",
+            "matching_samples": 2308,
+            "share": 0.140869140625,
+            "mean_delta_e": 1.551081409691023,
+            "max_delta_e": 4.651314354956186
+          },
+          {
+            "hex": "#FFFFFF",
+            "matching_samples": 14001,
+            "share": 0.85455322265625,
+            "mean_delta_e": 0.3479756557137151,
+            "max_delta_e": 4.545327637996403
+          }
+        ],
+        "matched_fraction": 0.99542236328125,
+        "observed_colors": 2
+      },
+      "background_corner_reports": [
+        {
+          "corner": "upper-left",
+          "report": {
+            "id": "report-769c69226cea4c19aacc256b523665ff",
+            "artifact_sha256": "41db9b8b9bffb3d4a0dc2c0cf7877bef117cbd314e1498a2daef52c87fd2de5f",
+            "profile_treatment": "assumed_srgb",
+            "sampling": {
+              "width": 1774,
+              "height": 887,
+              "roi": {
+                "x": 0,
+                "y": 0,
+                "width": 16,
+                "height": 16
+              },
+              "scope": "roi",
+              "coordinate_policy": "all_pixels",
+              "sampled_positions": 256,
+              "sampled_fraction": 1.0,
+              "visible_samples": 256,
+              "core_samples": 256,
+              "partial_alpha_samples": 0
+            },
+            "status": "pass",
+            "reasons": [],
+            "measured_swatches": [
+              {
+                "hex": "#FEFEFE",
+                "samples": 126,
+                "share": 0.4921875
+              },
+              {
+                "hex": "#FDFDFE",
+                "samples": 44,
+                "share": 0.171875
+              },
+              {
+                "hex": "#FEFEFF",
+                "samples": 32,
+                "share": 0.125
+              },
+              {
+                "hex": "#FFFEFF",
+                "samples": 21,
+                "share": 0.08203125
+              },
+              {
+                "hex": "#FEFDFE",
+                "samples": 13,
+                "share": 0.05078125
+              },
+              {
+                "hex": "#FFFFFF",
+                "samples": 13,
+                "share": 0.05078125
+              },
+              {
+                "hex": "#FDFEFE",
+                "samples": 4,
+                "share": 0.015625
+              },
+              {
+                "hex": "#FEFEFD",
+                "samples": 3,
+                "share": 0.01171875
+              }
+            ],
+            "targets": [
+              {
+                "hex": "#9B473C",
+                "matching_samples": 0,
+                "share": 0.0,
+                "mean_delta_e": null,
+                "max_delta_e": null
+              },
+              {
+                "hex": "#FFFFFF",
+                "matching_samples": 256,
+                "share": 1.0,
+                "mean_delta_e": 0.4140152584347358,
+                "max_delta_e": 1.243062263199578
+              }
+            ]
+          }
+        },
+        {
+          "corner": "upper-right",
+          "report": {
+            "id": "report-2357a19888f541fe9f057f941c086bce",
+            "artifact_sha256": "41db9b8b9bffb3d4a0dc2c0cf7877bef117cbd314e1498a2daef52c87fd2de5f",
+            "profile_treatment": "assumed_srgb",
+            "sampling": {
+              "width": 1774,
+              "height": 887,
+              "roi": {
+                "x": 1758,
+                "y": 0,
+                "width": 16,
+                "height": 16
+              },
+              "scope": "roi",
+              "coordinate_policy": "all_pixels",
+              "sampled_positions": 256,
+              "sampled_fraction": 1.0,
+              "visible_samples": 256,
+              "core_samples": 256,
+              "partial_alpha_samples": 0
+            },
+            "status": "pass",
+            "reasons": [],
+            "measured_swatches": [
+              {
+                "hex": "#FEFEFE",
+                "samples": 91,
+                "share": 0.35546875
+              },
+              {
+                "hex": "#FFFFFF",
+                "samples": 42,
+                "share": 0.1640625
+              },
+              {
+                "hex": "#FEFEFF",
+                "samples": 37,
+                "share": 0.14453125
+              },
+              {
+                "hex": "#FFFEFF",
+                "samples": 34,
+                "share": 0.1328125
+              },
+              {
+                "hex": "#FEFFFF",
+                "samples": 23,
+                "share": 0.08984375
+              },
+              {
+                "hex": "#FDFDFE",
+                "samples": 14,
+                "share": 0.0546875
+              },
+              {
+                "hex": "#FFFFFE",
+                "samples": 8,
+                "share": 0.03125
+              },
+              {
+                "hex": "#FDFEFE",
+                "samples": 7,
+                "share": 0.02734375
+              }
+            ],
+            "targets": [
+              {
+                "hex": "#9B473C",
+                "matching_samples": 0,
+                "share": 0.0,
+                "mean_delta_e": null,
+                "max_delta_e": null
+              },
+              {
+                "hex": "#FFFFFF",
+                "matching_samples": 256,
+                "share": 1.0,
+                "mean_delta_e": 0.36163884413041253,
+                "max_delta_e": 0.8506789873283536
+              }
+            ]
+          }
+        },
+        {
+          "corner": "lower-left",
+          "report": {
+            "id": "report-70c5155bfcf549f4b34a179a63a1d910",
+            "artifact_sha256": "41db9b8b9bffb3d4a0dc2c0cf7877bef117cbd314e1498a2daef52c87fd2de5f",
+            "profile_treatment": "assumed_srgb",
+            "sampling": {
+              "width": 1774,
+              "height": 887,
+              "roi": {
+                "x": 0,
+                "y": 871,
+                "width": 16,
+                "height": 16
+              },
+              "scope": "roi",
+              "coordinate_policy": "all_pixels",
+              "sampled_positions": 256,
+              "sampled_fraction": 1.0,
+              "visible_samples": 256,
+              "core_samples": 256,
+              "partial_alpha_samples": 0
+            },
+            "status": "pass",
+            "reasons": [],
+            "measured_swatches": [
+              {
+                "hex": "#FEFEFE",
+                "samples": 162,
+                "share": 0.6328125
+              },
+              {
+                "hex": "#FDFDFD",
+                "samples": 41,
+                "share": 0.16015625
+              },
+              {
+                "hex": "#FFFFFF",
+                "samples": 24,
+                "share": 0.09375
+              },
+              {
+                "hex": "#FEFEFF",
+                "samples": 12,
+                "share": 0.046875
+              },
+              {
+                "hex": "#FEFDFE",
+                "samples": 9,
+                "share": 0.03515625
+              },
+              {
+                "hex": "#FDFEFE",
+                "samples": 4,
+                "share": 0.015625
+              },
+              {
+                "hex": "#FFFEFE",
+                "samples": 3,
+                "share": 0.01171875
+              },
+              {
+                "hex": "#FEFEFD",
+                "samples": 1,
+                "share": 0.00390625
+              }
+            ],
+            "targets": [
+              {
+                "hex": "#9B473C",
+                "matching_samples": 0,
+                "share": 0.0,
+                "mean_delta_e": null,
+                "max_delta_e": null
+              },
+              {
+                "hex": "#FFFFFF",
+                "matching_samples": 256,
+                "share": 1.0,
+                "mean_delta_e": 0.28304108309630266,
+                "max_delta_e": 1.0787611062645324
+              }
+            ]
+          }
+        },
+        {
+          "corner": "lower-right",
+          "report": {
+            "id": "report-d4c5111fc2dc4f7782afe3adc329e856",
+            "artifact_sha256": "41db9b8b9bffb3d4a0dc2c0cf7877bef117cbd314e1498a2daef52c87fd2de5f",
+            "profile_treatment": "assumed_srgb",
+            "sampling": {
+              "width": 1774,
+              "height": 887,
+              "roi": {
+                "x": 1758,
+                "y": 871,
+                "width": 16,
+                "height": 16
+              },
+              "scope": "roi",
+              "coordinate_policy": "all_pixels",
+              "sampled_positions": 256,
+              "sampled_fraction": 1.0,
+              "visible_samples": 256,
+              "core_samples": 256,
+              "partial_alpha_samples": 0
+            },
+            "status": "pass",
+            "reasons": [],
+            "measured_swatches": [
+              {
+                "hex": "#FEFEFE",
+                "samples": 127,
+                "share": 0.49609375
+              },
+              {
+                "hex": "#FEFDFE",
+                "samples": 46,
+                "share": 0.1796875
+              },
+              {
+                "hex": "#FFFEFF",
+                "samples": 40,
+                "share": 0.15625
+              },
+              {
+                "hex": "#FFFFFF",
+                "samples": 25,
+                "share": 0.09765625
+              },
+              {
+                "hex": "#FEFEFF",
+                "samples": 6,
+                "share": 0.0234375
+              },
+              {
+                "hex": "#FDFDFD",
+                "samples": 5,
+                "share": 0.01953125
+              },
+              {
+                "hex": "#FDFEFD",
+                "samples": 5,
+                "share": 0.01953125
+              },
+              {
+                "hex": "#FFFDFE",
+                "samples": 2,
+                "share": 0.0078125
+              }
+            ],
+            "targets": [
+              {
+                "hex": "#9B473C",
+                "matching_samples": 0,
+                "share": 0.0,
+                "mean_delta_e": null,
+                "max_delta_e": null
+              },
+              {
+                "hex": "#FFFFFF",
+                "matching_samples": 256,
+                "share": 1.0,
+                "mean_delta_e": 0.4255483132110048,
+                "max_delta_e": 1.2461296822287578
+              }
+            ]
+          }
+        }
+      ],
+      "palette_evaluation": "Advisory; a helper pass is not design approval or exact-HEX certification",
+      "background_evaluation": "Four predeclared empty 16x16 corner regions were analyzed without changing image bytes. Quantized swatches and tolerance-based target matches describe only sampled regions, not the complete exterior canvas."
+    },
+    {
+      "id": "baseline-folio",
+      "source_sha256": "812c55ff460c9231d6c5d7f97bea751539284501679c738d738411870b71a3be",
+      "original_copy_sha256": "812c55ff460c9231d6c5d7f97bea751539284501679c738d738411870b71a3be",
+      "imported_copy_sha256": "812c55ff460c9231d6c5d7f97bea751539284501679c738d738411870b71a3be",
+      "prompt_file_sha256": "e14ea1bfb5470fad75141ca7a7e76b8eeeddba44d1abecdb07a73fb4f25aed3a",
+      "source_bytes_preserved": true,
+      "image": {
+        "format": "PNG",
+        "width": 1665,
+        "height": 945,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1573425
+      },
+      "aspect_ratio": 1.7619047619047619,
+      "session_revision_after_import": 2,
+      "session_revision_after_corner_analysis": 6,
+      "full_image_report": {
+        "id": "report-bdd5b9545d4248419208f8df085c060f",
+        "artifact_sha256": "812c55ff460c9231d6c5d7f97bea751539284501679c738d738411870b71a3be",
+        "palette_id": "advisory-v1",
+        "palette_digest": "2b99d35e682589d38c146f51daaad9bcbe16df9e8561120b94462f7c15256f62",
+        "analysis_policy": "logo-color-v1",
+        "color_engine_version": "8.12.1",
+        "pillow_version": "12.3.0",
+        "profile_treatment": "assumed_srgb",
+        "sampling": {
+          "width": 1665,
+          "height": 945,
+          "roi": null,
+          "scope": "full_image",
+          "coordinate_policy": "grid_128_pixel_centers",
+          "sampled_positions": 16384,
+          "sampled_fraction": 0.010412952635174857,
+          "visible_samples": 16384,
+          "core_samples": 16384,
+          "partial_alpha_samples": 0
+        },
+        "status": "pass",
+        "reasons": [],
+        "measured_swatches": [
+          {
+            "hex": "#ECE3D3",
+            "samples": 5654,
+            "share": 0.3450927734375
+          },
+          {
+            "hex": "#EBE2D2",
+            "samples": 3717,
+            "share": 0.22686767578125
+          },
+          {
+            "hex": "#EBE3D3",
+            "samples": 1962,
+            "share": 0.1197509765625
+          },
+          {
+            "hex": "#ECE2D2",
+            "samples": 1754,
+            "share": 0.1070556640625
+          },
+          {
+            "hex": "#734F46",
+            "samples": 1489,
+            "share": 0.09088134765625
+          },
+          {
+            "hex": "#ECE3D2",
+            "samples": 1212,
+            "share": 0.073974609375
+          },
+          {
+            "hex": "#EDE5D5",
+            "samples": 442,
+            "share": 0.0269775390625
+          },
+          {
+            "hex": "#EAE2D2",
+            "samples": 154,
+            "share": 0.0093994140625
+          }
+        ],
+        "targets": [
+          {
+            "hex": "#9B473C",
+            "matching_samples": 703,
+            "share": 0.04290771484375,
+            "mean_delta_e": 2.3852457202588684,
+            "max_delta_e": 3.7581805837419826
+          },
+          {
+            "hex": "#2C2927",
+            "matching_samples": 731,
+            "share": 0.04461669921875,
+            "mean_delta_e": 1.8499242538747316,
+            "max_delta_e": 4.825853348256923
+          },
+          {
+            "hex": "#EDE4D5",
+            "matching_samples": 14845,
+            "share": 0.90606689453125,
+            "mean_delta_e": 0.631340835579762,
+            "max_delta_e": 4.971681088860979
+          }
+        ],
+        "matched_fraction": 0.99359130859375,
+        "observed_colors": 3
+      },
+      "background_corner_reports": [
+        {
+          "corner": "upper-left",
+          "report": {
+            "id": "report-14623d7c77af433f837f6693a2c38a25",
+            "artifact_sha256": "812c55ff460c9231d6c5d7f97bea751539284501679c738d738411870b71a3be",
+            "profile_treatment": "assumed_srgb",
+            "sampling": {
+              "width": 1665,
+              "height": 945,
+              "roi": {
+                "x": 0,
+                "y": 0,
+                "width": 16,
+                "height": 16
+              },
+              "scope": "roi",
+              "coordinate_policy": "all_pixels",
+              "sampled_positions": 256,
+              "sampled_fraction": 1.0,
+              "visible_samples": 256,
+              "core_samples": 256,
+              "partial_alpha_samples": 0
+            },
+            "status": "pass",
+            "reasons": [],
+            "measured_swatches": [
+              {
+                "hex": "#EBE2D2",
+                "samples": 80,
+                "share": 0.3125
+              },
+              {
+                "hex": "#ECE3D3",
+                "samples": 76,
+                "share": 0.296875
+              },
+              {
+                "hex": "#EBE3D3",
+                "samples": 48,
+                "share": 0.1875
+              },
+              {
+                "hex": "#ECE2D2",
+                "samples": 29,
+                "share": 0.11328125
+              },
+              {
+                "hex": "#EAE2D2",
+                "samples": 9,
+                "share": 0.03515625
+              },
+              {
+                "hex": "#EDE3D3",
+                "samples": 9,
+                "share": 0.03515625
+              },
+              {
+                "hex": "#ECE4D3",
+                "samples": 4,
+                "share": 0.015625
+              },
+              {
+                "hex": "#EBE1D2",
+                "samples": 1,
+                "share": 0.00390625
+              }
+            ],
+            "targets": [
+              {
+                "hex": "#9B473C",
+                "matching_samples": 0,
+                "share": 0.0,
+                "mean_delta_e": null,
+                "max_delta_e": null
+              },
+              {
+                "hex": "#2C2927",
+                "matching_samples": 0,
+                "share": 0.0,
+                "mean_delta_e": null,
+                "max_delta_e": null
+              },
+              {
+                "hex": "#EDE4D5",
+                "matching_samples": 256,
+                "share": 1.0,
+                "mean_delta_e": 0.6346785410119833,
+                "max_delta_e": 1.4927252525465469
+              }
+            ]
+          }
+        },
+        {
+          "corner": "upper-right",
+          "report": {
+            "id": "report-ae8511e212dd4ebbbfeb869227697b06",
+            "artifact_sha256": "812c55ff460c9231d6c5d7f97bea751539284501679c738d738411870b71a3be",
+            "profile_treatment": "assumed_srgb",
+            "sampling": {
+              "width": 1665,
+              "height": 945,
+              "roi": {
+                "x": 1649,
+                "y": 0,
+                "width": 16,
+                "height": 16
+              },
+              "scope": "roi",
+              "coordinate_policy": "all_pixels",
+              "sampled_positions": 256,
+              "sampled_fraction": 1.0,
+              "visible_samples": 256,
+              "core_samples": 256,
+              "partial_alpha_samples": 0
+            },
+            "status": "pass",
+            "reasons": [],
+            "measured_swatches": [
+              {
+                "hex": "#EDE4D4",
+                "samples": 81,
+                "share": 0.31640625
+              },
+              {
+                "hex": "#ECE3D3",
+                "samples": 52,
+                "share": 0.203125
+              },
+              {
+                "hex": "#ECE3D4",
+                "samples": 45,
+                "share": 0.17578125
+              },
+              {
+                "hex": "#ECE4D3",
+                "samples": 34,
+                "share": 0.1328125
+              },
+              {
+                "hex": "#EDE3D4",
+                "samples": 26,
+                "share": 0.1015625
+              },
+              {
+                "hex": "#EBE3D3",
+                "samples": 9,
+                "share": 0.03515625
+              },
+              {
+                "hex": "#EBE2D3",
+                "samples": 6,
+                "share": 0.0234375
+              },
+              {
+                "hex": "#EEE5D4",
+                "samples": 3,
+                "share": 0.01171875
+              }
+            ],
+            "targets": [
+              {
+                "hex": "#9B473C",
+                "matching_samples": 0,
+                "share": 0.0,
+                "mean_delta_e": null,
+                "max_delta_e": null
+              },
+              {
+                "hex": "#2C2927",
+                "matching_samples": 0,
+                "share": 0.0,
+                "mean_delta_e": null,
+                "max_delta_e": null
+              },
+              {
+                "hex": "#EDE4D5",
+                "matching_samples": 256,
+                "share": 1.0,
+                "mean_delta_e": 0.5586214481194044,
+                "max_delta_e": 1.662056072508167
+              }
+            ]
+          }
+        },
+        {
+          "corner": "lower-left",
+          "report": {
+            "id": "report-94e4ab988e0644118956f0587d5a77ec",
+            "artifact_sha256": "812c55ff460c9231d6c5d7f97bea751539284501679c738d738411870b71a3be",
+            "profile_treatment": "assumed_srgb",
+            "sampling": {
+              "width": 1665,
+              "height": 945,
+              "roi": {
+                "x": 0,
+                "y": 929,
+                "width": 16,
+                "height": 16
+              },
+              "scope": "roi",
+              "coordinate_policy": "all_pixels",
+              "sampled_positions": 256,
+              "sampled_fraction": 1.0,
+              "visible_samples": 256,
+              "core_samples": 256,
+              "partial_alpha_samples": 0
+            },
+            "status": "pass",
+            "reasons": [],
+            "measured_swatches": [
+              {
+                "hex": "#EBE2D2",
+                "samples": 73,
+                "share": 0.28515625
+              },
+              {
+                "hex": "#ECE2D3",
+                "samples": 51,
+                "share": 0.19921875
+              },
+              {
+                "hex": "#ECE3D3",
+                "samples": 48,
+                "share": 0.1875
+              },
+              {
+                "hex": "#EBE3D2",
+                "samples": 44,
+                "share": 0.171875
+              },
+              {
+                "hex": "#EBE2D3",
+                "samples": 20,
+                "share": 0.078125
+              },
+              {
+                "hex": "#EBE3D3",
+                "samples": 15,
+                "share": 0.05859375
+              },
+              {
+                "hex": "#EAE1D2",
+                "samples": 4,
+                "share": 0.015625
+              },
+              {
+                "hex": "#ECE4D4",
+                "samples": 1,
+                "share": 0.00390625
+              }
+            ],
+            "targets": [
+              {
+                "hex": "#9B473C",
+                "matching_samples": 0,
+                "share": 0.0,
+                "mean_delta_e": null,
+                "max_delta_e": null
+              },
+              {
+                "hex": "#2C2927",
+                "matching_samples": 0,
+                "share": 0.0,
+                "mean_delta_e": null,
+                "max_delta_e": null
+              },
+              {
+                "hex": "#EDE4D5",
+                "matching_samples": 256,
+                "share": 1.0,
+                "mean_delta_e": 0.657651806980728,
+                "max_delta_e": 1.4601952899803108
+              }
+            ]
+          }
+        },
+        {
+          "corner": "lower-right",
+          "report": {
+            "id": "report-f7cf00bcabaa4899a6e5c92197027c86",
+            "artifact_sha256": "812c55ff460c9231d6c5d7f97bea751539284501679c738d738411870b71a3be",
+            "profile_treatment": "assumed_srgb",
+            "sampling": {
+              "width": 1665,
+              "height": 945,
+              "roi": {
+                "x": 1649,
+                "y": 929,
+                "width": 16,
+                "height": 16
+              },
+              "scope": "roi",
+              "coordinate_policy": "all_pixels",
+              "sampled_positions": 256,
+              "sampled_fraction": 1.0,
+              "visible_samples": 256,
+              "core_samples": 256,
+              "partial_alpha_samples": 0
+            },
+            "status": "pass",
+            "reasons": [],
+            "measured_swatches": [
+              {
+                "hex": "#ECE3D3",
+                "samples": 114,
+                "share": 0.4453125
+              },
+              {
+                "hex": "#EDE4D4",
+                "samples": 41,
+                "share": 0.16015625
+              },
+              {
+                "hex": "#EBE2D2",
+                "samples": 29,
+                "share": 0.11328125
+              },
+              {
+                "hex": "#ECE3D4",
+                "samples": 28,
+                "share": 0.109375
+              },
+              {
+                "hex": "#ECE4D3",
+                "samples": 15,
+                "share": 0.05859375
+              },
+              {
+                "hex": "#EDE3D4",
+                "samples": 14,
+                "share": 0.0546875
+              },
+              {
+                "hex": "#EBE3D3",
+                "samples": 12,
+                "share": 0.046875
+              },
+              {
+                "hex": "#ECE3D2",
+                "samples": 3,
+                "share": 0.01171875
+              }
+            ],
+            "targets": [
+              {
+                "hex": "#9B473C",
+                "matching_samples": 0,
+                "share": 0.0,
+                "mean_delta_e": null,
+                "max_delta_e": null
+              },
+              {
+                "hex": "#2C2927",
+                "matching_samples": 0,
+                "share": 0.0,
+                "mean_delta_e": null,
+                "max_delta_e": null
+              },
+              {
+                "hex": "#EDE4D5",
+                "matching_samples": 256,
+                "share": 1.0,
+                "mean_delta_e": 0.5065247013038454,
+                "max_delta_e": 2.0528110559925365
+              }
+            ]
+          }
+        }
+      ],
+      "palette_evaluation": "Advisory; a helper pass is not design approval or exact-HEX certification",
+      "background_evaluation": "Four predeclared empty 16x16 corner regions were analyzed without changing image bytes. Quantized swatches and tolerance-based target matches describe only sampled regions, not the complete exterior canvas."
+    }
+  ],
+  "limitations": [
+    "Native outputs have different dimensions and aspect ratios; comparison CSS must preserve every original aspect ratio rather than crop or stretch.",
+    "Full-image reports sample 16384 grid positions. Four corner reports cover only the declared 16x16 regions.",
+    "Untagged images are assumed sRGB by the analysis engine.",
+    "Palette evidence is advisory; helper pass does not establish brand fit, exact text, role placement, or overall design quality.",
+    "Folio opaque surface color was delegated; its chosen paper tone is not a violation of a user white-background requirement.",
+    "The baseline preparation agent made no native generation or edit calls; three baseline native calls were performed and logged by the parent agent."
+  ]
+}

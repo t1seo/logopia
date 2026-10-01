@@ -1,0 +1,35 @@
+{
+  "concept_title": "종이의 짧은 겹침",
+  "styles": ["compact paper-layer symbol", "calm humanist lettering", "contemporary", "considered", "flat"],
+  "concept": "For an independent notebook and stationery brand for adult professionals and creators, place a compact original paper-layer gesture to the left of the exact word \"Folio\" in one horizontal lockup. Build the small symbol from two broad, offset paper-like planes with a restrained stepped outer contour and one short open fold interval; use an oblique corner to suggest a fold without a page outline, ruled lines, notebook binding or pen glyph. Fill the planes with muted clay #A76148 and let the single interior interval remain white. Keep the symbol visually around the height of the capital F, with enough open space before the name that it does not become another letter. Letter Folio in graphite #333B39 with a medium-weight low-contrast humanist sans appearance, softly resolved terminals, generous o counters and a clear l stem; preserve capital F and lowercase olio on one steady baseline. Let the word carry most of the lockup width, with balanced Fo, ol, li and io spacing. At the total 180px header width the fold interval, both o counters and the exact name must remain clear. Use opaque pure #FFFFFF over the whole exterior canvas including all four corners, without paper texture, mockups, shadows, hotel-style hairline serifs or vintage decoration.",
+  "brand_strategy": {
+    "positioning": "An independent notebook and stationery brand for adult professionals and creators who enjoy organizing thoughts on paper and keeping useful objects for a long time.",
+    "audience_need": "Recognize considered, comfortable everyday stationery through a clear shop-header name and a simple mark suitable for a notebook packaging label.",
+    "brand_promise": "Attentive, comfortable tools for sustained paper use; this identity does not claim tested durability or product superiority.",
+    "distinctive_principle": "An offset paper-layer contour and one open fold interval give the compact symbol a material starting point without stock notebook or pen imagery; the calm name remains the primary read.",
+    "typography": "Exact Folio in a medium low-contrast humanist sans appearance: capital F, lowercase olio, open o counters, distinct l, softened terminals and steady optical spacing, without vintage or hotel-style hairlines.",
+    "color_roles": "Muted clay #A76148 is limited to the compact paper-layer symbol; graphite #333B39 carries the entire name. Opaque white #FFFFFF fills the exterior and the open fold interval.",
+    "assumptions": ["A left-hand symbol with a larger text block is the proposed horizontal arrangement for the 180px shop header.", "A plain white master is selected within the delegated background choice; paper texture belongs to no requested deliverable."]
+  },
+  "lockup": {
+    "layout": "horizontal",
+    "symbol_position": "start",
+    "text_alignment": "start",
+    "typography_style": "Medium-weight low-contrast humanist sans appearance; softly resolved terminals, generous o counters, distinct l stem, capital F plus lowercase olio on a steady baseline; balanced Fo, ol, li and io spacing",
+    "font_reference": null
+  },
+  "palette": {
+    "swatches": [
+      {"hex": "#A76148", "role": "compact paper-layer symbol only; muted clay adds a material-related warmth without tinting the canvas"},
+      {"hex": "#333B39", "role": "all exact Folio lettering; graphite carries the principal small-header reading"},
+      {"hex": "#FFFFFF", "role": "assistant-selected opaque white exterior across every corner and margin, plus the open paper-fold interval"}
+    ],
+    "constraints": {"locked_hex": [], "allowed_hex": null, "max_colors": null, "required_hex": [], "allow_gradients": false},
+    "source": "assistant",
+    "source_evidence": {"notes": ["All foreground and background choices are assistant proposals within the user's delegation; no external provider or sampled palette.", "A white flat master was deliberately chosen for header and label uses; no print, font-file or vector delivery is claimed."]},
+    "selected_by": "assistant",
+    "rationale": "Clay stays in the small material-inspired symbol while graphite gives the name a steady reading. White keeps the original contour visible and supports a contemporary everyday-stationery character without introducing a vintage paper backdrop."
+  },
+  "decision_rationale_ko": ["흔한 노트 외곽선을 그리지 않고 종이 면 두 개가 어긋나는 외곽과 짧은 틈으로 소재를 암시했습니다.", "이름이 먼저 읽히도록 심볼을 F 높이 정도로 억제하고 중간 굵기의 낮은 획대비 글자를 배치했습니다.", "작은 심볼에 흙빛을, 이름에 흑연색을 배정했습니다. 위임받은 배경은 헤더와 라벨에서 형태를 확인하기 쉬운 순백색으로 선택했습니다."],
+  "inspect_risks": ["The fold gesture may collapse into a generic page, flag or stacked-square glyph.", "An oversized symbol may reduce the name's legibility at 180px lockup width.", "Fine typography or ornamental serifs may shift the tone toward a luxury hotel or vintage stationery."]
+}

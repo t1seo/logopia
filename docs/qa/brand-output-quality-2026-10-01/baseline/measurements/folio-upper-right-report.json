@@ -1,0 +1,719 @@
+{
+  "schema_version": 2,
+  "id": "baseline-folio",
+  "revision": 4,
+  "created_at": "2026-10-01T10:04:47.330919Z",
+  "updated_at": "2026-10-01T10:07:52.240824Z",
+  "brief": {
+    "brand_name": "Folio",
+    "exact_text": "Folio",
+    "industry": "Independent stationery and notebook products",
+    "audience": "Adult professionals and creators who enjoy organizing thoughts on paper",
+    "slogan": "",
+    "logo_type": "combination",
+    "styles": [
+      "editorial",
+      "minimal",
+      "approachable",
+      "flat"
+    ],
+    "palette": [
+      "#9B473C",
+      "#2C2927",
+      "#EDE4D5"
+    ],
+    "forbidden": [
+      "stock notebook or pen clip art",
+      "basic glyph icon",
+      "extra lettering",
+      "excessively vintage or luxury-hotel styling"
+    ],
+    "use_cases": [
+      "180px-wide online-shop header lockup",
+      "notebook packaging label"
+    ],
+    "assumptions": [
+      "Fictional matched comparison brief; one concept requested; assistant chooses colors within the stated background request"
+    ],
+    "lockup": {
+      "layout": "horizontal",
+      "symbol_position": "start",
+      "text_alignment": "start",
+      "typography_style": "Calm humanist sans-serif, moderate weight, open counters, optical F-o and l-i spacing; symbol approximately the lettering cap-height, with a clear half-cap-height gap",
+      "font_reference": null
+    },
+    "background": "opaque",
+    "concept_count": 1
+  },
+  "artifacts": [
+    {
+      "id": "a-v1",
+      "path": "artifacts/a-v1.png",
+      "sha256": "812c55ff460c9231d6c5d7f97bea751539284501679c738d738411870b71a3be",
+      "image": {
+        "format": "PNG",
+        "width": 1665,
+        "height": 945,
+        "alpha_min": 255,
+        "alpha_max": 255,
+        "transparent_pixels": 0,
+        "visible_pixels": 1573425
+      },
+      "prompt": "Create one combination logo for Folio. Exact text (copy verbatim, no other words): 'Folio'. Exact slogan: ''.\nRender only the supplied exact text and nonempty slogan; the brand context is not additional lettering. Empty strings request no corresponding text.\nIndustry: Independent stationery and notebook products. Audience: Adult professionals and creators who enjoy organizing thoughts on paper.\nStyles: editorial, minimal, approachable, flat. Original brief palette context: #9B473C, #2C2927, #EDE4D5.\nAvoid: stock notebook or pen clip art, basic glyph icon, extra lettering, excessively vintage or luxury-hotel styling. Use cases: 180px-wide online-shop header lockup, notebook packaging label.\nBackground: opaque. Produce a real PNG raster image. Use clean, readable shapes at small sizes; leave safe margins. Do not draw a transparency checkerboard, mockup, watermarks, or a concept grid.\nConcept direction: An independent notebook brand makes everyday thought feel considered: form a compact original paper-layer gesture from two offset edges and one deliberate open fold, with a coherent corner family and useful interior space. Place that small symbol to the left of the exact Folio name, using calm humanist sans-serif lettering, moderate weight, open counters and optical spacing around F-o and l-i. Give the symbol roughly the cap-height of the name and a clear gap of about half that height. Apply muted editorial red #9B473C to the symbol, charcoal #2C2927 to the name and paper #EDE4D5 to the opaque exterior canvas, following the current editorial-craft color suggestion. Keep the mark flat and the layout airy, without notebook/pen clip art, a container badge or physical mockup. At 180px lockup width the fold and exact name should stay readable. Risk to inspect: the paper gesture may become a generic book glyph or the pale surface may feel overly vintage.. Assumptions: Fictional matched comparison brief; one concept requested; assistant chooses colors within the stated background request.\nLogo construction: Make a combination mark with a distinct symbol and the supplied exact text. Use the concept for the symbol subject and the effective lockup, when supplied, for arrangement and typeface appearance. Balance the symbol's visual weight with the lettering, keep a clear symbol-to-text gap and open letter counters, and include a slogan only when supplied. An icon alone is not this lockup. Use style references for broad construction traits, not their brand words or traced signature shapes. The identity should remain recognizable in a one-color silhouette at the intended use size. This construction check does not replace the requested palette or request an extra monochrome image.\nEffective structured palette intent (authoritative over historical palette): {\"swatches\":[{\"hex\":\"#9B473C\",\"role\":\"paper-layer symbol\"},{\"hex\":\"#2C2927\",\"role\":\"exact Folio lettering\"},{\"hex\":\"#EDE4D5\",\"role\":\"assistant-chosen opaque paper exterior canvas\"}],\"constraints\":{\"locked_hex\":[],\"allowed_hex\":null,\"max_colors\":null,\"required_hex\":[],\"allow_gradients\":false},\"source\":\"assistant\",\"source_evidence\":{\"reference_id\":null,\"reference_sha256\":null,\"provider\":null,\"tool\":null,\"response\":null,\"notes\":[\"Uses the existing Editorial craft primary, lettering and paper suggestion for a stationery brand. The user delegated the opaque surface choice. These are proposed values, not sampled colors.\"]},\"selected_by\":\"assistant\",\"rationale\":\"The existing guide suggests muted red, charcoal and paper for editorial craft; apply them to symbol, readable name and calm stationery surface, then inspect for unwanted vintage appearance.\",\"calculation_version\":\"logo-color-v1\",\"id\":\"advisory-v1\",\"parent_palette_id\":null,\"digest\":\"2b99d35e682589d38c146f51daaad9bcbe16df9e8561120b94462f7c15256f62\"}. Keep locked and required HEX values exactly in intent; use the declared roles and allowed colors/count. Opaque backgrounds count as visible design colors; transparent pixels do not. No gradients unless allowed. Raster fidelity is measured after generation, never promised as exact pixels.\nEffective symbol-plus-text lockup: {\"layout\":\"horizontal\",\"symbol_position\":\"start\",\"text_alignment\":\"start\",\"typography_style\":\"Calm humanist sans-serif, moderate weight, open counters, optical F-o and l-i spacing; symbol approximately the lettering cap-height, with a clear half-cap-height gap\",\"font_reference\":null}. Horizontal start/end means symbol left/right of text; stacked start/end means symbol above/below text. For edits, latest requested changes take precedence; preserve unrequested parent lettering instead of restoring historical strings. Font reference is a requested visual direction, not proof of an installed or licensed font file.\nLettering fidelity: preserve every Unicode character, capitalization, punctuation, space and reading order in the applicable text. Keep Hangul syllable blocks intact; do not translate, romanize, abbreviate or substitute lookalike glyphs. Shape changes must keep required text readable, including counters and joins at the intended size.\n",
+      "parent_id": null,
+      "created_at": "2026-10-01T10:07:16.131985Z",
+      "requested_background": "opaque",
+      "palette_id": "advisory-v1",
+      "lockup": {
+        "layout": "horizontal",
+        "symbol_position": "start",
+        "text_alignment": "start",
+        "typography_style": "Calm humanist sans-serif, moderate weight, open counters, optical F-o and l-i spacing; symbol approximately the lettering cap-height, with a clear half-cap-height gap",
+        "font_reference": null
+      },
+      "review": null,
+      "reviewed_at": null
+    }
+  ],
+  "selected_id": null,
+  "failures": [],
+  "exports": [],
+  "palettes": [
+    {
+      "swatches": [
+        {
+          "hex": "#9B473C",
+          "role": "paper-layer symbol"
+        },
+        {
+          "hex": "#2C2927",
+          "role": "exact Folio lettering"
+        },
+        {
+          "hex": "#EDE4D5",
+          "role": "assistant-chosen opaque paper exterior canvas"
+        }
+      ],
+      "constraints": {
+        "locked_hex": [],
+        "allowed_hex": null,
+        "max_colors": null,
+        "required_hex": [],
+        "allow_gradients": false
+      },
+      "source": "assistant",
+      "source_evidence": {
+        "reference_id": null,
+        "reference_sha256": null,
+        "provider": null,
+        "tool": null,
+        "response": null,
+        "notes": [
+          "Uses the existing Editorial craft primary, lettering and paper suggestion for a stationery brand. The user delegated the opaque surface choice. These are proposed values, not sampled colors."
+        ]
+      },
+      "selected_by": "assistant",
+      "rationale": "The existing guide suggests muted red, charcoal and paper for editorial craft; apply them to symbol, readable name and calm stationery surface, then inspect for unwanted vintage appearance.",
+      "calculation_version": "logo-color-v1",
+      "id": "advisory-v1",
+      "parent_palette_id": null,
+      "digest": "2b99d35e682589d38c146f51daaad9bcbe16df9e8561120b94462f7c15256f62"
+    }
+  ],
+  "active_palette_id": "advisory-v1",
+  "references": [],
+  "color_reports": [
+    {
+      "id": "report-bdd5b9545d4248419208f8df085c060f",
+      "artifact_id": "a-v1",
+      "artifact_sha256": "812c55ff460c9231d6c5d7f97bea751539284501679c738d738411870b71a3be",
+      "palette_id": "advisory-v1",
+      "palette_digest": "2b99d35e682589d38c146f51daaad9bcbe16df9e8561120b94462f7c15256f62",
+      "analysis_policy": "logo-color-v1",
+      "color_engine_version": "8.12.1",
+      "pillow_version": "12.3.0",
+      "profile_treatment": "assumed_srgb",
+      "sampling": {
+        "width": 1665,
+        "height": 945,
+        "roi": null,
+        "scope": "full_image",
+        "coordinate_policy": "grid_128_pixel_centers",
+        "sampled_positions": 16384,
+        "sampled_fraction": 0.010412952635174857,
+        "visible_samples": 16384,
+        "core_samples": 16384,
+        "partial_alpha_samples": 0
+      },
+      "status": "pass",
+      "reasons": [],
+      "measured_swatches": [
+        {
+          "hex": "#ECE3D3",
+          "samples": 5654,
+          "share": 0.3450927734375
+        },
+        {
+          "hex": "#EBE2D2",
+          "samples": 3717,
+          "share": 0.22686767578125
+        },
+        {
+          "hex": "#EBE3D3",
+          "samples": 1962,
+          "share": 0.1197509765625
+        },
+        {
+          "hex": "#ECE2D2",
+          "samples": 1754,
+          "share": 0.1070556640625
+        },
+        {
+          "hex": "#734F46",
+          "samples": 1489,
+          "share": 0.09088134765625
+        },
+        {
+          "hex": "#ECE3D2",
+          "samples": 1212,
+          "share": 0.073974609375
+        },
+        {
+          "hex": "#EDE5D5",
+          "samples": 442,
+          "share": 0.0269775390625
+        },
+        {
+          "hex": "#EAE2D2",
+          "samples": 154,
+          "share": 0.0093994140625
+        }
+      ],
+      "targets": [
+        {
+          "hex": "#9B473C",
+          "matching_samples": 703,
+          "share": 0.04290771484375,
+          "mean_delta_e": 2.3852457202588684,
+          "max_delta_e": 3.7581805837419826
+        },
+        {
+          "hex": "#2C2927",
+          "matching_samples": 731,
+          "share": 0.04461669921875,
+          "mean_delta_e": 1.8499242538747316,
+          "max_delta_e": 4.825853348256923
+        },
+        {
+          "hex": "#EDE4D5",
+          "matching_samples": 14845,
+          "share": 0.90606689453125,
+          "mean_delta_e": 0.631340835579762,
+          "max_delta_e": 4.971681088860979
+        }
+      ],
+      "matched_fraction": 0.99359130859375,
+      "unmatched_fraction": 0.00640869140625,
+      "observed_colors": 3,
+      "minor_swatches": [],
+      "contrasts": [
+        {
+          "foreground": "#ECE3D3",
+          "surface": "#FFFFFF",
+          "ratio": 1.2731199951263859,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE3D3",
+          "surface": "#171717",
+          "ratio": 14.08181500695687,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EBE2D2",
+          "surface": "#FFFFFF",
+          "ratio": 1.2850578052869657,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EBE2D2",
+          "surface": "#171717",
+          "ratio": 13.950999075114867,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE3D2",
+          "surface": "#FFFFFF",
+          "ratio": 1.2738922904652819,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE3D2",
+          "surface": "#171717",
+          "ratio": 14.073277927193951,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EBE3D3",
+          "surface": "#FFFFFF",
+          "ratio": 1.275760950339099,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EBE3D3",
+          "surface": "#171717",
+          "ratio": 14.05266421445362,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EBE2D3",
+          "surface": "#FFFFFF",
+          "ratio": 1.2842719166398087,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EBE2D3",
+          "surface": "#171717",
+          "ratio": 13.959536154877785,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE2D2",
+          "surface": "#FFFFFF",
+          "ratio": 1.2823782593742734,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE2D2",
+          "surface": "#171717",
+          "ratio": 13.980149867618117,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EBE3D2",
+          "surface": "#FFFFFF",
+          "ratio": 1.2765364540700896,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EBE3D2",
+          "surface": "#171717",
+          "ratio": 14.044127134690703,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE2D3",
+          "surface": "#FFFFFF",
+          "ratio": 1.2815956437129399,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE2D3",
+          "surface": "#171717",
+          "ratio": 13.988686947381034,
+          "alpha": 1.0
+        }
+      ],
+      "delta_e_threshold": 5.0,
+      "created_at": "2026-10-01T10:07:16.288233Z"
+    },
+    {
+      "id": "report-14623d7c77af433f837f6693a2c38a25",
+      "artifact_id": "a-v1",
+      "artifact_sha256": "812c55ff460c9231d6c5d7f97bea751539284501679c738d738411870b71a3be",
+      "palette_id": "advisory-v1",
+      "palette_digest": "2b99d35e682589d38c146f51daaad9bcbe16df9e8561120b94462f7c15256f62",
+      "analysis_policy": "logo-color-v1",
+      "color_engine_version": "8.12.1",
+      "pillow_version": "12.3.0",
+      "profile_treatment": "assumed_srgb",
+      "sampling": {
+        "width": 1665,
+        "height": 945,
+        "roi": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        "scope": "roi",
+        "coordinate_policy": "all_pixels",
+        "sampled_positions": 256,
+        "sampled_fraction": 1.0,
+        "visible_samples": 256,
+        "core_samples": 256,
+        "partial_alpha_samples": 0
+      },
+      "status": "pass",
+      "reasons": [],
+      "measured_swatches": [
+        {
+          "hex": "#EBE2D2",
+          "samples": 80,
+          "share": 0.3125
+        },
+        {
+          "hex": "#ECE3D3",
+          "samples": 76,
+          "share": 0.296875
+        },
+        {
+          "hex": "#EBE3D3",
+          "samples": 48,
+          "share": 0.1875
+        },
+        {
+          "hex": "#ECE2D2",
+          "samples": 29,
+          "share": 0.11328125
+        },
+        {
+          "hex": "#EAE2D2",
+          "samples": 9,
+          "share": 0.03515625
+        },
+        {
+          "hex": "#EDE3D3",
+          "samples": 9,
+          "share": 0.03515625
+        },
+        {
+          "hex": "#ECE4D3",
+          "samples": 4,
+          "share": 0.015625
+        },
+        {
+          "hex": "#EBE1D2",
+          "samples": 1,
+          "share": 0.00390625
+        }
+      ],
+      "targets": [
+        {
+          "hex": "#9B473C",
+          "matching_samples": 0,
+          "share": 0.0,
+          "mean_delta_e": null,
+          "max_delta_e": null
+        },
+        {
+          "hex": "#2C2927",
+          "matching_samples": 0,
+          "share": 0.0,
+          "mean_delta_e": null,
+          "max_delta_e": null
+        },
+        {
+          "hex": "#EDE4D5",
+          "matching_samples": 256,
+          "share": 1.0,
+          "mean_delta_e": 0.6346785410119833,
+          "max_delta_e": 1.4927252525465469
+        }
+      ],
+      "matched_fraction": 1.0,
+      "unmatched_fraction": 0.0,
+      "observed_colors": 1,
+      "minor_swatches": [],
+      "contrasts": [
+        {
+          "foreground": "#ECE3D3",
+          "surface": "#FFFFFF",
+          "ratio": 1.2731199951263859,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE3D3",
+          "surface": "#171717",
+          "ratio": 14.08181500695687,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EBE2D2",
+          "surface": "#FFFFFF",
+          "ratio": 1.2850578052869657,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EBE2D2",
+          "surface": "#171717",
+          "ratio": 13.950999075114867,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EBE2D3",
+          "surface": "#FFFFFF",
+          "ratio": 1.2842719166398087,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EBE2D3",
+          "surface": "#171717",
+          "ratio": 13.959536154877785,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EBE3D3",
+          "surface": "#FFFFFF",
+          "ratio": 1.275760950339099,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EBE3D3",
+          "surface": "#171717",
+          "ratio": 14.05266421445362,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE2D2",
+          "surface": "#FFFFFF",
+          "ratio": 1.2823782593742734,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE2D2",
+          "surface": "#171717",
+          "ratio": 13.980149867618117,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE3D2",
+          "surface": "#FFFFFF",
+          "ratio": 1.2738922904652819,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE3D2",
+          "surface": "#171717",
+          "ratio": 14.073277927193951,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EBE3D2",
+          "surface": "#FFFFFF",
+          "ratio": 1.2765364540700896,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EBE3D2",
+          "surface": "#171717",
+          "ratio": 14.044127134690703,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE2D3",
+          "surface": "#FFFFFF",
+          "ratio": 1.2815956437129399,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE2D3",
+          "surface": "#171717",
+          "ratio": 13.988686947381034,
+          "alpha": 1.0
+        }
+      ],
+      "delta_e_threshold": 5.0,
+      "created_at": "2026-10-01T10:07:51.814283Z"
+    },
+    {
+      "id": "report-ae8511e212dd4ebbbfeb869227697b06",
+      "artifact_id": "a-v1",
+      "artifact_sha256": "812c55ff460c9231d6c5d7f97bea751539284501679c738d738411870b71a3be",
+      "palette_id": "advisory-v1",
+      "palette_digest": "2b99d35e682589d38c146f51daaad9bcbe16df9e8561120b94462f7c15256f62",
+      "analysis_policy": "logo-color-v1",
+      "color_engine_version": "8.12.1",
+      "pillow_version": "12.3.0",
+      "profile_treatment": "assumed_srgb",
+      "sampling": {
+        "width": 1665,
+        "height": 945,
+        "roi": {
+          "x": 1649,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        "scope": "roi",
+        "coordinate_policy": "all_pixels",
+        "sampled_positions": 256,
+        "sampled_fraction": 1.0,
+        "visible_samples": 256,
+        "core_samples": 256,
+        "partial_alpha_samples": 0
+      },
+      "status": "pass",
+      "reasons": [],
+      "measured_swatches": [
+        {
+          "hex": "#EDE4D4",
+          "samples": 81,
+          "share": 0.31640625
+        },
+        {
+          "hex": "#ECE3D3",
+          "samples": 52,
+          "share": 0.203125
+        },
+        {
+          "hex": "#ECE3D4",
+          "samples": 45,
+          "share": 0.17578125
+        },
+        {
+          "hex": "#ECE4D3",
+          "samples": 34,
+          "share": 0.1328125
+        },
+        {
+          "hex": "#EDE3D4",
+          "samples": 26,
+          "share": 0.1015625
+        },
+        {
+          "hex": "#EBE3D3",
+          "samples": 9,
+          "share": 0.03515625
+        },
+        {
+          "hex": "#EBE2D3",
+          "samples": 6,
+          "share": 0.0234375
+        },
+        {
+          "hex": "#EEE5D4",
+          "samples": 3,
+          "share": 0.01171875
+        }
+      ],
+      "targets": [
+        {
+          "hex": "#9B473C",
+          "matching_samples": 0,
+          "share": 0.0,
+          "mean_delta_e": null,
+          "max_delta_e": null
+        },
+        {
+          "hex": "#2C2927",
+          "matching_samples": 0,
+          "share": 0.0,
+          "mean_delta_e": null,
+          "max_delta_e": null
+        },
+        {
+          "hex": "#EDE4D5",
+          "matching_samples": 256,
+          "share": 1.0,
+          "mean_delta_e": 0.5586214481194044,
+          "max_delta_e": 1.662056072508167
+        }
+      ],
+      "matched_fraction": 1.0,
+      "unmatched_fraction": 0.0,
+      "observed_colors": 1,
+      "minor_swatches": [],
+      "contrasts": [
+        {
+          "foreground": "#ECE3D3",
+          "surface": "#FFFFFF",
+          "ratio": 1.2731199951263859,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE3D3",
+          "surface": "#171717",
+          "ratio": 14.08181500695687,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EDE4D4",
+          "surface": "#FFFFFF",
+          "ratio": 1.261334539396921,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EDE4D4",
+          "surface": "#171717",
+          "ratio": 14.213390415519259,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE3D4",
+          "surface": "#FFFFFF",
+          "ratio": 1.2723438245594314,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE3D4",
+          "surface": "#171717",
+          "ratio": 14.090405366045918,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EDE4D3",
+          "surface": "#FFFFFF",
+          "ratio": 1.2620973320150357,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EDE4D3",
+          "surface": "#171717",
+          "ratio": 14.20480005643021,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE4D3",
+          "surface": "#FFFFFF",
+          "ratio": 1.2647073114068144,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE4D3",
+          "surface": "#171717",
+          "ratio": 14.175485577833278,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EDE3D4",
+          "surface": "#FFFFFF",
+          "ratio": 1.2697022639460926,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EDE3D4",
+          "surface": "#171717",
+          "ratio": 14.11971984464285,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EDE3D3",
+          "surface": "#FFFFFF",
+          "ratio": 1.2704752140061597,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#EDE3D3",
+          "surface": "#171717",
+          "ratio": 14.111129485553802,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE4D4",
+          "surface": "#FFFFFF",
+          "ratio": 1.2639413616194723,
+          "alpha": 1.0
+        },
+        {
+          "foreground": "#ECE4D4",
+          "surface": "#171717",
+          "ratio": 14.184075936922325,
+          "alpha": 1.0
+        }
+      ],
+      "delta_e_threshold": 5.0,
+      "created_at": "2026-10-01T10:07:52.240519Z"
+    }
+  ]
+}

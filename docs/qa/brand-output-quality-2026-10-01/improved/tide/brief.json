@@ -1,0 +1,50 @@
+{
+  "brand_name": "TIDE",
+  "exact_text": "",
+  "industry": "Team scheduling and shift coordination SaaS",
+  "audience": "Operations coordinators and teammates in teams of 5–30 people",
+  "slogan": "",
+  "logo_type": "abstract",
+  "lockup": null,
+  "styles": [
+    "abstract",
+    "substantial soft-cornered forms",
+    "calm",
+    "flexible",
+    "flat"
+  ],
+  "palette": [
+    "#364A9F",
+    "#6591C4",
+    "#FFFFFF"
+  ],
+  "forbidden": [
+    "lettering or initials",
+    "literal waves",
+    "clock",
+    "calendar",
+    "infinity sign"
+  ],
+  "use_cases": [
+    "32px web-app sidebar symbol",
+    "service landing page"
+  ],
+  "assumptions": [
+    "The 32px symbol is the primary stress case; the landing page may display the same master larger.",
+    "Two unequal but related solid forms are the proposed visual interpretation of the supplied handoff direction."
+  ],
+  "background": "opaque",
+  "concept_count": 1,
+  "brand_strategy": {
+    "positioning": "A scheduling and shift-coordination service for operations coordinators and teammates in teams of 5–30 people.",
+    "audience_need": "Recognize a dependable shared place for arranging availability and handing work to the next person, even in a 32px sidebar.",
+    "brand_promise": "Coordination that feels steady and accommodating; this is an intended identity, not a claim of proven product performance.",
+    "distinctive_principle": "Two offset substantial forms share one open joining interval. Soft corners and an uneven length rhythm make the handoff feel flexible while preserving a clear small silhouette; no literal wave or loop.",
+    "typography": "No lettering, initials, digits or slogan. The two shapes alone carry the identity, including in the sidebar.",
+    "color_roles": "Deep blue-violet #364A9F leads in the upper-left form; supporting blue #6591C4 fills the lower-right form. Pure white #FFFFFF is the open joining interval and the entire opaque exterior.",
+    "assumptions": [
+      "The 32px symbol is the primary stress case; the landing page may display the same master larger.",
+      "Two unequal but related solid forms are the proposed visual interpretation of the supplied handoff direction."
+    ]
+  }
+}

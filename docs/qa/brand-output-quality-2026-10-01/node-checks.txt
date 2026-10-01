@@ -1,0 +1,24 @@
+✔ PIN: initialized controls filter kind and style, count empty matches, and reset after defaults (6.033208ms)
+✔ PIN: values restored before script evaluation initialize a consistent view (1.224709ms)
+✔ Back restores Brand logo after initialization; pageshow persisted=false keeps one card (3.160291ms)
+✔ Back restores Brand logo after initialization; pageshow persisted=true keeps one card (1.279916ms)
+✔ Two history cycles restore kind/style intersection, empty state, count, and preview settings (1.588667ms)
+✔ History restoration updates every preview and surround without changing selected values (0.758834ms)
+﹣ actual Chrome offline comparison, feedback, original bytes and recovery (0.44575ms) # Set LOGOPIA_GALLERY_QA_ROOT to isolated task-local playwright-core tooling
+﹣ actual Chrome delivery ZIP bytes, selected PNG, guide and immutable snapshot (0.583625ms) # Set LOGOPIA_GALLERY_QA_ROOT to owned task-local Playwright tooling
+✔ revision draft binds exact identity and verbatim notes without changing snapshot (6.194042ms)
+✔ choice draft has an empty change and does not approve review (2.406125ms)
+✔ blank revision, unknown candidate, unsupported action and long notes fail (0.598833ms)
+✔ instruction-like text remains literal JSON content (0.217833ms)
+✔ stored feedback restores only the exact snapshot and candidate digest (0.994792ms)
+✔ clipboard rejection yields the full draft for manual copying (0.276208ms)
+✔ clipboard success reports exact transferred bytes (0.147542ms)
+﹣ actual native long strategy stays compact with complete keyboard disclosure (0.483625ms) # Requires owned Playwright tooling and read-only OFFCUT sample
+ℹ tests 16
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 3
+ℹ todo 0
+ℹ duration_ms 100.12325

@@ -1,0 +1,97 @@
+{
+  "schema_version": 2,
+  "id": "baseline-folio",
+  "revision": 1,
+  "created_at": "2026-10-01T10:04:47.330919Z",
+  "updated_at": "2026-10-01T10:04:48.323771Z",
+  "brief": {
+    "brand_name": "Folio",
+    "exact_text": "Folio",
+    "industry": "Independent stationery and notebook products",
+    "audience": "Adult professionals and creators who enjoy organizing thoughts on paper",
+    "slogan": "",
+    "logo_type": "combination",
+    "styles": [
+      "editorial",
+      "minimal",
+      "approachable",
+      "flat"
+    ],
+    "palette": [
+      "#9B473C",
+      "#2C2927",
+      "#EDE4D5"
+    ],
+    "forbidden": [
+      "stock notebook or pen clip art",
+      "basic glyph icon",
+      "extra lettering",
+      "excessively vintage or luxury-hotel styling"
+    ],
+    "use_cases": [
+      "180px-wide online-shop header lockup",
+      "notebook packaging label"
+    ],
+    "assumptions": [
+      "Fictional matched comparison brief; one concept requested; assistant chooses colors within the stated background request"
+    ],
+    "lockup": {
+      "layout": "horizontal",
+      "symbol_position": "start",
+      "text_alignment": "start",
+      "typography_style": "Calm humanist sans-serif, moderate weight, open counters, optical F-o and l-i spacing; symbol approximately the lettering cap-height, with a clear half-cap-height gap",
+      "font_reference": null
+    },
+    "background": "opaque",
+    "concept_count": 1
+  },
+  "artifacts": [],
+  "selected_id": null,
+  "failures": [],
+  "exports": [],
+  "palettes": [
+    {
+      "swatches": [
+        {
+          "hex": "#9B473C",
+          "role": "paper-layer symbol"
+        },
+        {
+          "hex": "#2C2927",
+          "role": "exact Folio lettering"
+        },
+        {
+          "hex": "#EDE4D5",
+          "role": "assistant-chosen opaque paper exterior canvas"
+        }
+      ],
+      "constraints": {
+        "locked_hex": [],
+        "allowed_hex": null,
+        "max_colors": null,
+        "required_hex": [],
+        "allow_gradients": false
+      },
+      "source": "assistant",
+      "source_evidence": {
+        "reference_id": null,
+        "reference_sha256": null,
+        "provider": null,
+        "tool": null,
+        "response": null,
+        "notes": [
+          "Uses the existing Editorial craft primary, lettering and paper suggestion for a stationery brand. The user delegated the opaque surface choice. These are proposed values, not sampled colors."
+        ]
+      },
+      "selected_by": "assistant",
+      "rationale": "The existing guide suggests muted red, charcoal and paper for editorial craft; apply them to symbol, readable name and calm stationery surface, then inspect for unwanted vintage appearance.",
+      "calculation_version": "logo-color-v1",
+      "id": "advisory-v1",
+      "parent_palette_id": null,
+      "digest": "2b99d35e682589d38c146f51daaad9bcbe16df9e8561120b94462f7c15256f62"
+    }
+  ],
+  "active_palette_id": "advisory-v1",
+  "references": [],
+  "color_reports": []
+}

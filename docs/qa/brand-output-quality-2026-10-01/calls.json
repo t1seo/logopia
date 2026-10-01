@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-01",
+  "predeclared_call_limit": 6,
+  "completed_calls": 6,
+  "failed_calls": 0,
+  "rerolls": 0,
+  "edits": 0,
+  "comparison": "whole workflow bundle; no fixed seed/model controls exposed; not a causal estimate",
+  "calls": [
+    {
+      "id": "baseline-tide",
+      "arm": "baseline",
+      "case": "tide",
+      "source_receipt": "<codex-home>/generated_images/01a0f6db-a608-7fd1-9a63-c2cd2ecf8066/exec-364c4c20-ea77-48c5-9747-a516fa1176a4.png",
+      "output": "originals/baseline-tide.png",
+      "prompt_file": "baseline/prompts/tide.txt",
+      "provider": "image_gen__imagegen",
+      "status": "returned",
+      "parameters_exposed": [
+        "prompt"
+      ],
+      "model": "unreported",
+      "seed": "unreported",
+      "sampling_settings": "unreported",
+      "edit": false
+    },
+    {
+      "id": "baseline-moa",
+      "arm": "baseline",
+      "case": "moa",
+      "source_receipt": "<codex-home>/generated_images/01a0f6db-a608-7fd1-9a63-c2cd2ecf8066/exec-b5b38043-27f4-46d4-ba51-196cae368599.png",
+      "output": "originals/baseline-moa.png",
+      "prompt_file": "baseline/prompts/moa.txt",
+      "provider": "image_gen__imagegen",
+      "status": "returned",
+      "parameters_exposed": [
+        "prompt"
+      ],
+      "model": "unreported",
+      "seed": "unreported",
+      "sampling_settings": "unreported",
+      "edit": false
+    },
+    {
+      "id": "baseline-folio",
+      "arm": "baseline",
+      "case": "folio",
+      "source_receipt": "<codex-home>/generated_images/01a0f6db-a608-7fd1-9a63-c2cd2ecf8066/exec-139f2f42-d472-42a1-9c77-d63eff51b72e.png",
+      "output": "originals/baseline-folio.png",
+      "prompt_file": "baseline/prompts/folio.txt",
+      "provider": "image_gen__imagegen",
+      "status": "returned",
+      "parameters_exposed": [
+        "prompt"
+      ],
+      "model": "unreported",
+      "seed": "unreported",
+      "sampling_settings": "unreported",
+      "edit": false
+    },
+    {
+      "id": "improved-tide",
+      "arm": "improved",
+      "case": "tide",
+      "source_receipt": "<codex-home>/generated_images/01a0f6db-a608-7fd1-9a63-c2cd2ecf8066/exec-8e27c78e-6110-47e1-ae78-b70a9ed6172d.png",
+      "output": "originals/improved-tide.png",
+      "prompt_file": "improved/tide/prompt.txt",
+      "provider": "image_gen__imagegen",
+      "status": "returned",
+      "parameters_exposed": [
+        "prompt"
+      ],
+      "model": "unreported",
+      "seed": "unreported",
+      "sampling_settings": "unreported",
+      "edit": false
+    },
+    {
+      "id": "improved-moa",
+      "arm": "improved",
+      "case": "moa",
+      "source_receipt": "<codex-home>/generated_images/01a0f6db-a608-7fd1-9a63-c2cd2ecf8066/exec-1a0694ae-135b-4f80-9b95-119fbfe7e504.png",
+      "output": "originals/improved-moa.png",
+      "prompt_file": "improved/moa/prompt.txt",
+      "provider": "image_gen__imagegen",
+      "status": "returned",
+      "parameters_exposed": [
+        "prompt"
+      ],
+      "model": "unreported",
+      "seed": "unreported",
+      "sampling_settings": "unreported",
+      "edit": false
+    },
+    {
+      "id": "improved-folio",
+      "arm": "improved",
+      "case": "folio",
+      "source_receipt": "<codex-home>/generated_images/01a0f6db-a608-7fd1-9a63-c2cd2ecf8066/exec-36e5e56f-cda1-4d1a-acb9-d291f7fdb4e5.png",
+      "output": "originals/improved-folio.png",
+      "prompt_file": "improved/folio/prompt.txt",
+      "provider": "image_gen__imagegen",
+      "status": "returned",
+      "parameters_exposed": [
+        "prompt"
+      ],
+      "model": "unreported",
+      "seed": "unreported",
+      "sampling_settings": "unreported",
+      "edit": false
+    }
+  ]
+}
